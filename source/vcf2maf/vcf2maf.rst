@@ -46,3 +46,7 @@ To run vcf2maf on our clusters::
 
     module --force purge
     ml biocontainers vcf2maf
+<<<<<<< HEAD
+
+=======
+>>>>>>> c6da941f688db250c92ddde17bb514a3508297a7

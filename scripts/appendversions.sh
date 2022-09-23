@@ -5,8 +5,7 @@
 # Warning: Will not work unless name is exact match with both biocontainer and .rst documentation file 
 # Verify biocontainer input and documentation output paths before running
 
-# sourcefolder="/home/$USER/svn/Purdue-RCAC-Biocontainer/source/"
-sourcefolder="/home/$USER/svn/Purdue-RCAC-Biocontainer/source/"
+sourcefolder="/home/$USER/svn/Biocontainers/source/"
 containernamesarray=`ls $sourcefolder`
 
 for containername in $containernamesarray
@@ -14,7 +13,6 @@ do
     inputfolder="/opt/spack/modulefiles/biocontainers/$containername/"
     echo "input folder: "$inputfolder
 
-    # outputfile="/home/$USER/svn/Purdue-RCAC-Biocontainer/source/$containername/$containername.rst"
     outputfile="/home/$USER/svn/Biocontainers/source/$containername/$containername.rst"
 
     echo "~~~~~~~~" > tempfile.rst

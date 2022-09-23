@@ -8,6 +8,7 @@
 
 # Generate documentation for missing files using listofmissingfiles.txt
 readarray -t listofmissingfiles < listofmissingfiles.txt
+repo_path="$HOME/svn/Biocontainers"
 
 for filename in ${listofmissingfiles[@]}; do
    echo $filename
@@ -25,13 +26,21 @@ for filename in ${listofmissingfiles[@]}; do
    containername=$(echo $inputpath | awk -F/ '{print $6}')
 
    # outputfile="$containername.rst"
+<<<<<<< HEAD
+   outputfile="$repo_path/source/$containername/$containername.rst"
+=======
    #outputfile="/home/$USER/biocontainer_doc/source/$containername/$containername.rst"
    outputfile="/home/zhan4429/svn/Biocontainers/source/$containername/$containername.rst"
+>>>>>>> c6da941f688db250c92ddde17bb514a3508297a7
    echo "output file: "$outputfile
 
    inputpathcontent=$(<$inputpath)  
 
+<<<<<<< HEAD
+   mkdir -p $repo_path/source/$containername
+=======
    mkdir -p /home/$USER/svn/Biocontainers/source/$containername
+>>>>>>> c6da941f688db250c92ddde17bb514a3508297a7
 
    echo ".. _backbone-label:" > $outputfile
    echo "" >> $outputfile
@@ -92,8 +101,8 @@ done
 
 # Update index.rst using names of files in source folder
 
-sourcefolder="/home/$USER/svn/Purdue-RCAC-Biocontainer/source/"
-indexfile="/home/$USER/svn/Purdue-RCAC-Biocontainer/index.rst"
+sourcefolder="$repo_path/source/"
+indexfile="$repo_path/index.rst"
 
 filenamesarray=`ls $sourcefolder`
 

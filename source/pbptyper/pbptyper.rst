@@ -44,3 +44,7 @@ To run pbptyper on our clusters::
 
     module --force purge
     ml biocontainers pbptyper
+<<<<<<< HEAD
+
+=======
+>>>>>>> c6da941f688db250c92ddde17bb514a3508297a7

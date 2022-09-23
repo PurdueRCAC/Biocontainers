@@ -45,3 +45,4 @@ To run sprod on our clusters::
 
     module --force purge
     ml biocontainers sprod
+
