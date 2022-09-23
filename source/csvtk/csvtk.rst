@@ -10,6 +10,7 @@ Introduction
 Versions
 ~~~~~~~~
 - 0.23.0
+- 0.25.0
 
 Commands
 ~~~~~~~

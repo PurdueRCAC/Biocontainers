@@ -26,12 +26,12 @@ for filename in ${listofmissingfiles[@]}; do
 
    # outputfile="$containername.rst"
    #outputfile="/home/$USER/biocontainer_doc/source/$containername/$containername.rst"
-   outputfile="/home/zhan4429/svn/Purdue-RCAC-Biocontainer/source/$containername/$containername.rst"
+   outputfile="/home/zhan4429/svn/Biocontainers/source/$containername/$containername.rst"
    echo "output file: "$outputfile
 
    inputpathcontent=$(<$inputpath)  
 
-   mkdir -p /home/$USER/svn/Purdue-RCAC-Biocontainer/source/$containername
+   mkdir -p /home/$USER/svn/Biocontainers/source/$containername
 
    echo ".. _backbone-label:" > $outputfile
    echo "" >> $outputfile
