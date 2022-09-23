@@ -12,7 +12,7 @@ Home page: https://github.com/brentp/bwa-meth
 
 Versions
 ~~~~~~~~
-- 0.2.4
+- 0.2.5
 
 Commands
 ~~~~~~~

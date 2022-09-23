@@ -15,7 +15,7 @@ do
     echo "input folder: "$inputfolder
 
     # outputfile="/home/$USER/svn/Purdue-RCAC-Biocontainer/source/$containername/$containername.rst"
-    outputfile="/home/$USER/svn/Purdue-RCAC-Biocontainer/source/$containername/$containername.rst"
+    outputfile="/home/$USER/svn/Biocontainers/source/$containername/$containername.rst"
 
     echo "~~~~~~~~" > tempfile.rst
     filenamesarray=`ls $inputfolder*.lua`
