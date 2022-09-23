@@ -44,3 +44,20 @@ To run ananse on our clusters::
 
     module --force purge
     ml biocontainers ananse
+
+    mkdir -p ANANSE.REMAP.model.v1.0
+    wget https://zenodo.org/record/4768075/files/ANANSE.REMAP.model.v1.0.tgz
+    tar xvzf ANANSE.REMAP.model.v1.0.tgz -C ANANSE.REMAP.model.v1.0
+    rm ANANSE.REMAP.model.v1.0.tgz
+
+    wget https://zenodo.org/record/4769814/files/ANANSE_example_data.tgz
+    tar xvzf ANANSE_example_data.tgz
+    rm ANANSE_example_data.tgz
+
+    ananse binding -H ANANSE_example_data/H3K27ac/fibroblast*bam -A ANANSE_example_data/ATAC/fibroblast*bam -R ANANSE.REMAP.model.v1.0/ -o fibroblast.binding
+    ananse binding -H ANANSE_example_data/H3K27ac/heart*bam -A ANANSE_example_data/ATAC/heart*bam -R ANANSE.REMAP.model.v1.0/ -o heart.binding
+
+    ananse network -b  fibroblast.binding/binding.h5 -e ANANSE_example_data/RNAseq/fibroblast*TPM.txt -n 4 -o fibroblast.network.txt
+    ananse network -b  heart.binding/binding.h5 -e ANANSE_example_data/RNAseq/heart*TPM.txt -n 4 -o heart.network.txt
+
+    ananse influence -s fibroblast.network.txt -t heart.network.txt -d ANANSE_example_data/RNAseq/fibroblast2heart_degenes.csv -p -o fibroblast2heart.influence.txt

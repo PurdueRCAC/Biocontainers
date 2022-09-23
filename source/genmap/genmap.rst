@@ -44,3 +44,7 @@ To run genmap on our clusters::
 
     module --force purge
     ml biocontainers genmap
+  
+    export TMPDIR=$PWD/tmp
+    genmap index -F ~/.local/share/genomes/hg38/hg38.fa  -I hg38_index
+    genmap map -K 64 -E 2 -I hg38_index -O map_output_hg38 -t -w -bg

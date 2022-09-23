@@ -44,3 +44,6 @@ To run merqury on our clusters::
 
     module --force purge
     ml biocontainers merqury
+
+    merqury.sh F1.k18.meryl col0.hapmer.meryl cvi0.hapmer.meryl \
+        athal_COL.fasta athal_CVI.fasta test

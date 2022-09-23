@@ -46,3 +46,5 @@ To run abismal on our clusters::
 
     module --force purge
     ml biocontainers abismal
+    
+    abismalidx  ~/.local/share/genomes/hg38/hg38.fa hg38

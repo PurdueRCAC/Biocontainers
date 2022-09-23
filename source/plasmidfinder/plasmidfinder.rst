@@ -44,3 +44,6 @@ To run plasmidfinder on our clusters::
 
     module --force purge
     ml biocontainers plasmidfinder
+
+    plasmidfinder.py -p test/database \
+        -i test/test.fsa -o output -mp blastn -x -q

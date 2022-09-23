@@ -45,3 +45,6 @@ To run gimmemotifs on our clusters::
 
     module --force purge
     ml biocontainers gimmemotifs
+ 
+    gimme motifs ENCFF407IVS.bed ENCFF407IVS_motifs \
+        -g ~/.local/share/genomes/hg38/hg38.fa --denovo

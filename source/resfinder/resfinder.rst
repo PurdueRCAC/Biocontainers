@@ -44,3 +44,8 @@ To run resfinder on our clusters::
 
     module --force purge
     ml biocontainers resfinder
+
+    run_resfinder.py -o output -db_res db_resfinder/ \
+         -db_res_kma db_resfinder/kma_indexing -db_point db_pointfinder/ \
+         -s "Escherichia coli" --acquired --point -ifq data/test_isolate_01_*
+

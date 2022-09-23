@@ -46,3 +46,7 @@ To run pygenometracks on our clusters::
     module --force purge
     ml biocontainers pygenometracks
 
+    make_tracks_file --trackFiles domains.bed bigwig.bw -o tracks.ini
+
+    pyGenomeTracks --tracks tracks.ini \
+       --region chr2:10,000,000-11,000,000 --outFileName nice_image.pdf

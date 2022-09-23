@@ -44,3 +44,5 @@ To run pbptyper on our clusters::
 
     module --force purge
     ml biocontainers pbptyper
+
+    pbptyper --assembly test/SRR2912551.fna.gz --outdir output

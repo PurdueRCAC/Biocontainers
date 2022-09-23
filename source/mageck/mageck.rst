@@ -47,3 +47,10 @@ To run mageck on our clusters::
     module --force purge
     ml biocontainers mageck
 
+
+    mageck count -l library.txt -n demo \
+         --sample-label L1,CTRL \
+         --fastq test1.fastq test2.fastq
+  
+    mageck test -k demo.count.txt \
+         -t L1 -c CTRL -n demo

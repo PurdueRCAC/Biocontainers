@@ -32,6 +32,9 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
+.. note::
+    If users need to use ``vep``, please add ``--vep-path /opt/conda/bin``. 
+
 To run vcf2maf on our clusters::
 
     #!/bin/bash
@@ -46,3 +49,7 @@ To run vcf2maf on our clusters::
 
     module --force purge
     ml biocontainers vcf2maf
+
+    vcf2maf.pl --vep-path /opt/conda/bin \
+        --ref-fasta Homo_sapiens.GRCh37.dna.toplevel.fa.gz \
+        --input-vcf tests/test.vcf --output-maf test.vep.maf

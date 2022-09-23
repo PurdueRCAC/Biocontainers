@@ -44,3 +44,5 @@ To run gambit on our clusters::
 
     module --force purge
     ml biocontainers gambit
+
+    gambit -d database query -o results.csv *.fasta
