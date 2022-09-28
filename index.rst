@@ -58,6 +58,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/antismash/antismash
    source/anvio/anvio
    source/any2fasta/any2fasta
+   source/arcs/arcs
    source/asgal/asgal
    source/assembly-stats/assembly-stats
    source/atac-seq-pipeline/atac-seq-pipeline
@@ -124,11 +125,14 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/chewbbaca/chewbbaca
    source/chromap/chromap
    source/cicero/cicero
+   source/circexplorer2/circexplorer2
    source/circlator/circlator
+   source/circompara2/circompara2
    source/circos/circos
    source/ciriquant/ciriquant
    source/clair3/clair3
    source/clairvoyante/clairvoyante
+   source/clearcnv/clearcnv
    source/clever-toolkit/clever-toolkit
    source/clustalw/clustalw
    source/cnvkit/cnvkit
@@ -255,6 +259,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/ldsc/ldsc
    source/liftoff/liftoff
    source/lima/lima
+   source/links/links
    source/lofreq/lofreq
    source/longqc/longqc
    source/lra/lra
@@ -295,6 +300,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/miniasm/miniasm
    source/minimap2/minimap2
    source/minipolish/minipolish
+   source/miniprot/miniprot
    source/mirdeep2/mirdeep2
    source/mirtop/mirtop
    source/mitofinder/mitofinder
@@ -379,6 +385,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/racon/racon
    source/ragout/ragout
    source/ragtag/ragtag
+   source/rapmap/rapmap
    source/rasusa/rasusa
    source/raven-assembler/raven-assembler
    source/raxml/raxml

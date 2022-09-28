@@ -26,21 +26,12 @@ for filename in ${listofmissingfiles[@]}; do
    containername=$(echo $inputpath | awk -F/ '{print $6}')
 
    # outputfile="$containername.rst"
-<<<<<<< HEAD
    outputfile="$repo_path/source/$containername/$containername.rst"
-=======
-   #outputfile="/home/$USER/biocontainer_doc/source/$containername/$containername.rst"
-   outputfile="/home/zhan4429/svn/Biocontainers/source/$containername/$containername.rst"
->>>>>>> c6da941f688db250c92ddde17bb514a3508297a7
    echo "output file: "$outputfile
 
    inputpathcontent=$(<$inputpath)  
 
-<<<<<<< HEAD
    mkdir -p $repo_path/source/$containername
-=======
-   mkdir -p /home/$USER/svn/Biocontainers/source/$containername
->>>>>>> c6da941f688db250c92ddde17bb514a3508297a7
 
    echo ".. _backbone-label:" > $outputfile
    echo "" >> $outputfile
