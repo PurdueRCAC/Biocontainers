@@ -5,7 +5,8 @@ Platypus
 
 Introduction
 ~~~~~~~~
-``Platypus`` is a tool designed for efficient and accurate variant-detection in high-throughput sequencing data. | For more information, please check its website: https://biocontainers.pro/tools/platypus and its home page: https://www.well.ox.ac.uk/research/research-groups/lunter-group/lunter-group/platypus-a-haplotype-based-variant-caller-for-next-generation-sequence-data.
+``Platypus`` is a tool designed for efficient and accurate variant-detection in high-throughput sequencing data. 
+| For more information, please check its website: https://biocontainers.pro/tools/platypus and its home page: https://www.well.ox.ac.uk/research/research-groups/lunter-group/lunter-group/platypus-a-haplotype-based-variant-caller-for-next-generation-sequence-data.
 
 Versions
 ~~~~~~~~

@@ -6,6 +6,7 @@ Ldsc
 Introduction
 ~~~~~~~~
 ldsc is a command line tool for estimating heritability and genetic correlation from GWAS summary statistics.
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/ldsc 
 | Home page: https://github.com/bulik/ldsc

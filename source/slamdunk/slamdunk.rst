@@ -6,6 +6,7 @@ Slamdunk
 Introduction
 ~~~~~~~~
 Slamdunk is a novel, fully automated software tool for automated, robust, scalable and reproducible SLAMseq data analysis.
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/tobneu/slamdunk 
 | Home page: http://t-neumann.github.io/slamdunk/

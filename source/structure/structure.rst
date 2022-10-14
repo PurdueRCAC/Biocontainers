@@ -6,6 +6,7 @@ Structure
 Introduction
 ~~~~~~~~
 Structure is a software package for using multi-locus genotype data to investigate population structure.
+
 | For more information, please check:
 | Home page: https://web.stanford.edu/group/pritchardlab/structure.html
 

@@ -5,7 +5,8 @@ Edta
 
 Introduction
 ~~~~~~~~
-``Edta`` is is developed for automated whole-genome de-novo TE annotation and benchmarking the annotation performance of TE libraries. | For more information, please check its website: https://biocontainers.pro/tools/edta and its home page on `Github`_.
+``Edta`` is is developed for automated whole-genome de-novo TE annotation and benchmarking the annotation performance of TE libraries. 
+| For more information, please check its website: https://biocontainers.pro/tools/edta and its home page on `Github`_.
 
 Note: Running EDTA, please use the command like this:
         EDTA.pl [OPTIONS]

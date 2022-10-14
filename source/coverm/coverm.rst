@@ -5,7 +5,8 @@ Coverm
 
 Introduction
 ~~~~~~~~
-``Coverm`` is a configurable, easy to use and fast DNA read coverage and relative abundance calculator focused on metagenomics applications. | For more information, please check its website: https://biocontainers.pro/tools/coverm and its home page on `Github`_.
+``Coverm`` is a configurable, easy to use and fast DNA read coverage and relative abundance calculator focused on metagenomics applications. 
+| For more information, please check its website: https://biocontainers.pro/tools/coverm and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

@@ -5,7 +5,8 @@ Htslib
 
 Introduction
 ~~~~~~~~
-``Htslib`` is a C library for high-throughput sequencing data formats. | For more information, please check its website: https://biocontainers.pro/tools/htslib and its home page on `Github`_.
+``Htslib`` is a C library for high-throughput sequencing data formats. 
+| For more information, please check its website: https://biocontainers.pro/tools/htslib and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

@@ -5,7 +5,8 @@ Bustools
 
 Introduction
 ~~~~~~~~
-``Bustools`` is a program for manipulating BUS files for single cell RNA-Seq datasets. | For more information, please check its website: https://biocontainers.pro/tools/bustools and its home page on `Github`_.
+``Bustools`` is a program for manipulating BUS files for single cell RNA-Seq datasets. 
+| For more information, please check its website: https://biocontainers.pro/tools/bustools and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

@@ -5,7 +5,8 @@ Rseqc
 
 Introduction
 ~~~~~~~~
-``Rseqc`` is a package provides a number of useful modules that can comprehensively evaluate high throughput sequence data especially RNA-seq data. | For more information, please check its website: https://biocontainers.pro/tools/rseqc and its home page: http://rseqc.sourceforge.net.
+``Rseqc`` is a package provides a number of useful modules that can comprehensively evaluate high throughput sequence data especially RNA-seq data. 
+| For more information, please check its website: https://biocontainers.pro/tools/rseqc and its home page: http://rseqc.sourceforge.net.
 
 Versions
 ~~~~~~~~

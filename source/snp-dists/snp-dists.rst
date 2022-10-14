@@ -6,6 +6,7 @@ Snp-dists
 Introduction
 ~~~~~~~~
 Snp-dists is a tool to convert a FASTA alignment to SNP distance matrix.
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/staphb/snp-dists 
 | Home page: https://github.com/tseemann/snp-dists

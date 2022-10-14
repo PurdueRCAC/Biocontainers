@@ -5,7 +5,8 @@ Htstream
 
 Introduction
 ~~~~~~~~
-``Htstream`` is a quality control and processing pipeline for High Throughput Sequencing data. | For more information, please check its website: https://biocontainers.pro/tools/htstream and its home page on `Github`_.
+``Htstream`` is a quality control and processing pipeline for High Throughput Sequencing data. 
+| For more information, please check its website: https://biocontainers.pro/tools/htstream and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

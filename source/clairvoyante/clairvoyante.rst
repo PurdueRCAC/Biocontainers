@@ -6,6 +6,7 @@ Clairvoyante
 Introduction
 ~~~~~~~~
 Clairvoyante is a deep neural network based variant caller.
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/lifebitai/clairvoyante 
 | Home page: https://github.com/aquaskyline/Clairvoyante

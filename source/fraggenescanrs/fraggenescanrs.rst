@@ -6,6 +6,7 @@ Fraggenescanrs
 Introduction
 ~~~~~~~~
 FragGeneScanRs is a better and faster Rust implementation of the FragGeneScan gene prediction model for short and error-prone reads. Its command line interface is backward compatible and adds extra features for more flexible usage. Compared to the original C implementation, shotgun metagenomic reads are processed up to 22 times faster using a single thread, with better scaling for multithreaded execution.
+
 | For more information, please check:
 | Home page: https://github.com/unipept/FragGeneScanRs
 

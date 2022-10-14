@@ -6,6 +6,7 @@ Lyveset
 Introduction
 ~~~~~~~~
 Lyveset is a method of using hqSNPs to create a phylogeny, especially for outbreak investigations.
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/staphb/lyveset 
 | Home page: https://github.com/lskatz/lyve-SET

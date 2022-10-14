@@ -5,7 +5,8 @@ miRDeep2
 
 Introduction
 ~~~~~~~~
-``miRDeep2`` discovers active known or novel miRNAs from deep sequencing data (Solexa/Illumina, 454, ...). | For more information, please check its website: https://biocontainers.pro/tools/mirdeep2 and its home page on `Github`_.
+``miRDeep2`` discovers active known or novel miRNAs from deep sequencing data (Solexa/Illumina, 454, ...). 
+| For more information, please check its website: https://biocontainers.pro/tools/mirdeep2 and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

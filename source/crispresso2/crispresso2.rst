@@ -6,6 +6,7 @@ Crispresso2
 Introduction
 ~~~~~~~~
 CRISPResso2 is a software pipeline designed to enable rapid and intuitive interpretation of genome editing experiments.
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/pinellolab/crispresso2 
 | Home page: https://github.com/pinellolab/CRISPResso2

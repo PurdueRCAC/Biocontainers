@@ -5,7 +5,8 @@ Anvio
 
 Introduction
 ~~~~~~~~
-``Anvio`` is an analysis and visualization platform for 'omics data. | For more information, please check its website: https://biocontainers.pro/tools/anvio and its home page on `Github`_.
+``Anvio`` is an analysis and visualization platform for 'omics data. 
+| For more information, please check its website: https://biocontainers.pro/tools/anvio and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

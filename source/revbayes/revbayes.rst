@@ -6,6 +6,7 @@ Revbayes
 Introduction
 ~~~~~~~~
 RevBayes -- Bayesian phylogenetic inference using probabilistic graphical models and an interactive language.
+
 | For more information, please check:
 | Home page: https://github.com/revbayes/revbayes
 

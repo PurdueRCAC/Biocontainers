@@ -6,6 +6,7 @@ Kma
 Introduction
 ~~~~~~~~
 KMA is a mapping method designed to map raw reads directly against redundant databases, in an ultra-fast manner using seed and extend.
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/kma 
 | Home page: https://bitbucket.org/genomicepidemiology/kma/src/master/

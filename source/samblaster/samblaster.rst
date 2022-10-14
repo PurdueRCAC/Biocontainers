@@ -5,7 +5,8 @@ Samblaster
 
 Introduction
 ~~~~~~~~
-``Samblaster`` is a tool to mark duplicates and extract discordant and split reads from sam files. | For more information, please check its website: https://biocontainers.pro/tools/samblaster and its home page on `Github`_.
+``Samblaster`` is a tool to mark duplicates and extract discordant and split reads from sam files. 
+| For more information, please check its website: https://biocontainers.pro/tools/samblaster and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

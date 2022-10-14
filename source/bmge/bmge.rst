@@ -5,7 +5,8 @@ Bmge
 
 Introduction
 ~~~~~~~~
-``Bmge`` is a program that selects regions in a multiple sequence alignment that are suited for phylogenetic inference. | For more information, please check its website: https://biocontainers.pro/tools/bmge and its home page: https://bioweb.pasteur.fr/packages/pack@BMGE@1.12.
+``Bmge`` is a program that selects regions in a multiple sequence alignment that are suited for phylogenetic inference. 
+| For more information, please check its website: https://biocontainers.pro/tools/bmge and its home page: https://bioweb.pasteur.fr/packages/pack@BMGE@1.12.
 
 Versions
 ~~~~~~~~

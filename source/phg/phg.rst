@@ -6,6 +6,7 @@ Phg
 Introduction
 ~~~~~~~~
 Practical Haplotype Graph (PHG) is a general, graph-based, computational framework that can be used with a variety of skim sequencing methods to infer high-density genotypes directly from low-coverage sequence.
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/maizegenetics/phg 
 | Home page: https://www.maizegenetics.net/phg

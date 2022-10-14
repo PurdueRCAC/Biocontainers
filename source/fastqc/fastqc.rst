@@ -5,7 +5,8 @@ FastQC
 
 Introduction
 ~~~~~~~~
-``FastQC`` aims to provide a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis. | For more information, please check its website: https://biocontainers.pro/tools/fastqc and its home page: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/.
+``FastQC`` aims to provide a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis. 
+| For more information, please check its website: https://biocontainers.pro/tools/fastqc and its home page: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/.
 
 Versions
 ~~~~~~~~

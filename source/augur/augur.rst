@@ -5,7 +5,8 @@ Augur
 
 Introduction
 ~~~~~~~~
-``Augur`` is the bioinformatics toolkit we use to track evolution from sequence and serological data. | For more information, please check its website: https://biocontainers.pro/tools/augur and its home page on `Github`_.
+``Augur`` is the bioinformatics toolkit we use to track evolution from sequence and serological data. 
+| For more information, please check its website: https://biocontainers.pro/tools/augur and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

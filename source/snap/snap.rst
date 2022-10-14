@@ -5,7 +5,8 @@ Snap
 
 Introduction
 ~~~~~~~~
-``Snap`` is a semi-HMM-based Nucleic Acid Parser -- gene prediction tool. | For more information, please check its website: https://biocontainers.pro/tools/snap and its home page: http://korflab.ucdavis.edu/software.html.
+``Snap`` is a semi-HMM-based Nucleic Acid Parser -- gene prediction tool. 
+| For more information, please check its website: https://biocontainers.pro/tools/snap and its home page: http://korflab.ucdavis.edu/software.html.
 
 Versions
 ~~~~~~~~

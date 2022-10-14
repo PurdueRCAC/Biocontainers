@@ -5,7 +5,8 @@ Control-freec
 
 Introduction
 ~~~~~~~~
-``Control-freec`` is a tool for detection of copy-number changes and allelic imbalances (including LOH) using deep-sequencing data. | For more information, please check its website: https://biocontainers.pro/tools/control-freec and its home page on `Github`_.
+``Control-freec`` is a tool for detection of copy-number changes and allelic imbalances (including LOH) using deep-sequencing data. 
+| For more information, please check its website: https://biocontainers.pro/tools/control-freec and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

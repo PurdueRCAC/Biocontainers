@@ -5,7 +5,8 @@ MAFFT
 
 Introduction
 ~~~~~~~~
-``MAFFT`` is a multiple alignment program for amino acid or nucleotide sequences. | For more information, please check its website: https://biocontainers.pro/tools/mafft and its home page: https://mafft.cbrc.jp/alignment/software/.
+``MAFFT`` is a multiple alignment program for amino acid or nucleotide sequences. 
+| For more information, please check its website: https://biocontainers.pro/tools/mafft and its home page: https://mafft.cbrc.jp/alignment/software/.
 
 Versions
 ~~~~~~~~

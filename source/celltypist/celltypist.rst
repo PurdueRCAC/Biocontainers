@@ -5,7 +5,8 @@ Celltypist
 
 Introduction
 ~~~~~~~~
-``Celltypist`` is a tool for semi-automatic cell type annotation. | For more information, please check its website: https://biocontainers.pro/tools/celltypist and its home page on `Github`_.
+``Celltypist`` is a tool for semi-automatic cell type annotation. 
+| For more information, please check its website: https://biocontainers.pro/tools/celltypist and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

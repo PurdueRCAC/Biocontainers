@@ -5,7 +5,8 @@ Meryl
 
 Introduction
 ~~~~~~~~
-``Meryl`` is a genomic k-mer counter (and sequence utility) with nice features. | For more information, please check its website: https://biocontainers.pro/tools/meryl and its home page on `Github`_.
+``Meryl`` is a genomic k-mer counter (and sequence utility) with nice features. 
+| For more information, please check its website: https://biocontainers.pro/tools/meryl and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

@@ -6,6 +6,7 @@ Methyldackel
 Introduction
 ~~~~~~~~
 MethylDackel (formerly named PileOMeth, which was a temporary name derived due to it using a PILEup to extract METHylation metrics) will process a coordinate-sorted and indexed BAM or CRAM file containing some form of BS-seq alignments and extract per-base methylation metrics from them. MethylDackel requires an indexed fasta file containing the reference genome as well.
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/methyldackel 
 | Home page: https://github.com/dpryan79/MethylDackel

@@ -5,7 +5,8 @@ Meme
 
 Introduction
 ~~~~~~~~
-``Meme`` is a collection of tools for the discovery and analysis of sequence motifs. | For more information, please check its website: https://biocontainers.pro/tools/meme and its home page: https://meme-suite.org/meme/.
+``Meme`` is a collection of tools for the discovery and analysis of sequence motifs. 
+| For more information, please check its website: https://biocontainers.pro/tools/meme and its home page: https://meme-suite.org/meme/.
 
 Versions
 ~~~~~~~~

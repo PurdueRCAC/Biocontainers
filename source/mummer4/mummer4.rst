@@ -5,7 +5,8 @@ Mummer4
 
 Introduction
 ~~~~~~~~
-``Mummer4`` is a versatile alignment tool for DNA and protein sequences. | For more information, please check its website: https://biocontainers.pro/tools/mummer4 and its home page on `Github`_.
+``Mummer4`` is a versatile alignment tool for DNA and protein sequences. 
+| For more information, please check its website: https://biocontainers.pro/tools/mummer4 and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

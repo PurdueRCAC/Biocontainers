@@ -6,6 +6,7 @@ Syri
 Introduction
 ~~~~~~~~
 Syri compares alignments between two chromosome-level assemblies and identifies synteny and structural rearrangements.
+
 | For more information, please check:
 | Home page: https://github.com/schneebergerlab/syri
 

@@ -6,6 +6,7 @@ Mykrobe
 Introduction
 ~~~~~~~~
 Mykrobe analyses the whole genome of a bacterial sample, all within a couple of minutes, and predicts which drugs the infection is resistant to.
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/staphb/mykrobe 
 | Home page: https://github.com/Mykrobe-tools/mykrobe

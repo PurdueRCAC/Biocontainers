@@ -6,6 +6,7 @@ Whatshap
 Introduction
 ~~~~~~~~
 Whatshap is a software for phasing genomic variants using DNA sequencing reads, also called read-based phasing or haplotype assembly. It is especially suitable for long reads, but works also well with short reads.
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/whatshap 
 | Home page: https://github.com/whatshap/whatshap

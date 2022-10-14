@@ -9,6 +9,7 @@ Introduction
 
 This is a plain R-base installation (see https://github.com/rocker-org/rocker/) repackaged by RCAC with an addition of a handful prerequisite libraries (libcurl, libopenssl, libxml2, libcairo2 and libXt) and their header files. 
 
+
 | For more information, please check its | Docker hub: https://hub.docker.com/_/r-base and its home page: https://www.r-project.org/.
 
 Versions

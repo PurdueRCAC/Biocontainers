@@ -6,6 +6,7 @@ Arcs
 Introduction
 ~~~~~~~~
 ARCS is a tool for scaffolding genome sequence assemblies using linked or long read sequencing data.
+
 | For more information, please check:
 | Home page: https://github.com/bcgsc/arcs
 

@@ -5,7 +5,8 @@ Spaceranger
 
 Introduction
 ~~~~~~~~
-``Spaceranger`` is a set of analysis pipelines that process Visium Spatial Gene Expression data with brightfield and fluorescence microscope images. | For more information, please check its | Docker hub: https://hub.docker.com/r/cumulusprod/spaceranger/tags and its home page: https://support.10xgenomics.com/spatial-gene-expression/software/pipelines/latest/what-is-space-ranger.
+``Spaceranger`` is a set of analysis pipelines that process Visium Spatial Gene Expression data with brightfield and fluorescence microscope images. 
+| For more information, please check its | Docker hub: https://hub.docker.com/r/cumulusprod/spaceranger/tags and its home page: https://support.10xgenomics.com/spatial-gene-expression/software/pipelines/latest/what-is-space-ranger.
 
 Versions
 ~~~~~~~~

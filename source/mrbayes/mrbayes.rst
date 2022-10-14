@@ -11,6 +11,7 @@ MrBayes is available both in a serial version ('mb') and in a parallel version (
 
 Note: 'mb-mpi' in this version of the container does not run across multiple nodes (only within a node). This is a bug in the container (upstream).
 
+
 | For more information, please check its website: https://biocontainers.pro/tools/mrbayes and its home page: http://mrbayes.net.
 
 Versions

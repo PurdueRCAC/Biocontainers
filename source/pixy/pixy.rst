@@ -6,6 +6,7 @@ Pixy
 Introduction
 ~~~~~~~~
 pixy is a command-line tool for painlessly estimating average nucleotide diversity within (π) and between (dxy) populations from a VCF.
+
 | For more information, please check:
 | Home page: https://github.com/ksamuk/pixy
 

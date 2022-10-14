@@ -5,7 +5,8 @@ Csvtk
 
 Introduction
 ~~~~~~~~
-``Csvtk`` is a cross-platform, efficient and practical CSV/TSV toolkit. | For more information, please check its website: https://biocontainers.pro/tools/csvtk and its home page on `Github`_.
+``Csvtk`` is a cross-platform, efficient and practical CSV/TSV toolkit. 
+| For more information, please check its website: https://biocontainers.pro/tools/csvtk and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

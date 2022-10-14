@@ -5,7 +5,8 @@ HUMAnN 3
 
 Introduction
 ~~~~~~~
-``HUMAnN 3.0`` is the next iteration of HUMAnN, the HMP Unified Metabolic Analysis Network. HUMAnN is a method for efficiently and accurately profiling the abundance of microbial metabolic pathways and other molecular functions from metagenomic or metatranscriptomic sequencing data. | For more information please check its website: https://huttenhower.sph.harvard.edu/humann/
+``HUMAnN 3.0`` is the next iteration of HUMAnN, the HMP Unified Metabolic Analysis Network. HUMAnN is a method for efficiently and accurately profiling the abundance of microbial metabolic pathways and other molecular functions from metagenomic or metatranscriptomic sequencing data. 
+| For more information please check its website: https://huttenhower.sph.harvard.edu/humann/
 
 Versions
 ~~~~~~~~

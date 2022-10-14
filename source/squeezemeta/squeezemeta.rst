@@ -6,6 +6,7 @@ Squeezemeta
 Introduction
 ~~~~~~~~
 SqueezeMeta is a fully automated metagenomics pipeline, from reads to bins.
+
 | For more information, please check:
 | Home page: https://github.com/jtamames/SqueezeMeta
 

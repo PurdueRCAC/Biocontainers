@@ -5,7 +5,8 @@ Bcftools
 
 Introduction
 ~~~~~~~~
-``Bcftools`` is a program for variant calling and manipulating files in the Variant Call Format (VCF) and its binary counterpart BCF. | For more information, please check its website: https://biocontainers.pro/tools/bcftools and its home page on `Github`_.
+``Bcftools`` is a program for variant calling and manipulating files in the Variant Call Format (VCF) and its binary counterpart BCF. 
+| For more information, please check its website: https://biocontainers.pro/tools/bcftools and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

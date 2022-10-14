@@ -6,6 +6,7 @@ Gfastats
 Introduction
 ~~~~~~~~
 gfastats is a single fast and exhaustive tool for summary statistics and simultaneous *fa* (fasta, fastq, gfa [.gz]) genome assembly file manipulation. gfastats also allows seamless fasta<>fastq<>gfa[.gz] conversion. It has been tested in genomes even >100Gbp.
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/gfastats 
 | Home page: https://github.com/vgl-hub/gfastats

@@ -5,7 +5,8 @@ Snippy
 
 Introduction
 ~~~~~~~~
-``Snippy`` is a tool for rapid haploid variant calling and core genome alignment. | For more information, please check its | Docker hub: https://hub.docker.com/r/staphb/snippy and its home page on `Github`_.
+``Snippy`` is a tool for rapid haploid variant calling and core genome alignment. 
+| For more information, please check its | Docker hub: https://hub.docker.com/r/staphb/snippy and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

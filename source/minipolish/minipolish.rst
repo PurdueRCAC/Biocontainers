@@ -6,6 +6,7 @@ Minipolish
 Introduction
 ~~~~~~~~
 Minipolish is a tool for Racon polishing of miniasm assemblies.
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/staphb/minipolish 
 | Home page: https://github.com/rrwick/Minipolish

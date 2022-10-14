@@ -6,6 +6,7 @@ Cellphonedb
 Introduction
 ~~~~~~~~
 CellPhoneDB is a publicly available repository of curated receptors, ligands and their interactions.
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/eagleshot/cellphonedb 
 | Home page: https://github.com/Teichlab/cellphonedb

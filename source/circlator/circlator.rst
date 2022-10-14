@@ -5,7 +5,8 @@ Circlator
 
 Introduction
 ~~~~~~~~
-``Circlator`` is a tool to circularize genome assemblies. | For more information, please check its | Docker hub: https://hub.docker.com/r/sangerpathogens/circlator and its home page on `Github`_.
+``Circlator`` is a tool to circularize genome assemblies. 
+| For more information, please check its | Docker hub: https://hub.docker.com/r/sangerpathogens/circlator and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

@@ -6,6 +6,7 @@ Targetp
 Introduction
 ~~~~~~~~
 TargetP-2.0 tool predicts the presence of N-terminal presequences: signal peptide (SP), mitochondrial transit peptide (mTP), chloroplast transit peptide (cTP) or thylakoid luminal transit peptide (luTP). For the sequences predicted to contain an N-terminal presequence a potential cleavage site is also predicted.
+
 | For more information, please check:
 | Home page: https://services.healthtech.dtu.dk/service.php?TargetP-2.0
 

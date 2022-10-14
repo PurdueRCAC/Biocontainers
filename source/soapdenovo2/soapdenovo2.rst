@@ -5,7 +5,8 @@ Soapdenovo2
 
 Introduction
 ~~~~~~~~
-``Soapdenovo2`` is a short-read assembly method to build de novo draft assembly. | For more information, please check its website: https://biocontainers.pro/tools/soapdenovo2 and its home page: http://soap.genomics.org.cn/soapdenovo.html.
+``Soapdenovo2`` is a short-read assembly method to build de novo draft assembly. 
+| For more information, please check its website: https://biocontainers.pro/tools/soapdenovo2 and its home page: http://soap.genomics.org.cn/soapdenovo.html.
 
 Versions
 ~~~~~~~~

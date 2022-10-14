@@ -5,7 +5,8 @@ Abricate
 
 Introduction
 ~~~~~~~~
-``Abricate`` is a tool for mass screening of contigs for antimicrobial resistance or virulence genes. | For more information, please check its website: https://biocontainers.pro/tools/abricate and its home page on `Github`_.
+``Abricate`` is a tool for mass screening of contigs for antimicrobial resistance or virulence genes. 
+| For more information, please check its website: https://biocontainers.pro/tools/abricate and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

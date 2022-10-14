@@ -5,7 +5,8 @@ cross_match
 
 Introduction
 ~~~~~~~~
-``cross_match`` is a general purpose utility for comparing any two DNA sequence sets using a 'banded' version of swat. | For more information, please check its home page: http://www.phrap.org/phredphrapconsed.html#block_phrap.
+``cross_match`` is a general purpose utility for comparing any two DNA sequence sets using a 'banded' version of swat. 
+| For more information, please check its home page: http://www.phrap.org/phredphrapconsed.html#block_phrap.
 
 Versions
 ~~~~~~~~

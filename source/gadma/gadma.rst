@@ -6,6 +6,7 @@ Gadma
 Introduction
 ~~~~~~~~
 GADMA is a command-line tool. Basic pipeline presents a series of launches of the genetic algorithm folowed by local search optimization and infers demographic history from the Allele Frequency Spectrum of multiple populations (up to three).
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/gadma 
 | Home page: https://github.com/ctlab/GADMA

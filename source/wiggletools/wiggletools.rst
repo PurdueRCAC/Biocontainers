@@ -6,6 +6,7 @@ Wiggletools
 Introduction
 ~~~~~~~~
 The WiggleTools package allows genomewide data files to be manipulated as numerical functions, equipped with all the standard functional analysis operators (sum, product, product by a scalar, comparators), and derived statistics (mean, median, variance, stddev, t-test, Wilcoxon's rank sum test, etc).
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/ensemblorg/wiggletools 
 | Home page: https://github.com/Ensembl/WiggleTools

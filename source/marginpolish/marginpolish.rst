@@ -6,6 +6,7 @@ Marginpolish
 Introduction
 ~~~~~~~~
 MarginPolish is a graph-based assembly polisher. It iteratively finds multiple probable alignment paths for run-length-encoded reads and uses these to generate a refined sequence. It takes as input a FASTA assembly and an indexed BAM (ONT reads aligned to the assembly), and it produces a polished FASTA assembly.
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/kishwars/margin_polish 
 | Home page: https://github.com/UCSC-nanopore-cgl/MarginPolish

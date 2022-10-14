@@ -6,6 +6,7 @@ Ltr_finder
 Introduction
 ~~~~~~~~
 LTR_Finder is an efficient program for finding full-length LTR retrotranspsons in genome sequences.
+
 | For more information, please check:
 | Home page: https://github.com/xzhub/LTR_Finder
 

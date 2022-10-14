@@ -5,7 +5,8 @@ Qualimap
 
 Introduction
 ~~~~~~~~
-``Qualimap`` is a platform-independent application written in Java and R that provides both a Graphical User Inteface (GUI) and a command-line interface to facilitate the quality control of alignment sequencing data and its derivatives like feature counts. | For more information, please check its website: https://biocontainers.pro/tools/qualimap and its home page: http://qualimap.conesalab.org.
+``Qualimap`` is a platform-independent application written in Java and R that provides both a Graphical User Inteface (GUI) and a command-line interface to facilitate the quality control of alignment sequencing data and its derivatives like feature counts. 
+| For more information, please check its website: https://biocontainers.pro/tools/qualimap and its home page: http://qualimap.conesalab.org.
 
 Versions
 ~~~~~~~~

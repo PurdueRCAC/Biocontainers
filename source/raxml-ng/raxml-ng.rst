@@ -5,7 +5,8 @@ Raxml-ng
 
 Introduction
 ~~~~~~~~
-``Raxml-ng`` is a phylogenetic tree inference tool which uses maximum-likelihood (ML) optimality criterion. | For more information, please check its website: https://biocontainers.pro/tools/raxml-ng and its home page on `Github`_.
+``Raxml-ng`` is a phylogenetic tree inference tool which uses maximum-likelihood (ML) optimality criterion. 
+| For more information, please check its website: https://biocontainers.pro/tools/raxml-ng and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

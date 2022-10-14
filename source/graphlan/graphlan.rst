@@ -5,7 +5,8 @@ Graphlan
 
 Introduction
 ~~~~~~~~
-``Graphlan`` is a software tool for producing high-quality circular representations of taxonomic and phylogenetic trees. | For more information, please check its website: https://biocontainers.pro/tools/graphlan and its home page: https://huttenhower.sph.harvard.edu/graphlan/.
+``Graphlan`` is a software tool for producing high-quality circular representations of taxonomic and phylogenetic trees. 
+| For more information, please check its website: https://biocontainers.pro/tools/graphlan and its home page: https://huttenhower.sph.harvard.edu/graphlan/.
 
 Versions
 ~~~~~~~~

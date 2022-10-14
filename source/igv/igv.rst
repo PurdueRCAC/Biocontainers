@@ -5,7 +5,8 @@ IGV
 
 Introduction
 ~~~~~~~~
-``IGV`` (Integrative Genomics Viewer) is a high-performance, easy-to-use, interactive tool for the visual exploration of genomic data. | For more information, please check its home page: http://www.broadinstitute.org/software/igv/home.
+``IGV`` (Integrative Genomics Viewer) is a high-performance, easy-to-use, interactive tool for the visual exploration of genomic data. 
+| For more information, please check its home page: http://www.broadinstitute.org/software/igv/home.
 
 Versions
 ~~~~~~~~

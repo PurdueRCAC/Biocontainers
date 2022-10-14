@@ -5,7 +5,8 @@ Hyphy
 
 Introduction
 ~~~~~~~~
-``Hyphy`` is an open-source software package for the analysis of genetic sequences using techniques in phylogenetics, molecular evolution, and machine learning. | For more information, please check its website: https://biocontainers.pro/tools/hyphy and its home page on `Github`_.
+``Hyphy`` is an open-source software package for the analysis of genetic sequences using techniques in phylogenetics, molecular evolution, and machine learning. 
+| For more information, please check its website: https://biocontainers.pro/tools/hyphy and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

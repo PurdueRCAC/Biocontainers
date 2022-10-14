@@ -5,7 +5,8 @@ Ragout
 
 Introduction
 ~~~~~~~~
-``Ragout`` is a tool for chromosome-level scaffolding using multiple references. | For more information, please check its website: https://biocontainers.pro/tools/ragout and its home page on `Github`_.
+``Ragout`` is a tool for chromosome-level scaffolding using multiple references. 
+| For more information, please check its website: https://biocontainers.pro/tools/ragout and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

@@ -6,6 +6,7 @@ Transrate
 Introduction
 ~~~~~~~~
 Transrate is software for de-novo transcriptome assembly quality analysis.
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/arnaudmeng/transrate 
 | Home page: http://hibberdlab.com/transrate/

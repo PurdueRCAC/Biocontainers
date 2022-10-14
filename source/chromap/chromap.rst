@@ -6,6 +6,7 @@ Chromap
 Introduction
 ~~~~~~~~
 Chromap is an ultrafast method for aligning and preprocessing high throughput chromatin profiles.
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/chromap 
 | Home page: https://github.com/haowenz/chromap

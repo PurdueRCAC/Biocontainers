@@ -5,7 +5,8 @@ Simug
 
 Introduction
 ~~~~~~~~
-``Simug`` is a general-purpose genome simulator. | For more information, please check its website: https://biocontainers.pro/tools/simug and its home page on `Github`_.
+``Simug`` is a general-purpose genome simulator. 
+| For more information, please check its website: https://biocontainers.pro/tools/simug and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

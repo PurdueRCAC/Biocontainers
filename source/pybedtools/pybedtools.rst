@@ -5,7 +5,8 @@ Pybedtools
 
 Introduction
 ~~~~~~~~
-``Pybedtools`` wraps and extends BEDTools and offers feature-level manipulations from within Python. | For more information, please check its website: https://biocontainers.pro/tools/pybedtools and its home page on `Github`_.
+``Pybedtools`` wraps and extends BEDTools and offers feature-level manipulations from within Python. 
+| For more information, please check its website: https://biocontainers.pro/tools/pybedtools and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

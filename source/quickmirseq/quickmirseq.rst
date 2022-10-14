@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 ``QuickMIRSeq`` is an integrated pipeline for quick and accurate quantification of known miRNAs and isomiRs by jointly processing multiple samples.
 
+
 | For more information, please check its | Docker hub: https://hub.docker.com/r/gcfntnu/quickmirseq and its home page on `Github`_.
 
 Versions

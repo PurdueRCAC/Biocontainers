@@ -5,7 +5,8 @@ Snaptools
 
 Introduction
 ~~~~~~~~
-``Snaptools`` is a python module for pre-processing and working with snap file. | For more information, please check its website: https://biocontainers.pro/tools/snaptools and its home page on `Github`_.
+``Snaptools`` is a python module for pre-processing and working with snap file. 
+| For more information, please check its website: https://biocontainers.pro/tools/snaptools and its home page on `Github`_.
 
 Versions
 ~~~~~~~~
