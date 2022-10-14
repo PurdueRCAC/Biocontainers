@@ -7,7 +7,7 @@ Introduction
 ~~~~~~~~
 NVIDIA's Clara Parabricks brings next generation sequencing to GPUs, accelerating an array of gold-standard tooling such as BWA-MEM, GATK4, Google's DeepVariant, and many more. Users can achieve a 30-60x acceleration and 99.99% accuracy for variant calling when comparing against CPU-only BWA-GATK4 pipelines, meaning a single server can process up to 60 whole genomes per day. These tools can be easily integrated into current pipelines with drop-in replacement commands to quickly bring speed and data-center scale to a range of applications including germline, somatic and RNA workflows.
 
-For more information, please check: |
+For more information, please check:  
 NGC Container: https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara/containers/clara-parabricks
 Home page:     https://docs.nvidia.com/clara/
 
