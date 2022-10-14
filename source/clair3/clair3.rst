@@ -6,9 +6,9 @@ Clair3
 Introduction
 ~~~~~~~~
 Clair3 is a germline small variant caller for long-reads. Clair3 makes the best of two major method categories: pileup calling handles most variant candidates with speed, and full-alignment tackles complicated candidates to maximize precision and recall. Clair3 runs fast and has superior performance, especially at lower coverage. Clair3 is simple and modular for easy deployment and integration.
-For more information, please check:
-Docker hub: https://hub.docker.com/r/hkubal/clair3 
-Home page: https://github.com/HKU-BAL/Clair3
+|For more information, please check:
+|Docker hub: https://hub.docker.com/r/hkubal/clair3 
+|Home page: https://github.com/HKU-BAL/Clair3
 
 Versions
 ~~~~~~~~

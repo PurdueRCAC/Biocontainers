@@ -5,7 +5,7 @@ Samplot
 
 Introduction
 ~~~~~~~~
-``Samplot`` is a command line tool for rapid, multi-sample structural variant visualization. For more information, please check its website: https://biocontainers.pro/tools/samplot and its home page on `Github`_.
+``Samplot`` is a command line tool for rapid, multi-sample structural variant visualization. |For more information, please check its website: https://biocontainers.pro/tools/samplot and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

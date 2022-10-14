@@ -6,8 +6,8 @@ Genemarks-2
 Introduction
 ~~~~~~~~
 GeneMarkS-2 combines GeneMark.hmm (prokaryotic) and GeneMark (prokaryotic) with a self-training procedure that determines parameters of the models of both GeneMark.hmm and GeneMark.
-For more information, please check:
-The users need to download your own licence key from GeneMark website and copy key "gm_key" into users' home directory as: cp gm_key ~/.gm_key Home page: http://opal.biology.gatech.edu/GeneMark/
+|For more information, please check:
+The users need to download your own licence key from GeneMark website and copy key "gm_key" into users' home directory as: cp gm_key ~/.gm_key |Home page: http://opal.biology.gatech.edu/GeneMark/
 
 Versions
 ~~~~~~~~

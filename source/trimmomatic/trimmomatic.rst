@@ -5,7 +5,7 @@ Trimmomatic
 
 Introduction
 ~~~~~~~~
-``Trimmomatic`` is a flexible read trimming tool for Illumina NGS data. For more information, please check its website: https://biocontainers.pro/tools/trimmomatic and its home page: http://www.usadellab.org/cms/index.php?page=trimmomatic.
+``Trimmomatic`` is a flexible read trimming tool for Illumina NGS data. |For more information, please check its website: https://biocontainers.pro/tools/trimmomatic and its home page: http://www.usadellab.org/cms/index.php?page=trimmomatic.
 
 Versions
 ~~~~~~~~

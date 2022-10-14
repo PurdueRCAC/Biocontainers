@@ -6,9 +6,9 @@ Hail
 Introduction
 ~~~~~~~~
 Hail is an open-source, general-purpose, Python-based data analysis tool with additional data types and methods for working with genomic data.
-For more information, please check:
-Docker hub: https://hub.docker.com/r/hailgenetics/hail 
-Home page: https://github.com/hail-is/hail
+|For more information, please check:
+|Docker hub: https://hub.docker.com/r/hailgenetics/hail 
+|Home page: https://github.com/hail-is/hail
 
 Versions
 ~~~~~~~~

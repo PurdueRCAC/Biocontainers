@@ -5,7 +5,7 @@ Minimap2
 
 Introduction
 ~~~~~~~~
-``Minimap2`` is a versatile pairwise aligner for genomic and spliced nucleotide sequences. For more information, please check its website: https://biocontainers.pro/tools/minimap2 and its home page on `Github`_.
+``Minimap2`` is a versatile pairwise aligner for genomic and spliced nucleotide sequences. |For more information, please check its website: https://biocontainers.pro/tools/minimap2 and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

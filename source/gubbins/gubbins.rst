@@ -5,7 +5,7 @@ Gubbins
 
 Introduction
 ~~~~~~~~
-``Gubbins`` is an algorithm that iteratively identifies loci containing elevated densities of base substitutions while concurrently constructing a phylogeny based on the putative point mutations outside of these regions. For more information, please check its website: https://biocontainers.pro/tools/gubbins and its home page on `Github`_.
+``Gubbins`` is an algorithm that iteratively identifies loci containing elevated densities of base substitutions while concurrently constructing a phylogeny based on the putative point mutations outside of these regions. |For more information, please check its website: https://biocontainers.pro/tools/gubbins and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

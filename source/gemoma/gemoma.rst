@@ -6,9 +6,9 @@ Gemoma
 Introduction
 ~~~~~~~~
 Gene Model Mapper (GeMoMa) is a homology-based gene prediction program. GeMoMa uses the annotation of protein-coding genes in a reference genome to infer the annotation of protein-coding genes in a target genome. Thereby, GeMoMa utilizes amino acid sequence and intron position conservation. In addition, GeMoMa allows to incorporate RNA-seq evidence for splice site prediction.
-For more information, please check:
-BioContainers: https://biocontainers.pro/tools/gemoma 
-Home page: http://www.jstacs.de/index.php/GeMoMa
+|For more information, please check:
+|BioContainers: https://biocontainers.pro/tools/gemoma 
+|Home page: http://www.jstacs.de/index.php/GeMoMa
 
 Versions
 ~~~~~~~~

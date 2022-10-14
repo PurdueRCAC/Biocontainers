@@ -5,7 +5,7 @@ Picrust2
 
 Introduction
 ~~~~~~~~
-``Picrust2`` is a software for predicting functional abundances based only on marker gene sequences. For more information, please check its website: https://biocontainers.pro/tools/picrust2 and its home page on `Github`_.
+``Picrust2`` is a software for predicting functional abundances based only on marker gene sequences. |For more information, please check its website: https://biocontainers.pro/tools/picrust2 and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

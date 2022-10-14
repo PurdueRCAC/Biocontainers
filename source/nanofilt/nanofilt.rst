@@ -5,7 +5,7 @@ Nanofilt
 
 Introduction
 ~~~~~~~~
-``Nanofilt`` is a tool for filtering and trimming of Oxford Nanopore Sequencing data. For more information, please check its website: https://biocontainers.pro/tools/nanofilt and its home page on `Github`_.
+``Nanofilt`` is a tool for filtering and trimming of Oxford Nanopore Sequencing data. |For more information, please check its website: https://biocontainers.pro/tools/nanofilt and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

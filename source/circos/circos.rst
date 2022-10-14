@@ -5,7 +5,7 @@ Circos
 
 Introduction
 ~~~~~~~~
-``Circos`` is a software package for visualizing data and information. For more information, please check its website: https://biocontainers.pro/tools/circos and its home page: http://circos.ca.
+``Circos`` is a software package for visualizing data and information. |For more information, please check its website: https://biocontainers.pro/tools/circos and its home page: http://circos.ca.
 
 Versions
 ~~~~~~~~

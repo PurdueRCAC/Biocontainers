@@ -5,7 +5,7 @@ Instrain
 
 Introduction
 ~~~~~~~~
-``Instrain`` is a python program for analysis of co-occurring genome populations from metagenomes that allows highly accurate genome comparisons, analysis of coverage, microdiversity, and linkage, and sensitive SNP detection with gene localization and synonymous non-synonymous identification. For more information, please check its website: https://biocontainers.pro/tools/instrain and its home page on `Github`_.
+``Instrain`` is a python program for analysis of co-occurring genome populations from metagenomes that allows highly accurate genome comparisons, analysis of coverage, microdiversity, and linkage, and sensitive SNP detection with gene localization and synonymous non-synonymous identification. |For more information, please check its website: https://biocontainers.pro/tools/instrain and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

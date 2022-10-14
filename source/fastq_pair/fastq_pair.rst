@@ -5,7 +5,7 @@ Fastq_pair
 
 Introduction
 ~~~~~~~~
-``Fastq_pair`` is used to match up paired end fastq files quickly and efficiently. For more information, please check its website: https://biocontainers.pro/tools/fastq_pair and its home page on `Github`_.
+``Fastq_pair`` is used to match up paired end fastq files quickly and efficiently. |For more information, please check its website: https://biocontainers.pro/tools/fastq_pair and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

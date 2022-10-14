@@ -5,7 +5,7 @@ Isoseq3
 
 Introduction
 ~~~~~~~~
-``Isoseq3`` - Scalable De Novo Isoform Discovery. For more information, please check its website: https://biocontainers.pro/tools/isoseq3 and its home page on `Github`_.
+``Isoseq3`` - Scalable De Novo Isoform Discovery. |For more information, please check its website: https://biocontainers.pro/tools/isoseq3 and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

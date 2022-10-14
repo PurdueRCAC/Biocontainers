@@ -5,7 +5,7 @@ BEAST 2
 
 Introduction
 ~~~~~~~~
-``BEAST 2`` is a cross-platform program for Bayesian phylogenetic analysis of molecular sequences. For more information, please check its website: https://biocontainers.pro/tools/beast2 and its home page: https://www.beast2.org.
+``BEAST 2`` is a cross-platform program for Bayesian phylogenetic analysis of molecular sequences. |For more information, please check its website: https://biocontainers.pro/tools/beast2 and its home page: https://www.beast2.org.
 
 Versions
 ~~~~~~~~

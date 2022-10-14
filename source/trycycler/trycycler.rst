@@ -6,9 +6,9 @@ Trycycler
 Introduction
 ~~~~~~~~
 Trycycler is a tool for generating consensus long-read assemblies for bacterial genomes. I.e. if you have multiple long-read assemblies for the same isolate, Trycycler can combine them into a single assembly that is better than any of your inputs.
-For more information, please check:
-Docker hub: https://hub.docker.com/r/staphb/trycycler 
-Home page: https://github.com/rrwick/Trycycler
+|For more information, please check:
+|Docker hub: https://hub.docker.com/r/staphb/trycycler 
+|Home page: https://github.com/rrwick/Trycycler
 
 Versions
 ~~~~~~~~

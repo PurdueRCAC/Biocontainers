@@ -5,7 +5,7 @@ FASTX-Toolkit
 
 Introduction
 ~~~~~~~~
-``FASTX-Toolkit`` is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing. For more information, please check its website: https://biocontainers.pro/tools/fastx_toolkit and its home page on `Github`_.
+``FASTX-Toolkit`` is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing. |For more information, please check its website: https://biocontainers.pro/tools/fastx_toolkit and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

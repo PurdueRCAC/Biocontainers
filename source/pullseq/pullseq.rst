@@ -6,9 +6,9 @@ Pullseq
 Introduction
 ~~~~~~~~
 Pullseq is an utility program for extracting sequences from a fasta/fastq file.
-For more information, please check:
-BioContainers: https://biocontainers.pro/tools/pullseq 
-Home page: https://github.com/bcthomas/pullseq
+|For more information, please check:
+|BioContainers: https://biocontainers.pro/tools/pullseq 
+|Home page: https://github.com/bcthomas/pullseq
 
 Versions
 ~~~~~~~~

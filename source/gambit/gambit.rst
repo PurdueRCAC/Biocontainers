@@ -6,9 +6,9 @@ Gambit
 Introduction
 ~~~~~~~~
 GAMBIT (Genomic Approximation Method for Bacterial Identification and Tracking) is a tool for rapid taxonomic identification of microbial pathogens.
-For more information, please check:
-Docker hub: https://hub.docker.com/r/staphb/gambit 
-Home page: https://github.com/jlumpe/gambit
+|For more information, please check:
+|Docker hub: https://hub.docker.com/r/staphb/gambit 
+|Home page: https://github.com/jlumpe/gambit
 
 Versions
 ~~~~~~~~

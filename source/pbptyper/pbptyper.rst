@@ -6,9 +6,9 @@ Pbptyper
 Introduction
 ~~~~~~~~
 pbptyper is a tool to identify the Penicillin Binding Protein (PBP) of Streptococcus pneumoniae assemblies.
-For more information, please check:
-Docker hub: https://hub.docker.com/r/staphb/pbptyper 
-Home page: https://github.com/rpetit3/pbptyper
+|For more information, please check:
+|Docker hub: https://hub.docker.com/r/staphb/pbptyper 
+|Home page: https://github.com/rpetit3/pbptyper
 
 Versions
 ~~~~~~~~

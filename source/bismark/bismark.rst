@@ -5,7 +5,7 @@ Bismark
 
 Introduction
 ~~~~~~~~
-``Bismark`` is a tool to map bisulfite treated sequencing reads to a genome of interest and perform methylation calls in a single step. For more information, please check its website: https://biocontainers.pro/tools/bismark and its home page on `Github`_.
+``Bismark`` is a tool to map bisulfite treated sequencing reads to a genome of interest and perform methylation calls in a single step. |For more information, please check its website: https://biocontainers.pro/tools/bismark and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

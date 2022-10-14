@@ -5,7 +5,7 @@ Jellyfish
 
 Introduction
 ~~~~~~~~
-``Jellyfish`` is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence. For more information, please check its website: https://biocontainers.pro/tools/kmer-jellyfish and its home page: http://www.genome.umd.edu/jellyfish.html.
+``Jellyfish`` is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence. |For more information, please check its website: https://biocontainers.pro/tools/kmer-jellyfish and its home page: http://www.genome.umd.edu/jellyfish.html.
 
 Versions
 ~~~~~~~~

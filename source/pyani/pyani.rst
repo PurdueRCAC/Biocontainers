@@ -5,7 +5,7 @@ Pyani
 
 Introduction
 ~~~~~~~~
-``Pyani`` is an application and Python module for whole-genome classification of microbes using Average Nucleotide Identity. For more information, please check its website: https://biocontainers.pro/tools/pyani and its home page on `Github`_.
+``Pyani`` is an application and Python module for whole-genome classification of microbes using Average Nucleotide Identity. |For more information, please check its website: https://biocontainers.pro/tools/pyani and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

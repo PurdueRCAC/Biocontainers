@@ -6,9 +6,9 @@ Pvactools
 Introduction
 ~~~~~~~~
 pVACtools is a cancer immunotherapy tools suite consisting of pVACseq, pVACbind, pVACfuse, pVACvector, and pVACview.
-For more information, please check:
-Docker hub: https://hub.docker.com/r/griffithlab/pvactools/ 
-Home page: https://pvactools.readthedocs.io/en/latest/
+|For more information, please check:
+|Docker hub: https://hub.docker.com/r/griffithlab/pvactools/ 
+|Home page: https://pvactools.readthedocs.io/en/latest/
 
 Versions
 ~~~~~~~~

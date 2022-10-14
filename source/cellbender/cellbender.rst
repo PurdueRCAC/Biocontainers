@@ -5,7 +5,7 @@ Cellbender
 
 Introduction
 ~~~~~~~~
-``Cellbender`` is a software package for eliminating technical artifacts from high-throughput single-cell RNA sequencing (scRNA-seq) data. For more information, please check its website: https://biocontainers.pro/tools/cellbender and its home page on `Github`_.
+``Cellbender`` is a software package for eliminating technical artifacts from high-throughput single-cell RNA sequencing (scRNA-seq) data. |For more information, please check its website: https://biocontainers.pro/tools/cellbender and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

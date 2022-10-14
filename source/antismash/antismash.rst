@@ -5,7 +5,7 @@ Antismash
 
 Introduction
 ~~~~~~~~
-``Antismash`` Antismash allows the rapid genome-wide identification, annotation and analysis of secondary metabolite biosynthesis gene clusters in bacterial and fungal genomes. For more information, please check its website: https://biocontainers.pro/tools/antismash and its home page: https://docs.antismash.secondarymetabolites.org.
+``Antismash`` Antismash allows the rapid genome-wide identification, annotation and analysis of secondary metabolite biosynthesis gene clusters in bacterial and fungal genomes. |For more information, please check its website: https://biocontainers.pro/tools/antismash and its home page: https://docs.antismash.secondarymetabolites.org.
 
 Versions
 ~~~~~~~~

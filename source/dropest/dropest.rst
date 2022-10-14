@@ -5,7 +5,7 @@ Dropest
 
 Introduction
 ~~~~~~~~
-``Dropest`` is a pipeline for initial analysis of droplet-based single-cell RNA-seq data. For more information, please check its website: https://biocontainers.pro/tools/dropest and its home page on `Github`_.
+``Dropest`` is a pipeline for initial analysis of droplet-based single-cell RNA-seq data. |For more information, please check its website: https://biocontainers.pro/tools/dropest and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

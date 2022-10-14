@@ -5,7 +5,7 @@ Assembly-stats
 
 Introduction
 ~~~~~~~~
-``Assembly-stats`` is a tool to get assembly statistics from FASTA and FASTQ files. For more information, please check its website: https://biocontainers.pro/tools/assembly-stats and its home page on `Github`_.
+``Assembly-stats`` is a tool to get assembly statistics from FASTA and FASTQ files. |For more information, please check its website: https://biocontainers.pro/tools/assembly-stats and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

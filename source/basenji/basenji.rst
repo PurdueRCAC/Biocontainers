@@ -5,7 +5,7 @@ Basenji
 
 Introduction
 ~~~~~~~~
-``Basenji`` is a tool for sequential regulatory activity predictions with deep convolutional neural networks. For more information, please check its website: https://biocontainers.pro/tools/basenji and its home page on `Github`_.
+``Basenji`` is a tool for sequential regulatory activity predictions with deep convolutional neural networks. |For more information, please check its website: https://biocontainers.pro/tools/basenji and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

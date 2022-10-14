@@ -6,8 +6,8 @@ Souporcell
 Introduction
 ~~~~~~~~
 souporcell is a method for clustering mixed-genotype scRNAseq experiments by individual.
-For more information, please check:
-Home page: https://github.com/wheaton5/souporcell
+|For more information, please check:
+|Home page: https://github.com/wheaton5/souporcell
 
 Versions
 ~~~~~~~~

@@ -5,7 +5,7 @@ Biopython
 
 Introduction
 ~~~~~~~~
-``Biopython`` is a set of freely available tools for biological computation written in Python. For more information, please check its website: https://biocontainers.pro/tools/biopython and its home page: https://biopython.org.
+``Biopython`` is a set of freely available tools for biological computation written in Python. |For more information, please check its website: https://biocontainers.pro/tools/biopython and its home page: https://biopython.org.
 
 Versions
 ~~~~~~~~

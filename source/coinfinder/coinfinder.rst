@@ -6,9 +6,9 @@ Coinfinder
 Introduction
 ~~~~~~~~
 Coinfinder is an algorithm and software tool that detects genes which associate and dissociate with other genes more often than expected by chance in pangenomes.
-For more information, please check:
-BioContainers: https://biocontainers.pro/tools/coinfinder 
-Home page: https://github.com/fwhelan/coinfinder
+|For more information, please check:
+|BioContainers: https://biocontainers.pro/tools/coinfinder 
+|Home page: https://github.com/fwhelan/coinfinder
 
 Versions
 ~~~~~~~~

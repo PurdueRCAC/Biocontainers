@@ -5,7 +5,7 @@ Sicer2
 
 Introduction
 ~~~~~~~~
-``Sicer2`` is the redesigned and improved ChIP-seq broad peak calling tool SICER. For more information, please check its website: https://biocontainers.pro/tools/sicer2 and its home page on `Github`_.
+``Sicer2`` is the redesigned and improved ChIP-seq broad peak calling tool SICER. |For more information, please check its website: https://biocontainers.pro/tools/sicer2 and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

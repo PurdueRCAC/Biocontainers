@@ -5,7 +5,7 @@ Cnvnator
 
 Introduction
 ~~~~~~~~
-``Cnvnator`` is a tool for discovery and characterization of copy number variation (CNV) in population genome sequencing data. For more information, please check its website: https://biocontainers.pro/tools/cnvnator and its home page on `Github`_.
+``Cnvnator`` is a tool for discovery and characterization of copy number variation (CNV) in population genome sequencing data. |For more information, please check its website: https://biocontainers.pro/tools/cnvnator and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

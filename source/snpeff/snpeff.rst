@@ -5,7 +5,7 @@ Snpeff
 
 Introduction
 ~~~~~~~~
-``Snpeff`` is an open source tool that annotates variants and predicts their effects on genes by using an interval forest approach. For more information, please check its website: https://biocontainers.pro/tools/snpeff and its home page on `Github`_.
+``Snpeff`` is an open source tool that annotates variants and predicts their effects on genes by using an interval forest approach. |For more information, please check its website: https://biocontainers.pro/tools/snpeff and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

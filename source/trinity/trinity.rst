@@ -5,7 +5,7 @@ Trinity
 
 Introduction
 ~~~~~~~~
-``Trinity`` assembles transcript sequences from Illumina RNA-Seq data. For more information, please check its website: https://biocontainers.pro/tools/trinity and its home page on `Github`_.
+``Trinity`` assembles transcript sequences from Illumina RNA-Seq data. |For more information, please check its website: https://biocontainers.pro/tools/trinity and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

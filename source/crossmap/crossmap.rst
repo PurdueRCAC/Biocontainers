@@ -5,7 +5,7 @@ Crossmap
 
 Introduction
 ~~~~~~~~
-``Crossmap`` is a program for genome coordinates conversion between different assemblies. For more information, please check its website: https://biocontainers.pro/tools/crossmap and its home page: https://crossmap.readthedocs.io/en/latest/#convert-maf-format-files.
+``Crossmap`` is a program for genome coordinates conversion between different assemblies. |For more information, please check its website: https://biocontainers.pro/tools/crossmap and its home page: https://crossmap.readthedocs.io/en/latest/#convert-maf-format-files.
 
 Versions
 ~~~~~~~~

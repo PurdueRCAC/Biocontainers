@@ -5,7 +5,7 @@ Delly
 
 Introduction
 ~~~~~~~~
-``Delly`` is an integrated structural variant (SV) prediction method that can discover, genotype and visualize deletions, tandem duplications, inversions and translocations at single-nucleotide resolution in short-read massively parallel sequencing data. For more information, please check its website: https://biocontainers.pro/tools/delly and its home page on `Github`_.
+``Delly`` is an integrated structural variant (SV) prediction method that can discover, genotype and visualize deletions, tandem duplications, inversions and translocations at single-nucleotide resolution in short-read massively parallel sequencing data. |For more information, please check its website: https://biocontainers.pro/tools/delly and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

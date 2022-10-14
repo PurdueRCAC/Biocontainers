@@ -5,7 +5,7 @@ Fasta3
 
 Introduction
 ~~~~~~~~
-``Fasta3`` is a suite of programs for searching nucleotide or protein databases with a query sequence. For more information, please check its website: https://biocontainers.pro/tools/fasta3 and its home page on `Github`_.
+``Fasta3`` is a suite of programs for searching nucleotide or protein databases with a query sequence. |For more information, please check its website: https://biocontainers.pro/tools/fasta3 and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

@@ -5,7 +5,7 @@ Fraggenescan
 
 Introduction
 ~~~~~~~~
-``Fraggenescan`` is an application for finding (fragmented) genes in short reads. It can also be applied to predict prokaryotic genes in incomplete assemblies or complete genomes. For more information, please check its website: https://biocontainers.pro/tools/fraggenescan and its home page on `Github`_.
+``Fraggenescan`` is an application for finding (fragmented) genes in short reads. It can also be applied to predict prokaryotic genes in incomplete assemblies or complete genomes. |For more information, please check its website: https://biocontainers.pro/tools/fraggenescan and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

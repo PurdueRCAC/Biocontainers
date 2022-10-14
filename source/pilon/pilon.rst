@@ -5,7 +5,7 @@ Pilon
 
 Introduction
 ~~~~~~~~
-``Pilon`` is an automated genome assembly improvement and variant detection tool. For more information, please check its website: https://biocontainers.pro/tools/pilon and its home page on `Github`_.
+``Pilon`` is an automated genome assembly improvement and variant detection tool. |For more information, please check its website: https://biocontainers.pro/tools/pilon and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

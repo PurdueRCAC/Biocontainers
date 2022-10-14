@@ -6,9 +6,9 @@ Manta
 Introduction
 ~~~~~~~~
 Manta calls structural variants (SVs) and indels from mapped paired-end sequencing reads.
-For more information, please check:
-BioContainers: https://biocontainers.pro/tools/manta 
-Home page: https://github.com/Illumina/manta
+|For more information, please check:
+|BioContainers: https://biocontainers.pro/tools/manta 
+|Home page: https://github.com/Illumina/manta
 
 Versions
 ~~~~~~~~

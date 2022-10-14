@@ -6,9 +6,9 @@ Vcf-kit
 Introduction
 ~~~~~~~~
 VCF-kit is a command-line based collection of utilities for performing analysis on Variant Call Format (VCF) files.
-For more information, please check:
-BioContainers: https://biocontainers.pro/tools/vcf-kit 
-Home page: https://github.com/AndersenLab/VCF-kit
+|For more information, please check:
+|BioContainers: https://biocontainers.pro/tools/vcf-kit 
+|Home page: https://github.com/AndersenLab/VCF-kit
 
 Versions
 ~~~~~~~~

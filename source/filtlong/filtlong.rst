@@ -5,7 +5,7 @@ Filtlong
 
 Introduction
 ~~~~~~~~
-``Filtlong`` is a tool for filtering long reads by quality. It can take a set of long reads and produce a smaller, better subset. It uses both read length (longer is better) and read identity (higher is better) when choosing which reads pass the filter. For more information, please check its website: https://biocontainers.pro/tools/filtlong and its home page on `Github`_.
+``Filtlong`` is a tool for filtering long reads by quality. It can take a set of long reads and produce a smaller, better subset. It uses both read length (longer is better) and read identity (higher is better) when choosing which reads pass the filter. |For more information, please check its website: https://biocontainers.pro/tools/filtlong and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

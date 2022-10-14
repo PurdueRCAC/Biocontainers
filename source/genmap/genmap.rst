@@ -6,9 +6,9 @@ Genmap
 Introduction
 ~~~~~~~~
 GenMap: Ultra-fast Computation of Genome Mappability.
-For more information, please check:
-BioContainers: https://biocontainers.pro/tools/genmap 
-Home page: https://github.com/cpockrandt/genmap
+|For more information, please check:
+|BioContainers: https://biocontainers.pro/tools/genmap 
+|Home page: https://github.com/cpockrandt/genmap
 
 Versions
 ~~~~~~~~

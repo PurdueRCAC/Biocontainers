@@ -6,8 +6,8 @@ Jcvi
 Introduction
 ~~~~~~~~
 Jcvi is a collection of Python libraries to parse bioinformatics files, or perform computation related to assembly, annotation, and comparative genomics.
-For more information, please check:
-Home page: https://github.com/tanghaibao/jcvi
+|For more information, please check:
+|Home page: https://github.com/tanghaibao/jcvi
 
 Versions
 ~~~~~~~~

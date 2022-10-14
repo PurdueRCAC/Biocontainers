@@ -6,9 +6,9 @@ Pygenomeviz
 Introduction
 ~~~~~~~~
 pyGenomeViz is a genome visualization python package for comparative genomics implemented based on matplotlib.
-For more information, please check:
-Docker hub: https://hub.docker.com/r/staphb/pygenomeviz 
-Home page: https://github.com/moshi4/pyGenomeViz#cli-examples
+|For more information, please check:
+|Docker hub: https://hub.docker.com/r/staphb/pygenomeviz 
+|Home page: https://github.com/moshi4/pyGenomeViz#cli-examples
 
 Versions
 ~~~~~~~~

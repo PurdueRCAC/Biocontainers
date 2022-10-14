@@ -6,9 +6,9 @@ Chewbbaca
 Introduction
 ~~~~~~~~
 chewBBACA is a comprehensive pipeline including a set of functions for the creation and validation of whole genome and core genome MultiLocus Sequence Typing (wg/cgMLST) schemas, providing an allele calling algorithm based on Blast Score Ratio that can be run in multiprocessor settings and a set of functions to visualize and validate allele variation in the loci. chewBBACA performs the schema creation and allele calls on complete or draft genomes resulting from de novo assemblers.
-For more information, please check:
-BioContainers: https://biocontainers.pro/tools/chewbbaca 
-Home page: https://github.com/B-UMMI/chewBBACA
+|For more information, please check:
+|BioContainers: https://biocontainers.pro/tools/chewbbaca 
+|Home page: https://github.com/B-UMMI/chewBBACA
 
 Versions
 ~~~~~~~~

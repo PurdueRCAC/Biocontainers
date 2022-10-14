@@ -6,8 +6,8 @@ Actc
 Introduction
 ~~~~~~~~
 Actc is used to align subreads to ccs reads.
-For more information, please check:
-Home page: https://github.com/PacificBiosciences/actc
+|For more information, please check:
+|Home page: https://github.com/PacificBiosciences/actc
 
 Versions
 ~~~~~~~~
