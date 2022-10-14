@@ -8,6 +8,7 @@ Introduction
 ``Beagle`` is a software package for phasing genotypes and for imputing ungenotyped markers. Start it with: beagle [java options] [arguments] 
 Note: Bref is not installed in this container. 
 
+
 | For more information, please check its website: https://biocontainers.pro/tools/beagle and its home page: https://faculty.washington.edu/browning/beagle/beagle.html.
 
 Versions

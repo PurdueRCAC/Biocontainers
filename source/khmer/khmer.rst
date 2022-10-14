@@ -6,6 +6,7 @@ Khmer
 Introduction
 ~~~~~~~~
 ``Khmer`` is a tool for k-mer counting, filtering, and graph traversal FTW! 
+
 | For more information, please check its website: https://biocontainers.pro/tools/khmer and its home page on `Github`_.
 
 Versions

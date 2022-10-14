@@ -6,6 +6,7 @@ Seidr
 Introduction
 ~~~~~~~~
 ``Seidr`` is a community gene network inference and exploration toolkit. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/seidr and its home page on `Github`_.
 
 Versions

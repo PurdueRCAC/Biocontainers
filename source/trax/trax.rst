@@ -6,6 +6,7 @@ tRAX
 Introduction
 ~~~~~~~~
 ``tRAX`` (tRNA Analysis of eXpression) is a software package built for in-depth analyses of tRNA-derived small RNAs (tDRs), mature tRNAs, and inference of RNA modifications from high-throughput small RNA sequencing data. 
+
 | For more information, please check its | Docker hub: https://hub.docker.com/r/ucsclowelab/trax and its home page on `Github`_.
 
 Versions

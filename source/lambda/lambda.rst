@@ -6,6 +6,7 @@ Lambda
 Introduction
 ~~~~~~~~
 ``Lambda`` is a local aligner optimized for many query sequences and searches in protein space. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/lambda and its home page: http://seqan.github.io/lambda/.
 
 Versions

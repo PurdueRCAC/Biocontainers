@@ -6,6 +6,7 @@ Shortstack
 Introduction
 ~~~~~~~~
 ``Shortstack`` is a tool for comprehensive annotation and quantification of small RNA genes. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/shortstack and its home page on `Github`_.
 
 Versions

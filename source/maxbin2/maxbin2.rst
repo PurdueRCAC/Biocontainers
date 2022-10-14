@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 Maxbin2 is a software for binning assembled metagenomic sequences based on an Expectation-Maximization algorithm.
 
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/nanozoo/maxbin2 
 | Home page: https://sourceforge.net/projects/maxbin2/

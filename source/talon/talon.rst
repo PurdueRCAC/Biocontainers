@@ -6,6 +6,7 @@ Talon
 Introduction
 ~~~~~~~~
 ``Talon`` is a Python package for identifying and quantifying known and novel genes/isoforms in long-read transcriptome data sets. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/talon and its home page on `Github`_.
 
 Versions

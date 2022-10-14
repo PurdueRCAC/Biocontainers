@@ -6,6 +6,7 @@ Nanopolish
 Introduction
 ~~~~~~~~
 ``Nanopolish`` is a software package for signal-level analysis of Oxford Nanopore sequencing data. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/nanopolish and its home page on `Github`_.
 
 Versions

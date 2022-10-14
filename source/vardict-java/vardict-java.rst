@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 VarDictJava is a variant discovery program written in Java and Perl. It is a Java port of VarDict variant caller.
 
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/hydragenetics/vardict 
 | Home page: https://github.com/AstraZeneca-NGS/VarDictJava

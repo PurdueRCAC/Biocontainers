@@ -6,6 +6,7 @@ Varscan
 Introduction
 ~~~~~~~~
 ``Varscan`` is a tool used for variant detection in massively parallel sequencing data. 
+
 | For more information, please check its home page: http://varscan.sourceforge.net/index.html.
 
 Versions

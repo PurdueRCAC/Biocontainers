@@ -6,6 +6,7 @@ Ngs-bits
 Introduction
 ~~~~~~~~
 ``Ngs-bits`` - Short-read sequencing tools. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/ngs-bits and its home page on `Github`_.
 
 Versions

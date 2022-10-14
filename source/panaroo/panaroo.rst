@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 Panaroo is an updated pipeline for pangenome investigation.
 
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/panaroo 
 | Home page: https://github.com/gtonkinhill/panaroo

@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 GimmeMotifs is a suite of motif tools, including a motif prediction pipeline for ChIP-seq experiments.
 
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/gimmemotifs 
 | Home page: https://github.com/vanheeringen-lab/gimmemotifs

@@ -6,6 +6,7 @@ Clustalw
 Introduction
 ~~~~~~~~
 ``Clustalw`` is a general purpose multiple alignment program for DNA or proteins. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/clustalw and its home page: http://www.clustal.org/clustal2/.
 
 Versions

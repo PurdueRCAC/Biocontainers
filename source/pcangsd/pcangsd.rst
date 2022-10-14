@@ -6,6 +6,7 @@ PCAngsd
 Introduction
 ~~~~~~~~
 ``PCAngsd`` is a program that estimates the covariance matrix and individual allele frequencies for low-depth next-generation sequencing (NGS) data in structured/heterogeneous populations using principal component analysis (PCA) to perform multiple population genetic analyses using genotype likelihoods. 
+
 | For more information, please check its home page on `Github`_.
 
 Versions

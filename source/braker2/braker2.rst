@@ -6,6 +6,7 @@ BRAKER
 Introduction
 ~~~~~~~
 ``BRAKER`` is a pipeline for fully automated prediction of protein coding gene structures with GeneMark-ES/ET and AUGUSTUS in novel eukaryotic genomes. 
+
 | For more information. please check its github repository https://github.com/Gaius-Augustus/BRAKER. 
 
 Versions

@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 CirComPara2 is a computational pipeline to detect, quantify, and correlate expression of linear and circular RNAs from RNA-seq data that combines multiple circRNA-detection methods.
 
+
 | For more information, please check:
 | Home page: https://github.com/egaffo/circompara2
 

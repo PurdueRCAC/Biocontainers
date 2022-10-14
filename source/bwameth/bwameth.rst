@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 Bwameth is a tool for fast and accurante alignment of BS-Seq reads.
 
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/bwameth 
 | Home page: https://github.com/brentp/bwa-meth

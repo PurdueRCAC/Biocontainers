@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 PlasmidFinder identifies plasmids in total or partial sequenced isolates of bacteria.
 
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/staphb/plasmidfinder 
 | Home page: https://bitbucket.org/genomicepidemiology/plasmidfinder/src/master/

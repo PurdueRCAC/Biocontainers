@@ -6,6 +6,7 @@ Liftoff
 Introduction
 ~~~~~~~~
 ``Liftoff`` is an accurate GFF3/GTF lift over pipeline. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/liftoff and its home page on `Github`_.
 
 Versions

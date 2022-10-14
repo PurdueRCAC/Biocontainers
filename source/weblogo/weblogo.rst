@@ -6,6 +6,7 @@ Weblogo
 Introduction
 ~~~~~~~~
 ``Weblogo`` is a web based application designed to make the generation of sequence logos as easy and painless as possible. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/weblogo and its home page: http://weblogo.threeplusone.com.
 
 Versions

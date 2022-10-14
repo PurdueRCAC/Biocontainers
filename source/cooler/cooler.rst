@@ -9,6 +9,7 @@ Cooler
 Introduction
 ~~~~~~~~
 ``Cooler`` is a support library for a sparse, compressed, binary persistent storage format, also called cooler, used to store genomic interaction data, such as Hi-C contact matrices. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/cooler and its home page on `Github`_.
 
 Versions

@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 RapMap is a testing ground for ideas in quasi-mapping and selective alignment.
 
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/rapmap 
 | Home page: https://github.com/COMBINE-lab/RapMap

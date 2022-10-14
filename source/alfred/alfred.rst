@@ -6,6 +6,7 @@ Alfred
 Introduction
 ~~~~~~~~
 ``Alfred`` is an efficient and versatile command-line application that computes multi-sample quality control metrics in a read-group aware manner. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/alfred and its home page on `Github`_.
 
 Versions

@@ -6,6 +6,7 @@ Racon
 Introduction
 ~~~~~~~~
 ``Racon`` is a consensus module for raw de novo DNA assembly of long uncorrected reads. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/racon and its home page on `Github`_.
 
 Versions

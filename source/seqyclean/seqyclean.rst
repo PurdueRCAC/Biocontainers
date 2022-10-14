@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 Seqyclean is used to pre-process NGS data in order to prepare for downstream analysis.
 
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/staphb/seqyclean 
 | Home page: https://github.com/ibest/seqyclean

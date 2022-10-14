@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 Fastq-scan reads a FASTQ from STDIN and outputs summary statistics (read lengths, per-read qualities, per-base qualities) in JSON format.
 
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/staphb/fastq-scan 
 | Home page: https://github.com/rpetit3/fastq-scan

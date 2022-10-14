@@ -6,6 +6,7 @@ Bamliquidator
 Introduction
 ~~~~~~~~
 ``Bamliquidator`` is a set of tools for analyzing the density of short DNA sequence read alignments in the BAM file format. 
+
 | For more information, please check its | Docker hub: https://hub.docker.com/r/bioliquidator/bamliquidator/ and its home page on `Github`_.
 
 Versions

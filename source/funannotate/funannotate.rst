@@ -6,6 +6,7 @@ Funannotate
 Introduction
 ~~~~~~~~
 ``Funannotate`` is a genome prediction, annotation, and comparison software package. 
+
 | For more information, please check its | Docker hub: https://hub.docker.com/r/nextgenusfs/funannotate and its home page on `Github`_.
 
 Versions

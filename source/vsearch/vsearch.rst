@@ -6,6 +6,7 @@ Vsearch
 Introduction
 ~~~~~~~~
 ``Vsearch`` is a versatile open source tool for metagenomics. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/vsearch and its home page on `Github`_.
 
 Versions

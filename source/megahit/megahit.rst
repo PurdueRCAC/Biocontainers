@@ -6,6 +6,7 @@ Megahit
 Introduction
 ~~~~~~~~
 ``Megahit`` is a ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/megahit and its home page on `Github`_.
 
 Versions

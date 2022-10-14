@@ -6,6 +6,7 @@ Pangolin
 Introduction
 ~~~~~~~~
 ``Pangolin`` is a software package for assigning SARS-CoV-2 genome sequences to global lineages. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/pangolin and its home page on `Github`_.
 
 Versions

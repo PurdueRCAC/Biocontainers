@@ -6,6 +6,7 @@ Alien-hunter
 Introduction
 ~~~~~~~~
 ``Alien-hunter`` is an application for the prediction of putative Horizontal Gene Transfer (HGT) events with the implementation of Interpolated Variable Order Motifs (IVOMs). 
+
 | For more information, please check its website: https://biocontainers.pro/tools/alien-hunter and its home page: https://www.sanger.ac.uk/tool/alien-hunter/.
 
 Versions

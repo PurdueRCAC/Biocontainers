@@ -6,6 +6,7 @@ Barrnap
 Introduction
 ~~~~~~~~
 ``Barrnap``: BAsic Rapid Ribosomal RNA Predictor. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/barrnap and its home page on `Github`_.
 
 Versions

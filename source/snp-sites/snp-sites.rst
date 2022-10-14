@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 SNP-sites is a tool that apidly extracts SNPs from a multi-FASTA alignment.
 
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/staphb/snp-sites 
 | Home page: https://github.com/sanger-pathogens/snp-sites

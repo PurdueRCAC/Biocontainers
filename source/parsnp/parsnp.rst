@@ -6,6 +6,7 @@ Parsnp
 Introduction
 ~~~~~~~~
 ``Parsnp`` is used to align the core genome of hundreds to thousands of bacterial genomes within a few minutes to few hours. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/parsnp and its home page on `Github`_.
 
 Versions

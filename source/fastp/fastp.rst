@@ -6,6 +6,7 @@ Fastp
 Introduction
 ~~~~~~~~
 ``Fastp`` is an ultra-fast all-in-one FASTQ preprocessor (QC/adapters/trimming/filtering/splitting/merging, etc). 
+
 | For more information, please check its website: https://biocontainers.pro/tools/fastp and its home page on `Github`_.
 
 Versions

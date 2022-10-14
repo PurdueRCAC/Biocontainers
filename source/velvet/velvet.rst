@@ -6,6 +6,7 @@ Velvet
 Introduction
 ~~~~~~~~
 ``Velvet`` is a sequence assembler for very short reads. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/velvet and its home page: https://www.ebi.ac.uk/~zerbino/velvet/.
 
 Versions

@@ -6,6 +6,7 @@ Deepsignal2
 Introduction
 ~~~~~~~~
 ``Deepsignal2`` is a deep-learning method for detecting DNA methylation state from Oxford Nanopore sequencing reads. 
+
 | For more information, please check its home page on `Github`_.
 
 Versions

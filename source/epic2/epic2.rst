@@ -6,6 +6,7 @@ Epic2
 Introduction
 ~~~~~~~~
 ``Epic2`` is an ultraperformant Chip-Seq broad domain finder based on SICER. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/epic2 and its home page on `Github`_.
 
 Versions

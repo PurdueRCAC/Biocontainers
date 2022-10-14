@@ -6,6 +6,7 @@ Tobias
 Introduction
 ~~~~~~~~
 ``Tobias`` is a collection of command-line bioinformatics tools for performing footprinting analysis on ATAC-seq data. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/tobias and its home page on `Github`_.
 
 Versions

@@ -6,6 +6,7 @@ Afplot
 Introduction
 ~~~~~~~~
 ``Afplot`` is a tool to plot allele frequencies in VCF files. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/afplot and its home page on `Github`_.
 
 Versions

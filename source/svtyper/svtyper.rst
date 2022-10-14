@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 SVTyper performs breakpoint genotyping of structural variants (SVs) using whole genome sequencing data. svtyper is the original implementation of the genotyping algorithm, and works with multiple samples. svtyper-sso is an alternative implementation of svtyper that is optimized for genotyping a single sample. svtyper-sso is a parallelized implementation of svtyper that takes advantage of multiple CPU cores via the multiprocessing module. svtyper-sso can offer a 2x or more speedup (depending on how many CPU cores used) in genotyping a single sample. NOTE: svtyper-sso is not yet stable. There are minor logging differences between the two and svtyper-sso may exit with an error prematurely when processing CRAM files.
 
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/svtyper 
 | Home page: https://github.com/hall-lab/svtyper

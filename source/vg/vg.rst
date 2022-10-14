@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 Variation graphs (vg) provides tools for working with genome variation graphs.
 
+
 | For more information, please check:
 Quay.io: https://quay.io/repository/vgteam/vg?tabinfo 
 | Home page: https://github.com/vgteam/vg

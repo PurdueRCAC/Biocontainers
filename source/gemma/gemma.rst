@@ -6,6 +6,7 @@ Gemma
 Introduction
 ~~~~~~~~
 ``Gemma`` is a software toolkit for fast application of linear mixed models (LMMs) and related models to genome-wide association studies (GWAS) and other large-scale data sets. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/gemma and its home page on `Github`_.
 
 Versions

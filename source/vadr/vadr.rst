@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 VADR is a suite of tools for classifying and analyzing sequences homologous to a set of reference models of viral genomes or gene families. It has been mainly tested for analysis of Norovirus, Dengue, and SARS-CoV-2 virus sequences in preparation for submission to the GenBank database.
 
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/staphb/vadr 
 | Home page: https://github.com/ncbi/vadr

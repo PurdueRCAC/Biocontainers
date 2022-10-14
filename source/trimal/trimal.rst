@@ -6,6 +6,7 @@ Trimal
 Introduction
 ~~~~~~~~
 ``Trimal`` is a tool for the automated removal of spurious sequences or poorly aligned regions from a multiple sequence alignment. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/trimal and its home page: http://trimal.cgenomics.org.
 
 Versions

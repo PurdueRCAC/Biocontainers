@@ -6,6 +6,7 @@ Gmap
 Introduction
 ~~~~~~~~
 ``Gmap`` is a genomic mapping and alignment program for mRNA and EST sequences. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/gmap and its home page: http://research-pub.gene.com/gmap/.
 
 Versions

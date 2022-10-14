@@ -6,6 +6,7 @@ Rebaler
 Introduction
 ~~~~~~~~
 ``Rebaler`` is a program for conducting reference-based assemblies using long reads. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/rebaler and its home page on `Github`_.
 
 Versions

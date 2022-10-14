@@ -6,6 +6,7 @@ Pirate
 Introduction
 ~~~~~~~~
 ``Pirate`` is a pangenome analysis and threshold evaluation toolbox. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/pirate and its home page on `Github`_.
 
 Versions

@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 Clever-toolkit is a collection of tools to discover and genotype structural variations in genomes from paired-end sequencing reads. The main software is written in C++ with some auxiliary scripts in Python.
 
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/clever-toolkit 
 | Home page: https://bitbucket.org/tobiasmarschall/clever-toolkit/src/master/

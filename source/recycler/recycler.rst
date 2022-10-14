@@ -6,6 +6,7 @@ Recycler
 Introduction
 ~~~~~~~~
 ``Recycler`` is a tool designed for extracting circular sequences from de novo assembly graphs. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/recycler and its home page on `Github`_.
 
 Versions

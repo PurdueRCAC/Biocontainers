@@ -6,6 +6,7 @@ easySFS
 Introduction
 ~~~~~~~~
 ``easySFS`` is a tool for the effective selection of population size projection for construction of the site frequency spectrum. 
+
 | For more information, please check its home page on `Github`_.
 
 Versions

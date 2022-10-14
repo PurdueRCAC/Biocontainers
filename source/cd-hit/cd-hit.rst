@@ -6,6 +6,7 @@ Cd-hit
 Introduction
 ~~~~~~~~
 ``Cd-hit`` is a very widely used program for clustering and comparing protein or nucleotide sequences. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/cd-hit and its home page on `Github`_.
 
 Versions

@@ -6,6 +6,7 @@ Macs3
 Introduction
 ~~~~~~~~
 ``MACS3`` is Model-based Analysis of ChIP-Seq for identifying transcript factor. 
+
 | For more information, please check its | Docker hub: https://hub.docker.com/r/lbmc/macs3/3.0.0a6 and its home page on `Github`_.
 
 Versions

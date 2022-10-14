@@ -6,6 +6,7 @@ CIRIquant
 Introduction
 ~~~~~~~~
 ``CIRIquant`` is a comprehensive analysis pipeline for circRNA detection and quantification in RNA-Seq data. 
+
 | For more information, please check its | Docker hub: https://hub.docker.com/r/mortreux/ciriquant and its home page on `Github`_.
 
 Versions

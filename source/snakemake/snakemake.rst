@@ -6,6 +6,7 @@ Snakemake
 Introduction
 ~~~~~~~~
 ``Snakemake`` is a workflow engine that provides a readable Python-based workflow definition language and a powerful execution environment that scales from single-core workstations to compute clusters without modifying the workflow. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/snakemake and its home page: https://snakemake.readthedocs.io/en/stable/.
 
 Versions

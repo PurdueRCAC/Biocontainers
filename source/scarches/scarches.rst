@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 scArches is a package to integrate newly produced single-cell datasets into integrated reference atlases.
 
+
 | For more information, please check:
 | Home page: https://github.com/theislab/scarches
 

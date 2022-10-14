@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 To convert a VCF into a MAF, each variant must be mapped to only one of all possible gene transcripts/isoforms that it might affect. This selection of a single effect per variant, is often subjective. So this project is an attempt to make the selection criteria smarter, reproducible, and more configurable. And the default criteria must lean towards best practices.
 
+
 | For more information, please check:
 | Home page: https://github.com/mskcc/vcf2maf
 

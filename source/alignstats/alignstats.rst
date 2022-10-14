@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 AlignStats produces various alignment, whole genome coverage, and capture coverage metrics for sequence alignment files in SAM, BAM, and CRAM format.
 
+
 | For more information, please check:
 | BioContainers: https://biocontainers.pro/tools/alignstats 
 | Home page: https://github.com/jfarek/alignstats

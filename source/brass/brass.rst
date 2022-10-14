@@ -6,6 +6,7 @@ Brass
 Introduction
 ~~~~~~~~
 ``Brass`` is used to analyze one or more related BAM files of paired-end sequencing to determine potential rearrangement breakpoints. 
+
 | For more information, please check its website: https://quay.io/repository/wtsicgp/brass and its home page on `Github`_.
 
 Versions

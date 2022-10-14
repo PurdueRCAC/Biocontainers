@@ -6,6 +6,7 @@ Bedtools
 Introduction
 ~~~~~~~~
 ``Bedtools`` is an extensive suite of utilities for genome arithmetic and comparing genomic features in BED format. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/bedtools and its home page on `Github`_.
 
 Versions

@@ -6,6 +6,7 @@ Graphmap
 Introduction
 ~~~~~~~~
 ``Graphmap`` is a novel mapper targeted at aligning long, error-prone third-generation sequencing data. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/graphmap and its home page on `Github`_.
 
 Versions

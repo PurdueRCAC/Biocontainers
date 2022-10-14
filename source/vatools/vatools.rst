@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 VAtools is a python package that includes several tools to annotate VCF files with data from other tools.
 
+
 | For more information, please check:
 | Docker hub: https://hub.docker.com/r/griffithlab/vatools 
 | Home page: https://vatools.readthedocs.io/en/latest/

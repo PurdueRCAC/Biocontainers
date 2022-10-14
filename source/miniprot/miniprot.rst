@@ -7,6 +7,7 @@ Introduction
 ~~~~~~~~
 Miniprot aligns a protein sequence against a genome with affine gap penalty, splicing and frameshift. It is primarily intended for annotating protein-coding genes in a new species using known genes from other species. Miniprot is similar to GeneWise and Exonerate in functionality but it can map proteins to whole genomes and is much faster at the residue alignment step.
 
+
 | For more information, please check:
 | Home page: https://github.com/lh3/miniprot
 

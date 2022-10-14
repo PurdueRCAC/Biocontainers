@@ -20,6 +20,7 @@ Available backends in this container:
 Default MPLBACKEND="agg" (for PNG format output).
 
 
+
 | For more information, please check its website: https://biocontainers.pro/tools/faststructure and its home page on `Github`_.
 
 Versions

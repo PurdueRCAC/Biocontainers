@@ -6,6 +6,7 @@ Mitofinder
 Introduction
 ~~~~~~~~
 ``Mitofinder`` is a pipeline to assemble mitochondrial genomes and annotate mitochondrial genes from trimmed read sequencing data. 
+
 | For more information, please check its website: https://cloud.sylabs.io/library/remiallio/default/mitofinder and its home page on `Github`_.
 
 Versions

@@ -10,6 +10,7 @@ Introduction
 This is an RStudio IDE together with a plain R-base installation (see https://github.com/rocker-org/rocker/), repackaged by RCAC with an addition of a handful prerequisite libraries (libcurl, libopenssl, libxml2, libcairo2 and libXt) and their header files.  It is intentionally separate from the biocontainers' 'r' module for reasons of image size (700MB vs 360MB).
 
 
+
 | For more information, please check its | Docker hub: https://hub.docker.com/_/r-base and its home page: https://www.rstudio.com/products/rstudio/ and https://www.r-project.org/.
 
 Versions

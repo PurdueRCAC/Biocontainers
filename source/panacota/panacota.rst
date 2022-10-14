@@ -6,6 +6,7 @@ Panacota
 Introduction
 ~~~~~~~~
 ``Panacota`` is a software providing tools for large scale bacterial comparative genomics. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/panacota and its home page on `Github`_.
 
 Versions

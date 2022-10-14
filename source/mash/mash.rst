@@ -6,6 +6,7 @@ Mash
 Introduction
 ~~~~~~~~
 ``Mash`` is a fast sequence distance estimator that uses MinHash. 
+
 | For more information, please check its website: https://biocontainers.pro/tools/mash and its home page on `Github`_.
 
 Versions
