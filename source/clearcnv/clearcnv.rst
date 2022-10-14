@@ -6,9 +6,9 @@ Clearcnv
 Introduction
 ~~~~~~~~
 ClearCNV: CNV calling from NGS panel data in the presence of ambiguity and noise.
-|For more information, please check:
-|BioContainers: https://biocontainers.pro/tools/clearcnv 
-|Home page: https://github.com/bihealth/clear-cnv
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/clearcnv 
+| Home page: https://github.com/bihealth/clear-cnv
 
 Versions
 ~~~~~~~~

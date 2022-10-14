@@ -6,9 +6,9 @@ Mlst
 Introduction
 ~~~~~~~~
 Mlst is used to scan contig files against traditional PubMLST typing schemes.
-|For more information, please check:
-|Docker hub: https://hub.docker.com/r/staphb/mlst 
-|Home page: https://github.com/tseemann/mlst
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/staphb/mlst 
+| Home page: https://github.com/tseemann/mlst
 
 Versions
 ~~~~~~~~

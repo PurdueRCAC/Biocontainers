@@ -37,7 +37,7 @@ To run ``Velocyto.py`` interactively on our clusters::
    salloc: Nodes bell-a008 are ready for job
    (base) UserID@bell-a008:~ $ module load biocontainers cellrank/1.5.1
    (base) UserID@bell-a008:~ $ python
-   Python 3.9.10 | packaged by conda-forge | (main, Feb  1 2022, 21:24:11)
+   Python 3.9.10 |  packaged by conda-forge |  (main, Feb  1 2022, 21:24:11)
    [GCC 9.4.0] :: Anaconda, Inc. on linux
    Type "help", "copyright", "credits" or "license" for more information.  
    >>> import velocyto as vcy

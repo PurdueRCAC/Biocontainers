@@ -5,7 +5,7 @@ Minialign
 
 Introduction
 ~~~~~~~~
-``Minialign`` is a little bit fast and moderately accurate nucleotide sequence alignment tool designed for PacBio and Nanopore long reads. |For more information, please check its website: https://biocontainers.pro/tools/minialign and its home page on `Github`_.
+``Minialign`` is a little bit fast and moderately accurate nucleotide sequence alignment tool designed for PacBio and Nanopore long reads. | For more information, please check its website: https://biocontainers.pro/tools/minialign and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

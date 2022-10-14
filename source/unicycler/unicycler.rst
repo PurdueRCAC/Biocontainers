@@ -5,7 +5,7 @@ Unicycler
 
 Introduction
 ~~~~~~~~
-``Unicycler`` is an assembly pipeline for bacterial genomes. |For more information, please check its website: https://biocontainers.pro/tools/unicycler and its home page on `Github`_.
+``Unicycler`` is an assembly pipeline for bacterial genomes. | For more information, please check its website: https://biocontainers.pro/tools/unicycler and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

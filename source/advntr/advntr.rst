@@ -5,7 +5,7 @@ Advntr
 
 Introduction
 ~~~~~~~~
-``Advntr`` is a tool for genotyping Variable Number Tandem Repeats (VNTR) from sequence data. |For more information, please check its website: https://biocontainers.pro/tools/advntr and its home page on `Github`_.
+``Advntr`` is a tool for genotyping Variable Number Tandem Repeats (VNTR) from sequence data. | For more information, please check its website: https://biocontainers.pro/tools/advntr and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

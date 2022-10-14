@@ -5,7 +5,7 @@ Trnascan-se
 
 Introduction
 ~~~~~~~~
-``Trnascan-se`` is a convenient, ready-for-use means to identify tRNA genes in one or more query sequences. |For more information, please check its website: https://biocontainers.pro/tools/trnascan-se and its home page: http://lowelab.ucsc.edu/tRNAscan-SE/.
+``Trnascan-se`` is a convenient, ready-for-use means to identify tRNA genes in one or more query sequences. | For more information, please check its website: https://biocontainers.pro/tools/trnascan-se and its home page: http://lowelab.ucsc.edu/tRNAscan-SE/.
 
 Versions
 ~~~~~~~~

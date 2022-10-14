@@ -6,8 +6,8 @@ Plotsr
 Introduction
 ~~~~~~~~
 Plotsr generates high-quality visualisation of synteny and structural rearrangements between multiple genomes. For this, it uses the genomic structural annotations between multiple chromosome-level assemblies.
-|For more information, please check:
-|Home page: https://github.com/schneebergerlab/plotsr
+| For more information, please check:
+| Home page: https://github.com/schneebergerlab/plotsr
 
 Versions
 ~~~~~~~~

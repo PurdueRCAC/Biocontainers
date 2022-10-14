@@ -5,7 +5,7 @@ Popscle
 
 Introduction
 ~~~~~~~~
-``Popscle`` is a suite of population scale analysis tools for single-cell genomics data. |For more information, please check its |Docker hub: https://hub.docker.com/r/cumulusprod/popscle and its home page on `Github`_.
+``Popscle`` is a suite of population scale analysis tools for single-cell genomics data. | For more information, please check its | Docker hub: https://hub.docker.com/r/cumulusprod/popscle and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

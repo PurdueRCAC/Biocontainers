@@ -6,9 +6,9 @@ Gadma
 Introduction
 ~~~~~~~~
 GADMA is a command-line tool. Basic pipeline presents a series of launches of the genetic algorithm folowed by local search optimization and infers demographic history from the Allele Frequency Spectrum of multiple populations (up to three).
-|For more information, please check:
-|BioContainers: https://biocontainers.pro/tools/gadma 
-|Home page: https://github.com/ctlab/GADMA
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/gadma 
+| Home page: https://github.com/ctlab/GADMA
 
 Versions
 ~~~~~~~~
@@ -37,7 +37,7 @@ To run GADMA interactively on our clusters::
    salloc: Nodes bell-a008 are ready for job
    (base) UserID@bell-a008:~ $ module load biocontainers gadma
    (base) UserID@bell-a008:~ $ python
-   Python 3.8.13 | packaged by conda-forge | (default, Mar 25 2022, 06:04:10)
+   Python 3.8.13 |  packaged by conda-forge |  (default, Mar 25 2022, 06:04:10)
    [GCC 10.3.0] on linux
    Type "help", "copyright", "credits" or "license" for more information.  
    >>> from gadma import *

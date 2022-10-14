@@ -6,8 +6,8 @@ Resfinder
 Introduction
 ~~~~~~~~
 ResFinder identifies acquired antimicrobial resistance genes in total or partial sequenced isolates of bacteria.
-|For more information, please check:
-|Home page: https://github.com/cadms/resfinder
+| For more information, please check:
+| Home page: https://github.com/cadms/resfinder
 
 Versions
 ~~~~~~~~

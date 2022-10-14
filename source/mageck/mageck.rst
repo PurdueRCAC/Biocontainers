@@ -6,9 +6,9 @@ Mageck
 Introduction
 ~~~~~~~~
 Model-based Analysis of Genome-wide CRISPR-Cas9 Knockout (MAGeCK) is a computational tool to identify important genes from the recent genome-scale CRISPR-Cas9 knockout screens (or GeCKO) technology.
-|For more information, please check:
-|Docker hub: https://hub.docker.com/r/davidliwei/mageck 
-|Home page: https://bitbucket.org/liulab/mageck/src/master/
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/davidliwei/mageck 
+| Home page: https://bitbucket.org/liulab/mageck/src/master/
 
 Versions
 ~~~~~~~~

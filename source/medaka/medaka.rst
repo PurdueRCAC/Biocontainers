@@ -5,7 +5,7 @@ Medaka
 
 Introduction
 ~~~~~~~~
-``Medaka`` is a tool to create consensus sequences and variant calls from nanopore sequencing data. |For more information, please check its |Docker hub: https://hub.docker.com/r/ontresearch/medaka and its home page on `Github`_.
+``Medaka`` is a tool to create consensus sequences and variant calls from nanopore sequencing data. | For more information, please check its | Docker hub: https://hub.docker.com/r/ontresearch/medaka and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

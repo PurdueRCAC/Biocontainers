@@ -6,9 +6,9 @@ Parliament2
 Introduction
 ~~~~~~~~
 Parliament2 identifies structural variants in a given sample relative to a reference genome. These structural variants cover large deletion events that are called as Deletions of a region, Insertions of a sequence into a region, Duplications of a region, Inversions of a region, or Translocations between two regions in the genome.
-|For more information, please check:
-|Docker hub: https://hub.docker.com/r/dnanexus/parliament2 
-|Home page: https://github.com/fritzsedlazeck/parliament2
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/dnanexus/parliament2 
+| Home page: https://github.com/fritzsedlazeck/parliament2
 
 Versions
 ~~~~~~~~

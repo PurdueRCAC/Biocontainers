@@ -6,8 +6,8 @@ Vcf2phylip
 Introduction
 ~~~~~~~~
 vcf2phylip is a tool to convert SNPs in VCF format to PHYLIP, NEXUS, binary NEXUS, or FASTA alignments for phylogenetic analysis.
-|For more information, please check:
-|Home page: https://github.com/edgardomortiz/vcf2phylip
+| For more information, please check:
+| Home page: https://github.com/edgardomortiz/vcf2phylip
 
 Versions
 ~~~~~~~~

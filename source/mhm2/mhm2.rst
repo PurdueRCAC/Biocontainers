@@ -6,8 +6,8 @@ Mhm2
 Introduction
 ~~~~~~~~
 MetaHipMer is a de novo metagenome short-read assembler. Version 2 (MHM2) is written entirely in UPC++ and runs efficiently on both single servers and on multinode supercomputers, where it can scale up to coassemble terabase-sized metagenomes.
-|For more information, please check:
-|Home page: https://bitbucket.org/berkeleylab/mhm2/wiki/Home.md
+| For more information, please check:
+| Home page: https://bitbucket.org/berkeleylab/mhm2/wiki/Home.md
 
 Versions
 ~~~~~~~~

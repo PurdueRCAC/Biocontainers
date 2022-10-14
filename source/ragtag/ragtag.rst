@@ -5,7 +5,7 @@ Ragtag
 
 Introduction
 ~~~~~~~~
-``Ragtag`` is a tool for fast reference-guided genome assembly scaffolding. |For more information, please check its website: https://biocontainers.pro/tools/ragtag and its home page on `Github`_.
+``Ragtag`` is a tool for fast reference-guided genome assembly scaffolding. | For more information, please check its website: https://biocontainers.pro/tools/ragtag and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

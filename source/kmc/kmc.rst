@@ -5,7 +5,7 @@ Kmc
 
 Introduction
 ~~~~~~~~
-``Kmc`` is a tool for efficient k-mer counting and filtering of reads based on k-mer content. |For more information, please check its website: https://biocontainers.pro/tools/kmc and its home page on `Github`_.
+``Kmc`` is a tool for efficient k-mer counting and filtering of reads based on k-mer content. | For more information, please check its website: https://biocontainers.pro/tools/kmc and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

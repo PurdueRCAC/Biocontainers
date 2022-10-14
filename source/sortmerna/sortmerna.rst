@@ -5,7 +5,7 @@ SortMeRNA
 
 Introduction
 ~~~~~~~~
-``SortMeRNA`` is a local sequence alignment tool for filtering, mapping and clustering. |For more information, please check its website: https://biocontainers.pro/tools/sortmerna and its home page on `Github`_.
+``SortMeRNA`` is a local sequence alignment tool for filtering, mapping and clustering. | For more information, please check its website: https://biocontainers.pro/tools/sortmerna and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

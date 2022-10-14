@@ -5,7 +5,7 @@ Biopython
 
 Introduction
 ~~~~~~~~
-``Biopython`` is a set of freely available tools for biological computation written in Python. |For more information, please check its website: https://biocontainers.pro/tools/biopython and its home page: https://biopython.org.
+``Biopython`` is a set of freely available tools for biological computation written in Python. | For more information, please check its website: https://biocontainers.pro/tools/biopython and its home page: https://biopython.org.
 
 Versions
 ~~~~~~~~
@@ -47,7 +47,7 @@ To run biopython interactively on our clusters::
    salloc: Nodes bell-a008 are ready for job
    (base) UserID@bell-a008:~ $ module load biocontainers biopython
    (base) UserID@bell-a008:~ $ python
-   Python 3.9.1 | packaged by conda-forge | (default, Jan 26 2021, 01:34:10) 
+   Python 3.9.1 |  packaged by conda-forge |  (default, Jan 26 2021, 01:34:10) 
    [GCC 9.3.0] on linux
    Type "help", "copyright", "credits" or "license" for more information.
    >>> from Bio import SeqIO

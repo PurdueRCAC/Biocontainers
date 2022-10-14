@@ -5,7 +5,7 @@ Deepbgc
 
 Introduction
 ~~~~~~~~
-``Deepbgc`` is a tool for BGC detection and classification using deep learning. |For more information, please check its website: https://biocontainers.pro/tools/deepbgc and its home page on `Github`_.
+``Deepbgc`` is a tool for BGC detection and classification using deep learning. | For more information, please check its website: https://biocontainers.pro/tools/deepbgc and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

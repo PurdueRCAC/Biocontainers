@@ -5,7 +5,7 @@ swat
 
 Introduction
 ~~~~~~~~
-``swat`` is a program for searching one or more DNA or protein query sequences, or a query profile, against a sequence database, using an efficient implementation of the Smith-Waterman or Needleman-Wunsch algorithms with linear (affine) gap penalties. |For more information, please check its home page: http://www.phrap.org/phredphrapconsed.html#block_phrap.
+``swat`` is a program for searching one or more DNA or protein query sequences, or a query profile, against a sequence database, using an efficient implementation of the Smith-Waterman or Needleman-Wunsch algorithms with linear (affine) gap penalties. | For more information, please check its home page: http://www.phrap.org/phredphrapconsed.html#block_phrap.
 
 Versions
 ~~~~~~~~

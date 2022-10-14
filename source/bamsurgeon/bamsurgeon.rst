@@ -5,7 +5,7 @@ Bamsurgeon
 
 Introduction
 ~~~~~~~~
-``Bamsurgeon`` are tools for adding mutations to .bam files, used for testing mutation callers. |For more information, please check its |Docker hub: https://hub.docker.com/r/lethalfang/bamsurgeon and its home page on `Github`_.
+``Bamsurgeon`` are tools for adding mutations to .bam files, used for testing mutation callers. | For more information, please check its | Docker hub: https://hub.docker.com/r/lethalfang/bamsurgeon and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

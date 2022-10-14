@@ -41,7 +41,7 @@ To run CellRank-krylov interactively on our clusters::
    salloc: Nodes bell-a008 are ready for job
    (base) UserID@bell-a008:~ $ module load biocontainers cellrank-krylov/1.5.1
    (base) UserID@bell-a008:~ $ python
-   Python 3.9.9 | packaged by conda-forge | (main, Dec 20 2021, 02:41:03)
+   Python 3.9.9 |  packaged by conda-forge |  (main, Dec 20 2021, 02:41:03)
    [GCC 9.4.0] :: Anaconda, Inc. on linux
    Type "help", "copyright", "credits" or "license" for more information.  
    >>> import scanpy as sc

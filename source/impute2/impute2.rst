@@ -5,7 +5,7 @@ Impute2
 
 Introduction
 ~~~~~~~~
-``Impute2`` is a genotype imputation and haplotype phasing program. |For more information, please check its website: https://biocontainers.pro/tools/impute2 and its home page: https://mathgen.stats.ox.ac.uk/impute/impute_v2.html#home.
+``Impute2`` is a genotype imputation and haplotype phasing program. | For more information, please check its website: https://biocontainers.pro/tools/impute2 and its home page: https://mathgen.stats.ox.ac.uk/impute/impute_v2.html#home.
 
 Versions
 ~~~~~~~~

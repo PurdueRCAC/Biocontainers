@@ -6,8 +6,8 @@ Sprod
 Introduction
 ~~~~~~~~
 Sprod: De-noising Spatially Resolved Transcriptomics Data Based on Position and Image Information.
-|For more information, please check:
-|Home page: https://github.com/yunguan-wang/SPROD
+| For more information, please check:
+| Home page: https://github.com/yunguan-wang/SPROD
 
 Versions
 ~~~~~~~~

@@ -6,9 +6,9 @@ Atac-seq-pipeline
 Introduction
 ~~~~~~~~
 The ENCODE ATAC-seq pipeline is used for quality control and statistical signal processing of short-read sequencing data, producing alignments and measures of enrichment. It was developed by Anshul Kundaje's lab at Stanford University.
-|For more information, please check:
-|Docker hub: https://hub.docker.com/r/encodedcc/atac-seq-pipeline 
-|Home page: https://www.encodeproject.org/atac-seq/
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/encodedcc/atac-seq-pipeline 
+| Home page: https://www.encodeproject.org/atac-seq/
 
 Versions
 ~~~~~~~~

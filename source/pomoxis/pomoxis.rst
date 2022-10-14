@@ -6,9 +6,9 @@ Pomoxis
 Introduction
 ~~~~~~~~
 Pomoxis comprises a set of basic bioinformatic tools tailored to nanopore sequencing. Notably tools are included for generating and analysing draft assemblies. Many of these tools are used by the research data analysis group at Oxford Nanopore Technologies.
-|For more information, please check:
-|Docker hub: https://hub.docker.com/r/zeunas/pomoxis 
-|Home page: https://github.com/nanoporetech/pomoxis
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/zeunas/pomoxis 
+| Home page: https://github.com/nanoporetech/pomoxis
 
 Versions
 ~~~~~~~~

@@ -5,7 +5,7 @@ HISAT2
 
 Introduction
 ~~~~~~~~
-``HISAT2`` is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes as well as to a single reference genome. |For more information, please check its website: https://biocontainers.pro/tools/hisat2 and its home page on `Github`_.
+``HISAT2`` is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes as well as to a single reference genome. | For more information, please check its website: https://biocontainers.pro/tools/hisat2 and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

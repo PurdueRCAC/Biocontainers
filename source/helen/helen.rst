@@ -6,9 +6,9 @@ Helen
 Introduction
 ~~~~~~~~
 HELEN is a multi-task RNN polisher which operates on images produced by MarginPolish.
-|For more information, please check:
-|Docker hub: https://hub.docker.com/r/kishwars/helen 
-|Home page: https://github.com/kishwarshafin/helen
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/kishwars/helen 
+| Home page: https://github.com/kishwarshafin/helen
 
 Versions
 ~~~~~~~~

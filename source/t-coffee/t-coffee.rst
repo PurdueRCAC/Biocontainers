@@ -5,7 +5,7 @@ T-coffee
 
 Introduction
 ~~~~~~~~
-``T-coffee`` is a multiple sequence alignment software using a progressive approach. |For more information, please check its website: https://biocontainers.pro/tools/t-coffee and its home page on `Github`_.
+``T-coffee`` is a multiple sequence alignment software using a progressive approach. | For more information, please check its website: https://biocontainers.pro/tools/t-coffee and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

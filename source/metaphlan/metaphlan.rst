@@ -13,7 +13,7 @@ Introduction
 - species-level resolution for bacteria, archaea, eukaryotes and viruses;
 - extensive validation of the profiling accuracy on several synthetic datasets and on thousands of real metagenomes.
 
-|For more information, please check its user guide at: https://huttenhower.sph.harvard.edu/metaphlan/
+| For more information, please check its user guide at: https://huttenhower.sph.harvard.edu/metaphlan/
 
 Versions
 ~~~~~~~~

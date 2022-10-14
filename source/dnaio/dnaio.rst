@@ -5,7 +5,7 @@ Dnaio
 
 Introduction
 ~~~~~~~~
-``Dnaio`` is a Python 3.7+ library for very efficient parsing and writing of FASTQ and also FASTA files. |For more information, please check its website: https://biocontainers.pro/tools/dnaio and its home page on `Github`_.
+``Dnaio`` is a Python 3.7+ library for very efficient parsing and writing of FASTQ and also FASTA files. | For more information, please check its website: https://biocontainers.pro/tools/dnaio and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

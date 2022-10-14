@@ -6,9 +6,9 @@ Mutmap
 Introduction
 ~~~~~~~~
 MutMap is a powerful and efficient method to identify agronomically important loci in crop plants.
-|For more information, please check:
-|BioContainers: https://biocontainers.pro/tools/mutmap 
-|Home page: https://github.com/YuSugihara/MutMap#What-is-MutMap
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/mutmap 
+| Home page: https://github.com/YuSugihara/MutMap#What-is-MutMap
 
 Versions
 ~~~~~~~~

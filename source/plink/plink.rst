@@ -5,7 +5,7 @@ Plink
 
 Introduction
 ~~~~~~~~
-``Plink`` is a free, open-source whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner. |For more information, please check its website: https://biocontainers.pro/tools/plink and its home page: https://zzz.bwh.harvard.edu/plink/.
+``Plink`` is a free, open-source whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner. | For more information, please check its website: https://biocontainers.pro/tools/plink and its home page: https://zzz.bwh.harvard.edu/plink/.
 
 Versions
 ~~~~~~~~

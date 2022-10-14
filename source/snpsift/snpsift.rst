@@ -5,7 +5,7 @@ Snpsift
 
 Introduction
 ~~~~~~~~
-``Snpsift`` is a tool used to annotate genomic variants using databases, filters, and manipulates genomic annotated variants. |For more information, please check its website: https://biocontainers.pro/tools/snpsift and its home page on `Github`_.
+``Snpsift`` is a tool used to annotate genomic variants using databases, filters, and manipulates genomic annotated variants. | For more information, please check its website: https://biocontainers.pro/tools/snpsift and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

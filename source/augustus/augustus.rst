@@ -5,7 +5,7 @@ AUGUSTUS
 
 Introduction
 ~~~~~~~
-``AUGUSTUS`` is  a program that predicts genes in eukaryotic genomic sequences. |For more information, please check its website: https://bioinf.uni-greifswald.de/augustus/. 
+``AUGUSTUS`` is  a program that predicts genes in eukaryotic genomic sequences. | For more information, please check its website: https://bioinf.uni-greifswald.de/augustus/. 
 
 Versions
 ~~~~~~~~

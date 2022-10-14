@@ -5,7 +5,7 @@ Intarna
 
 Introduction
 ~~~~~~~~
-``Intarna`` is a general and fast approach to the prediction of RNA-RNA interactions incorporating both the accessibility of interacting sites as well as the existence of a user-definable seed interaction. |For more information, please check its website: https://biocontainers.pro/tools/intarna and its home page on `Github`_.
+``Intarna`` is a general and fast approach to the prediction of RNA-RNA interactions incorporating both the accessibility of interacting sites as well as the existence of a user-definable seed interaction. | For more information, please check its website: https://biocontainers.pro/tools/intarna and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

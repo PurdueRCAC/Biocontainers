@@ -6,9 +6,9 @@ Ivar
 Introduction
 ~~~~~~~~
 Ivar is a computational package that contains functions broadly useful for viral amplicon-based sequencing.
-|For more information, please check:
-|Docker hub: https://hub.docker.com/r/andersenlabapps/ivar/ 
-|Home page: https://github.com/andersen-lab/ivar
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/andersenlabapps/ivar/ 
+| Home page: https://github.com/andersen-lab/ivar
 
 Versions
 ~~~~~~~~

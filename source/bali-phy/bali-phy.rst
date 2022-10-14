@@ -6,9 +6,9 @@ Bali-phy
 Introduction
 ~~~~~~~~
 Bali-phy is a tool for bayesian co-estimation of phylogenies and multiple alignments via MCMC.
-|For more information, please check:
-|BioContainers: https://biocontainers.pro/tools/bali-phy 
-|Home page: https://github.com/bredelings/BAli-Phy
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/bali-phy 
+| Home page: https://github.com/bredelings/BAli-Phy
 
 Versions
 ~~~~~~~~

@@ -5,7 +5,7 @@ Lofreq
 
 Introduction
 ~~~~~~~~
-``Lofreq`` is a fast and sensitive variant-caller for inferring SNVs and indels from next-generation sequencing data. |For more information, please check its website: https://biocontainers.pro/tools/lofreq and its home page on `Github`_.
+``Lofreq`` is a fast and sensitive variant-caller for inferring SNVs and indels from next-generation sequencing data. | For more information, please check its website: https://biocontainers.pro/tools/lofreq and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

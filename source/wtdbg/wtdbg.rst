@@ -5,7 +5,7 @@ Wtdbg2
 
 Introduction
 ~~~~~~~~
-``Wtdbg2`` is a de novo sequence assembler for long noisy reads produced by PacBio or Oxford Nanopore Technologies (ONT). |For more information, please check its website: https://biocontainers.pro/tools/wtdbg and its home page on `Github`_.
+``Wtdbg2`` is a de novo sequence assembler for long noisy reads produced by PacBio or Oxford Nanopore Technologies (ONT). | For more information, please check its website: https://biocontainers.pro/tools/wtdbg and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

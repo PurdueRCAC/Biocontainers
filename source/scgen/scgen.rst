@@ -6,8 +6,8 @@ Scgen
 Introduction
 ~~~~~~~~
 scGen is a generative model to predict single-cell perturbation response across cell types, studies and species.
-|For more information, please check:
-|Home page: https://github.com/theislab/scgen
+| For more information, please check:
+| Home page: https://github.com/theislab/scgen
 
 Versions
 ~~~~~~~~

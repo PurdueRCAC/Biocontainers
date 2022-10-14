@@ -5,7 +5,7 @@ Eggnog-mapper
 
 Introduction
 ~~~~~~~~
-``Eggnog-mapper`` is a tool for fast functional annotation of novel sequences. |For more information, please check its website: https://biocontainers.pro/tools/eggnog-mapper and its home page on `Github`_.
+``Eggnog-mapper`` is a tool for fast functional annotation of novel sequences. | For more information, please check its website: https://biocontainers.pro/tools/eggnog-mapper and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

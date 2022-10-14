@@ -5,7 +5,7 @@ Sourmash
 
 Introduction
 ~~~~~~~~
-``Sourmash`` is a tool for quickly search, compare, and analyze genomic and metagenomic data sets. |For more information, please check its website: https://biocontainers.pro/tools/sourmash and its home page on `Github`_.
+``Sourmash`` is a tool for quickly search, compare, and analyze genomic and metagenomic data sets. | For more information, please check its website: https://biocontainers.pro/tools/sourmash and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

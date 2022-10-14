@@ -5,7 +5,7 @@ Idba
 
 Introduction
 ~~~~~~~~
-``Idba`` is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinfomatics. |For more information, please check its website: https://biocontainers.pro/tools/idba and its home page: https://i.cs.hku.hk/~alse/hkubrg/projects/idba/index.html.
+``Idba`` is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinfomatics. | For more information, please check its website: https://biocontainers.pro/tools/idba and its home page: https://i.cs.hku.hk/~alse/hkubrg/projects/idba/index.html.
 
 Versions
 ~~~~~~~~

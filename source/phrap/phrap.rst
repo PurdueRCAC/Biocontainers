@@ -5,7 +5,7 @@ phrap
 
 Introduction
 ~~~~~~~~
-``phrap`` is a program for assembling shotgun DNA sequence data. |For more information, please check its home page: http://www.phrap.org/phredphrapconsed.html#block_phrap.
+``phrap`` is a program for assembling shotgun DNA sequence data. | For more information, please check its home page: http://www.phrap.org/phredphrapconsed.html#block_phrap.
 
 Versions
 ~~~~~~~~

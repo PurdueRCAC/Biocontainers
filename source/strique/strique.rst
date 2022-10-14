@@ -6,9 +6,9 @@ Strique
 Introduction
 ~~~~~~~~
 STRique is a python package to analyze repeat expansion and methylation states of short tandem repeats (STR) in Oxford Nanopore Technology (ONT) long read sequencing data.
-|For more information, please check:
-|Docker hub: https://hub.docker.com/r/giesselmann/strique 
-|Home page: https://github.com/giesselmann/STRique
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/giesselmann/strique 
+| Home page: https://github.com/giesselmann/STRique
 
 Versions
 ~~~~~~~~
@@ -49,4 +49,4 @@ To run strique on our clusters::
 
     STRique_test.py
     STRique.py index data/ > data/reads.fofn
-    cat data/c9orf72.sam | STRique.py count ./data/reads.fofn ./models/r9_4_450bps.model ./configs/repeat_config.tsv --config ./configs/STRique.json
+    cat data/c9orf72.sam |  STRique.py count ./data/reads.fofn ./models/r9_4_450bps.model ./configs/repeat_config.tsv --config ./configs/STRique.json

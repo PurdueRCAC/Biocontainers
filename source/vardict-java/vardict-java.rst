@@ -6,9 +6,9 @@ Vardict-java
 Introduction
 ~~~~~~~~
 VarDictJava is a variant discovery program written in Java and Perl. It is a Java port of VarDict variant caller.
-|For more information, please check:
-|Docker hub: https://hub.docker.com/r/hydragenetics/vardict 
-|Home page: https://github.com/AstraZeneca-NGS/VarDictJava
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/hydragenetics/vardict 
+| Home page: https://github.com/AstraZeneca-NGS/VarDictJava
 
 Versions
 ~~~~~~~~
@@ -54,7 +54,7 @@ To run vardict-java on our clusters::
         -f $AF_THR -N genome \
         -b input.bam \
         -c 1 -S 2 -E 3 -g 4 output.bed \
-         | teststrandbias.R \
-         | var2vcf_valid.pl \
+         |  teststrandbias.R \
+         |  var2vcf_valid.pl \
          -N genome -E -f $AF_THR \
          > vars.vcf

@@ -6,9 +6,9 @@ Samclip
 Introduction
 ~~~~~~~~
 Samclip is a tool to filter SAM file for soft and hard clipped alignments.
-|For more information, please check:
-|BioContainers: https://biocontainers.pro/tools/samclip 
-|Home page: https://github.com/tseemann/samclip
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/samclip 
+| Home page: https://github.com/tseemann/samclip
 
 Versions
 ~~~~~~~~

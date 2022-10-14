@@ -6,8 +6,8 @@ Signalp6
 Introduction
 ~~~~~~~~
 SignalP predicts the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms: Gram-positive prokaryotes, Gram-negative prokaryotes, and eukaryotes.
-|For more information, please check:
-|Home page: https://services.healthtech.dtu.dk/service.php?SignalP
+| For more information, please check:
+| Home page: https://services.healthtech.dtu.dk/service.php?SignalP
 
 Versions
 ~~~~~~~~

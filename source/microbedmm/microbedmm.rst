@@ -5,7 +5,7 @@ MicrobeDMM
 
 Introduction
 ~~~~~~~~
-``MicrobeDMM`` is a suite of programs used for empirical Bayes fitting of DMM models. |For more information, please check its home page: https://code.google.com/archive/p/microbedmm.
+``MicrobeDMM`` is a suite of programs used for empirical Bayes fitting of DMM models. | For more information, please check its home page: https://code.google.com/archive/p/microbedmm.
 
 Versions
 ~~~~~~~~

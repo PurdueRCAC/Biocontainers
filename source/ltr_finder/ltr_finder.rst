@@ -6,8 +6,8 @@ Ltr_finder
 Introduction
 ~~~~~~~~
 LTR_Finder is an efficient program for finding full-length LTR retrotranspsons in genome sequences.
-|For more information, please check:
-|Home page: https://github.com/xzhub/LTR_Finder
+| For more information, please check:
+| Home page: https://github.com/xzhub/LTR_Finder
 
 Versions
 ~~~~~~~~
@@ -51,4 +51,4 @@ To run ltr_finder on our clusters::
     ml biocontainers ltr_finder
 
     ltr_finder 3ds_72.fa -P 3ds_72 -w2  > test/3ds_72_result.txt \
-        |  genome_plot.pl test/
+        |   genome_plot.pl test/

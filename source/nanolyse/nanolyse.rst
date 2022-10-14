@@ -5,7 +5,7 @@ Nanolyse
 
 Introduction
 ~~~~~~~~
-``Nanolyse`` is a tool to remove reads mapping to the lambda phage genome from a fastq file. |For more information, please check its website: https://biocontainers.pro/tools/nanolyse and its home page on `Github`_.
+``Nanolyse`` is a tool to remove reads mapping to the lambda phage genome from a fastq file. | For more information, please check its website: https://biocontainers.pro/tools/nanolyse and its home page on `Github`_.
 
 Versions
 ~~~~~~~~
@@ -42,5 +42,5 @@ To run Nanolyse on our clusters::
     module --force purge
     ml biocontainers nanolyse
 
-    gunzip -c reads.fastq.gz | NanoLyse | gzip > reads_without_lambda.fastq.gz
+    gunzip -c reads.fastq.gz |  NanoLyse |  gzip > reads_without_lambda.fastq.gz
 .. _Github: https://github.com/wdecoster/nanolyse

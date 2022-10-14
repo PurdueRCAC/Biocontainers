@@ -6,9 +6,9 @@ Mirtop
 Introduction
 ~~~~~~~~
 Mirtop is a ommand line tool to annotate with a standard naming miRNAs e isomiRs.
-|For more information, please check:
-|BioContainers: https://biocontainers.pro/tools/mirtop 
-|Home page: https://github.com/miRTop/mirtop
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/mirtop 
+| Home page: https://github.com/miRTop/mirtop
 
 Versions
 ~~~~~~~~

@@ -6,9 +6,9 @@ Checkm-genome
 Introduction
 ~~~~~~~~
 CheckM provides a set of tools for assessing the quality of genomes recovered from isolates, single cells, or metagenomes.
-|For more information, please check:
-|BioContainers: https://biocontainers.pro/tools/checkm-genome 
-|Home page: https://github.com/Ecogenomics/CheckM
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/checkm-genome 
+| Home page: https://github.com/Ecogenomics/CheckM
 
 Versions
 ~~~~~~~~

@@ -5,7 +5,7 @@ IQ-TREE
 
 Introduction
 ~~~~~~~~
-``IQ-TREE`` is an efficient phylogenomic software by maximum likelihood. |For more information, please check its website: https://biocontainers.pro/tools/iqtree and its home page: http://www.iqtree.org.
+``IQ-TREE`` is an efficient phylogenomic software by maximum likelihood. | For more information, please check its website: https://biocontainers.pro/tools/iqtree and its home page: http://www.iqtree.org.
 
 Versions
 ~~~~~~~~

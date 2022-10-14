@@ -5,7 +5,7 @@ Pybigwig
 
 Introduction
 ~~~~~~~~
-``Pybigwig`` is a python extension, written in C, for quick access to bigBed files and access to and creation of bigWig files. |For more information, please check its website: https://biocontainers.pro/tools/pybigwig and its home page on `Github`_.
+``Pybigwig`` is a python extension, written in C, for quick access to bigBed files and access to and creation of bigWig files. | For more information, please check its website: https://biocontainers.pro/tools/pybigwig and its home page on `Github`_.
 
 Versions
 ~~~~~~~~
@@ -33,7 +33,7 @@ To run pybigwig interactively on our clusters::
    salloc: Nodes bell-a008 are ready for job
    (base) UserID@bell-a008:~ $ module load biocontainers pybigwig
    (base) UserID@bell-a008:~ $ python
-   Python 3.6.15 | packaged by conda-forge | (default, Dec  3 2021, 18:49:41)  
+   Python 3.6.15 |  packaged by conda-forge |  (default, Dec  3 2021, 18:49:41)  
    [GCC 9.4.0] on linux
    Type "help", "copyright", "credits" or "license" for more information.  
    >>> import pyBigWig

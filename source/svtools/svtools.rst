@@ -6,9 +6,9 @@ Svtools
 Introduction
 ~~~~~~~~
 Svtools is a suite of utilities designed to help bioinformaticians construct and explore cohort-level structural variation calls.
-|For more information, please check:
-|Docker hub: https://hub.docker.com/r/halllab/svtools 
-|Home page: https://github.com/hall-lab/svtools
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/halllab/svtools 
+| Home page: https://github.com/hall-lab/svtools
 
 Versions
 ~~~~~~~~

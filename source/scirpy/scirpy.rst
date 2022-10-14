@@ -6,8 +6,8 @@ Scirpy
 Introduction
 ~~~~~~~~
 Scirpy is a scalable python-toolkit to analyse T cell receptor (TCR) or B cell receptor (BCR) repertoires from single-cell RNA sequencing (scRNA-seq) data. It seamlessly integrates with the popular scanpy library and provides various modules for data import, analysis and visualization.
-|For more information, please check:
-|Home page: https://github.com/scverse/scirpy
+| For more information, please check:
+| Home page: https://github.com/scverse/scirpy
 
 Versions
 ~~~~~~~~

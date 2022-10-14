@@ -6,7 +6,7 @@ Subread
 Introduction
 ~~~~~~~~
 ``Subread`` carries out high-performance read alignment, quantification and mutation discovery.  It is a general-purpose read aligner which can be used to map both genomic DNA-seq reads and DNA-seq reads. It uses a new mapping paradigm called seed-and-vote to achieve fast, accurate and scalable read mapping. Subread automatically determines if a read should be globally or locally aligned, therefore particularly powerful in mapping RNA-seq reads. It supports INDEL detection and can map reads with both fixed and variable lengths.
-|For more information, please check its website: https://biocontainers.pro/tools/subread and its home page: http://subread.sourceforge.net.
+| For more information, please check its website: https://biocontainers.pro/tools/subread and its home page: http://subread.sourceforge.net.
 
 Versions
 ~~~~~~~~

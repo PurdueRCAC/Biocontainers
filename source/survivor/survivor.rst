@@ -6,9 +6,9 @@ Survivor
 Introduction
 ~~~~~~~~
 SURVIVOR is a tool set for simulating/evaluating SVs, merging and comparing SVs within and among samples, and includes various methods to reformat or summarize SVs.
-|For more information, please check:
-|BioContainers: https://biocontainers.pro/tools/survivor 
-|Home page: https://github.com/fritzsedlazeck/SURVIVOR
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/survivor 
+| Home page: https://github.com/fritzsedlazeck/SURVIVOR
 
 Versions
 ~~~~~~~~

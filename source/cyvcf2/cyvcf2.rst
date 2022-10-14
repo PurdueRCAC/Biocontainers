@@ -5,7 +5,7 @@ Cyvcf2
 
 Introduction
 ~~~~~~~~
-``Cyvcf2`` is a cython wrapper around htslib built for fast parsing of Variant Call Format (VCF) files. |For more information, please check its website: https://biocontainers.pro/tools/cyvcf2 and its home page on `Github`_.
+``Cyvcf2`` is a cython wrapper around htslib built for fast parsing of Variant Call Format (VCF) files. | For more information, please check its website: https://biocontainers.pro/tools/cyvcf2 and its home page on `Github`_.
 
 Versions
 ~~~~~~~~
@@ -34,7 +34,7 @@ To run Cyvcf2 interactively on our clusters::
    salloc: Nodes bell-a008 are ready for job
    (base) UserID@bell-a008:~ $ module load biocontainers scanpy/1.8.2
    (base) UserID@bell-a008:~ $ python
-   Python 3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 06:08:53) 
+   Python 3.7.12 |  packaged by conda-forge |  (default, Oct 26 2021, 06:08:53) 
    [GCC 9.4.0] on linux
    Type "help", "copyright", "credits" or "license" for more information.
    >>> from cyvcf2 import VCF

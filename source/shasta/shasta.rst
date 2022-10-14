@@ -6,8 +6,8 @@ Shasta
 Introduction
 ~~~~~~~~
 Shasta is a software for de novo assembly from Oxford Nanopore reads.
-|For more information, please check:
-|Home page: https://github.com/chanzuckerberg/shasta
+| For more information, please check:
+| Home page: https://github.com/chanzuckerberg/shasta
 
 Versions
 ~~~~~~~~

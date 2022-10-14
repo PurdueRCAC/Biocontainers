@@ -5,7 +5,7 @@ Rnaquast
 
 Introduction
 ~~~~~~~~
-``Rnaquast`` is a quality assessment tool for de novo transcriptome assemblies. |For more information, please check its website: https://biocontainers.pro/tools/rnaquast and its home page: http://cab.spbu.ru/software/rnaquast/.
+``Rnaquast`` is a quality assessment tool for de novo transcriptome assemblies. | For more information, please check its website: https://biocontainers.pro/tools/rnaquast and its home page: http://cab.spbu.ru/software/rnaquast/.
 
 Versions
 ~~~~~~~~

@@ -6,9 +6,9 @@ Glnexus
 Introduction
 ~~~~~~~~
 Glnexus: Scalable gVCF merging and joint variant calling for population sequencing projects.
-|For more information, please check:
-|BioContainers: https://biocontainers.pro/tools/glnexus 
-|Home page: https://github.com/dnanexus-rnd/GLnexus
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/glnexus 
+| Home page: https://github.com/dnanexus-rnd/GLnexus
 
 Versions
 ~~~~~~~~

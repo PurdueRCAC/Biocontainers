@@ -5,7 +5,7 @@ Csvtk
 
 Introduction
 ~~~~~~~~
-``Csvtk`` is a cross-platform, efficient and practical CSV/TSV toolkit. |For more information, please check its website: https://biocontainers.pro/tools/csvtk and its home page on `Github`_.
+``Csvtk`` is a cross-platform, efficient and practical CSV/TSV toolkit. | For more information, please check its website: https://biocontainers.pro/tools/csvtk and its home page on `Github`_.
 
 Versions
 ~~~~~~~~
@@ -44,7 +44,7 @@ To run Csvtk on our clusters::
     ml biocontainers csvtk
 
     cat data.csv \
-     | csvtk summary --ignore-non-digits --fields f4:sum,f5:sum --groups f1,f2 \
-     | csvtk pretty
+     |  csvtk summary --ignore-non-digits --fields f4:sum,f5:sum --groups f1,f2 \
+     |  csvtk pretty
 
 .. _Github: https://github.com/shenwei356/csvtk

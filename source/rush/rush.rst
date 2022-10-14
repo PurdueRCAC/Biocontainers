@@ -5,7 +5,7 @@ rush
 
 Introduction
 ~~~~~~~~
-``rush`` is a tool similar to GNU parallel and gargs. rush borrows some idea from them and has some unique features, e.g., supporting custom defined variables, resuming multi-line commands, more advanced embeded replacement strings. |For more information, please check its home page on `Github`_.
+``rush`` is a tool similar to GNU parallel and gargs. rush borrows some idea from them and has some unique features, e.g., supporting custom defined variables, resuming multi-line commands, more advanced embeded replacement strings. | For more information, please check its home page on `Github`_.
 
 Versions
 ~~~~~~~~

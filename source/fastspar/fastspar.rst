@@ -5,7 +5,7 @@ Fastspar
 
 Introduction
 ~~~~~~~~
-``Fastspar`` is a tool for rapid and scalable correlation estimation for compositional data. |For more information, please check its website: https://biocontainers.pro/tools/fastspar and its home page on `Github`_.
+``Fastspar`` is a tool for rapid and scalable correlation estimation for compositional data. | For more information, please check its website: https://biocontainers.pro/tools/fastspar and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

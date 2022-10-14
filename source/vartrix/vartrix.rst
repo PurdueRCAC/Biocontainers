@@ -5,7 +5,7 @@ Vartrix
 
 Introduction
 ~~~~~~~~
-``Vartrix`` is a software tool for extracting single cell variant information from 10x Genomics single cell data. |For more information, please check its website: https://biocontainers.pro/tools/vartrix and its home page on `Github`_.
+``Vartrix`` is a software tool for extracting single cell variant information from 10x Genomics single cell data. | For more information, please check its website: https://biocontainers.pro/tools/vartrix and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

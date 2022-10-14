@@ -6,9 +6,9 @@ Bactopia
 Introduction
 ~~~~~~~~
 Bactopia is a flexible pipeline for complete analysis of bacterial genomes. The goal of Bactopia is to process your data with a broad set of tools, so that you can get to the fun part of analyses quicker!
-|For more information, please check:
-|Docker hub: https://hub.docker.com/r/bactopia/bactopia 
-|Home page: https://github.com/bactopia/bactopia
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/bactopia/bactopia 
+| Home page: https://github.com/bactopia/bactopia
 
 Versions
 ~~~~~~~~

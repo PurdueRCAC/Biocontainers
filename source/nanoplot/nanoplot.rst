@@ -5,7 +5,7 @@ Nanoplot
 
 Introduction
 ~~~~~~~~
-``Nanoplot`` is a plotting tool for long read sequencing data and alignments. |For more information, please check its website: https://biocontainers.pro/tools/nanoplot and its home page on `Github`_.
+``Nanoplot`` is a plotting tool for long read sequencing data and alignments. | For more information, please check its website: https://biocontainers.pro/tools/nanoplot and its home page on `Github`_.
 
 Versions
 ~~~~~~~~

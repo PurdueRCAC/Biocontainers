@@ -8,7 +8,7 @@ Cooler
 
 Introduction
 ~~~~~~~~
-``Cooler`` is a support library for a sparse, compressed, binary persistent storage format, also called cooler, used to store genomic interaction data, such as Hi-C contact matrices. |For more information, please check its website: https://biocontainers.pro/tools/cooler and its home page on `Github`_.
+``Cooler`` is a support library for a sparse, compressed, binary persistent storage format, also called cooler, used to store genomic interaction data, such as Hi-C contact matrices. | For more information, please check its website: https://biocontainers.pro/tools/cooler and its home page on `Github`_.
 
 Versions
 ~~~~~~~~
@@ -37,7 +37,7 @@ To run Cooler interactively on our clusters::
    salloc: Nodes bell-a008 are ready for job
    (base) UserID@bell-a008:~ $ module load biocontainers cooler
    (base) UserID@bell-a008:~ $ python
-   Python 3.9.7 | packaged by conda-forge | (default, Sep 29 2021, 19:20:46) 
+   Python 3.9.7 |  packaged by conda-forge |  (default, Sep 29 2021, 19:20:46) 
    [GCC 9.4.0] on linux
    Type "help", "copyright", "credits" or "license" for more information.  
    >>> import cooler
