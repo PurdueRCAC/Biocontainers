@@ -333,6 +333,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/pandora/pandora
    source/pangolin/pangolin
    source/panphlan/panphlan
+   source/parabricks/parabricks
    source/parallel-fastq-dump/parallel-fastq-dump
    source/parliament2/parliament2
    source/parsnp/parsnp
