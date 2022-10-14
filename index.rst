@@ -426,6 +426,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/seidr/seidr
    source/sepp/sepp
    source/seqkit/seqkit
+   source/seqyclean/seqyclean
    source/shasta/shasta
    source/shorah/shorah
    source/shortstack/shortstack
@@ -458,6 +459,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/sprod/sprod
    source/squeezemeta/squeezemeta
    source/sra-tools/sra-tools
+   source/srst2/srst2
    source/stacks/stacks
    source/star/star
    source/staramr/staramr
@@ -480,6 +482,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/t-coffee/t-coffee
    source/tetranscripts/tetranscripts
    source/tiara/tiara
+   source/tigmint/tigmint
    source/tobias/tobias
    source/tombo/tombo
    source/tophat/tophat

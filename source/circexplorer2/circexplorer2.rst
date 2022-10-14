@@ -46,4 +46,3 @@ To run circexplorer2 on our clusters::
 
     module --force purge
     ml biocontainers circexplorer2
-

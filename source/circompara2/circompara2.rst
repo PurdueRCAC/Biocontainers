@@ -129,4 +129,3 @@ To run circompara2 on our clusters::
 
     module --force purge
     ml biocontainers circompara2
-

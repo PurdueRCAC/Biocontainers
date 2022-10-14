@@ -1,50 +1,48 @@
 .. _backbone-label:
 
-Resfinder
+Srst2
 ==============================
 
 Introduction
 ~~~~~~~~
-ResFinder identifies acquired antimicrobial resistance genes in total or partial sequenced isolates of bacteria.
+Srst2 is designed to take Illumina sequence data, a MLST database and/or a database of gene sequences (e.g. resistance genes, virulence genes, etc) and report the presence of STs and/or reference genes.
 For more information, please check:
-Home page: https://github.com/cadms/resfinder
+Docker hub: https://hub.docker.com/r/staphb/srst2 
+Home page: https://github.com/katholt/srst2
 
 Versions
 ~~~~~~~~
-- 4.1.5
+- 0.2.0
 
 Commands
 ~~~~~~~
-- run_resfinder.py
-- run_batch_resfinder.py
+- getmlst.py
+- srst2
+- slurm_srst2.py
 
 Module
 ~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load resfinder
+    module load srst2
 
 Example job
 ~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run resfinder on our clusters::
+To run srst2 on our clusters::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
-    #SBATCH --job-name=resfinder
+    #SBATCH --job-name=srst2
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers resfinder
-
-    run_resfinder.py -o output -db_res db_resfinder/ \
-         -db_res_kma db_resfinder/kma_indexing -db_point db_pointfinder/ \
-         -s "Escherichia coli" --acquired --point -ifq data/test_isolate_01_*
+    ml biocontainers srst2

@@ -44,4 +44,3 @@ To run clearcnv on our clusters::
 
     module --force purge
     ml biocontainers clearcnv
-

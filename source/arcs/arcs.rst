@@ -44,4 +44,3 @@ To run arcs on our clusters::
 
     module --force purge
     ml biocontainers arcs
-

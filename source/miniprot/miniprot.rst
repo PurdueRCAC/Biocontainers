@@ -43,4 +43,3 @@ To run miniprot on our clusters::
 
     module --force purge
     ml biocontainers miniprot
-

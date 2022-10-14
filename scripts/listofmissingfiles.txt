@@ -1,7 +1,3 @@
-arcs
-circexplorer2
-circompara2
-clearcnv
-links
-miniprot
-rapmap
+seqyclean
+srst2
+tigmint

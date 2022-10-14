@@ -1,50 +1,46 @@
 .. _backbone-label:
 
-Resfinder
+Seqyclean
 ==============================
 
 Introduction
 ~~~~~~~~
-ResFinder identifies acquired antimicrobial resistance genes in total or partial sequenced isolates of bacteria.
+Seqyclean is used to pre-process NGS data in order to prepare for downstream analysis.
 For more information, please check:
-Home page: https://github.com/cadms/resfinder
+Docker hub: https://hub.docker.com/r/staphb/seqyclean 
+Home page: https://github.com/ibest/seqyclean
 
 Versions
 ~~~~~~~~
-- 4.1.5
+- 1.10.09
 
 Commands
 ~~~~~~~
-- run_resfinder.py
-- run_batch_resfinder.py
+- seqyclean
 
 Module
 ~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load resfinder
+    module load seqyclean
 
 Example job
 ~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run resfinder on our clusters::
+To run seqyclean on our clusters::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
-    #SBATCH --job-name=resfinder
+    #SBATCH --job-name=seqyclean
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers resfinder
-
-    run_resfinder.py -o output -db_res db_resfinder/ \
-         -db_res_kma db_resfinder/kma_indexing -db_point db_pointfinder/ \
-         -s "Escherichia coli" --acquired --point -ifq data/test_isolate_01_*
+    ml biocontainers seqyclean

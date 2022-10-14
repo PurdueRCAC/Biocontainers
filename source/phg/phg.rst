@@ -56,4 +56,3 @@ To run phg on our clusters::
 
     module --force purge
     ml biocontainers phg
-

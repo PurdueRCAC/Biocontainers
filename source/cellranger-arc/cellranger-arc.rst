@@ -44,4 +44,3 @@ To run cellranger-arc on our clusters::
 
     module --force purge
     ml biocontainers cellranger-arc
-

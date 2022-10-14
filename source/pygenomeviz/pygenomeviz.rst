@@ -49,4 +49,3 @@ To run pygenomeviz on our clusters::
 
     module --force purge
     ml biocontainers pygenomeviz
-

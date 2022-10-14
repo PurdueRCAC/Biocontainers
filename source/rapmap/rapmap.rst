@@ -44,4 +44,3 @@ To run rapmap on our clusters::
 
     module --force purge
     ml biocontainers rapmap
-

@@ -9,6 +9,8 @@ Introduction
 
 Versions
 ~~~~~~~~
+- 2.9.1
+- 2.9
 - 2.9-py38
 
 Commands

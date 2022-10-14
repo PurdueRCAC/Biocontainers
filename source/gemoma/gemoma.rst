@@ -44,4 +44,3 @@ To run gemoma on our clusters::
 
     module --force purge
     ml biocontainers gemoma
-
