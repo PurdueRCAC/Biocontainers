@@ -29,6 +29,11 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
+.. note::
+    By default, snpEff only uses ``1gb`` of memory. To allocate larger  memory, add ``-Xmx`` flag in your command. ::
+
+    snpeff -Xmx10g ## To allocate 10gb of memory.
+
 To run Snpeff on our clusters::
 
     #!/bin/bash
