@@ -24,21 +24,19 @@ Module
 You can load the modules by::
     
     module load biocontainers
-    module load alphafold/2.1.1
+    module load alphafold
 
 Usage
 ~~~~~~~~
-The usage of Alphafold on our cluster is very straightford::
+The usage of Alphafold on our cluster is very straightford, users can create a flagfile containing the database path information::
 
-   run_alphafold.sh --flagfile=$AlphaDB --fasta_paths=XX --output_dir=XX ...
-
-``$AlphaDB`` (/depot/itap/datasets/alphafold/full_db.ff) is a configuration file passed to AlphaFold containing the location of the database. Typically it should not be edited. Users can add other parameters based on your needs.  
+   run_alphafold.sh --flagfile=full_db.ff --fasta_paths=XX --output_dir=XX ...
 
 Users can check its detaied user guide in its `Github`_. 
 
-AlphaDB
+full_db.ff 
 ~~~~~~~
-Contents of $AlphaDB::
+Example contents of full_db.ff::
 
   --db_preset=full_dbs
   --bfd_database_path=/depot/itap/datasets/alphafold/db/bfd/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt
@@ -55,10 +53,36 @@ Contents of $AlphaDB::
   --jackhmmer_binary_path=/usr/bin/jackhmmer
   --kalign_binary_path=/usr/bin/kalign
 
+.. note::
+   Since ``Version v2.2.0``, the AlphaFold-Multimer model parameters has been updated. The updated full database is stored in ``depot/itap/datasets/alphafold/db_20221014``. Users need to update the flagfile using the updated database::
+        run_alphafold.sh --flagfile=full_db_20221014.ff --fasta_paths=XX --output_dir=XX ...
+
+full_db_20221014.ff 
+~~~~~~
+Example contents of full_db_20221014.ff::
+
+  --db_preset=full_dbs
+  --bfd_database_path=/depot/itap/datasets/alphafold/db_20221014/bfd/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt
+  --data_dir=/depot/itap/datasets/alphafold/db_20221014/
+  --uniref90_database_path=/depot/itap/datasets/alphafold/db_20221014/uniref90/uniref90.fasta
+  --mgnify_database_path=/depot/itap/datasets/alphafold/db_20221014/mgnify/mgy_clusters_2018_12.fa
+  --uniclust30_database_path=/depot/itap/datasets/alphafold/db_20221014/uniclust30/uniclust30_2018_08/uniclust30_2018_08
+  --pdb_seqres_database_path=/depot/itap/datasets/alphafold/db_20221014/pdb_seqres/pdb_seqres.txt
+  --uniprot_database_path=/depot/itap/datasets/alphafold/db_20221014/uniprot
+  --template_mmcif_dir=/depot/itap/datasets/alphafold/db_20221014/pdb_mmcif/mmcif_files
+  --obsolete_pdbs_path=/depot/itap/datasets/alphafold/db_20221014/pdb_mmcif/obsolete.dat
+  --hhblits_binary_path=/usr/bin/hhblits
+  --hhsearch_binary_path=/usr/bin/hhsearch
+  --jackhmmer_binary_path=/usr/bin/jackhmmer
+  --kalign_binary_path=/usr/bin/kalign
+
 Example job using CPU
 ~~~~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
+.. note::
+   Notice that since version 2.2.0, the parameter ``--use_gpu_relax`` is required. 
 
 To run alphafold using CPU::
     
@@ -73,10 +97,12 @@ To run alphafold using CPU::
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers alphafold/2.1.1
+    ml biocontainers alphafold
     
-    run_alphafold.sh  --flagfile=$AlphaDB --fasta_paths=/scratch/bell/zhan4429/Containers4/alphafold/sample.fasta --max_template_date=2022-02-01 \
-    --output_dir=/scratch/bell/zhan4429/Containers4/alphafold/af2_full --model_preset=monomer
+    run_alphafold.sh --flagfile=full_db_20221014.ff  \
+        --fasta_paths=sample.fasta --max_template_date=2022-02-01 \
+        --output_dir=af2_full_out --model_preset=monomer \
+        --use_gpu_relax=False
 
 Example job using GPU
 ~~~~~~~~
@@ -97,10 +123,12 @@ To run alphafold using GPU::
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers alphafold/2.1.1
+    ml biocontainers alphafold
     
-    run_alphafold.sh  --flagfile=$AlphaDB --fasta_paths=/scratch/bell/zhan4429/Containers4/alphafold/sample.fasta --max_template_date=2022-02-01 \
-    --output_dir=/scratch/bell/zhan4429/Containers4/alphafold/af2_full --model_preset=monomer
+    run_alphafold.sh --flagfile=full_db_20221014.ff \
+        --fasta_paths=sample.fasta --max_template_date=2022-02-01 \
+        --output_dir=af2_full_out --model_preset=monomer \
+        --use_gpu_relax=True
 
 
 .. _Github: https://github.com/deepmind/alphafold/
