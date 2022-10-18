@@ -11,7 +11,7 @@ Introduction
 
 Versions
 ~~~~~~~~
-- 0.8.1-py37
+- 0.8.1
 
 Commands
 ~~~~~~~

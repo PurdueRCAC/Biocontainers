@@ -6,11 +6,9 @@ Srst2
 Introduction
 ~~~~~~~~
 Srst2 is designed to take Illumina sequence data, a MLST database and/or a database of gene sequences (e.g. resistance genes, virulence genes, etc) and report the presence of STs and/or reference genes.
-
-
-| For more information, please check:
-| Docker hub: https://hub.docker.com/r/staphb/srst2 
-| Home page: https://github.com/katholt/srst2
+For more information, please check:
+Docker hub: https://hub.docker.com/r/staphb/srst2 
+Home page: https://github.com/katholt/srst2
 
 Versions
 ~~~~~~~~

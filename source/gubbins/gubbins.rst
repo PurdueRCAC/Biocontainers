@@ -11,7 +11,7 @@ Introduction
 
 Versions
 ~~~~~~~~
-- 3.2.0-py39
+- 3.2.0
 
 Commands
 ~~~~~~~

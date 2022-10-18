@@ -6,10 +6,8 @@ Tigmint
 Introduction
 ~~~~~~~~
 Tigmint identifies and corrects misassemblies using linked (e.g. MGI's stLFR, 10x Genomics Chromium) or long (e.g. Oxford Nanopore Technologies long reads) DNA sequencing reads. The reads are first aligned to the assembly, and the extents of the large DNA molecules are inferred from the alignments of the reads. The physical coverage of the large molecules is more consistent and less prone to coverage dropouts than that of the short read sequencing data. The sequences are cut at positions that have insufficient spanning molecules. Tigmint outputs a BED file of these cut points, and a FASTA file of the cut sequences.
-
-
-| For more information, please check:
-| Home page: https://github.com/bcgsc/tigmint
+For more information, please check:
+Home page: https://github.com/bcgsc/tigmint
 
 Versions
 ~~~~~~~~

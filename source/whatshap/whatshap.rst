@@ -14,7 +14,7 @@ Whatshap is a software for phasing genomic variants using DNA sequencing reads, 
 
 Versions
 ~~~~~~~~
-- 1.4-py39
+- 1.4
 
 Commands
 ~~~~~~~

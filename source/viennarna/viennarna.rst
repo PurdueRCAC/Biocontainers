@@ -11,7 +11,7 @@ Introduction
 
 Versions
 ~~~~~~~~
-- 2.5.0-py37
+- 2.5.0
 
 Commands
 ~~~~~~~

@@ -11,7 +11,7 @@ Introduction
 
 Versions
 ~~~~~~~~
-- 2.2.1-py36
+- 2.2.1
 
 Commands
 ~~~~~~~

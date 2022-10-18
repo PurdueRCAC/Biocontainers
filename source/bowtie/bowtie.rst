@@ -11,7 +11,7 @@ Introduction
 
 Versions
 ~~~~~~~~
-- 1.3.1-py38
+- 1.3.1
 
 Commands
 ~~~~~~~

@@ -77,6 +77,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/bamutil/bamutil
    source/barrnap/barrnap
    source/basenji/basenji
+   source/bazam/bazam
    source/bbmap/bbmap
    source/bbtools/bbtools
    source/bcftools/bcftools
@@ -343,6 +344,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/peakranger/peakranger
    source/pepper_deepvariant/pepper_deepvariant
    source/perl-bioperl/perl-bioperl
+   source/phast/phast
    source/phd2fasta/phd2fasta
    source/phg/phg
    source/phrap/phrap

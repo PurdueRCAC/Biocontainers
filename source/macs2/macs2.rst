@@ -11,7 +11,7 @@ Introduction
 
 Versions
 ~~~~~~~~
-- 2.2.7.1-py39
+- 2.2.7.1
 
 Commands
 ~~~~~~~

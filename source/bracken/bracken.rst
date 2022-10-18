@@ -14,8 +14,8 @@ Detailed usage can be found here: https://github.com/jenniferlu717/Bracken
 
 Versions
 ~~~~~~~~
-- 2.6.1-py37
-- 2.7-py39
+- 2.6.1
+- 2.7
 
 Commands
 ~~~~~~

@@ -12,6 +12,7 @@ Introduction
 Versions
 ~~~~~~~~
 - 3.4.0
+- 3.5.0
 
 Commands
 ~~~~~~  

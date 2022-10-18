@@ -11,8 +11,8 @@ Introduction
 
 Versions
 ~~~~~~~~
-- 3.4-py38
-- 3.7-py37
+- 3.4
+- 3.7
 
 Commands
 ~~~~~~~

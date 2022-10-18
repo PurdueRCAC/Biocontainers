@@ -11,7 +11,7 @@ Introduction
 
 Versions
 ~~~~~~~~
-- 2.4.2-py38
+- 2.4.2
 
 Commands
 ~~~~~~~

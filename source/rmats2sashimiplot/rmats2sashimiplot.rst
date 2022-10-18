@@ -12,7 +12,7 @@ Detailed usage can be found here: https://github.com/Xinglab/rmats2sashimiplot
 
 Versions
 ~~~~~~~~
-- 2.0.4-py37
+- 2.0.4
 
 Commands
 ~~~~~~

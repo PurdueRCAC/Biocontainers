@@ -14,7 +14,7 @@ Clever-toolkit is a collection of tools to discover and genotype structural vari
 
 Versions
 ~~~~~~~~
-- 2.4-py37
+- 2.4
 
 Commands
 ~~~~~~~

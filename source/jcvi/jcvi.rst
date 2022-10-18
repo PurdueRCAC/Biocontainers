@@ -13,7 +13,7 @@ Jcvi is a collection of Python libraries to parse bioinformatics files, or perfo
 
 Versions
 ~~~~~~~~
-- 1.2.7-py39
+- 1.2.7
 
 Commands
 ~~~~~~~

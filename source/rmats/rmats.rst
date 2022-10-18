@@ -12,7 +12,7 @@ Detailed usage can be found here: http://rnaseq-mats.sourceforge.net
 
 Versions
 ~~~~~~~~
-- 4.1.1-py37
+- 4.1.1
 
 Commands
 ~~~~~~

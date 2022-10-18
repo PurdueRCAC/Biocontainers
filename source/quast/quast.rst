@@ -16,7 +16,8 @@ DO NOT call it 'python quast.py| metaquast.py'
 
 Versions
 ~~~~~~~~
-- 5.0.2-py37
+- 5.0.2
+- 5.2.0
 
 Commands
 ~~~~~~~

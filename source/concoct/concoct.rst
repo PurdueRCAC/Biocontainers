@@ -11,7 +11,7 @@ Detailed usage can be found here: https://github.com/BinPro/CONCOCT
 
 Versions
 ~~~~~~~~
-- 1.1.0-py38
+- 1.1.0
 
 Commands
 ~~~~~~

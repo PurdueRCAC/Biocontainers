@@ -11,7 +11,7 @@ Introduction
 
 Versions
 ~~~~~~~~
-- 0.18.0-py37
+- 0.18.0
 
 Commands
 ~~~~~~~
