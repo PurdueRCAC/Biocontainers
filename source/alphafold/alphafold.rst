@@ -54,7 +54,8 @@ Example contents of full_db.ff::
   --kalign_binary_path=/usr/bin/kalign
 
 .. note::
-   Since ``Version v2.2.0``, the AlphaFold-Multimer model parameters has been updated. The updated full database is stored in ``depot/itap/datasets/alphafold/db_20221014``. Users need to update the flagfile using the updated database::
+   Since Version v2.2.0, the AlphaFold-Multimer model parameters has been updated. The updated full database is stored in ``depot/itap/datasets/alphafold/db_20221014``. Users need to update the flagfile using the updated database::
+        
         run_alphafold.sh --flagfile=full_db_20221014.ff --fasta_paths=XX --output_dir=XX ...
 
 full_db_20221014.ff 
