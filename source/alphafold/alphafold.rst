@@ -83,7 +83,7 @@ Example job using CPU
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
 .. note::
-   Notice that since version 2.2.0, the parameter ``--use_gpu_relax`` is required. 
+   Notice that since version 2.2.0, the parameter ``--use_gpu_relax=False`` is required. 
 
 To run alphafold using CPU::
     
@@ -109,6 +109,9 @@ Example job using GPU
 ~~~~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
+.. note::
+      Notice that since version 2.2.0, the parameter ``--use_gpu_relax=True`` is required. 
 
 To run alphafold using GPU::
     
