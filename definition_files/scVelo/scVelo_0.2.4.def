@@ -1,0 +1,16 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v0.2.4
+
+%help
+    This container contains the latest version (v0.2.4) of scVelo.  
+
+%post
+    pip install -U scvelo
+    pip install python-igraph louvain
+    pip install numpy scipy pandas scikit-learn  matplotlib
+    pip install tqdm ipywidgets
+

@@ -1,0 +1,49 @@
+Bootstrap: docker
+From: ubuntu:18.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.1.7
+
+%help
+    This container contains the latest version (v1.1.7) of reciprocal_smallest_distance.  
+
+%post
+
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends --no-install-suggests build-essential libssl-dev gcc wget python-pip python-setuptools  unzip paml git
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    # KALIGN 2.0.4
+        cd /opt
+        wget -P downloads http://msa.sbc.su.se/downloads/kalign/current.tar.gz
+        mkdir kalign2
+        cd kalign2
+        tar xzf ../downloads/current.tar.gz
+        ./configure
+        make
+
+    # BLAST 2.2.24+
+        cd /opt
+        wget -P downloads ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.2.24/ncbi-blast-2.2.24+-x64-linux.tar.gz
+        tar xzf downloads/ncbi-blast-2.2.24+-x64-linux.tar.gz
+
+    # RSD
+        cd /opt
+        git clone https://github.com/todddeluca/reciprocal_smallest_distance
+        cd reciprocal_smallest_distance
+        python setup.py install
+
+%environment
+    export LC_ALL=C
+    export PATH=/opt/kalign2:/opt/ncbi-blast-2.2.24+/bin:/opt/reciprocal_smallest_distance/bin:$PATH
+

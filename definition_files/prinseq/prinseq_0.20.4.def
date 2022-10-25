@@ -1,0 +1,22 @@
+Bootstrap: localimage
+From: prinseq_latest.sif 
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v0.20.4
+
+%post
+    TZ='America/Indiana/Indianapolis'
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get install libcairo2-dev pkg-config build-essential locales locales-all
+
+    cpan ExtUtils::PkgConfig Cairo JSON
+    cpan Statistics::PCA
+
+%environment
+    export LC_ALL=C
+    export LANG=en_US.UTF-8
+    export LANGUAGE=en_US.UTF-8

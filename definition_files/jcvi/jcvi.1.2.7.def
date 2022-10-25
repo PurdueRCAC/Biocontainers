@@ -1,0 +1,43 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.2.7
+
+%post
+	apt-get update
+	apt-get install -y gcc git build-essential libmagickwand-dev tesseract-ocr libtesseract-dev 
+	apt-get install -y python3-dev libxml2-dev libxslt-dev
+	apt-get install -y libncurses-dev libcurl4-openssl-dev zlib1g-dev
+	apt-get install -y vcftools python3-pip
+	apt-get install -y libblas-dev liblapack-dev libatlas-base-dev gfortran
+	apt-get install -y wget autoconf libssl-dev
+
+	pip install boto3 awscli
+	pip install pyfaidx pyliftover pyvcf
+	pip install cython
+	pip install pandas
+	pip install scipy
+
+# GRABSEEDS dependencies
+# <https://github.com/tanghaibao/jcvi/wiki/GRABSEEDS%3A-How-to-install>
+	apt-get install -y libxft-dev libfreetype6 libfreetype6-dev
+	apt-get install -y libmagickwand-dev
+	apt-get install -y texlive texlive-latex-extra texlive-latex-recommended cm-super
+	apt-get install -y dvipng
+
+	pip install pytesseract matplotlib scikit-image pypdf2 wand Pillow
+
+# https://github.com/tanghaibao/jcvi/issues/307
+	apt install curl
+
+# Install last
+       cd /opt
+       git clone https://gitlab.com/mcfrith/last.git
+       cd last && make
+
+# Install jcvi
+       pip install biopython==1.70 numpy deap networkx matplotlib jcvi
+%environment
+      export PATH=/opt/last/bin:$PATH

@@ -1,0 +1,24 @@
+Bootstrap: docker
+From: bdgp/mummer4
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.3.1
+
+%files
+    abacas.1.3.1.pl /usr/local/bin/
+
+%post
+    apt-get -y update
+    apt-get -y install libstdc++6
+
+    cd /usr/local/bin
+    chmod 755 abacas.1.3.1.pl
+    ln -s abacas.1.3.1.pl abacas.pl
+
+%environment
+    export LC_ALL=C
+    export LANG=en_US.UTF-8
+    export LANGUAGE=en_US.UTF-8
+
+

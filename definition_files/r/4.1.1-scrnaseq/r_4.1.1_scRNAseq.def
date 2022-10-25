@@ -1,0 +1,88 @@
+Bootstrap: localimage
+From: r-base:4.1.1.sif
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+%post
+
+    # update the system and install building essentials
+    apt-get -y update
+    #apt-get -y dist-upgrade
+    apt-get install -y gdal-bin libgdal-dev libudunits2-dev
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+
+    # Rscript
+    Rscript -e "install.packages('tidyverse')"
+
+    Rscript -e "install.packages('openxlsx', dependencies = TRUE)"
+
+    Rscript -e "install.packages('devtools')"
+
+    Rscript -e "install.packages('remotes')"
+
+    ## Seurat3 
+    Rscript -e "install.packages('Seurat')"
+
+    Rscript -e "install.packages('terra')"
+
+    ## monocle3
+    Rscript -e 'if (!requireNamespace("BiocManager", quietly = TRUE))
+        install.packages("BiocManager")' \
+    && Rscript -e "BiocManager::install(c('BiocGenerics', 'DelayedArray', 'DelayedMatrixStats','limma', 'S4Vectors', 'SingleCellExperiment','SummarizedExperiment', 'batchelor','Matrix.utils'))"
+
+    Rscript -e "devtools::install_github('cole-trapnell-lab/leidenbase')" 
+    Rscript -e "devtools::install_github('cole-trapnell-lab/monocle3')"
+
+
+    ## scDblFinder
+    Rscript -e 'BiocManager::install("scDblFinder")'
+
+    ## DropletUtils
+    Rscript -e 'BiocManager::install("DropletUtils")'
+
+    ## SingleR
+    Rscript -e 'BiocManager::install("SingleR")'
+
+    ## celldex
+    Rscript -e 'BiocManager::install("celldex")'
+
+    ## dittoSeq
+    Rscript -e 'BiocManager::install("dittoSeq")'
+
+    ## scCATCH
+    Rscript -e 'BiocManager::install("scCATCH")'
+
+    ## SeuratWrappers
+    Rscript -e "remotes::install_github('satijalab/seurat-wrappers')"
+
+    ## CoGAPS
+    Rscript -e 'BiocManager::install("CoGAPS")'
+
+    ## tricycle
+    Rscript -e 'BiocManager::install("tricycle")'
+
+    ##  miQC
+    Rscript -e 'BiocManager::install("miQC")'
+
+    ## Nebulosa
+    Rscript -e 'BiocManager::install("Nebulosa")'
+
+    ## schex
+    Rscript -e 'BiocManager::install("schex")'
+
+    ## rliger
+    Rscript -e "install.packages('rliger')"
+
+    ## scMappR
+    Rscript -e 'BiocManager::install("pcaMethods")'
+    Rscript -e 'BiocManager::install("preprocessCore")'
+    Rscript -e 'BiocManager::install("GSVA")'
+    Rscript -e 'install.packages("ADAPTS")'
+    Rscript -e "install.packages('scMappR')"
+
+

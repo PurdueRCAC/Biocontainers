@@ -1,0 +1,30 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+  Author "Yucheng Zhang <zhan4429@purdue.edu>"
+  Version v3.0.2
+
+%help
+  This container contains the latest version (v3.0.1) of run_dbcan. 
+  https://github.com/linnabrown/run_dbcan
+  
+
+%post
+  conda install -c anaconda conda-build \
+    && conda install wget \
+    && conda install -c bioconda -y diamond hmmer prodigal \
+    && conda clean -a
+    
+  # Install run_dbcan 
+  pip install dbcan==3.0.2
+
+  #Database Installation
+  mkdir -p /app/db && cd /app/db \
+    && wget http://bcb.unl.edu/dbCAN2/download/CAZyDB.09242021.fa && diamond makedb --in CAZyDB.09242021.fa -d CAZy \
+      && wget https://bcb.unl.edu/dbCAN2/download/Databases/V10/dbCAN-HMMdb-V10.txt && mv dbCAN-HMMdb-V10.txt dbCAN.txt && hmmpress dbCAN.txt \
+      && wget http://bcb.unl.edu/dbCAN2/download/Databases/tcdb.fa && diamond makedb --in tcdb.fa -d tcdb \
+      && wget http://bcb.unl.edu/dbCAN2/download/Databases/tf-1.hmm && hmmpress tf-1.hmm \
+      && wget http://bcb.unl.edu/dbCAN2/download/Databases/tf-2.hmm && hmmpress tf-2.hmm \
+      && wget http://bcb.unl.edu/dbCAN2/download/Databases/stp.hmm && hmmpress stp.hmm
+ 

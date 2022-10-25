@@ -1,0 +1,29 @@
+Bootstrap: docker
+From: ubuntu
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.4.4
+
+%help
+    This container contains the latest version (v2.2.4) of varscan.  
+
+%post
+
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends --no-install-suggests build-essential git  openjdk-11-jdk
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    cd /opt/
+    git clone https://github.com/dkoboldt/varscan.git
+    cp /opt/varscan/*.jar /usr/local/bin/
+

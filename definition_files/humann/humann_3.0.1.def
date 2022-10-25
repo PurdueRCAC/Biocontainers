@@ -1,0 +1,25 @@
+Bootstrap: localimage
+From: humann_3.0.1.sif
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v3.0.1
+
+%post
+    ######################################################################
+    APP=humann3
+    APPVER=3.0.1
+
+
+    humann_config --update database_folders nucleotide /depot/itap/datasets/humann/chocophlan
+    humann_config --update database_folders protein /depot/itap/datasets/humann/uniref
+    humann_config --update database_folders utility_mapping /depot/itap/datasets/humann/utility_mapping
+
+
+    ######################################################################
+%environment
+    ######################################################################
+    export LC_ALL=C
+    export PATH=/opt/conda/bin:$PATH
+
+

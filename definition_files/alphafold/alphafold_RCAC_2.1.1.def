@@ -1,0 +1,17 @@
+Bootstrap: docker
+From: tacc/alphafold:2.1.1
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.1.1 
+
+%help
+    This is the container modified from TACC/alphafold:2.1.1
+
+%post
+    chmod +x /app/alphafold/run_alphafold.py
+    chmod +x  /app/run_alphafold.sh
+
+%environment
+    export PATH=/app/:$PATH
+    export PATH=/app/alphafold/:$PATH

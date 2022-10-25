@@ -1,0 +1,27 @@
+Bootstrap: docker
+From: ubuntu
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.2.0
+
+%help
+    This container contains the latest version (v2.2.0) of exonerate.  
+
+%post
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends --no-install-suggests build-essential wget libglib2.0-0
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+
+    cd /opt
+    wget http://ftp.ebi.ac.uk/pub/software/vertebrategenomics/exonerate/exonerate-2.2.0-x86_64.tar.gz
+    tar -xvf exonerate-2.2.0-x86_64.tar.gz
+    rm exonerate-2.2.0-x86_64.tar.gz
+    cp exonerate-2.2.0-x86_64/bin/* /usr/local/bin/
+
+

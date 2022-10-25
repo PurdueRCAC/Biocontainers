@@ -1,0 +1,44 @@
+Bootstrap: docker
+From: ubuntu:18.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v4.1
+
+%post
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    apt-get -y install --no-install-recommends --no-install-suggests fontconfig fonts-urw-base35 qt5-default libqt5gui5  libqt5quickcontrols2-5 libqt5multimedia5 libqt5webengine5 libqt5quick5 libqt5qml5 gnuplot perl-doc zlib1g-dev gcc g++ git ca-certificates build-essential make zip wget unzip locales locales-all
+
+    apt -y  install --reinstall libqt5widgets5 libqt5gui5 libqt5dbus5 libqt5network5 libqt5core5a 
+
+    strip --remove-section=.note.ABI-tag /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
+    #clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    # Install Perl modules  
+    cpan App::cpanminus
+    cpanm YAML
+    cpanm Hash::Merge
+    cpanm Parallel::ForkManager
+    cpanm MCE::Mutex
+    cpanm Thread::Queue
+    cpanm threads
+    cpanm Math::Utils
+
+    # install signalp4.1
+
+    %files
+    /tmp/Yucheng/signalp-4.1/ /opt/
+
+%environment
+    export LC_ALL=C
+    export LANG=en_US.UTF-8
+    export LANGUAGE=en_US.UTF-8
+    export PATH=/opt/signalp-4.1/:$PATH

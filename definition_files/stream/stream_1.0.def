@@ -1,0 +1,10 @@
+Bootstrap: docker
+From: pinellolab/stream
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.0
+
+%post
+    pip install ipython ipykernel pandas statsmodels numba
+

@@ -1,0 +1,37 @@
+Bootstrap: docker
+From: ubuntu
+
+%labels
+        Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+%files
+        MicrobeDMMv1.0 /opt/MicrobeDMMv1.0
+
+%post
+
+        #Exporting variables needed
+        TZ='America/Indiana/Indianapolis'
+
+        # update the system and install building essentials
+        ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+        apt-get -y update
+
+        apt-get install -y \
+                make \
+                cmake \
+                libcairo2-dev \
+                libcurl4-openssl-dev \
+                libgsl-dev \
+                libssl-dev \
+
+
+# clean up
+        apt-get -y autoremove
+        apt-get clean
+        rm -rf /var/lib/apt/lists/*
+
+        cd /opt/MicrobeDMMv1.0 && make
+
+%environment
+        export LC_ALL=C
+        export PATH=/opt/MicrobeDMMv1.0:$PATH

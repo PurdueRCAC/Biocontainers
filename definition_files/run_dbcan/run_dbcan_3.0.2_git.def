@@ -1,0 +1,21 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+  Author "Yucheng Zhang <zhan4429@purdue.edu>"
+  Version v3.0.2
+
+%help
+  This container contains the latest version (v3.0.1) of run_dbcan. 
+  https://github.com/linnabrown/run_dbcan
+  
+%post
+  conda install -c anaconda conda-build \
+    && conda install wget \
+    && conda install -c bioconda -y diamond hmmer prodigal \
+    && conda clean -a
+  
+  # Install run_dbcan 
+  cd /opt/
+  git clone https://github.com/linnabrown/run_dbcan.git
+  cd run_dbcan && python setup.py install

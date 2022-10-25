@@ -1,0 +1,38 @@
+Bootstrap: docker
+From: ubuntu
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v0.2.5
+
+%post
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    apt-get -y dist-upgrade
+
+    apt-get -y install --no-install-recommends --no-install-suggests unzip  locales locales-all git  wget python-is-python3 python3-pip build-essential samtools bwa
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    cd /opt
+    wget https://pypi.python.org/packages/source/t/toolshed/toolshed-0.4.0.tar.gz
+    tar xzvf toolshed-0.4.0.tar.gz
+    cd toolshed-0.4.0
+    python setup.py install
+
+    cd /opt
+    git clone https://github.com/brentp/bwa-meth.git
+    cd bwa-meth
+    python setup.py install
+
+    cd /usr/local/bin/ 
+    ln -s /usr/bin/bash .
+
+%environment
+    export LANG=C
+    export PATH=/opt/bwa-meth:$PATH
+

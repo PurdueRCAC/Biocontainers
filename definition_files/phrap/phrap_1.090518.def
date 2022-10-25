@@ -1,0 +1,33 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.090518
+
+%files
+    distrib.tar.gz  /opt/phrap/
+
+%post
+    mkdir -p /opt/phrap
+    # update the system and install building essentials 
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends --no-install-suggests libssl-dev libcurl4-gnutls-dev libbz2-dev liblzma-dev libz-dev samtools gcc g++ git ca-certificates build-essential make zip wget unzip locales locales-all
+
+    cd /opt/phrap
+    tar xzvf distrib.tar.gz
+    make
+    chmod 755 /opt/phrap/phrap 
+    chmod 755 /opt/phrap/cross_match
+    chmod 755 /opt/phrap/swat
+
+    cd /usr/local/bin
+    ln -s /opt/phrap/phrap .
+    ln -s /opt/phrap/cross_match .
+    ln -s /opt/phrap/swat .
+
+%environment
+    export LC_ALL=C
+
+

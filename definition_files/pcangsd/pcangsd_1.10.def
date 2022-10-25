@@ -1,0 +1,22 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.10
+
+%help
+    This container contains the latest version (v1.10) of pcangsd.  
+
+%post
+    apt-get -y update && apt-get -y install libpthread-stubs0-dev
+
+    conda install -c conda-forge gcc gxx pthread-stubs
+    conda install git python=3.7 pip numpy scipy cython
+
+    cd /opt/
+    git clone https://github.com/Rosemeis/pcangsd.git
+    cd pcangsd
+    python setup.py build_ext --inplace
+    pip install -e
+

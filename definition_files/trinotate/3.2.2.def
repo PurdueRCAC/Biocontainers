@@ -1,0 +1,32 @@
+Bootstrap: localimage
+From: quay.io_biocontainers_trinotate:3.2.2--pl5321hdfd78af_1.sif 
+
+
+%files
+/home/yucheng/Documents/singularity6/Trinotate/PerlLib/* /usr/local/lib/perl5/site_perl
+/home/yucheng/Documents/singularity6/Trinotate/TrinotateWeb/cgi-bin/PerlLib/* /usr/local/lib/perl5/site_perl
+/home/yucheng/Documents/singularity6/Trinotate/PerlLib /usr/PerlLib
+/home/yucheng/Documents/singularity6/Trinotate/resources /resources
+
+%post
+cd /usr/local
+mkdir annotation_importer
+mkdir gene_ontology
+mkdir functional_enrichment_analysis
+mkdir report_summary
+mkdir rnammer_support
+mkdir transcript_expression
+mkdir trinotateSeqLoader
+ln -s /usr/local/bin/extract_GO_assignments_from_Trinotate_xls.pl .
+ln -s /usr/local/bin/import_transcript_names.pl annotation_importer/
+ln -s /usr/local/bin/import_Trinotate_xls_as_annot.pl annotation_importer/
+ln -s /usr/local/bin/run_cluster_functional_enrichment_analysis.pl functional_enrichment_analysis/
+ln -s /usr/local/bin/trinotate_report_summary.pl report_summary/
+ln -s /usr/local/bin/RnammerTranscriptome.pl rnammer_support/
+ln -s /usr/local/bin/Trinotate_GO_to_SLIM.pl gene_ontology/
+mkdir /usr/local/bin/util
+ln -s /usr/local/bin/make_cXp_html.pl /usr/local/bin/util/
+%environment
+export LC_ALL=C
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8

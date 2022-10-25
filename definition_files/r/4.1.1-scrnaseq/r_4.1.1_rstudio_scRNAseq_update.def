@@ -1,0 +1,11 @@
+Bootstrap: localimage
+From: r_4.1.1_rstudio_scrnaseq.sif
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+%post
+
+    Rscript -e "install.packages('doSNOW')"
+    Rscript -e "devtools::install_github('r3fang/SnapATAC')"
+

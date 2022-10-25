@@ -1,0 +1,23 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version latest
+
+%help
+    This container contains the latest version of DeepMicro.  
+
+%post
+    conda install git
+    cd /opt/
+    git clone https://github.com/minoh0201/DeepMicro.git
+    cd DeepMicro
+    chmod +x *.py
+
+    conda install python=3.6
+    pip install --upgrade pip && pip install numpy==1.16.2 && pip install pandas==0.24.2 && pip install scipy==1.2.1 && pip install scikit-learn==0.20.3 && pip install matplotlib==3.0.3 && pip install psutil==5.6.1 && pip install keras==2.2.4
+    pip install tensorflow-gpu==1.13.1
+
+%environment
+    export PATH=/opt/DeepMicro/:$PATH

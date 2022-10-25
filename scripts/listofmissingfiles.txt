@@ -1,3 +1,4 @@
-bazam
+infernal
 parabricks
-phast
+pplacer
+shigeifinder

@@ -1,0 +1,24 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v0.2.0
+
+%help 
+    Singularity container with actc v0.2.0.
+
+%post
+    # update the system and install building essentials 
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends --no-install-suggests ca-certificates  gcc g++ git  build-essential make zip wget unzip locales locales-all
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+# Install actc
+    cd /usr/local/bin
+    wget https://github.com/PacificBiosciences/actc/releases/download/0.2.0/actc
+    chmod +x actc

@@ -1,0 +1,22 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.8.2
+
+%help
+    This container contains the latest version (v1.8.2) of scanpy.  
+
+%post
+    # Install seaborn scikit-learn statsmodels numba pytables  
+    conda install seaborn scikit-learn statsmodels numba pytables
+    conda install -c conda-forge python-igraph leidenalg
+
+    # Install jupter notebook
+    conda install -c conda-forge notebook
+    conda install -c conda-forge jupyter_contrib_nbextensions
+
+    # Install Scanpy 
+    pip install scanpy
+

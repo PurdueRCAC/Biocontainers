@@ -1,0 +1,13 @@
+Bootstrap: localimage
+From: squeezemeta_1.5.2.sif
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.5.2
+
+%help
+    The full database has been pre-downloaded to /depot/itap/datasets/SqueezeMeta
+
+%post
+    configure_nodb.pl /depot/itap/datasets/SqueezeMeta/db
+

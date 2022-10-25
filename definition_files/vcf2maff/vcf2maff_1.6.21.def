@@ -1,0 +1,24 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.6.21
+
+%post
+    # Install Perl
+    apt update -y && apt install -y gcc
+    conda install -c conda-forge perl python=3.7
+    
+    # Install vep and others
+    conda install -qy -c conda-forge -c bioconda -c defaults ensembl-vep==102.0 htslib==1.10.2 bcftools==1.10.2 samtools==1.10 ucsc-liftover==377
+
+    cd /opt
+    wget https://github.com/mskcc/vcf2maf/archive/refs/tags/v1.6.21.tar.gz
+    tar -xvf v1.6.21.tar.gz && rm -f v1.6.21.tar.gz
+    cd vcf2maf-1.6.21
+    ln -s $(pwd)/maf2maf.pl /usr/local/bin/maf2maf.pl && chmod +x /usr/local/bin/maf2maf.pl
+    ln -s $(pwd)/maf2vcf.pl /usr/local/bin/maf2vcf.pl && chmod +x /usr/local/bin/maf2vcf.pl
+    ln -s $(pwd)/vcf2maf.pl /usr/local/bin/vcf2maf.pl && chmod +x /usr/local/bin/vcf2maf.pl
+    ln -s $(pwd)/vcf2vcf.pl /usr/local/bin/vcf2vcf.pl && chmod +x /usr/local/bin/vcf2vcf.pl
+

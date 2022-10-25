@@ -1,0 +1,24 @@
+Bootstrap: docker
+From: molpopgen/fwdpy11
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v0.18.1
+
+%post
+    # update the system and install building essentials
+    apt-get -y update
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    # Install packages to support Jupyter
+    pip install ipython ipykernel pandas numba
+
+    # Install missing packages in public container
+    pip install msprime
+
+    # Create alias for python3
+    ln -s /usr/bin/python3 /usr/bin/python
+

@@ -1,0 +1,41 @@
+Bootstrap: docker
+From: ubuntu:latest
+
+%labels
+        Maintainer "Yucheng Zhang <zhan4429@purdue.edu>"
+        Version v0.14.0
+
+%setup
+        wget -q -c https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
+
+%files
+        Anaconda3-2021.11-Linux-x86_64.sh /Anaconda3-2021.11-Linux-x86_64.sh
+
+%environment
+        export LANG=C
+        export PATH=/opt/anaconda/bin:$PATH
+
+%post
+        mkdir -p /etc/localtime /depot /scratch /apps
+        
+        #Exporting variables needed
+        TZ='America/Indiana/Indianapolis' 
+
+        # update the system and install building essentials
+        ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+        apt update && apt upgrade -y
+        apt install -y build-essential libgl1 libopenmpi-dev
+
+        bash /Anaconda3-2021.11-Linux-x86_64.sh -b -p /opt/anaconda
+        /opt/anaconda/bin/conda update conda -n base
+        /bin/rm -f /Anaconda3-2021.11-Linux-x86_64.sh
+        /opt/anaconda/bin/conda install -c conda-forge -c bioconda cellrank-krylov
+        /opt/anaconda/bin/conda install -c anaconda mpi4py
+        /opt/anaconda/bin/conda install -c conda-forge petsc
+        /opt/anaconda/bin/conda install -c conda-forge petsc4py
+        /opt/anaconda/bin/conda install -c conda-forge slepc
+        /opt/anaconda/bin/conda install -c conda-forge slepc4py
+        pip install 'cellrank[krylov]'
+%runscript
+        /opt/anaconda/bin/ipython
+

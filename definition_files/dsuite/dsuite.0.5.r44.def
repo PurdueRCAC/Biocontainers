@@ -1,0 +1,41 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version Dsuite v0.5 r44
+
+%help
+    This is a container with Dsuite installed.
+
+%post
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends --no-install-suggests libz-dev libqhull-dev  python-is-python3 pip  gcc g++ git ca-certificates build-essential make  wget libfreetype6-dev python3-matplotlib python3-gi python3-gi-cairo gir1.2-gtk-3.0
+    #clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    pip install cairocffi
+
+    cd /opt
+    git clone https://github.com/millanek/Dsuite.git
+    cd Dsuite
+    make 
+    cd utils
+    python setup.py install --user --prefix=
+    chmod +x *.py
+    cd ../Build
+    chmod +x Dsuite
+
+
+%environment
+    export LC_ALL=C
+    export PATH=/opt/Dsuite/utils/:$PATH
+    export PATH=/opt/Dsuite/Build/:$PATH

@@ -1,0 +1,106 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.5.2
+
+%help
+    This container contains the latest version (v1.5.2) of SqueezeMeta.  
+
+%post
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    ### Install openjdk.
+    apt-get -y install openjdk-11-jdk
+    ### Install Ruby.
+    apt-get -y install ruby
+
+
+    ### Install R
+    apt-get install -y \
+            cmake \
+            libcairo2-dev \
+            libcurl4-openssl-dev \
+            libgsl-dev \
+            libhdf5-dev \
+            libnetcdf-dev \
+            libssl-dev \
+            libv8-dev \
+            libxml2-dev \
+            libxt-dev \
+            r-base-core r-recommended r-base-html \
+        gnupg apt-transport-https ca-certificates software-properties-common
+
+    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+    add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
+    apt-get -y update && apt-get -y install  r-base
+
+    ### System libraries.
+    apt-get -y install git wget locales locales-all sqlite3 libxml2-dev libcurl4-openssl-dev tree ca-certificates libboost-all-dev libssl-dev
+
+
+    ### Perl modules.
+    apt-get -y install libtie-ixhash-perl libclass-dbi-mysql-perl libxml-parser-perl libxml-libxml-perl libdbd-sqlite3-perl
+    cpan Linux::MemInfo
+    cpan Term::ANSIColor
+
+
+    ### Python modules.
+    apt-get -y install python3-pip python3-dev python3-scipy python3-matplotlib python3-numpy python3-pandas libgsl-dev
+    python3 -m pip install future cython 
+    python3 -m pip install dendropy pysam biopython==1.76 # biopython 1.76 is the last version to support python3.5 (included in Ubuntu16) but might not be needed for higher versions of Ubuntu
+    python3 -m pip install scikit-learn nose #sklearn 0.20 is the latest version that will work with python3.5 / ubuntu 16, you can get a more recent one in higher versions of Ubuntu
+
+
+    ### Download SqueezeMeta.
+    # You can download the latest release of SqueezeMeta from https://github.com/jtamames/SqueezeM/releases/latest
+    # Alternatively you can clone the github repository.
+    #     git clone http://github.com/jtamames/SqueezeMeta
+
+
+    ### Install R packages.
+    Rscript -e 'install.packages("doMC")'
+    Rscript -e 'install.packages("ggplot2")'
+    Rscript -e 'install.packages("data.table")'
+    Rscript -e 'install.packages("reshape2")'
+    Rscript -e 'if (!requireNamespace("BiocManager", quietly = TRUE))
+        install.packages("BiocManager")' \
+    && Rscript -e 'BiocManager::install(c("pathview"))' 
+
+    # Install SqueezeMeta
+    cd /opt
+    git clone https://github.com/jtamames/SqueezeMeta.git
+
+    R CMD INSTALL /opt/SqueezeMeta/bin/DAS_Tool/package/DASTool_1.1.1.tar.gz
+    R CMD INSTALL /opt/SqueezeMeta/lib/SQMtools
+
+
+    ### Optional: install concoct (if you want to runing along with or instead of maxbin/metabat)
+    cd /opt/SqueezeMeta/bin/CONCOCT-1.1.0
+    python3 setup.py install
+
+
+    ### Install databases and test data.
+    # This will occupy around 200Gb.
+    #<installpath>/SqueezeMeta/utils/install_utils/download_databases.pl <datapath>
+    #/opt/SqueezeMeta/utils/install_utils/configure_nodb.pl /depot/itap/datasets/SqueezeMeta
+
+    ### Test that all the dependencies can be located in this environment.
+    #<installpath>/SqueezeMeta/utils/install_utils/test_install.pl
+
+
+    ### Run SqueezeMeta on test data.
+    #cd <datapath>/test
+    #perl <installpath>/SqueezeMeta/scripts/SqueezeMeta.pl -m merged -p Hadza -s test.samples -f raw/
+
+%environment
+    export LC_ALL=C
+    export LANG=en_US.UTF-8
+    export LANGUAGE=en_US.UTF-8
+    export PATH=/opt/SqueezeMeta/utils/binning_utils:/opt/SqueezeMeta/utils/anvio_utils:/opt/SqueezeMeta/utils/binning_utils:/opt/SqueezeMeta/utils/install_utils:/opt/SqueezeMeta/scripts:$PATH
+

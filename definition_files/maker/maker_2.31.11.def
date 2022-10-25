@@ -1,0 +1,14 @@
+Bootstrap: localimage
+From: maker_2.31.11--pl5262hec0a270_1.sif
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.31.11
+
+%files
+    /home/yucheng/Documents/Singularity2/dependencies/gmes_linux_64 /usr/local/bin/gmes_linux_64
+    /home/yucheng/Documents/Singularity2/dependencies/genemark_suite_linux_64/gmsuite /usr/local/bin/genemark_suite_linux_64/gmsuite
+
+%environment
+    export LC_ALL=C
+    export PATH=/usr/local/bin/gmes_linux_64/:/usr/local/bin/genemark_suite_linux_64/gmsuite:$PATH

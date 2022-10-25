@@ -1,0 +1,99 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.5.1
+
+%help 
+    Singularity container with PASApipeline v.2.5.1. This container also installed GMAP, blat, pblat, mimimap2, Fasta3, and SQLite. 
+
+%post
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+    GSNAP_VER=2021-12-17
+    SRC=/usr/local/src
+    BIN=/usr/local/bin
+
+    # update the system and install building essentials 
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get update
+    apt-get install --yes --no-install-recommends  --no-install-suggests ca-certificates netbase wget git\
+        samtools libdb-dev  curl \
+        build-essential gcc-multilib \
+        pkg-config libgd-gd2-perl libgd-dev \
+        gcc g++ make cpanminus \
+        sqlite3 mysql-server mysql-client libdbd-mysql-perl libssl-dev \
+        software-properties-common locales locales-all
+
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    # Install perl modules
+    cpanm install DB_File URI::Escape GD DBI DBD::SQLite
+
+    # GMAP installation
+    cd $SRC
+    wget http://research-pub.gene.com/gmap/src/gmap-gsnap-2021-12-17.tar.gz && \
+            tar xvf gmap-gsnap-${GSNAP_VER}.tar.gz && \
+            cd gmap-${GSNAP_VER} && \
+            ./configure && \
+            make && \
+            make install 
+
+    # Install BLAT
+    cd  $BIN
+    wget http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/blat/blat && \
+        chmod 755 ./blat
+
+    # Install PBLAT
+    cd $SRC
+    wget https://github.com/icebert/pblat/archive/refs/tags/2.5.tar.gz && \
+        tar xvf 2.5.tar.gz && \
+        cd pblat-2.5 && \
+        make && \
+        cp pblat $BIN/
+
+
+    # Install minimap2
+    wget https://github.com/lh3/minimap2/releases/download/v2.22/minimap2-2.22_x64-linux.tar.bz2 && \
+        tar xvf minimap2-2.22_x64-linux.tar.bz2 && \
+        cd minimap2-2.22_x64-linux && \
+        cp k8 minimap2 paftools.js $BIN/
+
+    # Install Fasta3
+    cd $SRC
+    wget https://github.com/wrpearson/fasta36/archive/refs/tags/v36.3.8h_04-May-2020.tar.gz && \
+            tar zxvf v36.3.8h_04-May-2020.tar.gz && \
+            cd ./fasta36-36.3.8h_04-May-2020/src && \
+            make -f ../make/Makefile.linux_sse2 all && \
+            cp ../bin/fasta36 /usr/local/bin/fasta && \
+            rm $SRC/v36.3.8h_04-May-2020.tar.gz
+
+    # PASA installation
+    cd $SRC
+    ## pasapipeline v2.5.1
+    PASA_CO=15f2b9365c393f0068a269eb00b3acb2bc06983a
+    git clone https://github.com/PASApipeline/PASApipeline.git && \
+        cd PASApipeline && \
+        git checkout $PASA_CO && \
+        git submodule init && git submodule update && \
+        make
+
+    PASAHOME=/usr/local/src/PASApipeline
+    cp $PASAHOME/bin/* /usr/local/bin/
+
+    #conf.txt
+    mkdir -p /usr/local/src/PASApipeline/pasa_conf/
+    cd /usr/local/src/PASApipeline/pasa_conf/
+    wget https://github.com/PASApipeline/PASApipeline/blob/master/Docker/conf.txt
+
+    rm $SRC/*tar.gz
+
+%environment
+    export LC_ALL=C
+    export LANG=en_US.UTF-8
+    export LANGUAGE=en_US.UTF-8
+    export PATH=/usr/local/src/PASApipeline/:$PATH

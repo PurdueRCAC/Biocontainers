@@ -1,0 +1,11 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v0.6.7
+
+%post
+    conda install --channel conda-forge --channel bioconda pybedtools
+    conda install --channel conda-forge --channel bioconda bedtools htslib
+

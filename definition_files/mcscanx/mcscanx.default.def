@@ -1,0 +1,71 @@
+Bootstrap: docker
+From: ubuntu:latest
+
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version default
+
+%help
+    https://github.com/wyp1125/MCScanX
+
+%post
+     #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  
+    #Install system
+    apt-get update -y && apt-get -y install wget libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6 libcurl4-openssl-dev build-essential git default-jre  openjdk-8-jdk  
+  # install Miniconde
+    # wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh && chmod +x Miniconda3-latest-Linux-x86_64.sh && bash Miniconda3-latest-Linux-x86_64.sh -bfp /usr/local
+    if [ ! -d /usr/local/anaconda ]; then
+        wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/anaconda.sh \
+        && chmod +x ~/anaconda.sh && bash ~/anaconda.sh -bfp /usr/local/anaconda && rm ~/anaconda.sh
+    fi
+
+    # set anaconda path
+    export PATH=$PATH:/usr/local/anaconda/bin
+    conda update conda
+
+    conda config --add channels r
+    conda config --add channels defaults
+    conda config --add channels conda-forge
+    conda config --add channels bioconda
+
+    # install mamba for speed
+    conda install -c conda-forge mamba
+
+    # install bioperl
+    mamba install perl-bioperl  
+
+    mamba install -c bioconda perl-bio-tools-run-alignment-clustalw 
+    cpanm Bio::SeqIO
+    ####### Clean image #######
+    apt-get autoremove -y
+    apt-get clean -y
+    mamba clean -y --all
+
+
+    # Install MCScanX
+    cd /opt && git clone https://github.com/wyp1125/MCScanX.git && cd MCScanX
+    make
+
+    
+    # And generate wrappers:
+    for pl in /opt/MCScanX/downstream_analyses/*.pl; do
+        f="$(basename -- $pl)"
+        WRAPPER="/usr/local/bin/${f%.*}"
+        echo "/usr/local/anaconda/bin/perl $pl" '"$@"' > "$WRAPPER"
+        chmod +x "$WRAPPER"
+    done
+
+%environment
+       export LC_ALL=C
+       export LANG=en_US.UTF-8
+       export LANGUAGE=en_US.UTF-8
+       export PATH=/opt/MCScanX/:$PATH
+       export PATH=/opt/MCScanX/downstream_analyses:$PATH
+       export PAH=$PATH:/usr/local/anaconda/bin
+
+

@@ -1,0 +1,18 @@
+Bootstrap: docker
+From: giesselmann/strique:v0.4.2
+
+%labels
+        Maintainer "Yucheng Zhang <zhan4429@purdue.edu>"
+        Version v0.4.2
+
+%post
+        for py in /app/scripts/*.py
+        do 
+                sed -i '1 i #!/usr/bin/python3' $py
+                chmod +x $py
+        done
+
+%environment
+        export PATH=/app/scripts/:$PATH
+
+

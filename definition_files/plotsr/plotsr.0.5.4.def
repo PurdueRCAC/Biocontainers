@@ -1,0 +1,12 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v0.5.4
+
+%help
+    This container contains the latest version (v0.5.4) of plotsr.  
+
+%post
+    conda install -c bioconda plotsr 

@@ -1,0 +1,11 @@
+Bootstrap: localimage
+From: quay.io_biocontainers_celltypist:0.2.0--pyhdfd78af_0.sif
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v0.2.0
+
+%post
+
+    pip install ipython ipykernel pandas statsmodels numba
+

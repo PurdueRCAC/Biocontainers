@@ -1,0 +1,50 @@
+Bootstrap: docker
+From: ubuntu
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version 6.21.18 community edition. 
+
+%help
+    This container contains the latest version (v6.21.18) of MEGAN.  
+
+%post
+
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends --no-install-suggests build-essential wget unzip openjdk-11-jdk
+    # clean up
+    apt-get -y autoremove
+    apt-get -y clean
+    rm -rf /var/lib/apt/lists/*
+
+    # miniconda
+    PREFIX=/opt/conda
+
+
+    mkdir -p /opt
+    wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
+    bash Miniconda2-latest-Linux-x86_64.sh -f -b -p $PREFIX
+    . $PREFIX/etc/profile.d/conda.sh
+    rm Miniconda2-latest-Linux-x86_64.sh
+    conda activate base
+
+
+    conda update --yes --all
+    conda config --system --add channels defaults
+    conda config --system --add channels bioconda
+    conda config --system --add channels conda-forge
+
+    conda install megan
+    conda update megan
+
+
+%environment
+    export PATH=/opt/conda/bin/:$PATH
+
+

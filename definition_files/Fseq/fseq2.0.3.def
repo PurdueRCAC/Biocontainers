@@ -1,0 +1,38 @@
+Bootstrap: docker
+From: ubuntu
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version 2
+
+%help
+    This container contains the latest version (v2) of fseq.  
+
+%post
+
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends --no-install-suggests build-essential libssl-dev gcc wget python-is-python3 python3-dev bedtools pip unzip
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    pip install numpy pyBigWig scipy pandas statsmodels KDEpy pybedtools h5py matplotlib
+    cd /opt
+    wget https://github.com/Boyle-Lab/F-Seq2/archive/master.zip
+    unzip master.zip && rm master.zip
+    cd F-Seq2-master
+    python setup.py install
+    chmod +x fseq2
+
+
+%environment
+    export PATH=/opt/F-Seq2-master/:$PATH
+
+

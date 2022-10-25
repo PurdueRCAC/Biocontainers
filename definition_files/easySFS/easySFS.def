@@ -1,0 +1,21 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+%help
+    This container contains the latest version of easySFS.  
+
+%post
+    conda install git
+    cd /opt/
+    git clone https://github.com/isaacovercast/easySFS.git
+    cd easySFS
+    chmod +x *.py
+
+    conda install python=3
+    conda install -c bioconda dadi pandas
+
+%environment
+    export PATH=/opt/easySFS/:$PATH

@@ -1,0 +1,35 @@
+Bootstrap: docker
+From: ubuntu
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v0.4.2
+
+%help
+    This container contains the latest version (v0.4.2) of rush.
+    https://github.com/shenwei356/rush  
+
+%post
+
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends --no-install-suggests build-essential wget unzip
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    cd /opt
+    wget --no-check-certificate https://github.com/shenwei356/rush/releases/download/v0.4.2/rush_linux_amd64.tar.gz
+    tar -xvf rush_linux_amd64.tar.gz && rm rush_linux_amd64.tar.gz
+    mv rush /usr/local/bin/
+    ln -s /usr/bin/bash /usr/local/bin/bash
+
+
+
+

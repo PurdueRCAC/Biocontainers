@@ -1,0 +1,9 @@
+Bootstrap: localimage
+From: r_4.1.1_RNAseq.sif
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+%post
+
+    Rscript -e "install.packages('IRkernel')"

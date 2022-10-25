@@ -1,0 +1,14 @@
+Bootstrap: localimage
+From: quay.io_biocontainers_maker:3.01.03--pl5262h8f1cd36_2.sif
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v3.01.03
+
+%files
+    /home/yucheng/Documents/Singularity2/dependencies/gmes_linux_64 /usr/local/bin/gmes_linux_64
+    /home/yucheng/Documents/Singularity2/dependencies/genemark_suite_linux_64/gmsuite /usr/local/bin/genemark_suite_linux_64/gmsuite
+
+%environment
+    export LC_ALL=C
+    export PATH=/usr/local/bin/gmes_linux_64/:/usr/local/bin/genemark_suite_linux_64/gmsuite:$PATH

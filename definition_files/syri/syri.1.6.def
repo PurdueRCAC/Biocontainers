@@ -1,0 +1,46 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.6
+
+%help
+    This container contains the latest version (v1.6) of Syri.  
+
+
+%post
+    ####### Install system #######
+    apt-get update -y && apt-get -y install wget libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6 libcurl4-openssl-dev build-essential git
+
+    # install Miniconda
+    # wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh && chmod +x Miniconda3-latest-Linux-x86_64.sh && bash Miniconda3-latest-Linux-x86_64.sh -bfp /usr/local
+    if [ ! -d /usr/local/anaconda ]; then
+        wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/anaconda.sh \
+        && chmod +x ~/anaconda.sh && bash ~/anaconda.sh -bfp /usr/local/anaconda && rm ~/anaconda.sh
+    fi
+
+    # set anaconda path
+    export PATH=$PATH:/usr/local/anaconda/bin
+    conda update conda
+
+    conda config --add channels r
+    conda config --add channels defaults
+    conda config --add channels conda-forge
+    conda config --add channels bioconda
+
+    # install mamba for speed
+    conda install -c conda-forge mamba
+
+    # install syri
+    mamba install syri
+
+    ####### Clean image #######
+    apt-get autoremove -y
+    apt-get clean -y
+    mamba clean -y --all
+
+%environment
+    export PATH=$PATH:/usr/local/anaconda/bin
+
+

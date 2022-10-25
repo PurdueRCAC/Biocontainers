@@ -1,0 +1,34 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.8
+
+%help
+	This is a container with vcf2phylip v2.8 installed.
+
+%post
+	#Exporting variables needed
+	TZ='America/Indiana/Indianapolis'
+
+	# update the system and install building essentials
+	ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+	apt-get -y update
+	apt-get -y dist-upgrade
+	apt-get -y install --no-install-recommends --no-install-suggests libz-dev libqhull-dev  python-is-python3 pip \
+		gcc g++ git ca-certificates build-essential
+	#clean up
+	apt-get -y autoremove
+	apt-get clean
+	rm -rf /var/lib/apt/lists/*
+
+	# vcf2phylip
+	cd /opt
+	git clone https://github.com/edgardomortiz/vcf2phylip.git
+	cd vcf2phylip
+	chmod +x vcf2phylip.py
+
+%environment
+	export LC_ALL=C
+	export PATH=/opt/vcf2phylip/:$PATH

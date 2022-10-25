@@ -1,0 +1,20 @@
+Bootstrap: docker
+From: msahraeian/neusomatic:0.2.1
+
+%labels
+    Maintainer "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v0.2.1
+
+%post
+	for py in /opt/neusomatic/neusomatic/python/*.py
+	do 
+		if [ "`head -c 2 $py`" = "#!" ]; then
+			echo "Hashbang present"
+		else
+			echo "no Hashbang present"
+		sed -i '1 i #!/usr/bin/env python' $py
+			fi
+
+		chmod +x $py
+	done
+

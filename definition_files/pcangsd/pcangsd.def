@@ -1,0 +1,35 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.10
+
+%help 
+    Singularity container with PCANGSD v1.10. 
+
+%post
+    # update the system and install building essentials 
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends python3-dev python3-pip libssl-dev libcurl4-gnutls-dev libbz2-dev liblzma-dev libz-dev samtools gcc g++ git ca-certificates build-essential make zip wget unzip locales locales-all
+
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    # Install htslib 
+    SRC=/usr/local/src
+    mkdir -p $SRC
+
+    # Install pcangsd
+    cd $SRC
+    git clone https://github.com/Rosemeis/pcangsd.git
+    cd pcangsd
+    pip3 install numpy scipy cython
+
+    python3 setup.py build_ext --inplace
+    pip3 install -e .
+    ln -s /usr/bin/python3 /usr/bin/python
+

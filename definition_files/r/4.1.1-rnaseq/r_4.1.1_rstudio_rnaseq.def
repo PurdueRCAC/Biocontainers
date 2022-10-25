@@ -1,0 +1,23 @@
+Bootstrap: localimage
+From: r_4.1.1_rstudio.sif
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+%post
+    # Rscript
+    Rscript -e "install.packages('tidyverse')"
+
+    Rscript -e "install.packages('ggrepel')"
+
+    Rscript -e "install.packages('circlize')"
+
+    Rscript -e "install.packages('openxlsx', dependencies = TRUE)"
+
+    Rscript -e "install.packages('pheatmap')"
+
+    Rscript -e 'if (!requireNamespace("BiocManager", quietly = TRUE))
+        install.packages("BiocManager")' \
+    && Rscript -e 'BiocManager::install(c("limma","edgeR","DESeq2","ComplexHeatmap","DEXSeq"))' 
+
+

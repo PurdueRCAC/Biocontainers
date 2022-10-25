@@ -1,0 +1,13 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v3.1.1
+
+%help
+    This container contains the latest version (v3.1.1) of veryfasttree.  
+
+%post
+    conda install git
+    conda install -c bioconda veryfasttree

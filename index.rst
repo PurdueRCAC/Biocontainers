@@ -238,6 +238,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/idba/idba
    source/igv/igv
    source/impute2/impute2
+   source/infernal/infernal
    source/instrain/instrain
    source/intarna/intarna
    source/interproscan/interproscan
@@ -362,6 +363,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/plotsr/plotsr
    source/pomoxis/pomoxis
    source/popscle/popscle
+   source/pplacer/pplacer
    source/prinseq/prinseq
    source/prodigal/prodigal
    source/prokka/prokka
@@ -431,6 +433,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/seqkit/seqkit
    source/seqyclean/seqyclean
    source/shasta/shasta
+   source/shigeifinder/shigeifinder
    source/shorah/shorah
    source/shortstack/shortstack
    source/shovill/shovill

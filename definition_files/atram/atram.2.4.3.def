@@ -1,0 +1,25 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.4.3
+
+%help
+    This container contains the latest version (v2.4.3) of aTRAM.  
+
+%post
+    conda install git
+    cd /opt/
+    git clone https://github.com/juliema/aTRAM.git
+    cd aTRAM
+    chmod +x *.py
+
+    conda install python=3
+    conda install numpy
+    conda install biopython
+    conda install psutil
+    conda install -c bioconda  blast velvet trinity abyss spades exonerate
+
+%environment
+    export PATH=/opt/aTRAM/:$PATH

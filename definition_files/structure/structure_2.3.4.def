@@ -1,0 +1,36 @@
+Bootstrap: docker
+From: ubuntu:16.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.3.4
+
+%help
+    This container contains the latest version (v2.3.4) of structure (https://web.stanford.edu/group/pritchardlab/structure_software/release_versions/v2.3.4/html/structure.html).  
+
+%files
+    /tmp/Yucheng/frontend /opt/
+
+%post
+
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends --no-install-suggests build-essential unzip default-jdk default-jre
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    cd /opt
+    cd frontend
+    ./install
+
+%environment
+    export PATH=/opt/frontend/:$PATH
+
+

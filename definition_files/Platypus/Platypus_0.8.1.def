@@ -1,0 +1,42 @@
+Bootstrap: docker
+From: mattions/platypus:0.8.1-cwl1
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v0.8.1
+
+%post
+    # update the system and install building essentials 
+    apt-get -y update
+    apt-get -y install --no-install-recommends --no-install-suggests libssl-dev libcurl4-gnutls-dev libbz2-dev liblzma-dev libz-dev \
+                gcc g++ git ca-certificates build-essential make zip wget unzip locales
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    #pip install cython
+
+    # Install htslib 
+    SRC=/usr/local/src
+    mkdir -p $SRC
+
+    cd $SRC
+    git clone --recursive https://github.com/samtools/htslib.git
+    cd htslib && make
+
+    # Install Platypus Variant Caller
+    cd $SRC
+    git clone https://github.com/andyrimmer/Platypus.git
+    cd Platypus && make
+
+    #Symbolic link
+    chmod +x $SRC/Platypus/bin/Platypus.py
+    cd /usr/local/bin
+    ln -s $SRC/Platypus/bin/Platypus.py .
+
+%environment
+    export LC_ALL=C
+    #export LANG=en_US.UTF-8
+    export LANGUAGE=en_US.UTF-8
+

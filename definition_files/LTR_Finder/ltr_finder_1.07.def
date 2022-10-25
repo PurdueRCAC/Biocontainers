@@ -1,0 +1,33 @@
+Bootstrap: docker
+From: ubuntu
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.07
+
+%help 
+    Singularity container with LTR_Finder v1.07.
+
+%post
+    # update the system and install building essentials 
+    apt-get -y update
+    apt-get -y install --no-install-recommends --no-install-suggests ca-certificates  gcc g++ git  build-essential make zip wget unzip locales locales-all cpanminus libgd-gd2-perl libgd-perl libextutils-pkgconfig-perl  
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+# Install ltr_finder
+    cd /opt/
+    git clone https://github.com/xzhub/LTR_Finder.git
+    cd LTR_Finder/source
+    make
+    chmod +x *.pl
+    
+    cpanm GD
+    cpanm GD::SVG
+%environment
+    export LC_ALL=C
+    export LANG=en_US.UTF-8
+    export LANGUAGE=en_US.UTF-8
+    export PATH=/opt/LTR_Finder/source/:$PATH

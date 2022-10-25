@@ -1,0 +1,34 @@
+Bootstrap: docker
+From: ubuntu
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v11.0.667
+
+%help
+    This container contains the latest version (v11.0.667) of usearch.  
+
+%post
+
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install wget gzip
+
+    # clean up
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    cd /usr/local/bin
+    wget https://www.drive5.com/downloads/usearch11.0.667_i86linux32.gz
+    gzip -d usearch11.0.667_i86linux32.gz
+    chmod +x usearch11.0.667_i86linux32
+    ln -s usearch11.0.667_i86linux32 usearch
+
+%environment
+    ######################################################################
+    export LC_ALL=C

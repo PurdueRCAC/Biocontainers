@@ -1,0 +1,57 @@
+Bootstrap: docker
+From: ubuntu
+
+%labels
+        Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+%post
+
+        #Exporting variables needed
+        TZ='America/Indiana/Indianapolis'
+
+        # update the system and install building essentials
+        ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+        apt-get -y update
+        apt-get -y dist-upgrade
+        apt-get -y install --no-install-recommends --no-install-suggests build-essential wget unzip openjdk-11-jdk
+
+        apt-get install -y \
+                cmake \
+                libcairo2-dev \
+                libcurl4-openssl-dev \
+                libgsl-dev \
+                libhdf5-dev \
+                libnetcdf-dev \
+                libssl-dev \
+                libv8-dev \
+                libxml2-dev \
+                libxt-dev \
+                dirmngr gnupg apt-transport-https ca-certificates software-properties-common
+                
+
+        # clean up
+        apt-get -y autoremove
+        apt-get clean
+        rm -rf /var/lib/apt/lists/*
+
+
+        # Install R
+        ## add the CRAN repository to your system sources’ list:
+        apt-key -y adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+        add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
+
+        ## Install r base
+        apt-get -y update && apt-get -y install r-base
+
+        # Install qualimap
+        cd /opt
+        wget https://bitbucket.org/kokonech/qualimap/downloads/qualimap_v2.2.1.zip
+        unzip qualimap_v2.2.1.zip
+        cd qualimap_v2.2.1
+        chmod +x qualimap
+
+
+%environment
+        export PATH=/opt/qualimap_v2.2.1/:$PATH
+        export PYTHONNOUSERSITE=1
+

@@ -1,0 +1,20 @@
+Bootstrap: localimage
+From: braker2_2.1.6--hdfd78af_5.sif
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.1.6
+
+%files
+    /home/yucheng/Documents/Singularity2/dependencies/gmes_linux_64 /usr/local/bin/gmes_linux_64
+    /home/yucheng/Documents/Singularity2/dependencies/ProtHint /usr/local/bin/ProtHint
+
+%post
+    chmod +x /usr/local/bin/gmes_linux_64/*.pl
+    ln -s /usr/local/bin/perl /usr/bin/perl
+
+%environment
+    export LC_ALL=C
+    export PATH=/usr/local/bin/gmes_linux_64/:/usr/local/bin/ProtHint/bin/:$PATH
+
+
