@@ -1,0 +1,30 @@
+Bootstrap: docker
+From: linuxbrew/linuxbrew
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+%help
+    This container contains Tigmint together with ARCS, seqtk, LINKS and ABYss.
+
+%setup
+        wget -q -c https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
+
+%files
+        Anaconda3-2021.11-Linux-x86_64.sh /Anaconda3-2021.11-Linux-x86_64.sh
+
+%environment
+        export LANG=C
+        export PATH=/opt/anaconda/bin:$PATH
+
+%post
+        apt-get update && apt upgrade -y
+        apt-get install -y --force-yes build-essential
+
+        bash /Anaconda3-2021.11-Linux-x86_64.sh -b -p /opt/anaconda
+
+        /bin/rm -f /Anaconda3-2021.11-Linux-x86_64.sh
+        export PATH=/opt/anaconda/bin/:$PATH
+        #Install Python package dependencies
+        conda install -c conda-forge mamba
+        mamba install -c bioconda -c conda-forge zsh intervaltree pybedtools numpy bedtools minimap2 bwa btllib samtools tigmint links arcs abyss seqtk

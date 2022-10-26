@@ -1,0 +1,37 @@
+Bootstrap: docker
+From: egaffo/circompara2:v0.1.2.1
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v0.1.2.1
+%post
+ ### Install R packages.
+    Rscript -e 'install.packages("optparse")'
+    Rscript -e 'install.packages("data.table")'
+    Rscript -e 'install.packages("plyr")'
+    Rscript -e 'install.packages("BH")'
+    Rscript -e 'install.packages("svglite")'
+    Rscript -e 'install.packages("scales")'
+    Rscript -e 'install.packages("reshape2")'
+    Rscript -e 'install.packages("DT")'
+    Rscript -e 'install.packages("ggplot2")'
+    Rscript -e 'install.packages("ggthemes")'
+    Rscript -e 'install.packages("viridis")'
+    Rscript -e 'install.packages("RSvgDevice")'
+    Rscript -e 'install.packages("rmarkdown")'
+    Rscript -e 'install.packages("knitr")'
+    Rscript -e 'install.packages("VennDiagram")'
+    Rscript -e 'install.packages("tidyr")'
+    Rscript -e 'install.packages("pheatmap")'
+    Rscript -e 'install.packages("stringi")'
+    Rscript -e 'install.packages("bedr")'
+
+    Rscript -e 'if (!requireNamespace("BiocManager", quietly = TRUE))
+        install.packages("BiocManager")' \
+    && Rscript -e 'BiocManager::install(c("DESeq2", "ReportingTools", "ballgown"))' 
+
+%environment
+    export LC_ALL=C
+    export LANG=en_US.UTF-8
+    export LANGUAGE=en_US.UTF-8
+    export PATH=/circompara2:/circompara2/bin:/circompara2/src/utils/bash:$PATH
