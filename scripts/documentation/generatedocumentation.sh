@@ -7,13 +7,15 @@
 # Verify biocontainer input and documentation output paths before running
 
 # Generate documentation for missing files using listofmissingfiles.txt
-readarray -t listofmissingfiles < listofmissingfiles.txt
+
 repo_path="$HOME/svn/Biocontainers"
+
+readarray -t listofmissingfiles < listofmissingfiles.txt
 
 for filename in ${listofmissingfiles[@]}; do
    echo $filename
 
-   inputfolder="/opt/spack/modulefiles/biocontainers/$filename/"
+   inputfolder="$repo_path/module_files/$filename/"
    echo "input folder: "$inputfolder
 
    filenamesarray=`ls $inputfolder*.lua`
@@ -26,12 +28,12 @@ for filename in ${listofmissingfiles[@]}; do
    containername=$(echo $inputpath | awk -F/ '{print $6}')
 
    # outputfile="$containername.rst"
-   outputfile="$repo_path/source/$containername/$containername.rst"
+   outputfile="$repo_path/docs/source/$containername/$containername.rst"
    echo "output file: "$outputfile
 
    inputpathcontent=$(<$inputpath)  
 
-   mkdir -p $repo_path/source/$containername
+   mkdir -p $repo_path/docs/source/$containername
 
    echo ".. _backbone-label:" > $outputfile
    echo "" >> $outputfile
@@ -43,11 +45,13 @@ for filename in ${listofmissingfiles[@]}; do
    description=$(echo $inputpathcontent | sed -e 's/Description/\nDescription\n/' -e 's/More information/\nMore information\n/' | sed -n '/Description/,/More information/{//!p}')
    description=$(echo $description | sed 's/=//g')
    echo $description >> $outputfile
-   echo "For more information, please check:" >> $outputfile
+   echo "" >> $outputfile
+   echo "" >> $outputfile
+   echo "| For more information, please check:" >> $outputfile
    moreinformation=$(echo $inputpathcontent | sed -e 's/More information/\nMore information\n/' -e 's/]==])/\n]==])\n/' | sed -n '/More information/,/]==])/{//!p}')
    moreinformation=$(echo $moreinformation | sed 's/=//g')
    moreinformation=$(echo $moreinformation | sed 's/-//')
-   echo $moreinformation | sed 's/- /\n/g' >> $outputfile
+   echo "|" $moreinformation | sed 's/- /\n| /g' >> $outputfile
    echo "" >> $outputfile
    echo "Versions" >> $outputfile
    echo "~~~~~~~~" >> $outputfile
@@ -92,8 +96,8 @@ done
 
 # Update index.rst using names of files in source folder
 
-sourcefolder="$repo_path/source/"
-indexfile="$repo_path/index.rst"
+sourcefolder="$repo_path/docs/source/"
+indexfile="$repo_path/docs/index.rst"
 
 filenamesarray=`ls $sourcefolder`
 
