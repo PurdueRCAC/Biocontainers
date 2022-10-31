@@ -3,10 +3,13 @@
 # This script checks all the lua files in the biocontainers folder to see if the local uri exists and if it does, if the local image is correctly built from it
 # Example Usage: ./luaimagecheckersh
 # Differences are stored in outputfiles as seen below
+
+repo_path="$HOME/svn/Biocontainers"
+
 outputfile1="missinglocaluri.txt"
 outputfile2="localimagenotequal.txt"
 
-sourcefolder="/opt/spack/modulefiles/biocontainers/"
+sourcefolder="$repo_path/module_files/"
 containernamesarray=`ls $sourcefolder`
 
 echo "Missing Local Uri" > $outputfile1
@@ -19,7 +22,7 @@ echo "" >> $outputfile2
 
 for containername in $containernamesarray
 do
-    inputfolder="/opt/spack/modulefiles/biocontainers/$containername/"
+    inputfolder="$sourcefolder$containername/"
     tempvariable=0
     filenamesarray=`ls $inputfolder*.lua`
     for eachfile in $filenamesarray
@@ -36,7 +39,7 @@ do
         then
             # Missing Uri File
             tempvariable=1
-            inputpath=${inputpath:37}
+            # inputpath=${inputpath:37}
             echo "File name: $inputpath" >> $outputfile1
             echo "Local image: $localimage" >> $outputfile1
             echo "" >> $outputfile1
@@ -51,7 +54,7 @@ do
             if [ "$image2" != "$localimage" ]; then
                 # local image is not equal to converted uri
                 tempvariable=2
-                inputpath=${inputpath:37}
+                # inputpath=${inputpath:37}
                 echo "File name: $inputpath" >> $outputfile2
                 echo "Local image: $localimage" >> $outputfile2
                 echo "Local uri: $localuri" >> $outputfile2

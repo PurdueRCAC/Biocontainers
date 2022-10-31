@@ -3,11 +3,13 @@
 # Example Usage: ./generatesource_uri.sh
 # Verify biocontainers path and output file path before running
 
-biocontainerspath="/opt/spack/modulefiles/biocontainers/"
+repo_path="$HOME/svn/Biocontainers"
+
+biocontainerspath="$repo_path/module_files/"
 
 listofbiocontainerfiles=`ls $biocontainerspath`
 
-outputfile="/home/$USER/svn/Purdue-RCAC-Biocontainer/source_uri.md"
+outputfile="$repo_path/docs/source_uri.md"
 
 echo "# Source Uri" > $outputfile
 echo "" >> $outputfile

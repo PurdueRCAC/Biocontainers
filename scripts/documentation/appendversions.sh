@@ -5,16 +5,17 @@
 # Warning: Will not work unless name is exact match with both biocontainer and .rst documentation file 
 # Verify biocontainer input and documentation output paths before running
 
-sourcefolder="/home/$USER/svn/Biocontainers/source/"
+repo_path="$HOME/svn/Biocontainers"
+
+sourcefolder="$repo_path/docs/source/"
 containernamesarray=`ls $sourcefolder`
 
 for containername in $containernamesarray
 do
-    inputfolder="/opt/spack/modulefiles/biocontainers/$containername/"
+    inputfolder="$repo_path/module_files/$containername/"
     echo "input folder: "$inputfolder
 
-    outputfile="/home/$USER/svn/Biocontainers/source/$containername/$containername.rst"
-
+    outputfile="$sourcefolder$containername/$containername.rst"
     echo "~~~~~~~~" > tempfile.rst
     filenamesarray=`ls $inputfolder*.lua`
 
