@@ -8,7 +8,10 @@
 
 # Generate documentation for missing files using listofmissingfiles.txt
 
-repo_path="$HOME/svn/Biocontainers"
+current_dir="$PWD" # save current directory 
+cd ../../ # go up two directories
+repo_path="$PWD" # assign path to repo_path
+cd $current_dir # cd back to current directory
 
 readarray -t listofmissingfiles < listofmissingfiles.txt
 
@@ -25,7 +28,7 @@ for filename in ${listofmissingfiles[@]}; do
    done
    echo "input path: "$inputpath
 
-   containername=$(echo $inputpath | awk -F/ '{print $6}')
+   containername=$(echo $inputpath | awk -F/ '{print $(NF-1)}')
 
    # outputfile="$containername.rst"
    outputfile="$repo_path/docs/source/$containername/$containername.rst"
