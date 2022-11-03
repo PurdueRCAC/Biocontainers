@@ -1,0 +1,11 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+%help
+    This container contains ARCS v1.2.4 together with LINKS and ABYss.
+
+%post
+conda install -c bioconda -c conda-forge links arcs abyss 
