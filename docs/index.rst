@@ -308,7 +308,6 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/mitofinder/mitofinder
    source/mlst/mlst
    source/mmseqs2/mmseqs2
-   source/module_files/module_files
    source/mothur/mothur
    source/mrbayes/mrbayes
    source/multiqc/multiqc

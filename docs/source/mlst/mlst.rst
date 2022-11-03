@@ -15,7 +15,6 @@ Mlst is used to scan contig files against traditional PubMLST typing schemes.
 Versions
 ~~~~~~~~
 - 2.22.0
-- 2.23.0
 
 Commands
 ~~~~~~~
