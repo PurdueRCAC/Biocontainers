@@ -5,7 +5,10 @@
 # Warning: Will not work unless name is exact match with both biocontainer and .rst documentation file 
 # Verify biocontainer input and documentation output paths before running
 
-repo_path="$HOME/svn/Biocontainers"
+current_dir="$PWD" # save current directory 
+cd ../../ # go up two directories
+repo_path="$PWD" # assign path to repo_path
+cd $current_dir # cd back to current directory
 
 sourcefolder="$repo_path/docs/source/"
 containernamesarray=`ls $sourcefolder`

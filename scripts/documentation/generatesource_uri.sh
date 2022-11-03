@@ -3,7 +3,10 @@
 # Example Usage: ./generatesource_uri.sh
 # Verify biocontainers path and output file path before running
 
-repo_path="$HOME/svn/Biocontainers"
+current_dir="$PWD" # save current directory 
+cd ../../ # go up two directories
+repo_path="$PWD" # assign path to repo_path
+cd $current_dir # cd back to current directory
 
 biocontainerspath="$repo_path/module_files/"
 

@@ -4,7 +4,10 @@
 # Example Usage: ./luaimagecheckersh
 # Differences are stored in outputfiles as seen below
 
-repo_path="$HOME/svn/Biocontainers"
+current_dir="$PWD" # save current directory 
+cd ../../ # go up two directories
+repo_path="$PWD" # assign path to repo_path
+cd $current_dir # cd back to current directory
 
 outputfile1="missinglocaluri.txt"
 outputfile2="localimagenotequal.txt"
