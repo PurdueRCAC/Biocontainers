@@ -188,6 +188,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/fraggenescan/fraggenescan
    source/fraggenescanrs/fraggenescanrs
    source/freebayes/freebayes
+   source/freyja/freyja
    source/fseq/fseq
    source/funannotate/funannotate
    source/fwdpy11/fwdpy11
@@ -258,6 +259,8 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/krakentools/krakentools
    source/lambda/lambda
    source/last/last
+   source/ldhat/ldhat
+   source/ldjump/ldjump
    source/ldsc/ldsc
    source/liftoff/liftoff
    source/lima/lima
@@ -309,6 +312,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/mlst/mlst
    source/mmseqs2/mmseqs2
    source/mothur/mothur
+   source/motus/motus
    source/mrbayes/mrbayes
    source/multiqc/multiqc
    source/mummer4/mummer4
@@ -348,6 +352,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/phast/phast
    source/phd2fasta/phd2fasta
    source/phg/phg
+   source/phipack/phipack
    source/phrap/phrap
    source/phred/phred
    source/picard/picard
@@ -362,6 +367,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/plink2/plink2
    source/plotsr/plotsr
    source/pomoxis/pomoxis
+   source/poppunk/poppunk
    source/popscle/popscle
    source/pplacer/pplacer
    source/prinseq/prinseq
@@ -383,6 +389,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/pyranges/pyranges
    source/pysam/pysam
    source/qiime2/qiime2
+   source/qtlseq/qtlseq
    source/qualimap/qualimap
    source/quast/quast
    source/quickmirseq/quickmirseq
@@ -442,6 +449,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/signalp4/signalp4
    source/signalp6/signalp6
    source/simug/simug
+   source/ska/ska
    source/skewer/skewer
    source/slamdunk/slamdunk
    source/smoove/smoove
