@@ -28,7 +28,7 @@ You can load the modules by::
     module load ldjump
 
 .. note::
-   A full path to the Phi file of PhiPack needs to be provided as follows ``pathPhi = "/opt/PhiPack"``. In order to use LDhat to quickly calculate some of the summary statistics please set ``pathLDhat = "/opt/LDhat/"``.
+   A full path to the Phi file of PhiPack needs to be provided as follows ``pathPhi = "/opt/PhiPack/Phi"``. In order to use LDhat to quickly calculate some of the summary statistics please set ``pathLDhat = "/opt/LDhat/"``.
  
 Interactive job
 ~~~~~
@@ -61,7 +61,7 @@ To run interactively on our clusters::
    
 
    > library(LDJump)
-   > LDJump(seqName, alpha = 0.05, segLength = 1000, pathLDhat = "/opt/LDhat/", pathPhi = "/opt/PhiPack", format = "fasta", refName = NULL, 
+   > LDJump(seqFullPath, alpha = 0.05, segLength = 1000, pathLDhat = "/opt/LDhat/", pathPhi = "/opt/PhiPack/Phi", format = "fasta", refName = NULL, 
       start = NULL, constant = F, status = T, cores = 1, accept = F, demography = F, out = "")
 
 
