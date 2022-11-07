@@ -1,0 +1,30 @@
+Bootstrap: docker
+From: rocker/verse:3.6.1
+
+%post
+    apt-get update --fix-missing && apt-get install -y git parallel vcftools libudunits2-dev devscripts libgdal-dev phipack dos2unix
+    cd /opt
+    git clone https://github.com/EvolBioInf/ms2dna
+    cd ms2dna
+    make
+    # make install
+    cd ../
+    git clone https://github.com/auton1/LDhat
+    cd LDhat
+    make
+    # make install
+    cd ../
+    git clone https://github.com/PhHermann/LDJump.git
+    R -e "install.packages('BiocManager', repos='http://cran.us.r-project.org')"
+    R -e "BiocManager::install(c('adegenet','ape','genetics','Biostrings','stepR','seqinr','quantreg','LDhat','snow','scrm','pegas','devtools'))"
+    # R -e "devtools::install_github('auton1/LDhat')"
+    # R -e "devtools::install_github('EvolBioInf/ms2dna')"
+    R -e "devtools::install_github('knausb/vcfR')"
+    R -e "devtools::install_github('thibautjombart/adegenet')"
+    # R -e "install.packages(c('ggplot2','readr','tidyr','RColorBrewer','DT','knitr','rmarkdown'),repos='https://cloud.r-project.org/')"
+    R CMD build LDJump
+    R CMD INSTALL LDJump_0.3.1.tar.gz
+
+%runscript
+    exec Rscript "$@" 
+
