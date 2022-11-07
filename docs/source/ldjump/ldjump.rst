@@ -28,7 +28,8 @@ You can load the modules by::
     module load ldjump
 
 .. note::
-   A full path to the Phi file of PhiPack needs to be provided as follows ``pathPhi = "/opt/PhiPack/Phi"``. In order to use LDhat to quickly calculate some of the summary statistics please set ``pathLDhat = "/opt/LDhat/"``.
+
+   A full path to the Phi file of PhiPack needs to be provided as follows ``pathPhi = "/opt/PhiPack/Phi"``. In order to use LDhat to quickly calculate some of the summary statistics, please set ``pathLDhat = "/opt/LDhat/"``.
  
 Interactive job
 ~~~~~
