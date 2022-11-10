@@ -311,6 +311,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/mitofinder/mitofinder
    source/mlst/mlst
    source/mmseqs2/mmseqs2
+   source/momi/momi
    source/mothur/mothur
    source/motus/motus
    source/mrbayes/mrbayes

@@ -1,0 +1,34 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.2a
+
+%help
+    This container contains the latest version (v2.2a) of LDhat.  
+
+%post
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+
+    apt-get install -y \
+            build-essential \
+            cmake \
+            git wget locales locales-all \
+	    ca-certificates software-properties-common
+    
+    ### Install LDhat
+    cd /opt && git clone https://github.com/auton1/LDhat.git
+    cd LDhat && make
+
+%environment
+    export LC_ALL=C
+    export LANG=en_US.UTF-8
+    export LANGUAGE=en_US.UTF-8
+    export PATH=/opt/LDhat:$PATH
+

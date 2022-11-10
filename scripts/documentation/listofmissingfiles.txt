@@ -1,9 +1,2 @@
-freyja
-ldhat
-ldjump
-motus
+momi
 parabricks
-phipack
-poppunk
-qtlseq
-ska
