@@ -1,0 +1,9 @@
+---
+name: GENERICNAME 
+category: Bioinformatics Apps 
+subcategory: Interactive Apps
+role: batch_connect
+description: |
+  This app will launch GENERICNAME on the [Anvil cluster]. 
+
+  [Anvil cluster]: https://www.rcac.purdue.edu/compute/anvil/

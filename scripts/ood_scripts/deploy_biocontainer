@@ -1,0 +1,112 @@
+#!/bin/bash
+
+POSITIONAL_ARGS=()
+
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -i|--image)
+      IMAGE="$2"
+      shift # past argument
+      shift # past value
+      ;;
+    -n|--name)
+      NAME="$2"
+      shift # past argument
+      shift # past value
+      ;;
+    -d|--directory)
+      DIRECTORY="$2"
+      shift
+      shift
+      ;;
+    -c|--command)
+      COMMAND="$2"
+      shift
+      shift
+      ;;
+    -t|--template)
+      TEMPLATE="$2"
+      shift
+      shift
+      ;;
+    -f|--file)
+      FILE="$2"
+      shift
+      shift
+      ;;
+    -*|--*)
+      echo "Unknown option $1"
+      exit 1
+      ;;
+    *)
+      POSITIONAL_ARGS+=("$1") # save positional arg
+      shift # past argument
+      ;;
+  esac
+done
+
+#Standard Input validation
+if [[ -z "$NAME" ]]; then
+    echo "You need to provide a name for the application. Exiting..."
+    exit 1
+fi
+
+if [[ -z "$IMAGE" && -z "$FILE" ]]; then
+    echo "You need to provide an image for the application either as an option or in an input file. Exiting..."
+    exit 1
+fi
+
+if [[ -z "$COMMAND" ]]; then
+    echo "You need to provide the command to start the application. Exiting..."
+    exit 1
+fi
+
+if [[ -z "$TEMPLATE" ]]; then
+    echo "You need to provide the path to the template application. Exiting..."
+    exit 1
+fi
+
+if [[ -z "$DIRECTORY" ]]; then
+    DIRECTORY=$(echo $NAME | tr -d " ")
+    echo "Directory name not provided. Giving it a default name of $DIRECTORY"
+fi
+
+if [[ -z "$FILE" ]]; then
+    echo "No image file supplied, expecting one image as an argument."
+    HAS_MULTIPLE_VERSIONS="false"
+    DUMMY_FILE="- [ \"empty\", \"empty\" ]"
+else
+    HAS_MULTIPLE_VERSIONS="true"
+    VERSION_MAP=$(cat "$FILE")
+fi
+
+#Copy template application to new directory
+cp -r $TEMPLATE $DIRECTORY
+
+for file in form.yml.erb manifest.yml submit.yml.erb template/desktops/xfce.sh
+do
+    #Adjust file
+    sed -i -e "s@GENERICNAME@$NAME@g" -e "s@GENERICIMAGE@$IMAGE@g" -e "s@GENERICDIRECTORY@$DIRECTORY@g" -e "s@GENERICCOMMAND@$COMMAND@g" -e "s@MULTIPLE_VERSIONS_FLAG@$HAS_MULTIPLE_VERSIONS@g" "$DIRECTORY/$file"
+done 
+
+
+if [[ -z "$FILE" ]]; then 
+    sed -i -e "s@VERSION_OPTIONS@      $DUMMY_FILE@g" "$DIRECTORY/form.yml.erb"
+else
+#The below line substitutes the version options from the supplied file with correct indentations for YAML formatting into the form.yml.erb.
+#In a more readable format:
+#Build the correctly indented YAML syntax for version selection
+#function create_version_string()
+#{
+#    version_string=""
+#    while (( getline l < "version_file") > 0 ) {
+#        version_string= version_string "      " l "\n"
+#        }
+#    return version_string
+#    
+#
+#} 
+#BEGIN { version_map=create_version_string() }
+#{ gsub(/VERSION_OPTIONS/, version_map); print }
+    awk -v file=$FILE 'function create_version_string(){ while ((getline l < file) > 0 ) { version_string=version_string "      " l "\n" } return version_string } BEGIN { version_map=create_version_string() } { gsub(/VERSION_OPTIONS/, version_map); print }' < $DIRECTORY/form.yml.erb > tmp && mv tmp $DIRECTORY/form.yml.erb
+fi 

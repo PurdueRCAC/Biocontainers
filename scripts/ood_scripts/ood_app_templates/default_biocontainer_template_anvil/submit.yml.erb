@@ -1,0 +1,16 @@
+# Job submission configuration file
+#
+---
+batch_connect:
+  template: vnc
+script:
+  accounting_id: <%= account %>
+  queue_name: <%= queue.strip %>
+  wall_time: <%= ((walltime.blank? ? 1.0 : walltime.to_f) * 3600).to_i %>
+  email: <%= ENV["USER"] %>@purdue.edu
+  job_name: "OnDemand/GENERICNAME"
+  native:
+    - "--nodes=1"
+    - "--ntasks=<%= num_cores.to_s %>"
+    - "--gpus-per-node=<%= num_gpus.to_s %>"
+    - "--export=ALL,RUBYOPT="

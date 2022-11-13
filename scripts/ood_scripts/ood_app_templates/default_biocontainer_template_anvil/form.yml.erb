@@ -1,0 +1,132 @@
+---
+<%- multiple_versions= MULTIPLE_VERSIONS_FLAG %>
+cluster: "anvil"
+attributes:
+  desktop: "xfce"
+  
+  bc_vnc_idle: 0
+  
+  bc_vnc_resolution:
+    required: true
+    
+  node_type: null
+  
+  queue:
+    label: Queue (partition)
+    value: "wholenode"
+    help: |
+      -    GPU-only allocations MUST use the 'gpu' queue
+      -    CPU-only allocations MAY NOT use the 'gpu' queue
+    widget: select
+    options:
+      - [ 
+        "wholenode", "wholenode",
+        data-hide-num-gpus: true,
+        data-min-num-cores: 128,
+        data-set-num-cores: 128,
+        data-max-walltime: 96,
+        ]
+      - [ 
+        "shared", "shared", 
+        data-hide-num-gpus: true,
+        data-set-num-cores: 1,
+        data-max-walltime: 96,
+        ]
+      - [ 
+        "highmem", "highmem", 
+         data-hide-num-gpus: true,
+         data-set-num-cores: 1,
+         data-max-walltime: 48,
+        ]
+      - [ 
+        "gpu", "gpu",
+         data-set-num-cores: 1,
+         data-max-walltime: 48,
+         ]
+
+  num_gpus:
+    label: Number of GPUs
+    widget: select
+    help: |
+        Number of Nvidia A100 GPUs you are requesting.
+    options:
+      - [ 
+        "0", "0",
+        data-option-for-queue-gpu: false,
+        ]
+      - [
+        "1", "1",
+        data-option-for-queue-wholenode: false,
+        data-option-for-queue-shared: false,
+        data-option-for-queue-highmem: false,
+        ]
+      - [
+        "2", "2",
+        data-option-for-queue-wholenode: false,
+        data-option-for-queue-shared: false,
+        data-option-for-queue-highmem: false,
+        ]
+      - [
+        "3", "3",
+        data-option-for-queue-wholenode: false,
+        data-option-for-queue-shared: false,
+        data-option-for-queue-highmem: false,
+        ]
+      - [
+        "4", "4",
+        data-option-for-queue-wholenode: false,
+        data-option-for-queue-shared: false,
+        data-option-for-queue-highmem: false,
+        ]
+       
+  num_cores:
+    label: Cores
+    widget: number_field
+    help: |
+       Number of cores (up to 128) for a shared job.  Non-shared jobs will have exclusive nodes and be charged at 128 cores per node requested
+    max: 128
+    min: 1
+
+  <%- if multiple_versions %>
+  version:
+    label: Software Version
+    widget: select
+    options:
+VERSION_OPTIONS
+  <%- else %>
+  version: GENERICIMAGE
+  <%- end %>
+
+  walltime:
+    label: Wall Time in Hours
+    widget: number_field
+    help: |
+        Number of hours you are requesting for your job.
+    max: 96
+    min: 0.5
+    step: 0.5
+    value: 0.5 
+      
+  account:
+    label: Allocation
+    widget: select 
+    options:
+        <%- Purdue::Balance.mybalance().each do |q| %>
+            <%- allocation = q.split(" ")[0]      %>
+            <%- balance = q.split(" ")[1]         %>
+            <%- if balance.strip == 'n/a' %>
+                <%-  balance = '0' %>
+            <%- end %>
+      - [ "<%= allocation %> (<%= balance %> SUs remaining)", "<%= allocation %>" ]
+        <%- end -%>
+ 
+form:
+  - bc_vnc_idle
+  - desktop
+  - account
+  - queue
+  - walltime
+  - num_cores
+  - num_gpus
+  - version
+  - bc_vnc_resolution
