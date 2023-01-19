@@ -1,0 +1,51 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version 1.2.0
+
+%help
+    This is a container with checkM installed.
+    https://github.com/Ecogenomics/CheckM
+
+%post
+     #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends --no-install-suggests \
+	 python3-dev python3-pip\
+	 libbz2-dev liblzma-dev zlib1g-dev gcc g++ git ca-certificates \
+	 build-essential make zip wget unzip locales locales-all \
+	 hmmer prodigal
+
+    #clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    # Install pplacer
+    cd /opt/
+    wget https://github.com/matsen/pplacer/releases/download/v1.1.alpha19/pplacer-linux-v1.1.alpha19.zip
+    unzip pplacer-linux-v1.1.alpha19.zip && rm pplacer-linux-v1.1.alpha19.zip
+  
+    # Install checkM
+    pip3 install numpy
+    pip3 install matplotlib
+    pip3 install cpython
+    pip3 install pysam
+    pip3 install checkm-genome    
+    
+    # Download CheckM_databases
+    cd /opt/
+    mkdir checkm_data_2015_01_16 && cd checkm_data_2015_01_16
+    wget https://data.ace.uq.edu.au/public/CheckM_databases/checkm_data_2015_01_16.tar.gz
+    tar -xvf checkm_data_2015_01_16.tar.gz && rm checkm_data_2015_01_16.tar.gz
+ 
+%environment 
+    export PATH=/opt/pplacer-Linux-v1.1.alpha19:$PATH
+    export CHECKM_DATA_PATH=/opt/checkm_data_2015_01_16

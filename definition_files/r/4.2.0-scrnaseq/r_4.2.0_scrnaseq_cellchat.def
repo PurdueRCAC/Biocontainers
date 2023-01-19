@@ -1,0 +1,17 @@
+Bootstrap: localimage
+From: r_4.2.0_scrnaseq.sif
+
+%post
+
+# update the system and install building essentials
+apt-get -y update
+#apt-get -y dist-upgrade
+apt-get install -y python-is-python3 libpng-dev libjpeg-dev
+# clean up
+#apt-get -y autoremove
+#apt-get clean
+#rm -rf /var/lib/apt/lists/*
+
+#Rscript -e "devtools::install_github('sqjin/CellChat')"
+
+#pip install umap-learn

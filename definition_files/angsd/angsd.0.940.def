@@ -1,0 +1,40 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v0.940
+
+%help 
+    Singularity container with ANGSD v0.937. This container also installed htslib and samtools.
+
+%post
+    # update the system and install building essentials 
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends --no-install-suggests libssl-dev libcurl4-gnutls-dev libbz2-dev liblzma-dev libz-dev samtools gcc g++ git ca-certificates build-essential make zip wget unzip locales locales-all
+
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    # Install htslib 
+    SRC=/usr/local/src
+    mkdir -p $SRC
+
+    cd $SRC
+    git clone --recursive https://github.com/samtools/htslib.git
+    cd htslib && make
+
+    # Install angsd
+    cd $SRC
+    #git clone https://github.com/ANGSD/angsd.git
+    wget https://github.com/ANGSD/angsd/releases/download/0.940/angsd0.940.tar.gz && tar -xvf angsd0.940.tar.gz
+    cd angsd && make HTSSRC=$SRC/htslib
+
+    #Symbolic link
+    chmod +x $SRC/angsd/misc/realSFS
+    cd /usr/local/bin
+    ln -s $SRC/angsd/angsd .
+    ln -s $SRC/angsd/misc/realSFS .

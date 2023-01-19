@@ -1,0 +1,41 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.0.1
+
+%help
+    This container contains the latest version (v1.0.1) of Whokaryote.  
+
+%post
+    ####### Install system #######
+    apt-get update -y && apt-get -y install wget libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6 libcurl4-openssl-dev build-essential git
+
+    # install Miniconda
+    # wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh && chmod +x Miniconda3-latest-Linux-x86_64.sh && bash Miniconda3-latest-Linux-x86_64.sh -bfp /usr/local
+    if [ ! -d /usr/local/anaconda ]; then
+        wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/anaconda.sh \
+        && chmod +x ~/anaconda.sh && bash ~/anaconda.sh -bfp /usr/local/anaconda && rm ~/anaconda.sh
+    fi
+
+    # set anaconda path
+    export PATH=$PATH:/usr/local/anaconda/bin
+    conda update conda
+
+    conda config --add channels defaults
+    conda config --add channels conda-forge
+    conda config --add channels bioconda
+
+    # install mamba for speed
+    conda install mamba
+
+    mamba install -c bioconda git python=3.8 pip cython numpy=1.23.5 prodigal
+    python -m pip install tiara
+    pip uninstall -y numpy
+    cd /opt/
+    git clone https://git.wur.nl/lotte.pronk/whokaryote.git 
+    cd whokaryote
+
+    python setup.py install
+
