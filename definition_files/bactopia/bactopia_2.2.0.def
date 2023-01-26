@@ -1,0 +1,22 @@
+Bootstrap: docker
+From: bactopia/bactopia:2.2.0
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version 2.2.0
+
+%help
+    This is used to replace the `which` with `command which` in bactopia
+
+%post
+    sed -i 's/which/command which/g' /opt/conda/envs/bactopia/bin/bactopia
+    sed -i 's/which/command which/g' /opt/conda/envs/bactopia/bin/nextflow
+
+    for script in /opt/conda/envs/bactopia/bin/*.sh; 
+    do sed -i 's/which/command which/g' $script;
+    done;
+
+    for script in /opt/conda/envs/bactopia/bin/scripts/*.sh; 
+    do sed -i 's/which/command which/g' $script;
+    done;
+
