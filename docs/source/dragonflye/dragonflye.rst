@@ -15,6 +15,7 @@ Dragonflye is a pipeline that aims to make assembling Oxford Nanopore reads quic
 Versions
 ~~~~~~~~
 - 1.0.13
+- 1.0.14
 
 Commands
 ~~~~~~~

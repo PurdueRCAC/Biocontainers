@@ -151,6 +151,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/csvtk/csvtk
    source/cufflinks/cufflinks
    source/cutadapt/cutadapt
+   source/cuttlefish/cuttlefish
    source/cyvcf2/cyvcf2
    source/dbg2olc/dbg2olc
    source/deepbgc/deepbgc
@@ -202,6 +203,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/genemark/genemark
    source/genemarks-2/genemarks-2
    source/genmap/genmap
+   source/genomedata/genomedata
    source/genomepy/genomepy
    source/genomescope2/genomescope2
    source/genomicconsensus/genomicconsensus
@@ -293,6 +295,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/megahit/megahit
    source/megan/megan
    source/meme/meme
+   source/memes/memes
    source/merqury/merqury
    source/meryl/meryl
    source/metabat/metabat
@@ -320,6 +323,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/muscle/muscle
    source/mutmap/mutmap
    source/mykrobe/mykrobe
+   source/n50/n50
    source/nanofilt/nanofilt
    source/nanolyse/nanolyse
    source/nanoplot/nanoplot
@@ -331,6 +335,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/nextclade/nextclade
    source/nextflow/nextflow
    source/ngs-bits/ngs-bits
+   source/ngsld/ngsld
    source/ngsutils/ngsutils
    source/orthofinder/orthofinder
    source/paml/paml
@@ -440,6 +445,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/sepp/sepp
    source/seqkit/seqkit
    source/seqyclean/seqyclean
+   source/shapeit4/shapeit4
    source/shasta/shasta
    source/shigeifinder/shigeifinder
    source/shorah/shorah
@@ -530,6 +536,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/vcftools/vcftools
    source/velocyto.py/velocyto.py
    source/velvet/velvet
+   source/veryfasttree/veryfasttree
    source/vg/vg
    source/viennarna/viennarna
    source/vsearch/vsearch

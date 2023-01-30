@@ -14,6 +14,7 @@ Miniprot aligns a protein sequence against a genome with affine gap penalty, spl
 Versions
 ~~~~~~~~
 - 0.3
+- 0.7
 
 Commands
 ~~~~~~~

@@ -15,6 +15,7 @@ CheckM provides a set of tools for assessing the quality of genomes recovered fr
 Versions
 ~~~~~~~~
 - 1.2.0
+- 1.2.2
 
 Commands
 ~~~~~~~

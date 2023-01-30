@@ -121,3 +121,4 @@ for i,program in pairs(programs) do
 end
 
 -- Additional commands or environment variables, if any
+prepend_path("SINGULARITYENV_PREPEND_PATH","/usr/local/bin/util")

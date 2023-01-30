@@ -1,2 +1,9 @@
-momi
+cuttlefish
+genomedata
+memes
+n50
+ngsld
 parabricks
+.rst
+shapeit4
+veryfasttree
