@@ -1,0 +1,152 @@
+# R-Base 4.1.1 + RStudio (Debian testing+unstable)
+# 
+# Created with HPC Container Maker by Lev Gorenstein <lev@purdue.edu>, 2022-02-11
+# 
+# To rebuild: use the build shell script :).  Or:
+#     $ hpccm --recipe this_recipe.py  --userarg VER=<VERSION> \
+#             --format singularity  --singularity-version 3.6 > Singularity.def
+#     $ sudo singularity build container.sif Singularity.def
+# 
+# To use, can do either of:
+#     singularity exec  container.sif  rstudio   # Or R, or Rscript
+#     singularity run   container.sif  rstudio   # Or R, or Rscript
+# or even just call "container.sif" from your shell (yes, it is executable
+# and set to run RStudio by default).
+# 
+# A caveat for running X11 GUI programs under Thinlinc: Thinlinc keeps
+# sessions information in /var/opt/thinlinc.  But RCAC does not export this
+# path into containers, so under Thinlinc the GUI fails. To mitigate,
+# bind the path from command line with '-B' flag:
+#     singularity exec  -B /var/opt,/run/user  container.sif  program
+# Note that you can not pass the -B flag if executing container.sif directly
+# (as in './container.sif') - needs to be on the singularity command line.
+# Easy to do with a simple wrapper script or via $SINGULARITY_BIND variable.
+# 
+# Another caveat for Rstudio: needs '-B /usr/share/fonts' to find system
+# fonts (otherwise terminal panel is garbled).
+
+BootStrap: docker
+From: r-base:4.1.1
+
+%labels
+    App R with Rstudio
+    BaseImg Debian Testing
+    Created Lev Gorenstein <lev@purdue.edu>
+    URL https://www.r-project.org/, https://www.rstudio.com/products/rstudio/
+    Version 4.1.1
+
+# Pre-make RCAC-specific directories
+
+# /var/opt and /run/user are needed for Thinlinc.
+
+%post
+    cd /
+    mkdir -p /home /apps /scratch /depot
+    mkdir -p /var/opt /run/user
+
+# r-base-4.1.1 is alredy in the image. Install necessary additional
+# packages
+
+%post
+    apt-get update -y
+    DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+        cmake \
+        libasound-dev \
+        libcairo2-dev \
+        libclang-dev \
+        libcurl4-openssl-dev \
+        libdbus-1-dev \
+        libedit2 \
+        libgl-dev \
+        libgsl-dev \
+        libhdf5-dev \
+        libnetcdf-dev \
+        libnss3 \
+        libpq5 \
+        libssl-dev \
+        libv8-dev \
+        libxcomposite-dev \
+        libxcursor-dev \
+        libxdamage-dev \
+        libxi-dev \
+        libxkbcommon-x11-dev \
+        libxml2-dev \
+        libxt-dev \
+        libxtst-dev
+    rm -rf /var/lib/apt/lists/*
+
+# Install rstudio-2021.09.2-382-amd64.deb package
+
+%files
+    rstudio-2021.09.2-382-amd64.deb /opt
+
+%post
+    cd /
+    dpkg -i /opt/rstudio-2021.09.2-382-amd64.deb
+    rm -f /opt/rstudio-2021.09.2-382-amd64.deb
+
+# Ignore ~/.local/lib/pythonX.Y/site-packages inside the container.
+
+%environment
+    export PYTHONNOUSERSITE=1
+%post
+    export PYTHONNOUSERSITE=1
+
+# Define runscript (what would the container run?)
+
+%runscript
+    default="rstudio"
+    echo "Arguments received: $*"
+    # If $1 is a command, try executing it,
+    # otherwise consider everything as arguments for the default tool.
+    if command -v "$1" > /dev/null 2>&1; then
+        exec "$@"
+    else
+        exec $default "$@"
+    fi
+
+# And define applications in this image (opional but neat for 'run
+# --app XXX').  See list with 'singularity inspect --list-apps
+# image.sif' (there used to be a 'singularity apps' command for that,
+# but it is no longer in 3.*).
+
+# pip
+%post
+    apt-get update -y
+    DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+        python3-pip \
+        python3-setuptools \
+        python3-wheel
+    rm -rf /var/lib/apt/lists/*
+%post
+    cd /
+    pip3 install scif
+
+# =======================
+# Rscript
+# =======================
+
+%apphelp Rscript
+    Invokes the Rscript program
+%apprun Rscript
+    exec Rscript "$@" "$@"
+
+# =======================
+# R
+# =======================
+
+%apphelp R
+    Invokes the main R program
+%apprun R
+    exec R "$@" "$@"
+
+# =======================
+# rstudio
+# =======================
+
+%apphelp rstudio
+    Invokes a GUI development environment (IDE) for R
+%apprun rstudio
+    exec rstudio "$@" "$@"
+
+
