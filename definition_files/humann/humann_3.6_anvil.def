@@ -1,0 +1,23 @@
+Bootstrap: docker
+From: biobakery/humann:3.6
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v3.6_anvil
+
+%post
+    ######################################################################
+    APP=humann3
+    APPVER=3.6
+
+
+    humann_config --update database_folders nucleotide /anvil/datasets/humann/chocophlan
+    humann_config --update database_folders protein /anvil/datasets/humann/uniref
+    humann_config --update database_folders utility_mapping /anvil/datasets/humann/utility_mapping
+
+
+    ######################################################################
+%environment
+    ######################################################################
+    export LC_ALL=C
+    export PATH=/opt/conda/bin:$PATH

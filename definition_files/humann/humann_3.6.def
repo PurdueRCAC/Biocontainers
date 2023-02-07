@@ -1,0 +1,20 @@
+Bootstrap: docker
+From: biobakery/humann:3.6
+
+
+%post
+######################################################################
+APP=humann3
+APPVER=3.6
+
+
+humann_config --update database_folders nucleotide /depot/itap/datasets/humann/chocophlan
+humann_config --update database_folders protein /depot/itap/datasets/humann/uniref
+humann_config --update database_folders utility_mapping /depot/itap/datasets/humann/utility_mapping
+
+
+######################################################################
+%environment
+######################################################################
+export LC_ALL=C
+export PATH=/opt/conda/bin:$PATH

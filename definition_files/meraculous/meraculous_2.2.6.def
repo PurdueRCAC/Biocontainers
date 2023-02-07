@@ -1,0 +1,13 @@
+Bootstrap: docker
+From: marcodelapierre/meraculous:2.2.6
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.2.6
+
+%post
+    apt-get update && apt-get install -y \
+        locales \
+        locales-all 
+    
+    sed -i 's/opt\/conda\/envs\/myconda/usr\/local/' /usr/local/bin/run_meraculous.sh
