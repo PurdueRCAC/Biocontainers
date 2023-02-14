@@ -46,12 +46,12 @@ if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    end
 end
 
-conflict(myModuleName())
+conflict(myModuleName(), "anaconda", "biopython")
 
 --       Think executables, mpirun, possibly Perl or Python, etc.
 local image = "quay.io_biocontainers_bioconvert:0.4.3--py_0.sif"
 local uri = "docker://quay.io/biocontainers/bioconvert:0.4.3--py_0"
-local programs = {"bioconvert"}
+local programs = {"bioconvert", "python", "python3"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote

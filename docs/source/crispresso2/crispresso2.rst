@@ -15,6 +15,7 @@ CRISPResso2 is a software pipeline designed to enable rapid and intuitive interp
 Versions
 ~~~~~~~~
 - 2.2.10
+- 2.2.11a
 - 2.2.8
 - 2.2.9
 

@@ -37,6 +37,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    
    source/abacas/abacas
    source/abismal/abismal
+   source/abpoa/abpoa
    source/abricate/abricate
    source/abyss/abyss
    source/actc/actc
@@ -124,6 +125,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/centrifuge/centrifuge
    source/checkm-genome/checkm-genome
    source/chewbbaca/chewbbaca
+   source/chopper/chopper
    source/chromap/chromap
    source/cicero/cicero
    source/circexplorer2/circexplorer2
@@ -153,6 +155,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/cutadapt/cutadapt
    source/cuttlefish/cuttlefish
    source/cyvcf2/cyvcf2
+   source/das_tool/das_tool
    source/dbg2olc/dbg2olc
    source/deepbgc/deepbgc
    source/deepconsensus/deepconsensus
@@ -196,6 +199,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/gadma/gadma
    source/gambit/gambit
    source/gamma/gamma
+   source/gapfiller/gapfiller
    source/gatk/gatk
    source/gatk4/gatk4
    source/gemma/gemma
@@ -208,7 +212,9 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/genomescope2/genomescope2
    source/genomicconsensus/genomicconsensus
    source/genrich/genrich
+   source/gfaffix/gfaffix
    source/gfastats/gfastats
+   source/gfatools/gfatools
    source/gffcompare/gffcompare
    source/gffread/gffread
    source/gimmemotifs/gimmemotifs
@@ -250,10 +256,12 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/ivar/ivar
    source/jcvi/jcvi
    source/kaiju/kaiju
+   source/kakscalculator2/kakscalculator2
    source/kallisto/kallisto
    source/khmer/khmer
    source/kma/kma
    source/kmc/kmc
+   source/kmergenie/kmergenie
    source/kmer-jellyfish/kmer-jellyfish
    source/kneaddata/kneaddata
    source/kover/kover
@@ -261,6 +269,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/krakentools/krakentools
    source/lambda/lambda
    source/last/last
+   source/lastz/lastz
    source/ldhat/ldhat
    source/ldjump/ldjump
    source/ldsc/ldsc
@@ -285,6 +294,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/mash/mash
    source/mashmap/mashmap
    source/mashtree/mashtree
+   source/masurca/masurca
    source/mauve/mauve
    source/maxbin2/maxbin2
    source/maxquant/maxquant
@@ -296,6 +306,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/megan/megan
    source/meme/meme
    source/memes/memes
+   source/meraculous/meraculous
    source/merqury/merqury
    source/meryl/meryl
    source/metabat/metabat
@@ -408,6 +419,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/raven-assembler/raven-assembler
    source/raxml/raxml
    source/raxml-ng/raxml-ng
+   source/reapr/reapr
    source/rebaler/rebaler
    source/reciprocal_smallest_distance/reciprocal_smallest_distance
    source/recycler/recycler
@@ -441,8 +453,10 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/scirpy/scirpy
    source/scvelo/scvelo
    source/scvi-tools/scvi-tools
+   source/segalign/segalign
    source/seidr/seidr
    source/sepp/sepp
+   source/seqcode/seqcode
    source/seqkit/seqkit
    source/seqyclean/seqyclean
    source/shapeit4/shapeit4

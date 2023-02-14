@@ -100,7 +100,6 @@ end
 -- And assemble container command
 local container_launch = singularity .. " run " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
 
--- TODO: Uncomment or delete these lines (only needed for MPI-enabled programs)
 -- Multinode support
 -- setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")
 
