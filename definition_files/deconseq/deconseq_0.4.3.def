@@ -1,0 +1,82 @@
+BootStrap: docker
+From: ubuntu
+
+%labels
+Author "Yucheng Zhang <zhan4429@purdue.edu>"
+Version v0.4.3
+
+%post
+
+# Download 
+apt-get update 
+apt-get install -y wget perl python3-dev libxml2-dev libxslt-dev libncurses-dev libcurl4-openssl-dev zlib1g-dev python3-pip libblas-dev liblapack-dev libatlas-base-dev gfortran autoconf libssl-dev locales locales-all pkg-config libgd-dev libcairo2-dev libjpeg-dev libgif-dev
+
+pip install cython
+
+###########
+# PRINSEQ #
+###########
+# This is a lightweight dependency for DeconSeq
+cd /opt
+wget  http://pilotfiber.dl.sourceforge.net/project/prinseq/standalone/prinseq-lite-0.20.4.tar.gz
+# Unzip
+tar -zxvf prinseq-lite-0.20.4.tar.gz
+rm prinseq-lite-0.20.4.tar.gz
+chmod +x /opt/prinseq-lite-0.20.4/*.pl
+
+#################
+# FASTX TOOLKIT #
+#################
+# Download from the website
+wget http://hannonlab.cshl.edu/fastx_toolkit/fastx_toolkit_0.0.13_binaries_Linux_2.6_amd64.tar.bz2
+# Uncompress that toolkit
+tar -vxjf fastx_toolkit_0.0.13_binaries_Linux_2.6_amd64.tar.bz2
+rm fastx_toolkit_0.0.13_binaries_Linux_2.6_amd64.tar.bz2
+mv bin fastx_toolkit_0.0.13
+chmod +x /opt/fastx_toolkit_0.0.13/*
+
+############
+# DECONSEQ #
+############
+# Download the standalone deconseq program
+wget http://jaist.dl.sourceforge.net/project/deconseq/standalone/deconseq-standalone-0.4.3.tar.gz
+# Uncompress the file
+tar -zxvf deconseq-standalone-0.4.3.tar.gz
+rm deconseq-standalone-0.4.3.tar.gz
+chmod +x /opt/deconseq-standalone-0.4.3/*.pl
+chmod +x /opt/deconseq-standalone-0.4.3/bwa64
+chmod +x /opt/deconseq-standalone-0.4.3/bwaMAC
+
+
+
+############
+# Install Perl modules  # 
+############
+cpan JSON
+cpan Cairo
+cpan Statistics::PCA
+cpan MIME::Base64
+cpan CGI
+cpan IO::Uncompress::AnyUncompress
+cpan LWP::Simple
+cpan File::Copy
+cpan File::Basename
+cpan PerlIO::gzip
+cpan ExtUtils::PkgConfig
+cpan GD
+cpan GD::Test
+cpan GD::Graph::bars
+cpan Data::Dumper
+cpan Getopt::Long
+cpan Pod::Usage
+cpan File::Temp
+cpan Fcntl
+cpan Digest::MD5
+cpan File::Path
+cpan Cwd
+cpan FindBin
+cpan List::Util
+
+%environment
+export LC_ALL=C
+export PATH=$PATH:/opt/deconseq-standalone-0.4.3:/opt/prinseq-lite-0.20.4:/opt/fastx_toolkit_0.0.13
