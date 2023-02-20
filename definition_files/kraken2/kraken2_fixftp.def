@@ -1,0 +1,5 @@
+Bootstrap: localimage
+From: quay.io_biocontainers_kraken2:2.1.2--pl5262h7d875b9_0.sif
+
+%post
+sed -i 's/s#^ftp:/s#^https:/' /usr/local/libexec/rsync_from_ncbi.pl
