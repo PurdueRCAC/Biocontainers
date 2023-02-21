@@ -31,13 +31,13 @@ You can load the modules by::
 Helper command
 ~~~~  
 .. note::
-   Users need to use ``DeconSeqConfig.pm`` to specify the database information. Besides, for the current ``deconseq`` module in `biocontainers`, users all need to copy the executables to your current directory, including ``bwa64``, ``deconseq.pl``, and ``splitFasta.pl``.  
-
-A helper command ``copy_DeconSeqConfig`` is provided to copy the configuration file ``DeconSeqConfig.pm`` and executables to your current directory. You just need to simply run the command 'copy_DeconSeqConfig' and modify ``DeconSeqConfig.pm`` as needed::
+   Users need to use ``DeconSeqConfig.pm`` to specify the database information. Besides, for the current ``deconseq`` module in `biocontainers`, users need to copy the executables to your current directory, including ``bwa64``, ``deconseq.pl``, and ``splitFasta.pl``. This step is only needed to run once. 
+   
+A helper command ``copy_DeconSeqConfig`` is provided to copy the configuration file ``DeconSeqConfig.pm`` and executables to your current directory. You just need to run the command ``copy_DeconSeqConfig`` and modify ``DeconSeqConfig.pm`` as needed::
 
 
     copy_DeconSeqConfig
-    nano DeconSeqConfig.pm ##provide your database information
+    nano DeconSeqConfig.pm # modify database information as needed
 
 For detailed information about how to config ``DeconSeqConfig.pm``, please check its online manual (https://sourceforge.net/projects/deconseq/files/).
 
