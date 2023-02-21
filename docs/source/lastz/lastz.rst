@@ -48,3 +48,7 @@ To run lastz on our clusters::
 
     module --force purge
     ml biocontainers lastz
+
+    lastz cmc_CFBP8216.fasta cmp_LPPA982.fasta \
+         --notransition --step=20 --nogapped \
+         --format=maf > cmc_vs_cmp.maf

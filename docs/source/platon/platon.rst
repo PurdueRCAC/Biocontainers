@@ -27,6 +27,9 @@ You can load the modules by::
     module load biocontainers
     module load platon
 
+.. note::
+   The environment variable ``PLATON_DB`` is set as ``/depot/itap/datasets/platon/db``. This directory contains the required database. 
+
 Example job
 ~~~~~
 .. warning::
@@ -38,7 +41,7 @@ To run platon on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 4
     #SBATCH --job-name=platon
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -46,3 +49,5 @@ To run platon on our clusters::
 
     module --force purge
     ml biocontainers platon
+
+    platon --verbose --threads 4 contigs.fasta

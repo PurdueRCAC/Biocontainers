@@ -46,3 +46,5 @@ To run adapterremoval on our clusters::
 
     module --force purge
     ml biocontainers adapterremoval
+
+    AdapterRemoval --file1 input_1.fastq --file2 input_2.fastq 

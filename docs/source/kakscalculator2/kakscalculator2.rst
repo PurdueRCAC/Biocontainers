@@ -45,3 +45,5 @@ To run kakscalculator2 on our clusters::
 
     module --force purge
     ml biocontainers kakscalculator2
+
+    KaKs_Calculator -i example.axt -o example.axt.kaks -m YN

@@ -46,3 +46,4 @@ To run gfaffix on our clusters::
 
     module --force purge
     ml biocontainers gfaffix
+

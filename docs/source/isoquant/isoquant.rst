@@ -46,3 +46,8 @@ To run isoquant on our clusters::
 
     module --force purge
     ml biocontainers isoquant
+
+    isoquant.py --reference chr9.4M.fa.gz \
+        --genedb chr9.4M.gtf.gz \
+        --fastq  chr9.4M.ont.sim.fq.gz \
+        --data_type nanopore -o test_ont

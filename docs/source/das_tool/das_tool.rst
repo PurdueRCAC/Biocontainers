@@ -41,7 +41,7 @@ To run das_tool on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 4
     #SBATCH --job-name=das_tool
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -49,3 +49,15 @@ To run das_tool on our clusters::
 
     module --force purge
     ml biocontainers das_tool
+
+    DAS_Tool -i sample.human.gut_concoct_contigs2bin.tsv,\
+        sample.human.gut_maxbin2_contigs2bin.tsv,\
+        sample.human.gut_metabat_contigs2bin.tsv,\
+        sample.human.gut_tetraESOM_contigs2bin.tsv \
+        -l concoct,maxbin,metabat,tetraESOM \
+        -c sample.human.gut_contigs.fa \
+        -o DASToolRun2 \
+        --proteins DASToolRun1_proteins.faa \
+        --write_bin_evals \
+        --threads 4 \
+        --score_threshold 0.6

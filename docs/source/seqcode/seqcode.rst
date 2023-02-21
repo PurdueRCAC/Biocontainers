@@ -65,3 +65,6 @@ To run seqcode on our clusters::
 
     module --force purge
     ml biocontainers seqcode
+
+    buildChIPprofile -vd ChromInfo.txt \
+         H3K4me3_sample.bam test_buildChIPprofile

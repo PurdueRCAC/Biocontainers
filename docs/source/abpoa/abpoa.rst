@@ -45,3 +45,6 @@ To run abpoa on our clusters::
 
     module --force purge
     ml biocontainers abpoa
+   
+    abpoa seq.fa > cons.fa
+
