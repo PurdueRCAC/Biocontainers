@@ -12,6 +12,7 @@ Detailed usage can be found here: https://ccb.jhu.edu/software/kraken2/
 
 Versions
 ~~~~~~~~
+- 2.1.2_fixftp
 - 2.1.2
 
 Commands
@@ -26,6 +27,19 @@ You can load the modules by::
 
     module load biocontainers
     module load kraken2/2.1.2
+
+Download database
+~~~~~~~  
+.. note::
+    There is a known bug in ``rsync_from_ncbi.pl`` (https://github.com/DerrickWood/kraken2/issues/292). When users want to download and build databases by ``kraken2-build --download-library``, there will an error ``rsync_from_ncbi.pl: unexpected FTP path(new server?)``. We modifed ``rsync_from_ncbi.pl`` to fix the bug, and created a new module ending with the suffix ``_fixftp``. Please use this corrected module to download the library.
+ 
+To download databases, please use the below command::
+
+    module load biocontainers
+    module load kraken2/2.1.2_fixftp
+    
+    kraken2-build --download-library archaea --db archaea
+
 
 Example job
 ~~~~~~
