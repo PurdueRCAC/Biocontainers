@@ -9,7 +9,7 @@ DeconSeq: DECONtamination of SEQuence data using a modified version of BWA-SW. T
 
 
 | For more information, please check:
-| Home page: http://deconseq.sourceforge.net/ Note: A helper command 'copy_DeconSeqConfig' is provided to copy the configuration file DeconSeqConfig.pm and executables to your current directory and modify it as needed. You just need to simply run the command 'copy_DeconSeqConfig', no extra parameter is needed.
+| Home page: http://deconseq.sourceforge.net/ 
 
 Versions
 ~~~~~~~~
