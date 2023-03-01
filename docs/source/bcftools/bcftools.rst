@@ -54,4 +54,7 @@ To run Bcftools on our clusters::
     bcftools query -f '%CHROM %POS %REF %ALT\n' file.bcf
     bcftools polysomy -v -o outdir/ file.vcf
        
+    # Variant calling
+    bcftools mpileup -f reference.fa alignments.bam | bcftools call -mv -Ob -o calls.bcf
+   
 .. _Github: https://samtools.github.io/bcftools/bcftools.html
