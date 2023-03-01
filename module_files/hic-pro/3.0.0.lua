@@ -25,17 +25,19 @@ help([==[
 
 Description
 ===========
-Epic2 is an ultraperformant Chip-Seq broad domain finder based on SICER.
+Hicpro is an optimized and flexible pipeline for Hi-C data processing.
 
 More information
 ================
- - Home page:     https://github.com/biocore-ntnu/epic2
+ - Docker hub:	https://hub.docker.com/r/nservant/hicpro
+ - Home page:   https://github.com/nservant/HiC-Pro
 ]==])
 
-whatis("Name: epic2")
-whatis("Version: 0.0.51")
-whatis("Description: epic2 is an ultraperformant Chip-Seq broad domain finder based on SICER.")
-whatis("Home page:     https://github.com/biocore-ntnu/epic2")
+whatis("Name: Hicpro")
+whatis("Version: 3.0.0")
+whatis("Description: Hicpro is an optimized and flexible pipeline for Hi-C data processing.")
+whatis("Docker hub:  https://hub.docker.com/r/nservant/hicpro")
+whatis("Home page:   https://github.com/nservant/HiC-Pro")
 
 if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    local singularity_module = os.getenv("BIOC_SINGULARITY_MODULE") or "Singularity"
@@ -44,11 +46,12 @@ if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    end
 end
 
-conflict(myModuleName(), "epic")
+conflict(myModuleName())
 
-local image = "epic2_0.0.51.sif"
-local uri = ""
-local programs = {"epic2", "epic2-bw", "epic2-df"}
+--       Think executables, mpirun, possibly Perl or Python, etc.
+local image = "nservant_hicpro:3.0.0.sif"
+local uri = "docker://nservant/hicpro:3.0.0"
+local programs = {"HiC-Pro", "digest_genome.py", "extract_snps.py", "hicpro2fithic.py", "hicpro2higlass.sh", "hicpro2juicebox.sh", "make_viewpoints.py", "sparseToDense.py", "split_reads.py", "split_sparse.py"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
@@ -95,7 +98,10 @@ if (capture("/opt/rocm/bin/rocm-smi -i 2>/dev/null | grep ^GPU") ~= "") then
 end
 
 -- And assemble container command
-local container_launch = singularity .. " run " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
+local container_launch = singularity .. " exec " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
+
+-- Multinode support
+-- setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")
 
 -- Programs to setup in the shell
 for i,program in pairs(programs) do
@@ -104,3 +110,5 @@ for i,program in pairs(programs) do
 end
 
 -- Additional commands or environment variables, if any
+prepend_path("SINGULARITYENV_PREPEND_PATH", "/HiC-Pro_3.0.0/bin/utils")
+prepend_path("SINGULARITYENV_PREPEND_PATH", "/HiC-Pro_3.0.0/bin")

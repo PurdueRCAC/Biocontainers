@@ -1,0 +1,37 @@
+Bootstrap: docker
+From: linuxbrew/linuxbrew
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+%help
+    This container contains rnaQUAST together with STAR, BUSCO, and GeneMarkS-T
+
+%setup
+        wget -q -c https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
+
+%files
+        Anaconda3-2021.11-Linux-x86_64.sh /Anaconda3-2021.11-Linux-x86_64.sh
+        gmst_linux_64.tar.gz /opt/gmst_linux_64.tar.gz
+
+%environment
+        export LANG=C
+        export PATH=/opt/anaconda/bin:/opt/GeneMarkS-T_5.1:$PATH
+
+%post
+        apt-get update && apt upgrade -y
+        apt-get install -y --force-yes build-essential
+
+        cd /opt
+        mkdir GeneMarkS-T_5.1 && mv gmst_linux_64.tar.gz GeneMarkS-T_5.1/
+        cd GeneMarkS-T_5.1/ && tar -xvf gmst_linux_64.tar.gz
+
+        # Install anaconda
+        bash /Anaconda3-2021.11-Linux-x86_64.sh -b -p /opt/anaconda
+
+        /bin/rm -f /Anaconda3-2021.11-Linux-x86_64.sh
+        export PATH=/opt/anaconda/bin/:$PATH
+
+        #Install busco star rnaquast
+        conda install -c conda-forge mamba
+        mamba install -c bioconda -c conda-forge busco star rnaquast

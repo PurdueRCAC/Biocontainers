@@ -244,6 +244,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/hap.py/hap.py
    source/helen/helen
    source/hicexplorer/hicexplorer
+   source/hic-pro/hic-pro
    source/hifiasm/hifiasm
    source/hisat2/hisat2
    source/hmmer/hmmer
@@ -419,6 +420,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/proteinortho/proteinortho
    source/prothint/prothint
    source/pullseq/pullseq
+   source/purge_dups/purge_dups
    source/pvactools/pvactools
    source/pyani/pyani
    source/pybedtools/pybedtools
@@ -523,6 +525,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/spades/spades
    source/sprod/sprod
    source/squeezemeta/squeezemeta
+   source/squid/squid
    source/sra-tools/sra-tools
    source/srst2/srst2
    source/stacks/stacks

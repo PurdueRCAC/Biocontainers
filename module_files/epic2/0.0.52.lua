@@ -29,14 +29,12 @@ Epic2 is an ultraperformant Chip-Seq broad domain finder based on SICER.
 
 More information
 ================
- - BioContainers: https://biocontainers.pro/tools/epic2
  - Home page:     https://github.com/biocore-ntnu/epic2
 ]==])
 
 whatis("Name: epic2")
 whatis("Version: 0.0.52")
 whatis("Description: epic2 is an ultraperformant Chip-Seq broad domain finder based on SICER.")
-whatis("BioContainers: https://biocontainers.pro/tools/epic2")
 whatis("Home page:     https://github.com/biocore-ntnu/epic2")
 
 if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
@@ -48,8 +46,8 @@ end
 
 conflict(myModuleName(), "epic")
 
-local image = "quay.io_biocontainers_epic2:0.0.52--py36h57c1cd4_4.sif"
-local uri = "docker://quay.io/biocontainers/epic2:0.0.52--py36h57c1cd4_4"
+local image = "epic2_0.0.52.sif"
+local uri = ""
 local programs = {"epic2", "epic2-bw", "epic2-df"}
 local entrypoint_args = ""
 

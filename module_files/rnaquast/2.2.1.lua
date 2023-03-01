@@ -49,7 +49,7 @@ end
 conflict(myModuleName())
 
 --       Think executables, mpirun, possibly Perl or Python, etc.
-local image = "quay.io_biocontainers_rnaquast:2.2.1--h9ee0642_0.sif"
+local image = "rnaquast_2.2.1.sif"
 local uri = "docker://quay.io/biocontainers/rnaquast:2.2.1--h9ee0642_0"
 local programs = {"rnaQUAST.py"}
 local entrypoint_args = ""

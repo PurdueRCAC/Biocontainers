@@ -1,48 +1,58 @@
 .. _backbone-label:
 
-Gfaffix
+Hic-pro
 ==============================
 
 Introduction
 ~~~~~~~~
-GFAffix identifies walk-preserving shared affixes in variation graphs and collapses them into a non-redundant graph structure.
+Hicpro is an optimized and flexible pipeline for Hi-C data processing.
 
 
 | For more information, please check:
-| BioContainers: https://biocontainers.pro/tools/gfaffix 
-| Home page: https://github.com/marschall-lab/GFAffix
+| Docker hub: https://hub.docker.com/r/nservant/hicpro 
+| Home page: https://github.com/nservant/HiC-Pro
 
 Versions
 ~~~~~~~~
-- 0.1.4
+- 3.0.0
+- 3.1.0
 
 Commands
 ~~~~~~~
-- gfaffix
+- HiC-Pro
+- digest_genome.py
+- extract_snps.py
+- hicpro2fithic.py
+- hicpro2higlass.sh
+- hicpro2juicebox.sh
+- make_viewpoints.py
+- sparseToDense.py
+- split_reads.py
+- split_sparse.py
 
 Module
 ~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load gfaffix
+    module load hic-pro
 
 Example job
 ~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run gfaffix on our clusters::
+To run hic-pro on our clusters::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
-    #SBATCH --job-name=gfaffix
+    #SBATCH --job-name=hic-pro
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers gfaffix
+    ml biocontainers hic-pro

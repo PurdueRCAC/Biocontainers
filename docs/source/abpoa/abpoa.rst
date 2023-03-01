@@ -47,4 +47,3 @@ To run abpoa on our clusters::
     ml biocontainers abpoa
    
     abpoa seq.fa > cons.fa
-

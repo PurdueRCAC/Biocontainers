@@ -1,0 +1,36 @@
+Bootstrap: docker
+From: ubuntu
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v1.5
+
+%help
+    This container contains the binary version of SQUID.  
+
+%setup
+    tar -xvf squid-v1.5_linux_x86_64.tar.gz
+    wget -q -c https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
+    
+%files
+    squid-v1.5_linux_x86_64/squid /usr/local/bin/squid
+    Anaconda3-2021.11-Linux-x86_64.sh /Anaconda3-2021.11-Linux-x86_64.sh
+
+%environment
+        export LANG=C
+        export PATH=/opt/anaconda/bin:/opt/squid/utils/:$PATH
+
+%post
+        apt-get update && apt upgrade -y
+        apt-get install -y --force-yes build-essential git
+
+        bash /Anaconda3-2021.11-Linux-x86_64.sh -b -p /opt/anaconda
+
+        /bin/rm -f /Anaconda3-2021.11-Linux-x86_64.sh
+        export PATH=/opt/anaconda/bin/:$PATH
+ 
+        cd /opt/
+        git clone https://github.com/Kingsford-Group/squid.git
+        cd squid/utils
+        sed -i 's/#!\/bin\/python/#!\/usr\/bin\/env python/' AnnotateSQUIDOutput.py
+        chmod +x AnnotateSQUIDOutput.py

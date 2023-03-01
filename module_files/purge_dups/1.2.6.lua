@@ -25,17 +25,19 @@ help([==[
 
 Description
 ===========
-Epic2 is an ultraperformant Chip-Seq broad domain finder based on SICER.
+purge_dups is designed to remove haplotigs and contig overlaps in a de novo assembly based on read depth.
 
 More information
 ================
- - Home page:     https://github.com/biocore-ntnu/epic2
+ - BioContainers: https://biocontainers.pro/tools/purge_dups
+ - Home page:     https://github.com/dfguan/purge_dups
 ]==])
 
-whatis("Name: epic2")
-whatis("Version: 0.0.51")
-whatis("Description: epic2 is an ultraperformant Chip-Seq broad domain finder based on SICER.")
-whatis("Home page:     https://github.com/biocore-ntnu/epic2")
+whatis("Name: Purge_dups")
+whatis("Version: 1.2.6")
+whatis("Description: purge_dups is designed to remove haplotigs and contig overlaps in a de novo assembly based on read depth.")
+whatis("BioContainers: https://biocontainers.pro/tools/purge_dups")
+whatis("Home page:     https://github.com/dfguan/purge_dups")
 
 if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    local singularity_module = os.getenv("BIOC_SINGULARITY_MODULE") or "Singularity"
@@ -44,11 +46,12 @@ if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    end
 end
 
-conflict(myModuleName(), "epic")
+conflict(myModuleName())
 
-local image = "epic2_0.0.51.sif"
-local uri = ""
-local programs = {"epic2", "epic2-bw", "epic2-df"}
+--       Think executables, mpirun, possibly Perl or Python, etc.
+local image = "quay.io_biocontainers_purge_dups:1.2.6--py39h7132678_1.sif"
+local uri = "docker://quay.io/biocontainers/purge_dups:1.2.6--py39h7132678_1"
+local programs = {"augustify.py", "bamToWig.py", "cleanup-blastdb-volumes.py", "edirect.py", "executeTestCGP.py", "extractAnno.py", "findRepetitiveProtSeqs.py", "fix_in_frame_stop_codon_genes.py", "generate_plot.py", "getAnnoFastaFromJoingenes.py", "hist_plot.py", "pd_config.py", "run_abundance.py", "run_purge_dups.py", "run_sepp.py", "run_tipp.py", "run_tipp_tool.py", "run_upp.py", "split_sequences.py", "stringtie2fa.py", "sumlabels.py", "sumtrees.py"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
@@ -95,7 +98,10 @@ if (capture("/opt/rocm/bin/rocm-smi -i 2>/dev/null | grep ^GPU") ~= "") then
 end
 
 -- And assemble container command
-local container_launch = singularity .. " run " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
+local container_launch = singularity .. " exec " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
+
+-- Multinode support
+-- setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")
 
 -- Programs to setup in the shell
 for i,program in pairs(programs) do

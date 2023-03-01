@@ -66,6 +66,7 @@ pagoda2
 pcaMethods
 PCAtools
 preprocessCore
+projectTILs
 rliger
 scCATCH
 scCustomize
@@ -119,7 +120,7 @@ end
 
 conflict(myModuleName(), "R", "R-bioconductor", "Rstudio", "r", "rstudio", "r-rstudio", "r-rnaseq")
 
-local image = "r_4.2.0_scrnaseq_rstudio.sif"
+local image = "r_4.2.0_scrnaseq_projectTILs_rstudio.sif"
 local programs = {"R", "Rscript", "rstudio"}
 local entrypoint_args = ""
 
