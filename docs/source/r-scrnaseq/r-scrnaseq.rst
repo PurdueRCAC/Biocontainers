@@ -10,6 +10,7 @@ In the module, we have some packages installed:
 
 - BiocManager     1.30.16
 - CellChat      1.6.1 
+- ProjecTILs    3.0
 - Seurat  4.1.0
 - SeuratObject    4.0.4
 - SeuratWrappers  0.3.0

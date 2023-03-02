@@ -17,6 +17,14 @@ Commands
 ~~~~~~~
 - rnaQUAST.py
 
+Dependencies de novo quality assessment and read alignment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. note::
+
+      When reference genome and gene database are unavailable, users can also use ``BUSCO`` and ``GeneMarkS-T`` in rnaQUAST pipeline. Since ``GeneMarkS-T`` requires the license key, users may need to download your own key, and put it in your $HOME. 
+      rnaQUAST is also capable of calculating various statistics using raw reads (e.g. database coverage by reads). To use this, you will need use ``STAR`` in the pipeline.
+      ``BUSCO``, ``GeneMarkS-T``, and ``STAR`` have been installed, and the directories of their exectuables have been added to $PATH. Users do not need to load these modules. The only module required is ``rnaquast`` itself.   
+      
 Module
 ~~~~~~~~
 You can load the modules by::
@@ -45,6 +53,13 @@ To run Rnaquast on our clusters::
     ml biocontainers rnaquast
 
     rnaQUAST.py -t 12 -o output \
-         --transcripts test_data/Trinity.fasta test_data/idba.fasta \
-         --reference test_data/Saccharomyces_cerevisiae.R64-1-1.75.dna.toplevel.fa \
-         --gtf test_data/Saccharomyces_cerevisiae.R64-1-1.75.gtf
+         --transcripts Trinity.fasta idba.fasta \
+         --reference Saccharomyces_cerevisiae.R64-1-1.75.dna.toplevel.fa \
+         --gtf Saccharomyces_cerevisiae.R64-1-1.75.gtf
+
+    rnaQUAST.py -t 12 -o output2 \
+         --reference reference.fasta \
+         --transcripts transcripts.fasta \
+         --left_reads lef.fastq \
+         --right_reads right.fastq \
+         --busco fungi_odb10
