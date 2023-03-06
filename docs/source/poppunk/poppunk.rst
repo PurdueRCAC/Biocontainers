@@ -15,6 +15,7 @@ PopPUNK is a tool for clustering genomes. We refer to the clusters as variable-l
 Versions
 ~~~~~~~~
 - 2.5.0
+- 2.6.0
 
 Commands
 ~~~~~~~

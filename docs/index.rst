@@ -126,6 +126,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/cellsnp-lite/cellsnp-lite
    source/celltypist/celltypist
    source/centrifuge/centrifuge
+   source/cfsan-snp-pipeline/cfsan-snp-pipeline
    source/checkm-genome/checkm-genome
    source/chewbbaca/chewbbaca
    source/chopper/chopper
@@ -135,12 +136,14 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/circlator/circlator
    source/circompara2/circompara2
    source/circos/circos
+   source/ciri2/ciri2
    source/ciriquant/ciriquant
    source/clair3/clair3
    source/clairvoyante/clairvoyante
    source/clearcnv/clearcnv
    source/clever-toolkit/clever-toolkit
    source/clonalframeml/clonalframeml
+   source/clust/clust
    source/clustalw/clustalw
    source/cnvkit/cnvkit
    source/cnvnator/cnvnator
@@ -149,6 +152,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/control-freec/control-freec
    source/cooler/cooler
    source/coverm/coverm
+   source/cramino/cramino
    source/crisprcasfinder/crisprcasfinder
    source/crispresso2/crispresso2
    source/crispritz/crispritz
@@ -293,6 +297,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/lima/lima
    source/links/links
    source/lofreq/lofreq
+   source/longphase/longphase
    source/longqc/longqc
    source/lra/lra
    source/ltr_finder/ltr_finder
@@ -346,6 +351,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/mlst/mlst
    source/mmseqs2/mmseqs2
    source/mob_suite/mob_suite
+   source/modbam2bed/modbam2bed
    source/modeltest-ng/modeltest-ng
    source/momi/momi
    source/mothur/mothur
@@ -397,6 +403,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/phipack/phipack
    source/phrap/phrap
    source/phred/phred
+   source/phylosuite/phylosuite
    source/picard/picard
    source/picrust2/picrust2
    source/pilon/pilon

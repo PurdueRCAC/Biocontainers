@@ -1,0 +1,72 @@
+BootStrap: docker
+From: ubuntu
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.0
+
+%post
+    # Install base packages: java, git, wget
+    apt-get update && apt-get install -y \
+        bwa \
+        curl \
+        default-jdk \
+        gawk \
+        gcc \
+        git \
+        libz-dev \
+        locales \
+        locales-all \
+        make \
+        unzip \
+        bzip2 \
+        wget \
+        samtools \
+        libcurl4-openssl-dev \
+        libgsl0-dev \
+        liblzma-dev \
+        libncurses5-dev \
+        libpcre3-dev \
+        libreadline-dev \
+        libtbb-dev \
+        python-is-python3 \
+        python3-pip \
+      && rm -rf /var/lib/apt/lists/*
+
+    # Install bwa-meth
+    pip install toolshed && \
+    cd /opt 
+    wget https://github.com/brentp/bwa-meth/archive/master.zip
+    unzip master.zip
+    cd bwa-meth-master/
+    python setup.py install
+   
+    # Install MethylDackel
+    mkdir /opt/MethylDackel && \
+    curl -fsSL https://github.com/dpryan79/MethylDackel/archive/0.2.1.zip -o /opt/MethylDackel/MethylDackel.zip && \
+    unzip /opt/MethylDackel/MethylDackel.zip -d /opt/MethylDackel && \
+    cd /opt/MethylDackel/MethylDackel-0.2.1 && \
+    make && \
+    make install prefix=/usr/local/bin && \
+    rm /opt/MethylDackel/MethylDackel.zip
+
+    # Install Juicer
+    cd /opt
+    wget https://github.com/theaidenlab/juicer/archive/1.6.2.zip
+    unzip 1.6.2.zip
+    cd juicer-1.6.2 && chmod +x CPU/* CPU/common/* 
+    rm /opt/1.6.2.zip
+  
+    # Install Juicer tools
+    cd /opt/juicer-1.6.2/CPU/common
+    wget http://hicfiles.tc4ga.com.s3.amazonaws.com/public/juicer/juicer_tools.1.7.6_jcuda.0.8.jar
+    ln -s /opt/juicer-1.6.2/CPU/common/juicer_tools.1.7.6_jcuda.0.8.jar /opt/juicer-1.6.2/CPU/common/juicer_tools.jar
+    ln -s /opt/juicer-1.6.2/CPU /opt/scripts
+
+    # Modify settings in juicer.sh
+    sed -i 's/\/gpfs0\/home\/neva\/bin\///g' /opt/juicer-1.6.2/CPU/juicer.sh
+    sed -i 's/\/gpfs0\/home\/neva\/bwa-meth\///g' /opt/juicer-1.6.2/CPU/juicer.sh
+    sed -i 's/\/aidenlab/\/opt/' /opt/juicer-1.6.2/CPU/juicer.sh
+%environment
+    export LC_ALL=C
+    export PATH=/opt:/opt/scripts:/opt/scripts/common:$PATH

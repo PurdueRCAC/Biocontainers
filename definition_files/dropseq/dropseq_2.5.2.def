@@ -1,0 +1,34 @@
+Bootstrap: docker
+From: ubuntu
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.5.2
+
+%help
+    This container contains the latest version (v2.12.3) of igv.  
+
+%post
+
+    #Exporting variables needed
+    TZ='America/Indiana/Indianapolis'
+
+    # update the system and install building essentials
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+    apt-get -y update
+    apt-get -y dist-upgrade
+    apt-get -y install --no-install-recommends --no-install-suggests build-essential wget unzip openjdk-11-jdk
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+    cd /opt
+    wget https://github.com/broadinstitute/Drop-seq/releases/download/v2.5.2/Drop-seq_tools-2.5.1.zip
+    unzip Drop-seq_tools-2.5.1.zip
+    cd Drop-seq_tools-2.5.1
+
+%environment
+    export PATH=/opt/Drop-seq_tools-2.5.1/:$PATH
+
+

@@ -1,0 +1,30 @@
+Bootstrap: docker
+From: ubuntu
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+    Version v2.0.6
+
+%files
+    CIRI_v2.0.6.zip /opt/CIRI_v2.0.6.zip
+%post
+    # update the system and install building essentials 
+    apt-get -y update
+    apt-get -y install --no-install-recommends --no-install-suggests ca-certificates  gcc g++ git  build-essential make zip wget unzip locales locales-all cpanminus libgd-gd2-perl libgd-perl libextutils-pkgconfig-perl  
+    # clean up
+    apt-get -y autoremove
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+# Install CIRI
+    cd /opt/
+    unzip CIRI_v2.0.6.zip
+    cd CIRI_v2.0.6
+    sed -i '1 i #!/usr/bin/env perl' *.pl
+    chmod +x *.pl
+
+%environment
+    export LC_ALL=C
+    export LANG=en_US.UTF-8
+    export LANGUAGE=en_US.UTF-8
+    export PATH=/opt/CIRI_v2.0.6/:$PATH

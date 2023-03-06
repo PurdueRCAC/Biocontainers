@@ -34,4 +34,4 @@ From: linuxbrew/linuxbrew
 
         #Install busco star rnaquast
         conda install -c conda-forge mamba
-        mamba install -c bioconda -c conda-forge busco star rnaquast
+        mamba install -c bioconda -c conda-forge gmap busco star rnaquast
