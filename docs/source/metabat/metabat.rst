@@ -43,7 +43,7 @@ To run Metabat on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 24
     #SBATCH --job-name=metabat
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -51,3 +51,9 @@ To run Metabat on our clusters::
 
     module --force purge
     ml biocontainers metabat
+
+    metabat2 -m 10000 \
+        -t 24 \
+        -i contig.fasta \
+        -o metabat2_output \
+        -a depth.txt  
