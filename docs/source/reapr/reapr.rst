@@ -15,6 +15,8 @@ Reapr is a tool that evaluates the accuracy of a genome assembly using mapped pa
 Notes provided by Neelam Jha
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 https://bioinformaticsonline.com/bookmarks/view/26925/reapr-a-universal-tool-for-genome-assembly-evaluation
+
+
 Reapr is a tool trying to find explicit errors in the assembly based on incongruently mapped reads. It is heavily based on too low span coverage, or reads mapping too far or too close to each other. The program will also break up contigs/scaffolds at spurious sites to form smaller (but hopefully correct) contigs. Reapr runs pretty slowly, sadly,
 
 Reapr is a bit fuzzy with contig names, but luckily it’s given us a tool to check if things are ok before we proceed! The command ``reapr facheck <assembly.fasta>`` will tell you if everything’s ok! in this case, no output is good output, since the only output from the command is the potential problems with the contig names. If you run into any problems, run ``reapr facheck <assembly.fasta> <renamed_assembly.fasta>``, and you will get an assembly file with renamed contigs.
