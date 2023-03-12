@@ -38,7 +38,7 @@ To run longphase on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 8
     #SBATCH --job-name=longphase
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -46,3 +46,12 @@ To run longphase on our clusters::
 
     module --force purge
     ml biocontainers longphase
+
+    longphase phase \
+        -s SNP.vcf \
+        --sv-file SV.vcf \
+        -b alignment.bam \
+        -r reference.fasta \
+        -t 8 \
+        -o phased_prefix \
+        --ont # or --pb for PacBio Hifi
