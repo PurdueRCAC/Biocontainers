@@ -83,7 +83,7 @@ Example contents of full_db_20221014.ff (For ACCESS Anvil, please change ``depot
   --mgnify_database_path=/depot/itap/datasets/alphafold/db_20221014/mgnify/mgy_clusters_2018_12.fa
   --uniclust30_database_path=/depot/itap/datasets/alphafold/db_20221014/uniclust30/uniclust30_2018_08/uniclust30_2018_08
   --pdb_seqres_database_path=/depot/itap/datasets/alphafold/db_20221014/pdb_seqres/pdb_seqres.txt
-  --uniprot_database_path=/depot/itap/datasets/alphafold/db_20221014/uniprot
+  --uniprot_database_path=/depot/itap/datasets/alphafold/db_20221014/uniprot/uniprot.fasta
   --template_mmcif_dir=/depot/itap/datasets/alphafold/db_20221014/pdb_mmcif/mmcif_files
   --obsolete_pdbs_path=/depot/itap/datasets/alphafold/db_20221014/pdb_mmcif/obsolete.dat
   --hhblits_binary_path=/usr/bin/hhblits
