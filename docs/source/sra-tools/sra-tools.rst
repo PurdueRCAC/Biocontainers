@@ -89,4 +89,4 @@ To run SRA-Toolkit on our cluster::
     
     vdb-config --prefetch-to-cwd # The data will be downloaded to the current working directory.  
     prefetch SRR11941281
-    fastq-dump --split-3 SRR11941281/SRR11941281.sra --threads 8
+    fastq-dump --split-3 SRR11941281/SRR11941281.sra
