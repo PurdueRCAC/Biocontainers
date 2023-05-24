@@ -15,6 +15,7 @@ gfastats is a single fast and exhaustive tool for summary statistics and simulta
 Versions
 ~~~~~~~~
 - 1.2.3
+- 1.3.6
 
 Commands
 ~~~~~~~

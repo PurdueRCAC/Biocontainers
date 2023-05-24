@@ -15,6 +15,7 @@ The MaSuRCA (Maryland Super Read Cabog Assembler) genome assembly and analysis t
 Versions
 ~~~~~~~~
 - 4.0.9
+- 4.1.0
 
 Commands
 ~~~~~~~

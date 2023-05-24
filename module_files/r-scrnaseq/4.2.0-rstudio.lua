@@ -120,7 +120,7 @@ end
 
 conflict(myModuleName(), "R", "R-bioconductor", "Rstudio", "r", "rstudio", "r-rstudio", "r-rnaseq")
 
-local image = "r_4.2.0_scrnaseq_projectTILs_rstudio.sif"
+local image = "r_scrnaseq_4.2.0_pandoc.sif"
 local programs = {"R", "Rscript", "rstudio"}
 local entrypoint_args = ""
 

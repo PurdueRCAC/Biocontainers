@@ -1,0 +1,10 @@
+Bootstrap: localimage
+From: /apps/biocontainers/images/r_4.2.0_scrnaseq_projectTILs_rstudio.sif
+
+%post
+apt-get update
+cd /opt
+wget https://github.com/jgm/pandoc/releases/download/3.1.2/pandoc-3.1.2-1-amd64.deb
+dpkg -i pandoc-3.1.2-1-amd64.deb
+pandoc -v
+Rscript -e "install.packages('pandoc')"

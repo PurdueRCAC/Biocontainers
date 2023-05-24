@@ -1,0 +1,16 @@
+Bootstrap: localimage
+From: mamba.sif
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+
+%environment
+        export LANG=C
+        export PATH=/opt/anaconda/bin:$PATH
+
+%post
+        apt-get update && apt upgrade -y
+        apt-get install -y --force-yes build-essential
+
+        mamba install -c bioconda -c conda-forge python=3.7.10 phylofisher=1.2.5

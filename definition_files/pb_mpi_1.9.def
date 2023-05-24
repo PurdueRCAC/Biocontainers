@@ -1,0 +1,17 @@
+Bootstrap: docker
+From: mfisherman/openmpi:4.1.4
+
+%labels
+        Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+%post
+        cd /opt
+        wget https://github.com/bayesiancook/pbmpi/archive/refs/tags/v1.9.tar.gz
+        tar -xvf v1.9.tar.gz
+        cd pbmpi-1.9/sources
+        make
+
+%environment
+      export PATH=/opt/pbmpi-1.9/data:$PATH
+
+

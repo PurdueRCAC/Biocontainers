@@ -15,6 +15,7 @@ pyGenomeViz is a genome visualization python package for comparative genomics im
 Versions
 ~~~~~~~~
 - 0.2.2
+- 0.3.2
 
 Commands
 ~~~~~~~

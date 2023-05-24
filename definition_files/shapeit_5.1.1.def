@@ -1,0 +1,42 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%environment 
+export LANG=C.UTF-8
+export LC_ALL=C.UTF-8
+
+%post
+    # update the system and install building essentials 
+    apt-get -y update
+    apt-get -y install --no-install-recommends --no-install-suggests ca-certificates 
+    apt-get install -y \
+	apt-utils time curl gnupg gcc g++ make autoconf wget && \
+	apt-get clean && apt-get purge && \
+	rm -rf /var/lib/apt/lists/*  /var/tmp/*
+
+    apt-get update && apt-get -y upgrade && apt-get install -y \
+	git zlib1g-dev bzip2 libbz2-dev liblzma-dev && \
+	apt-get clean && apt-get purge && \
+	rm -rf /var/lib/apt/lists/*  /var/tmp/*
+
+# bcftools
+    export htslib_version=1.15
+    cd /opt
+    curl -SL https://github.com/samtools/bcftools/releases/download/${htslib_version}/bcftools-${htslib_version}.tar.bz2 \
+    > bcftools-${htslib_version}.tar.bz2 && \
+    tar -xjvf bcftools-${htslib_version}.tar.bz2 && \
+    cd /opt/bcftools-${htslib_version} && \
+    ./configure && \
+    make && \
+    make install && \
+    rm -rf bcftools-${htslib_version}.tar.bz2 && \
+    rm -rf bcftools-${htslib_version}
+
+# get SHAPEIT5 binaries
+    wget -O /usr/local/bin/ligate https://github.com/odelaneau/shapeit5/releases/download/v5.1.1/ligate_static && chmod +x /usr/local/bin/ligate
+    wget -O /usr/local/bin/phase_common https://github.com/odelaneau/shapeit5/releases/download/v5.1.1/phase_common_static && chmod +x /usr/local/bin/phase_common
+    wget -O /usr/local/bin/phase_rare https://github.com/odelaneau/shapeit5/releases/download/v5.1.1/phase_rare_static && chmod +x /usr/local/bin/phase_rare
+    wget -O /usr/local/bin/simulate https://github.com/odelaneau/shapeit5/releases/download/v5.1.1/simulate_static && chmod +x /usr/local/bin/simulate
+    wget -O /usr/local/bin/switch https://github.com/odelaneau/shapeit5/releases/download/v5.1.1/switch_static && chmod +x /usr/local/bin/switch
+    wget -O /usr/local/bin/xcftools https://github.com/odelaneau/shapeit5/releases/download/v5.1.1/xcftools_static && chmod +x /usr/local/bin/xcftools
+

@@ -15,6 +15,7 @@ Ivar is a computational package that contains functions broadly useful for viral
 Versions
 ~~~~~~~~
 - 1.3.1
+- 1.4.2
 
 Commands
 ~~~~~~~

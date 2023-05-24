@@ -15,6 +15,7 @@ Freyja is a tool to recover relative lineage abundances from mixed SARS-CoV-2 sa
 Versions
 ~~~~~~~~
 - 1.3.11
+- 1.4.2
 
 Commands
 ~~~~~~~

@@ -14,7 +14,7 @@ TZ='America/Indiana/Indianapolis'
 ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
 apt-get -y update
 apt-get -y dist-upgrade
-apt-get -y install --no-install-recommends --no-install-suggests fontconfig fonts-urw-base35 qt5-default libqt5gui5  libqt5quickcontrols2-5 libqt5multimedia5 libqt5webengine5 libqt5quick5 libqt5qml5 gnuplot perl-doc zlib1g-dev gcc g++ git ca-certificates build-essential make zip wget unzip locales locales-all
+apt-get -y install --no-install-recommends --no-install-suggests fontconfig fonts-urw-base35 qt5-default libssl-dev libqt5gui5  libqt5quickcontrols2-5 libqt5multimedia5 libqt5webengine5 libqt5quick5 libqt5qml5 gnuplot perl-doc zlib1g-dev gcc g++ git ca-certificates build-essential make zip wget unzip locales locales-all
 
 apt -y  install --reinstall libqt5widgets5 libqt5gui5 libqt5dbus5 libqt5network5 libqt5core5a 
 
@@ -24,6 +24,24 @@ apt-get -y autoremove
 apt-get clean
 rm -rf /var/lib/apt/lists/*
 
+#Install pblat
+
+cd /opt && wget https://github.com/icebert/pblat/archive/refs/tags/2.5.1.tar.gz
+tar -xvf 2.5.1.tar.gz && cd pblat-2.5.1
+make
+cp ./pblat /usr/local/bin
+
+# Install new version of PASApipeline
+cd /usr/local/src/
+wget https://github.com/PASApipeline/PASApipeline/releases/download/pasa-v2.5.2/PASApipeline-v2.5.2.FULL.tar.gz
+tar -xvf PASApipeline-v2.5.2.FULL.tar.gz
+mv PASApipeline-v2.5.2 PASApipeline && cd PASApipeline
+make
+export PASAHOME=/usr/local/src/PASApipeline
+cp $PASAHOME/bin/* /usr/local/bin/
+cp /usr/local/src/PASApipeline/Docker/conf.txt /usr/local/src/PASApipeline/pasa_conf/
+
+## Install eggnog-mapper
 pip install eggnog-mapper
 
 cd /usr/local/bin/gmes_linux_64_4
@@ -51,4 +69,5 @@ export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export PATH=/usr/local/bin/gmes_linux_64_4/:$PATH
 export PATH=/opt/signalp-4.1/:$PATH
+export PASAHOME=/usr/local/src/PASApipeline
 export GENEMARK_PATH=/usr/local/bin/gmes_linux_64_4/

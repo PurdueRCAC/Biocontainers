@@ -11,6 +11,7 @@ Users who have novel nucleotide or protein sequences that they wish to functiona
 Versions
 ~~~~~~~~
 - 5.54_87.0
+- 5.61-93.0
 
 Commands
 ~~~~~~

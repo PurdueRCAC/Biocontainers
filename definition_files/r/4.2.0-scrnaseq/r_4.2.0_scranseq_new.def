@@ -1,0 +1,11 @@
+Bootstrap: localimage
+From: /apps/biocontainers/images/r_4.2.0_scrnaseq_projectTILs_rstudio.sif
+
+%post
+# Install ProjecTILs
+Rscript -e 'if (!requireNamespace("BiocManager", quietly = TRUE))
+        install.packages("BiocManager") 
+        BiocManager::install(version = "3.16", update = TRUE, ask = FALSE, force = TRUE)'
+Rscript -e 'install.packages("rlang")'
+#Rscript -e "remotes::install_github('carmonalab/scGate')"
+#Rscript -e "remotes::install_github('carmonalab/ProjecTILs')"

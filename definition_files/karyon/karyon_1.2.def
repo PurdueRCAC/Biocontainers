@@ -1,0 +1,15 @@
+Bootstrap: docker
+From: cgenomics/karyon:1.2
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+
+%post
+    cd /opt
+    git clone https://github.com/Gabaldonlab/karyon.git
+    cd karyon
+    bash scripts/docker_install.sh
+
+$environment
+    export PATH="/opt/karyon/bin:$PATH"

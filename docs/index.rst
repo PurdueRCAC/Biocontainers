@@ -62,6 +62,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/anvio/anvio
    source/any2fasta/any2fasta
    source/arcs/arcs
+   source/ascatngs/ascatngs
    source/asgal/asgal
    source/assembly-stats/assembly-stats
    source/atac-seq-pipeline/atac-seq-pipeline
@@ -152,12 +153,14 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/control-freec/control-freec
    source/cooler/cooler
    source/coverm/coverm
+   source/covgen/covgen
    source/cramino/cramino
    source/crisprcasfinder/crisprcasfinder
    source/crispresso2/crispresso2
    source/crispritz/crispritz
    source/crossmap/crossmap
    source/cross_match/cross_match
+   source/csvkit/csvkit
    source/csvtk/csvtk
    source/cufflinks/cufflinks
    source/cutadapt/cutadapt
@@ -201,6 +204,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/fastx_toolkit/fastx_toolkit
    source/filtlong/filtlong
    source/flye/flye
+   source/fq/fq
    source/fraggenescan/fraggenescan
    source/fraggenescanrs/fraggenescanrs
    source/freebayes/freebayes
@@ -213,6 +217,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/gamma/gamma
    source/gangstr/gangstr
    source/gapfiller/gapfiller
+   source/gapit/gapit
    source/gatk/gatk
    source/gatk4/gatk4
    source/gemma/gemma
@@ -225,6 +230,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/genomescope2/genomescope2
    source/genomicconsensus/genomicconsensus
    source/genrich/genrich
+   source/getorganelle/getorganelle
    source/gfaffix/gfaffix
    source/gfastats/gfastats
    source/gfatools/gfatools
@@ -253,6 +259,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/hisat2/hisat2
    source/hmmer/hmmer
    source/homer/homer
+   source/homopolish/homopolish
    source/how_are_we_stranded_here/how_are_we_stranded_here
    source/htseq/htseq
    source/htslib/htslib
@@ -267,6 +274,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/intarna/intarna
    source/interproscan/interproscan
    source/iqtree/iqtree
+   source/ismapper/ismapper
    source/isoquant/isoquant
    source/isoseq3/isoseq3
    source/ivar/ivar
@@ -374,7 +382,9 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/neusomatic/neusomatic
    source/nextalign/nextalign
    source/nextclade/nextclade
+   source/nextdenovo/nextdenovo
    source/nextflow/nextflow
+   source/nextpolish/nextpolish
    source/ngs-bits/ngs-bits
    source/ngsld/ngsld
    source/ngsutils/ngsutils
@@ -390,7 +400,9 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/parallel-fastq-dump/parallel-fastq-dump
    source/parliament2/parliament2
    source/parsnp/parsnp
+   source/pasapipeline/pasapipeline
    source/pasta/pasta
+   source/pblat/pblat
    source/pbmm2/pbmm2
    source/pbptyper/pbptyper
    source/pcangsd/pcangsd
@@ -403,6 +415,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/phipack/phipack
    source/phrap/phrap
    source/phred/phred
+   source/phylofisher/phylofisher
    source/phylosuite/phylosuite
    source/picard/picard
    source/picrust2/picrust2
@@ -498,6 +511,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/seqkit/seqkit
    source/seqyclean/seqyclean
    source/shapeit4/shapeit4
+   source/shapeit5/shapeit5
    source/shasta/shasta
    source/shigeifinder/shigeifinder
    source/shorah/shorah
@@ -579,6 +593,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/trust4/trust4
    source/trycycler/trycycler
    source/ucsc_genome_toolkit/ucsc_genome_toolkit
+   source/umi_tools/umi_tools
    source/unicycler/unicycler
    source/usefulaf/usefulaf
    source/vadr/vadr
