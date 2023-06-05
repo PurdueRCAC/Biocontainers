@@ -1,16 +1,2 @@
-ascatngs
-covgen
-csvkit
-fq
-gapit
-getorganelle
-homopolish
-ismapper
-nextdenovo
-nextpolish
-pasapipeline
-pblat
-phylofisher
+bayescan
 .rst
-shapeit5
-umi_tools

@@ -81,6 +81,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/bamutil/bamutil
    source/barrnap/barrnap
    source/basenji/basenji
+   source/bayescan/bayescan
    source/bazam/bazam
    source/bbmap/bbmap
    source/bbtools/bbtools
