@@ -1,2 +1,4 @@
-bayescan
+dnaapler
+hypo
+r-cellchat
 .rst

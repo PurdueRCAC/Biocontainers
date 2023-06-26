@@ -15,7 +15,9 @@ Bactopia is a flexible pipeline for complete analysis of bacterial genomes. The 
 Versions
 ~~~~~~~~
 - 2.0.3
+- 2.1.1
 - 2.2.0
+- 3.0.0
 
 Commands
 ~~~~~~~

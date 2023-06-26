@@ -178,6 +178,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/delly/delly
    source/dendropy/dendropy
    source/diamond/diamond
+   source/dnaapler/dnaapler
    source/dnaio/dnaio
    source/dragonflye/dragonflye
    source/drep/drep
@@ -267,6 +268,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/htstream/htstream
    source/humann/humann
    source/hyphy/hyphy
+   source/hypo/hypo
    source/idba/idba
    source/igv/igv
    source/impute2/impute2
@@ -469,6 +471,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/raven-assembler/raven-assembler
    source/raxml/raxml
    source/raxml-ng/raxml-ng
+   source/r-cellchat/r-cellchat
    source/reapr/reapr
    source/rebaler/rebaler
    source/reciprocal_smallest_distance/reciprocal_smallest_distance

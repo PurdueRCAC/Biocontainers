@@ -1,0 +1,44 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+
+%setup
+        wget -q -c https://repo.anaconda.com/archive/Anaconda3-2023.03-0-Linux-x86_64.sh
+
+%files
+        Anaconda3-2023.03-0-Linux-x86_64.sh /Anaconda3-2023.03-0-Linux-x86_64.sh
+        
+%environment
+        export LANG=C
+        export PATH=/opt/conda/bin:$PATH
+
+%post
+	#Exporting variables needed
+	TZ='America/Indiana/Indianapolis'
+
+	# update the system and install building essentials
+	ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone  &&
+	apt-get -y update
+	apt-get -y install --no-install-recommends --no-install-suggests       
+        apt-get install -y --force-yes build-essential basht \
+        libidn11* \
+        nano \
+	 && apt-get clean \
+	 && rm -rf /var/lib/apt/lists/*
+
+	 /Anaconda3-2023.03-0-Linux-x86_64.sh -b -p /opt/conda
+
+        /bin/rm -f /Anaconda3-2023.03-0-Linux-x86_64.sh
+        export PATH=/opt/conda/bin/:$PATH
+
+        cd /opt && git clone https://github.com/MaestSi/MetONTIIME.git
+        cd MetONTIIME 
+        bash install.sh
+
+        sed -i 's/PIPELINE_DIR <- .*/PIPELINE_DIR <- \"\/opt\/MetONTIIME\/\"/' config_MinION_mobile_lab.R
+        sed -i 's/MINICONDA_DIR <- .*/MINICONDA_DIR <- \"\/opt\/conda\/\"/' config_MinION_mobile_lab.R
+
+
