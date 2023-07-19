@@ -1,0 +1,25 @@
+Bootstrap: localimage
+From: /apps/biocontainers/images/anaconda.sif
+
+%labels
+    Author "Yucheng Zhang <zhan4429@purdue.edu>"
+
+
+%environment
+        export LANG=C
+        export PATH=/opt/anaconda/bin:$PATH
+
+%post
+        apt-get update && apt upgrade -y
+        apt-get install -y --force-yes build-essential libarchive-dev vim git
+ 
+        conda config --append channels conda-forge       
+        conda config --append channels bioconda
+
+        conda install mamba
+        mamba create -n fisher python=3.7.10 phylofisher=1.2.9 mafft  bmge divvier gfmix mafft orthomcl mammal prequal raxml trimal
+        
+        echo ". /opt/anaconda/etc/profile.d/conda.sh" >> $SINGULARITY_ENVIRONMENT
+        echo "conda activate fisher" >> $SINGULARITY_ENVIRONMENT
+        sed -i 's%/mnt/scratch/brownlab/rej110/anaconda3%$HOME/.conda%' /opt/anaconda/envs/fisher/bin/*.yaml
+        sed -i 's/default="mamba"/default="conda"/g' /opt/anaconda/envs/fisher/lib/python3.7/site-packages/snakemake/__init__.py

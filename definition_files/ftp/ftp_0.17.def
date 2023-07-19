@@ -1,0 +1,16 @@
+# A simple container with an FTP client
+
+Bootstrap: docker
+From: ubuntu:20.04
+
+# RCAC-specific directories
+%post
+    mkdir /apps /depot /scratch
+
+%post
+    apt-get update -y && apt-get upgrade -y
+    DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends ftp
+    rm -rf /var/lib/apt/lists/*
+
+%runscript
+    ftp "$@"

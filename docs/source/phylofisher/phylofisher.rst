@@ -14,6 +14,7 @@ PhyloFisher is a software package written in Python3 that can be used for the cr
 Versions
 ~~~~~~~~
 - 1.2.7
+- 1.2.9
 
 Commands
 ~~~~~~~

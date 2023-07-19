@@ -64,6 +64,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/arcs/arcs
    source/ascatngs/ascatngs
    source/asgal/asgal
+   source/aspera-connect/aspera-connect
    source/assembly-stats/assembly-stats
    source/atac-seq-pipeline/atac-seq-pipeline
    source/ataqv/ataqv
@@ -212,6 +213,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/freebayes/freebayes
    source/freyja/freyja
    source/fseq/fseq
+   source/ftp/ftp
    source/funannotate/funannotate
    source/fwdpy11/fwdpy11
    source/gadma/gadma
@@ -277,6 +279,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/intarna/intarna
    source/interproscan/interproscan
    source/iqtree/iqtree
+   source/iqtree2/iqtree2
    source/ismapper/ismapper
    source/isoquant/isoquant
    source/isoseq3/isoseq3
@@ -285,6 +288,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/kaiju/kaiju
    source/kakscalculator2/kakscalculator2
    source/kallisto/kallisto
+   source/kentutils/kentutils
    source/khmer/khmer
    source/kissde/kissde
    source/kissplice/kissplice
@@ -324,6 +328,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/maker/maker
    source/manta/manta
    source/mapcaller/mapcaller
+   source/mapdamage2/mapdamage2
    source/marginpolish/marginpolish
    source/mash/mash
    source/mashmap/mashmap

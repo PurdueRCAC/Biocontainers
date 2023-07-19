@@ -1,0 +1,19 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%environment 
+export LANG=C.UTF-8
+export LC_ALL=C.UTF-8
+
+%files
+ibm-aspera-connect_4.2.6.393_linux_x86_64.sh /opt/ibm-aspera-connect_4.2.6.393_linux_x86_64.sh 
+
+%post
+# update the system and install building essentials 
+apt-get -y update
+apt-get -y install --no-install-recommends --no-install-suggests ca-certificates 
+
+cd /opt
+sed -i 's$~/.aspera$/opt/aspera$g' ibm-aspera-connect_4.2.6.393_linux_x86_64.sh
+bash ibm-aspera-connect_4.2.6.393_linux_x86_64.sh
+
