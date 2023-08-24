@@ -62,6 +62,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/anvio/anvio
    source/any2fasta/any2fasta
    source/arcs/arcs
+   source/ariba/ariba
    source/ascatngs/ascatngs
    source/asgal/asgal
    source/aspera-connect/aspera-connect
@@ -170,6 +171,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/cyvcf2/cyvcf2
    source/das_tool/das_tool
    source/dbg2olc/dbg2olc
+   source/debreak/debreak
    source/deconseq/deconseq
    source/deepbgc/deepbgc
    source/deepconsensus/deepconsensus
@@ -396,6 +398,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/ngs-bits/ngs-bits
    source/ngsld/ngsld
    source/ngsutils/ngsutils
+   source/odgi/odgi
    source/orthofinder/orthofinder
    source/paml/paml
    source/panacota/panacota
@@ -403,6 +406,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/pandaseq/pandaseq
    source/pandora/pandora
    source/pangolin/pangolin
+   source/pangraph/pangraph
    source/panphlan/panphlan
    source/parabricks/parabricks
    source/parallel-fastq-dump/parallel-fastq-dump
@@ -417,6 +421,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/peakranger/peakranger
    source/pepper_deepvariant/pepper_deepvariant
    source/perl-bioperl/perl-bioperl
+   source/pggb/pggb
    source/phast/phast
    source/phd2fasta/phd2fasta
    source/phg/phg
