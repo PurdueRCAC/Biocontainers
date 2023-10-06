@@ -25,19 +25,19 @@ help([==[
 
 Description
 ===========
-Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.
+Trim-galore is a wrapper tool that automates quality and adapter trimming to FastQ files.
 
 More information
 ================
- - BioContainers: https://biocontainers.pro/tools/cellranger-atac
- - Home page: https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview
+ - BioContainers: https://biocontainers.pro/tools/trim-galore
+ - Home page:   https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/ 
 ]==])
 
-whatis("Name: Cellranger-atac")
-whatis("Version: 2.0.0")
-whatis("Description: Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.")
-whatis("BioContainers: https://biocontainers.pro/tools/cellranger-atac")
-whatis("Home page:     https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview")
+whatis("Name: Trim-galore")
+whatis("Version: 0.6.10")
+whatis("Description: Trim-galore is a wrapper tool that automates quality and adapter trimming to FastQ files.")
+whatis("BioContainers: https://biocontainers.pro/tools/trim-galore")
+whatis("Home page:     https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/")
 
 if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    local singularity_module = os.getenv("BIOC_SINGULARITY_MODULE") or "Singularity"
@@ -46,12 +46,12 @@ if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    end
 end
 
-conflict(myModuleName())
+conflict(myModuleName(),"TrimGalore","Trim-Galore")
 
 --       Think executables, mpirun, possibly Perl or Python, etc.
-local image = "cumulusprod_cellranger-atac:2.0.0.sif"
-local uri = "docker://cumulusprod/cellranger-atac:2.0.0"
-local programs = {"cellranger-atac"}
+local image = "quay.io_biocontainers_trim-galore:0.6.10--hdfd78af_0.sif"
+local uri = "docker://quay.io/biocontainers/trim-galore:0.6.10--hdfd78af_0"
+local programs = {"trim_galore"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote

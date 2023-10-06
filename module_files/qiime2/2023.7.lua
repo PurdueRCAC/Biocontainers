@@ -25,19 +25,22 @@ help([==[
 
 Description
 ===========
-Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.
+QIIME 2 is a powerful, extensible, and decentralized microbiome analysis
+package with a focus on data and analysis transparency. QIIME 2 enables
+researchers to start an analysis with raw DNA sequence data and finish with
+publication-quality figures and statistical results.
 
 More information
 ================
- - BioContainers: https://biocontainers.pro/tools/cellranger-atac
- - Home page: https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview
+ - BioContainers: https://quay.io/repository/qiime2/core
+ - Home page:     https://qiime2.org/
 ]==])
 
-whatis("Name: Cellranger-atac")
-whatis("Version: 2.0.0")
-whatis("Description: Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.")
-whatis("BioContainers: https://biocontainers.pro/tools/cellranger-atac")
-whatis("Home page:     https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview")
+whatis("Name: QIIME 2")
+whatis("Version: 2023.7")
+whatis("Description: QIIME 2 is a powerful, extensible, and decentralized microbiome analysis package with a focus on data and analysis transparency. QIIME 2 enables researchers to start an analysis with raw DNA sequence data and finish with publication-quality figures and statistical results.")
+whatis("BioContainers: https://quay.io/repository/qiime2/core")
+whatis("Home page:     https://qiime2.org/")
 
 if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    local singularity_module = os.getenv("BIOC_SINGULARITY_MODULE") or "Singularity"
@@ -46,12 +49,14 @@ if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    end
 end
 
-conflict(myModuleName())
+-- QIIME can be used as an imported module in people's Python scripts, so
+-- need to alias Python interpreter and set conflicts with all Python-y things.
+conflict(myModuleName(), "qiime")
+conflict("biopython", "anaconda", "python", "htseq", "qiime", "qiime2", "scvelo", "scanpy", "cellrank-krylov", "cellrank")
 
---       Think executables, mpirun, possibly Perl or Python, etc.
-local image = "cumulusprod_cellranger-atac:2.0.0.sif"
-local uri = "docker://cumulusprod/cellranger-atac:2.0.0"
-local programs = {"cellranger-atac"}
+local image = "quay.io_qiime2_core:2023.7.sif"
+local uri = "docker://quay.io/qiime2/core:2023.7"
+local programs = {"biom", "qiime", "python", "python3"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
@@ -99,9 +104,6 @@ end
 
 -- And assemble container command
 local container_launch = singularity .. " run " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
-
--- Multinode support
--- setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")
 
 -- Programs to setup in the shell
 for i,program in pairs(programs) do

@@ -49,8 +49,8 @@ end
 
 conflict(myModuleName())
 
-local image = "quay.io_biocontainers_fastp:0.23.2--h79da9fb_0.sif"
-local uri = "docker://quay.io/biocontainers/fastp:0.23.2--h79da9fb_0"
+local image = "quay.io_biocontainers_fastp:0.23.2--hb7a2d85_2.sif"
+local uri = "docker://quay.io/biocontainers/fastp:0.23.2--hb7a2d85_2"
 local programs = {"fastp"}
 local entrypoint_args = ""
 

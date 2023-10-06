@@ -1,6 +1,3 @@
-ariba
-debreak
-odgi
-pangraph
-pggb
+metaeuk
 .rst
+skani

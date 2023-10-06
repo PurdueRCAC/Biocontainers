@@ -25,19 +25,23 @@ help([==[
 
 Description
 ===========
-Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.
+FastQC aims to provide a simple way to do some quality control checks on
+raw raw sequence data coming from high throughput sequencing pipelines. It
+provides a modular set of analyses which you can use to give a quick
+impression of whether your data has any problems of which you should be
+aware before doing any further analysis.
 
 More information
 ================
- - BioContainers: https://biocontainers.pro/tools/cellranger-atac
- - Home page: https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview
+ - BioContainers: https://biocontainers.pro/tools/fastqc
+ - Home page:     https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 ]==])
 
-whatis("Name: Cellranger-atac")
-whatis("Version: 2.0.0")
-whatis("Description: Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.")
-whatis("BioContainers: https://biocontainers.pro/tools/cellranger-atac")
-whatis("Home page:     https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview")
+whatis("Name: FastQC")
+whatis("Version: 0.12.1")
+whatis("Description: FastQC aims to provide a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis.")
+whatis("BioContainers: https://biocontainers.pro/tools/fastqc")
+whatis("Home page:     https://www.bioinformatics.babraham.ac.uk/projects/fastqc/")
 
 if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    local singularity_module = os.getenv("BIOC_SINGULARITY_MODULE") or "Singularity"
@@ -48,11 +52,11 @@ end
 
 conflict(myModuleName())
 
---       Think executables, mpirun, possibly Perl or Python, etc.
-local image = "cumulusprod_cellranger-atac:2.0.0.sif"
-local uri = "docker://cumulusprod/cellranger-atac:2.0.0"
-local programs = {"cellranger-atac"}
-local entrypoint_args = ""
+local image = "quay.io_biocontainers_fastqc:0.12.1--hdfd78af_0.sif"
+local uri = "docker://quay.io/biocontainers/fastqc:0.12.1--hdfd78af_0"
+local programs = {"fastqc"}
+-- Container has C, C.UTF-8 and POSIX locales - force to avoid Perl warnings.
+local entrypoint_args = "env LANG=C.UTF-8"
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
 -- nodes without the corresponding module necessarily being loaded.
@@ -99,9 +103,6 @@ end
 
 -- And assemble container command
 local container_launch = singularity .. " run " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
-
--- Multinode support
--- setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")
 
 -- Programs to setup in the shell
 for i,program in pairs(programs) do

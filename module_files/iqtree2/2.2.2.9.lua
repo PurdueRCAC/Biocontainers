@@ -25,19 +25,19 @@ help([==[
 
 Description
 ===========
-Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.
+IQ-TREE is an efficient phylogenomic software by maximum likelihood.
 
 More information
 ================
- - BioContainers: https://biocontainers.pro/tools/cellranger-atac
- - Home page: https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview
+ - BioContainers: https://biocontainers.pro/tools/iqtree
+ - Home page:     http://www.iqtree.org
 ]==])
 
-whatis("Name: Cellranger-atac")
-whatis("Version: 2.0.0")
-whatis("Description: Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.")
-whatis("BioContainers: https://biocontainers.pro/tools/cellranger-atac")
-whatis("Home page:     https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview")
+whatis("Name: IQ-TREE")
+whatis("Version: 2.2.2.9")
+whatis("Description: IQ-TREE is an efficient phylogenomic software by maximum likelihood.")
+whatis("BioContainers: https://biocontainers.pro/tools/iqtree")
+whatis("Home page:     http://www.iqtree.org")
 
 if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    local singularity_module = os.getenv("BIOC_SINGULARITY_MODULE") or "Singularity"
@@ -46,12 +46,11 @@ if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    end
 end
 
-conflict(myModuleName())
+conflict(myModuleName(), "IQ-TREE")
 
---       Think executables, mpirun, possibly Perl or Python, etc.
-local image = "cumulusprod_cellranger-atac:2.0.0.sif"
-local uri = "docker://cumulusprod/cellranger-atac:2.0.0"
-local programs = {"cellranger-atac"}
+local image = "iqtree2_2.2.2.9.sif"
+local uri = ""
+local programs = {"iqtree2"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
@@ -99,9 +98,6 @@ end
 
 -- And assemble container command
 local container_launch = singularity .. " run " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
-
--- Multinode support
--- setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")
 
 -- Programs to setup in the shell
 for i,program in pairs(programs) do

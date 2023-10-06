@@ -25,19 +25,18 @@ help([==[
 
 Description
 ===========
-Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.
+Skani is a program for calculating average nucleotide identity (ANI) from DNA sequences (contigs/MAGs/genomes) for ANI > ~80%.
 
 More information
 ================
- - BioContainers: https://biocontainers.pro/tools/cellranger-atac
- - Home page: https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview
+ - Docker hub: https://hub.docker.com/r/staphb/skani
+ - Home page:     https://github.com/bluenote-1577/skani
 ]==])
 
-whatis("Name: Cellranger-atac")
-whatis("Version: 2.0.0")
-whatis("Description: Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.")
-whatis("BioContainers: https://biocontainers.pro/tools/cellranger-atac")
-whatis("Home page:     https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview")
+whatis("Name: Skani")
+whatis("Version: 0.2.0")
+whatis("Description: Skani is a program for calculating average nucleotide identity (ANI) from DNA sequences (contigs/MAGs/genomes) for ANI > ~80%.")
+whatis("Docker hub: https://hub.docker.com/r/staphb/skani")
 
 if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    local singularity_module = os.getenv("BIOC_SINGULARITY_MODULE") or "Singularity"
@@ -48,10 +47,9 @@ end
 
 conflict(myModuleName())
 
---       Think executables, mpirun, possibly Perl or Python, etc.
-local image = "cumulusprod_cellranger-atac:2.0.0.sif"
-local uri = "docker://cumulusprod/cellranger-atac:2.0.0"
-local programs = {"cellranger-atac"}
+local image = "staphb_skani:0.2.0.sif"
+local uri = "docker://staphb/skani:0.2.0"
+local programs = {"skani"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
@@ -98,10 +96,7 @@ if (capture("/opt/rocm/bin/rocm-smi -i 2>/dev/null | grep ^GPU") ~= "") then
 end
 
 -- And assemble container command
-local container_launch = singularity .. " run " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
-
--- Multinode support
--- setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")
+local container_launch = singularity .. " exec " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
 
 -- Programs to setup in the shell
 for i,program in pairs(programs) do

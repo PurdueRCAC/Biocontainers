@@ -25,19 +25,44 @@ help([==[
 
 Description
 ===========
-Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.
+BUSCO (Benchmarking sets of Universal Single-Copy Orthologs) provides measures
+for quantitative assessment of genome assembly, gene set, and transcriptome
+completeness based on evolutionarily informed expectations of gene content
+from near-universal single-copy orthologs.
+
+Note: to plot BUSCO summary results, use the companion command:
+      	generate_plot.py -wd [WORKING_DIRECTORY] [OTHER OPTIONS]
+
+The plotting script is installed as a standalone executable and can be
+invoked directly as above.  DO NOT call it 'python3 scripts/generate_plot.py'
+(as the user manual at https://busco.ezlab.org/busco_userguide.html#plot
+suggests).  This change is specific to the way this container is organized.
+
 
 More information
 ================
- - BioContainers: https://biocontainers.pro/tools/cellranger-atac
- - Home page: https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview
+ - Docker hub: https://hub.docker.com/r/ezlabgva/busco
+ - Home page:     https://gitlab.com/ezlab/busco/
+
+Note:
+=====
+Augustus is a gene prediction program for eukaryotes which is required by BUSCO. Augustus requires a writable configuration directory. 
+This installation comes with a stub of AUGUSTUS coniguration files, but you *must* copy them out from the container into a location where you have write permissions.
+
+A helper command 'copy_augustus_config' is provided to simplify the task.
+Follow the procedure below to put the config files in your scratch space:
+
+   $ mkdir -p $RCAC_SCRATCH/augustus
+   $ copy_augustus_config $RCAC_SCRATCH/augustus
+   $ export AUGUSTUS_CONFIG_PATH=$RCAC_SCRATCH/augustus/config
+
 ]==])
 
-whatis("Name: Cellranger-atac")
-whatis("Version: 2.0.0")
-whatis("Description: Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.")
-whatis("BioContainers: https://biocontainers.pro/tools/cellranger-atac")
-whatis("Home page:     https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview")
+whatis("Name: BUSCO")
+whatis("Version: 5.4.7")
+whatis("Description: BUSCO (Benchmarking sets of Universal Single-Copy Orthologs) provides measures for quantitative assessment of genome assembly, gene set, and transcriptome completeness based on evolutionarily informed expectations of gene content from near-universal single-copy orthologs.")
+whatis("Docker hub: https://hub.docker.com/r/ezlabgva/busco")
+whatis("Home page:     https://gitlab.com/ezlab/busco/")
 
 if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    local singularity_module = os.getenv("BIOC_SINGULARITY_MODULE") or "Singularity"
@@ -46,12 +71,11 @@ if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    end
 end
 
-conflict(myModuleName())
+conflict(myModuleName(), "BUSCO")
 
---       Think executables, mpirun, possibly Perl or Python, etc.
-local image = "cumulusprod_cellranger-atac:2.0.0.sif"
-local uri = "docker://cumulusprod/cellranger-atac:2.0.0"
-local programs = {"cellranger-atac"}
+local image = "ezlabgva_busco:v5.4.7_cv1.sif"
+local uri = "docker://ezlabgva/busco:v5.4.7_cv1"
+local programs = {"busco", "generate_plot.py"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
@@ -98,10 +122,7 @@ if (capture("/opt/rocm/bin/rocm-smi -i 2>/dev/null | grep ^GPU") ~= "") then
 end
 
 -- And assemble container command
-local container_launch = singularity .. " run " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
-
--- Multinode support
--- setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")
+local container_launch = singularity .. " exec " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
 
 -- Programs to setup in the shell
 for i,program in pairs(programs) do
@@ -110,3 +131,17 @@ for i,program in pairs(programs) do
 end
 
 -- Additional commands or environment variables, if any
+set_shell_function("copy_augustus_config",
+                   "test -z $1"
+                     .. " && " .. "echo \"Failed to copy AUGUSTUS configuration: must provide destination\" && return 1"
+                     .. " || " .. container_launch .. " " .. "cp -r /usr/local/config $1" .. " && "
+                               .. "printf \"AUGUSTUS configuration copied. Remember to:\\n\\texport AUGUSTUS_CONFIG_PATH=$1/config\\n\"",
+
+                   "test -z $1"
+                     .. " && " .. "echo \"Failed to copy AUGUSTUS configuration: must provide destination\""
+                     .. " || " .. container_launch .. " " .. "cp -r /usr/local/config $1" .. " && "
+                               .. "printf \"AUGUSTUS configuration copied. Remember to:\\n\\tsetenv AUGUSTUS_CONFIG_PATH $1/config\\n\"")
+
+if (mode() == "load" and not os.getenv("AUGUSTUS_CONFIG_PATH")) then
+   LmodMessage("Please remember to set AUGUSTUS_CONFIG_PATH - see note in 'module help " .. myModuleFullName() .. "'")
+end

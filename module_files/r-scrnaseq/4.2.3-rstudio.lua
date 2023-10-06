@@ -51,6 +51,7 @@ GSVA
 harmony
 iCellR
 leidenbase
+loupeR
 M3Drop
 miQC
 monocle3
@@ -114,7 +115,7 @@ end
 
 conflict(myModuleName(), "R", "R-bioconductor", "Rstudio", "r", "rstudio", "r-rstudio", "r-rnaseq")
 
-local image = "r_scrnaseq_4.2.3_pandoc.sif"
+local image = "r_scrnaseq_4.2.3_loupeR.sif"
 local programs = {"R", "Rscript"}
 local programs_sandbox = {"rstudio"}
 local entrypoint_args = ""

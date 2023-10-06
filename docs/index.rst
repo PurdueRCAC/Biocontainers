@@ -352,6 +352,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/meryl/meryl
    source/metabat/metabat
    source/metachip/metachip
+   source/metaeuk/metaeuk
    source/metaphlan/metaphlan
    source/metaseq/metaseq
    source/methyldackel/methyldackel
@@ -538,6 +539,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/simug/simug
    source/singlem/singlem
    source/ska/ska
+   source/skani/skani
    source/skewer/skewer
    source/slamdunk/slamdunk
    source/smoove/smoove

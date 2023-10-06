@@ -25,19 +25,19 @@ help([==[
 
 Description
 ===========
-Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.
+Meme is a collection of tools for the discovery and analysis of sequence motifs.
 
 More information
 ================
- - BioContainers: https://biocontainers.pro/tools/cellranger-atac
- - Home page: https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview
+ - Docker hub:   https://hub.docker.com/r/memesuite/memesuite
+ - Home page:    https://meme-suite.org/meme/
 ]==])
 
-whatis("Name: Cellranger-atac")
-whatis("Version: 2.0.0")
-whatis("Description: Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.")
-whatis("BioContainers: https://biocontainers.pro/tools/cellranger-atac")
-whatis("Home page:     https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview")
+whatis("Name: Meme")
+whatis("Version: 5.5.4")
+whatis("Description: Meme is a collection of tools for the discovery and analysis of sequence motifs. Contents.")
+whatis("Docker hub:	https://hub.docker.com/r/memesuite/memesuite")
+whatis("Home page:     https://meme-suite.org/meme/")
 
 if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    local singularity_module = os.getenv("BIOC_SINGULARITY_MODULE") or "Singularity"
@@ -49,10 +49,10 @@ end
 conflict(myModuleName())
 
 --       Think executables, mpirun, possibly Perl or Python, etc.
-local image = "cumulusprod_cellranger-atac:2.0.0.sif"
-local uri = "docker://cumulusprod/cellranger-atac:2.0.0"
-local programs = {"cellranger-atac"}
-local entrypoint_args = ""
+local image = "memesuite_memesuite:5.5.4.sif"
+local uri = "docker://memesuite/memesuite:5.5.4"
+local programs = {"ame", "centrimo", "dreme", "dreme-py3", "dust", "fimo", "glam2", "glam2scan", "gomo", "mast", "mcast", "meme", "meme-chip", "momo", "purge", "spamo", "tomtom"}
+local entrypoint_args = "env LANG=C"
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
 -- nodes without the corresponding module necessarily being loaded.
@@ -101,7 +101,7 @@ end
 local container_launch = singularity .. " run " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
 
 -- Multinode support
--- setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")
+setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")
 
 -- Programs to setup in the shell
 for i,program in pairs(programs) do

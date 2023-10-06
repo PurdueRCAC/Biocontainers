@@ -25,19 +25,19 @@ help([==[
 
 Description
 ===========
-Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.
+Cactus is a reference-free whole-genome multiple alignment program. 
 
 More information
 ================
- - BioContainers: https://biocontainers.pro/tools/cellranger-atac
- - Home page: https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview
+ - BioContainers: https://biocontainers.pro/tools/cactus
+ - Home page:     https://github.com/ComparativeGenomicsToolkit/cactus
 ]==])
 
-whatis("Name: Cellranger-atac")
-whatis("Version: 2.0.0")
-whatis("Description: Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.")
-whatis("BioContainers: https://biocontainers.pro/tools/cellranger-atac")
-whatis("Home page:     https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview")
+whatis("Name: Cactus")
+whatis("Version: 2.5.2")
+whatis("Description: Cactus is a reference-free whole-genome multiple alignment program.")
+whatis("BioContainers: https://biocontainers.pro/tools/cactus")
+whatis("Home page:     https://github.com/ComparativeGenomicsToolkit/cactus")
 
 if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    local singularity_module = os.getenv("BIOC_SINGULARITY_MODULE") or "Singularity"
@@ -49,9 +49,9 @@ end
 conflict(myModuleName())
 
 --       Think executables, mpirun, possibly Perl or Python, etc.
-local image = "cumulusprod_cellranger-atac:2.0.0.sif"
-local uri = "docker://cumulusprod/cellranger-atac:2.0.0"
-local programs = {"cellranger-atac"}
+local image = "quay.io_comparative-genomics-toolkit_cactus:v2.5.2.sif"
+local uri = "docker://quay.io/comparative-genomics-toolkit/cactus:v2.5.2"
+local programs = {"cactus", "cactus-align", "cactus-align-batch", "cactus-blast", "cactus-graphmap", "cactus-graphmap-join", "cactus-graphmap-split", "cactus-minigraph", "cactus-prepare", "cactus-prepare-toil", "cactus-preprocess", "cactus-refmap", "cactus2hal-stitch.sh", "cactus2hal.py", "cactusAPITests", "cactus_analyseAssembly", "cactus_barTests", "cactus_batch_mergeChunks", "cactus_chain", "cactus_consolidated", "cactus_covered_intervals", "cactus_fasta_fragments.py", "cactus_fasta_softmask_intervals.py", "cactus_filterSmallFastaSequences.py", "cactus_halGeneratorTests", "cactus_local_alignment.py", "cactus_makeAlphaNumericHeaders.py", "cactus_softmask2hardmask"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
@@ -98,7 +98,7 @@ if (capture("/opt/rocm/bin/rocm-smi -i 2>/dev/null | grep ^GPU") ~= "") then
 end
 
 -- And assemble container command
-local container_launch = singularity .. " run " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
+local container_launch = singularity .. " exec " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
 
 -- Multinode support
 -- setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")

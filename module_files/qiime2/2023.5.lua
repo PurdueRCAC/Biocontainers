@@ -56,7 +56,7 @@ conflict("biopython", "anaconda", "python", "htseq", "qiime", "qiime2", "scvelo"
 
 local image = "quay.io_qiime2_core:2023.5.sif"
 local uri = "docker://quay.io/qiime2/core:2023.5"
-local programs = {"qiime", "python", "python3"}
+local programs = {"biom", "qiime", "python", "python3"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote

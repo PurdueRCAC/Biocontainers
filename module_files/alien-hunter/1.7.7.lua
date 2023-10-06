@@ -52,7 +52,7 @@ conflict(myModuleName())
 local image = "biocontainers_alien-hunter:v1.7-7-deb_cv2.sif"
 local uri = "docker://biocontainers/alien-hunter:v1.7-7-deb_cv2"
 local programs = {"alien_hunter"}
-local entrypoint_args = "env LANG=C.UTF-8"
+local entrypoint_args = "env LANG=C"
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
 -- nodes without the corresponding module necessarily being loaded.

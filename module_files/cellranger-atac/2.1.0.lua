@@ -29,14 +29,14 @@ Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell
 
 More information
 ================
- - Docker hub: https://hub.docker.com/r/cumulusprod/cellranger-atac
+ - BioContainers: https://biocontainers.pro/tools/cellranger-atac
  - Home page: https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview
 ]==])
 
 whatis("Name: Cellranger-atac")
 whatis("Version: 2.1.0")
 whatis("Description: Cellranger-atac is a set of analysis pipelines that process Chromium Single Cell ATAC data.")
-whatis("Docker hub: https://hub.docker.com/r/cumulusprod/cellranger-atac")
+whatis("BioContainers: https://biocontainers.pro/tools/cellranger-atac")
 whatis("Home page:     https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview")
 
 if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
