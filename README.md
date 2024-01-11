@@ -1,6 +1,6 @@
 # Purdue RCAC Biocontainer 
 
-Since 2021, Purdue Research Computing team began to deploy containerized scientific applications on Purdue HPC clusters as well as XSEDE Anvil. Among them, 
+Since 2021, Purdue Research Computing team began to deploy containerized scientific applications on Purdue HPC clusters as well as ACCESS Anvil. Among them, 
 **Biocontainer** is a collection of applications for bioinformatic analysis. Thanks to the portability of containerized applications, biocontainer modules can be easily deployed on Anvil and Purdue RCAC's 6 clusters. The number of biocontainer applications grows fast. Within 6 months since we initiated this project, the number of fully tested and deployed bioinformatic applications exceeded 300, and is estimated to reach 600-800 by the end of 2022. 
 
 It is worth to mention that before deploying the modules into production, system administrators also use them to run real-world datasets to make sure the applications work as expected. This is a time-consuming step, but it is quite essential, because our tests revealed that some public containers failed to work due to various kinds of issues. For such flawed containers, we built our own container images from scratch instead. 
