@@ -36,4 +36,4 @@ Contributions are welcome in the form of suggestions for additional features, pu
 ## Citation
 - Zhang, Yucheng, and Lev Gorenstein. "BioContainers on Purdue Clusters." Practice and Experience in Advanced Research Computing. 2022. 1-2. 
   https://dl.acm.org/doi/abs/10.1145/3491418.3535152
-- Y. Zhang, L. Gorenstein, P. Bhutra and R. T. DeRue, "Containerized Bioinformatics Ecosystem for HPC," 2022 IEEE/ACM International Workshop on HPC User Support Tools (HUST), Dallas, TX, USA, 2022, pp. 1-10, doi: 10.1109/HUST56722.2022.00006.
+- Y. Zhang, L. Gorenstein, P. Bhutra and R. T. DeRue, "Containerized Bioinformatics Ecosystem for HPC," 2022 IEEE/ACM International Workshop on HPC User Support Tools (HUST), Dallas, TX, USA, 2022, pp. 1-10, doi: [10.1109/HUST56722.2022.00006]([10.1109/HUST56722.2022.00006](https://doi.org/10.1109/HUST56722.2022.00006).
