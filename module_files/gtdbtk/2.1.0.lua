@@ -114,3 +114,4 @@ end
 
 -- Additional commands or environment variables, if any
 pushenv("SINGULARITYENV_GTDBTK_DATA_PATH", "/depot/itap/datasets/GTDB-Tk/release207_v2/")
+pushenv("APPTAINERENV_GTDBTK_DATA_PATH", "/depot/itap/datasets/GTDB-Tk/release207_v2/")

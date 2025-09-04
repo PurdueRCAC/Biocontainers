@@ -49,7 +49,7 @@ end
 conflict(myModuleName())
 
 --       Think executables, mpirun, possibly Perl or Python, etc.
-local image = "bactopia_bactopia:2.0.3.sif"
+local image = "bactopia_2.0.3.sif"
 local uri = "docker://bactopia/bactopia:2.0.3"
 local programs = {"bactopia"}
 local entrypoint_args = ""

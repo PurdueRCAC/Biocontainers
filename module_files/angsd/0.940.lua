@@ -50,7 +50,7 @@ conflict(myModuleName(),"ANGSD","Angsd")
 --       Think executables, mpirun, possibly Perl or Python, etc.
 local image = "angsd.0.940.sif"
 local uri = ""
-local programs = {"angsd","realSFS","msToGlf", "thetaStat", "supersim"}
+local programs = {"angsd","realSFS","msToGlf", "thetaStat", "supersim", "NGSadmix", "contamination", "contamination2", "haploToPlink", "ibs", "msHOT2glf",  "ngsPSMC", "printIcounts", "scounts", "smartCount", "splitgl"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote

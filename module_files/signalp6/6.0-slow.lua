@@ -109,4 +109,5 @@ end
 
 -- Additional commands or environment variables, if any
 append_path{"SINGULARITY_BIND","/depot/itap/datasets/signalp6_slow_sequential/signalp-6-package/models/sequential_models_signalp6:/usr/local/lib/python3.10/dist-packages/signalp/model_weights/sequential_models_signalp6",delim=","}
+append_path{"APPTAINER_BIND","/depot/itap/datasets/signalp6_slow_sequential/signalp-6-package/models/sequential_models_signalp6:/usr/local/lib/python3.10/dist-packages/signalp/model_weights/sequential_models_signalp6",delim=","}
 

@@ -15,6 +15,7 @@ NCBI Datasets is a new resource that lets you easily gather data from across NCB
 Versions
 ~~~~~~~~
 - 14.3.0
+- 16.10.3
 
 Commands
 ~~~~~~~

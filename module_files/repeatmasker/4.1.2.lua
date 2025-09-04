@@ -111,3 +111,4 @@ end
 
 -- Additional commands or environment variables, if any
 pushenv("SINGULARITYENV_LIBDIR","/depot/itap/datasets/Maker/RepeatMasker/Libraries")
+pushenv("APPTAINERENV_LIBDIR","/depot/itap/datasets/Maker/RepeatMasker/Libraries")

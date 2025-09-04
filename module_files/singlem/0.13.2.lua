@@ -111,3 +111,4 @@ end
 
 -- Additional commands or environment variables, if any
 prepend_path("SINGULARITYENV_PREPEND_PATH", "/singlem/bin")
+prepend_path("APPTAINERENV_PREPEND_PATH", "/singlem/bin")

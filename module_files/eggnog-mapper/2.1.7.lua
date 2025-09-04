@@ -111,3 +111,4 @@ end
 
 -- Additional commands or environment variables, if any
 pushenv("SINGULARITYENV_EGGNOG_DATA_DIR","/depot/itap/datasets/eggnog-mapper-data")
+pushenv("APPTAINERENV_EGGNOG_DATA_DIR","/depot/itap/datasets/eggnog-mapper-data")

@@ -1,0 +1,47 @@
+.. _backbone-label:
+
+Ncbi-fcs-adaptor
+==============================
+
+Introduction
+~~~~~~~~
+FCS-adaptor detects adaptor and vector contamination in genome sequences. This tool is one module within the NCBI Foreign Contamination Screening (FCS) program suite. If necessary, run_fcsadaptor.sh can be run with --image ${NCBI_FCS_ADAPTOR_IMAGE}.
+
+
+| For more information, please check:
+| Home page: https://github.com/ncbi/fcs
+
+Versions
+~~~~~~~~
+- 0.5.4
+
+Commands
+~~~~~~~
+- av_screen_x
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load biocontainers
+    module load ncbi-fcs-adaptor
+
+Example job
+~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
+To run ncbi-fcs-adaptor on our clusters::
+
+    #!/bin/bash
+    #SBATCH -A myallocation     # Allocation name
+    #SBATCH -t 1:00:00
+    #SBATCH -N 1
+    #SBATCH -n 1
+    #SBATCH --job-name=ncbi-fcs-adaptor
+    #SBATCH --mail-type=FAIL,BEGIN,END
+    #SBATCH --error=%x-%J-%u.err
+    #SBATCH --output=%x-%J-%u.out
+
+    module --force purge
+    ml biocontainers ncbi-fcs-adaptor

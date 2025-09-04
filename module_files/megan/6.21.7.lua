@@ -111,4 +111,6 @@ end
 -- Need these for X11 under Thinlinc
 pushenv("INSTALL4J_JAVA_HOME_OVERRIDE", "/usr/lib/jvm")
 append_path("SINGULARITY_BIND", "/var/opt",  ',')
+append_path("APPTAINER_BIND", "/var/opt",  ',')
 append_path("SINGULARITY_BIND", "/run/user", ',')
+append_path("APPTAINER_BIND", "/run/user", ',')

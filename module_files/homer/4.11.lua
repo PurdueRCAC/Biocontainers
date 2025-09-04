@@ -107,4 +107,5 @@ end
 
 -- Additional commands or environment variables, if any
 append_path("SINGULARITY_BIND", "/depot/itap/datasets/homer/data:/usr/local/bin/homer/data", ',')
+append_path("APPTAINER_BIND", "/depot/itap/datasets/homer/data:/usr/local/bin/homer/data", ',')
 

@@ -111,3 +111,4 @@ end
 
 -- Additional commands or environment variables, if any
 append_path("SINGULARITY_BIND","/depot/itap/datasets/guppy/6.5.7/ont-guppy-cpu/data:/opt/ont/guppy/data/configs",  ',')
+append_path("APPTAINER_BIND","/depot/itap/datasets/guppy/6.5.7/ont-guppy-cpu/data:/opt/ont/guppy/data/configs",  ',')

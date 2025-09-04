@@ -109,4 +109,6 @@ end
 
 -- Additional commands or environment variables, if any
 append_path("SINGULARITY_BIND", "/var/opt",  ',')
+append_path("APPTAINER_BIND", "/var/opt",  ',')
 append_path("SINGULARITY_BIND", "/run/user", ',')
+append_path("APPTAINER_BIND", "/run/user", ',')

@@ -111,4 +111,6 @@ end
 -- Additional commands or environment variables, if any
 -- Need these for X11 under Thinlin
 append_path("SINGULARITY_BIND", "/var/opt",  ',')
+append_path("APPTAINER_BIND", "/var/opt",  ',')
 append_path("SINGULARITY_BIND", "/run/user", ',')
+append_path("APPTAINER_BIND", "/run/user", ',')
