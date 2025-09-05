@@ -111,3 +111,4 @@ end
 
 -- Additional commands or environment variables, if any
 prepend_path("SINGULARITYENV_PREPEND_PATH", "/bamgineer/src")
+prepend_path("APPTAINERENV_PREPEND_PATH", "/bamgineer/src")

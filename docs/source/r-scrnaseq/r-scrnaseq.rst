@@ -51,6 +51,8 @@ Versions
 - 4.2.0
 - 4.2.0-rstudio
 - 4.2.3-rstudio
+- 4.3.3-rstudio
+- 4.4.1-rstudio
 
 Commands
 ~~~~~~

@@ -115,12 +115,10 @@ append_path("SINGULARITY_BIND", "/run/user", ',')
 -- is specific to this particular R and does not get picked up by
 -- other R installations.  See an example of proper ~/.Rprofile at
 -- https://www.rcac.purdue.edu/knowledge/bell/run/examples/apps/r/rprofile
-pushenv("SINGULARITYENV_CC",  "")
-pushenv("SINGULARITYENV_CXX", "")
-pushenv("SINGULARITYENV_FC",  "")
-pushenv("SINGULARITYENV_F77", "")
-pushenv("SINGULARITYENV_F90", "")
-pushenv("SINGULARITYENV_F95", "")
+append_path{"SINGULARITY_BIND","/var/opt",delim=","}
+append_path{"APPTAINER_BIND","/var/opt",delim=","}
+append_path{"SINGULARITY_BIND","/run/user",delim=","}
+append_path{"APPTAINER_BIND","/run/user",delim=","}
 
 -- Ensure default values for thread numbers, otherwise performance suffers
 -- (when cgroup-ed Slurm job tries to spawn `nproc` threads on a single core)
@@ -136,3 +134,4 @@ end
 -- RStudio needs access to the host' X11 fonts, otherwise terminal
 -- and editor tabs get badly garbled.
 append_path("SINGULARITY_BIND", "/usr/share/fonts", ',')
+append_path{"APPTAINER_BIND","/usr/share/fonts",delim=","}

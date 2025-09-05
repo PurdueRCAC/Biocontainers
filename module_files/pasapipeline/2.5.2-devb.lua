@@ -111,4 +111,6 @@ end
 
 -- Additional commands or environment variables, if any
 prepend_path("SINGULARITYENV_PREPEND_PATH", "/usr/local/src/PASApipeline")
+prepend_path("APPTAINERENV_PREPEND_PATH", "/usr/local/src/PASApipeline")
 prepend_path("SINGULARITYENV_PREPEND_PATH", "/usr/local/src/PASApipeline/scripts")
+prepend_path("APPTAINERENV_PREPEND_PATH", "/usr/local/src/PASApipeline/scripts")

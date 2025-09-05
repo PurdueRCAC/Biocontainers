@@ -29,6 +29,7 @@ Maker is a portable and easily configurable genome annotation pipeline.
 Note:
    To run MAKER  MPI, please use the below two lines:
 	export SINGULARITYENV_LIBDIR="/depot/itap/datasets/Maker/RepeatMasker/Libraries"
+	export APPTAINERENV_LIBDIR="/depot/itap/datasets/Maker/RepeatMasker/Libraries"
 	srun -n XX singularity exec /apps/biocontainers/images/maker_2.31.11.sif maker
 
 More information
@@ -114,3 +115,4 @@ end
 
 -- Additional commands or environment variables, if any
 pushenv("SINGULARITYENV_LIBDIR","/depot/itap/datasets/Maker/RepeatMasker/Libraries")
+pushenv("APPTAINERENV_LIBDIR","/depot/itap/datasets/Maker/RepeatMasker/Libraries")

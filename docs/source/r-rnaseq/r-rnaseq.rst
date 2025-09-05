@@ -29,6 +29,7 @@ Versions
 ~~~~~~~~
 - 4.1.1-1
 - 4.1.1-1-rstudio
+- 4.3.3-1-rstudio-2023.12.1
 
 Commands
 ~~~~~~

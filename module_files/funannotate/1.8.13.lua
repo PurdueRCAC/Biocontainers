@@ -127,6 +127,7 @@ end
 
 -- Additional commands or environment variables, if any
 pushenv("SINGULARITYENV_EGGNOG_DATA_DIR","/depot/itap/datasets/eggnog-mapper-data")
+pushenv("APPTAINERENV_EGGNOG_DATA_DIR","/depot/itap/datasets/eggnog-mapper-data")
 set_shell_function("copy_augustus_config",
                    "test -z $1"
                      .. " && " .. "echo \"Failed to copy AUGUSTUS configuration: must provide destination\" && return 1"

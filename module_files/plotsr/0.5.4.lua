@@ -109,3 +109,4 @@ end
 
 -- Additional commands or environment variables, if any
 append_path("SINGULARITY_BIND", "/usr/share/fonts", ',')
+append_path("APPTAINER_BIND", "/usr/share/fonts", ',')

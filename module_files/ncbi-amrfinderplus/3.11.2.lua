@@ -111,3 +111,4 @@ end
 
 -- Additional commands or environment variables, if any
 append_path("SINGULARITY_BIND", "/depot/itap/datasets/amrfinder:/opt/conda",  ',')
+append_path("APPTAINER_BIND", "/depot/itap/datasets/amrfinder:/opt/conda",  ',')

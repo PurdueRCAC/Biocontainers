@@ -143,7 +143,9 @@ end
 --
 -- Need these for X11 under Thinlinc
 append_path("SINGULARITY_BIND", "/var/opt",  ',')
+append_path("APPTAINER_BIND", "/var/opt",  ',')
 append_path("SINGULARITY_BIND", "/run/user", ',')
+append_path("APPTAINER_BIND", "/run/user", ',')
 
 -- Use internal C and Fortran compiler for building source packages
 -- by ensuring that outside compiler variables don't get inside
@@ -153,11 +155,17 @@ append_path("SINGULARITY_BIND", "/run/user", ',')
 -- other R installations.  See an example of proper ~/.Rprofile at
 -- https://www.rcac.purdue.edu/knowledge/bell/run/examples/apps/r/rprofile
 pushenv("SINGULARITYENV_CC",  "")
+pushenv("APPTAINERENV_CC",  "")
 pushenv("SINGULARITYENV_CXX", "")
+pushenv("APPTAINERENV_CXX", "")
 pushenv("SINGULARITYENV_FC",  "")
+pushenv("APPTAINERENV_FC",  "")
 pushenv("SINGULARITYENV_F77", "")
+pushenv("APPTAINERENV_F77", "")
 pushenv("SINGULARITYENV_F90", "")
+pushenv("APPTAINERENV_F90", "")
 pushenv("SINGULARITYENV_F95", "")
+pushenv("APPTAINERENV_F95", "")
 
 -- Ensure default values for thread numbers, otherwise performance suffers
 -- (when cgroup-ed Slurm job tries to spawn `nproc` threads on a single core)

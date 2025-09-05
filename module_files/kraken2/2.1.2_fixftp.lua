@@ -51,7 +51,7 @@ conflict(myModuleName(), "kraken")
 --       Think executables, mpirun, possibly Perl or Python, etc.
 local image = "kraken2_2.1.2_fixftp.sif"
 local uri = "docker://quay.io/biocontainers/kraken2:2.1.2--pl5262h7d875b9_0"
-local programs = {"kraken2","kraken2-build","kraken2-inspect"}
+local programs = {"kraken2","kraken2-build","kraken2-inspect", "dustmasker", "segmasker"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
