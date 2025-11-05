@@ -5,11 +5,11 @@ Since 2021, Purdue Research Computing team began to deploy containerized scienti
 
 It is worth to mention that before deploying the modules into production, system administrators also use them to run real-world datasets to make sure the applications work as expected. This is a time-consuming step, but it is quite essential, because our tests revealed that some public containers failed to work due to various kinds of issues. For such flawed containers, we built our own container images from scratch instead. 
 
-We believe these tested biocontainer applications are valuable resources not only to Purdue HPC users, but also to users from other HPC centers. We are happy to share these resources with other centers. Migrating these biocontainer applications to other centers will be pretty easy. If you have interest in this, feel free to contact me(Yucheng Zhang) at: zhan4429@purdue.edu. 
+We believe these tested biocontainer applications are valuable resources not only to Purdue HPC users, but also to users from other HPC centers. We are happy to share these resources with other centers. Migrating these biocontainer applications to other centers will be pretty easy. If you have interest in this, feel free to contact Guangzhen Jin at: jin456@purdue.edu. 
 
 ## Documentation
 
-Documentation is available at https://biocontainer-doc.readthedocs.io/en/latest/.
+Documentation is available at https://biocontainer-doc.readthedocs.io.
 
 ## Contributors
 
@@ -24,6 +24,8 @@ The people who contributed to this project over time:
     <td align="center"><a href="https://github.com/lgorenstein"><img src="https://avatars.githubusercontent.com/u/29085518" width="100px;" alt=""/><br /><sub><b>Lev Gorenstein</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/PayasBhutra"><img src="https://avatars.githubusercontent.com/u/70447330" width="100px;" alt=""/><br /><sub><b>Payas Bhutra</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/rderue"><img src="https://avatars.githubusercontent.com/u/38140816" width="100px;" alt=""/><br /><sub><b>Ryan DeRue</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Guangzhen-Jin"><img src="https://avatars.githubusercontent.com/u/158495465" width="100px;" alt=""/><br /><sub><b>Guangzhen Jin</b></sub></a><br /></td>  
+
   </tr>
 </table>
 
