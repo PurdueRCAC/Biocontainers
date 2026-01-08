@@ -11,8 +11,8 @@ Introduction
 
 Versions
 ~~~~~~~~
-- 5.1d
 - 5.1
+- 5.1d
 - 5.2
 
 Commands

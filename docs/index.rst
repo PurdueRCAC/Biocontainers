@@ -76,9 +76,9 @@ If you have any question, contact Guangzhen Jin at:
    source/augustus/augustus
    source/bactopia/bactopia
    source/bali-phy/bali-phy
+   source/bam-readcount/bam-readcount
    source/bamgineer/bamgineer
    source/bamliquidator/bamliquidator
-   source/bam-readcount/bam-readcount
    source/bamscale/bamscale
    source/bamsurgeon/bamsurgeon
    source/bamtools/bamtools
@@ -124,8 +124,8 @@ If you have any question, contact Guangzhen Jin at:
    source/cafe/cafe
    source/canu/canu
    source/ccs/ccs
-   source/cdbtools/cdbtools
    source/cd-hit/cd-hit
+   source/cdbtools/cdbtools
    source/cegma/cegma
    source/cellbender/cellbender
    source/cellphonedb/cellphonedb
@@ -169,8 +169,8 @@ If you have any question, contact Guangzhen Jin at:
    source/crisprcasfinder/crisprcasfinder
    source/crispresso2/crispresso2
    source/crispritz/crispritz
-   source/crossmap/crossmap
    source/cross_match/cross_match
+   source/crossmap/crossmap
    source/csvkit/csvkit
    source/csvtk/csvtk
    source/cufflinks/cufflinks
@@ -194,8 +194,8 @@ If you have any question, contact Guangzhen Jin at:
    source/dnaio/dnaio
    source/dragonflye/dragonflye
    source/drep/drep
-   source/dropest/dropest
    source/drop-seq/drop-seq
+   source/dropest/dropest
    source/dsuite/dsuite
    source/easysfs/easysfs
    source/edta/edta
@@ -209,10 +209,10 @@ If you have any question, contact Guangzhen Jin at:
    source/fasta3/fasta3
    source/fastani/fastani
    source/fastp/fastp
-   source/fastqc/fastqc
    source/fastq-dl/fastq-dl
-   source/fastq_pair/fastq_pair
    source/fastq-scan/fastq-scan
+   source/fastq_pair/fastq_pair
+   source/fastqc/fastqc
    source/fastspar/fastspar
    source/faststructure/faststructure
    source/fasttree/fasttree
@@ -270,8 +270,8 @@ If you have any question, contact Guangzhen Jin at:
    source/hail/hail
    source/hap.py/hap.py
    source/helen/helen
-   source/hicexplorer/hicexplorer
    source/hic-pro/hic-pro
+   source/hicexplorer/hicexplorer
    source/hifiasm/hifiasm
    source/hisat2/hisat2
    source/hmmer/hmmer
@@ -311,8 +311,8 @@ If you have any question, contact Guangzhen Jin at:
    source/kissplice2refgenome/kissplice2refgenome
    source/kma/kma
    source/kmc/kmc
-   source/kmergenie/kmergenie
    source/kmer-jellyfish/kmer-jellyfish
+   source/kmergenie/kmergenie
    source/kneaddata/kneaddata
    source/kover/kover
    source/kraken2/kraken2
@@ -494,6 +494,11 @@ If you have any question, contact Guangzhen Jin at:
    source/quast/quast
    source/quickmirseq/quickmirseq
    source/r/r
+   source/r-bioconductor/r-bioconductor
+   source/r-cellchat/r-cellchat
+   source/r-rnaseq/r-rnaseq
+   source/r-rstudio/r-rstudio
+   source/r-scrnaseq/r-scrnaseq
    source/racon/racon
    source/ragout/ragout
    source/ragtag/ragtag
@@ -502,8 +507,6 @@ If you have any question, contact Guangzhen Jin at:
    source/raven-assembler/raven-assembler
    source/raxml/raxml
    source/raxml-ng/raxml-ng
-   source/r-bioconductor/r-bioconductor
-   source/r-cellchat/r-cellchat
    source/reapr/reapr
    source/rebaler/rebaler
    source/reciprocal_smallest_distance/reciprocal_smallest_distance
@@ -521,9 +524,6 @@ If you have any question, contact Guangzhen Jin at:
    source/rnapeg/rnapeg
    source/rnaquast/rnaquast
    source/roary/roary
-   source/r-rnaseq/r-rnaseq
-   source/r-rstudio/r-rstudio
-   source/r-scrnaseq/r-scrnaseq
    source/rsem/rsem
    source/rseqc/rseqc
    source/run_dbcan/run_dbcan
@@ -572,11 +572,11 @@ If you have any question, contact Guangzhen Jin at:
    source/snaptools/snaptools
    source/snippy/snippy
    source/snp-dists/snp-dists
+   source/snp-sites/snp-sites
    source/snpeff/snpeff
    source/snpgenie/snpgenie
    source/snphylo/snphylo
    source/snpsift/snpsift
-   source/snp-sites/snp-sites
    source/soapdenovo2/soapdenovo2
    source/sortmerna/sortmerna
    source/souporcell/souporcell
@@ -605,11 +605,11 @@ If you have any question, contact Guangzhen Jin at:
    source/svtyper/svtyper
    source/swat/swat
    source/syri/syri
+   source/t-coffee/t-coffee
    source/talon/talon
    source/targetp/targetp
    source/tassel/tassel
    source/taxonkit/taxonkit
-   source/t-coffee/t-coffee
    source/tetranscripts/tetranscripts
    source/tiara/tiara
    source/tigmint/tigmint
@@ -623,8 +623,8 @@ If you have any question, contact Guangzhen Jin at:
    source/transvar/transvar
    source/trax/trax
    source/treetime/treetime
-   source/trimal/trimal
    source/trim-galore/trim-galore
+   source/trimal/trimal
    source/trimmomatic/trimmomatic
    source/trinity/trinity
    source/trinotate/trinotate
@@ -642,10 +642,10 @@ If you have any question, contact Guangzhen Jin at:
    source/varscan/varscan
    source/vartrix/vartrix
    source/vatools/vatools
+   source/vcf-kit/vcf-kit
    source/vcf2maf/vcf2maf
    source/vcf2phylip/vcf2phylip
    source/vcf2tsvpy/vcf2tsvpy
-   source/vcf-kit/vcf-kit
    source/vcftools/vcftools
    source/velocyto.py/velocyto.py
    source/velvet/velvet

@@ -46,10 +46,10 @@ In the module, we have some packages installed:
 
 Versions
 ~~~~~~~~
-- 4.1.1-1
 - 4.1.1-1-rstudio
-- 4.2.0
+- 4.1.1-1
 - 4.2.0-rstudio
+- 4.2.0
 - 4.2.3-rstudio
 - 4.3.3-rstudio
 - 4.4.1-rstudio

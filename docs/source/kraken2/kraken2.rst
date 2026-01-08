@@ -12,10 +12,10 @@ Detailed usage can be found here: https://ccb.jhu.edu/software/kraken2/
 
 Versions
 ~~~~~~~~
-- 2.1.2_fixftp
 - 2.1.2
-- 2.1.3
+- 2.1.2_fixftp
 - 2.1.3-pl5321
+- 2.1.3
 
 Commands
 ~~~~~~
