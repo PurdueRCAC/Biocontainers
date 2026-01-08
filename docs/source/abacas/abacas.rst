@@ -12,7 +12,15 @@ Introduction
 
 Versions
 ~~~~~~~~
-- 1.3.1
+==========  ==========
+Cluster     Versions
+==========  ==========
+**SCHOLAR**  1.3.1
+**NEGISHI**  1.3.1
+**BELL**  1.3.1
+**ANVIL**  1.3.1
+**GAUTSCHI**  1.3.1
+==========  ==========
 
 Commands
 ~~~~~~~
