@@ -21,6 +21,7 @@ Protein struction prediction by alphafold is performed in the following steps:
 * Structure optimisation with OpenMM (using CPU or GPU)
 
 Versions
+~~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
