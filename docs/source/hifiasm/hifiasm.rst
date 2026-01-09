@@ -10,13 +10,14 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/hifiasm and its home page on `Github`_.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.16.0, 0.18.5, 0.19.9, 0.24.0, 0.25.0

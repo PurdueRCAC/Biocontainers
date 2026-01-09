@@ -13,13 +13,14 @@ Trycycler is a tool for generating consensus long-read assemblies for bacterial 
 | Home page: https://github.com/rrwick/Trycycler
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.5.0, 0.5.3, 0.5.4

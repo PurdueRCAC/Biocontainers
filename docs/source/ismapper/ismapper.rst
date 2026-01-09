@@ -13,13 +13,14 @@ ISMapper searches for IS positions in sequence data using paired end Illumina sh
 | Home page: https://github.com/jhawkey/IS_mapper
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.0.2

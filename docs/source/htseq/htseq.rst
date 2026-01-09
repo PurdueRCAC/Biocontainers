@@ -10,13 +10,14 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/htseq and its home page on `Github`_.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.13.5, 1.99.2, 2.0.2-py310, 2.0.1, 2.0.2

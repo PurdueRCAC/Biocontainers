@@ -13,13 +13,14 @@ N50 is a command line tool to calculate assembly metrices.
 | Home page: https://github.com/quadram-institute-bioscience/seqfu/wiki/n50
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.5.6

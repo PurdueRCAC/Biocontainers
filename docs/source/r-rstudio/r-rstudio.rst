@@ -14,13 +14,14 @@ This is an RStudio IDE together with a plain R-base installation (see https://gi
 | For more information, please check its | Docker hub: https://hub.docker.com/_/r-base and its home page: https://www.rstudio.com/products/rstudio/ and https://www.r-project.org/.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 4.1.1

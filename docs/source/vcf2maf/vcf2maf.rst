@@ -12,13 +12,14 @@ To convert a VCF into a MAF, each variant must be mapped to only one of all poss
 | Home page: https://github.com/mskcc/vcf2maf
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.6.21

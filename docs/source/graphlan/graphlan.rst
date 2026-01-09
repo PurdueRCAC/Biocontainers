@@ -10,13 +10,14 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/graphlan and its home page: https://huttenhower.sph.harvard.edu/graphlan/.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.1.3

@@ -10,13 +10,14 @@ Introduction
 | For more information, please check its website: https://cloud.sylabs.io/library/remiallio/default/mitofinder and its home page on `Github`_.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.4.1

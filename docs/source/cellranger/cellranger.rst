@@ -9,13 +9,14 @@ Introduction
 Detailed usage can be found here: https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 6.0.1, 6.1.1, 6.1.2, 7.0.0, 7.0.1, 7.1.0

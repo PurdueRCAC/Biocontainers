@@ -10,13 +10,14 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/biopython and its home page: https://biopython.org.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.70-np112py27, 1.70-np112py36, 1.78

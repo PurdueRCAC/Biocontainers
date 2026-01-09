@@ -11,13 +11,14 @@ Detailed usage can be found here: https://github.com/ncbi/TPMCalculator
 
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.0.3, 0.0.4

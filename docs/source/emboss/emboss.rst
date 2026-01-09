@@ -10,13 +10,14 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/emboss and its home page: http://emboss.open-bio.org.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 6.6.0

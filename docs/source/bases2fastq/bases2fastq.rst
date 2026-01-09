@@ -13,13 +13,14 @@ Bases2Fastq software processes sequencing data and converts base calls into FAST
 | Home page: https://docs.elembio.io/docs/bases2fastq/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.7

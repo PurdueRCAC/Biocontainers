@@ -13,13 +13,14 @@ Easymap v2 — A web-based and command-line tool for mapping-by-sequencing, SNP/
 | Documentation: http://genetics.edu.umh.es/resources/easymap/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - BELL
     - 2.0

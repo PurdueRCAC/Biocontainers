@@ -13,13 +13,14 @@ PyVCF3 has been created because the Official PyVCF repository is no longer maint
 | Home page: https://github.com/dridk/PyVCF3
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.0.3

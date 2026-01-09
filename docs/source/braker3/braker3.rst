@@ -14,13 +14,14 @@ BRAKER3 enables the usage of RNA-seq and protein data in a fully automated pipel
 | 5. Download the license file as gm_key_64 and place it in your home directory as follows: gunzip gm_key_64.gz mv gm_key_64 ~/.gm_key
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - v3.0.7.5, 3.0.3

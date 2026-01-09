@@ -8,13 +8,14 @@ Introduction
 ``ANGSD`` is a software for analyzing next generation sequencing data. Detailed usage can be found here: http://www.popgen.dk/angsd/index.php/ANGSD. 
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.935, 0.937, 0.939, 0.940

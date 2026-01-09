@@ -13,13 +13,14 @@ Metachip is a pipeline for Horizontal gene transfer (HGT) identification.
 | Home page: https://github.com/songweizhi/MetaCHIP
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.10.12

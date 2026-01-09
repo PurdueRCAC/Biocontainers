@@ -13,13 +13,14 @@ purge_dups is designed to remove haplotigs and contig overlaps in a de novo asse
 | Home page: https://github.com/dfguan/purge_dups
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.2.6_fixed, 1.2.6

@@ -15,13 +15,14 @@ DO NOT call it 'python quast.py| metaquast.py'
 | For more information, please check its website: https://biocontainers.pro/tools/quast and its home page on `Github`_.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 5.0.2, 5.2.0, 5.3.0-py310

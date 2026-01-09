@@ -13,13 +13,14 @@ FusionCatcher searches for somatic novel/known fusion genes, translocations, and
 | Home page: https://github.com/ndaniel/fusioncatcher
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - NEGISHI
     - 1.33

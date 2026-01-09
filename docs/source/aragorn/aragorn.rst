@@ -12,13 +12,14 @@ ARAGORN identifies tRNA and tmRNA genes. The program employs heuristic algorithm
 | Home page: https://www.trna.se/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - NEGISHI
     - 2.41

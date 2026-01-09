@@ -13,13 +13,14 @@ pblat is parallelized blat with multi-threads support.
 | Home page: https://github.com/icebert/pblat
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.5.1

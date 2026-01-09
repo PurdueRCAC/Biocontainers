@@ -10,13 +10,14 @@ Introduction
 | For more information, please check its home page: http://www.phrap.org/phredphrapconsed.html#block_phred.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.071220.c

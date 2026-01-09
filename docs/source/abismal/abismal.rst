@@ -14,13 +14,14 @@ Another Bisulfite Mapping Algorithm (abismal) is a read mapping program for bisu
 | Home page: https://github.com/smithlabcode/abismal
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.0.0

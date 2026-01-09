@@ -12,13 +12,14 @@ Cell Ranger DNA is a set of analysis pipelines that process Chromium single cell
 | Home page: https://support.10xgenomics.com/single-cell-dna/software/pipelines/latest/what-is-cell-ranger-dna
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.1.0

@@ -12,13 +12,14 @@ Meraculous is a whole genome assembler for Next Generation Sequencing data, gear
 | Home page: https://jgi.doe.gov/data-and-tools/software-tools/meraculous/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.2.6

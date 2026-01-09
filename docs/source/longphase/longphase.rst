@@ -13,13 +13,14 @@ LongPhase is an ultra-fast program for simultaneously co-phasing SNPs and SVs by
 | Home page: https://github.com/twolinin/longphase
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.4

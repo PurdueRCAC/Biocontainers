@@ -13,13 +13,14 @@ MarginPolish is a graph-based assembly polisher. It iteratively finds multiple p
 | Home page: https://github.com/UCSC-nanopore-cgl/MarginPolish
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.1.3

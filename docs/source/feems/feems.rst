@@ -13,13 +13,14 @@ Fast Estimation of Effective Migration Surfaces (feems) is a python package impl
 | Home page: https://github.com/NovembreLab/feems
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.0.0

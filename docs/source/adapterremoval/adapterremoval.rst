@@ -13,13 +13,14 @@ AdapterRemoval searches for and removes adapter sequences from High-Throughput S
 | Home page: https://github.com/MikkelSchubert/adapterremoval
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.3.3

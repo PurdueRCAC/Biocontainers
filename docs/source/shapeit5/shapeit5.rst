@@ -12,13 +12,14 @@ SHAPEIT5 is a software package to estimate haplotypes in large genotype datasets
 | Home page: https://github.com/odelaneau/shapeit5
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 5.1.1

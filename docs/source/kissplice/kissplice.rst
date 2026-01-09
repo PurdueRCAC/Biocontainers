@@ -13,13 +13,14 @@ KisSplice is a software that enables to analyse RNA-seq data with or without a r
 | Home page: https://kissplice.prabi.fr
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.6.2

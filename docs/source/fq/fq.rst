@@ -13,13 +13,14 @@ Fq is a command line utility for manipulating Illumina-generated FastQ files.
 | Home page: https://github.com/stjude-rust-labs/fq
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.10.0

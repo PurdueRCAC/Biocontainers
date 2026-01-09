@@ -13,13 +13,14 @@ SNP-sites is a tool that apidly extracts SNPs from a multi-FASTA alignment.
 | Home page: https://github.com/sanger-pathogens/snp-sites
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.5.1

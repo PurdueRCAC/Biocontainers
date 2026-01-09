@@ -12,13 +12,14 @@ LDhat is a package written in the C and C++ languages for the analysis of recomb
 | Home page: https://github.com/auton1/LDhat
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.2a

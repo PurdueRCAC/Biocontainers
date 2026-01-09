@@ -12,13 +12,14 @@ The mOTU profiler is a computational tool that estimates relative taxonomic abun
 | Home page: https://github.com/motu-tool/mOTUs
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.0.3

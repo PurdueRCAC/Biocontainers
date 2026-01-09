@@ -13,13 +13,14 @@ Modbam2bed is a program to aggregate modified base counts stored in a modified-b
 | Home page: https://github.com/epi2me-labs/modbam2bed
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.9.1

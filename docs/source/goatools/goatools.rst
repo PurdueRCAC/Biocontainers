@@ -8,13 +8,14 @@ Introduction
 ``Goatools`` is a python library for gene ontology analyses. Detailed information about its usage can be found here: https://github.com/tanghaibao/goatools
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.1.12, 1.2.3

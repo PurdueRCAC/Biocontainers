@@ -13,13 +13,14 @@ Binding and Expression Target Analysis (BETA) is a software package that integra
 | Home page: http://cistrome.org/BETA/index.html#inst
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - NEGISHI
     - 1.0.7-py27

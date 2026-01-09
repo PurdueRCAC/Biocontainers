@@ -13,13 +13,14 @@ piscem is a rust wrapper for a next-generation index + mapper tool (still curren
 | Home page: https://github.com/COMBINE-lab/piscem
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.4.3

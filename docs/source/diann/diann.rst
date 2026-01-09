@@ -13,13 +13,14 @@ DIA-NN is an automated software suite for data-independent acquisition (DIA) pro
 | Home page: https://github.com/vdemichev/DiaNN
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - NEGISHI
     - 2.0.2

@@ -13,13 +13,14 @@ PlasmidFinder identifies plasmids in total or partial sequenced isolates of bact
 | Home page: https://bitbucket.org/genomicepidemiology/plasmidfinder/src/master/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.1.6

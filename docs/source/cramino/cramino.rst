@@ -13,13 +13,14 @@ Cramino is a tool for quick quality assessment of cram and bam files, intended f
 | Home page: https://github.com/wdecoster/cramino
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.9.6

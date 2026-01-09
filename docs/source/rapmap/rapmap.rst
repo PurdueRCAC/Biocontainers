@@ -13,13 +13,14 @@ RapMap is a testing ground for ideas in quasi-mapping and selective alignment.
 | Home page: https://github.com/COMBINE-lab/RapMap
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.6.0

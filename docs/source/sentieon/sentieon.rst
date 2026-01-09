@@ -13,13 +13,14 @@ Sentieon Sequencer Agnostic Secondary Analysis - FASTQ-BAM-VCF-GVCF
 | Home page: ########################
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 202308.03, 202503

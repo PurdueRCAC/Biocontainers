@@ -10,13 +10,14 @@ Introduction
 | For more information, please check its website: https://quay.io/repository/wtsicgp/brass and its home page on `Github`_.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 6.3.4

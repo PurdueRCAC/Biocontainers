@@ -12,13 +12,14 @@ momi (MOran Models for Inference) is a Python package that computes the expected
 | Home page: https://momi2.readthedocs.io/en/latest/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.1.19

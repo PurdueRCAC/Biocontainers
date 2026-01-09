@@ -13,13 +13,14 @@ PopPUNK is a tool for clustering genomes. We refer to the clusters as variable-l
 | Home page: https://github.com/bacpop/PopPUNK
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.5.0, 2.6.0

@@ -13,13 +13,14 @@ KmerGenie estimates the best k-mer length for genome de novo assembly.
 | Home page: http://kmergenie.bx.psu.edu
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.7051

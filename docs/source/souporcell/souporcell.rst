@@ -12,13 +12,14 @@ souporcell is a method for clustering mixed-genotype scRNAseq experiments by ind
 | Home page: https://github.com/wheaton5/souporcell
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.0

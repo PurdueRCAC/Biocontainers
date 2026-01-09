@@ -13,13 +13,14 @@ PEPPER is a genome inference module based on recurrent neural networks that enab
 | Home page: https://github.com/kishwarshafin/pepper
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - r0.4.1

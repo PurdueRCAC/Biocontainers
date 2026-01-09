@@ -13,13 +13,14 @@ LR_Gapcloser is a gap closing tool using long reads from studied species.
 | Home page: https://github.com/CAFS-bioinformatics/LR_Gapcloser
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 20180904

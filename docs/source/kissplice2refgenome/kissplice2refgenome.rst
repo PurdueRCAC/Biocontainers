@@ -13,13 +13,14 @@ KisSplice can also be used when a reference (annotated) genome is available, in 
 | Home page: https://kissplice.prabi.fr
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.0.8

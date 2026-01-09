@@ -12,13 +12,14 @@ Drop-seq are java tools for analyzing Drop-seq data.
 | Home page: https://github.com/broadinstitute/Drop-seq
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.5.2

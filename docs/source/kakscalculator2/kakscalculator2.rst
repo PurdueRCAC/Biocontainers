@@ -12,13 +12,14 @@ kakscalculator2 is a toolkit of incorporating gamma series methods and sliding w
 | Home page: https://github.com/kullrich/kakscalculator2
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.0.1

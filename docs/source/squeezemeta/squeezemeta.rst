@@ -12,13 +12,14 @@ SqueezeMeta is a fully automated metagenomics pipeline, from reads to bins.
 | Home page: https://github.com/jtamames/SqueezeMeta
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.5.1

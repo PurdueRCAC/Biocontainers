@@ -13,13 +13,14 @@ LiftoffTools is a toolkit to compare genes lifted between genome assemblies. Spe
 | Home page: https://github.com/agshumate/LiftoffTools
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.4.4

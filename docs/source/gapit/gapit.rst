@@ -12,13 +12,14 @@ GAPIT is a Genome Association and Prediction Integrated Tool.
 | Home page: https://www.maizegenetics.net/gapit
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.3

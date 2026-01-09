@@ -13,13 +13,14 @@ Genomedata is a format for efficient storage of multiple tracks of numeric data 
 | Home page: http://pmgenomics.ca/hoffmanlab/proj/genomedata/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.5.0

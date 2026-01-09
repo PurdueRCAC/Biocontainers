@@ -13,13 +13,14 @@ R is a system for statistical computation and graphics. This is a r/4.5.1 Apptai
 | Home page: https://rocker-project.org/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - GILBRETH
     - 4.5.1

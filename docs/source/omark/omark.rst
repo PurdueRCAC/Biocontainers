@@ -13,13 +13,14 @@ OMArk is a software to assess the quality of gene repertoire annotated from a ge
 | Home page: https://omark.omabrowser.org/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - BELL
     - 0.3.0

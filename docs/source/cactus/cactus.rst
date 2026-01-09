@@ -10,13 +10,14 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/cactus and its home page on `Github`_.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.0.5, 2.2.3-gpu, 2.2.1, 2.2.3, 2.4.0, 2.4.0-gpu, 2.5.2-gpu, 2.5.2, 2.6.5-gpu, 2.6.5

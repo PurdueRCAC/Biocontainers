@@ -10,13 +10,14 @@ Introduction
 | For more information, please check its home page: http://www.broadinstitute.org/software/igv/home.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.11.9, 2.12.3, 2.17.3

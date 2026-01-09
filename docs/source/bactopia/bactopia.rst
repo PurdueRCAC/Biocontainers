@@ -13,13 +13,14 @@ Bactopia is a flexible pipeline for complete analysis of bacterial genomes. The 
 | Home page: https://github.com/bactopia/bactopia
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.0.3, 2.1.1, 2.2.0, 3.0.0

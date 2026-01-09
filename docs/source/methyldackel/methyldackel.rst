@@ -13,13 +13,14 @@ MethylDackel (formerly named PileOMeth, which was a temporary name derived due t
 | Home page: https://github.com/dpryan79/MethylDackel
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.6.1

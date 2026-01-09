@@ -13,13 +13,14 @@ A simple pipeline for reassigning primary contigs that should be labelled as hap
 | Home page: https://bitbucket.org/mroachawri/purge_haplotigs/src/master/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.1.3

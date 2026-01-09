@@ -11,13 +11,14 @@ Detailed usage can be found here: https://github.com/ablab/spades
 
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.15.3, 3.15.4, 3.15.5

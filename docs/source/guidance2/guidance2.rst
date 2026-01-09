@@ -13,13 +13,14 @@ GUIDe Tree Based AligNment ConfidencE (GUIDANCE) is a software package for align
 | Home page: https://taux.evolseq.net/guidancever2/source.php
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - BELL
     - 2.02

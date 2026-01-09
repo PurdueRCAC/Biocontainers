@@ -11,13 +11,14 @@ Detailed usage can be found here: http://www.microbesonline.org/fasttree/
 
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.1.10, 2.1.11

@@ -12,13 +12,14 @@ The University of Manchester GFFUtils package provides a small set of utility pr
 | Home page: https://github.com/fls-bioinformatics-core/GFFUtils
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.12.0

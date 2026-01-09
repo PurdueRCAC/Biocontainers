@@ -16,13 +16,14 @@ Note: 'mb-mpi' in this version of the container does not run across multiple nod
 | For more information, please check its website: https://biocontainers.pro/tools/mrbayes and its home page: http://mrbayes.net.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.2.7

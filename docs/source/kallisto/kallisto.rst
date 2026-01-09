@@ -11,13 +11,14 @@ Detailed usage can be found here: https://github.com/pachterlab/kallisto
 
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.46.2, 0.48.0

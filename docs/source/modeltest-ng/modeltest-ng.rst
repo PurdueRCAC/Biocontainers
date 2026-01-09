@@ -13,13 +13,14 @@ ModelTest-NG is a tool for selecting the best-fit model of evolution for DNA and
 | Home page: https://github.com/ddarriba/modeltest
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.1.7

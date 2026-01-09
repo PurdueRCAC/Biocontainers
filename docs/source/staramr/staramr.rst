@@ -13,13 +13,14 @@ staramr scans bacterial genome contigs against the ResFinder, PointFinder, and P
 | Home page: https://github.com/phac-nml/staramr
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.7.1

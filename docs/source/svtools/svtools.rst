@@ -13,13 +13,14 @@ Svtools is a suite of utilities designed to help bioinformaticians construct and
 | Home page: https://github.com/hall-lab/svtools
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.5.1

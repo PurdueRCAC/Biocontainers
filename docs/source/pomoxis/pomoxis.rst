@@ -13,13 +13,14 @@ Pomoxis comprises a set of basic bioinformatic tools tailored to nanopore sequen
 | Home page: https://github.com/nanoporetech/pomoxis
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.3.9

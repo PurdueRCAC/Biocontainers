@@ -13,13 +13,14 @@ gfastats is a single fast and exhaustive tool for summary statistics and simulta
 | Home page: https://github.com/vgl-hub/gfastats
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.2.3, 1.3.6

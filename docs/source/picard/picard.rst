@@ -9,13 +9,14 @@ Introduction
 Detailed usage can be found here: https://broadinstitute.github.io/picard/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.25.1, 2.26.10, 3.1.1

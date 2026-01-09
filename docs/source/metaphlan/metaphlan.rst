@@ -18,13 +18,14 @@ Introduction
 | For more information, please check its user guide at: https://huttenhower.sph.harvard.edu/metaphlan/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.0.9, 3.0.14, 4.0.2

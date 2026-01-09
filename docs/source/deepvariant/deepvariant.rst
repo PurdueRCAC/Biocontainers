@@ -12,13 +12,14 @@ DeepVariant is a deep learning-based variant caller that takes aligned reads (in
 | Home page: https://github.com/google/deepvariant
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.0.0, 1.1.0

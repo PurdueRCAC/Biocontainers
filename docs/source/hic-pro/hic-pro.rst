@@ -13,13 +13,14 @@ Hicpro is an optimized and flexible pipeline for Hi-C data processing.
 | Home page: https://github.com/nservant/HiC-Pro
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.0.0, 3.1.0

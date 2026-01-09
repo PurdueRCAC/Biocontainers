@@ -13,13 +13,14 @@ Mosdepth is a new command-line tool for rapidly calculating genome-wide sequenci
 | Home page: https://github.com/brentp/mosdepth
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - NEGISHI
     - 0.3.3

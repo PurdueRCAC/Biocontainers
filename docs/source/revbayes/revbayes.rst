@@ -12,13 +12,14 @@ RevBayes -- Bayesian phylogenetic inference using probabilistic graphical models
 | Home page: https://github.com/revbayes/revbayes
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.1.1

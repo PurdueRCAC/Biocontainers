@@ -13,13 +13,14 @@ Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FA
 | Home page: https://github.com/lh3/seqtk
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - BELL
     - 1.4

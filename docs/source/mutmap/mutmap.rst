@@ -13,13 +13,14 @@ MutMap is a powerful and efficient method to identify agronomically important lo
 | Home page: https://github.com/YuSugihara/MutMap#What-is-MutMap
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.3.3

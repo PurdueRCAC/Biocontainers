@@ -13,13 +13,14 @@ CZ CELLxGENE Annotate (pronounced "cell-by-gene") is an interactive data explore
 | Home page: https://cellxgene.cziscience.com/docs/01__CellxGene
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - BELL
     - 1.3.0

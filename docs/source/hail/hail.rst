@@ -13,13 +13,14 @@ Hail is an open-source, general-purpose, Python-based data analysis tool with ad
 | Home page: https://github.com/hail-is/hail
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.2.94, 0.2.98

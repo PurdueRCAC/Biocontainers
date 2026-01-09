@@ -10,13 +10,14 @@ Introduction
 Detailed information about velocyto.py can be found here: https://github.com/velocyto-team/velocyto.py. 
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.17.17

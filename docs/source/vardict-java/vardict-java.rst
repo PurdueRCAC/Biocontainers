@@ -13,13 +13,14 @@ VarDictJava is a variant discovery program written in Java and Perl. It is a Jav
 | Home page: https://github.com/AstraZeneca-NGS/VarDictJava
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.8.3

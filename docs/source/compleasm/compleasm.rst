@@ -13,13 +13,14 @@ compleasm: A genome completeness evaluation tool based on miniprot
 | Home page: https://github.com/huangnengCSU/compleasm
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.2.6

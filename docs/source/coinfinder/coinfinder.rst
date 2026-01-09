@@ -13,13 +13,14 @@ Coinfinder is an algorithm and software tool that detects genes which associate 
 | Home page: https://github.com/fwhelan/coinfinder
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.2.0

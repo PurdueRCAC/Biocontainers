@@ -10,13 +10,14 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/metabat/metabat and its home page: https://bitbucket.org/berkeleylab/metabat/src/master/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.15-5

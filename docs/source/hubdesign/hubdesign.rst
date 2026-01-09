@@ -13,13 +13,14 @@ Hierarchical Unique Bait Design for simultaneous and specific capture of known a
 | Home page: https://github.com/zacherydickson/HUBDesign
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - BELL
     - 1.6.0

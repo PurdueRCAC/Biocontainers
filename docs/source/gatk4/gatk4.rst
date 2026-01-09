@@ -8,13 +8,14 @@ Introduction
 ``GATK (Genome Analysis Toolkit)`` is a collection of command-line tools for analyzing high-throughput sequencing data with a primary focus on variant discovery. Detailed usage can be found here: https://www.broadinstitute.org/gatk/.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 4.2.0, 4.2.5.0, 4.2.6.1, 4.3.0.0, 4.6.0.0

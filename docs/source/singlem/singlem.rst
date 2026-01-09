@@ -13,13 +13,14 @@ SingleM is a tool for profiling shotgun metagenomes. It has a particular strengt
 | Home page: https://github.com/wwood/singlem
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.13.2

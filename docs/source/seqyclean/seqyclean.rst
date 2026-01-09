@@ -11,13 +11,14 @@ Docker hub: https://hub.docker.com/r/staphb/seqyclean
 Home page: https://github.com/ibest/seqyclean
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.10.09

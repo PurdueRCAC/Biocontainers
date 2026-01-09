@@ -13,13 +13,14 @@ Metilene is a versatile tool to study the effect of epigenetic modifications in 
 | Home page: https://www.bioinf.uni-leipzig.de/Software/metilene/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.2.8

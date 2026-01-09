@@ -13,13 +13,14 @@ The Eukaryotic Non-Model Transcriptome Annotation Pipeline (EnTAP) is designed t
 | Home page: https://entap.readthedocs.io/en/latest/index.html
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - BELL
     - 2.0.0, 2.2.0

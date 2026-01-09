@@ -13,13 +13,14 @@ CheckM provides a set of tools for assessing the quality of genomes recovered fr
 | Home page: https://github.com/Ecogenomics/CheckM
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.2.0, 1.2.2

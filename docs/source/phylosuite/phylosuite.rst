@@ -13,13 +13,14 @@ PhyloSuite is an integrated and scalable desktop platform for streamlined molecu
 | Home page: https://github.com/dongzhang0725/PhyloSuite
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.2.3

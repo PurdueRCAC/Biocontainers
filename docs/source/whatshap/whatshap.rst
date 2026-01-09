@@ -13,13 +13,14 @@ Whatshap is a software for phasing genomic variants using DNA sequencing reads, 
 | Home page: https://github.com/whatshap/whatshap
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.4

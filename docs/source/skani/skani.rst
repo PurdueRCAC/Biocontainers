@@ -13,13 +13,14 @@ Skani is a program for calculating average nucleotide identity (ANI) from DNA se
 | Home page: https://github.com/bluenote-1577/skani
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.2.0

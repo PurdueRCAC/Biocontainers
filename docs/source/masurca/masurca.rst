@@ -13,13 +13,14 @@ The MaSuRCA (Maryland Super Read Cabog Assembler) genome assembly and analysis t
 | Home page: https://github.com/alekseyzimin/masurca
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 4.0.9, 4.1.0

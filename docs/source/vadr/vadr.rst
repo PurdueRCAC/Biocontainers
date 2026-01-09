@@ -13,13 +13,14 @@ VADR is a suite of tools for classifying and analyzing sequences homologous to a
 | Home page: https://github.com/ncbi/vadr
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.4.1, 1.4.2, 1.5

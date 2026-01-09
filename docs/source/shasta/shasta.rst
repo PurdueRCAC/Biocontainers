@@ -12,13 +12,14 @@ Shasta is a software for de novo assembly from Oxford Nanopore reads.
 | Home page: https://github.com/chanzuckerberg/shasta
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.10.0

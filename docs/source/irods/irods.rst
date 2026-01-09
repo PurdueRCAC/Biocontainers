@@ -13,13 +13,14 @@ iCommands is a collection of commands used to interact with an iRODS server
 | Home page: https://irods.org/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 4.0.3

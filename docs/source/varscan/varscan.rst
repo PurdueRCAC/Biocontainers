@@ -10,13 +10,14 @@ Introduction
 | For more information, please check its home page: http://varscan.sourceforge.net/index.html.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.4.2, 2.4.4

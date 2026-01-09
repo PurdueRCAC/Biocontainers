@@ -13,13 +13,14 @@ Clust is a fully automated method for identification of clusters (groups) of gen
 | Home page: https://github.com/baselabujamous/clust
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.17.0

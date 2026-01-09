@@ -13,13 +13,14 @@ Kover is an out-of-core implementation of rule-based machine learning algorithms
 | Home page: https://github.com/aldro61/kover
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.0.6

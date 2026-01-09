@@ -13,13 +13,14 @@ Introduction
 | Home page: https://github.com/ncbi/amr
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.10.30, 3.10.42, 3.11.2

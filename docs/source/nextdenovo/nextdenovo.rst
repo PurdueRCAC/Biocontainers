@@ -12,13 +12,14 @@ NextDenovo is a string graph-based de novo assembler for long reads (CLR, HiFi a
 | Home page: https://github.com/Nextomics/NextDenovo
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.5.2

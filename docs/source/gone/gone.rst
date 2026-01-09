@@ -13,13 +13,14 @@ Scripts and programs referred to in the paper "Recent demographic history inferr
 | Home page: https://github.com/esrud/GONE
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 01.07.2020

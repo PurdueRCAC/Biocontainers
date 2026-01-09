@@ -13,13 +13,14 @@ SURVIVOR is a tool set for simulating/evaluating SVs, merging and comparing SVs 
 | Home page: https://github.com/fritzsedlazeck/SURVIVOR
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.0.7

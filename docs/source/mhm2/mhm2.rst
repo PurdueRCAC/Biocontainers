@@ -12,13 +12,14 @@ MetaHipMer is a de novo metagenome short-read assembler. Version 2 (MHM2) is wri
 | Home page: https://bitbucket.org/berkeleylab/mhm2/wiki/Home.md
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.0.0

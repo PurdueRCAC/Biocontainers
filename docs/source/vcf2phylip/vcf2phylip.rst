@@ -12,13 +12,14 @@ vcf2phylip is a tool to convert SNPs in VCF format to PHYLIP, NEXUS, binary NEXU
 | Home page: https://github.com/edgardomortiz/vcf2phylip
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.8

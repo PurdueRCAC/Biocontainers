@@ -13,13 +13,14 @@ Bali-phy is a tool for bayesian co-estimation of phylogenies and multiple alignm
 | Home page: https://github.com/bredelings/BAli-Phy
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.6.0

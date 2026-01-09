@@ -13,13 +13,14 @@ GAMMA (Gene Allele Mutation Microbial Assessment) is a command line tool that fi
 | Home page: https://github.com/rastanton/GAMMA
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.4, 2.2

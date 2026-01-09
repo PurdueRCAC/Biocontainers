@@ -13,13 +13,14 @@ R is a system for statistical computation and graphics. This is a r/4.4.2 Apptai
 | Home page: https://www.r-project.org/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.20-R-4.4.3, 3.22-r-4.5.1

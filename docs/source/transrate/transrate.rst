@@ -13,13 +13,14 @@ Transrate is software for de-novo transcriptome assembly quality analysis.
 | Home page: http://hibberdlab.com/transrate/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.0.3

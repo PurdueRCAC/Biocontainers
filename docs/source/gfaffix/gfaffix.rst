@@ -13,13 +13,14 @@ GFAffix identifies walk-preserving shared affixes in variation graphs and collap
 | Home page: https://github.com/marschall-lab/GFAffix
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.1.4

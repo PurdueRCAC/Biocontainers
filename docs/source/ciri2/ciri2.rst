@@ -12,13 +12,14 @@ CIRI2: Circular RNA identification based on multiple seed matching
 | Home page: https://sourceforge.net/projects/ciri/files/CIRI2/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.0.6

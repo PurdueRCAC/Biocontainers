@@ -12,13 +12,14 @@ BayeScan aims at identifying candidate loci under natural selection from genetic
 | Home page: http://cmpg.unibe.ch/software/BayeScan/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.1

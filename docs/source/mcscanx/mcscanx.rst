@@ -19,13 +19,14 @@ The MCScanX package has two major components: a modified version of MCscan algor
 | Home page: https://github.com/wyp1125/MCScanX. 
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - default

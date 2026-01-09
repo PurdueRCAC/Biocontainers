@@ -13,13 +13,14 @@ memes is an R interface to the MEME Suite family of tools, which provides severa
 | Home page: https://github.com/snystrom/memes
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.1.2

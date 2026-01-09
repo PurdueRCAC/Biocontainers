@@ -10,13 +10,14 @@ Introduction
 | For more information, please check home page: https://www.maxquant.org.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.1.0.0, 2.1.3.0, 2.1.4.0, 2.3.1.0

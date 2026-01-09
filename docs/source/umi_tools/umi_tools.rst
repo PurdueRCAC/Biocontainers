@@ -13,13 +13,14 @@ Umi_tools is a collection of tools for handling Unique Molecular Identifiers in 
 | Home page: https://github.com/CGATOxford/UMI-tools
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.1.4

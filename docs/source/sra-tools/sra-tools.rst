@@ -7,13 +7,14 @@ Introduction
 ``SRA-Toolkit``  is a collection of tools and libraries for using data in the INSDC Sequence Read Archives. Its detailed documentation can be found in https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc. 
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.11.0-pl5262

@@ -13,13 +13,14 @@ Mirtop is a ommand line tool to annotate with a standard naming miRNAs e isomiRs
 | Home page: https://github.com/miRTop/mirtop
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.4.25

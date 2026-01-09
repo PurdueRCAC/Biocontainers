@@ -13,13 +13,14 @@ Juicer is a platform for analyzing kilobase resolution Hi-C data
 | Home page: https://github.com/aidenlab/juicer
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - NEGISHI
     - 2.0.1

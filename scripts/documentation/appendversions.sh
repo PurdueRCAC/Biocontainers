@@ -41,6 +41,7 @@ do
     echo "Updating versions for $containername"
     # Build Versions table
     {
+         echo "~~~~~~~"
         echo ".. list-table::"
         echo "  :width: 100 %"
         echo "  :widths: 25 75"

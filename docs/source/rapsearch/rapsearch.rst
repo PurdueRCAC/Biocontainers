@@ -13,13 +13,14 @@ RAPSearch2 is a tool for fast protein similarity searches
 | Home page: https://rapsearch2.sourceforge.net/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - BELL
     - 2.24

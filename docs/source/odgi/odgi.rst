@@ -13,13 +13,14 @@ odgi provides an efficient and succinct dynamic DNA sequence graph model, as wel
 | Home page: https://github.com/pangenome/odgi
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.8.3

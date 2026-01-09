@@ -13,13 +13,14 @@ NCBI Datasets is a new resource that lets you easily gather data from across NCB
 | Home page: https://github.com/ncbi/datasets
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 14.3.0, 16.10.3

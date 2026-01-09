@@ -13,13 +13,14 @@ MAGeCK-VISPR is a comprehensive quality control, analysis and visualization pipe
 | Home page: https://bitbucket.org/liulab/mageck-vispr
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.5.6

@@ -10,13 +10,14 @@ Introduction
 Detailed information about Mothur can be found here: https://mothur.org
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.46.0, 1.47.0, 1.48.0

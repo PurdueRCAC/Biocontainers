@@ -13,13 +13,14 @@ Regtools are tools that integrate DNA-seq and RNA-seq data to help interpret mut
 | Home page: https://github.com/griffithlab/regtools
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.0.0

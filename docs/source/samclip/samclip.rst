@@ -13,13 +13,14 @@ Samclip is a tool to filter SAM file for soft and hard clipped alignments.
 | Home page: https://github.com/tseemann/samclip
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.4.0

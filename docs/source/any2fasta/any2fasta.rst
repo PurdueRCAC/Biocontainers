@@ -13,13 +13,14 @@ Any2fasta can convert various sequence formats to FASTA.
 | Home page: https://github.com/tseemann/any2fasta
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.4.2

@@ -14,13 +14,14 @@ Note: Running EDTA, please use the command like this:
 DO NOT call it 'perl EDTA.pl'
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.9.6, 2.0.0

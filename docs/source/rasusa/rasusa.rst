@@ -13,13 +13,14 @@ Rasusa: Randomly subsample sequencing reads to a specified coverage.
 | Home page: https://github.com/mbhall88/rasusa
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.6.0, 0.7.0

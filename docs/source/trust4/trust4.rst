@@ -13,13 +13,14 @@ Tcr Receptor Utilities for Solid Tissue (TRUST) is a computational tool to analy
 | Home page: https://github.com/liulab-dfci/TRUST4
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.0.7

@@ -13,13 +13,14 @@ The CFSAN SNP Pipeline is a Python-based system for the production of SNP matric
 | Home page: https://github.com/CFSAN-Biostatistics/snp-pipeline
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.2.1

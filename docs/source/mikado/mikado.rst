@@ -13,13 +13,14 @@ Mikado is a lightweight Python3 pipeline to identify the most useful or â€œbestâ
 | Home page: http://mikado.readthedocs.org/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - BELL
     - v2.3.5rc2

@@ -13,13 +13,14 @@ flair (Full-Length Alternative Isoform analysis of RNA) for the correction, isof
 | Home page: https://flair.readthedocs.io/en/latest
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.0.0

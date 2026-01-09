@@ -13,13 +13,14 @@ DendroPy is a Python library for phylogenetic computing. It provides classes and
 | Home page: https://github.com/jeetsukumaran/DendroPy
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 4.5.2

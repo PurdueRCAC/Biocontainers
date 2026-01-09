@@ -13,13 +13,14 @@ IsoQuant is a tool for the genome-based analysis of long RNA reads, such as PacB
 | Home page: https://github.com/ablab/IsoQuant
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.1.2

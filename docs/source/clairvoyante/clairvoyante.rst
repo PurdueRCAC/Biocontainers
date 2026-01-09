@@ -13,13 +13,14 @@ Clairvoyante is a deep neural network based variant caller.
 | Home page: https://github.com/aquaskyline/Clairvoyante
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.02

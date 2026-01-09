@@ -13,13 +13,14 @@ ipyrad is an interactive toolkit for assembly and analysis of restriction-site a
 | Home page: https://github.com/dereneaton/ipyrad
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.9.102

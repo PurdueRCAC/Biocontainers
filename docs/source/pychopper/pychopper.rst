@@ -13,13 +13,14 @@ Pychopper is a tool to identify, orient and trim full-length Nanopore cDNA reads
 | Home page: https://github.com/nanoporetech/pychopper
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.5.0

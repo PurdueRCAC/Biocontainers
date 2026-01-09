@@ -13,13 +13,14 @@ mapDamage2 is a computational framework written in Python and R, which tracks an
 | Home page: http://ginolhac.github.io/mapDamage/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.2.1

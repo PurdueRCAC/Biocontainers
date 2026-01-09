@@ -12,13 +12,14 @@ bwtool: a tool for bigWig files. bwtool is a tool designed to read bigWig files 
 | Home page: https://github.com/CRG-Barcelona/bwtool
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.0

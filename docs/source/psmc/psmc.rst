@@ -13,13 +13,14 @@ PSMC infers population size history from a diploid sequence using the Pairwise S
 | Home page: https://github.com/lh3/psmc/tree/master
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.6.5

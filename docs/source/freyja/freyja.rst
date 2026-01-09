@@ -13,13 +13,14 @@ Freyja is a tool to recover relative lineage abundances from mixed SARS-CoV-2 sa
 | Home page: https://github.com/andersen-lab/Freyja
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.3.11, 1.4.2

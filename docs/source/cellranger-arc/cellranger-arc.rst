@@ -13,13 +13,14 @@ Cell Ranger ARC is a set of analysis pipelines that process Chromium Single Cell
 | Home page: https://support.10xgenomics.com/single-cell-multiome-atac-gex/software/pipelines/latest/what-is-cell-ranger-arc
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.0.2_patched, 2.0.2

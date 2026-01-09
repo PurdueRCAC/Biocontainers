@@ -13,13 +13,14 @@ Quay.io: https://quay.io/repository/vgteam/vg?tabinfo
 | Home page: https://github.com/vgteam/vg
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.40.0

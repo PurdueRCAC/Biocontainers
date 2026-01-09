@@ -12,13 +12,14 @@ scvi-tools (single-cell variational inference tools) is a package for end-to-end
 | Home page: https://scvi-tools.org
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.16.2

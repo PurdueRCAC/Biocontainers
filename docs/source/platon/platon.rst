@@ -13,13 +13,14 @@ Platon: identification and characterization of bacterial plasmid contigs from sh
 | Home page: https://github.com/oschwengers/platon
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.6

@@ -13,13 +13,14 @@ Vcf2tsvpy is a small Python program that converts genomic variant data encoded i
 | Home page: https://github.com/sigven/vcf2tsvpy
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.6.0

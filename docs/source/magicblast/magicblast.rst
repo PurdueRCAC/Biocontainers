@@ -13,13 +13,14 @@ Magic-BLAST is a tool for mapping large next-generation RNA or DNA sequencing ru
 | Home page: https://ncbi.github.io/magicblast/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.5.0

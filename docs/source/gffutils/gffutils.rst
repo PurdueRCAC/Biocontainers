@@ -13,13 +13,14 @@ gffutils is a Python package for working with and manipulating the GFF and GTF f
 | Home page: https://github.com/daler/gffutils
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.11.1

@@ -13,13 +13,14 @@ CellProfiler is a free open-source software designed to enable biologists withou
 | Home page: https://cellprofiler.org/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - BELL
     - 4.2.8

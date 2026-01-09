@@ -13,13 +13,14 @@ Chopper is Rust implementation of NanoFilt+NanoLyse, both originally written in 
 | Home page: https://github.com/wdecoster/chopper
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.2.0

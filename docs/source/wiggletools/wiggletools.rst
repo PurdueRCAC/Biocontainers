@@ -13,13 +13,14 @@ The WiggleTools package allows genomewide data files to be manipulated as numeri
 | Home page: https://github.com/Ensembl/WiggleTools
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.2.11

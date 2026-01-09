@@ -13,13 +13,14 @@ vcfstats - powerful statistics for VCF files
 | Home page: https://pwwang.github.io/vcfstats/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - BELL
     - 0.60

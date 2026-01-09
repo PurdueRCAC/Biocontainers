@@ -13,13 +13,14 @@ MOB-suite: Software tools for clustering, reconstruction and typing of plasmids 
 | Home page: https://github.com/phac-nml/mob-suite
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.0.3

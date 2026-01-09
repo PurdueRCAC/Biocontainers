@@ -10,13 +10,14 @@ Introduction
 Detailed usage can be found here: https://github.com/alexdobin/STAR
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.7.10a, 2.7.10b, 2.7.11b, 2.7.9a

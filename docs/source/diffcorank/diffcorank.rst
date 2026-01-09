@@ -13,13 +13,14 @@ DiffCoRank: A Comprehensive Framework for Discovering Hub Genes and Differential
 | Home page: https://github.com/msureil/DiffCoRank
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - NEGISHI
     - 1.0

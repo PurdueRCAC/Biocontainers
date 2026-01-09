@@ -12,13 +12,14 @@ A File Transfer Protocol client (FTP client) is a software utility that establis
 |
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.17

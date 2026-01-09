@@ -12,13 +12,14 @@ ARCS is a tool for scaffolding genome sequence assemblies using linked or long r
 | Home page: https://github.com/bcgsc/arcs
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.2.4

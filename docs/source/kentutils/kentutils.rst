@@ -13,13 +13,14 @@ Kentutils: UCSC command line bioinformatic utilities.
 | Home page: https://github.com/ENCODE-DCC/kentUtils
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 302.1.0

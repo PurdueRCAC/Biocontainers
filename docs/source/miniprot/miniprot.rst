@@ -12,13 +12,14 @@ Miniprot aligns a protein sequence against a genome with affine gap penalty, spl
 | Home page: https://github.com/lh3/miniprot
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.3, 0.7

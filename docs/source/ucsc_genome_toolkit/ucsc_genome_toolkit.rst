@@ -10,13 +10,14 @@ Introduction
 These executables have been downloaded from http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64.v369/ and made available on RCAC clusters.  
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 369

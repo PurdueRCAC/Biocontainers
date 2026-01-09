@@ -13,13 +13,14 @@ FragPipe is a comprehensive computational platform for analyzing mass spectromet
 | Home page: https://github.com/Nesvilab/FragPipe
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - NEGISHI
     - 22.0

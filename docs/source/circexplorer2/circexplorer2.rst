@@ -13,13 +13,14 @@ CIRCexplorer2 is a comprehensive and integrative circular RNA analysis toolset. 
 | Home page: https://github.com/YangLab/CIRCexplorer2
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.3.8

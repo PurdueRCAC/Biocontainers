@@ -13,13 +13,14 @@ VeryFastTree is a highly-tuned implementation of the FastTree-2 tool that takes 
 | Home page: https://github.com/citiususc/veryfasttree
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.2.1

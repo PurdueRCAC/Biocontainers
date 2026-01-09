@@ -11,13 +11,14 @@ Detailed usage can be found here: https://github.com/COMBINE-lab/salmon
 
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.5.2, 1.6.0, 1.7.0, 1.8.0, 1.9.0, 1.10.1

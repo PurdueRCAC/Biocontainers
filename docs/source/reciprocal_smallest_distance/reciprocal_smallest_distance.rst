@@ -10,13 +10,14 @@ The ``reciprocal smallest distance`` (RSD) algorithm accurately infers orthologs
 | For more information, please check its home page on `Github`_.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.1.7

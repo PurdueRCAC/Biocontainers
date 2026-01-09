@@ -13,13 +13,14 @@ Chromap is an ultrafast method for aligning and preprocessing high throughput ch
 | Home page: https://github.com/haowenz/chromap
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.2.2

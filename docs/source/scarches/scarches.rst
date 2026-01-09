@@ -12,13 +12,14 @@ scArches is a package to integrate newly produced single-cell datasets into inte
 | Home page: https://github.com/theislab/scarches
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.5.3

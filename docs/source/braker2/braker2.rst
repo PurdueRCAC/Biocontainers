@@ -10,13 +10,14 @@ Introduction
 | For more information. please check its github repository https://github.com/Gaius-Augustus/BRAKER. 
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.1.6

@@ -13,13 +13,14 @@ NeEstimator v2 is a completely revised and updated implementation of software th
 | Home page: http://www.molecularfisherieslaboratory.com.au
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.2.1

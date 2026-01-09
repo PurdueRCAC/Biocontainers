@@ -13,13 +13,14 @@ REDItools: python scripts for RNA editing detection by RNA-Seq data
 | Home page: https://github.com/BioinfoUNIBA/REDItools
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - NEGISHI
     - 3.4

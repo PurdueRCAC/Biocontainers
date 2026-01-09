@@ -13,13 +13,14 @@ HELEN is a multi-task RNN polisher which operates on images produced by MarginPo
 | Home page: https://github.com/kishwarshafin/helen
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.0

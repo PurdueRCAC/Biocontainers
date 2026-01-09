@@ -13,13 +13,14 @@ csvkit is a suite of command-line tools for converting to and working with CSV, 
 | Home page: https://csvkit.readthedocs.io/en/latest/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.1.1

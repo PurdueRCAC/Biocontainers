@@ -13,13 +13,14 @@ SvABA is a method for detecting structural variants in sequencing data using gen
 | Home page: https://github.com/walaj/svaba
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.1.0

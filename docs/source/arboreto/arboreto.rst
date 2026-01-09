@@ -13,13 +13,14 @@ Arboreto is a package for scalable gene regulatory network inference using tree-
 | Home page: https://github.com/tmoerman/arboreto
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.1.6-py

@@ -13,13 +13,14 @@ DeepConsensus uses gap-aware sequence transformers to correct errors in Pacific 
 | Home page: https://github.com/google/deepconsensus
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.2.0

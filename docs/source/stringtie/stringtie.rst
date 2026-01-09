@@ -12,13 +12,14 @@ Stringtie employs efficient algorithms for transcript structure recovery and abu
 Detailed usage can be found here: https://github.com/gpertea/stringtie
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.1.7, 2.2.1

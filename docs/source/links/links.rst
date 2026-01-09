@@ -13,13 +13,14 @@ LINKS is a genomics application for scaffolding genome assemblies with long read
 | Home page: https://github.com/bcgsc/LINKS
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.0.1

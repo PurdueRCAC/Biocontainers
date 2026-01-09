@@ -12,13 +12,14 @@ Aspera Connect is software that allows download and upload data. The software in
 |
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 4.2.6

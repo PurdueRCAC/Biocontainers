@@ -11,13 +11,14 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/subread and its home page: http://subread.sourceforge.net.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.6.4, 2.0.1, 2.1.1

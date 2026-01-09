@@ -9,13 +9,14 @@ Introduction
 Users who have novel nucleotide or protein sequences that they wish to functionally characterise can use the software package ``InterProScan`` to run the scanning algorithms from the InterPro database in an integrated way. Sequences are submitted in FASTA format. Matches are then calculated against all of the required member database’s signatures and the results are then output in a variety of formats. 
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 5.54_87.0, 5.61-93.0

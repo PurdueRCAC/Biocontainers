@@ -45,13 +45,14 @@ In the module, we have some packages installed:
 
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 4.1.1-1, 4.2.0

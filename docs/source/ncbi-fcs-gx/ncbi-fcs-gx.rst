@@ -13,13 +13,14 @@ FCS-GX detects contamination from foreign organisms in genome sequences. This to
 | Home page: https://github.com/ncbi/fcs
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.5.4

@@ -12,13 +12,14 @@ scGen is a generative model to predict single-cell perturbation response across 
 | Home page: https://github.com/theislab/scgen
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.1.0

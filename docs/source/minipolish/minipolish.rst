@@ -13,13 +13,14 @@ Minipolish is a tool for Racon polishing of miniasm assemblies.
 | Home page: https://github.com/rrwick/Minipolish
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.1.3

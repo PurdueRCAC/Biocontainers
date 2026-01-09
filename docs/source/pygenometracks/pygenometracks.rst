@@ -13,13 +13,14 @@ pyGenomeTracks aims to produce high-quality genome browser tracks that are highl
 | Home page: https://github.com/deeptools/pyGenomeTracks
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.7

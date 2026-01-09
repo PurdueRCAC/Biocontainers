@@ -13,13 +13,14 @@ Slamdunk is a novel, fully automated software tool for automated, robust, scalab
 | Home page: http://t-neumann.github.io/slamdunk/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.4.3

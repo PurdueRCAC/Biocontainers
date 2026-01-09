@@ -13,13 +13,14 @@ AGFusion (pronounced 'A G Fusion') is a python package for annotating gene fusio
 | Home page: https://github.com/murphycj/AGFusion
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.3.11

@@ -13,13 +13,14 @@ Hap.py is a tool to compare diploid genotypes at haplotype level.
 | Home page: https://github.com/Illumina/hap.py
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.3.9

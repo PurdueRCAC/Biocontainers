@@ -10,13 +10,14 @@ Introduction
 Detailed usage can be found here: https://github.com/DRL/blobtools
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.1.1, 4.4.5

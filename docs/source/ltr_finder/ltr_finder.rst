@@ -12,13 +12,14 @@ LTR_Finder is an efficient program for finding full-length LTR retrotranspsons i
 | Home page: https://github.com/xzhub/LTR_Finder
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.07

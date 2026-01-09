@@ -13,13 +13,14 @@ Pullseq is an utility program for extracting sequences from a fasta/fastq file.
 | Home page: https://github.com/bcthomas/pullseq
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.0.2

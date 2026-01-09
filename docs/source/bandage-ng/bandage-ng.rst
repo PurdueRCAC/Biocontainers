@@ -13,13 +13,14 @@ Bandage-NG is a GUI program that allows users to interact with the assembly grap
 | Home page: https://github.com/asl/BandageNG
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2022.09

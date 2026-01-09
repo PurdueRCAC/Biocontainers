@@ -13,13 +13,14 @@ TRTools includes a variety of utilities for filtering, quality control and analy
 | Home page: https://github.com/gymreklab/TRTools
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 5.0.1

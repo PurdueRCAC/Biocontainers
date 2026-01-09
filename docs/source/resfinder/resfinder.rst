@@ -12,13 +12,14 @@ ResFinder identifies acquired antimicrobial resistance genes in total or partial
 | Home page: https://github.com/cadms/resfinder
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 4.1.5

@@ -13,13 +13,14 @@ Ivar is a computational package that contains functions broadly useful for viral
 | Home page: https://github.com/andersen-lab/ivar
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.3.1, 1.4.2

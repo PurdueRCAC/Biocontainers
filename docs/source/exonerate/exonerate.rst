@@ -10,13 +10,14 @@ Introduction
 | For more information, please check its home page: https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate.
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.4.0

@@ -11,13 +11,14 @@ Docker hub: https://hub.docker.com/r/staphb/srst2
 Home page: https://github.com/katholt/srst2
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.2.0

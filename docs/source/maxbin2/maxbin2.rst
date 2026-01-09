@@ -13,13 +13,14 @@ Maxbin2 is a software for binning assembled metagenomic sequences based on an Ex
 | Home page: https://sourceforge.net/projects/maxbin2/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.2.7

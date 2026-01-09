@@ -13,13 +13,14 @@ Bulked segregant analysis, as implemented in QTL-seq (Takagi et al., 2013), is a
 | Home page: https://github.com/YuSugihara/QTL-seq#What-is-QTL-seq
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 2.2.3

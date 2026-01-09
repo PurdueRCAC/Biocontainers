@@ -12,13 +12,14 @@ FragGeneScanRs is a better and faster Rust implementation of the FragGeneScan ge
 | Home page: https://github.com/unipept/FragGeneScanRs
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.1.0

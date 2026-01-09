@@ -13,13 +13,14 @@ Disambiguate is an algorithm for disambiguating reads aligned to two species (e.
 | Home page: https://github.com/AstraZeneca-NGS/disambiguate
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - NEGISHI
     - 1.0.0

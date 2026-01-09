@@ -12,13 +12,14 @@ Actc is used to align subreads to ccs reads.
 | Home page: https://github.com/PacificBiosciences/actc
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.2.0

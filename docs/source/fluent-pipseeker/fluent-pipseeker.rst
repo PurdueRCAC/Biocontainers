@@ -13,13 +13,14 @@ PIPseeker analyzes single-cell data obtained with Fluent BioSciences proprietary
 | Home page: https://www.fluentbio.com/resources/pipseeker-downloads/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - BELL
     - 3.3.0

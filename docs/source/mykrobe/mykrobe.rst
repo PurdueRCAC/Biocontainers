@@ -13,13 +13,14 @@ Mykrobe analyses the whole genome of a bacterial sample, all within a couple of 
 | Home page: https://github.com/Mykrobe-tools/mykrobe
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.11.0

@@ -13,13 +13,14 @@ Generalized fold change for ranking differentially expressed genes from RNA-seq 
 | Home page: https://zhanglab.tongji.edu.cn/softwares/GFOLD/index.html
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - BELL
     - 1.1.4

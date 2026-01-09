@@ -11,13 +11,14 @@ Detailed usage can be found here: https://github.com/tseemann/prokka
 
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 1.14.6

@@ -13,13 +13,14 @@ Nanosim is a fast and scalable read simulator for nanopore sequencing data.
 | Home page: https://github.com/bcgsc/NanoSim
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 3.2.3

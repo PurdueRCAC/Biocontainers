@@ -10,13 +10,14 @@ Introduction
 Detailed information can be found here: https://gitlab.com/ezlab/busco/
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 5.2.2, 5.3.0, 5.4.1, 5.4.3, 5.4.4, 5.4.5, 5.4.7, 5.8.2-py

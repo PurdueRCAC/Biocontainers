@@ -12,13 +12,14 @@ Plotsr generates high-quality visualisation of synteny and structural rearrangem
 | Home page: https://github.com/schneebergerlab/plotsr
 
 Versions
+~~~~~~~
 .. list-table::
   :width: 100 %
   :widths: 25 75
   :header-rows: 1
 
   * - Cluster
-    - Versions
+    - Version(s)
 
   * - ANVIL
     - 0.5.4
