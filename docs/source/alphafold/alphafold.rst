@@ -22,12 +22,26 @@ Protein struction prediction by alphafold is performed in the following steps:
 
 Versions
 ~~~~~~~~
-- 2.1.1
-- 2.2.0
-- 2.2.3
-- 2.3.0
-- 2.3.1
-- 3.0.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.1, 2.2.0, 2.2.3, 2.3.0, 2.3.1
+  * - BELL
+    - 2.1.1, 2.2.0, 2.2.3, 2.3.0, 2.3.1
+  * - GAUTSCHI
+    - 2.1.1, 2.2.0, 2.2.3, 2.3.0, 2.3.1, 3.0.1
+  * - GILBRETH
+    - 2.1.1, 2.2.0, 2.2.3, 2.3.0, 2.3.1, 2.3.2
+  * - NEGISHI
+    - 2.1.1, 2.2.0, 2.2.3, 2.3.0, 2.3.1
+  * - SCHOLAR
+    - 2.1.1, 2.2.0, 2.2.3, 2.3.0, 2.3.1
 
 Commands
 ~~~~~~~
