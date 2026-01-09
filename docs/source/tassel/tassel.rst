@@ -12,8 +12,24 @@ TASSEL is a software package used to evaluate traits associations, evolutionary 
 | Home page: https://www.maizegenetics.net/tassel
 
 Versions
-~~~~~~~~
-- 5.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 5.0
+  * - BELL
+    - 5.0
+  * - GAUTSCHI
+    - 5.0
+  * - NEGISHI
+    - 5.0
+  * - SCHOLAR
+    - 5.0
 
 Commands
 ~~~~~~~

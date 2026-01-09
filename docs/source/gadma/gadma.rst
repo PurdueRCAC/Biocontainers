@@ -13,8 +13,24 @@ GADMA is a command-line tool. Basic pipeline presents a series of launches of th
 | Home page: https://github.com/ctlab/GADMA
 
 Versions
-~~~~~~~~
-- 2.0.0rc21
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0.0rc21
+  * - BELL
+    - 2.0.0rc21
+  * - GAUTSCHI
+    - 2.0.0rc21
+  * - NEGISHI
+    - 2.0.0rc21
+  * - SCHOLAR
+    - 2.0.0rc21
 
 Commands
 ~~~~~~~

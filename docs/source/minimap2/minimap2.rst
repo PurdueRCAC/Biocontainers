@@ -10,10 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/minimap2 and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.22
-- 2.24
-- 2.26
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.22, 2.24, 2.26, 2.28
+  * - BELL
+    - 2.22, 2.24, 2.26, 2.28
+  * - GAUTSCHI
+    - 2.22, 2.24, 2.26
+  * - NEGISHI
+    - 2.22, 2.24, 2.26, 2.28
+  * - SCHOLAR
+    - 2.22, 2.24, 2.26
 
 Commands
 ~~~~~~~

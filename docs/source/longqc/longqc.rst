@@ -13,8 +13,24 @@ LongQC is a tool for the data quality control of the PacBio and ONT long reads.
 | Home page: https://github.com/yfukasawa/LongQC
 
 Versions
-~~~~~~~~
-- 1.2.0c
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.2.0c
+  * - BELL
+    - 1.2.0c
+  * - GAUTSCHI
+    - 1.2.0c
+  * - NEGISHI
+    - 1.2.0c
+  * - SCHOLAR
+    - 1.2.0c
 
 Commands
 ~~~~~~~

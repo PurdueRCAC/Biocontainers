@@ -13,9 +13,24 @@ gfastats is a single fast and exhaustive tool for summary statistics and simulta
 | Home page: https://github.com/vgl-hub/gfastats
 
 Versions
-~~~~~~~~
-- 1.2.3
-- 1.3.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.2.3, 1.3.6
+  * - BELL
+    - 1.2.3, 1.3.6
+  * - GAUTSCHI
+    - 1.2.3, 1.3.6
+  * - NEGISHI
+    - 1.2.3, 1.3.6
+  * - SCHOLAR
+    - 1.2.3, 1.3.6
 
 Commands
 ~~~~~~~

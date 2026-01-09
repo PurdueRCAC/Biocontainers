@@ -13,8 +13,22 @@ PEAR is an ultrafast, memory-efficient and highly accurate pair-end read merger.
 | Home page: https://cme.h-its.org/exelixis/web/software/pear/
 
 Versions
-~~~~~~~~
-- 0.9.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.9.6
+  * - BELL
+    - 0.9.6
+  * - GAUTSCHI
+    - 0.9.6
+  * - NEGISHI
+    - 0.9.6
 
 Commands
 ~~~~~~~

@@ -13,8 +13,24 @@ Introduction
 Detailed information about CellRank can be found here: https://cellrank.readthedocs.io/en/stable/. 
 
 Versions
-~~~~~~~~
-- 1.5.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.5.1
+  * - BELL
+    - 1.5.1
+  * - GAUTSCHI
+    - 1.5.1
+  * - NEGISHI
+    - 1.5.1
+  * - SCHOLAR
+    - 1.5.1
 
 Commands
 ~~~~~~

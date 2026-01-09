@@ -13,8 +13,24 @@ Snphylo is a pipeline to generate a phylogenetic tree from huge SNP data.
 | Home page: https://github.com/thlee/SNPhylo
 
 Versions
-~~~~~~~~
-- 20180901
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 20180901
+  * - BELL
+    - 20180901
+  * - GAUTSCHI
+    - 20180901
+  * - NEGISHI
+    - 20180901
+  * - SCHOLAR
+    - 20180901
 
 Commands
 ~~~~~~~

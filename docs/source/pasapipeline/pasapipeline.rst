@@ -13,8 +13,24 @@ PASA, acronym for Program to Assemble Spliced Alignments (and pronounced 'pass-u
 | Home page: https://github.com/PASApipeline/PASApipeline
 
 Versions
-~~~~~~~~
-- 2.5.2-devb
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.5.2-devb
+  * - BELL
+    - 2.5.2-devb
+  * - GAUTSCHI
+    - 2.5.2-devb
+  * - NEGISHI
+    - 2.5.2-devb
+  * - SCHOLAR
+    - 2.5.2-devb
 
 Commands
 ~~~~~~~

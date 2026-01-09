@@ -13,8 +13,22 @@ MetaEuk is a modular toolkit designed for large-scale gene discovery and annotat
 | Home page: https://github.com/soedinglab/metaeuk
 
 Versions
-~~~~~~~~
-- 6.a5d39d9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 6.a5d39d9
+  * - BELL
+    - 6.a5d39d9
+  * - GAUTSCHI
+    - 6.a5d39d9
+  * - NEGISHI
+    - 6.a5d39d9
 
 Commands
 ~~~~~~~

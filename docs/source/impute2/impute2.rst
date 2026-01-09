@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/impute2 and its home page: https://mathgen.stats.ox.ac.uk/impute/impute_v2.html#home.
 
 Versions
-~~~~~~~~
-- 2.3.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.3.2
+  * - BELL
+    - 2.3.2
+  * - GAUTSCHI
+    - 2.3.2
+  * - NEGISHI
+    - 2.3.2
+  * - SCHOLAR
+    - 2.3.2
 
 Commands
 ~~~~~~~

@@ -11,8 +11,24 @@ BioContainers: https://biocontainers.pro/tools/infernal
 Home page: http://eddylab.org/infernal/
 
 Versions
-~~~~~~~~
-- 1.1.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.1.4
+  * - BELL
+    - 1.1.4
+  * - GAUTSCHI
+    - 1.1.4
+  * - NEGISHI
+    - 1.1.4
+  * - SCHOLAR
+    - 1.1.4
 
 Commands
 ~~~~~~~

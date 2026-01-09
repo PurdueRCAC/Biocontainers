@@ -13,8 +13,24 @@ GetOrganelle: a fast and versatile toolkit for accurate de novo assembly of orga
 | Home page: https://github.com/Kinggerm/GetOrganelle
 
 Versions
-~~~~~~~~
-- 1.7.7.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.7.7.0
+  * - BELL
+    - 1.7.7.0
+  * - GAUTSCHI
+    - 1.7.7.0
+  * - NEGISHI
+    - 1.7.7.0
+  * - SCHOLAR
+    - 1.7.7.0
 
 Commands
 ~~~~~~~

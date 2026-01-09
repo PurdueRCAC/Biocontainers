@@ -11,8 +11,24 @@ Detailed usage can be found here: https://github.com/tseemann/prokka
 
 
 Versions
-~~~~~~~~
-- 1.14.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.14.6
+  * - BELL
+    - 1.14.6
+  * - GAUTSCHI
+    - 1.14.6
+  * - NEGISHI
+    - 1.14.6
+  * - SCHOLAR
+    - 1.14.6
 
 Commands
 ~~~~~~

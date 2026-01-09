@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/staphb/snippy and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 4.6.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.6.0
+  * - BELL
+    - 4.6.0
+  * - GAUTSCHI
+    - 4.6.0
+  * - NEGISHI
+    - 4.6.0
+  * - SCHOLAR
+    - 4.6.0
 
 Commands
 ~~~~~~~

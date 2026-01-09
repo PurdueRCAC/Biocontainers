@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/proteinortho and its home page on `Gitlab`_.
 
 Versions
-~~~~~~~~
-- 6.0.33
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 6.0.33
+  * - BELL
+    - 6.0.33
+  * - GAUTSCHI
+    - 6.0.33
+  * - NEGISHI
+    - 6.0.33
+  * - SCHOLAR
+    - 6.0.33
 
 Commands
 ~~~~~~~

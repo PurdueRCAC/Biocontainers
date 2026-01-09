@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/stacks and its home page: https://catchenlab.life.illinois.edu/stacks/.
 
 Versions
-~~~~~~~~
-- 2.60
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.60, 2.64, 2.68
+  * - BELL
+    - 2.60, 2.68
+  * - GAUTSCHI
+    - 2.60
+  * - NEGISHI
+    - 2.60, 2.64, 2.68
+  * - SCHOLAR
+    - 2.60
 
 Commands
 ~~~~~~~

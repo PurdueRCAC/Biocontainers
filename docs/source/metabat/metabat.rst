@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/metabat/metabat and its home page: https://bitbucket.org/berkeleylab/metabat/src/master/
 
 Versions
-~~~~~~~~
-- 2.15-5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.15-5
+  * - BELL
+    - 2.15-5
+  * - GAUTSCHI
+    - 2.15-5
+  * - NEGISHI
+    - 2.15-5
+  * - SCHOLAR
+    - 2.15-5
 
 Commands
 ~~~~~~~

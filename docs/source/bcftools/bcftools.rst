@@ -10,10 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/bcftools and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.13
-- 1.14
-- 1.17
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.13, 1.14, 1.17
+  * - BELL
+    - 1.13, 1.14, 1.17
+  * - GAUTSCHI
+    - 1.13, 1.14, 1.17
+  * - NEGISHI
+    - 1.13, 1.14, 1.17
+  * - SCHOLAR
+    - 1.13, 1.14, 1.17
 
 Commands
 ~~~~~~~

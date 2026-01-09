@@ -12,8 +12,24 @@ TargetP-2.0 tool predicts the presence of N-terminal presequences: signal peptid
 | Home page: https://services.healthtech.dtu.dk/service.php?TargetP-2.0
 
 Versions
-~~~~~~~~
-- 2.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0
+  * - BELL
+    - 2.0
+  * - GAUTSCHI
+    - 2.0
+  * - NEGISHI
+    - 2.0
+  * - SCHOLAR
+    - 2.0
 
 Commands
 ~~~~~~~

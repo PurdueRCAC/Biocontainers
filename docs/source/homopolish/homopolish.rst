@@ -13,8 +13,24 @@ Homopolish is a genome polisher originally developed for Nanopore and subsequent
 | Home page: https://github.com/ythuang0522/homopolish
 
 Versions
-~~~~~~~~
-- 0.4.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.4.1
+  * - BELL
+    - 0.4.1
+  * - GAUTSCHI
+    - 0.4.1
+  * - NEGISHI
+    - 0.4.1
+  * - SCHOLAR
+    - 0.4.1
 
 Commands
 ~~~~~~~

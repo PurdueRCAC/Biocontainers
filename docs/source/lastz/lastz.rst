@@ -13,8 +13,24 @@ LASTZ - pairwise DNA sequence aligner
 | Home page: https://github.com/lastz/lastz
 
 Versions
-~~~~~~~~
-- 1.04.15
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.04.15
+  * - BELL
+    - 1.04.15
+  * - GAUTSCHI
+    - 1.04.15
+  * - NEGISHI
+    - 1.04.15
+  * - SCHOLAR
+    - 1.04.15
 
 Commands
 ~~~~~~~

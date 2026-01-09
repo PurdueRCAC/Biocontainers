@@ -13,8 +13,24 @@ Debreak is a SV caller for long-read single-molecular sequencing data.
 | Home page: https://github.com/ChongLab/DeBreak
 
 Versions
-~~~~~~~~
-- 1.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.3
+  * - BELL
+    - 1.3
+  * - GAUTSCHI
+    - 1.3
+  * - NEGISHI
+    - 1.3
+  * - SCHOLAR
+    - 1.3
 
 Commands
 ~~~~~~~

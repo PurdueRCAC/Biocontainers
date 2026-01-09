@@ -24,8 +24,24 @@ Default MPLBACKEND="agg" (for PNG format output).
 | For more information, please check its website: https://biocontainers.pro/tools/faststructure and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.0-py27
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.0-py27
+  * - BELL
+    - 1.0-py27
+  * - GAUTSCHI
+    - 1.0-py27
+  * - NEGISHI
+    - 1.0-py27
+  * - SCHOLAR
+    - 1.0-py27
 
 Commands
 ~~~~~~~

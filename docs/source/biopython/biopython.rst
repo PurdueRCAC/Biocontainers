@@ -10,10 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/biopython and its home page: https://biopython.org.
 
 Versions
-~~~~~~~~
-- 1.70-np112py27
-- 1.70-np112py36
-- 1.78
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.70-np112py27, 1.70-np112py36, 1.78
+  * - BELL
+    - 1.70-np112py27, 1.70-np112py36, 1.78
+  * - GAUTSCHI
+    - 1.70-np112py27, 1.70-np112py36, 1.78
+  * - NEGISHI
+    - 1.70-np112py27, 1.70-np112py36, 1.78
+  * - SCHOLAR
+    - 1.70-np112py27, 1.70-np112py36, 1.78
 
 Commands
 ~~~~~~~

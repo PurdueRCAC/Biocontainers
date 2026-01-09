@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/algolab/asgal and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.1.7
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.1.7
+  * - BELL
+    - 1.1.7
+  * - GAUTSCHI
+    - 1.1.7
+  * - NEGISHI
+    - 1.1.7
+  * - SCHOLAR
+    - 1.1.7
 
 Commands
 ~~~~~~~

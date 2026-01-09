@@ -13,9 +13,24 @@ Mlst is used to scan contig files against traditional PubMLST typing schemes.
 | Home page: https://github.com/tseemann/mlst
 
 Versions
-~~~~~~~~
-- 2.22.0
-- 2.23.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.22.0, 2.23.0
+  * - BELL
+    - 2.22.0, 2.23.0
+  * - GAUTSCHI
+    - 2.22.0, 2.23.0
+  * - NEGISHI
+    - 2.22.0, 2.23.0
+  * - SCHOLAR
+    - 2.22.0, 2.23.0
 
 Commands
 ~~~~~~~

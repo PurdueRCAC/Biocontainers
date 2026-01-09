@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/hyphy and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.5.36
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.5.36
+  * - BELL
+    - 2.5.36
+  * - GAUTSCHI
+    - 2.5.36
+  * - NEGISHI
+    - 2.5.36, 2.5.69
+  * - SCHOLAR
+    - 2.5.36
 
 Commands
 ~~~~~~~

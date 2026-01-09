@@ -13,8 +13,24 @@ Parliament2 identifies structural variants in a given sample relative to a refer
 | Home page: https://github.com/fritzsedlazeck/parliament2
 
 Versions
-~~~~~~~~
-- 0.1.11
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.1.11
+  * - BELL
+    - 0.1.11
+  * - GAUTSCHI
+    - 0.1.11
+  * - NEGISHI
+    - 0.1.11
+  * - SCHOLAR
+    - 0.1.11
 
 Commands
 ~~~~~~~

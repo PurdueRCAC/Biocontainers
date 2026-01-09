@@ -13,8 +13,24 @@ MOB-suite: Software tools for clustering, reconstruction and typing of plasmids 
 | Home page: https://github.com/phac-nml/mob-suite
 
 Versions
-~~~~~~~~
-- 3.0.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.0.3
+  * - BELL
+    - 3.0.3
+  * - GAUTSCHI
+    - 3.0.3
+  * - NEGISHI
+    - 3.0.3
+  * - SCHOLAR
+    - 3.0.3
 
 Commands
 ~~~~~~~

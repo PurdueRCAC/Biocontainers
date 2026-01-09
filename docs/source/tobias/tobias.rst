@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/tobias and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.13.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.13.3
+  * - BELL
+    - 0.13.3
+  * - GAUTSCHI
+    - 0.13.3
+  * - NEGISHI
+    - 0.13.3
+  * - SCHOLAR
+    - 0.13.3
 
 Commands
 ~~~~~~~

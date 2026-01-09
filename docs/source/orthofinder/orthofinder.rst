@@ -10,10 +10,24 @@ Introduction
 Detailed usage can be found here: https://github.com/davidemms/OrthoFinder
 
 Versions
-~~~~~~~~
-- 2.5.2
-- 2.5.4
-- 2.5.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.5.2, 2.5.4, 2.5.5
+  * - BELL
+    - 2.5.2, 2.5.4, 2.5.5
+  * - GAUTSCHI
+    - 2.5.2, 2.5.4, 2.5.5
+  * - NEGISHI
+    - 2.5.2, 2.5.4, 2.5.5
+  * - SCHOLAR
+    - 2.5.2, 2.5.4, 2.5.5
 
 Commands
 ~~~~~~

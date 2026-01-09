@@ -10,11 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/snpsift and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 4.3.1t
-- 5.1
-- 5.1d
-- 5.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.3.1t, 5.1d, 5.1, 5.2
+  * - BELL
+    - 4.3.1t, 5.1d, 5.1, 5.2
+  * - GAUTSCHI
+    - 4.3.1t, 5.1d, 5.1, 5.2
+  * - NEGISHI
+    - 4.3.1t, 5.1d, 5.1, 5.2
+  * - SCHOLAR
+    - 4.3.1t
 
 Commands
 ~~~~~~~

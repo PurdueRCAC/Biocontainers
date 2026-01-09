@@ -13,8 +13,24 @@ Quay.io: https://quay.io/repository/vgteam/vg?tabinfo
 | Home page: https://github.com/vgteam/vg
 
 Versions
-~~~~~~~~
-- 1.40.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.40.0
+  * - BELL
+    - 1.40.0
+  * - GAUTSCHI
+    - 1.40.0
+  * - NEGISHI
+    - 1.40.0
+  * - SCHOLAR
+    - 1.40.0
 
 Commands
 ~~~~~~~

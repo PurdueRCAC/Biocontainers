@@ -10,11 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/multiqc and its home page: https://multiqc.info.
 
 Versions
-~~~~~~~~
-- 1.11
-- 1.14
-- 1.21
-- 1.23
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.11, 1.14, 1.21, 1.23
+  * - BELL
+    - 1.11, 1.14, 1.21, 1.23
+  * - GAUTSCHI
+    - 1.11, 1.14, 1.21, 1.23
+  * - NEGISHI
+    - 1.11, 1.14, 1.21, 1.23
+  * - SCHOLAR
+    - 1.11, 1.14
 
 Commands
 ~~~~~~~

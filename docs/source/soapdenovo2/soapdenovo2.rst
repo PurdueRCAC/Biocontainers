@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/soapdenovo2 and its home page: http://soap.genomics.org.cn/soapdenovo.html.
 
 Versions
-~~~~~~~~
-- 2.40
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.40
+  * - BELL
+    - 2.40
+  * - GAUTSCHI
+    - 2.40
+  * - NEGISHI
+    - 2.40
+  * - SCHOLAR
+    - 2.40
 
 Commands
 ~~~~~~~

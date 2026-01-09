@@ -10,8 +10,24 @@ Introduction
 Detailed usage can be found here: https://github.com/DRL/blobtools
 
 Versions
-~~~~~~~~
-- 1.1.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.1.1, 4.4.5
+  * - BELL
+    - 1.1.1
+  * - GAUTSCHI
+    - 1.1.1
+  * - NEGISHI
+    - 1.1.1, 4.4.5
+  * - SCHOLAR
+    - 1.1.1
 
 Commands
 ~~~~~~

@@ -15,11 +15,24 @@ Introduction
 Detailed about its usage can be found here: https://github.com/bbuchfink/diamond
 
 Versions
-~~~~~~~~
-- 2.0.13
-- 2.0.14
-- 2.0.15
-- 2.1.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0.13, 2.0.14, 2.0.15, 2.1.6
+  * - BELL
+    - 2.0.13, 2.0.14, 2.0.15, 2.1.6
+  * - GAUTSCHI
+    - 2.0.13, 2.0.14, 2.0.15, 2.1.6
+  * - NEGISHI
+    - 2.0.13, 2.0.14, 2.0.15, 2.1.6
+  * - SCHOLAR
+    - 2.0.13, 2.0.14, 2.0.15, 2.1.6
 
 Commands
 ~~~~~~

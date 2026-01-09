@@ -13,8 +13,24 @@ GapFiller is a seed-and-extend local assembler to fill the gap within paired rea
 | Home page: https://sourceforge.net/projects/gapfiller/
 
 Versions
-~~~~~~~~
-- 2.1.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.2
+  * - BELL
+    - 2.1.2
+  * - GAUTSCHI
+    - 2.1.2
+  * - NEGISHI
+    - 2.1.2
+  * - SCHOLAR
+    - 2.1.2
 
 Commands
 ~~~~~~~

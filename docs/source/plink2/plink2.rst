@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/plink2 and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.00a2.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.00a2.3
+  * - BELL
+    - 2.00a2.3
+  * - GAUTSCHI
+    - 2.00a2.3
+  * - NEGISHI
+    - 2.00a2.3, 2.00a6.9, 2.00a5.12
+  * - SCHOLAR
+    - 2.00a2.3
 
 Commands
 ~~~~~~~

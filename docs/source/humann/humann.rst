@@ -10,9 +10,24 @@ Introduction
 | For more information please check its website: https://huttenhower.sph.harvard.edu/humann/
 
 Versions
-~~~~~~~~
-- 3.0.0
-- 3.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.0.0, 3.6
+  * - BELL
+    - 3.0.0, 3.6
+  * - GAUTSCHI
+    - 3.0.0, 3.6
+  * - NEGISHI
+    - 3.0.0, 3.6
+  * - SCHOLAR
+    - 3.0.0, 3.6
 
 Commands
 ~~~~~~~

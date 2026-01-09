@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/kmer-jellyfish and its home page: http://www.genome.umd.edu/jellyfish.html.
 
 Versions
-~~~~~~~~
-- 2.3.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.3.0
+  * - BELL
+    - 2.3.0
+  * - GAUTSCHI
+    - 2.3.0
+  * - NEGISHI
+    - 2.3.0
+  * - SCHOLAR
+    - 2.3.0
 
 Commands
 ~~~~~~~

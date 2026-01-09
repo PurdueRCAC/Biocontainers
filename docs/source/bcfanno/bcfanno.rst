@@ -12,8 +12,22 @@ Bcfanno was designed to annotate genetic variants with various biological databa
 | Home page: https://github.com/shiquan/bcfanno
 
 Versions
-~~~~~~~~
-- 2020.10.25
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2020.10.25
+  * - BELL
+    - 2020.10.25
+  * - GAUTSCHI
+    - 2020.10.25
+  * - NEGISHI
+    - 2020.10.25
 
 Commands
 ~~~~~~~

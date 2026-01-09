@@ -10,12 +10,24 @@ Introduction
 | For more information, please check home page: https://www.maxquant.org.
 
 Versions
-~~~~~~~~
-- 2.1.0.0
-- 2.1.3.0
-- 2.1.4.0
-- 2.3.1.0
-- 2.6.4.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.0.0, 2.1.3.0, 2.1.4.0, 2.3.1.0
+  * - BELL
+    - 2.1.0.0, 2.1.3.0, 2.1.4.0, 2.3.1.0, 2.6.4.0
+  * - GAUTSCHI
+    - 2.1.0.0, 2.1.3.0, 2.1.4.0, 2.3.1.0, 2.6.4.0
+  * - NEGISHI
+    - 2.1.0.0, 2.1.3.0, 2.1.4.0, 2.3.1.0, 2.6.4.0
+  * - SCHOLAR
+    - 2.1.0.0, 2.1.3.0, 2.1.4.0, 2.3.1.0
 
 Commands
 ~~~~~~~

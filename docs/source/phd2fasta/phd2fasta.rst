@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its home page: http://www.phrap.org/phredphrapconsed.html.
 
 Versions
-~~~~~~~~
-- 0.990622
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.990622
+  * - BELL
+    - 0.990622
+  * - GAUTSCHI
+    - 0.990622
+  * - NEGISHI
+    - 0.990622
+  * - SCHOLAR
+    - 0.990622
 
 Commands
 ~~~~~~~

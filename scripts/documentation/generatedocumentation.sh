@@ -18,10 +18,10 @@ readarray -t listofmissingfiles < listofmissingfiles.txt
 for filename in ${listofmissingfiles[@]}; do
    echo $filename
 
-   inputfolder="$repo_path/module_files/$filename/"
+   inputfolder=`find $repo_path/modulefiles/ -type d -name "$filename" | head -n 1`
    echo "input folder: "$inputfolder
 
-   filenamesarray=`ls $inputfolder*.lua`
+   filenamesarray=`ls $inputfolder/*.lua`
    for eachfile in $filenamesarray
    do
       inputpath=$eachfile #This assumes last file name in alphabetical order is the file to parse

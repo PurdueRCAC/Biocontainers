@@ -13,8 +13,24 @@ BBTools is a suite of fast, multithreaded bioinformatics tools designed for anal
 | Home page: https://jgi.doe.gov/data-and-tools/software-tools/bbtools/
 
 Versions
-~~~~~~~~
-- 39.00
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 39.00
+  * - BELL
+    - 39.00
+  * - GAUTSCHI
+    - 39.00
+  * - NEGISHI
+    - 39.00
+  * - SCHOLAR
+    - 39.00
 
 Commands
 ~~~~~~~

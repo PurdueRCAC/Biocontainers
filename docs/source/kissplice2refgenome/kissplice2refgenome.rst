@@ -13,8 +13,24 @@ KisSplice can also be used when a reference (annotated) genome is available, in 
 | Home page: https://kissplice.prabi.fr
 
 Versions
-~~~~~~~~
-- 2.0.8
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0.8
+  * - BELL
+    - 2.0.8
+  * - GAUTSCHI
+    - 2.0.8
+  * - NEGISHI
+    - 2.0.8
+  * - SCHOLAR
+    - 2.0.8
 
 Commands
 ~~~~~~~

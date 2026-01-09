@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its home page: http://segatalab.cibio.unitn.it/tools/panphlan/.
 
 Versions
-~~~~~~~~
-- 3.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.1
+  * - BELL
+    - 3.1
+  * - GAUTSCHI
+    - 3.1
+  * - NEGISHI
+    - 3.1
+  * - SCHOLAR
+    - 3.1
 
 Commands
 ~~~~~~~

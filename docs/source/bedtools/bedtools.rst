@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/bedtools and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.30.0
-- 2.31.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.30.0, 2.31.0
+  * - BELL
+    - 2.30.0, 2.31.0
+  * - GAUTSCHI
+    - 2.30.0, 2.31.0
+  * - NEGISHI
+    - 2.30.0, 2.31.0
+  * - SCHOLAR
+    - 2.30.0, 2.31.0
 
 Commands
 ~~~~~~~

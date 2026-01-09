@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/khmer and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 3.0.0a3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.0.0a3
+  * - BELL
+    - 3.0.0a3
+  * - GAUTSCHI
+    - 3.0.0a3
+  * - NEGISHI
+    - 3.0.0a3
+  * - SCHOLAR
+    - 3.0.0a3
 
 Commands
 ~~~~~~~

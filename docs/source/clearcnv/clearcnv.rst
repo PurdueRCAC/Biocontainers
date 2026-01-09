@@ -13,8 +13,24 @@ ClearCNV: CNV calling from NGS panel data in the presence of ambiguity and noise
 | Home page: https://github.com/bihealth/clear-cnv
 
 Versions
-~~~~~~~~
-- 0.306
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.306
+  * - BELL
+    - 0.306
+  * - GAUTSCHI
+    - 0.306
+  * - NEGISHI
+    - 0.306
+  * - SCHOLAR
+    - 0.306
 
 Commands
 ~~~~~~~

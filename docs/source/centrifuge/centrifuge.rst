@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/centrifuge and its home page: http://www.ccb.jhu.edu/software/centrifuge/.
 
 Versions
-~~~~~~~~
-- 1.0.4_beta
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.0.4_beta
+  * - BELL
+    - 1.0.4_beta
+  * - GAUTSCHI
+    - 1.0.4_beta
+  * - NEGISHI
+    - 1.0.4_beta
+  * - SCHOLAR
+    - 1.0.4_beta
 
 Commands
 ~~~~~~~

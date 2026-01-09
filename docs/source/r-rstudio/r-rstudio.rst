@@ -14,8 +14,24 @@ This is an RStudio IDE together with a plain R-base installation (see https://gi
 | For more information, please check its | Docker hub: https://hub.docker.com/_/r-base and its home page: https://www.rstudio.com/products/rstudio/ and https://www.r-project.org/.
 
 Versions
-~~~~~~~~
-- 4.1.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.1.1
+  * - BELL
+    - 4.1.1
+  * - GAUTSCHI
+    - 4.1.1
+  * - NEGISHI
+    - 4.1.1
+  * - SCHOLAR
+    - 4.1.1
 
 Commands
 ~~~~~~~

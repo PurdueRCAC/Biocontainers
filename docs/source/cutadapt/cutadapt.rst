@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/cutadapt and its home page: https://cutadapt.readthedocs.io/en/stable/.
 
 Versions
-~~~~~~~~
-- 3.4
-- 3.7
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.4, 3.7
+  * - BELL
+    - 3.4, 3.7
+  * - GAUTSCHI
+    - 3.4, 3.7
+  * - NEGISHI
+    - 3.4, 3.7
+  * - SCHOLAR
+    - 3.4, 3.7
 
 Commands
 ~~~~~~~

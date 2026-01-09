@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/weblogo and its home page: http://weblogo.threeplusone.com.
 
 Versions
-~~~~~~~~
-- 3.7.8
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.7.8
+  * - BELL
+    - 3.7.8
+  * - GAUTSCHI
+    - 3.7.8
+  * - NEGISHI
+    - 3.7.8
+  * - SCHOLAR
+    - 3.7.8
 
 Commands
 ~~~~~~~

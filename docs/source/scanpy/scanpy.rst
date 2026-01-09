@@ -8,9 +8,24 @@ Introduction
 ``Scanpy`` is scalable toolkit for analyzing single-cell gene expression data. It includes preprocessing, visualization, clustering, pseudotime and trajectory inference and differential expression testing. The Python-based implementation efficiently deals with datasets of more than one million cells. Details about its usage can be found here (https://scanpy.readthedocs.io/en/stable/)
 
 Versions
-~~~~~~~~
-- 1.8.2
-- 1.9.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.8.2, 1.9.1
+  * - BELL
+    - 1.8.2, 1.9.1
+  * - GAUTSCHI
+    - 1.8.2, 1.9.1
+  * - NEGISHI
+    - 1.8.2, 1.9.1
+  * - SCHOLAR
+    - 1.8.2, 1.9.1
 
 Commands
 ~~~~~~

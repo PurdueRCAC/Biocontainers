@@ -13,8 +13,24 @@ ClonalFrameML is a software package that performs efficient inference of recombi
 | Home page: https://github.com/xavierdidelot/ClonalFrameML
 
 Versions
-~~~~~~~~
-- 1.11
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.11
+  * - BELL
+    - 1.11
+  * - GAUTSCHI
+    - 1.11
+  * - NEGISHI
+    - 1.11
+  * - SCHOLAR
+    - 1.11
 
 Commands
 ~~~~~~~

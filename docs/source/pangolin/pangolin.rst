@@ -10,12 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/pangolin and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 3.1.20
-- 4.0.6
-- 4.1.2
-- 4.1.3
-- 4.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.1.20, 4.0.6, 4.1.2, 4.1.3, 4.2
+  * - BELL
+    - 3.1.20, 4.0.6, 4.1.2, 4.1.3, 4.2
+  * - GAUTSCHI
+    - 3.1.20, 4.0.6, 4.1.2, 4.1.3, 4.2
+  * - NEGISHI
+    - 3.1.20, 4.0.6, 4.1.2, 4.1.3, 4.2
+  * - SCHOLAR
+    - 3.1.20, 4.0.6, 4.1.2, 4.1.3, 4.2
 
 Commands
 ~~~~~~~

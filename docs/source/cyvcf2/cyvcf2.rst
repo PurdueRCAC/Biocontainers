@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/cyvcf2 and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.30.14
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.30.14
+  * - BELL
+    - 0.30.14
+  * - GAUTSCHI
+    - 0.30.14
+  * - NEGISHI
+    - 0.30.14
+  * - SCHOLAR
+    - 0.30.14
 
 Commands
 ~~~~~~~

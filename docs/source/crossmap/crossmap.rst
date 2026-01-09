@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/crossmap and its home page: https://crossmap.readthedocs.io/en/latest/#convert-maf-format-files.
 
 Versions
-~~~~~~~~
-- 0.6.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.6.3
+  * - BELL
+    - 0.6.3
+  * - GAUTSCHI
+    - 0.6.3
+  * - NEGISHI
+    - 0.6.3
+  * - SCHOLAR
+    - 0.6.3
 
 Commands
 ~~~~~~~

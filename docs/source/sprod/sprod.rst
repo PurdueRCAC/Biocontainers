@@ -12,8 +12,24 @@ Sprod: De-noising Spatially Resolved Transcriptomics Data Based on Position and 
 | Home page: https://github.com/yunguan-wang/SPROD
 
 Versions
-~~~~~~~~
-- 1.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.0
+  * - BELL
+    - 1.0
+  * - GAUTSCHI
+    - 1.0
+  * - NEGISHI
+    - 1.0
+  * - SCHOLAR
+    - 1.0
 
 Commands
 ~~~~~~~

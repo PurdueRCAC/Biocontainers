@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/treetime and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.8.6
-- 0.9.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.8.6, 0.9.4
+  * - BELL
+    - 0.8.6, 0.9.4
+  * - GAUTSCHI
+    - 0.8.6, 0.9.4
+  * - NEGISHI
+    - 0.8.6, 0.9.4
+  * - SCHOLAR
+    - 0.8.6, 0.9.4
 
 Commands
 ~~~~~~~

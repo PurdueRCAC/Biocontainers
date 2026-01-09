@@ -13,8 +13,24 @@ Expansion Hunter: a tool for estimating repeat sizes.
 | Home page: https://github.com/Illumina/ExpansionHunter
 
 Versions
-~~~~~~~~
-- 4.0.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.0.2
+  * - BELL
+    - 4.0.2
+  * - GAUTSCHI
+    - 4.0.2
+  * - NEGISHI
+    - 4.0.2
+  * - SCHOLAR
+    - 4.0.2
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/eggnog-mapper and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.1.7
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.7
+  * - BELL
+    - 2.1.7
+  * - GAUTSCHI
+    - 2.1.7
+  * - NEGISHI
+    - 2.1.7
+  * - SCHOLAR
+    - 2.1.7
 
 Commands
 ~~~~~~~

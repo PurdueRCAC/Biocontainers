@@ -12,8 +12,24 @@ CirComPara2 is a computational pipeline to detect, quantify, and correlate expre
 | Home page: https://github.com/egaffo/circompara2
 
 Versions
-~~~~~~~~
-- 0.1.2.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.1.2.1
+  * - BELL
+    - 0.1.2.1
+  * - GAUTSCHI
+    - 0.1.2.1
+  * - NEGISHI
+    - 0.1.2.1
+  * - SCHOLAR
+    - 0.1.2.1
 
 Commands
 ~~~~~~~

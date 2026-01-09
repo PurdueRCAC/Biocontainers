@@ -13,8 +13,22 @@ Bandage is a GUI program that allows users to interact with the assembly graphs 
 | Home page: https://rrwick.github.io/Bandage/
 
 Versions
-~~~~~~~~
-- 0.8.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.8.1
+  * - BELL
+    - 0.8.1
+  * - GAUTSCHI
+    - 0.8.1
+  * - NEGISHI
+    - 0.8.1
 
 Commands
 ~~~~~~~

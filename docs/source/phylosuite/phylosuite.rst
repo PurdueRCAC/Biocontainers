@@ -13,8 +13,24 @@ PhyloSuite is an integrated and scalable desktop platform for streamlined molecu
 | Home page: https://github.com/dongzhang0725/PhyloSuite
 
 Versions
-~~~~~~~~
-- 1.2.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.2.3
+  * - BELL
+    - 1.2.3
+  * - GAUTSCHI
+    - 1.2.3
+  * - NEGISHI
+    - 1.2.3
+  * - SCHOLAR
+    - 1.2.3
 
 Commands
 ~~~~~~~

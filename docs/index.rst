@@ -42,6 +42,7 @@ If you have any question, contact Guangzhen Jin at:
    source/abyss/abyss
    source/actc/actc
    source/adapterremoval/adapterremoval
+   source/admixture/admixture
    source/advntr/advntr
    source/afplot/afplot
    source/afterqc/afterqc
@@ -61,6 +62,7 @@ If you have any question, contact Guangzhen Jin at:
    source/antismash/antismash
    source/anvio/anvio
    source/any2fasta/any2fasta
+   source/aragorn/aragorn
    source/arboreto/arboreto
    source/arcs/arcs
    source/ariba/ariba
@@ -129,6 +131,7 @@ If you have any question, contact Guangzhen Jin at:
    source/cegma/cegma
    source/cellbender/cellbender
    source/cellphonedb/cellphonedb
+   source/cellprofiler/cellprofiler
    source/cellranger/cellranger
    source/cellranger-arc/cellranger-arc
    source/cellranger-atac/cellranger-atac
@@ -137,6 +140,7 @@ If you have any question, contact Guangzhen Jin at:
    source/cellrank-krylov/cellrank-krylov
    source/cellsnp-lite/cellsnp-lite
    source/celltypist/celltypist
+   source/cellxgene/cellxgene
    source/centrifuge/centrifuge
    source/cfsan-snp-pipeline/cfsan-snp-pipeline
    source/checkm-genome/checkm-genome
@@ -150,6 +154,7 @@ If you have any question, contact Guangzhen Jin at:
    source/circos/circos
    source/ciri2/ciri2
    source/ciriquant/ciriquant
+   source/cistrome_beta/cistrome_beta
    source/clair3/clair3
    source/clairvoyante/clairvoyante
    source/clearcnv/clearcnv
@@ -160,6 +165,7 @@ If you have any question, contact Guangzhen Jin at:
    source/cnvkit/cnvkit
    source/cnvnator/cnvnator
    source/coinfinder/coinfinder
+   source/compleasm/compleasm
    source/concoct/concoct
    source/control-freec/control-freec
    source/cooler/cooler
@@ -190,6 +196,9 @@ If you have any question, contact Guangzhen Jin at:
    source/delly/delly
    source/dendropy/dendropy
    source/diamond/diamond
+   source/diann/diann
+   source/diffcorank/diffcorank
+   source/disambiguate/disambiguate
    source/dnaapler/dnaapler
    source/dnaio/dnaio
    source/dragonflye/dragonflye
@@ -197,11 +206,13 @@ If you have any question, contact Guangzhen Jin at:
    source/drop-seq/drop-seq
    source/dropest/dropest
    source/dsuite/dsuite
+   source/easymap/easymap
    source/easysfs/easysfs
    source/edta/edta
    source/eggnog-mapper/eggnog-mapper
    source/emboss/emboss
    source/ensembl-vep/ensembl-vep
+   source/entap/entap
    source/epic2/epic2
    source/evidencemodeler/evidencemodeler
    source/exonerate/exonerate
@@ -217,16 +228,21 @@ If you have any question, contact Guangzhen Jin at:
    source/faststructure/faststructure
    source/fasttree/fasttree
    source/fastx_toolkit/fastx_toolkit
+   source/feems/feems
    source/filtlong/filtlong
+   source/flair/flair
+   source/fluent-pipseeker/fluent-pipseeker
    source/flye/flye
    source/fq/fq
    source/fraggenescan/fraggenescan
    source/fraggenescanrs/fraggenescanrs
+   source/fragpipe/fragpipe
    source/freebayes/freebayes
    source/freyja/freyja
    source/fseq/fseq
    source/ftp/ftp
    source/funannotate/funannotate
+   source/fusioncatcher/fusioncatcher
    source/fwdpy11/fwdpy11
    source/gadma/gadma
    source/gambit/gambit
@@ -253,12 +269,14 @@ If you have any question, contact Guangzhen Jin at:
    source/gffcompare/gffcompare
    source/gffread/gffread
    source/gffutils/gffutils
+   source/gfold/gfold
    source/gimmemotifs/gimmemotifs
    source/glimmer/glimmer
    source/glimmerhmm/glimmerhmm
    source/glnexus/glnexus
    source/gmap/gmap
    source/goatools/goatools
+   source/gone/gone
    source/graphlan/graphlan
    source/graphmap/graphmap
    source/gridss/gridss
@@ -266,6 +284,7 @@ If you have any question, contact Guangzhen Jin at:
    source/gtdbtk/gtdbtk
    source/gtftools/gtftools
    source/gubbins/gubbins
+   source/guidance2/guidance2
    source/guppy/guppy
    source/hail/hail
    source/hap.py/hap.py
@@ -282,6 +301,7 @@ If you have any question, contact Guangzhen Jin at:
    source/htseq/htseq
    source/htslib/htslib
    source/htstream/htstream
+   source/hubdesign/hubdesign
    source/humann/humann
    source/hyphy/hyphy
    source/hypo/hypo
@@ -295,11 +315,13 @@ If you have any question, contact Guangzhen Jin at:
    source/ipyrad/ipyrad
    source/iqtree/iqtree
    source/iqtree2/iqtree2
+   source/irods/irods
    source/ismapper/ismapper
    source/isoquant/isoquant
    source/isoseq3/isoseq3
    source/ivar/ivar
    source/jcvi/jcvi
+   source/juicer/juicer
    source/jvarkit/jvarkit
    source/kaiju/kaiju
    source/kakscalculator2/kakscalculator2
@@ -330,6 +352,7 @@ If you have any question, contact Guangzhen Jin at:
    source/lofreq/lofreq
    source/longphase/longphase
    source/longqc/longqc
+   source/lr_gapcloser/lr_gapcloser
    source/lra/lra
    source/ltr_finder/ltr_finder
    source/ltrpred/ltrpred
@@ -375,6 +398,7 @@ If you have any question, contact Guangzhen Jin at:
    source/metilene/metilene
    source/mhm2/mhm2
    source/microbedmm/microbedmm
+   source/mikado/mikado
    source/minialign/minialign
    source/miniasm/miniasm
    source/minimap2/minimap2
@@ -389,6 +413,7 @@ If you have any question, contact Guangzhen Jin at:
    source/modbam2bed/modbam2bed
    source/modeltest-ng/modeltest-ng
    source/momi/momi
+   source/mosdepth/mosdepth
    source/mothur/mothur
    source/motus/motus
    source/mrbayes/mrbayes
@@ -402,12 +427,14 @@ If you have any question, contact Guangzhen Jin at:
    source/nanolyse/nanolyse
    source/nanoplot/nanoplot
    source/nanopolish/nanopolish
+   source/nanosim/nanosim
    source/ncbi-amrfinderplus/ncbi-amrfinderplus
    source/ncbi-datasets/ncbi-datasets
    source/ncbi-fcs-adaptor/ncbi-fcs-adaptor
    source/ncbi-fcs-gx/ncbi-fcs-gx
    source/ncbi-genome-download/ncbi-genome-download
    source/ncbi-table2asn/ncbi-table2asn
+   source/ne-estimator2x/ne-estimator2x
    source/neusomatic/neusomatic
    source/nextalign/nextalign
    source/nextclade/nextclade
@@ -418,6 +445,7 @@ If you have any question, contact Guangzhen Jin at:
    source/ngsld/ngsld
    source/ngsutils/ngsutils
    source/odgi/odgi
+   source/omark/omark
    source/orthofinder/orthofinder
    source/paml/paml
    source/panacota/panacota
@@ -472,8 +500,10 @@ If you have any question, contact Guangzhen Jin at:
    source/prokka/prokka
    source/proteinortho/proteinortho
    source/prothint/prothint
+   source/psmc/psmc
    source/pullseq/pullseq
    source/purge_dups/purge_dups
+   source/purge_haplotigs/purge_haplotigs
    source/pvactools/pvactools
    source/pyani/pyani
    source/pybedtools/pybedtools
@@ -496,6 +526,7 @@ If you have any question, contact Guangzhen Jin at:
    source/r/r
    source/r-bioconductor/r-bioconductor
    source/r-cellchat/r-cellchat
+   source/r-ml/r-ml
    source/r-rnaseq/r-rnaseq
    source/r-rstudio/r-rstudio
    source/r-scrnaseq/r-scrnaseq
@@ -503,6 +534,7 @@ If you have any question, contact Guangzhen Jin at:
    source/ragout/ragout
    source/ragtag/ragtag
    source/rapmap/rapmap
+   source/rapsearch/rapsearch
    source/rasusa/rasusa
    source/raven-assembler/raven-assembler
    source/raxml/raxml
@@ -511,6 +543,7 @@ If you have any question, contact Guangzhen Jin at:
    source/rebaler/rebaler
    source/reciprocal_smallest_distance/reciprocal_smallest_distance
    source/recycler/recycler
+   source/reditools3/reditools3
    source/regtools/regtools
    source/repeatmasker/repeatmasker
    source/repeatmodeler/repeatmodeler
@@ -544,9 +577,11 @@ If you have any question, contact Guangzhen Jin at:
    source/seacr/seacr
    source/segalign/segalign
    source/seidr/seidr
+   source/sentieon/sentieon
    source/sepp/sepp
    source/seqcode/seqcode
    source/seqkit/seqkit
+   source/seqtk/seqtk
    source/seqyclean/seqyclean
    source/shapeit4/shapeit4
    source/shapeit5/shapeit5
@@ -646,6 +681,7 @@ If you have any question, contact Guangzhen Jin at:
    source/vcf2maf/vcf2maf
    source/vcf2phylip/vcf2phylip
    source/vcf2tsvpy/vcf2tsvpy
+   source/vcfstats/vcfstats
    source/vcftools/vcftools
    source/velocyto.py/velocyto.py
    source/velvet/velvet

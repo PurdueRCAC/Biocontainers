@@ -13,8 +13,24 @@ Gene Model Mapper (GeMoMa) is a homology-based gene prediction program. GeMoMa u
 | Home page: http://www.jstacs.de/index.php/GeMoMa
 
 Versions
-~~~~~~~~
-- 1.7.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.7.1, 1.9
+  * - BELL
+    - 1.7.1
+  * - GAUTSCHI
+    - 1.7.1
+  * - NEGISHI
+    - 1.7.1, 1.9
+  * - SCHOLAR
+    - 1.7.1
 
 Commands
 ~~~~~~~

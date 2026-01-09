@@ -8,8 +8,24 @@ Introduction
 ``ProtHint`` is a pipeline for predicting and scoring hints (in the form of introns, start and stop codons) in the genome of interest by mapping and spliced aligning predicted genes to a database of reference protein sequences.
 
 Versions
-~~~~~~~~
-- 2.6.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.6.0
+  * - BELL
+    - 2.6.0
+  * - GAUTSCHI
+    - 2.6.0
+  * - NEGISHI
+    - 2.6.0
+  * - SCHOLAR
+    - 2.6.0
 
 Commands
 ~~~~~~  

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/bioliquidator/bamliquidator/ and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.5.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.5.2
+  * - BELL
+    - 1.5.2
+  * - GAUTSCHI
+    - 1.5.2
+  * - NEGISHI
+    - 1.5.2
+  * - SCHOLAR
+    - 1.5.2
 
 Commands
 ~~~~~~~

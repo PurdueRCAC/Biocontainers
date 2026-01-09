@@ -12,8 +12,24 @@ Scirpy is a scalable python-toolkit to analyse T cell receptor (TCR) or B cell r
 | Home page: https://github.com/scverse/scirpy
 
 Versions
-~~~~~~~~
-- 0.10.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.10.1
+  * - BELL
+    - 0.10.1
+  * - GAUTSCHI
+    - 0.10.1
+  * - NEGISHI
+    - 0.10.1
+  * - SCHOLAR
+    - 0.10.1
 
 Commands
 ~~~~~~~

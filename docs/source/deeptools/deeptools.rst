@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/deeptools and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 3.5.1-py
-- 3.5.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.5.1-py, 3.5.5
+  * - BELL
+    - 3.5.1-py, 3.5.5
+  * - GAUTSCHI
+    - 3.5.1-py, 3.5.5
+  * - NEGISHI
+    - 3.5.1-py, 3.5.5
+  * - SCHOLAR
+    - 3.5.1-py
 
 Commands
 ~~~~~~~

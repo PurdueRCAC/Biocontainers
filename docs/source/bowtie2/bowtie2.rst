@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/bowtie2 and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.4.2
-- 2.5.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.4.2, 2.5.1
+  * - BELL
+    - 2.4.2, 2.5.1
+  * - GAUTSCHI
+    - 2.4.2, 2.5.1
+  * - NEGISHI
+    - 2.4.2, 2.5.1
+  * - SCHOLAR
+    - 2.4.2, 2.5.1
 
 Commands
 ~~~~~~~

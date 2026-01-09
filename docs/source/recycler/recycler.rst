@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/recycler and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.7
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.7
+  * - BELL
+    - 0.7
+  * - GAUTSCHI
+    - 0.7
+  * - NEGISHI
+    - 0.7
+  * - SCHOLAR
+    - 0.7
 
 Commands
 ~~~~~~~

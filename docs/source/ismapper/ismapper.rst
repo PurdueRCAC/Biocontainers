@@ -13,8 +13,24 @@ ISMapper searches for IS positions in sequence data using paired end Illumina sh
 | Home page: https://github.com/jhawkey/IS_mapper
 
 Versions
-~~~~~~~~
-- 2.0.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0.2
+  * - BELL
+    - 2.0.2
+  * - GAUTSCHI
+    - 2.0.2
+  * - NEGISHI
+    - 2.0.2
+  * - SCHOLAR
+    - 2.0.2
 
 Commands
 ~~~~~~~

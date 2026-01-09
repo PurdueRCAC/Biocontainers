@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/genomicpariscentre/guppy and its home page: https://community.nanoporetech.com.
 
 Versions
-~~~~~~~~
-- 6.0.1
-- 6.5.7
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 6.0.1, 6.5.7
+  * - BELL
+    - 6.0.1, 6.5.7
+  * - GAUTSCHI
+    - 6.0.1, 6.5.7
+  * - NEGISHI
+    - 6.0.1, 6.5.7
+  * - SCHOLAR
+    - 6.0.1, 6.5.7
 
 Commands
 ~~~~~~~

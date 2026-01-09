@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/blast and its home page: https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastHome.
 
 Versions
-~~~~~~~~
-- 2.11.0
-- 2.13.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.11.0, 2.13.0
+  * - BELL
+    - 2.11.0, 2.13.0
+  * - GAUTSCHI
+    - 2.11.0, 2.13.0
+  * - NEGISHI
+    - 2.11.0, 2.13.0
+  * - SCHOLAR
+    - 2.11.0, 2.13.0
 
 Commands
 ~~~~~~~

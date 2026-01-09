@@ -11,10 +11,24 @@ Detailed usage can be found here: https://github.com/ablab/spades
 
 
 Versions
-~~~~~~~~
-- 3.15.3
-- 3.15.4
-- 3.15.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.15.3, 3.15.4, 3.15.5
+  * - BELL
+    - 3.15.3, 3.15.4, 3.15.5
+  * - GAUTSCHI
+    - 3.15.3, 3.15.4, 3.15.5
+  * - NEGISHI
+    - 3.15.3, 3.15.4, 3.15.5
+  * - SCHOLAR
+    - 3.15.3, 3.15.4, 3.15.5
 
 Commands
 ~~~~~~

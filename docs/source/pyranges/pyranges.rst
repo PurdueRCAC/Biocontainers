@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/pyranges and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.0.115
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.0.115
+  * - BELL
+    - 0.0.115
+  * - GAUTSCHI
+    - 0.0.115
+  * - NEGISHI
+    - 0.0.115
+  * - SCHOLAR
+    - 0.0.115
 
 Commands
 ~~~~~~~

@@ -26,8 +26,24 @@ Detailed usage can be found here: https://github.com/TransDecoder/TransDecoder/w
 
 
 Versions
-~~~~~~~~
-- 5.5.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 5.5.0
+  * - BELL
+    - 5.5.0
+  * - GAUTSCHI
+    - 5.5.0
+  * - NEGISHI
+    - 5.5.0
+  * - SCHOLAR
+    - 5.5.0
 
 Commands
 ~~~~~~

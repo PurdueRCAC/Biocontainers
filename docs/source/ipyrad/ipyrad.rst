@@ -13,8 +13,22 @@ ipyrad is an interactive toolkit for assembly and analysis of restriction-site a
 | Home page: https://github.com/dereneaton/ipyrad
 
 Versions
-~~~~~~~~
-- 0.9.102
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.9.102
+  * - BELL
+    - 0.9.102
+  * - GAUTSCHI
+    - 0.9.102
+  * - NEGISHI
+    - 0.9.102
 
 Commands
 ~~~~~~~

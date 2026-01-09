@@ -10,10 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/flye and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.9.1
-- 2.9.2
-- 2.9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.9, 2.9.5-py311, 2.9.1, 2.9.2
+  * - BELL
+    - 2.9, 2.9.5-py311, 2.9.1, 2.9.2
+  * - GAUTSCHI
+    - 2.9, 2.9.1, 2.9.2
+  * - NEGISHI
+    - 2.9, 2.9.5-py311, 2.9.1, 2.9.2
+  * - SCHOLAR
+    - 2.9, 2.9.1, 2.9.2
 
 Commands
 ~~~~~~~

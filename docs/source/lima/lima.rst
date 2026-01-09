@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/lima and its home page: https://lima.how.
 
 Versions
-~~~~~~~~
-- 2.2.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.2.0
+  * - BELL
+    - 2.2.0
+  * - GAUTSCHI
+    - 2.2.0
+  * - NEGISHI
+    - 2.2.0
+  * - SCHOLAR
+    - 2.2.0
 
 Commands
 ~~~~~~~

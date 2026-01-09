@@ -10,8 +10,24 @@ Introduction
 Detailed usage can be found here: https://github.com/dcouvin/CRISPRCasFinder
 
 Versions
-~~~~~~~~
-- 4.2.20
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.2.20
+  * - BELL
+    - 4.2.20
+  * - GAUTSCHI
+    - 4.2.20
+  * - NEGISHI
+    - 4.2.20
+  * - SCHOLAR
+    - 4.2.20
 
 Commands
 ~~~~~~

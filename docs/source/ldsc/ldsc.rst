@@ -13,8 +13,24 @@ ldsc is a command line tool for estimating heritability and genetic correlation 
 | Home page: https://github.com/bulik/ldsc
 
 Versions
-~~~~~~~~
-- 1.0.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.0.1
+  * - BELL
+    - 1.0.1
+  * - GAUTSCHI
+    - 1.0.1
+  * - NEGISHI
+    - 1.0.1
+  * - SCHOLAR
+    - 1.0.1
 
 Commands
 ~~~~~~~

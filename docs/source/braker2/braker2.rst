@@ -10,8 +10,24 @@ Introduction
 | For more information. please check its github repository https://github.com/Gaius-Augustus/BRAKER. 
 
 Versions
-~~~~~~~~
-- 2.1.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.6
+  * - BELL
+    - 2.1.6
+  * - GAUTSCHI
+    - 2.1.6
+  * - NEGISHI
+    - 2.1.6
+  * - SCHOLAR
+    - 2.1.6
 
 Commands
 ~~~~~~  

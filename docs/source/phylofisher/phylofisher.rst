@@ -12,9 +12,24 @@ PhyloFisher is a software package written in Python3 that can be used for the cr
 | Home page: https://github.com/TheBrownLab/PhyloFisher
 
 Versions
-~~~~~~~~
-- 1.2.7
-- 1.2.9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.2.7, 1.2.9
+  * - BELL
+    - 1.2.7, 1.2.9
+  * - GAUTSCHI
+    - 1.2.7, 1.2.9
+  * - NEGISHI
+    - 1.2.7, 1.2.9
+  * - SCHOLAR
+    - 1.2.7, 1.2.9
 
 Commands
 ~~~~~~~

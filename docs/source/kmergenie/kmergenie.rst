@@ -13,8 +13,24 @@ KmerGenie estimates the best k-mer length for genome de novo assembly.
 | Home page: http://kmergenie.bx.psu.edu
 
 Versions
-~~~~~~~~
-- 1.7051
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.7051
+  * - BELL
+    - 1.7051
+  * - GAUTSCHI
+    - 1.7051
+  * - NEGISHI
+    - 1.7051
+  * - SCHOLAR
+    - 1.7051
 
 Commands
 ~~~~~~~

@@ -10,8 +10,22 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/nextflow and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 21.10.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 21.10.0
+  * - BELL
+    - 21.10.0, 24.10.4
+  * - NEGISHI
+    - 21.10.0, 24.10.4
+  * - SCHOLAR
+    - 21.10.0
 
 Commands
 ~~~~~~~

@@ -45,14 +45,24 @@ In the module, we have some packages installed:
 
 
 Versions
-~~~~~~~~
-- 4.1.1-1-rstudio
-- 4.1.1-1
-- 4.2.0-rstudio
-- 4.2.0
-- 4.2.3-rstudio
-- 4.3.3-rstudio
-- 4.4.1-rstudio
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.1.1-1, 4.2.0
+  * - BELL
+    - 4.1.1-1, 4.2.0
+  * - GAUTSCHI
+    - 4.1.1-1, 4.2.0
+  * - NEGISHI
+    - 4.1.1-1, 4.2.0
+  * - SCHOLAR
+    - 4.1.1-1, 4.2.0
 
 Commands
 ~~~~~~

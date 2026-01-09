@@ -13,8 +13,24 @@ table2asn is a command-line program that creates sequence records for submission
 | Home page: https://www.ncbi.nlm.nih.gov/genbank/table2asn/
 
 Versions
-~~~~~~~~
-- 1.26.678
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.26.678
+  * - BELL
+    - 1.26.678
+  * - GAUTSCHI
+    - 1.26.678
+  * - NEGISHI
+    - 1.26.678
+  * - SCHOLAR
+    - 1.26.678
 
 Commands
 ~~~~~~~

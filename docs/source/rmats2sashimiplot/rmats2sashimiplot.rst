@@ -11,8 +11,24 @@ Detailed usage can be found here: https://github.com/Xinglab/rmats2sashimiplot
 
 
 Versions
-~~~~~~~~
-- 2.0.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0.4
+  * - BELL
+    - 2.0.4
+  * - GAUTSCHI
+    - 2.0.4
+  * - NEGISHI
+    - 2.0.4
+  * - SCHOLAR
+    - 2.0.4
 
 Commands
 ~~~~~~

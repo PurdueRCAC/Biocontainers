@@ -13,8 +13,24 @@ KMA is a mapping method designed to map raw reads directly against redundant dat
 | Home page: https://bitbucket.org/genomicepidemiology/kma/src/master/
 
 Versions
-~~~~~~~~
-- 1.4.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.4.3
+  * - BELL
+    - 1.4.3
+  * - GAUTSCHI
+    - 1.4.3
+  * - NEGISHI
+    - 1.4.3
+  * - SCHOLAR
+    - 1.4.3
 
 Commands
 ~~~~~~~

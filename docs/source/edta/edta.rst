@@ -14,9 +14,24 @@ Note: Running EDTA, please use the command like this:
 DO NOT call it 'perl EDTA.pl'
 
 Versions
-~~~~~~~~
-- 1.9.6
-- 2.0.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.9.6, 2.0.0
+  * - BELL
+    - 1.9.6, 2.0.0
+  * - GAUTSCHI
+    - 1.9.6, 2.0.0
+  * - NEGISHI
+    - 1.9.6, 2.0.0
+  * - SCHOLAR
+    - 1.9.6, 2.0.0
 
 Commands
 ~~~~~~~

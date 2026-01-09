@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/mapcaller and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.9.9.41
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.9.9.41
+  * - BELL
+    - 0.9.9.41
+  * - GAUTSCHI
+    - 0.9.9.41
+  * - NEGISHI
+    - 0.9.9.41
+  * - SCHOLAR
+    - 0.9.9.41
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/intarna and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 3.3.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.3.1
+  * - BELL
+    - 3.3.1
+  * - GAUTSCHI
+    - 3.3.1
+  * - NEGISHI
+    - 3.3.1
+  * - SCHOLAR
+    - 3.3.1
 
 Commands
 ~~~~~~~

@@ -13,9 +13,24 @@ pyGenomeViz is a genome visualization python package for comparative genomics im
 | Home page: https://github.com/moshi4/pyGenomeViz#cli-examples
 
 Versions
-~~~~~~~~
-- 0.2.2
-- 0.3.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.2.2, 0.3.2
+  * - BELL
+    - 0.2.2, 0.3.2
+  * - GAUTSCHI
+    - 0.2.2, 0.3.2
+  * - NEGISHI
+    - 0.2.2, 0.3.2
+  * - SCHOLAR
+    - 0.2.2, 0.3.2
 
 Commands
 ~~~~~~~

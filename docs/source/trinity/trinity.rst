@@ -10,11 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/trinity and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.12.0
-- 2.13.2
-- 2.14.0
-- 2.15.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.12.0, 2.13.2, 2.14.0, 2.15.0
+  * - BELL
+    - 2.12.0, 2.13.2, 2.14.0, 2.15.0
+  * - GAUTSCHI
+    - 2.12.0, 2.13.2, 2.14.0, 2.15.0
+  * - NEGISHI
+    - 2.12.0, 2.13.2, 2.14.0, 2.15.0
+  * - SCHOLAR
+    - 2.12.0, 2.13.2, 2.14.0, 2.15.0
 
 Commands
 ~~~~~~~

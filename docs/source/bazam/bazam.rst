@@ -11,8 +11,24 @@ Docker hub: https://hub.docker.com/r/dockanomics/bazam
 Home page: https://github.com/ssadedin/bazam
 
 Versions
-~~~~~~~~
-- 1.0.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.0.1
+  * - BELL
+    - 1.0.1
+  * - GAUTSCHI
+    - 1.0.1
+  * - NEGISHI
+    - 1.0.1
+  * - SCHOLAR
+    - 1.0.1
 
 Commands
 ~~~~~~~

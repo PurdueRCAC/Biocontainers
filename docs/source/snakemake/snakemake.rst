@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/snakemake and its home page: https://snakemake.readthedocs.io/en/stable/.
 
 Versions
-~~~~~~~~
-- 6.8.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 6.8.0
+  * - BELL
+    - 6.8.0
+  * - GAUTSCHI
+    - 6.8.0
+  * - NEGISHI
+    - 6.8.0
+  * - SCHOLAR
+    - 6.8.0
 
 Commands
 ~~~~~~~

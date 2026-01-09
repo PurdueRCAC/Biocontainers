@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/prinseq and its home page: http://prinseq.sourceforge.net.
 
 Versions
-~~~~~~~~
-- 0.20.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.20.4
+  * - BELL
+    - 0.20.4
+  * - GAUTSCHI
+    - 0.20.4
+  * - NEGISHI
+    - 0.20.4
+  * - SCHOLAR
+    - 0.20.4
 
 Commands
 ~~~~~~~

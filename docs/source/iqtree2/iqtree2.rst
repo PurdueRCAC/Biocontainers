@@ -13,9 +13,24 @@ IQ-TREE is an efficient phylogenomic software by maximum likelihood.
 | Home page: http://www.iqtree.org
 
 Versions
-~~~~~~~~
-- 2.2.2.6
-- 2.2.2.9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.2.2.6, 2.2.2.9
+  * - BELL
+    - 2.2.2.6, 2.2.2.9
+  * - GAUTSCHI
+    - 2.2.2.6, 2.2.2.9
+  * - NEGISHI
+    - 2.2.2.6, 2.2.2.9
+  * - SCHOLAR
+    - 2.2.2.6, 2.2.2.9
 
 Commands
 ~~~~~~~

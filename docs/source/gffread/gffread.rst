@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/gffread and its home page: http://ccb.jhu.edu/software/stringtie/gff.shtml.
 
 Versions
-~~~~~~~~
-- 0.12.7
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.12.7
+  * - BELL
+    - 0.12.7
+  * - GAUTSCHI
+    - 0.12.7
+  * - NEGISHI
+    - 0.12.7
+  * - SCHOLAR
+    - 0.12.7
 
 Commands
 ~~~~~~~

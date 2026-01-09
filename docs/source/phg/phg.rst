@@ -13,8 +13,24 @@ Practical Haplotype Graph (PHG) is a general, graph-based, computational framewo
 | Home page: https://www.maizegenetics.net/phg
 
 Versions
-~~~~~~~~
-- 1.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.0
+  * - BELL
+    - 1.0
+  * - GAUTSCHI
+    - 1.0
+  * - NEGISHI
+    - 1.0
+  * - SCHOLAR
+    - 1.0
 
 Commands
 ~~~~~~~

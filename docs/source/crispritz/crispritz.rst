@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/crispritz and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.6.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.6.5
+  * - BELL
+    - 2.6.5
+  * - GAUTSCHI
+    - 2.6.5
+  * - NEGISHI
+    - 2.6.5
+  * - SCHOLAR
+    - 2.6.5
 
 Commands
 ~~~~~~~

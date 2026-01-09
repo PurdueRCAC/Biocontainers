@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/tophat and its home page: https://ccb.jhu.edu/software/tophat/index.shtml.
 
 Versions
-~~~~~~~~
-- 2.1.1-py27
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.1-py27
+  * - BELL
+    - 2.1.1-py27
+  * - GAUTSCHI
+    - 2.1.1-py27
+  * - NEGISHI
+    - 2.1.1-py27
+  * - SCHOLAR
+    - 2.1.1-py27
 
 Commands
 ~~~~~~~

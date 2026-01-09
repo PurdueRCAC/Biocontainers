@@ -12,9 +12,24 @@ Stringtie employs efficient algorithms for transcript structure recovery and abu
 Detailed usage can be found here: https://github.com/gpertea/stringtie
 
 Versions
-~~~~~~~~
-- 2.1.7
-- 2.2.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.7, 2.2.1
+  * - BELL
+    - 2.1.7, 2.2.1
+  * - GAUTSCHI
+    - 2.1.7, 2.2.1
+  * - NEGISHI
+    - 2.1.7, 2.2.1
+  * - SCHOLAR
+    - 2.1.7, 2.2.1
 
 Commands
 ~~~~~~

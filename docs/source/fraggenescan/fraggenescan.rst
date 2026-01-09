@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/fraggenescan and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.31
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.31
+  * - BELL
+    - 1.31
+  * - GAUTSCHI
+    - 1.31
+  * - NEGISHI
+    - 1.31
+  * - SCHOLAR
+    - 1.31
 
 Commands
 ~~~~~~~

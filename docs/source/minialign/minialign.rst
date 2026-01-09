@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/minialign and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.5.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.5.3
+  * - BELL
+    - 0.5.3
+  * - GAUTSCHI
+    - 0.5.3
+  * - NEGISHI
+    - 0.5.3
+  * - SCHOLAR
+    - 0.5.3
 
 Commands
 ~~~~~~~

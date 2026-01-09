@@ -13,8 +13,24 @@ GimmeMotifs is a suite of motif tools, including a motif prediction pipeline for
 | Home page: https://github.com/vanheeringen-lab/gimmemotifs
 
 Versions
-~~~~~~~~
-- 0.17.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.17.1
+  * - BELL
+    - 0.17.1
+  * - GAUTSCHI
+    - 0.17.1
+  * - NEGISHI
+    - 0.17.1
+  * - SCHOLAR
+    - 0.17.1
 
 Commands
 ~~~~~~~

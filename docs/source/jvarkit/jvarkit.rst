@@ -12,8 +12,22 @@ Jvarkit is a collection of Java utilities for Bioinformatics.
 | Home page: https://github.com/lindenb/jvarkit
 
 Versions
-~~~~~~~~
-- 2023.06.27
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2023.06.27
+  * - BELL
+    - 2023.06.27
+  * - GAUTSCHI
+    - 2023.06.27
+  * - NEGISHI
+    - 2023.06.27
 
 Commands
 ~~~~~~~

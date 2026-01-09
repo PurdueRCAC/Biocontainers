@@ -10,15 +10,24 @@ Introduction
 | For more information, please check its website: https://quay.io/repository/qiime2/core and its home page: https://qiime2.org/.
 
 Versions
-~~~~~~~~
-- 2021.2
-- 2022.11
-- 2022.2
-- 2022.8
-- 2023.2
-- 2023.5
-- 2023.7
-- 2024.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2021.2, 2022.2, 2022.8, 2022.11, 2023.2, 2023.5, 2023.7, 2024.2
+  * - BELL
+    - 2021.2, 2022.2, 2022.8, 2022.11, 2023.2, 2023.5, 2023.7, 2024.2, 2024.10
+  * - GAUTSCHI
+    - 2021.2, 2022.2, 2022.8, 2022.11, 2023.2, 2023.5, 2023.7, 2024.2
+  * - NEGISHI
+    - 2021.2, 2022.2, 2022.8, 2022.11, 2023.2, 2023.5, 2023.7, 2024.2, 2024.10
+  * - SCHOLAR
+    - 2021.2, 2022.2, 2022.8, 2022.11, 2023.2, 2023.5, 2023.7
 
 Commands
 ~~~~~~~

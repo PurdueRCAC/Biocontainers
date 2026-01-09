@@ -11,13 +11,24 @@ Detailed usage can be found here: https://github.com/COMBINE-lab/salmon
 
 
 Versions
-~~~~~~~~
-- 1.10.1
-- 1.5.2
-- 1.6.0
-- 1.7.0
-- 1.8.0
-- 1.9.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.5.2, 1.6.0, 1.7.0, 1.8.0, 1.9.0, 1.10.1
+  * - BELL
+    - 1.5.2, 1.6.0, 1.7.0, 1.8.0, 1.9.0, 1.10.1
+  * - GAUTSCHI
+    - 1.5.2, 1.6.0, 1.7.0, 1.8.0, 1.9.0, 1.10.1
+  * - NEGISHI
+    - 1.5.2, 1.6.0, 1.7.0, 1.8.0, 1.9.0, 1.10.1
+  * - SCHOLAR
+    - 1.5.2, 1.6.0, 1.7.0, 1.8.0, 1.9.0, 1.10.1
 
 Commands
 ~~~~~~

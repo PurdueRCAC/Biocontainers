@@ -8,11 +8,24 @@ Introduction
 ``ANGSD`` is a software for analyzing next generation sequencing data. Detailed usage can be found here: http://www.popgen.dk/angsd/index.php/ANGSD. 
 
 Versions
-~~~~~~~~
-- 0.935
-- 0.937
-- 0.939
-- 0.940
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.935, 0.937, 0.939, 0.940
+  * - BELL
+    - 0.935, 0.937, 0.939, 0.940
+  * - GAUTSCHI
+    - 0.935, 0.937, 0.939, 0.940
+  * - NEGISHI
+    - 0.935, 0.937, 0.939, 0.940
+  * - SCHOLAR
+    - 0.935, 0.937, 0.939, 0.940
 
 Commands
 ~~~~~~

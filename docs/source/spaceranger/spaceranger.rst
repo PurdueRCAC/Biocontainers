@@ -10,12 +10,24 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/cumulusprod/spaceranger/tags and its home page: https://support.10xgenomics.com/spatial-gene-expression/software/pipelines/latest/what-is-space-ranger.
 
 Versions
-~~~~~~~~
-- 1.3.0
-- 1.3.1
-- 2.0.0
-- 2.1.1
-- 3.1.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.3.0, 1.3.1, 2.0.0, 2.1.1
+  * - BELL
+    - 1.3.0, 1.3.1, 2.0.0, 2.1.1, 3.1.1
+  * - GAUTSCHI
+    - 1.3.0, 1.3.1, 2.0.0, 2.1.1, 3.1.1
+  * - NEGISHI
+    - 1.3.0, 1.3.1, 2.0.0, 2.1.1, 3.1.1
+  * - SCHOLAR
+    - 1.3.0, 1.3.1, 2.0.0
 
 Commands
 ~~~~~~~

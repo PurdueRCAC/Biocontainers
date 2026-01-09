@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its home page: https://services.healthtech.dtu.dk/service.php?SignalP-4.1.
 
 Versions
-~~~~~~~~
-- 4.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.1
+  * - BELL
+    - 4.1
+  * - GAUTSCHI
+    - 4.1
+  * - NEGISHI
+    - 4.1
+  * - SCHOLAR
+    - 4.1
 
 Commands
 ~~~~~~~

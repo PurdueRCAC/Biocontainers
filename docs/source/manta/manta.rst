@@ -13,8 +13,24 @@ Manta calls structural variants (SVs) and indels from mapped paired-end sequenci
 | Home page: https://github.com/Illumina/manta
 
 Versions
-~~~~~~~~
-- 1.6.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.6.0
+  * - BELL
+    - 1.6.0
+  * - GAUTSCHI
+    - 1.6.0
+  * - NEGISHI
+    - 1.6.0
+  * - SCHOLAR
+    - 1.6.0
 
 Commands
 ~~~~~~~

@@ -13,8 +13,22 @@ RGT is an open source Python 3.6+ library for analysis of regulatory genomics. R
 | Home page: https://github.com/CostaLab/reg-gen
 
 Versions
-~~~~~~~~
-- 1.0.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.0.2
+  * - BELL
+    - 1.0.2_pathced, 1.0.2
+  * - GAUTSCHI
+    - 1.0.2
+  * - NEGISHI
+    - 1.0.2_pathced, 1.0.2
 
 Commands
 ~~~~~~~

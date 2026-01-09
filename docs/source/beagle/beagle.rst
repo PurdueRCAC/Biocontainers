@@ -12,8 +12,24 @@ Note: Bref is not installed in this container.
 | For more information, please check its website: https://biocontainers.pro/tools/beagle and its home page: https://faculty.washington.edu/browning/beagle/beagle.html.
 
 Versions
-~~~~~~~~
-- 5.1_24Aug19.3e8
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 5.1_24Aug19.3e8
+  * - BELL
+    - 5.1_24Aug19.3e8
+  * - GAUTSCHI
+    - 5.1_24Aug19.3e8
+  * - NEGISHI
+    - 5.1_24Aug19.3e8
+  * - SCHOLAR
+    - 5.1_24Aug19.3e8
 
 Commands
 ~~~~~~~

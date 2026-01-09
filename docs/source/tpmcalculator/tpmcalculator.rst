@@ -11,9 +11,24 @@ Detailed usage can be found here: https://github.com/ncbi/TPMCalculator
 
 
 Versions
-~~~~~~~~
-- 0.0.3
-- 0.0.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.0.3, 0.0.4
+  * - BELL
+    - 0.0.3, 0.0.4
+  * - GAUTSCHI
+    - 0.0.3, 0.0.4
+  * - NEGISHI
+    - 0.0.3, 0.0.4
+  * - SCHOLAR
+    - 0.0.3, 0.0.4
 
 Commands
 ~~~~~~

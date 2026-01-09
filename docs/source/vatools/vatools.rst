@@ -13,8 +13,24 @@ VAtools is a python package that includes several tools to annotate VCF files wi
 | Home page: https://vatools.readthedocs.io/en/latest/
 
 Versions
-~~~~~~~~
-- 5.0.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 5.0.1
+  * - BELL
+    - 5.0.1
+  * - GAUTSCHI
+    - 5.0.1
+  * - NEGISHI
+    - 5.0.1
+  * - SCHOLAR
+    - 5.0.1
 
 Commands
 ~~~~~~~

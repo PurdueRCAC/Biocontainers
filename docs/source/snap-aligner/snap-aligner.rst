@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/snap-aligner and its home page: http://snap.cs.berkeley.edu/.
 
 Versions
-~~~~~~~~
-- 2.0.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0.0
+  * - BELL
+    - 2.0.0
+  * - GAUTSCHI
+    - 2.0.0
+  * - NEGISHI
+    - 2.0.0
+  * - SCHOLAR
+    - 2.0.0
 
 Commands
 ~~~~~~~

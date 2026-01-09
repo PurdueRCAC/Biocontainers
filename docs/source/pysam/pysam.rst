@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/pysam and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.18.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.18.0
+  * - BELL
+    - 0.18.0
+  * - GAUTSCHI
+    - 0.18.0
+  * - NEGISHI
+    - 0.18.0
+  * - SCHOLAR
+    - 0.18.0
 
 Commands
 ~~~~~~~

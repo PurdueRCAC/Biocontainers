@@ -12,8 +12,24 @@ ngsLD is a program to estimate pairwise linkage disequilibrium (LD) taking the u
 | Home page: https://github.com/fgvieira/ngsLD
 
 Versions
-~~~~~~~~
-- 1.1.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.1.1
+  * - BELL
+    - 1.1.1
+  * - GAUTSCHI
+    - 1.1.1
+  * - NEGISHI
+    - 1.1.1
+  * - SCHOLAR
+    - 1.1.1
 
 Commands
 ~~~~~~~

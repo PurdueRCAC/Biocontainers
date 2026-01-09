@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/trinityctat/starfusion and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.11b
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.11b
+  * - BELL
+    - 1.11b
+  * - GAUTSCHI
+    - 1.11b
+  * - NEGISHI
+    - 1.11b
+  * - SCHOLAR
+    - 1.11b
 
 Commands
 ~~~~~~~

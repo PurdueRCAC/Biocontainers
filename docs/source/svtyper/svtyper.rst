@@ -13,8 +13,24 @@ SVTyper performs breakpoint genotyping of structural variants (SVs) using whole 
 | Home page: https://github.com/hall-lab/svtyper
 
 Versions
-~~~~~~~~
-- 0.7.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.7.1
+  * - BELL
+    - 0.7.1
+  * - GAUTSCHI
+    - 0.7.1
+  * - NEGISHI
+    - 0.7.1
+  * - SCHOLAR
+    - 0.7.1
 
 Commands
 ~~~~~~~

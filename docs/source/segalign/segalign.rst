@@ -13,8 +13,26 @@ Segalign is a scalable GPU system for pairwise whole genome alignments based on 
 | Home page: https://github.com/gsneha26/SegAlign
 
 Versions
-~~~~~~~~
-- 0.1.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.1.2
+  * - BELL
+    - 0.1.2
+  * - GAUTSCHI
+    - 0.1.2
+  * - GILBRETH
+    - 0.1.2
+  * - NEGISHI
+    - 0.1.2
+  * - SCHOLAR
+    - 0.1.2
 
 Commands
 ~~~~~~~

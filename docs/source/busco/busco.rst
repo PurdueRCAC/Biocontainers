@@ -10,14 +10,24 @@ Introduction
 Detailed information can be found here: https://gitlab.com/ezlab/busco/
 
 Versions
-~~~~~~~~
-- 5.2.2
-- 5.3.0
-- 5.4.1
-- 5.4.3
-- 5.4.4
-- 5.4.5
-- 5.4.7
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 5.2.2, 5.3.0, 5.4.1, 5.4.3, 5.4.4, 5.4.5, 5.4.7, 5.8.2-py
+  * - BELL
+    - 5.2.2, 5.3.0, 5.4.1, 5.4.3, 5.4.4, 5.4.5, 5.4.7, 5.8.2-py
+  * - GAUTSCHI
+    - 5.2.2, 5.3.0, 5.4.1, 5.4.3, 5.4.4, 5.4.5, 5.4.7
+  * - NEGISHI
+    - 5.2.2, 5.3.0, 5.4.1, 5.4.3, 5.4.4, 5.4.5, 5.4.7, 5.8.2-py
+  * - SCHOLAR
+    - 5.2.2, 5.3.0, 5.4.1, 5.4.3, 5.4.4, 5.4.5, 5.4.7
 
 Commands
 ~~~~~~  

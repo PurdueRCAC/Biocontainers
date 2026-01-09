@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/control-freec and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 11.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 11.6
+  * - BELL
+    - 11.6
+  * - GAUTSCHI
+    - 11.6
+  * - NEGISHI
+    - 11.6
+  * - SCHOLAR
+    - 11.6
 
 Commands
 ~~~~~~~
