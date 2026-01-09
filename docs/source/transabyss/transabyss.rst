@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://bioconda.github.io/recipes/transabyss and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.0.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0.1
+  * - BELL
+    - 2.0.1
+  * - GAUTSCHI
+    - 2.0.1
+  * - NEGISHI
+    - 2.0.1
+  * - SCHOLAR
+    - 2.0.1
 
 Commands
 ~~~~~~~

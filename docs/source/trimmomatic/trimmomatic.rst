@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/trimmomatic and its home page: http://www.usadellab.org/cms/index.php?page=trimmomatic.
 
 Versions
-~~~~~~~~
-- 0.39
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.39
+  * - BELL
+    - 0.39
+  * - GAUTSCHI
+    - 0.39
+  * - NEGISHI
+    - 0.39
+  * - SCHOLAR
+    - 0.39
 
 Commands
 ~~~~~~~

@@ -6,8 +6,24 @@ Introduction
 ``HOMMER`` (Hypergeometric Optimization of Motif EnRichment) is a suite of tools for Motif Discovery and next-gen sequencing analysis. Details about its usage can be found in `HOMMER website`_.  
 
 Versions
-~~~~~~~~
-- 4.11
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.11
+  * - BELL
+    - 4.11
+  * - GAUTSCHI
+    - 4.11
+  * - NEGISHI
+    - 4.11
+  * - SCHOLAR
+    - 4.11
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/plink and its home page: https://zzz.bwh.harvard.edu/plink/.
 
 Versions
-~~~~~~~~
-- 1.90b6.21
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.90b6.21
+  * - BELL
+    - 1.90b6.21
+  * - GAUTSCHI
+    - 1.90b6.21
+  * - NEGISHI
+    - 1.90b6.21
+  * - SCHOLAR
+    - 1.90b6.21
 
 Commands
 ~~~~~~~

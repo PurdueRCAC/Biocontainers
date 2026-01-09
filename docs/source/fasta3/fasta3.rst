@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/fasta3 and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 36.3.8
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 36.3.8
+  * - BELL
+    - 36.3.8
+  * - GAUTSCHI
+    - 36.3.8
+  * - NEGISHI
+    - 36.3.8
+  * - SCHOLAR
+    - 36.3.8
 
 Commands
 ~~~~~~~

@@ -10,10 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/abyss and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.3.2
-- 2.3.4
-- 2.3.8
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.3.2, 2.3.4, 2.3.8
+  * - BELL
+    - 2.3.2, 2.3.4, 2.3.8
+  * - GAUTSCHI
+    - 2.3.2, 2.3.4, 2.3.8
+  * - NEGISHI
+    - 2.3.2, 2.3.4, 2.3.8
+  * - SCHOLAR
+    - 2.3.2, 2.3.4
 
 Commands
 ~~~~~~~

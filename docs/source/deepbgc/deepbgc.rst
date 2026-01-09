@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/deepbgc and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.1.26
-- 0.1.30
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.1.26, 0.1.30
+  * - BELL
+    - 0.1.26, 0.1.30
+  * - GAUTSCHI
+    - 0.1.26, 0.1.30
+  * - NEGISHI
+    - 0.1.26, 0.1.30
+  * - SCHOLAR
+    - 0.1.26, 0.1.30
 
 Commands
 ~~~~~~~

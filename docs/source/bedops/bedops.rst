@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/bedops and its home page: https://bedops.readthedocs.io/en/latest/.
 
 Versions
-~~~~~~~~
-- 2.4.39
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.4.39
+  * - BELL
+    - 2.4.39
+  * - GAUTSCHI
+    - 2.4.39
+  * - NEGISHI
+    - 2.4.39
+  * - SCHOLAR
+    - 2.4.39
 
 Commands
 ~~~~~~~

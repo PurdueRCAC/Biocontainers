@@ -13,8 +13,24 @@ pVACtools is a cancer immunotherapy tools suite consisting of pVACseq, pVACbind,
 | Home page: https://pvactools.readthedocs.io/en/latest/
 
 Versions
-~~~~~~~~
-- 3.0.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.0.1
+  * - BELL
+    - 3.0.1
+  * - GAUTSCHI
+    - 3.0.1
+  * - NEGISHI
+    - 3.0.1
+  * - SCHOLAR
+    - 3.0.1
 
 Commands
 ~~~~~~~

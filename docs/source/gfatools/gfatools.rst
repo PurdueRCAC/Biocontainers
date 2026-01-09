@@ -13,8 +13,24 @@ gfatools is a set of tools for manipulating sequence graphs in the GFA or the rG
 | Home page: https://github.com/lh3/gfatools
 
 Versions
-~~~~~~~~
-- 0.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.5
+  * - BELL
+    - 0.5
+  * - GAUTSCHI
+    - 0.5
+  * - NEGISHI
+    - 0.5
+  * - SCHOLAR
+    - 0.5
 
 Commands
 ~~~~~~~

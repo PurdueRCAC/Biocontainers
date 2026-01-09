@@ -13,8 +13,24 @@ Roary is a high speed stand alone pan genome pipeline, which takes annotated ass
 | Home page: https://github.com/sanger-pathogens/Roary
 
 Versions
-~~~~~~~~
-- 3.13.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.13.0
+  * - BELL
+    - 3.13.0
+  * - GAUTSCHI
+    - 3.13.0
+  * - NEGISHI
+    - 3.13.0
+  * - SCHOLAR
+    - 3.13.0
 
 Commands
 ~~~~~~

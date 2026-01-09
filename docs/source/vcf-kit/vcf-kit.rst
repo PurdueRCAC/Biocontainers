@@ -13,9 +13,24 @@ VCF-kit is a command-line based collection of utilities for performing analysis 
 | Home page: https://github.com/AndersenLab/VCF-kit
 
 Versions
-~~~~~~~~
-- 0.2.6
-- 0.2.9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.2.6, 0.2.9
+  * - BELL
+    - 0.2.6, 0.2.9
+  * - GAUTSCHI
+    - 0.2.6, 0.2.9
+  * - NEGISHI
+    - 0.2.6, 0.2.9
+  * - SCHOLAR
+    - 0.2.6, 0.2.9
 
 Commands
 ~~~~~~~

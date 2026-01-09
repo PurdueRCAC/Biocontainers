@@ -10,11 +10,24 @@ Introduction
 Detailed usage can be found here: https://github.com/alexdobin/STAR
 
 Versions
-~~~~~~~~
-- 2.7.10a
-- 2.7.10b
-- 2.7.11b
-- 2.7.9a
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.7.10a, 2.7.10b, 2.7.11b, 2.7.9a
+  * - BELL
+    - 2.7.10a, 2.7.10b, 2.7.11b, 2.7.9a
+  * - GAUTSCHI
+    - 2.7.10a, 2.7.10b, 2.7.11b, 2.7.9a
+  * - NEGISHI
+    - 2.7.10a, 2.7.10b, 2.7.11b, 2.7.9a
+  * - SCHOLAR
+    - 2.7.10a, 2.7.10b, 2.7.9a
 
 Commands
 ~~~~~~

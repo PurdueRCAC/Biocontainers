@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/dropest and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.8.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.8.6
+  * - BELL
+    - 0.8.6
+  * - GAUTSCHI
+    - 0.8.6
+  * - NEGISHI
+    - 0.8.6
+  * - SCHOLAR
+    - 0.8.6
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ For more information, please check:
 Home page: https://github.com/bcgsc/tigmint
 
 Versions
-~~~~~~~~
-- 1.2.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.2.6
+  * - BELL
+    - 1.2.6
+  * - GAUTSCHI
+    - 1.2.6
+  * - NEGISHI
+    - 1.2.6
+  * - SCHOLAR
+    - 1.2.6
 
 Commands
 ~~~~~~~

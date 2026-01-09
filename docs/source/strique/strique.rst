@@ -13,8 +13,24 @@ STRique is a python package to analyze repeat expansion and methylation states o
 | Home page: https://github.com/giesselmann/STRique
 
 Versions
-~~~~~~~~
-- 0.4.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.4.2
+  * - BELL
+    - 0.4.2
+  * - GAUTSCHI
+    - 0.4.2
+  * - NEGISHI
+    - 0.4.2
+  * - SCHOLAR
+    - 0.4.2
 
 Commands
 ~~~~~~~

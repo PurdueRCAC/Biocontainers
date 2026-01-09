@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/zhouwanding/transvar and its home page: https://bioinformatics.mdanderson.org/public-software/transvar/.
 
 Versions
-~~~~~~~~
-- 2.5.9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.5.9
+  * - BELL
+    - 2.5.9
+  * - GAUTSCHI
+    - 2.5.9
+  * - NEGISHI
+    - 2.5.9
+  * - SCHOLAR
+    - 2.5.9
 
 Commands
 ~~~~~~~

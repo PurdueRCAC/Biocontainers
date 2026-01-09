@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/glimmer and its home page: http://ccb.jhu.edu/software/glimmer/index.shtml.
 
 Versions
-~~~~~~~~
-- 3.02
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.02
+  * - BELL
+    - 3.02
+  * - GAUTSCHI
+    - 3.02
+  * - NEGISHI
+    - 3.02
+  * - SCHOLAR
+    - 3.02
 
 Commands
 ~~~~~~~

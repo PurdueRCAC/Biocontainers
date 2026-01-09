@@ -13,8 +13,24 @@ Clever-toolkit is a collection of tools to discover and genotype structural vari
 | Home page: https://bitbucket.org/tobiasmarschall/clever-toolkit/src/master/
 
 Versions
-~~~~~~~~
-- 2.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.4
+  * - BELL
+    - 2.4
+  * - GAUTSCHI
+    - 2.4
+  * - NEGISHI
+    - 2.4
+  * - SCHOLAR
+    - 2.4
 
 Commands
 ~~~~~~~

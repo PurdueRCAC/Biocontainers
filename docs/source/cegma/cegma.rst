@@ -13,8 +13,24 @@ CEGMA (Core Eukaryotic Genes Mapping Approach) is a pipeline for building a set 
 | Home page: https://github.com/KorfLab/CEGMA_v2
 
 Versions
-~~~~~~~~
-- 2.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.5
+  * - BELL
+    - 2.5
+  * - GAUTSCHI
+    - 2.5
+  * - NEGISHI
+    - 2.5
+  * - SCHOLAR
+    - 2.5
 
 Commands
 ~~~~~~~

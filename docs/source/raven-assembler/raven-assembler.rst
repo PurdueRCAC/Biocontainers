@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/raven-assembler and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.8.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - .8.1, 1.8.1
+  * - BELL
+    - .8.1, 1.8.1
+  * - GAUTSCHI
+    - .8.1, 1.8.1
+  * - NEGISHI
+    - .8.1, 1.8.1
+  * - SCHOLAR
+    - .8.1, 1.8.1
 
 Commands
 ~~~~~~~

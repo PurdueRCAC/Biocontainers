@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/trim-galore and its home page: https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/.
 
 Versions
-~~~~~~~~
-- 0.6.10
-- 0.6.7
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.6.7, 0.6.10
+  * - BELL
+    - 0.6.7, 0.6.10
+  * - GAUTSCHI
+    - 0.6.7, 0.6.10
+  * - NEGISHI
+    - 0.6.7, 0.6.10
+  * - SCHOLAR
+    - 0.6.7, 0.6.10
 
 Commands
 ~~~~~~~

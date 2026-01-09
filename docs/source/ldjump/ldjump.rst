@@ -12,8 +12,24 @@ LDJump is an R package to estimate variable recombination rates from population 
 | Home page: https://github.com/PhHermann/LDJump
 
 Versions
-~~~~~~~~
-- 0.3.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.3.1
+  * - BELL
+    - 0.3.1
+  * - GAUTSCHI
+    - 0.3.1
+  * - NEGISHI
+    - 0.3.1
+  * - SCHOLAR
+    - 0.3.1
 
 Commands
 ~~~~~~~

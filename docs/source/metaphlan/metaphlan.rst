@@ -18,10 +18,24 @@ Introduction
 | For more information, please check its user guide at: https://huttenhower.sph.harvard.edu/metaphlan/
 
 Versions
-~~~~~~~~
-- 3.0.14
-- 3.0.9
-- 4.0.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.0.9, 3.0.14, 4.0.2
+  * - BELL
+    - 3.0.9, 3.0.14, 4.0.2
+  * - GAUTSCHI
+    - 3.0.9, 3.0.14, 4.0.2
+  * - NEGISHI
+    - 3.0.9, 3.0.14, 4.0.2
+  * - SCHOLAR
+    - 3.0.9, 3.0.14, 4.0.2
 
 Commands
 ~~~~~~  

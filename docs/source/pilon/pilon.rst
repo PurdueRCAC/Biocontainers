@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/pilon and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.24
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.24
+  * - BELL
+    - 1.24
+  * - GAUTSCHI
+    - 1.24
+  * - NEGISHI
+    - 1.24
+  * - SCHOLAR
+    - 1.24
 
 Commands
 ~~~~~~~

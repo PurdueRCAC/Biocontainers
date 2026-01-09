@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/bmge and its home page: https://bioweb.pasteur.fr/packages/pack@BMGE@1.12.
 
 Versions
-~~~~~~~~
-- 1.12
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.12
+  * - BELL
+    - 1.12
+  * - GAUTSCHI
+    - 1.12
+  * - NEGISHI
+    - 1.12
+  * - SCHOLAR
+    - 1.12
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/trnascan-se and its home page: http://lowelab.ucsc.edu/tRNAscan-SE/.
 
 Versions
-~~~~~~~~
-- 2.0.9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0.9
+  * - BELL
+    - 2.0.9
+  * - GAUTSCHI
+    - 2.0.9
+  * - NEGISHI
+    - 2.0.9
+  * - SCHOLAR
+    - 2.0.9
 
 Commands
 ~~~~~~~

@@ -11,8 +11,24 @@ Detailed usage can be found here: https://github.com/jenniferlu717/KrakenTools
 
 
 Versions
-~~~~~~~~
-- 1.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.2
+  * - BELL
+    - 1.2
+  * - GAUTSCHI
+    - 1.2
+  * - NEGISHI
+    - 1.2
+  * - SCHOLAR
+    - 1.2
 
 Commands
 ~~~~~~

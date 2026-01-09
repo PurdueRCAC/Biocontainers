@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/bbmap and its home page on `Sourceforge`_.
 
 Versions
-~~~~~~~~
-- 38.93
-- 38.96
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 38.93, 38.96
+  * - BELL
+    - 38.93, 38.96
+  * - GAUTSCHI
+    - 38.93, 38.96
+  * - NEGISHI
+    - 38.93, 38.96
+  * - SCHOLAR
+    - 38.93, 38.96
 
 Commands
 ~~~~~~~

@@ -13,8 +13,24 @@ The ENCODE ATAC-seq pipeline is used for quality control and statistical signal 
 | Home page: https://www.encodeproject.org/atac-seq/
 
 Versions
-~~~~~~~~
-- 2.1.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.3
+  * - BELL
+    - 2.1.3
+  * - GAUTSCHI
+    - 2.1.3
+  * - NEGISHI
+    - 2.1.3
+  * - SCHOLAR
+    - 2.1.3
 
 Commands
 ~~~~~~~

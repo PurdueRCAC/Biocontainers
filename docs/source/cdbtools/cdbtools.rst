@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/cdbtools and its home page: http://compbio.dfci.harvard.edu/tgi.
 
 Versions
-~~~~~~~~
-- 0.99
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.99
+  * - BELL
+    - 0.99
+  * - GAUTSCHI
+    - 0.99
+  * - NEGISHI
+    - 0.99
+  * - SCHOLAR
+    - 0.99
 
 Commands
 ~~~~~~~

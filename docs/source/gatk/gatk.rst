@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/gatk and its home page: https://www.broadinstitute.org/gatk/.
 
 Versions
-~~~~~~~~
-- 3.8
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.8
+  * - BELL
+    - 3.8
+  * - GAUTSCHI
+    - 3.8
+  * - NEGISHI
+    - 3.8
+  * - SCHOLAR
+    - 3.8
 
 Commands
 ~~~~~~~

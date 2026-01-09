@@ -13,11 +13,24 @@ CRISPResso2 is a software pipeline designed to enable rapid and intuitive interp
 | Home page: https://github.com/pinellolab/CRISPResso2
 
 Versions
-~~~~~~~~
-- 2.2.10
-- 2.2.11a
-- 2.2.8
-- 2.2.9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
+  * - BELL
+    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
+  * - GAUTSCHI
+    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
+  * - NEGISHI
+    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
+  * - SCHOLAR
+    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
 
 Commands
 ~~~~~~~

@@ -10,12 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/delly and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.9.1
-- 1.0.3
-- 1.1.3
-- 1.1.5
-- 1.1.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.9.1, 1.0.3, 1.1.3, 1.1.5, 1.1.6
+  * - BELL
+    - 0.9.1, 1.0.3, 1.1.3, 1.1.5, 1.1.6
+  * - GAUTSCHI
+    - 0.9.1, 1.0.3, 1.1.3, 1.1.5, 1.1.6
+  * - NEGISHI
+    - 0.9.1, 1.0.3, 1.1.3, 1.1.5, 1.1.6
+  * - SCHOLAR
+    - 0.9.1, 1.0.3, 1.1.3, 1.1.5, 1.1.6
 
 Commands
 ~~~~~~~

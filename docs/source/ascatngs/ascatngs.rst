@@ -13,8 +13,24 @@ AscatNGS contains the Cancer Genome Projects workflow implementation of the ASCA
 | Home page: https://github.com/cancerit/ascatNgs
 
 Versions
-~~~~~~~~
-- 4.5.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.5.0
+  * - BELL
+    - 4.5.0
+  * - GAUTSCHI
+    - 4.5.0
+  * - NEGISHI
+    - 4.5.0
+  * - SCHOLAR
+    - 4.5.0
 
 Commands
 ~~~~~~~

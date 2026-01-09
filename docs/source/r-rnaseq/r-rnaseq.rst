@@ -26,10 +26,24 @@ In the module, we have some packages installed:
 - openxlsx        4.2.5
 
 Versions
-~~~~~~~~
-- 4.1.1-1-rstudio
-- 4.1.1-1
-- 4.3.3-1-rstudio-2023.12.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.1.1-1, 4.3.3-1-rstudio-2023.12.1
+  * - BELL
+    - 4.1.1-1, 4.3.3-1-rstudio-2023.12.1
+  * - GAUTSCHI
+    - 4.1.1-1, 4.3.3-1-rstudio-2023.12.1
+  * - NEGISHI
+    - 4.1.1-1, 4.3.3-1-rstudio-2023.12.1
+  * - SCHOLAR
+    - 4.1.1-1, 4.3.3-1-rstudio-2023.12.1
 
 Commands
 ~~~~~~

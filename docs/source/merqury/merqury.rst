@@ -13,8 +13,24 @@ Merqury is a tool to evaluate genome assemblies with k-mers and more.
 | Home page: https://github.com/marbl/merqury
 
 Versions
-~~~~~~~~
-- 1.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.3
+  * - BELL
+    - 1.3
+  * - GAUTSCHI
+    - 1.3
+  * - NEGISHI
+    - 1.3
+  * - SCHOLAR
+    - 1.3
 
 Commands
 ~~~~~~~

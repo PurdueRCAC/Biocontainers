@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://bioinf.uni-greifswald.de/augustus/. 
 
 Versions
-~~~~~~~~
-- 3.4.0
-- 3.5.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.4.0, 3.5.0
+  * - BELL
+    - 3.4.0, 3.5.0
+  * - GAUTSCHI
+    - 3.4.0, 3.5.0
+  * - NEGISHI
+    - 3.4.0, 3.5.0
+  * - SCHOLAR
+    - 3.4.0, 3.5.0
 
 Commands
 ~~~~~~  

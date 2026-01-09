@@ -10,10 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/vsearch and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.19.0
-- 2.21.1
-- 2.22.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.19.0, 2.21.1, 2.22.1
+  * - BELL
+    - 2.19.0, 2.21.1, 2.22.1
+  * - GAUTSCHI
+    - 2.19.0, 2.21.1, 2.22.1
+  * - NEGISHI
+    - 2.19.0, 2.21.1, 2.22.1
+  * - SCHOLAR
+    - 2.19.0, 2.21.1, 2.22.1
 
 Commands
 ~~~~~~~

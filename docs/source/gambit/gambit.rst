@@ -13,8 +13,24 @@ GAMBIT (Genomic Approximation Method for Bacterial Identification and Tracking) 
 | Home page: https://github.com/jlumpe/gambit
 
 Versions
-~~~~~~~~
-- 0.5.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.5.0
+  * - BELL
+    - 0.5.0
+  * - GAUTSCHI
+    - 0.5.0
+  * - NEGISHI
+    - 0.5.0
+  * - SCHOLAR
+    - 0.5.0
 
 Commands
 ~~~~~~~

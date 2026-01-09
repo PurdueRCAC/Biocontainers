@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/cellbender and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.2.0
-- 0.2.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.2.0, 0.2.2
+  * - BELL
+    - 0.2.0, 0.2.2
+  * - GAUTSCHI
+    - 0.2.0, 0.2.2
+  * - NEGISHI
+    - 0.2.0, 0.2.2
+  * - SCHOLAR
+    - 0.2.0, 0.2.2
 
 Commands
 ~~~~~~~

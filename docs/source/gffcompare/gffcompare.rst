@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/gffcompare and its home page: https://ccb.jhu.edu/software/stringtie/gffcompare.shtml.
 
 Versions
-~~~~~~~~
-- 0.11.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.11.2
+  * - BELL
+    - 0.11.2
+  * - GAUTSCHI
+    - 0.11.2
+  * - NEGISHI
+    - 0.11.2
+  * - SCHOLAR
+    - 0.11.2
 
 Commands
 ~~~~~~~

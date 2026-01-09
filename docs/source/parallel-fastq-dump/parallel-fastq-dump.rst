@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/parallel-fastq-dump and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.6.7
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.6.7
+  * - BELL
+    - 0.6.7
+  * - GAUTSCHI
+    - 0.6.7
+  * - NEGISHI
+    - 0.6.7
+  * - SCHOLAR
+    - 0.6.7
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/emboss and its home page: http://emboss.open-bio.org.
 
 Versions
-~~~~~~~~
-- 6.6.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 6.6.0
+  * - BELL
+    - 6.6.0
+  * - GAUTSCHI
+    - 6.6.0
+  * - NEGISHI
+    - 6.6.0
+  * - SCHOLAR
+    - 6.6.0
 
 Commands
 ~~~~~~~

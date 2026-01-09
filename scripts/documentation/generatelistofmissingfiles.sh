@@ -9,11 +9,16 @@ cd ../../ # go up two directories
 repo_path="$PWD" # assign path to repo_path
 cd $current_dir # cd back to current directory
 
-biocontainers="$repo_path/module_files/"
-gitfolders="$repo_path/docs/source/"
+biocontainers="$repo_path/modulefiles"
+gitfolders="$repo_path/docs/source"
 
-diff -q $gitfolders $biocontainers | grep "Only in" > tempfile.txt
+rm listofmissingfiles.txt
+touch tempfile.txt
+for cluster_path in "$biocontainers"/*; do
+    diff -q "$gitfolders" "$cluster_path" | grep "Only in $biocontainers"
+    diff -q "$gitfolders" "$cluster_path" | grep "Only in $biocontainers" >> tempfile.txt
+done
 
 awk 'NF{ print $NF }' tempfile.txt > listofmissingfiles.txt
-
+sort -u listofmissingfiles.txt -o listofmissingfiles.txt
 rm tempfile.txt

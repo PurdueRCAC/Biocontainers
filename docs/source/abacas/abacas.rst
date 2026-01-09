@@ -11,8 +11,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/abacas and its home page: http://abacas.sourceforge.net.
 
 Versions
-~~~~~~~~
-- 1.3.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.3.1
+  * - BELL
+    - 1.3.1
+  * - GAUTSCHI
+    - 1.3.1
+  * - NEGISHI
+    - 1.3.1
+  * - SCHOLAR
+    - 1.3.1
 
 Commands
 ~~~~~~~

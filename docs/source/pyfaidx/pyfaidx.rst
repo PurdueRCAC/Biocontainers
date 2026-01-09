@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/pyfaidx and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.6.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.6.4
+  * - BELL
+    - 0.6.4
+  * - GAUTSCHI
+    - 0.6.4
+  * - NEGISHI
+    - 0.6.4
+  * - SCHOLAR
+    - 0.6.4
 
 Commands
 ~~~~~~~

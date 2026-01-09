@@ -12,8 +12,24 @@ Structure is a software package for using multi-locus genotype data to investiga
 | Home page: https://web.stanford.edu/group/pritchardlab/structure.html
 
 Versions
-~~~~~~~~
-- 2.3.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.3.4
+  * - BELL
+    - 2.3.4
+  * - GAUTSCHI
+    - 2.3.4
+  * - NEGISHI
+    - 2.3.4
+  * - SCHOLAR
+    - 2.3.4
 
 Commands
 ~~~~~~~

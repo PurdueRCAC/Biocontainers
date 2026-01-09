@@ -13,8 +13,24 @@ DAS Tool is an automated method that integrates the results of a flexible number
 | Home page: https://github.com/cmks/DAS_Tool
 
 Versions
-~~~~~~~~
-- 1.1.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.1.6
+  * - BELL
+    - 1.1.6
+  * - GAUTSCHI
+    - 1.1.6
+  * - NEGISHI
+    - 1.1.6
+  * - SCHOLAR
+    - 1.1.6
 
 Commands
 ~~~~~~~

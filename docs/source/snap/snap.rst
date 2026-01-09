@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/snap and its home page: http://korflab.ucdavis.edu/software.html.
 
 Versions
-~~~~~~~~
-- 2013_11_29
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2013_11_29
+  * - BELL
+    - 2013_11_29
+  * - GAUTSCHI
+    - 2013_11_29
+  * - NEGISHI
+    - 2013_11_29
+  * - SCHOLAR
+    - 2013_11_29
 
 Commands
 ~~~~~~~

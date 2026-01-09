@@ -7,8 +7,24 @@ Introduction
 ``RSEM`` is a software package for estimating gene and isoform expression levels from RNA-Seq data. Further information can be found here: https://deweylab.github.io/RSEM/. 
 
 Versions
-~~~~~~~~
-- 1.3.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.3.3
+  * - BELL
+    - 1.3.3
+  * - GAUTSCHI
+    - 1.3.3
+  * - NEGISHI
+    - 1.3.3
+  * - SCHOLAR
+    - 1.3.3
 
 Commands
 ~~~~~ 

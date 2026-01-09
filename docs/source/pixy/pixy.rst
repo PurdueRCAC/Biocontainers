@@ -12,8 +12,24 @@ pixy is a command-line tool for painlessly estimating average nucleotide diversi
 | Home page: https://github.com/ksamuk/pixy
 
 Versions
-~~~~~~~~
-- 1.2.7
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.2.7
+  * - BELL
+    - 1.2.7
+  * - GAUTSCHI
+    - 1.2.7
+  * - NEGISHI
+    - 1.2.7
+  * - SCHOLAR
+    - 1.2.7
 
 Commands
 ~~~~~~~

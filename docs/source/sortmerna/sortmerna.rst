@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/sortmerna and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.1b
-- 4.3.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1b, 4.3.4
+  * - BELL
+    - 2.1b, 4.3.4
+  * - GAUTSCHI
+    - 2.1b, 4.3.4
+  * - NEGISHI
+    - 2.1b, 4.3.4
+  * - SCHOLAR
+    - 2.1b, 4.3.4
 
 Commands
 ~~~~~~~

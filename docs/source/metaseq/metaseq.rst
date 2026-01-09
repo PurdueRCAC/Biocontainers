@@ -13,8 +13,24 @@ Metaseq is a Python package for integrative genome-wide analysis reveals relatio
 | Home page: https://github.com/daler/metaseq
 
 Versions
-~~~~~~~~
-- 0.5.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.5.6
+  * - BELL
+    - 0.5.6
+  * - GAUTSCHI
+    - 0.5.6
+  * - NEGISHI
+    - 0.5.6
+  * - SCHOLAR
+    - 0.5.6
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/pindel and its home page: http://gmt.genome.wustl.edu/packages/pindel/index.html.
 
 Versions
-~~~~~~~~
-- 0.2.5b9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.2.5b9
+  * - BELL
+    - 0.2.5b9
+  * - GAUTSCHI
+    - 0.2.5b9
+  * - NEGISHI
+    - 0.2.5b9
+  * - SCHOLAR
+    - 0.2.5b9
 
 Commands
 ~~~~~~~

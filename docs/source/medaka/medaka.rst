@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/ontresearch/medaka and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.6.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.6.0, 2.0.1-py310
+  * - BELL
+    - 1.6.0, 2.0.1-py310
+  * - GAUTSCHI
+    - 1.6.0
+  * - NEGISHI
+    - 1.6.0, 2.0.1-py310
+  * - SCHOLAR
+    - 1.6.0
 
 Commands
 ~~~~~~~

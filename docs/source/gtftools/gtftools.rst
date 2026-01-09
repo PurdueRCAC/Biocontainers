@@ -13,8 +13,22 @@ GTFtools provides a set of functions to compute or extract various features of g
 | Home page: https://github.com/RacconC/gtftools
 
 Versions
-~~~~~~~~
-- 0.9.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.9.0
+  * - BELL
+    - 0.9.0
+  * - GAUTSCHI
+    - 0.9.0
+  * - NEGISHI
+    - 0.9.0
 
 Commands
 ~~~~~~~

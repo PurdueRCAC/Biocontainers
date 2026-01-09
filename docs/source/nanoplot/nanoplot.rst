@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/nanoplot and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.39.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.39.0, 1.44.1-py
+  * - BELL
+    - 1.39.0, 1.44.1-py
+  * - GAUTSCHI
+    - 1.39.0
+  * - NEGISHI
+    - 1.39.0, 1.44.1-py
+  * - SCHOLAR
+    - 1.39.0
 
 Commands
 ~~~~~~~

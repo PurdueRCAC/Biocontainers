@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/samblaster and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.1.26
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.1.26
+  * - BELL
+    - 0.1.26
+  * - GAUTSCHI
+    - 0.1.26
+  * - NEGISHI
+    - 0.1.26
+  * - SCHOLAR
+    - 0.1.26
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/hmmer and its home page: http://hmmer.org.
 
 Versions
-~~~~~~~~
-- 3.3.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.3.2
+  * - BELL
+    - 3.3.2
+  * - GAUTSCHI
+    - 3.3.2
+  * - NEGISHI
+    - 3.3.2
+  * - SCHOLAR
+    - 3.3.2
 
 Commands
 ~~~~~~~

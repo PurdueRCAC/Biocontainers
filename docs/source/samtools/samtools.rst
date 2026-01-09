@@ -10,11 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/samtools and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.15
-- 1.16
-- 1.17
-- 1.9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.9, 1.15, 1.16, 1.17
+  * - BELL
+    - 1.9, 1.15, 1.16, 1.17, 1.22.1
+  * - GAUTSCHI
+    - 1.9, 1.15, 1.16, 1.17, 1.22.1
+  * - NEGISHI
+    - 1.9, 1.15, 1.16, 1.17, 1.22.1
+  * - SCHOLAR
+    - 1.9, 1.15, 1.16, 1.17
 
 Commands
 ~~~~~~~

@@ -13,8 +13,24 @@ bcl2fastq Conversion Software both demultiplexes data and converts BCL files gen
 | Home page: https://support.illumina.com/sequencing/sequencing_software/bcl2fastq-conversion-software.html
 
 Versions
-~~~~~~~~
-- 2.20.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.20.0
+  * - BELL
+    - 2.20.0
+  * - GAUTSCHI
+    - 2.20.0
+  * - NEGISHI
+    - 2.20.0
+  * - SCHOLAR
+    - 2.20.0
 
 Commands
 ~~~~~~~

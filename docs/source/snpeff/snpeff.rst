@@ -10,10 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/snpeff and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 5.1
-- 5.1d
-- 5.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 5.1d, 5.1, 5.2
+  * - BELL
+    - 5.1d, 5.1, 5.2
+  * - GAUTSCHI
+    - 5.1d, 5.1, 5.2
+  * - NEGISHI
+    - 5.1d, 5.1, 5.2, 5.3.0a
+  * - SCHOLAR
+    - 5.1d, 5.1
 
 Commands
 ~~~~~~~

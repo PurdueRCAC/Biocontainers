@@ -11,11 +11,24 @@ Detailed usage can be found here: https://ccb.jhu.edu/software/kraken2/
 
 
 Versions
-~~~~~~~~
-- 2.1.2
-- 2.1.2_fixftp
-- 2.1.3-pl5321
-- 2.1.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.2_fixftp, 2.1.3-pl5321, 2.1.2, 2.1.3
+  * - BELL
+    - 2.1.2_fixftp, 2.1.3-pl5321, 2.1.2, 2.1.3, 2.1.5
+  * - GAUTSCHI
+    - 2.1.2_fixftp, 2.1.3-pl5321, 2.1.2, 2.1.3
+  * - NEGISHI
+    - 2.1.2_fixftp, 2.1.3-pl5321, 2.1.2, 2.1.3, 2.1.5
+  * - SCHOLAR
+    - 2.1.2_fixftp, 2.1.2, 2.1.3
 
 Commands
 ~~~~~~

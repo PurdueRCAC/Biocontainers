@@ -13,8 +13,20 @@ Fastq-dl is ###############################################################
 | Home page: ########################
 
 Versions
-~~~~~~~~
-- 2.0.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - BELL
+    - 2.0.4
+  * - GAUTSCHI
+    - 2.0.4
+  * - NEGISHI
+    - 2.0.4
 
 Commands
 ~~~~~~~

@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/repeatmodeler and its home page: http://www.repeatmasker.org/RepeatModeler/.
 
 Versions
-~~~~~~~~
-- 2.0.2
-- 2.0.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0.2, 2.0.3
+  * - BELL
+    - 2.0.2, 2.0.3
+  * - GAUTSCHI
+    - 2.0.2, 2.0.3
+  * - NEGISHI
+    - 2.0.2, 2.0.3
+  * - SCHOLAR
+    - 2.0.2, 2.0.3
 
 Commands
 ~~~~~~~

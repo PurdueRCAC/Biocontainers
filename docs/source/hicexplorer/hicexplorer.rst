@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/hicexplorer and its home page: https://hicexplorer.readthedocs.io/en/latest/#.
 
 Versions
-~~~~~~~~
-- 3.7.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.7.2
+  * - BELL
+    - 3.7.2
+  * - GAUTSCHI
+    - 3.7.2
+  * - NEGISHI
+    - 3.7.2
+  * - SCHOLAR
+    - 3.7.2
 
 Commands
 ~~~~~~~

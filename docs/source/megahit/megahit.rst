@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/megahit and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.2.9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.2.9
+  * - BELL
+    - 1.2.9
+  * - GAUTSCHI
+    - 1.2.9
+  * - NEGISHI
+    - 1.2.9
+  * - SCHOLAR
+    - 1.2.9
 
 Commands
 ~~~~~~~

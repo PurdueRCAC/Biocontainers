@@ -13,9 +13,24 @@ The MaSuRCA (Maryland Super Read Cabog Assembler) genome assembly and analysis t
 | Home page: https://github.com/alekseyzimin/masurca
 
 Versions
-~~~~~~~~
-- 4.0.9
-- 4.1.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.0.9, 4.1.0
+  * - BELL
+    - 4.0.9, 4.1.0
+  * - GAUTSCHI
+    - 4.0.9, 4.1.0
+  * - NEGISHI
+    - 4.0.9, 4.1.0
+  * - SCHOLAR
+    - 4.0.9, 4.1.0
 
 Commands
 ~~~~~~~

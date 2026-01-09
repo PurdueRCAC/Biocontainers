@@ -12,8 +12,24 @@ scGen is a generative model to predict single-cell perturbation response across 
 | Home page: https://github.com/theislab/scgen
 
 Versions
-~~~~~~~~
-- 2.1.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.0
+  * - BELL
+    - 2.1.0
+  * - GAUTSCHI
+    - 2.1.0
+  * - NEGISHI
+    - 2.1.0
+  * - SCHOLAR
+    - 2.1.0
 
 Commands
 ~~~~~~~

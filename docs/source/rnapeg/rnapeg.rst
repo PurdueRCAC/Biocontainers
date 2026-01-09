@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its Github package: https://github.com/stjude/RNApeg/pkgs/container/rnapeg and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.7.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.7.1
+  * - BELL
+    - 2.7.1
+  * - GAUTSCHI
+    - 2.7.1
+  * - NEGISHI
+    - 2.7.1
+  * - SCHOLAR
+    - 2.7.1
 
 Commands
 ~~~~~~~

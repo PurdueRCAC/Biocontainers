@@ -13,10 +13,24 @@ Ensembl-vep(Ensembl Variant Effect Predictor) predicts the functional effects of
 | Home page: https://github.com/Ensembl/ensembl-vep
 
 Versions
-~~~~~~~~
-- 106.1
-- 107.0
-- 108.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 106.1, 107.0, 108.2
+  * - BELL
+    - 106.1, 107.0, 108.2
+  * - GAUTSCHI
+    - 106.1, 107.0, 108.2
+  * - NEGISHI
+    - 106.1, 107.0, 108.2
+  * - SCHOLAR
+    - 106.1, 107.0, 108.2
 
 Commands
 ~~~~~~~

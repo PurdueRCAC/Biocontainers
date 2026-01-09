@@ -12,8 +12,24 @@ abPOA: adaptive banded Partial Order Alignment
 | Home page: https://github.com/yangao07/abPOA
 
 Versions
-~~~~~~~~
-- 1.4.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.4.1
+  * - BELL
+    - 1.4.1
+  * - GAUTSCHI
+    - 1.4.1
+  * - NEGISHI
+    - 1.4.1
+  * - SCHOLAR
+    - 1.4.1
 
 Commands
 ~~~~~~~

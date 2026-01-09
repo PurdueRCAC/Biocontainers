@@ -12,8 +12,24 @@ DeconSeq: DECONtamination of SEQuence data using a modified version of BWA-SW. T
 | Home page: http://deconseq.sourceforge.net/ 
 
 Versions
-~~~~~~~~
-- 0.4.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.4.3
+  * - BELL
+    - 0.4.3
+  * - GAUTSCHI
+    - 0.4.3
+  * - NEGISHI
+    - 0.4.3
+  * - SCHOLAR
+    - 0.4.3
 
 Commands
 ~~~~~~~

@@ -11,8 +11,24 @@ Docker hub: https://hub.docker.com/r/staphb/srst2
 Home page: https://github.com/katholt/srst2
 
 Versions
-~~~~~~~~
-- 0.2.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.2.0
+  * - BELL
+    - 0.2.0
+  * - GAUTSCHI
+    - 0.2.0
+  * - NEGISHI
+    - 0.2.0
+  * - SCHOLAR
+    - 0.2.0
 
 Commands
 ~~~~~~~

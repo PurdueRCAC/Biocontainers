@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/snaptools and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.4.8
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.4.8
+  * - BELL
+    - 1.4.8
+  * - GAUTSCHI
+    - 1.4.8
+  * - NEGISHI
+    - 1.4.8
+  * - SCHOLAR
+    - 1.4.8
 
 Commands
 ~~~~~~~

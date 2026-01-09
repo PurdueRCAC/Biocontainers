@@ -13,8 +13,24 @@ PASTA: Ultra-Large Multiple Sequence Alignment for Nucleotide and Amino-Acid Seq
 | Home page: https://github.com/smirarab/pasta
 
 Versions
-~~~~~~~~
-- 1.8.7
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.8.7
+  * - BELL
+    - 1.8.7
+  * - GAUTSCHI
+    - 1.8.7
+  * - NEGISHI
+    - 1.8.7
+  * - SCHOLAR
+    - 1.8.7
 
 Commands
 ~~~~~~~

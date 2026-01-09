@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/cafe and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 4.2.1
-- 5.0.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.2.1, 5.0.0
+  * - BELL
+    - 4.2.1, 5.0.0
+  * - GAUTSCHI
+    - 4.2.1, 5.0.0
+  * - NEGISHI
+    - 4.2.1, 5.0.0
+  * - SCHOLAR
+    - 4.2.1, 5.0.0
 
 Commands
 ~~~~~~~

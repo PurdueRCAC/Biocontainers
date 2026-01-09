@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/freebayes and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.3.5
-- 1.3.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.3.5, 1.3.6
+  * - BELL
+    - 1.3.5, 1.3.6
+  * - GAUTSCHI
+    - 1.3.5, 1.3.6
+  * - NEGISHI
+    - 1.3.5, 1.3.6
+  * - SCHOLAR
+    - 1.3.5, 1.3.6
 
 Commands
 ~~~~~~~

@@ -10,11 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/last and its home page on `Gitlab`_.
 
 Versions
-~~~~~~~~
-- 1268
-- 1356
-- 1411
-- 1418
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1268, 1356, 1411, 1418
+  * - BELL
+    - 1268, 1356, 1411, 1418
+  * - GAUTSCHI
+    - 1268, 1356, 1411, 1418
+  * - NEGISHI
+    - 1268, 1356, 1411, 1418
+  * - SCHOLAR
+    - 1268, 1356, 1411, 1418
 
 Commands
 ~~~~~~~

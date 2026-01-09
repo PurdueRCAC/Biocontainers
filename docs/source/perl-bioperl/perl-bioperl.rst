@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/perl-bioperl.
 
 Versions
-~~~~~~~~
-- 1.7.2-pl526
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.7.2-pl526
+  * - BELL
+    - 1.7.2-pl526
+  * - GAUTSCHI
+    - 1.7.2-pl526
+  * - NEGISHI
+    - 1.7.2-pl526
+  * - SCHOLAR
+    - 1.7.2-pl526
 
 Commands
 ~~~~~~~

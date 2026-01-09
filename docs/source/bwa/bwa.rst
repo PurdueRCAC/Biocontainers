@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/bwa and its home page: http://bio-bwa.sourceforge.net.
 
 Versions
-~~~~~~~~
-- 0.7.17
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.7.17
+  * - BELL
+    - 0.7.17
+  * - GAUTSCHI
+    - 0.7.17
+  * - NEGISHI
+    - 0.7.17
+  * - SCHOLAR
+    - 0.7.17
 
 Commands
 ~~~~~~~

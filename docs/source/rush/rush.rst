@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.4.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.4.2
+  * - BELL
+    - 0.4.2
+  * - GAUTSCHI
+    - 0.4.2
+  * - NEGISHI
+    - 0.4.2
+  * - SCHOLAR
+    - 0.4.2
 
 Commands
 ~~~~~~~

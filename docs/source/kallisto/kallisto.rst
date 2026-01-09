@@ -11,9 +11,24 @@ Detailed usage can be found here: https://github.com/pachterlab/kallisto
 
 
 Versions
-~~~~~~~~
-- 0.46.2
-- 0.48.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.46.2, 0.48.0
+  * - BELL
+    - 0.46.2, 0.48.0
+  * - GAUTSCHI
+    - 0.46.2, 0.48.0
+  * - NEGISHI
+    - 0.46.2, 0.48.0
+  * - SCHOLAR
+    - 0.46.2, 0.48.0
 
 Commands
 ~~~~~~

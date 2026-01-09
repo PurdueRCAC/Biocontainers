@@ -10,11 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/bioconvert and its home page: https://bioconvert.readthedocs.io/en/master/.
 
 Versions
-~~~~~~~~
-- 0.4.3
-- 0.5.2
-- 0.6.1
-- 0.6.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.4.3, 0.5.2, 0.6.1, 0.6.2
+  * - BELL
+    - 0.4.3, 0.5.2, 0.6.1, 0.6.2
+  * - GAUTSCHI
+    - 0.4.3, 0.5.2, 0.6.1, 0.6.2
+  * - NEGISHI
+    - 0.4.3, 0.5.2, 0.6.1, 0.6.2
+  * - SCHOLAR
+    - 0.4.3, 0.5.2, 0.6.1, 0.6.2
 
 Commands
 ~~~~~~~

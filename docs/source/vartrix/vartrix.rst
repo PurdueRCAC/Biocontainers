@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/vartrix and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.1.22
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.1.22
+  * - BELL
+    - 1.1.22
+  * - GAUTSCHI
+    - 1.1.22
+  * - NEGISHI
+    - 1.1.22
+  * - SCHOLAR
+    - 1.1.22
 
 Commands
 ~~~~~~~

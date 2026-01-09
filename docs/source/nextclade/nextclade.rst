@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/nextstrain/nextclade and its home page: https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextclade-cli.html.
 
 Versions
-~~~~~~~~
-- 1.10.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.10.3
+  * - BELL
+    - 1.10.3
+  * - GAUTSCHI
+    - 1.10.3
+  * - NEGISHI
+    - 1.10.3
+  * - SCHOLAR
+    - 1.10.3
 
 Commands
 ~~~~~~~

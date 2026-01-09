@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/dbg2olc and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 20180222
-- 20200723
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 20180222, 20200723
+  * - BELL
+    - 20180222, 20200723
+  * - GAUTSCHI
+    - 20180222, 20200723
+  * - NEGISHI
+    - 20180222, 20200723
+  * - SCHOLAR
+    - 20180222, 20200723
 
 Commands
 ~~~~~~~

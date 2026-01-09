@@ -13,8 +13,24 @@ chewBBACA is a comprehensive pipeline including a set of functions for the creat
 | Home page: https://github.com/B-UMMI/chewBBACA
 
 Versions
-~~~~~~~~
-- 2.8.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.8.5
+  * - BELL
+    - 2.8.5
+  * - GAUTSCHI
+    - 2.8.5
+  * - NEGISHI
+    - 2.8.5
+  * - SCHOLAR
+    - 2.8.5
 
 Commands
 ~~~~~~~

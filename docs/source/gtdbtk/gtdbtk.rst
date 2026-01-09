@@ -10,9 +10,24 @@ Introduction
 GTDB-Tk reference data (`R202`_) has been downloaded for users. 
 
 Versions
-~~~~~~~~
-- 1.7.0
-- 2.1.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.7.0, 2.1.0
+  * - BELL
+    - 1.7.0, 2.1.0
+  * - GAUTSCHI
+    - 1.7.0, 2.1.0
+  * - NEGISHI
+    - 1.7.0, 2.1.0
+  * - SCHOLAR
+    - 1.7.0, 2.1.0
 
 Commands
 ~~~~~~

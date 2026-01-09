@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/fastp and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.20.1
-- 0.23.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.20.1, 0.23.2
+  * - BELL
+    - 0.20.1, 0.23.2
+  * - GAUTSCHI
+    - 0.20.1, 0.23.2
+  * - NEGISHI
+    - 0.20.1, 0.23.2
+  * - SCHOLAR
+    - 0.20.1, 0.23.2
 
 Commands
 ~~~~~~~

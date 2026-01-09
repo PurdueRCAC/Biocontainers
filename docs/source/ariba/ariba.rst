@@ -13,8 +13,24 @@ ARIBA is a tool that identifies antibiotic resistance genes by running local ass
 | Home page: https://github.com/sanger-pathogens/ariba
 
 Versions
-~~~~~~~~
-- 2.14.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.14.6
+  * - BELL
+    - 2.14.6
+  * - GAUTSCHI
+    - 2.14.6
+  * - NEGISHI
+    - 2.14.6
+  * - SCHOLAR
+    - 2.14.6
 
 Commands
 ~~~~~~~

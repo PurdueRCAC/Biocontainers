@@ -13,8 +13,24 @@ LINKS is a genomics application for scaffolding genome assemblies with long read
 | Home page: https://github.com/bcgsc/LINKS
 
 Versions
-~~~~~~~~
-- 2.0.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0.1
+  * - BELL
+    - 2.0.1
+  * - GAUTSCHI
+    - 2.0.1
+  * - NEGISHI
+    - 2.0.1
+  * - SCHOLAR
+    - 2.0.1
 
 Commands
 ~~~~~~~

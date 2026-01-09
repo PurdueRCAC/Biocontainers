@@ -30,8 +30,24 @@ The next tool we need is ``reapr smaltmap`` which creates a bam file of read-pai
 Finally we can use the smalt mapping, and the perfect mapping to run the ``reapr pipeline``. Run ``reapr pipeline`` to get help on how to run, and then run the pipeline. Store the results in ``reapr_<assembler>``.
 
 Versions
-~~~~~~~~
-- 1.0.18
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.0.18
+  * - BELL
+    - 1.0.18
+  * - GAUTSCHI
+    - 1.0.18
+  * - NEGISHI
+    - 1.0.18
+  * - SCHOLAR
+    - 1.0.18
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/mcl and its home page: http://micans.org/mcl/.
 
 Versions
-~~~~~~~~
-- 14.137-pl5262
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 14.137-pl5262
+  * - BELL
+    - 14.137-pl5262
+  * - GAUTSCHI
+    - 14.137-pl5262
+  * - NEGISHI
+    - 14.137-pl5262
+  * - SCHOLAR
+    - 14.137-pl5262
 
 Commands
 ~~~~~~~

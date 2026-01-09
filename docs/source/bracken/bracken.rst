@@ -13,9 +13,24 @@ Detailed usage can be found here: https://github.com/jenniferlu717/Bracken
   Inside the ``bracken`` container image, ``kraken2`` was also installed. As a result, when you load ``bracken/2.6.1-py37``, ``kraken version 2.1.1`` will be automatically loaded. Please do not load ``kraken2`` module together with ``bracken`` module to avaoid conflict. 
 
 Versions
-~~~~~~~~
-- 2.6.1
-- 2.7
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.6.1, 2.7
+  * - BELL
+    - 2.6.1, 2.7
+  * - GAUTSCHI
+    - 2.6.1, 2.7
+  * - NEGISHI
+    - 2.6.1, 2.7
+  * - SCHOLAR
+    - 2.6.1, 2.7
 
 Commands
 ~~~~~~

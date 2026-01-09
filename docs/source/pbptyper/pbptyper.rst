@@ -13,8 +13,24 @@ pbptyper is a tool to identify the Penicillin Binding Protein (PBP) of Streptoco
 | Home page: https://github.com/rpetit3/pbptyper
 
 Versions
-~~~~~~~~
-- 1.0.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.0.4
+  * - BELL
+    - 1.0.4
+  * - GAUTSCHI
+    - 1.0.4
+  * - NEGISHI
+    - 1.0.4
+  * - SCHOLAR
+    - 1.0.4
 
 Commands
 ~~~~~~~

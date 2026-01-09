@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/paml and its home page: http://abacus.gene.ucl.ac.uk/software/paml.html.
 
 Versions
-~~~~~~~~
-- 4.9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.9
+  * - BELL
+    - 4.9
+  * - GAUTSCHI
+    - 4.9
+  * - NEGISHI
+    - 4.9
+  * - SCHOLAR
+    - 4.9
 
 Commands
 ~~~~~~~

@@ -15,9 +15,24 @@ DO NOT call it 'python quast.py| metaquast.py'
 | For more information, please check its website: https://biocontainers.pro/tools/quast and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 5.0.2
-- 5.2.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 5.0.2, 5.2.0, 5.3.0-py310
+  * - BELL
+    - 5.0.2, 5.2.0, 5.3.0-py310
+  * - GAUTSCHI
+    - 5.0.2, 5.2.0
+  * - NEGISHI
+    - 5.0.2, 5.2.0, 5.3.0-py310
+  * - SCHOLAR
+    - 5.0.2, 5.2.0
 
 Commands
 ~~~~~~~

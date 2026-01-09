@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its home page: http://varscan.sourceforge.net/index.html.
 
 Versions
-~~~~~~~~
-- 2.4.2
-- 2.4.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.4.2, 2.4.4
+  * - BELL
+    - 2.4.2, 2.4.4
+  * - GAUTSCHI
+    - 2.4.2, 2.4.4
+  * - NEGISHI
+    - 2.4.2, 2.4.4
+  * - SCHOLAR
+    - 2.4.2, 2.4.4
 
 Commands
 ~~~~~~~

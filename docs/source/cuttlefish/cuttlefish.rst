@@ -13,8 +13,24 @@ Cuttlefish is a fast, parallel, and very lightweight memory tool to construct th
 | Home page: https://github.com/COMBINE-lab/cuttlefish
 
 Versions
-~~~~~~~~
-- 2.1.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.1
+  * - BELL
+    - 2.1.1
+  * - GAUTSCHI
+    - 2.1.1
+  * - NEGISHI
+    - 2.1.1
+  * - SCHOLAR
+    - 2.1.1
 
 Commands
 ~~~~~~~

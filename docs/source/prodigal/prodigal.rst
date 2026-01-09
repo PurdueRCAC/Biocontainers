@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/prodigal and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.6.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.6.3
+  * - BELL
+    - 2.6.3
+  * - GAUTSCHI
+    - 2.6.3
+  * - NEGISHI
+    - 2.6.3
+  * - SCHOLAR
+    - 2.6.3
 
 Commands
 ~~~~~~~

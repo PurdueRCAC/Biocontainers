@@ -13,8 +13,24 @@ ANNOgesic is the swiss army knife for RNA-Seq based annotation of bacterial/arch
 | Home page: https://github.com/Sung-Huan/ANNOgesic
 
 Versions
-~~~~~~~~
-- 1.1.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.1.0
+  * - BELL
+    - 1.1.0
+  * - GAUTSCHI
+    - 1.1.0
+  * - NEGISHI
+    - 1.1.0
+  * - SCHOLAR
+    - 1.1.0
 
 Commands
 ~~~~~~~

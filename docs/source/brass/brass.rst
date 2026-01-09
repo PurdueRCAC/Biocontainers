@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://quay.io/repository/wtsicgp/brass and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 6.3.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 6.3.4
+  * - BELL
+    - 6.3.4
+  * - GAUTSCHI
+    - 6.3.4
+  * - NEGISHI
+    - 6.3.4
+  * - SCHOLAR
+    - 6.3.4
 
 Commands
 ~~~~~~~

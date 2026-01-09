@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/genomepy and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.12.0
-- 0.14.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.12.0, 0.14.0
+  * - BELL
+    - 0.12.0, 0.14.0
+  * - GAUTSCHI
+    - 0.12.0, 0.14.0
+  * - NEGISHI
+    - 0.12.0, 0.14.0
+  * - SCHOLAR
+    - 0.12.0, 0.14.0
 
 Commands
 ~~~~~~~

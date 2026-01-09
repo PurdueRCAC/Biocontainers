@@ -11,8 +11,24 @@ Detailed usage can be found here: http://rnaseq-mats.sourceforge.net
 
 
 Versions
-~~~~~~~~
-- 4.1.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.1.1
+  * - BELL
+    - 4.1.1, 4.3.0
+  * - GAUTSCHI
+    - 4.1.1
+  * - NEGISHI
+    - 4.1.1, 4.3.0
+  * - SCHOLAR
+    - 4.1.1
 
 Commands
 ~~~~~~

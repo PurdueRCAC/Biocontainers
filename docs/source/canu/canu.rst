@@ -10,9 +10,24 @@ Introduction
 Detailed usage can be found here: https://github.com/marbl/canu
 
 Versions
-~~~~~~~~
-- 2.1.1
-- 2.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.1, 2.2
+  * - BELL
+    - 2.1.1, 2.2
+  * - GAUTSCHI
+    - 2.1.1, 2.2
+  * - NEGISHI
+    - 2.1.1, 2.2
+  * - SCHOLAR
+    - 2.1.1, 2.2
 
 Commands
 ~~~~~~

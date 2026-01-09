@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/genrich and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.6.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.6.1
+  * - BELL
+    - 0.6.1
+  * - GAUTSCHI
+    - 0.6.1
+  * - NEGISHI
+    - 0.6.1
+  * - SCHOLAR
+    - 0.6.1
 
 Commands
 ~~~~~~~

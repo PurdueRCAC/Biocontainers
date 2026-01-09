@@ -12,8 +12,22 @@ HOMER is a suite of tools for Motif Discovery and next-gen sequencing analysis.
 | Home page: http://homer.ucsd.edu/homer/
 
 Versions
-~~~~~~~~
-- 5.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 5.1
+  * - BELL
+    - 5.1
+  * - GAUTSCHI
+    - 5.1
+  * - NEGISHI
+    - 5.1
 
 Commands
 ~~~~~~~

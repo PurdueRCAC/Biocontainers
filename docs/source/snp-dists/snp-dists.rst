@@ -13,8 +13,24 @@ Snp-dists is a tool to convert a FASTA alignment to SNP distance matrix.
 | Home page: https://github.com/tseemann/snp-dists
 
 Versions
-~~~~~~~~
-- 0.8.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.8.2
+  * - BELL
+    - 0.8.2
+  * - GAUTSCHI
+    - 0.8.2
+  * - NEGISHI
+    - 0.8.2
+  * - SCHOLAR
+    - 0.8.2
 
 Commands
 ~~~~~~~

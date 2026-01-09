@@ -10,10 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/isoseq3 and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 3.4.0
-- 3.7.0
-- 3.8.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.4.0, 3.7.0, 3.8.2
+  * - BELL
+    - 3.4.0, 3.7.0, 3.8.2
+  * - GAUTSCHI
+    - 3.4.0, 3.7.0, 3.8.2
+  * - NEGISHI
+    - 3.4.0, 3.7.0, 3.8.2
+  * - SCHOLAR
+    - 3.4.0, 3.7.0, 3.8.2
 
 Commands
 ~~~~~~~

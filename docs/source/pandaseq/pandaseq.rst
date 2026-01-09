@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/pipecraft/pandaseq and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.11
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.11
+  * - BELL
+    - 2.11
+  * - GAUTSCHI
+    - 2.11
+  * - NEGISHI
+    - 2.11
+  * - SCHOLAR
+    - 2.11
 
 Commands
 ~~~~~~~

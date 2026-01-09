@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its Github package: https://github.com/stjude/RNAIndel/pkgs/container/rnaindel and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 3.0.9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.0.9
+  * - BELL
+    - 3.0.9
+  * - GAUTSCHI
+    - 3.0.9
+  * - NEGISHI
+    - 3.0.9
+  * - SCHOLAR
+    - 3.0.9
 
 Commands
 ~~~~~~~

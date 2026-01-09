@@ -11,8 +11,24 @@ BioContainers: https://biocontainers.pro/tools/pplacer
 Home page: https://matsen.fhcrc.org/pplacer/
 
 Versions
-~~~~~~~~
-- 1.1.alpha19
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.1.alpha19
+  * - BELL
+    - 1.1.alpha19
+  * - GAUTSCHI
+    - 1.1.alpha19
+  * - NEGISHI
+    - 1.1.alpha19
+  * - SCHOLAR
+    - 1.1.alpha19
 
 Commands
 ~~~~~~~

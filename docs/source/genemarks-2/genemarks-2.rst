@@ -12,8 +12,24 @@ GeneMarkS-2 combines GeneMark.hmm (prokaryotic) and GeneMark (prokaryotic) with 
 The users need to download your own licence key from GeneMark website and copy key "gm_key" into users' home directory as: cp gm_key ~/.gm_key | Home page: http://opal.biology.gatech.edu/GeneMark/
 
 Versions
-~~~~~~~~
-- 1.14_1.25
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.14_1.25
+  * - BELL
+    - 1.14_1.25
+  * - GAUTSCHI
+    - 1.14_1.25
+  * - NEGISHI
+    - 1.14_1.25
+  * - SCHOLAR
+    - 1.14_1.25
 
 Commands
 ~~~~~~~

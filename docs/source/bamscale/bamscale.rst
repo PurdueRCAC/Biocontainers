@@ -13,8 +13,22 @@ BAMscale is a one-step tool to 1) quantify/normalize peak coverages from multipl
 | Home page: https://github.com/ncbi/BAMscale
 
 Versions
-~~~~~~~~
-- 0.0.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.0.5
+  * - BELL
+    - 0.0.5
+  * - GAUTSCHI
+    - 0.0.5
+  * - NEGISHI
+    - 0.0.5
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/snpgenie and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.0
+  * - BELL
+    - 1.0
+  * - GAUTSCHI
+    - 1.0
+  * - NEGISHI
+    - 1.0
+  * - SCHOLAR
+    - 1.0
 
 Commands
 ~~~~~~~

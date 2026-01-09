@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/epic2 and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.0.51
-- 0.0.52
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.0.51, 0.0.52
+  * - BELL
+    - 0.0.51, 0.0.52
+  * - GAUTSCHI
+    - 0.0.51, 0.0.52
+  * - NEGISHI
+    - 0.0.51, 0.0.52
+  * - SCHOLAR
+    - 0.0.51, 0.0.52
 
 Commands
 ~~~~~~~

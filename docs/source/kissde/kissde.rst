@@ -13,8 +13,24 @@ kissDE is a R package, similar to DEseq, but which works on pairs of variants, a
 | Home page: https://kissplice.prabi.fr
 
 Versions
-~~~~~~~~
-- 1.15.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.15.3
+  * - BELL
+    - 1.15.3
+  * - GAUTSCHI
+    - 1.15.3
+  * - NEGISHI
+    - 1.15.3
+  * - SCHOLAR
+    - 1.15.3
 
 Commands
 ~~~~~~~

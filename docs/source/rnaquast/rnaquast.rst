@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/rnaquast and its home page: http://cab.spbu.ru/software/rnaquast/.
 
 Versions
-~~~~~~~~
-- 2.2.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.2.1
+  * - BELL
+    - 2.2.1
+  * - GAUTSCHI
+    - 2.2.1
+  * - NEGISHI
+    - 2.2.1
+  * - SCHOLAR
+    - 2.2.1
 
 Commands
 ~~~~~~~

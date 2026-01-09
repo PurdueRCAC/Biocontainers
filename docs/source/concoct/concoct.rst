@@ -10,8 +10,24 @@ Introduction
 Detailed usage can be found here: https://github.com/BinPro/CONCOCT
 
 Versions
-~~~~~~~~
-- 1.1.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.1.0
+  * - BELL
+    - 1.1.0
+  * - GAUTSCHI
+    - 1.1.0
+  * - NEGISHI
+    - 1.1.0
+  * - SCHOLAR
+    - 1.1.0
 
 Commands
 ~~~~~~

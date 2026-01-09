@@ -12,8 +12,24 @@ LDhat is a package written in the C and C++ languages for the analysis of recomb
 | Home page: https://github.com/auton1/LDhat
 
 Versions
-~~~~~~~~
-- 2.2a
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.2a
+  * - BELL
+    - 2.2a
+  * - GAUTSCHI
+    - 2.2a
+  * - NEGISHI
+    - 2.2a
+  * - SCHOLAR
+    - 2.2a
 
 Commands
 ~~~~~~~

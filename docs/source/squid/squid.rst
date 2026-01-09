@@ -12,8 +12,24 @@ SQUID is designed to detect both fusion-gene and non-fusion-gene transcriptomic 
 | Home page: https://github.com/Kingsford-Group/squid
 
 Versions
-~~~~~~~~
-- 1.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.5
+  * - BELL
+    - 1.5
+  * - GAUTSCHI
+    - 1.5
+  * - NEGISHI
+    - 1.5
+  * - SCHOLAR
+    - 1.5
 
 Commands
 ~~~~~~~

@@ -13,8 +13,24 @@ Model-based Analysis of Genome-wide CRISPR-Cas9 Knockout (MAGeCK) is a computati
 | Home page: https://bitbucket.org/liulab/mageck/src/master/
 
 Versions
-~~~~~~~~
-- 0.5.9.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.5.9.5
+  * - BELL
+    - 0.5.9.5
+  * - GAUTSCHI
+    - 0.5.9.5
+  * - NEGISHI
+    - 0.5.9.5
+  * - SCHOLAR
+    - 0.5.9.5
 
 Commands
 ~~~~~~~

@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/fastqc and its home page: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/.
 
 Versions
-~~~~~~~~
-- 0.11.9
-- 0.12.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.11.9, 0.12.1
+  * - BELL
+    - 0.11.9, 0.12.1
+  * - GAUTSCHI
+    - 0.11.9, 0.12.1
+  * - NEGISHI
+    - 0.11.9, 0.12.1
+  * - SCHOLAR
+    - 0.11.9, 0.12.1
 
 Commands
 ~~~~~~~

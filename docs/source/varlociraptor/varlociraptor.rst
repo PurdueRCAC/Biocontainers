@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/varlociraptor and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 4.11.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.11.4
+  * - BELL
+    - 4.11.4
+  * - GAUTSCHI
+    - 4.11.4
+  * - NEGISHI
+    - 4.11.4
+  * - SCHOLAR
+    - 4.11.4
 
 Commands
 ~~~~~~~

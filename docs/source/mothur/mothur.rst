@@ -10,10 +10,24 @@ Introduction
 Detailed information about Mothur can be found here: https://mothur.org
 
 Versions
-~~~~~~~~
-- 1.46.0
-- 1.47.0
-- 1.48.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.46.0, 1.47.0, 1.48.0
+  * - BELL
+    - 1.46.0, 1.47.0, 1.48.0
+  * - GAUTSCHI
+    - 1.46.0, 1.47.0, 1.48.0
+  * - NEGISHI
+    - 1.46.0, 1.47.0, 1.48.0, 1.48.3
+  * - SCHOLAR
+    - 1.46.0, 1.47.0, 1.48.0
 
 Commands
 ~~~~~~

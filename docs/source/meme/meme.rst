@@ -10,11 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/meme and its home page: https://meme-suite.org/meme/.
 
 Versions
-~~~~~~~~
-- 5.3.3
-- 5.4.1
-- 5.5.0
-- 5.5.4
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 5.3.3, 5.4.1, 5.5.0, 5.5.4
+  * - BELL
+    - 5.3.3, 5.4.1, 5.5.0, 5.5.7-pl5321, 5.5.4
+  * - GAUTSCHI
+    - 5.3.3, 5.4.1, 5.5.0, 5.5.4
+  * - NEGISHI
+    - 5.3.3, 5.4.1, 5.5.0, 5.5.7-pl5321, 5.5.4
+  * - SCHOLAR
+    - 5.3.3, 5.4.1, 5.5.0
 
 Commands
 ~~~~~~~

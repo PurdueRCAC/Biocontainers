@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/ngsutils and its home page: http://ngsutils.org.
 
 Versions
-~~~~~~~~
-- 0.5.9
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.5.9
+  * - BELL
+    - 0.5.9
+  * - GAUTSCHI
+    - 0.5.9
+  * - NEGISHI
+    - 0.5.9
+  * - SCHOLAR
+    - 0.5.9
 
 Commands
 ~~~~~~~

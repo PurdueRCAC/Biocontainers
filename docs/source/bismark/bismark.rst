@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/bismark and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.23.0
-- 0.24.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.23.0, 0.24.0
+  * - BELL
+    - 0.23.0, 0.24.0
+  * - GAUTSCHI
+    - 0.23.0, 0.24.0
+  * - NEGISHI
+    - 0.23.0, 0.24.0
+  * - SCHOLAR
+    - 0.23.0, 0.24.0
 
 Commands
 ~~~~~~~

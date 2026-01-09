@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/gmap and its home page: http://research-pub.gene.com/gmap/.
 
 Versions
-~~~~~~~~
-- 2021.05.27
-- 2021.08.25
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2021.05.27, 2021.08.25
+  * - BELL
+    - 2021.05.27, 2021.08.25
+  * - GAUTSCHI
+    - 2021.05.27, 2021.08.25
+  * - NEGISHI
+    - 2021.05.27, 2021.08.25
+  * - SCHOLAR
+    - 2021.05.27, 2021.08.25
 
 Commands
 ~~~~~~~

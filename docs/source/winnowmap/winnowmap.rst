@@ -13,8 +13,24 @@ Winnowmap is a long-read mapping algorithm optimized for mapping ONT and PacBio 
 | Home page: https://github.com/marbl/Winnowmap
 
 Versions
-~~~~~~~~
-- 2.03
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.03
+  * - BELL
+    - 2.03
+  * - GAUTSCHI
+    - 2.03
+  * - NEGISHI
+    - 2.03
+  * - SCHOLAR
+    - 2.03
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/mashmap and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.0-pl5321
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0-pl5321
+  * - BELL
+    - 2.0-pl5321
+  * - GAUTSCHI
+    - 2.0-pl5321
+  * - NEGISHI
+    - 2.0-pl5321
+  * - SCHOLAR
+    - 2.0-pl5321
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/peakranger and its home page: http://ranger.sourceforge.net.
 
 Versions
-~~~~~~~~
-- 1.18
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.18
+  * - BELL
+    - 1.18
+  * - GAUTSCHI
+    - 1.18
+  * - NEGISHI
+    - 1.18
+  * - SCHOLAR
+    - 1.18
 
 Commands
 ~~~~~~~

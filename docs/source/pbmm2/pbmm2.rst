@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/pbmm2 and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.7.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.7.0
+  * - BELL
+    - 1.7.0
+  * - GAUTSCHI
+    - 1.7.0
+  * - NEGISHI
+    - 1.7.0
+  * - SCHOLAR
+    - 1.7.0
 
 Commands
 ~~~~~~~

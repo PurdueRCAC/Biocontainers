@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/lofreq and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.1.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.5
+  * - BELL
+    - 2.1.5
+  * - GAUTSCHI
+    - 2.1.5
+  * - NEGISHI
+    - 2.1.5
+  * - SCHOLAR
+    - 2.1.5
 
 Commands
 ~~~~~~~

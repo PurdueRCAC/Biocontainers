@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/shortstack and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 3.8.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.8.5
+  * - BELL
+    - 3.8.5
+  * - GAUTSCHI
+    - 3.8.5
+  * - NEGISHI
+    - 3.8.5
+  * - SCHOLAR
+    - 3.8.5
 
 Commands
 ~~~~~~~

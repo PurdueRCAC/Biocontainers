@@ -13,8 +13,22 @@ SEACR is intended to call peaks and enriched regions from sparse CUT&RUN or chro
 | Home page: https://github.com/FredHutch/SEACR
 
 Versions
-~~~~~~~~
-- 1.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.3
+  * - BELL
+    - 1.3
+  * - GAUTSCHI
+    - 1.3
+  * - NEGISHI
+    - 1.3
 
 Commands
 ~~~~~~~

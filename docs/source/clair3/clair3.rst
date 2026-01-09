@@ -13,9 +13,24 @@ Clair3 is a germline small variant caller for long-reads. Clair3 makes the best 
 | Home page: https://github.com/HKU-BAL/Clair3
 
 Versions
-~~~~~~~~
-- 0.1-r11
-- 0.1-r12
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.1-r11, 0.1-r12
+  * - BELL
+    - 0.1-r11, 0.1-r12
+  * - GAUTSCHI
+    - 0.1-r11, 0.1-r12
+  * - NEGISHI
+    - 0.1-r11, 0.1-r12
+  * - SCHOLAR
+    - 0.1-r11, 0.1-r12
 
 Commands
 ~~~~~~~

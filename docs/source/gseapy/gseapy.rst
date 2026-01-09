@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/gseapy and its home page: https://gseapy.readthedocs.io/en/latest/introduction.html.
 
 Versions
-~~~~~~~~
-- 0.10.8
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.10.8
+  * - BELL
+    - 0.10.8
+  * - GAUTSCHI
+    - 0.10.8
+  * - NEGISHI
+    - 0.10.8
+  * - SCHOLAR
+    - 0.10.8
 
 Commands
 ~~~~~~~

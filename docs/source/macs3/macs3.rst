@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/lbmc/macs3/3.0.0a6 and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 3.0.0a6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.0.0a6
+  * - BELL
+    - 3.0.0a6
+  * - GAUTSCHI
+    - 3.0.0a6
+  * - NEGISHI
+    - 3.0.0a6
+  * - SCHOLAR
+    - 3.0.0a6
 
 Commands
 ~~~~~~~

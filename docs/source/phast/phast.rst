@@ -11,8 +11,24 @@ BioContainers: https://biocontainers.pro/tools/phast
 Home page: http://compgen.cshl.edu/phast/
 
 Versions
-~~~~~~~~
-- 1.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.5
+  * - BELL
+    - 1.5
+  * - GAUTSCHI
+    - 1.5
+  * - NEGISHI
+    - 1.5
+  * - SCHOLAR
+    - 1.5
 
 Commands
 ~~~~~~~

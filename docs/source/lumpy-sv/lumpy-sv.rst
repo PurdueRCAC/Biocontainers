@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/lumpy-sv and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.3.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.3.1
+  * - BELL
+    - 0.3.1
+  * - GAUTSCHI
+    - 0.3.1
+  * - NEGISHI
+    - 0.3.1
+  * - SCHOLAR
+    - 0.3.1
 
 Commands
 ~~~~~~~

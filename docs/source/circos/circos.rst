@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/circos and its home page: http://circos.ca.
 
 Versions
-~~~~~~~~
-- 0.69.8
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.69.8
+  * - BELL
+    - 0.69.8
+  * - GAUTSCHI
+    - 0.69.8
+  * - NEGISHI
+    - 0.69.8
+  * - SCHOLAR
+    - 0.69.8
 
 Commands
 ~~~~~~~

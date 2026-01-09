@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/mummer4 and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 4.0.0rc1-pl5262
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.0.0rc1-pl5262
+  * - BELL
+    - 4.0.0rc1-pl5262
+  * - GAUTSCHI
+    - 4.0.0rc1-pl5262
+  * - NEGISHI
+    - 4.0.0rc1-pl5262
+  * - SCHOLAR
+    - 4.0.0rc1-pl5262
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/smoove and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.2.7
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.2.7
+  * - BELL
+    - 0.2.7
+  * - GAUTSCHI
+    - 0.2.7
+  * - NEGISHI
+    - 0.2.7
+  * - SCHOLAR
+    - 0.2.7
 
 Commands
 ~~~~~~~

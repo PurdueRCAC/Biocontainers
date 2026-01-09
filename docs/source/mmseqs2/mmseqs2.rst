@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/mmseqs2 and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 13.45111
-- 14.7e284
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 13.45111, 14.7e284
+  * - BELL
+    - 13.45111, 14.7e284
+  * - GAUTSCHI
+    - 13.45111, 14.7e284
+  * - NEGISHI
+    - 13.45111, 14.7e284
+  * - SCHOLAR
+    - 13.45111, 14.7e284
 
 Commands
 ~~~~~~~

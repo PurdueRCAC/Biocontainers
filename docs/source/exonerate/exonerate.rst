@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its home page: https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate.
 
 Versions
-~~~~~~~~
-- 2.4.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.4.0
+  * - BELL
+    - 2.4.0
+  * - GAUTSCHI
+    - 2.4.0
+  * - NEGISHI
+    - 2.4.0
+  * - SCHOLAR
+    - 2.4.0
 
 Commands
 ~~~~~~~

@@ -13,8 +13,24 @@ Bwameth is a tool for fast and accurante alignment of BS-Seq reads.
 | Home page: https://github.com/brentp/bwa-meth
 
 Versions
-~~~~~~~~
-- 0.2.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.2.5
+  * - BELL
+    - 0.2.5
+  * - GAUTSCHI
+    - 0.2.5
+  * - NEGISHI
+    - 0.2.5
+  * - SCHOLAR
+    - 0.2.5
 
 Commands
 ~~~~~~~

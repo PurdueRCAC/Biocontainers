@@ -12,8 +12,24 @@ Drop-seq are java tools for analyzing Drop-seq data.
 | Home page: https://github.com/broadinstitute/Drop-seq
 
 Versions
-~~~~~~~~
-- 2.5.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.5.2
+  * - BELL
+    - 2.5.2
+  * - GAUTSCHI
+    - 2.5.2
+  * - NEGISHI
+    - 2.5.2
+  * - SCHOLAR
+    - 2.5.2
 
 Commands
 ~~~~~~~

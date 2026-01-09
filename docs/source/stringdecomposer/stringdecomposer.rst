@@ -13,8 +13,24 @@ Stringdecomposer is a tool for decomposition centromeric assemblies and long rea
 | Home page: https://github.com/ablab/stringdecomposer
 
 Versions
-~~~~~~~~
-- 1.1.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.1.2
+  * - BELL
+    - 1.1.2
+  * - GAUTSCHI
+    - 1.1.2
+  * - NEGISHI
+    - 1.1.2
+  * - SCHOLAR
+    - 1.1.2
 
 Commands
 ~~~~~~~

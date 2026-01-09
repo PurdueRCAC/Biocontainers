@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/macs2 and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.2.7.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.2.7.1
+  * - BELL
+    - 2.2.7.1
+  * - GAUTSCHI
+    - 2.2.7.1
+  * - NEGISHI
+    - 2.2.7.1
+  * - SCHOLAR
+    - 2.2.7.1
 
 Commands
 ~~~~~~~

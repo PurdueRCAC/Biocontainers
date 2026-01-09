@@ -10,10 +10,24 @@ Introduction
 | For more information, please check its home page: http://www.broadinstitute.org/software/igv/home.
 
 Versions
-~~~~~~~~
-- 2.11.9
-- 2.12.3
-- 2.17.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.11.9, 2.12.3, 2.17.3
+  * - BELL
+    - 2.11.9, 2.12.3, 2.17.3
+  * - GAUTSCHI
+    - 2.11.9, 2.12.3, 2.17.3
+  * - NEGISHI
+    - 2.11.9, 2.12.3, 2.17.3, 2.19.1
+  * - SCHOLAR
+    - 2.11.9, 2.12.3
 
 Commands
 ~~~~~~~

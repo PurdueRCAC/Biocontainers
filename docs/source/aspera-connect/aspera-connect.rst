@@ -12,8 +12,24 @@ Aspera Connect is software that allows download and upload data. The software in
 |
 
 Versions
-~~~~~~~~
-- 4.2.6
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.2.6
+  * - BELL
+    - 4.2.6
+  * - GAUTSCHI
+    - 4.2.6
+  * - NEGISHI
+    - 4.2.6
+  * - SCHOLAR
+    - 4.2.6
 
 Commands
 ~~~~~~~

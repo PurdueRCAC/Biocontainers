@@ -10,11 +10,24 @@ Introduction
 | For more information, please check its | Docker hub: https://hub.docker.com/r/nextgenusfs/funannotate and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.8.10
-- 1.8.13
-- 1.8.15
-- v1.8.17
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - v1.8.17, 1.8.10, 1.8.13, 1.8.15
+  * - BELL
+    - v1.8.17, 1.8.10, 1.8.13, 1.8.15
+  * - GAUTSCHI
+    - v1.8.17, 1.8.10, 1.8.13, 1.8.15
+  * - NEGISHI
+    - v1.8.17, 1.8.10, 1.8.13, 1.8.15
+  * - SCHOLAR
+    - 1.8.10, 1.8.13
 
 Commands
 ~~~~~~~

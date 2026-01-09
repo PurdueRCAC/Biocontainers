@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/raxml and its home page: https://cme.h-its.org/exelixis/web/software/raxml/.
 
 Versions
-~~~~~~~~
-- 8.2.12
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 8.2.12
+  * - BELL
+    - 8.2.12
+  * - GAUTSCHI
+    - 8.2.12
+  * - NEGISHI
+    - 8.2.12
+  * - SCHOLAR
+    - 8.2.12
 
 Commands
 ~~~~~~~

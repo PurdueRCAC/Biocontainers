@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/sepp and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 4.5.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 4.5.1
+  * - BELL
+    - 4.5.1
+  * - GAUTSCHI
+    - 4.5.1
+  * - NEGISHI
+    - 4.5.1
+  * - SCHOLAR
+    - 4.5.1
 
 Commands
 ~~~~~~~

@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/cellsnp-lite and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.2.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.2.2
+  * - BELL
+    - 1.2.2
+  * - GAUTSCHI
+    - 1.2.2
+  * - NEGISHI
+    - 1.2.2
+  * - SCHOLAR
+    - 1.2.2
 
 Commands
 ~~~~~~~

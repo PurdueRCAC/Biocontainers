@@ -13,8 +13,22 @@ GNU Datamash is a command-line program which performs basic numeric,textual and 
 | Home page: https://www.gnu.org/software/datamash/
 
 Versions
-~~~~~~~~
-- 1.8
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.8
+  * - BELL
+    - 1.8
+  * - GAUTSCHI
+    - 1.8
+  * - NEGISHI
+    - 1.8
 
 Commands
 ~~~~~~~

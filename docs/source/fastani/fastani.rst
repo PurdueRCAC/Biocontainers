@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/fastani and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.32
-- 1.33
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.32, 1.33
+  * - BELL
+    - 1.32, 1.33
+  * - GAUTSCHI
+    - 1.32, 1.33
+  * - NEGISHI
+    - 1.32, 1.33
+  * - SCHOLAR
+    - 1.32, 1.33
 
 Commands
 ~~~~~~~

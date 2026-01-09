@@ -10,15 +10,26 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/cactus and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.0.5
-- 2.2.1
-- 2.2.3-gpu
-- 2.2.3
-- 2.4.0-gpu
-- 2.4.0
-- 2.5.2
-- 2.6.5
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0.5, 2.2.3-gpu, 2.2.1, 2.2.3, 2.4.0, 2.4.0-gpu, 2.5.2-gpu, 2.5.2, 2.6.5-gpu, 2.6.5
+  * - BELL
+    - 2.0.5, 2.2.1, 2.2.3, 2.4.0, 2.5.2, 2.6.5
+  * - GAUTSCHI
+    - 2.0.5, 2.2.1, 2.2.3, 2.4.0, 2.5.2, 2.6.5
+  * - GILBRETH
+    - 2.2.3-gpu, 2.4.0-gpu
+  * - NEGISHI
+    - 2.0.5, 2.2.1, 2.2.3, 2.4.0, 2.5.2, 2.6.5
+  * - SCHOLAR
+    - 2.0.5, 2.2.3-gpu, 2.2.1, 2.2.3, 2.4.0, 2.4.0-gpu, 2.5.2-gpu, 2.5.2, 2.6.5-gpu, 2.6.5
 
 Commands
 ~~~~~~~

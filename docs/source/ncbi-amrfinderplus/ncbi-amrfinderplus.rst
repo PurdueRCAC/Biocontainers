@@ -13,10 +13,24 @@ Introduction
 | Home page: https://github.com/ncbi/amr
 
 Versions
-~~~~~~~~
-- 3.10.30
-- 3.10.42
-- 3.11.2
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 3.10.30, 3.10.42, 3.11.2
+  * - BELL
+    - 3.10.30, 3.10.42, 3.11.2
+  * - GAUTSCHI
+    - 3.10.30, 3.10.42, 3.11.2
+  * - NEGISHI
+    - 3.10.30, 3.10.42, 3.11.2
+  * - SCHOLAR
+    - 3.10.30, 3.10.42, 3.11.2
 
 Commands
 ~~~~~~~

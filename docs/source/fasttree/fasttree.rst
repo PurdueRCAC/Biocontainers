@@ -11,9 +11,24 @@ Detailed usage can be found here: http://www.microbesonline.org/fasttree/
 
 
 Versions
-~~~~~~~~
-- 2.1.10
-- 2.1.11
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.1.10, 2.1.11
+  * - BELL
+    - 2.1.10, 2.1.11
+  * - GAUTSCHI
+    - 2.1.10, 2.1.11
+  * - NEGISHI
+    - 2.1.10, 2.1.11
+  * - SCHOLAR
+    - 2.1.10, 2.1.11
 
 Commands
 ~~~~~~

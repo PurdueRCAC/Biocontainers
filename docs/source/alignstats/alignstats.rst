@@ -13,8 +13,24 @@ AlignStats produces various alignment, whole genome coverage, and capture covera
 | Home page: https://github.com/jfarek/alignstats
 
 Versions
-~~~~~~~~
-- 0.9.1
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.9.1
+  * - BELL
+    - 0.9.1
+  * - GAUTSCHI
+    - 0.9.1
+  * - NEGISHI
+    - 0.9.1
+  * - SCHOLAR
+    - 0.9.1
 
 Commands
 ~~~~~~~

@@ -10,9 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/mafft and its home page: https://mafft.cbrc.jp/alignment/software/.
 
 Versions
-~~~~~~~~
-- 7.475
-- 7.490
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 7.475, 7.490
+  * - BELL
+    - 7.475, 7.490
+  * - GAUTSCHI
+    - 7.475, 7.490
+  * - NEGISHI
+    - 7.475, 7.490
+  * - SCHOLAR
+    - 7.475, 7.490
 
 Commands
 ~~~~~~~

@@ -12,8 +12,22 @@ The University of Manchester GFFUtils package provides a small set of utility pr
 | Home page: https://github.com/fls-bioinformatics-core/GFFUtils
 
 Versions
-~~~~~~~~
-- 0.12.0
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.12.0
+  * - BELL
+    - 0.12.0
+  * - GAUTSCHI
+    - 0.12.0
+  * - NEGISHI
+    - 0.12.0
 
 Commands
 ~~~~~~~

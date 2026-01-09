@@ -13,9 +13,24 @@ Dragonflye is a pipeline that aims to make assembling Oxford Nanopore reads quic
 | Home page: https://github.com/rpetit3/dragonflye
 
 Versions
-~~~~~~~~
-- 1.0.13
-- 1.0.14
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 1.0.13, 1.0.14
+  * - BELL
+    - 1.0.13, 1.0.14
+  * - GAUTSCHI
+    - 1.0.13, 1.0.14
+  * - NEGISHI
+    - 1.0.13, 1.0.14
+  * - SCHOLAR
+    - 1.0.13, 1.0.14
 
 Commands
 ~~~~~~~

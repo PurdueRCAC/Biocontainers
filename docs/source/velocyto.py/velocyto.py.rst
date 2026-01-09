@@ -10,8 +10,24 @@ Introduction
 Detailed information about velocyto.py can be found here: https://github.com/velocyto-team/velocyto.py. 
 
 Versions
-~~~~~~~~
-- 0.17.17
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.17.17
+  * - BELL
+    - 0.17.17
+  * - GAUTSCHI
+    - 0.17.17
+  * - NEGISHI
+    - 0.17.17
+  * - SCHOLAR
+    - 0.17.17
 
 Commands
 ~~~~~~

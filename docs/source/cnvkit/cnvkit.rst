@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/cnvkit and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 0.9.9-py
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 0.9.9-py
+  * - BELL
+    - 0.9.9-py
+  * - GAUTSCHI
+    - 0.9.9-py
+  * - NEGISHI
+    - 0.9.9-py
+  * - SCHOLAR
+    - 0.9.9-py
 
 Commands
 ~~~~~~~

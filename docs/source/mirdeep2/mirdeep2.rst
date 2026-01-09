@@ -10,8 +10,24 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/mirdeep2 and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.0.1.3
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Versions
+
+  * - ANVIL
+    - 2.0.1.3
+  * - BELL
+    - 2.0.1.3
+  * - GAUTSCHI
+    - 2.0.1.3
+  * - NEGISHI
+    - 2.0.1.3
+  * - SCHOLAR
+    - 2.0.1.3
 
 Commands
 ~~~~~~~
