@@ -47,7 +47,7 @@ do
         echo "  :header-rows: 1"
         echo
         echo "  * - Cluster"
-        echo "    - Versions"
+        echo "    - Version(s)"
         echo
 
         jq -r --arg app "$containername" \
