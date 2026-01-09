@@ -10,9 +10,25 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/antismash and its home page: https://docs.antismash.secondarymetabolites.org.
 
 Versions
-~~~~~~~~
-- 5.1.2
-- 6.0.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 5.1.2, 6.0.1, 6.1.0
+  * - BELL
+    - 5.1.2, 6.0.1, 6.1.0, 8.0.1
+  * - GAUTSCHI
+    - 5.1.2, 6.0.1, 6.1.0
+  * - NEGISHI
+    - 5.1.2, 6.0.1, 6.1.0, 8.0.1
+  * - SCHOLAR
+    - 5.1.2, 6.0.1, 6.1.0
 
 Commands
 ~~~~~~~

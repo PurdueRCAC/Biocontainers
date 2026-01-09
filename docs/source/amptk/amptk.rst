@@ -10,8 +10,25 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/amptk and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 1.5.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.5.4
+  * - BELL
+    - 1.5.4
+  * - GAUTSCHI
+    - 1.5.4
+  * - NEGISHI
+    - 1.5.4
+  * - SCHOLAR
+    - 1.5.4
 
 Commands
 ~~~~~~~

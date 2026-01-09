@@ -10,8 +10,25 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/alien-hunter and its home page: https://www.sanger.ac.uk/tool/alien-hunter/.
 
 Versions
-~~~~~~~~
-- 1.7.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.7.7
+  * - BELL
+    - 1.7.7
+  * - GAUTSCHI
+    - 1.7.7
+  * - NEGISHI
+    - 1.7.7
+  * - SCHOLAR
+    - 1.7.7
 
 Commands
 ~~~~~~~

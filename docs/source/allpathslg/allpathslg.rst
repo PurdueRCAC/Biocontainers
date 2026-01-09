@@ -10,8 +10,25 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/allpathslg and its home page: https://software.broadinstitute.org/allpaths-lg/blog/.
 
 Versions
-~~~~~~~~
-- 52488
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 52488
+  * - BELL
+    - 52488
+  * - GAUTSCHI
+    - 52488
+  * - NEGISHI
+    - 52488
+  * - SCHOLAR
+    - 52488
 
 Commands
 ~~~~~~~

@@ -10,8 +10,25 @@ Introduction
 | For more information, please check its website: https://annovar.openbioinformatics.org/en/latest/.
 
 Versions
-~~~~~~~~
-- 2022-01-13
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2022-01-13
+  * - BELL
+    - 2022-01-13
+  * - GAUTSCHI
+    - 2022-01-13
+  * - NEGISHI
+    - 2022-01-13
+  * - SCHOLAR
+    - 2022-01-13
 
 Commands
 ~~~~~~~

@@ -10,8 +10,25 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/anvio and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 7.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 7.0, 7.1_main, 7.1_structure
+  * - BELL
+    - 7.0, 7.1_main, 7.1_structure
+  * - GAUTSCHI
+    - 7.0, 7.1_main, 7.1_structure
+  * - NEGISHI
+    - 7.0, 7.1_main, 7.1_structure
+  * - SCHOLAR
+    - 7.0, 7.1_main, 7.1_structure
 
 Commands
 ~~~~~~~

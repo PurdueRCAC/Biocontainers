@@ -10,8 +10,25 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/bamtools and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 2.5.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.5.1
+  * - BELL
+    - 2.5.1
+  * - GAUTSCHI
+    - 2.5.1
+  * - NEGISHI
+    - 2.5.1
+  * - SCHOLAR
+    - 2.5.1
 
 Commands
 ~~~~~~~

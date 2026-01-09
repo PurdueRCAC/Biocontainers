@@ -10,9 +10,25 @@ Introduction
 | For more information, please check its website: https://biocontainers.pro/tools/augur and its home page on `Github`_.
 
 Versions
-~~~~~~~~
-- 14.0.0
-- 15.0.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 14.0.0, 15.0.0
+  * - BELL
+    - 14.0.0, 15.0.0
+  * - GAUTSCHI
+    - 14.0.0, 15.0.0
+  * - NEGISHI
+    - 14.0.0, 15.0.0
+  * - SCHOLAR
+    - 14.0.0, 15.0.0
 
 Commands
 ~~~~~~~
