@@ -15,7 +15,7 @@ If you have any question, contact Guangzhen Jin at:
 `jin456@purdue.edu <mailto:jin456@purdue.edu>`_
 
 .. warning::
-    Do not use both ``bioinfo`` and ``biocontainers`` in your job script, because loading ``bioinfo`` will cause the failure of loading many modules including ``biocontainers`` in ``Brown``, ``Halstead``, ``Scholar``, ``Workbench``, and ``Gilbreth``. Since RCAC will not provide support to ``bioinfo`` in the future clusters, we recommend users to just use ``biocontainers``. 
+    Do not use both ``bioinfo`` and ``biocontainers`` in your job script, because loading ``bioinfo`` will cause the failure of loading many modules including ``biocontainers`` in ``Anvil``, ``Bell``, ``Gautschi``, ``Negishi``, ``Gilbreth`` and ``Scholar``. Since RCAC will not provide support to ``bioinfo`` in the future clusters, we recommend users to just use ``biocontainers``. 
 
 
 .. toctree::
