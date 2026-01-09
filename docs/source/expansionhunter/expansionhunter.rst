@@ -12,26 +12,12 @@ Expansion Hunter: a tool for estimating repeat sizes.
 | BioContainers: https://biocontainers.pro/tools/expansionhunter 
 | Home page: https://github.com/Illumina/ExpansionHunter
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 4.0.2
-  * - BELL
-    - 4.0.2
-  * - GAUTSCHI
-    - 4.0.2
-  * - NEGISHI
-    - 4.0.2
-  * - SCHOLAR
-    - 4.0.2
+~~~~~~~~
+- 4.0.2
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run expansionhunter on our clusters::
 
     module --force purge
     ml biocontainers expansionhunter
+

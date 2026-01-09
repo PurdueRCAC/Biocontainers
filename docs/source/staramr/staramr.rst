@@ -12,26 +12,12 @@ staramr scans bacterial genome contigs against the ResFinder, PointFinder, and P
 | Docker hub: https://hub.docker.com/r/staphb/staramr 
 | Home page: https://github.com/phac-nml/staramr
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.7.1
-  * - BELL
-    - 0.7.1
-  * - GAUTSCHI
-    - 0.7.1
-  * - NEGISHI
-    - 0.7.1
-  * - SCHOLAR
-    - 0.7.1
+~~~~~~~~
+- 0.7.1
 
 Commands
 ~~~~~~~
@@ -64,7 +50,3 @@ To run staramr on our clusters::
     module --force purge
     ml biocontainers staramr
 
-    staramr db info
-    staramr search \ 
-        --pointfinder-organism salmonella \
-        -o out *.fasta

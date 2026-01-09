@@ -5,30 +5,19 @@ Varscan
 
 Introduction
 ~~~~~~~~
-``Varscan`` is a tool used for variant detection in massively parallel sequencing data. 
+Varscan is a tool used for variant detection in massively parallel sequencing data.
 
-| For more information, please check its home page: http://varscan.sourceforge.net/index.html.
+
+| For more information, please check:
+| Home page: http://varscan.sourceforge.net/index.html
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.4.2, 2.4.4
-  * - BELL
-    - 2.4.2, 2.4.4
-  * - GAUTSCHI
-    - 2.4.2, 2.4.4
-  * - NEGISHI
-    - 2.4.2, 2.4.4
-  * - SCHOLAR
-    - 2.4.2, 2.4.4
+~~~~~~~~
+- 2.4.2
+- 2.4.4
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load varscan
 
@@ -46,10 +35,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Varscan on our clusters::
+To run varscan on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -60,3 +49,4 @@ To run Varscan on our clusters::
 
     module --force purge
     ml biocontainers varscan
+

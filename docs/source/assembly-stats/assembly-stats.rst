@@ -5,30 +5,19 @@ Assembly-stats
 
 Introduction
 ~~~~~~~~
-``Assembly-stats`` is a tool to get assembly statistics from FASTA and FASTQ files. 
+Assembly-stats is a tool to get assembly statistics from FASTA and FASTQ files.
 
-| For more information, please check its website: https://biocontainers.pro/tools/assembly-stats and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/assembly-stats 
+| Home page: https://github.com/sanger-pathogens/assembly-stats
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.1
-  * - BELL
-    - 1.0.1
-  * - GAUTSCHI
-    - 1.0.1
-  * - NEGISHI
-    - 1.0.1
-  * - SCHOLAR
-    - 1.0.1
+~~~~~~~~
+- 1.0.1
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load assembly-stats
 
@@ -46,11 +35,11 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Assembly-stats on our our clusters::
+To run assembly-stats on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
-    #SBATCH -t 00:10:00
+    #SBATCH -A myallocation     # Allocation name
+    #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
     #SBATCH --job-name=assembly-stats
@@ -61,6 +50,3 @@ To run Assembly-stats on our our clusters::
     module --force purge
     ml biocontainers assembly-stats
 
-    assembly-stats seq.fasta
-    
-.. _Github: https://github.com/sanger-pathogens/assembly-stats

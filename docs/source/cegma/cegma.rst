@@ -12,26 +12,12 @@ CEGMA (Core Eukaryotic Genes Mapping Approach) is a pipeline for building a set 
 | Docker hub: https://hub.docker.com/r/chrishah/cegma 
 | Home page: https://github.com/KorfLab/CEGMA_v2
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.5
-  * - BELL
-    - 2.5
-  * - GAUTSCHI
-    - 2.5
-  * - NEGISHI
-    - 2.5
-  * - SCHOLAR
-    - 2.5
+~~~~~~~~
+- 2.5
 
 Commands
 ~~~~~~~
@@ -64,4 +50,3 @@ To run cegma on our clusters::
     module --force purge
     ml biocontainers cegma
 
-    cegma --genome genome.fasta -o output

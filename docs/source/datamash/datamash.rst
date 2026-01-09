@@ -12,24 +12,12 @@ GNU Datamash is a command-line program which performs basic numeric,textual and 
 | BioContainers: https://biocontainers.pro/tools/datamash 
 | Home page: https://www.gnu.org/software/datamash/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.8
-  * - BELL
-    - 1.8
-  * - GAUTSCHI
-    - 1.8
-  * - NEGISHI
-    - 1.8
+~~~~~~~~
+- 1.8
 
 Commands
 ~~~~~~~
@@ -61,3 +49,4 @@ To run datamash on our clusters::
 
     module --force purge
     ml biocontainers datamash
+

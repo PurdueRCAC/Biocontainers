@@ -12,26 +12,12 @@ LongPhase is an ultra-fast program for simultaneously co-phasing SNPs and SVs by
 | Docker hub: https://hub.docker.com/r/alexanrna/longphase 
 | Home page: https://github.com/twolinin/longphase
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.4
-  * - BELL
-    - 1.4
-  * - GAUTSCHI
-    - 1.4
-  * - NEGISHI
-    - 1.4
-  * - SCHOLAR
-    - 1.4
+~~~~~~~~
+- 1.4
 
 Commands
 ~~~~~~~
@@ -55,7 +41,7 @@ To run longphase on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 8
+    #SBATCH -n 1
     #SBATCH --job-name=longphase
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -64,11 +50,3 @@ To run longphase on our clusters::
     module --force purge
     ml biocontainers longphase
 
-    longphase phase \
-        -s SNP.vcf \
-        --sv-file SV.vcf \
-        -b alignment.bam \
-        -r reference.fasta \
-        -t 8 \
-        -o phased_prefix \
-        --ont # or --pb for PacBio Hifi

@@ -12,26 +12,12 @@ PlasmidFinder identifies plasmids in total or partial sequenced isolates of bact
 | Docker hub: https://hub.docker.com/r/staphb/plasmidfinder 
 | Home page: https://bitbucket.org/genomicepidemiology/plasmidfinder/src/master/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.1.6
-  * - BELL
-    - 2.1.6
-  * - GAUTSCHI
-    - 2.1.6
-  * - NEGISHI
-    - 2.1.6
-  * - SCHOLAR
-    - 2.1.6
+~~~~~~~~
+- 2.1.6
 
 Commands
 ~~~~~~~
@@ -64,5 +50,3 @@ To run plasmidfinder on our clusters::
     module --force purge
     ml biocontainers plasmidfinder
 
-    plasmidfinder.py -p test/database \
-        -i test/test.fsa -o output -mp blastn -x -q

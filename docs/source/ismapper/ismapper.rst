@@ -12,26 +12,12 @@ ISMapper searches for IS positions in sequence data using paired end Illumina sh
 | BioContainers: https://biocontainers.pro/tools/ismapper 
 | Home page: https://github.com/jhawkey/IS_mapper
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.0.2
-  * - BELL
-    - 2.0.2
-  * - GAUTSCHI
-    - 2.0.2
-  * - NEGISHI
-    - 2.0.2
-  * - SCHOLAR
-    - 2.0.2
+~~~~~~~~
+- 2.0.2
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run ismapper on our clusters::
 
     module --force purge
     ml biocontainers ismapper
+

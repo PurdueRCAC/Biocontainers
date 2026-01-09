@@ -1,64 +1,54 @@
-.. _backbone-label:  
+.. _backbone-label:
 
-OrthoFinder
-============================== 
+Orthofinder
+==============================
 
 Introduction
-~~~~~~~
-``OrthoFinder``: phylogenetic orthology inference for comparative genomics
+~~~~~~~~
+OrthoFinder is a fast, accurate and comprehensive platform for comparative genomics. It finds orthogroups and orthologs, infers rooted gene trees for all orthogroups and identifies all of the gene duplication events in those gene trees. It also infers a rooted species tree for the species being analysed and maps the gene duplication events from the gene trees to branches in the species tree. OrthoFinder also provides comprehensive statistics for comparative genomic analyses.
 
-Detailed usage can be found here: https://github.com/davidemms/OrthoFinder
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/orthofinder 
+| Home page: https://github.com/davidemms/OrthoFinder
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.5.2, 2.5.4, 2.5.5
-  * - BELL
-    - 2.5.2, 2.5.4, 2.5.5
-  * - GAUTSCHI
-    - 2.5.2, 2.5.4, 2.5.5
-  * - NEGISHI
-    - 2.5.2, 2.5.4, 2.5.5
-  * - SCHOLAR
-    - 2.5.2, 2.5.4, 2.5.5
+~~~~~~~~
+- 2.5.2
+- 2.5.4
+- 2.5.5
 
 Commands
-~~~~~~
+~~~~~~~
 - orthofinder
 
 Module
-~~~~~~~
+~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load orthofinder/2.5.4 
+    module load orthofinder
 
 Example job
-~~~~~~
+~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run orthofinder on our our clusters::
+To run orthofinder on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
-    #SBATCH -t 20:00:00
+    #SBATCH -A myallocation     # Allocation name
+    #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 24
+    #SBATCH -n 1
     #SBATCH --job-name=orthofinder
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers orthofinder/2.5.4
-    
-    orthofinder -t 24 -f InputData -o output
+    ml biocontainers orthofinder
+

@@ -12,26 +12,12 @@ Regtools are tools that integrate DNA-seq and RNA-seq data to help interpret mut
 | Docker hub: https://hub.docker.com/r/griffithlab/regtools/ 
 | Home page: https://github.com/griffithlab/regtools
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.0
-  * - BELL
-    - 1.0.0
-  * - GAUTSCHI
-    - 1.0.0
-  * - NEGISHI
-    - 1.0.0
-  * - SCHOLAR
-    - 1.0.0
+~~~~~~~~
+- 1.0.0
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run regtools on our clusters::
 
     module --force purge
     ml biocontainers regtools
+

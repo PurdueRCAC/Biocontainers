@@ -12,26 +12,12 @@ Bali-phy is a tool for bayesian co-estimation of phylogenies and multiple alignm
 | BioContainers: https://biocontainers.pro/tools/bali-phy 
 | Home page: https://github.com/bredelings/BAli-Phy
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.6.0
-  * - BELL
-    - 3.6.0
-  * - GAUTSCHI
-    - 3.6.0
-  * - NEGISHI
-    - 3.6.0
-  * - SCHOLAR
-    - 3.6.0
+~~~~~~~~
+- 3.6.0
 
 Commands
 ~~~~~~~
@@ -64,5 +50,3 @@ To run bali-phy on our clusters::
     module --force purge
     ml biocontainers bali-phy
 
-    bali-phy examples/sequences/ITS/ITS1.fasta 5.8S.fasta ITS2.fasta --test
-    bali-phy examples/sequences/5S-rRNA/5d-clustalw.fasta -S gtr+Rates.gamma[4]+inv -n 5d-free

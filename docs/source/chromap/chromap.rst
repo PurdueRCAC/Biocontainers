@@ -12,26 +12,12 @@ Chromap is an ultrafast method for aligning and preprocessing high throughput ch
 | BioContainers: https://biocontainers.pro/tools/chromap 
 | Home page: https://github.com/haowenz/chromap
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.2.2
-  * - BELL
-    - 0.2.2
-  * - GAUTSCHI
-    - 0.2.2
-  * - NEGISHI
-    - 0.2.2
-  * - SCHOLAR
-    - 0.2.2
+~~~~~~~~
+- 0.2.2
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run chromap on our clusters::
 
     module --force purge
     ml biocontainers chromap
+

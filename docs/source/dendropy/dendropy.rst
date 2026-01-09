@@ -12,26 +12,12 @@ DendroPy is a Python library for phylogenetic computing. It provides classes and
 | BioContainers: https://biocontainers.pro/tools/dendropy 
 | Home page: https://github.com/jeetsukumaran/DendroPy
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 4.5.2
-  * - BELL
-    - 4.5.2
-  * - GAUTSCHI
-    - 4.5.2
-  * - NEGISHI
-    - 4.5.2
-  * - SCHOLAR
-    - 4.5.2
+~~~~~~~~
+- 4.5.2
 
 Commands
 ~~~~~~~
@@ -67,3 +53,4 @@ To run dendropy on our clusters::
 
     module --force purge
     ml biocontainers dendropy
+

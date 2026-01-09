@@ -12,26 +12,12 @@ VAtools is a python package that includes several tools to annotate VCF files wi
 | Docker hub: https://hub.docker.com/r/griffithlab/vatools 
 | Home page: https://vatools.readthedocs.io/en/latest/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 5.0.1
-  * - BELL
-    - 5.0.1
-  * - GAUTSCHI
-    - 5.0.1
-  * - NEGISHI
-    - 5.0.1
-  * - SCHOLAR
-    - 5.0.1
+~~~~~~~~
+- 5.0.1
 
 Commands
 ~~~~~~~
@@ -70,5 +56,3 @@ To run vatools on our clusters::
     module --force purge
     ml biocontainers vatools
 
-    vcf-readcount-annotator <input_vcf> <snv_bam_readcount_file> <DNA| RNA> \
-                -s <sample_name> -t snv -o <snv_annotated_vcf>

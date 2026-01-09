@@ -12,26 +12,14 @@ Ensembl-vep(Ensembl Variant Effect Predictor) predicts the functional effects of
 | Docker hub: https://hub.docker.com/r/ensemblorg/ensembl-vep 
 | Home page: https://github.com/Ensembl/ensembl-vep
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 106.1, 107.0, 108.2
-  * - BELL
-    - 106.1, 107.0, 108.2
-  * - GAUTSCHI
-    - 106.1, 107.0, 108.2
-  * - NEGISHI
-    - 106.1, 107.0, 108.2
-  * - SCHOLAR
-    - 106.1, 107.0, 108.2
+~~~~~~~~
+- 106.1
+- 107.0
+- 108.2
 
 Commands
 ~~~~~~~
@@ -66,4 +54,3 @@ To run ensembl-vep on our clusters::
     module --force purge
     ml biocontainers ensembl-vep
 
-    haplo -i bos_taurus_UMD3.1.vcf -o out.txt

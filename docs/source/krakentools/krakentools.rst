@@ -1,38 +1,26 @@
-.. _backbone-label:  
+.. _backbone-label:
 
-KrakenTools
-============================== 
+Krakentools
+==============================
 
 Introduction
-~~~~~~~
-``KrakenTools`` provides individual scripts to analyze Kraken/Kraken2/Bracken/KrakenUniq output files. 
+~~~~~~~~
+Krakentools is a suite of scripts to be used for post-analysis of Kraken/KrakenUniq/Kraken2/Bracken results.
 
-Detailed usage can be found here: https://github.com/jenniferlu717/KrakenTools
 
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/krakentools 
+| Home page: https://github.com/jenniferlu717/KrakenTools
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.2
-  * - BELL
-    - 1.2
-  * - GAUTSCHI
-    - 1.2
-  * - NEGISHI
-    - 1.2
-  * - SCHOLAR
-    - 1.2
+~~~~~~~~
+- 1.2
 
 Commands
-~~~~~~
+~~~~~~~
 - alpha_diversity.py
 - beta_diversity.py
 - combine_kreports.py
@@ -45,32 +33,30 @@ Commands
 - make_kreport.py
 - make_ktaxonomy.py
 
-
 Module
-~~~~~~~
+~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load krakentools/1.2
+    module load krakentools
 
 Example job
-~~~~~~
+~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run krakentools on our our clusters::
+To run krakentools on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 8
+    #SBATCH -n 1
     #SBATCH --job-name=krakentools
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers krakentools/1.2
-    
-    extract_kraken_reads.py -k myfile.kraken -t 2 -s1 SRR5043021_1.fastq -s2 SRR5043021_2.fastq -o extracted1.fq -o2 extracted2.fq
+    ml biocontainers krakentools
+

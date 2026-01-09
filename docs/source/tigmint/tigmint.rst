@@ -6,29 +6,17 @@ Tigmint
 Introduction
 ~~~~~~~~
 Tigmint identifies and corrects misassemblies using linked (e.g. MGI's stLFR, 10x Genomics Chromium) or long (e.g. Oxford Nanopore Technologies long reads) DNA sequencing reads. The reads are first aligned to the assembly, and the extents of the large DNA molecules are inferred from the alignments of the reads. The physical coverage of the large molecules is more consistent and less prone to coverage dropouts than that of the short read sequencing data. The sequences are cut at positions that have insufficient spanning molecules. Tigmint outputs a BED file of these cut points, and a FASTA file of the cut sequences.
-For more information, please check:
-Home page: https://github.com/bcgsc/tigmint
+
+
+| For more information, please check:
+| Home page: https://github.com/bcgsc/tigmint
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.2.6
-  * - BELL
-    - 1.2.6
-  * - GAUTSCHI
-    - 1.2.6
-  * - NEGISHI
-    - 1.2.6
-  * - SCHOLAR
-    - 1.2.6
+~~~~~~~~
+- 1.2.6
 
 Commands
 ~~~~~~~
@@ -66,3 +54,4 @@ To run tigmint on our clusters::
 
     module --force purge
     ml biocontainers tigmint
+

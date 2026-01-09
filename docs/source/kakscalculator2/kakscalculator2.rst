@@ -11,26 +11,12 @@ kakscalculator2 is a toolkit of incorporating gamma series methods and sliding w
 | For more information, please check:
 | Home page: https://github.com/kullrich/kakscalculator2
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.0.1
-  * - BELL
-    - 2.0.1
-  * - GAUTSCHI
-    - 2.0.1
-  * - NEGISHI
-    - 2.0.1
-  * - SCHOLAR
-    - 2.0.1
+~~~~~~~~
+- 2.0.1
 
 Commands
 ~~~~~~~
@@ -63,4 +49,3 @@ To run kakscalculator2 on our clusters::
     module --force purge
     ml biocontainers kakscalculator2
 
-    KaKs_Calculator -i example.axt -o example.axt.kaks -m YN

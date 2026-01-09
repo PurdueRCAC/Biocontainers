@@ -5,30 +5,21 @@ Flye
 
 Introduction
 ~~~~~~~~
-``Flye``: Fast and accurate de novo assembler for single molecule sequencing reads. 
+Flye: Fast and accurate de novo assembler for single molecule sequencing reads.
 
-| For more information, please check its website: https://biocontainers.pro/tools/flye and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/flye 
+| Home page: https://github.com/fenderglass/Flye
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.9, 2.9.5-py311, 2.9.1, 2.9.2
-  * - BELL
-    - 2.9, 2.9.5-py311, 2.9.1, 2.9.2
-  * - GAUTSCHI
-    - 2.9, 2.9.1, 2.9.2
-  * - NEGISHI
-    - 2.9, 2.9.5-py311, 2.9.1, 2.9.2
-  * - SCHOLAR
-    - 2.9, 2.9.1, 2.9.2
+~~~~~~~~
+- 2.9.1
+- 2.9.2
+- 2.9
 
 Commands
 ~~~~~~~
@@ -37,7 +28,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load flye
 
@@ -46,13 +37,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Flye on our clusters::
+To run flye on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 12
+    #SBATCH -n 1
     #SBATCH --job-name=flye
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -61,6 +52,3 @@ To run Flye on our clusters::
     module --force purge
     ml biocontainers flye
 
-    flye --pacbio-raw E.coli_PacBio_40x.fasta --out-dir out_pacbio --threads 12
-    flye --nano-raw Loman_E.coli_MAP006-1_2D_50x.fasta --out-dir out_nano --threads 12
-.. _Github: https://github.com/fenderglass/Flye

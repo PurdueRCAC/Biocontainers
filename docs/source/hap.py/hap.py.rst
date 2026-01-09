@@ -12,26 +12,12 @@ Hap.py is a tool to compare diploid genotypes at haplotype level.
 | Docker hub: https://hub.docker.com/r/pkrusche/hap.py 
 | Home page: https://github.com/Illumina/hap.py
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.3.9
-  * - BELL
-    - 0.3.9
-  * - GAUTSCHI
-    - 0.3.9
-  * - NEGISHI
-    - 0.3.9
-  * - SCHOLAR
-    - 0.3.9
+~~~~~~~~
+- 0.3.9
 
 Commands
 ~~~~~~~
@@ -74,9 +60,3 @@ To run hap.py on our clusters::
     module --force purge
     ml biocontainers hap.py
 
-    hap.py  \
-      example/happy/PG_NA12878_chr21.vcf.gz \
-      example/happy/NA12878_chr21.vcf.gz \
-      -f example/happy/PG_Conf_chr21.bed.gz \
-      -r example/chr21.fa \
-      -o test

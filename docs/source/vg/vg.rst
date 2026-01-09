@@ -9,29 +9,15 @@ Variation graphs (vg) provides tools for working with genome variation graphs.
 
 
 | For more information, please check:
-Quay.io: https://quay.io/repository/vgteam/vg?tabinfo 
+| Quay.io: https://quay.io/repository/vgteam/vg?tabinfo 
 | Home page: https://github.com/vgteam/vg
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.40.0
-  * - BELL
-    - 1.40.0
-  * - GAUTSCHI
-    - 1.40.0
-  * - NEGISHI
-    - 1.40.0
-  * - SCHOLAR
-    - 1.40.0
+~~~~~~~~
+- 1.40.0
 
 Commands
 ~~~~~~~
@@ -64,18 +50,3 @@ To run vg on our clusters::
     module --force purge
     ml biocontainers vg
 
-    vg construct -r test/small/x.fa -v test/small/x.vcf.gz >x.vg
-
-    # GFA output
-    vg view x.vg >x.gfa
-
-    # dot output suitable for graphviz
-    vg view -d x.vg >x.dot
-
-    # And if you have a GAM file
-    cp small/x-s1337-n1.gam x.gam
-
-    # json version of binary alignments
-    vg view -a x.gam >x.json
-
-    vg align -s CTACTGACAGCAGAAGTTTGCTGTGAAGATTAAATTAGGTGATGCTTG x.vg

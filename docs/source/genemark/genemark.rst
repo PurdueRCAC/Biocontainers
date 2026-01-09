@@ -1,32 +1,23 @@
 .. _backbone-label:
 
-GeneMark-ES/ET/EP
+Genemark
 ==============================
 
 Introduction
-~~~~~~~
-``GeneMark-ES/ET/EP`` contains GeneMark-ES, GeneMark-ET and GeneMark-EP+ algorithms. 
+~~~~~~~~
+GeneMark-ES/ET/EP is package including GeneMark-ES, GeneMark-ET and GeneMark-EP+ algorithms.
+
+
+| For more information, please check:
+| The users need to download your own licence key from GeneMark website and copy key "gm_key" into users' home directory as: cp gm_key ~/.gm_key Home page: http://opal.biology.gatech.edu/GeneMark/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 4.68, 4.69
-  * - BELL
-    - 4.68, 4.69
-  * - GAUTSCHI
-    - 4.68, 4.69
-  * - NEGISHI
-    - 4.68, 4.69
-  * - SCHOLAR
-    - 4.68, 4.69
+~~~~~~~~
+- 4.68
+- 4.69
 
 Commands
 ~~~~~~~
@@ -43,8 +34,8 @@ Commands
 - hc_exons2hints.pl
 - histogram.pl
 - make_nt_freq_mat.pl
-- parse_ET.pl
 - parse_by_introns.pl
+- parse_ET.pl
 - parse_gibbs.pl
 - parse_set.pl
 - predict_genes.pl
@@ -56,48 +47,32 @@ Commands
 - scan_for_bp.pl
 - star_to_gff.pl
 - verify_evidence_gmhmm.pl
-
-Academic license
-~~~~~
-.. note::
-To use GeneMark, users need to download license files by yourself.   
-
-Go to the GeneMark web site: http://exon.gatech.edu/GeneMark/license_download.cgi. Check the boxes for ``GeneMark-ES/ET/EP ver 4.69_lic`` and ``LINUX 64`` next to it, fill out the form, then click "I agree". In the next page, right click and copy the link addresses for ``64 bit`` licenss. Paste the link addresses in the commands below::
-
-    cd $HOME
-    wget "replace with license URL"
-    zcat gm_key_64.gz > .gm_key
+- gmhmme3
 
 Module
-~~~~~~~
+~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load genemark/4.68 
+    module load genemark
 
 Example job
-~~~~~~~
+~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run GeneMark on our cluster::
+To run genemark on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 24
+    #SBATCH -n 1
     #SBATCH --job-name=genemark
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers genemark/4.68  
-    
-    gmes_petap.pl --ES  --cores 24 --sequence scaffolds.fasta
+    ml biocontainers genemark
 
-     
-    
-
-    

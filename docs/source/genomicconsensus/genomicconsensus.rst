@@ -5,30 +5,19 @@ Genomicconsensus
 
 Introduction
 ~~~~~~~~
-``Genomicconsensus`` is the current PacBio consensus and variant calling suite. 
+Genomicconsensus is the current PacBio consensus and variant calling suite.
 
-| For more information, please check its website: https://biocontainers.pro/tools/genomicconsensus and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/genomicconsensus 
+| Home page: https://github.com/PacificBiosciences/GenomicConsensus
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.3.3
-  * - BELL
-    - 2.3.3
-  * - GAUTSCHI
-    - 2.3.3
-  * - NEGISHI
-    - 2.3.3
-  * - SCHOLAR
-    - 2.3.3
+~~~~~~~~
+- 2.3.3
 
 Commands
 ~~~~~~~
@@ -39,7 +28,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load genomicconsensus
 
@@ -48,10 +37,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Genomicconsensus on our clusters::
+To run genomicconsensus on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -63,8 +52,3 @@ To run Genomicconsensus on our clusters::
     module --force purge
     ml biocontainers genomicconsensus
 
-    quiver -j12 out.aligned_subreads.bam \ 
-        -r All4mer.V2.01_Insert-changed.fa  \
-        -o consensus.fasta -o consensus.fastq
-
-.. _Github: https://github.com/PacificBiosciences/GenomicConsensus

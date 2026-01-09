@@ -12,26 +12,12 @@ SvABA is a method for detecting structural variants in sequencing data using gen
 | BioContainers: https://biocontainers.pro/tools/svaba 
 | Home page: https://github.com/walaj/svaba
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.1.0
-  * - BELL
-    - 1.1.0
-  * - GAUTSCHI
-    - 1.1.0
-  * - NEGISHI
-    - 1.1.0
-  * - SCHOLAR
-    - 1.1.0
+~~~~~~~~
+- 1.1.0
 
 Commands
 ~~~~~~~
@@ -55,7 +41,7 @@ To run svaba on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 8
+    #SBATCH -n 1
     #SBATCH --job-name=svaba
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -64,11 +50,3 @@ To run svaba on our clusters::
     module --force purge
     ml biocontainers svaba
 
-    DBSNP=dbsnp_indel.vcf
-    TUM_BAM=G15512.HCC1954.1.COST16011_region.bam
-    NORM_BAM=HCC1954.NORMAL.30x.compare.COST16011_region.bam
-    CORES=8 ## set any number of cores
-    REF=Homo_sapiens_assembly19.COST16011_region.fa
-    svaba run -t $TUM_BAM -n $NORM_BAM \
-        -p $CORES -D $DBSNP \
-        -a somatic_run -G $REF

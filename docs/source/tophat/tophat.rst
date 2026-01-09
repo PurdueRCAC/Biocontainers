@@ -1,34 +1,23 @@
 .. _backbone-label:
 
-TopHat
+Tophat
 ==============================
 
 Introduction
 ~~~~~~~~
-``TopHat`` is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons. 
+TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.
 
-| For more information, please check its website: https://biocontainers.pro/tools/tophat and its home page: https://ccb.jhu.edu/software/tophat/index.shtml.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/tophat 
+| Home page: https://ccb.jhu.edu/software/tophat/index.shtml
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.1.1-py27
-  * - BELL
-    - 2.1.1-py27
-  * - GAUTSCHI
-    - 2.1.1-py27
-  * - NEGISHI
-    - 2.1.1-py27
-  * - SCHOLAR
-    - 2.1.1-py27
+~~~~~~~~
+- 2.1.1-py27
 
 Commands
 ~~~~~~~
@@ -38,7 +27,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load tophat
 
@@ -47,10 +36,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run TopHat on our clusters::
+To run tophat on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -62,4 +51,3 @@ To run TopHat on our clusters::
     module --force purge
     ml biocontainers tophat
 
-    tophat -r 20 test_ref reads_1.fq reads_2.fq

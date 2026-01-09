@@ -11,26 +11,12 @@ Meraculous is a whole genome assembler for Next Generation Sequencing data, gear
 | For more information, please check:
 | Home page: https://jgi.doe.gov/data-and-tools/software-tools/meraculous/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.2.6
-  * - BELL
-    - 2.2.6
-  * - GAUTSCHI
-    - 2.2.6
-  * - NEGISHI
-    - 2.2.6
-  * - SCHOLAR
-    - 2.2.6
+~~~~~~~~
+- 2.2.6
 
 Commands
 ~~~~~~~
@@ -94,3 +80,4 @@ To run meraculous on our clusters::
 
     module --force purge
     ml biocontainers meraculous
+

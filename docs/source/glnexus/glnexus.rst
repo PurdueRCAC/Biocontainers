@@ -12,26 +12,12 @@ Glnexus: Scalable gVCF merging and joint variant calling for population sequenci
 | BioContainers: https://biocontainers.pro/tools/glnexus 
 | Home page: https://github.com/dnanexus-rnd/GLnexus
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.4.1
-  * - BELL
-    - 1.4.1
-  * - GAUTSCHI
-    - 1.4.1
-  * - NEGISHI
-    - 1.4.1
-  * - SCHOLAR
-    - 1.4.1
+~~~~~~~~
+- 1.4.1
 
 Commands
 ~~~~~~~
@@ -64,7 +50,3 @@ To run glnexus on our clusters::
     module --force purge
     ml biocontainers glnexus
 
-    glnexus_cli --config DeepVariant \
-        --bed ALDH2.bed \
-        dv_1000G_ALDH2_gvcf/*.g.vcf.gz \
-        > dv_1000G_ALDH2.bcf

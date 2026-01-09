@@ -5,30 +5,19 @@ Dsuite
 
 Introduction
 ~~~~~~~~
-``Dsuite`` is a fast C++ implementation, allowing genome scale calculations of the D and f4-ratio statistics across all combinations of tens or hundreds of populations or species directly from a variant call format (VCF) file. 
+Dsuite is a fast C++ implementation, allowing genome scale calculations of the D and f4-ratio statistics across all combinations of tens or hundreds of populations or species directly from a variant call format (VCF) file.
 
-| For more information, please check its home page on `Github`_.
+
+| For more information, please check:
+| Home page: https://github.com/millanek/Dsuite
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.4.r43, 0.5.r44
-  * - BELL
-    - 0.4.r43, 0.5.r44
-  * - GAUTSCHI
-    - 0.4.r43, 0.5.r44
-  * - NEGISHI
-    - 0.4.r43, 0.5.r44
-  * - SCHOLAR
-    - 0.4.r43, 0.5.r44
+~~~~~~~~
+- 0.4.r43
+- 0.5.r44
 
 Commands
 ~~~~~~~
@@ -39,7 +28,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load dsuite
 
@@ -48,13 +37,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Dsuite on our clusters::
+To run dsuite on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 4
+    #SBATCH -n 1
     #SBATCH --job-name=dsuite
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -63,6 +52,3 @@ To run Dsuite on our clusters::
     module --force purge
     ml biocontainers dsuite
 
-    Dsuite Dtrios -c -n no_geneflow -t simulated_tree_no_geneflow.nwk chr1_no_geneflow.vcf.gz species_sets.txt 
-
-.. _Github: https://github.com/millanek/Dsuite

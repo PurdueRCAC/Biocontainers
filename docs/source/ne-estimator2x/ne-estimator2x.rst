@@ -12,18 +12,12 @@ NeEstimator v2 is a completely revised and updated implementation of software th
 | BioContainers: https://biocontainers.pro/tools/neestimator2x 
 | Home page: http://www.molecularfisherieslaboratory.com.au
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.2.1
+~~~~~~~~
+- 0.2.1
 
 Commands
 ~~~~~~~
@@ -56,3 +50,4 @@ To run ne-estimator2x on our clusters::
 
     module --force purge
     ml biocontainers ne-estimator2x
+

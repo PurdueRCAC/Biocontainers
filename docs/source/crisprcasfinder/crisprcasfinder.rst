@@ -1,64 +1,52 @@
-.. _backbone-label:  
+.. _backbone-label:
 
-CRISPRCasFinder 
-============================== 
+Crisprcasfinder
+==============================
 
 Introduction
-~~~~~~~
-``CRISPRCasFinder`` enables the easy detection of CRISPRs and cas genes in user-submitted sequence data. It is an updated, improved, and integrated version of CRISPRFinder and CasFinder.   
+~~~~~~~~
+Crisprcasfinder is an updated, improved, and integrated version of CRISPRFinder and CasFinder.
 
-Detailed usage can be found here: https://github.com/dcouvin/CRISPRCasFinder
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/crisprcasfinder 
+| Home page: https://github.com/dcouvin/CRISPRCasFinder
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 4.2.20
-  * - BELL
-    - 4.2.20
-  * - GAUTSCHI
-    - 4.2.20
-  * - NEGISHI
-    - 4.2.20
-  * - SCHOLAR
-    - 4.2.20
+~~~~~~~~
+- 4.2.20
 
 Commands
-~~~~~~
-- CRISPRCasFinder.pl  
+~~~~~~~
+- CRISPRCasFinder.pl
 
 Module
-~~~~~~~
+~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load crisprcasfinder/4.2.20 
+    module load crisprcasfinder
 
 Example job
-~~~~~~
+~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run CRISPRCasFinder on our our clusters::
+To run crisprcasfinder on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
-    #SBATCH -t 2:00:00
+    #SBATCH -A myallocation     # Allocation name
+    #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 12
-    #SBATCH --job-name=CRISPRCasFinder
+    #SBATCH -n 1
+    #SBATCH --job-name=crisprcasfinder
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers crisprcasfinder/4.2.20 
-    
-    CRISPRCasFinder.pl -in install_test/sequence.fasta -cas -cf CasFinder-2.0.3 -def G -keep
+    ml biocontainers crisprcasfinder
+

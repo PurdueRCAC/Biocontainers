@@ -12,26 +12,12 @@ PyVCF3 has been created because the Official PyVCF repository is no longer maint
 | BioContainers: https://biocontainers.pro/tools/pyvcf3 
 | Home page: https://github.com/dridk/PyVCF3
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.3
-  * - BELL
-    - 1.0.3
-  * - GAUTSCHI
-    - 1.0.3
-  * - NEGISHI
-    - 1.0.3
-  * - SCHOLAR
-    - 1.0.3
+~~~~~~~~
+- 1.0.3
 
 Commands
 ~~~~~~~
@@ -64,3 +50,4 @@ To run pyvcf3 on our clusters::
 
     module --force purge
     ml biocontainers pyvcf3
+

@@ -12,26 +12,12 @@ Snp-dists is a tool to convert a FASTA alignment to SNP distance matrix.
 | Docker hub: https://hub.docker.com/r/staphb/snp-dists 
 | Home page: https://github.com/tseemann/snp-dists
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.8.2
-  * - BELL
-    - 0.8.2
-  * - GAUTSCHI
-    - 0.8.2
-  * - NEGISHI
-    - 0.8.2
-  * - SCHOLAR
-    - 0.8.2
+~~~~~~~~
+- 0.8.2
 
 Commands
 ~~~~~~~
@@ -64,4 +50,3 @@ To run snp-dists on our clusters::
     module --force purge
     ml biocontainers snp-dists
 
-    snp-dists test/good.aln > distances.tab

@@ -5,30 +5,20 @@ Gmap
 
 Introduction
 ~~~~~~~~
-``Gmap`` is a genomic mapping and alignment program for mRNA and EST sequences. 
+Gmap is a genomic mapping and alignment program for mRNA and EST sequences.
 
-| For more information, please check its website: https://biocontainers.pro/tools/gmap and its home page: http://research-pub.gene.com/gmap/.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/gmap 
+| Home page: http://research-pub.gene.com/gmap/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2021.05.27, 2021.08.25
-  * - BELL
-    - 2021.05.27, 2021.08.25
-  * - GAUTSCHI
-    - 2021.05.27, 2021.08.25
-  * - NEGISHI
-    - 2021.05.27, 2021.08.25
-  * - SCHOLAR
-    - 2021.05.27, 2021.08.25
+~~~~~~~~
+- 2021.05.27
+- 2021.08.25
 
 Commands
 ~~~~~~~
@@ -79,7 +69,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load gmap
 
@@ -88,13 +78,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Gmap on our clusters::
+To run gmap on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 4
+    #SBATCH -n 1
     #SBATCH --job-name=gmap
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -103,8 +93,3 @@ To run Gmap on our clusters::
     module --force purge
     ml biocontainers gmap
 
-    gmap_build -d Cmm -D Cmm genome.fasta
-    gmap -d Cmm -t 4 -D ./Cmm  cdna.fasta > gmap_out.txt
-
-    gmap_build -d GRCh38 -D GRCh38 Homo_sapiens.GRCh38.dna.primary_assembly.fa
-    gsnap -d GRCh38 -D ./GRCh38 --nthreads=4  SRR16956239_1.fastq SRR16956239_2.fastq > gsnap_out.txt

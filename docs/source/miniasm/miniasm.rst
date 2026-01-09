@@ -5,30 +5,19 @@ Miniasm
 
 Introduction
 ~~~~~~~~
-``Miniasm`` is a very fast OLC-based de novo assembler for noisy long reads. 
+Miniasm is a very fast OLC-based de novo assembler for noisy long reads.
 
-| For more information, please check its website: https://biocontainers.pro/tools/miniasm and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/miniasm 
+| Home page: https://github.com/lh3/miniasm
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.3_r179
-  * - BELL
-    - 0.3_r179
-  * - GAUTSCHI
-    - 0.3_r179
-  * - NEGISHI
-    - 0.3_r179
-  * - SCHOLAR
-    - 0.3_r179
+~~~~~~~~
+- 0.3_r179
 
 Commands
 ~~~~~~~
@@ -38,7 +27,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load miniasm
 
@@ -47,13 +36,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Miniasm on our clusters::
+To run miniasm on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 12
+    #SBATCH -n 1
     #SBATCH --job-name=miniasm
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -62,6 +51,3 @@ To run Miniasm on our clusters::
     module --force purge
     ml biocontainers miniasm
 
-    miniasm -f Elysia_ont_test.fq  Elysia_reads.paf.gz \
-         > Elysia_reads.gfa
-.. _Github:  https://github.com/lh3/miniasm

@@ -5,30 +5,20 @@ Advntr
 
 Introduction
 ~~~~~~~~
-``Advntr`` is a tool for genotyping Variable Number Tandem Repeats (VNTR) from sequence data. 
+Advntr is a tool for genotyping Variable Number Tandem Repeats (VNTR) from sequence data.
 
-| For more information, please check its website: https://biocontainers.pro/tools/advntr and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/advntr 
+| Home page: https://github.com/mehrdadbakhtiari/adVNTR
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.4.0, 1.5.0
-  * - BELL
-    - 1.4.0, 1.5.0
-  * - GAUTSCHI
-    - 1.4.0, 1.5.0
-  * - NEGISHI
-    - 1.4.0, 1.5.0
-  * - SCHOLAR
-    - 1.4.0, 1.5.0
+~~~~~~~~
+- 1.4.0
+- 1.5.0
 
 Commands
 ~~~~~~~
@@ -37,7 +27,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load advntr
 
@@ -46,10 +36,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Advntr on our clusters::
+To run advntr on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -60,7 +50,4 @@ To run Advntr on our clusters::
 
     module --force purge
     ml biocontainers advntr
- 
-    advntr addmodel -r chr21.fa -p CGCGGGGCGGGG -s 45196324 -e 45196360 -c chr21
-    advntr genotype --vntr_id 1 --alignment_file CSTB_2_5_testdata.bam --working_directory working_dir
-.. _Github: https://github.com/mehrdadbakhtiari/adVNTR
+

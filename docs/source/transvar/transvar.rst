@@ -5,30 +5,19 @@ Transvar
 
 Introduction
 ~~~~~~~~
-``Transvar`` is a multi-way annotator for genetic elements and genetic variations. 
+Transvar is a multi-way annotator for genetic elements and genetic variations.
 
-| For more information, please check its | Docker hub: https://hub.docker.com/r/zhouwanding/transvar and its home page: https://bioinformatics.mdanderson.org/public-software/transvar/.
+
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/zhouwanding/transvar 
+| Home page: https://bioinformatics.mdanderson.org/public-software/transvar/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.5.9
-  * - BELL
-    - 2.5.9
-  * - GAUTSCHI
-    - 2.5.9
-  * - NEGISHI
-    - 2.5.9
-  * - SCHOLAR
-    - 2.5.9
+~~~~~~~~
+- 2.5.9
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load transvar
 
@@ -46,10 +35,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Transvar on our clusters::
+To run transvar on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,10 +50,3 @@ To run Transvar on our clusters::
     module --force purge
     ml biocontainers transvar
 
-    # set up databases
-    transvar config --download_anno --refversion hg19
-
-    # in case you don't have a reference
-    transvar config --download_ref --refversion hg19
-
-    transvar panno -i 'PIK3CA:p.E545K' --ucsc --ccds

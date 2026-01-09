@@ -5,30 +5,20 @@ Dbg2olc
 
 Introduction
 ~~~~~~~~
-``Dbg2olc`` is used for efficient assembly of large genomes using long erroneous reads of the third generation sequencing technologies. 
+Dbg2olc is used for efficient assembly of large genomes using long erroneous reads of the third generation sequencing technologies.
 
-| For more information, please check its website: https://biocontainers.pro/tools/dbg2olc and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/dbg2olc 
+| Home page: https://github.com/yechengxi/DBG2OLC
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 20180222, 20200723
-  * - BELL
-    - 20180222, 20200723
-  * - GAUTSCHI
-    - 20180222, 20200723
-  * - NEGISHI
-    - 20180222, 20200723
-  * - SCHOLAR
-    - 20180222, 20200723
+~~~~~~~~
+- 20180222
+- 20200723
 
 Commands
 ~~~~~~~
@@ -46,7 +36,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load dbg2olc
 
@@ -55,10 +45,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Dbg2olc on our clusters::
+To run dbg2olc on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -70,5 +60,3 @@ To run Dbg2olc on our clusters::
     module --force purge
     ml biocontainers dbg2olc
 
-    SelectLongestReads sum 600000000 longest 0 o TEST.fq f SRR1976948.abundtrim.subset.pe.fq
-.. _Github: https://github.com/yechengxi/DBG2OLC

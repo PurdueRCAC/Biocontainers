@@ -11,26 +11,12 @@ Covgen creates a target specific exome_full192.coverage.txt file required by Mut
 | For more information, please check:
 | Home page: https://github.com/tgen/CovGen
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.2
-  * - BELL
-    - 1.0.2
-  * - GAUTSCHI
-    - 1.0.2
-  * - NEGISHI
-    - 1.0.2
-  * - SCHOLAR
-    - 1.0.2
+~~~~~~~~
+- 1.0.2
 
 Commands
 ~~~~~~~
@@ -62,3 +48,4 @@ To run covgen on our clusters::
 
     module --force purge
     ml biocontainers covgen
+

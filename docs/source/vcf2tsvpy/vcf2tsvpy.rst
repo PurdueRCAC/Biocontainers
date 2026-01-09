@@ -12,26 +12,12 @@ Vcf2tsvpy is a small Python program that converts genomic variant data encoded i
 | BioContainers: https://biocontainers.pro/tools/vcf2tsvpy 
 | Home page: https://github.com/sigven/vcf2tsvpy
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.6.0
-  * - BELL
-    - 0.6.0
-  * - GAUTSCHI
-    - 0.6.0
-  * - NEGISHI
-    - 0.6.0
-  * - SCHOLAR
-    - 0.6.0
+~~~~~~~~
+- 0.6.0
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run vcf2tsvpy on our clusters::
 
     module --force purge
     ml biocontainers vcf2tsvpy
+

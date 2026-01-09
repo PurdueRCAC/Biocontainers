@@ -11,26 +11,12 @@ pixy is a command-line tool for painlessly estimating average nucleotide diversi
 | For more information, please check:
 | Home page: https://github.com/ksamuk/pixy
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.2.7
-  * - BELL
-    - 1.2.7
-  * - GAUTSCHI
-    - 1.2.7
-  * - NEGISHI
-    - 1.2.7
-  * - SCHOLAR
-    - 1.2.7
+~~~~~~~~
+- 1.2.7
 
 Commands
 ~~~~~~~
@@ -62,3 +48,4 @@ To run pixy on our clusters::
 
     module --force purge
     ml biocontainers pixy
+

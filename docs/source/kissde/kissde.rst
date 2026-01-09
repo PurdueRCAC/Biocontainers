@@ -12,26 +12,12 @@ kissDE is a R package, similar to DEseq, but which works on pairs of variants, a
 | Docker hub: https://hub.docker.com/r/dwishsan/kissplice-pipeline 
 | Home page: https://kissplice.prabi.fr
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.15.3
-  * - BELL
-    - 1.15.3
-  * - GAUTSCHI
-    - 1.15.3
-  * - NEGISHI
-    - 1.15.3
-  * - SCHOLAR
-    - 1.15.3
+~~~~~~~~
+- 1.15.3
 
 Commands
 ~~~~~~~
@@ -65,3 +51,4 @@ To run kissde on our clusters::
 
     module --force purge
     ml biocontainers kissde
+

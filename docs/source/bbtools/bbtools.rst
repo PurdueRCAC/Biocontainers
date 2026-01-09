@@ -12,26 +12,12 @@ BBTools is a suite of fast, multithreaded bioinformatics tools designed for anal
 | Docker hub: https://hub.docker.com/r/staphb/bbtools 
 | Home page: https://jgi.doe.gov/data-and-tools/software-tools/bbtools/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 39.00
-  * - BELL
-    - 39.00
-  * - GAUTSCHI
-    - 39.00
-  * - NEGISHI
-    - 39.00
-  * - SCHOLAR
-    - 39.00
+~~~~~~~~
+- 39.00
 
 Commands
 ~~~~~~~
@@ -259,3 +245,4 @@ To run bbtools on our clusters::
 
     module --force purge
     ml biocontainers bbtools
+

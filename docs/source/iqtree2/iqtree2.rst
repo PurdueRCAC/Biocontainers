@@ -12,26 +12,13 @@ IQ-TREE is an efficient phylogenomic software by maximum likelihood.
 | BioContainers: https://biocontainers.pro/tools/iqtree 
 | Home page: http://www.iqtree.org
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.2.2.6, 2.2.2.9
-  * - BELL
-    - 2.2.2.6, 2.2.2.9
-  * - GAUTSCHI
-    - 2.2.2.6, 2.2.2.9
-  * - NEGISHI
-    - 2.2.2.6, 2.2.2.9
-  * - SCHOLAR
-    - 2.2.2.6, 2.2.2.9
+~~~~~~~~
+- 2.2.2.6
+- 2.2.2.9
 
 Commands
 ~~~~~~~
@@ -63,3 +50,4 @@ To run iqtree2 on our clusters::
 
     module --force purge
     ml biocontainers iqtree2
+

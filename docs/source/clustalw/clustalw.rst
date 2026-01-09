@@ -5,30 +5,19 @@ Clustalw
 
 Introduction
 ~~~~~~~~
-``Clustalw`` is a general purpose multiple alignment program for DNA or proteins. 
+Clustalw is a general purpose multiple alignment program for DNA or proteins.
 
-| For more information, please check its website: https://biocontainers.pro/tools/clustalw and its home page: http://www.clustal.org/clustal2/.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/clustalw 
+| Home page: http://www.clustal.org/clustal2/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.1
-  * - BELL
-    - 2.1
-  * - GAUTSCHI
-    - 2.1
-  * - NEGISHI
-    - 2.1
-  * - SCHOLAR
-    - 2.1
+~~~~~~~~
+- 2.1
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load clustalw
 
@@ -46,10 +35,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Clustalw on our clusters::
+To run clustalw on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,4 +50,3 @@ To run Clustalw on our clusters::
     module --force purge
     ml biocontainers clustalw
 
-    clustalw -tree -align -infile=seq.faa

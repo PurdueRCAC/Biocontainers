@@ -12,26 +12,12 @@ Model-based Analysis of Genome-wide CRISPR-Cas9 Knockout (MAGeCK) is a computati
 | Docker hub: https://hub.docker.com/r/davidliwei/mageck 
 | Home page: https://bitbucket.org/liulab/mageck/src/master/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.5.9.5
-  * - BELL
-    - 0.5.9.5
-  * - GAUTSCHI
-    - 0.5.9.5
-  * - NEGISHI
-    - 0.5.9.5
-  * - SCHOLAR
-    - 0.5.9.5
+~~~~~~~~
+- 0.5.9.5
 
 Commands
 ~~~~~~~
@@ -66,10 +52,3 @@ To run mageck on our clusters::
     module --force purge
     ml biocontainers mageck
 
-
-    mageck count -l library.txt -n demo \
-         --sample-label L1,CTRL \
-         --fastq test1.fastq test2.fastq
-  
-    mageck test -k demo.count.txt \
-         -t L1 -c CTRL -n demo

@@ -5,30 +5,19 @@ Varlociraptor
 
 Introduction
 ~~~~~~~~
-``Varlociraptor`` implements a novel, unified fully uncertainty-aware approach to genomic variant calling in arbitrary scenarios. 
+Varlociraptor implements a novel, unified fully uncertainty-aware approach to genomic variant calling in arbitrary scenarios.
 
-| For more information, please check its website: https://biocontainers.pro/tools/varlociraptor and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/varlociraptor 
+| Home page: https://github.com/varlociraptor/varlociraptor
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 4.11.4
-  * - BELL
-    - 4.11.4
-  * - GAUTSCHI
-    - 4.11.4
-  * - NEGISHI
-    - 4.11.4
-  * - SCHOLAR
-    - 4.11.4
+~~~~~~~~
+- 4.11.4
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load varlociraptor
 
@@ -46,10 +35,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Varlociraptor on our clusters::
+To run varlociraptor on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,5 +50,3 @@ To run Varlociraptor on our clusters::
     module --force purge
     ml biocontainers varlociraptor
 
-    varlociraptor call variants tumor-normal --purity 0.75 --tumor
-.. _Github: https://github.com/varlociraptor/varlociraptor

@@ -12,26 +12,12 @@ SURVIVOR is a tool set for simulating/evaluating SVs, merging and comparing SVs 
 | BioContainers: https://biocontainers.pro/tools/survivor 
 | Home page: https://github.com/fritzsedlazeck/SURVIVOR
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.7
-  * - BELL
-    - 1.0.7
-  * - GAUTSCHI
-    - 1.0.7
-  * - NEGISHI
-    - 1.0.7
-  * - SCHOLAR
-    - 1.0.7
+~~~~~~~~
+- 1.0.7
 
 Commands
 ~~~~~~~
@@ -64,7 +50,3 @@ To run survivor on our clusters::
     module --force purge
     ml biocontainers survivor
 
-    SURVIVOR simSV parameter_file
-    SURVIVOR simSV ref.fa parameter_file 0.1 0 simulated
-    SURVIVOR eval caller.vcf simulated.bed 10 eval_res
-~                                                    

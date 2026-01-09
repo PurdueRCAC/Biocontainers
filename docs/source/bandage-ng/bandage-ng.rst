@@ -12,24 +12,12 @@ Bandage-NG is a GUI program that allows users to interact with the assembly grap
 | BioContainers: https://biocontainers.pro/tools/bandage_ng 
 | Home page: https://github.com/asl/BandageNG
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2022.09
-  * - BELL
-    - 2022.09
-  * - GAUTSCHI
-    - 2022.09
-  * - NEGISHI
-    - 2022.09
+~~~~~~~~
+- 2022.09
 
 Commands
 ~~~~~~~
@@ -61,3 +49,4 @@ To run bandage-ng on our clusters::
 
     module --force purge
     ml biocontainers bandage-ng
+

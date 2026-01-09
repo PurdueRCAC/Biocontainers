@@ -1,34 +1,26 @@
-.. _backbone-label:  
-SRA-Toolkit
-============================== 
+.. _backbone-label:
+
+Sra-tools
+==============================
 
 Introduction
-~~~~~~~
-``SRA-Toolkit``  is a collection of tools and libraries for using data in the INSDC Sequence Read Archives. Its detailed documentation can be found in https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc. 
+~~~~~~~~
+The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives.
+
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/sra-tools 
+| Home page: https://github.com/ncbi/sra-tools
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.11.0-pl5262
-  * - BELL
-    - 2.11.0-pl5262
-  * - GAUTSCHI
-    - 2.11.0-pl5262
-  * - NEGISHI
-    - 2.11.0-pl5262
-  * - SCHOLAR
-    - 2.11.0-pl5262
+~~~~~~~~
+- 2.11.0-pl5262
 
 Commands
-~~~~~ 
+~~~~~~~
 - abi-dump
 - align-cache
 - align-info
@@ -72,38 +64,29 @@ Commands
 - vdb-validate
 
 Module
-~~~~~~~
+~~~~~~~~
 You can load the modules by::
-    
-    module load biocontainers
-    module load sra-tools/2.11.0-pl5262
 
-Configuring SRA-Toolkit
-~~~~~~
-Users can config SRA-Toolkit by the command ``vdb-config``. For example, the below command set up the current working directory for downloading::
-    
-   vdb-config --prefetch-to-cwd
-  
+    module load biocontainers
+    module load sra-tools
+
 Example job
-~~~~~~~
+~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run SRA-Toolkit on our cluster::
+To run sra-tools on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 8
-    #SBATCH --job-name=SRA-Toolkit
+    #SBATCH -n 1
+    #SBATCH --job-name=sra-tools
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers sra-tools/2.11.0-pl5262
-    
-    vdb-config --prefetch-to-cwd # The data will be downloaded to the current working directory.  
-    prefetch SRR11941281
-    fastq-dump --split-3 SRR11941281/SRR11941281.sra
+    ml biocontainers sra-tools
+

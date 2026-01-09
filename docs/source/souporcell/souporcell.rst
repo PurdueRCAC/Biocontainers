@@ -11,26 +11,12 @@ souporcell is a method for clustering mixed-genotype scRNAseq experiments by ind
 | For more information, please check:
 | Home page: https://github.com/wheaton5/souporcell
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.0
-  * - BELL
-    - 2.0
-  * - GAUTSCHI
-    - 2.0
-  * - NEGISHI
-    - 2.0
-  * - SCHOLAR
-    - 2.0
+~~~~~~~~
+- 2.0
 
 Commands
 ~~~~~~~
@@ -61,7 +47,7 @@ To run souporcell on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 8
+    #SBATCH -n 1
     #SBATCH --job-name=souporcell
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -70,7 +56,3 @@ To run souporcell on our clusters::
     module --force purge
     ml biocontainers souporcell
 
-    souporcell_pipeline.py -i A.merged.bam \
-        -b GSM2560245_barcodes.tsv \
-        -f refdata-cellranger-GRCh38-3.0.0/fasta/genome.fa \
-        -t 8 -o demux_data_test -k 4

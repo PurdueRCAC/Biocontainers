@@ -12,26 +12,12 @@ Pandora is a tool for bacterial genome analysis using a pangenome reference grap
 | BioContainers: https://biocontainers.pro/tools/pandora 
 | Home page: https://github.com/rmcolq/pandora
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.9.1
-  * - BELL
-    - 0.9.1
-  * - GAUTSCHI
-    - 0.9.1
-  * - NEGISHI
-    - 0.9.1
-  * - SCHOLAR
-    - 0.9.1
+~~~~~~~~
+- 0.9.1
 
 Commands
 ~~~~~~~
@@ -55,7 +41,7 @@ To run pandora on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 4
+    #SBATCH -n 1
     #SBATCH --job-name=pandora
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -64,4 +50,3 @@ To run pandora on our clusters::
     module --force purge
     ml biocontainers pandora
 
-    pandora index -t 4 GC00006032.fa

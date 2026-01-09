@@ -6,30 +6,18 @@ Phast
 Introduction
 ~~~~~~~~
 PHAST is a freely available software package for comparative and evolutionary genomics.
-For more information, please check:
-BioContainers: https://biocontainers.pro/tools/phast 
-Home page: http://compgen.cshl.edu/phast/
+
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/phast 
+| Home page: http://compgen.cshl.edu/phast/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.5
-  * - BELL
-    - 1.5
-  * - GAUTSCHI
-    - 1.5
-  * - NEGISHI
-    - 1.5
-  * - SCHOLAR
-    - 1.5
+~~~~~~~~
+- 1.5
 
 Commands
 ~~~~~~~
@@ -100,3 +88,4 @@ To run phast on our clusters::
 
     module --force purge
     ml biocontainers phast
+

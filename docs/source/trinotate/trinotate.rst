@@ -5,30 +5,18 @@ Trinotate
 
 Introduction
 ~~~~~~~~
-``Trinotate`` is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms. 
+Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms.
 
-| For more information, please check its website: https://biocontainers.pro/tools/trinotate and its home page on `Github`_.
+
+| For more information, please check:
+| Home page: https://github.com/Trinotate/Trinotate.github.io/blob/master/index.asciidoc
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.2.2
-  * - BELL
-    - 3.2.2
-  * - GAUTSCHI
-    - 3.2.2
-  * - NEGISHI
-    - 3.2.2
-  * - SCHOLAR
-    - 3.2.2
+~~~~~~~~
+- 3.2.2
 
 Commands
 ~~~~~~~
@@ -98,7 +86,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load trinotate
 
@@ -107,10 +95,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Trinotate on our clusters::
+To run trinotate on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -122,17 +110,3 @@ To run Trinotate on our clusters::
     module --force purge
     ml biocontainers trinotate
 
-    sqlite_db="myTrinotate.sqlite"
-    
-    Trinotate ${sqlite_db} init \
-        --gene_trans_map data/Trinity.fasta.gene_to_trans_map \
-        --transcript_fasta data/Trinity.fasta \
-         --transdecoder_pep \
-        data/Trinity.fasta.transdecoder.pep
-
-    Trinotate ${sqlite_db} LOAD_swissprot_blastp data/swissprot.blastp.outfmt6
-    
-    Trinotate ${sqlite_db} LOAD_pfam data/TrinotatePFAM.out
- 
-    
-.. _Github: https://github.com/Trinotate/Trinotate.github.io/blob/master/index.asciidoc

@@ -5,30 +5,20 @@ Bismark
 
 Introduction
 ~~~~~~~~
-``Bismark`` is a tool to map bisulfite treated sequencing reads to a genome of interest and perform methylation calls in a single step. 
+Bismark is a tool to map bisulfite treated sequencing reads to a genome of interest and perform methylation calls in a single step
 
-| For more information, please check its website: https://biocontainers.pro/tools/bismark and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/bismark 
+| Home page: https://github.com/FelixKrueger/Bismark
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.23.0, 0.24.0
-  * - BELL
-    - 0.23.0, 0.24.0
-  * - GAUTSCHI
-    - 0.23.0, 0.24.0
-  * - NEGISHI
-    - 0.23.0, 0.24.0
-  * - SCHOLAR
-    - 0.23.0, 0.24.0
+~~~~~~~~
+- 0.23.0
+- 0.24.0
 
 Commands
 ~~~~~~~
@@ -44,16 +34,38 @@ Commands
 - deduplicate_bismark
 - filter_non_conversion
 - methylation_consistency
-
-Dependencies
-~~~~~
-``Bowtie v2.4.2``, ``Samtools v1.12``, ``HISAT2 v2.2.1`` were included in the container image. So users do not need to provide the dependency path in the bismark parameter.
-
+- --
+- Bismark
+- has
+- Samtools
+- Bowtie2
+- and
+- HISAT2
+- inside.
+- Should
+- we
+- --
+- alias
+- them
+- for
+- the
+- user
+- as
+- well
+- or
+- keep
+- them
+- internal?
+- --
+- Keep
+- hidden
+- for
+- now.
 
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load bismark
 
@@ -62,13 +74,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Bismark on our clusters::
+To run bismark on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 12
+    #SBATCH -n 1
     #SBATCH --job-name=bismark
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -77,8 +89,3 @@ To run Bismark on our clusters::
     module --force purge
     ml biocontainers bismark
 
-    bismark_genome_preparation --bowtie2 data/ref_genome
-
-    bismark --multicore 12 --genome data/ref_genome seq.fastq
-
-.. _Github: https://github.com/FelixKrueger/Bismark

@@ -12,26 +12,12 @@ Whatshap is a software for phasing genomic variants using DNA sequencing reads, 
 | BioContainers: https://biocontainers.pro/tools/whatshap 
 | Home page: https://github.com/whatshap/whatshap
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.4
-  * - BELL
-    - 1.4
-  * - GAUTSCHI
-    - 1.4
-  * - NEGISHI
-    - 1.4
-  * - SCHOLAR
-    - 1.4
+~~~~~~~~
+- 1.4
 
 Commands
 ~~~~~~~
@@ -64,6 +50,3 @@ To run whatshap on our clusters::
     module --force purge
     ml biocontainers whatshap
 
-    whatshap phase --indels \ 
-        --reference=reference.fasta \
-        variants.vcf pacbio.bam

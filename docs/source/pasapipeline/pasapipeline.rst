@@ -12,26 +12,12 @@ PASA, acronym for Program to Assemble Spliced Alignments (and pronounced 'pass-u
 | Docker hub: https://hub.docker.com/r/pasapipeline/pasapipeline 
 | Home page: https://github.com/PASApipeline/PASApipeline
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.5.2-devb
-  * - BELL
-    - 2.5.2-devb
-  * - GAUTSCHI
-    - 2.5.2-devb
-  * - NEGISHI
-    - 2.5.2-devb
-  * - SCHOLAR
-    - 2.5.2-devb
+~~~~~~~~
+- 2.5.2-devb
 
 Commands
 ~~~~~~~
@@ -152,3 +138,4 @@ To run pasapipeline on our clusters::
 
     module --force purge
     ml biocontainers pasapipeline
+

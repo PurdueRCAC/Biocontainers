@@ -12,26 +12,12 @@ LongQC is a tool for the data quality control of the PacBio and ONT long reads.
 | Docker hub: https://hub.docker.com/r/cymbopogon/longqc 
 | Home page: https://github.com/yfukasawa/LongQC
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.2.0c
-  * - BELL
-    - 1.2.0c
-  * - GAUTSCHI
-    - 1.2.0c
-  * - NEGISHI
-    - 1.2.0c
-  * - SCHOLAR
-    - 1.2.0c
+~~~~~~~~
+- 1.2.0c
 
 Commands
 ~~~~~~~
@@ -64,4 +50,3 @@ To run longqc on our clusters::
     module --force purge
     ml biocontainers longqc
 
-    longQC.py sampleqc -x pb-rs2 -o out_dir seq.fastq

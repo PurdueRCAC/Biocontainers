@@ -5,30 +5,19 @@ Fraggenescan
 
 Introduction
 ~~~~~~~~
-``Fraggenescan`` is an application for finding (fragmented) genes in short reads. It can also be applied to predict prokaryotic genes in incomplete assemblies or complete genomes. 
+Fraggenescan is an application for finding (fragmented) genes in short reads. It can also be applied to predict prokaryotic genes in incomplete assemblies or complete genomes.
 
-| For more information, please check its website: https://biocontainers.pro/tools/fraggenescan and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/fraggenescan 
+| Home page: https://github.com/gaberoo/FragGeneScan
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.31
-  * - BELL
-    - 1.31
-  * - GAUTSCHI
-    - 1.31
-  * - NEGISHI
-    - 1.31
-  * - SCHOLAR
-    - 1.31
+~~~~~~~~
+- 1.31
 
 Commands
 ~~~~~~~
@@ -38,7 +27,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load fraggenescan
 
@@ -47,10 +36,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Fraggenescan on our clusters::
+To run fraggenescan on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -62,6 +51,3 @@ To run Fraggenescan on our clusters::
     module --force purge
     ml biocontainers fraggenescan
 
-    FragGeneScanRs -t 454_10 < example/NC_000913-454.fna > example/NC_000913-454.faa
-
-.. _Github: https://github.com/gaberoo/FragGeneScan

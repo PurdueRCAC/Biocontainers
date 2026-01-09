@@ -5,30 +5,21 @@ Seqkit
 
 Introduction
 ~~~~~~~~
-``Seqkit`` is a rapid tool for manipulating fasta and fastq files. 
+Seqkit is a rapid tool for manipulating fasta and fastq files.
 
-| For more information, please check its website: https://biocontainers.pro/tools/seqkit and its home page on `Github`_.
+
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/staphb/seqkit 
+| Home page: https://github.com/shenwei356/seqkit
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.0.0, 2.1.0, 2.3.1
-  * - BELL
-    - 2.0.0, 2.1.0, 2.3.1
-  * - GAUTSCHI
-    - 2.0.0, 2.1.0, 2.3.1
-  * - NEGISHI
-    - 2.0.0, 2.1.0, 2.3.1
-  * - SCHOLAR
-    - 2.0.0, 2.1.0, 2.3.1
+~~~~~~~~
+- 2.0.0
+- 2.1.0
+- 2.3.1
 
 Commands
 ~~~~~~~
@@ -37,7 +28,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load seqkit
 
@@ -46,10 +37,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Seqkit on our clusters::
+To run seqkit on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,5 +52,3 @@ To run Seqkit on our clusters::
     module --force purge
     ml biocontainers seqkit
 
-    seqkit stats configs.fasta > contigs_statistics.txt
-.. _Github: https://github.com/shenwei356/seqkit

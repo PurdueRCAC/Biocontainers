@@ -12,26 +12,12 @@ memes is an R interface to the MEME Suite family of tools, which provides severa
 | Docker hub: https://hub.docker.com/r/snystrom/memes_docker 
 | Home page: https://github.com/snystrom/memes
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.1.2
-  * - BELL
-    - 1.1.2
-  * - GAUTSCHI
-    - 1.1.2
-  * - NEGISHI
-    - 1.1.2
-  * - SCHOLAR
-    - 1.1.2
+~~~~~~~~
+- 1.1.2
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run memes on our clusters::
 
     module --force purge
     ml biocontainers memes
+

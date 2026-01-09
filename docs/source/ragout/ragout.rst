@@ -5,30 +5,19 @@ Ragout
 
 Introduction
 ~~~~~~~~
-``Ragout`` is a tool for chromosome-level scaffolding using multiple references. 
+Ragout is a tool for chromosome-level scaffolding using multiple references.
 
-| For more information, please check its website: https://biocontainers.pro/tools/ragout and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/ragout 
+| Home page: https://github.com/fenderglass/Ragout
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.3
-  * - BELL
-    - 2.3
-  * - GAUTSCHI
-    - 2.3
-  * - NEGISHI
-    - 2.3
-  * - SCHOLAR
-    - 2.3
+~~~~~~~~
+- 2.3
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load ragout
 
@@ -46,10 +35,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Ragout on our clusters::
+To run ragout on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,4 +50,3 @@ To run Ragout on our clusters::
     module --force purge
     ml biocontainers ragout
 
-.. _Github: https://github.com/fenderglass/Ragout

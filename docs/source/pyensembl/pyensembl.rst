@@ -5,30 +5,19 @@ Pyensembl
 
 Introduction
 ~~~~~~~~
-``Pyensembl`` is a Python interface to Ensembl reference genome metadata such as exons and transcripts. 
+Pyensembl is a Python interface to Ensembl reference genome metadata such as exons and transcripts.
 
-| For more information, please check its website: https://biocontainers.pro/tools/pyensembl and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/pyensembl 
+| Home page: https://github.com/openvax/pyensembl
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.9.4
-  * - BELL
-    - 1.9.4
-  * - GAUTSCHI
-    - 1.9.4
-  * - NEGISHI
-    - 1.9.4
-  * - SCHOLAR
-    - 1.9.4
+~~~~~~~~
+- 1.9.4
 
 Commands
 ~~~~~~~
@@ -39,7 +28,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load pyensembl
 
@@ -48,10 +37,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Pyensembl on our clusters::
+To run pyensembl on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -63,4 +52,3 @@ To run Pyensembl on our clusters::
     module --force purge
     ml biocontainers pyensembl
 
-.. _Github: https://github.com/openvax/pyensembl

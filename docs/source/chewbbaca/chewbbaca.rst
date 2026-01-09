@@ -12,26 +12,12 @@ chewBBACA is a comprehensive pipeline including a set of functions for the creat
 | BioContainers: https://biocontainers.pro/tools/chewbbaca 
 | Home page: https://github.com/B-UMMI/chewBBACA
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.8.5
-  * - BELL
-    - 2.8.5
-  * - GAUTSCHI
-    - 2.8.5
-  * - NEGISHI
-    - 2.8.5
-  * - SCHOLAR
-    - 2.8.5
+~~~~~~~~
+- 2.8.5
 
 Commands
 ~~~~~~~
@@ -55,7 +41,7 @@ To run chewbbaca on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 4
+    #SBATCH -n 1
     #SBATCH --job-name=chewbbaca
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -64,5 +50,3 @@ To run chewbbaca on our clusters::
     module --force purge
     ml biocontainers chewbbaca
 
-    chewBBACA.py CreateSchema -i complete_genomes/ -o tutorial_schema --ptf Streptococcus_agalactiae.trn --cpu 4
-    chewBBACA.py AlleleCall -i complete_genomes/ -g tutorial_schema/schema_seed -o results32_wgMLST --cpu 4

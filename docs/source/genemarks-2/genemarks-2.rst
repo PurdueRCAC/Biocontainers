@@ -9,28 +9,14 @@ GeneMarkS-2 combines GeneMark.hmm (prokaryotic) and GeneMark (prokaryotic) with 
 
 
 | For more information, please check:
-The users need to download your own licence key from GeneMark website and copy key "gm_key" into users' home directory as: cp gm_key ~/.gm_key | Home page: http://opal.biology.gatech.edu/GeneMark/
+| The users need to download your own licence key from GeneMark website and copy key "gm_key" into users' home directory as: cp gm_key ~/.gm_key Home page: http://opal.biology.gatech.edu/GeneMark/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.14_1.25
-  * - BELL
-    - 1.14_1.25
-  * - GAUTSCHI
-    - 1.14_1.25
-  * - NEGISHI
-    - 1.14_1.25
-  * - SCHOLAR
-    - 1.14_1.25
+~~~~~~~~
+- 1.14_1.25
 
 Commands
 ~~~~~~~
@@ -65,3 +51,4 @@ To run genemarks-2 on our clusters::
 
     module --force purge
     ml biocontainers genemarks-2
+

@@ -11,26 +11,12 @@ Drop-seq are java tools for analyzing Drop-seq data.
 | For more information, please check:
 | Home page: https://github.com/broadinstitute/Drop-seq
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.5.2
-  * - BELL
-    - 2.5.2
-  * - GAUTSCHI
-    - 2.5.2
-  * - NEGISHI
-    - 2.5.2
-  * - SCHOLAR
-    - 2.5.2
+~~~~~~~~
+- 2.5.2
 
 Commands
 ~~~~~~~
@@ -116,3 +102,4 @@ To run drop-seq on our clusters::
 
     module --force purge
     ml biocontainers drop-seq
+

@@ -12,26 +12,12 @@ Metachip is a pipeline for Horizontal gene transfer (HGT) identification.
 | BioContainers: https://biocontainers.pro/tools/metachip 
 | Home page: https://github.com/songweizhi/MetaCHIP
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.10.12
-  * - BELL
-    - 1.10.12
-  * - GAUTSCHI
-    - 1.10.12
-  * - NEGISHI
-    - 1.10.12
-  * - SCHOLAR
-    - 1.10.12
+~~~~~~~~
+- 1.10.12
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run metachip on our clusters::
 
     module --force purge
     ml biocontainers metachip
+

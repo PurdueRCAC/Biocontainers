@@ -12,26 +12,12 @@ gfatools is a set of tools for manipulating sequence graphs in the GFA or the rG
 | BioContainers: https://biocontainers.pro/tools/gfatools 
 | Home page: https://github.com/lh3/gfatools
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.5
-  * - BELL
-    - 0.5
-  * - GAUTSCHI
-    - 0.5
-  * - NEGISHI
-    - 0.5
-  * - SCHOLAR
-    - 0.5
+~~~~~~~~
+- 0.5
 
 Commands
 ~~~~~~~
@@ -64,12 +50,3 @@ To run gfatools on our clusters::
     module --force purge
     ml biocontainers gfatools
 
-    # Extract a subgraph
-    gfatools view -l MTh4502 -r 1 test/MT.gfa > sub.gfa
-    
-    # Convert GFA to segment FASTA
-    gfatools gfa2fa test/MT.gfa > MT-seg.fa
-
-    # Convert rGFA to stable FASTA or BED
-    gfatools gfa2fa -s test/MT.gfa > MT.fa
-    gfatools gfa2bed -m test/MT.gfa > MT.bed

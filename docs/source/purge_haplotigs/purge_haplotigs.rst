@@ -12,20 +12,12 @@ A simple pipeline for reassigning primary contigs that should be labelled as hap
 | BioContainers: https://biocontainers.pro/tools/purge_haplotigs 
 | Home page: https://bitbucket.org/mroachawri/purge_haplotigs/src/master/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.1.3
-  * - NEGISHI
-    - 1.1.3
+~~~~~~~~
+- 1.1.3
 
 Commands
 ~~~~~~~
@@ -57,3 +49,4 @@ To run purge_haplotigs on our clusters::
 
     module --force purge
     ml biocontainers purge_haplotigs
+

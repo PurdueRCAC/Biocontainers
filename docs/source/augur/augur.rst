@@ -5,30 +5,20 @@ Augur
 
 Introduction
 ~~~~~~~~
-``Augur`` is the bioinformatics toolkit we use to track evolution from sequence and serological data. 
+Augur is the bioinformatics toolkit we use to track evolution from sequence and serological data.
 
-| For more information, please check its website: https://biocontainers.pro/tools/augur and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/augur 
+| Home page: https://github.com/nextstrain/augur
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 14.0.0, 15.0.0
-  * - BELL
-    - 14.0.0, 15.0.0
-  * - GAUTSCHI
-    - 14.0.0, 15.0.0
-  * - NEGISHI
-    - 14.0.0, 15.0.0
-  * - SCHOLAR
-    - 14.0.0, 15.0.0
+~~~~~~~~
+- 14.0.0
+- 15.0.0
 
 Commands
 ~~~~~~~
@@ -37,7 +27,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load augur
 
@@ -46,10 +36,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Augur on our our clusters::
+To run augur on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,37 +51,3 @@ To run Augur on our our clusters::
     module --force purge
     ml biocontainers augur
 
-    mkdir -p results
-    augur index --sequences zika-tutorial/data/sequences.fasta \
-                --output results/sequence_index.tsv
-
-    augur filter --sequences zika-tutorial/data/sequences.fasta \
-                 --sequence-index results/sequence_index.tsv \
-                 --metadata  zika-tutorial/data/metadata.tsv \
-                 --exclude zika-tutorial/config/dropped_strains.txt \ 
-                 --output results/filtered.fasta \
-                 --group-by country year month \
-                 --sequences-per-group 20 \
-                 --min-date 2012
-
-    augur align --sequences results/filtered.fasta \ 
-                --reference-sequence zika-tutorial/config/zika_outgroup.gb \
-                --output results/aligned.fasta \
-                --fill-gaps
-
-    augur tree --alignment results/aligned.fasta \
-               --output results/tree_raw.nwk
-
-    augur refine --tree results/tree_raw.nwk \
-                 --alignment results/aligned.fasta \
-                 --metadata  zika-tutorial/data/metadata.tsv \
-                 --output-tree results/tree.nwk \
-                 --output-node-data results/branch_lengths.json \
-                 --timetree \
-                 --coalescent opt \
-                 --date-confidence \
-                 --date-inference marginal \
-                 --clock-filter-iqd 4
-
-
-.. _Github: https://github.com/nextstrain/augur

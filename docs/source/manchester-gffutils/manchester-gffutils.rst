@@ -11,24 +11,12 @@ The University of Manchester GFFUtils package provides a small set of utility pr
 | For more information, please check:
 | Home page: https://github.com/fls-bioinformatics-core/GFFUtils
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.12.0
-  * - BELL
-    - 0.12.0
-  * - GAUTSCHI
-    - 0.12.0
-  * - NEGISHI
-    - 0.12.0
+~~~~~~~~
+- 0.12.0
 
 Commands
 ~~~~~~~
@@ -63,3 +51,4 @@ To run manchester-gffutils on our clusters::
 
     module --force purge
     ml biocontainers manchester-gffutils
+

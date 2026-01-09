@@ -5,30 +5,19 @@ Drep
 
 Introduction
 ~~~~~~~~
-``Drep`` is a python program for rapidly comparing large numbers of genomes. 
+Drep is a python program for rapidly comparing large numbers of genomes.
 
-| For more information, please check its website: https://biocontainers.pro/tools/drep and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/drep 
+| Home page: https://github.com/MrOlm/drep
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.2.2
-  * - BELL
-    - 3.2.2
-  * - GAUTSCHI
-    - 3.2.2
-  * - NEGISHI
-    - 3.2.2
-  * - SCHOLAR
-    - 3.2.2
+~~~~~~~~
+- 3.2.2
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load drep
 
@@ -46,10 +35,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Drep on our clusters::
+To run drep on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,7 +50,3 @@ To run Drep on our clusters::
     module --force purge
     ml biocontainers drep
 
-    dRep compare compare_out -g tests/genomes/*
-    dRep dereplicate dereplicate_out -g tests/genomes/* 
-
-.. _Github: https://github.com/MrOlm/drep

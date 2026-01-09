@@ -12,26 +12,12 @@ Metilene is a versatile tool to study the effect of epigenetic modifications in 
 | BioContainers: https://biocontainers.pro/tools/metilene 
 | Home page: https://www.bioinf.uni-leipzig.de/Software/metilene/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.2.8
-  * - BELL
-    - 0.2.8
-  * - GAUTSCHI
-    - 0.2.8
-  * - NEGISHI
-    - 0.2.8
-  * - SCHOLAR
-    - 0.2.8
+~~~~~~~~
+- 0.2.8
 
 Commands
 ~~~~~~~
@@ -67,4 +53,3 @@ To run metilene on our clusters::
     module --force purge
     ml biocontainers metilene
 
-    metilene -a g1 -b g2 methylation-file

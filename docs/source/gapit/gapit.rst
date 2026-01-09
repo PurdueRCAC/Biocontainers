@@ -11,26 +11,12 @@ GAPIT is a Genome Association and Prediction Integrated Tool.
 | For more information, please check:
 | Home page: https://www.maizegenetics.net/gapit
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.3
-  * - BELL
-    - 3.3
-  * - GAUTSCHI
-    - 3.3
-  * - NEGISHI
-    - 3.3
-  * - SCHOLAR
-    - 3.3
+~~~~~~~~
+- 3.3
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run gapit on our clusters::
 
     module --force purge
     ml biocontainers gapit
+

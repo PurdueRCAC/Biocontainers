@@ -9,29 +9,14 @@ NeuSomatic is based on deep convolutional neural networks for accurate somatic m
 
 
 | For more information, please check:
-| Docker hub: https://hub.docker.com/r/msahraeian/neusomatic/ 
 | Home page: https://github.com/bioinform/neusomatic
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.2.1
-  * - BELL
-    - 0.2.1
-  * - GAUTSCHI
-    - 0.2.1
-  * - NEGISHI
-    - 0.2.1
-  * - SCHOLAR
-    - 0.2.1
+~~~~~~~~
+- 0.2.1
 
 Commands
 ~~~~~~~
@@ -79,3 +64,4 @@ To run neusomatic on our clusters::
 
     module --force purge
     ml biocontainers neusomatic
+

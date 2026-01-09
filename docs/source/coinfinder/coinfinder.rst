@@ -12,26 +12,12 @@ Coinfinder is an algorithm and software tool that detects genes which associate 
 | BioContainers: https://biocontainers.pro/tools/coinfinder 
 | Home page: https://github.com/fwhelan/coinfinder
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.2.0
-  * - BELL
-    - 1.2.0
-  * - GAUTSCHI
-    - 1.2.0
-  * - NEGISHI
-    - 1.2.0
-  * - SCHOLAR
-    - 1.2.0
+~~~~~~~~
+- 1.2.0
 
 Commands
 ~~~~~~~
@@ -64,6 +50,3 @@ To run coinfinder on our clusters::
     module --force purge
     ml biocontainers coinfinder
 
-    coinfinder -i coinfinder-manuscript/gene_presence_absence.csv \
-        -I -p coinfinder-manuscript/core-gps_fasttree.newick \
-        -o output

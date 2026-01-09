@@ -5,30 +5,19 @@ Glimmer
 
 Introduction
 ~~~~~~~~
-``Glimmer`` is a system for finding genes in microbial DNA, especially the genomes of bacteria, archaea, and viruses. 
+Glimmer is system for finding genes in microbial DNA, especially the genomes of bacteria, archaea, and viruses.
 
-| For more information, please check its website: https://biocontainers.pro/tools/glimmer and its home page: http://ccb.jhu.edu/software/glimmer/index.shtml.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/glimmer 
+| Home page: http://ccb.jhu.edu/software/glimmer/index.shtml
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.02
-  * - BELL
-    - 3.02
-  * - GAUTSCHI
-    - 3.02
-  * - NEGISHI
-    - 3.02
-  * - SCHOLAR
-    - 3.02
+~~~~~~~~
+- 3.02
 
 Commands
 ~~~~~~~
@@ -58,7 +47,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load glimmer
 
@@ -67,10 +56,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Glimmer on our clusters::
+To run glimmer on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -82,7 +71,3 @@ To run Glimmer on our clusters::
     module --force purge
     ml biocontainers glimmer
 
-    long-orfs -n -t 1.15 scaffolds.fasta run1.longorfs
-    extract -t scaffolds.fasta run1.longorfs > run1.train
-    build-icm -r run1.icm < run1.train
-    glimmer3 scaffolds.fasta run1.icm cm 

@@ -12,22 +12,12 @@ flair (Full-Length Alternative Isoform analysis of RNA) for the correction, isof
 | BioContainers: 
 | Home page: https://flair.readthedocs.io/en/latest
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.0.0
-  * - BELL
-    - 2.0.0
-  * - NEGISHI
-    - 2.0.0
+~~~~~~~~
+- 2.0.0
 
 Commands
 ~~~~~~~
@@ -71,3 +61,4 @@ To run flair on our clusters::
 
     module --force purge
     ml biocontainers flair
+

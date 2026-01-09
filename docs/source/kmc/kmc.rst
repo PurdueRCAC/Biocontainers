@@ -5,30 +5,19 @@ Kmc
 
 Introduction
 ~~~~~~~~
-``Kmc`` is a tool for efficient k-mer counting and filtering of reads based on k-mer content. 
+Kmc is a tool for efficient k-mer counting and filtering of reads based on k-mer content.
 
-| For more information, please check its website: https://biocontainers.pro/tools/kmc and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/kmc 
+| Home page: https://github.com/refresh-bio/kmc
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.2.1
-  * - BELL
-    - 3.2.1
-  * - GAUTSCHI
-    - 3.2.1
-  * - NEGISHI
-    - 3.2.1
-  * - SCHOLAR
-    - 3.2.1
+~~~~~~~~
+- 3.2.1
 
 Commands
 ~~~~~~~
@@ -39,7 +28,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load kmc
 
@@ -48,10 +37,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Kmc on our clusters::
+To run kmc on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -63,5 +52,3 @@ To run Kmc on our clusters::
     module --force purge
     ml biocontainers kmc
 
-    kmc -k27 seq.fastq 27mers .
-.. _Github: https://github.com/refresh-bio/kmc

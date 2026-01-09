@@ -12,26 +12,12 @@ ARIBA is a tool that identifies antibiotic resistance genes by running local ass
 | Docker hub: https://hub.docker.com/r/staphb/ariba 
 | Home page: https://github.com/sanger-pathogens/ariba
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.14.6
-  * - BELL
-    - 2.14.6
-  * - GAUTSCHI
-    - 2.14.6
-  * - NEGISHI
-    - 2.14.6
-  * - SCHOLAR
-    - 2.14.6
+~~~~~~~~
+- 2.14.6
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run ariba on our clusters::
 
     module --force purge
     ml biocontainers ariba
+

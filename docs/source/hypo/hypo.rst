@@ -12,26 +12,12 @@ HyPo--a Hybrid Polisher-- utilises short as well as long reads within a single r
 | BioContainers: https://biocontainers.pro/tools/hypo 
 | Home page: https://github.com/kensung-lab/hypo
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.3
-  * - BELL
-    - 1.0.3
-  * - GAUTSCHI
-    - 1.0.3
-  * - NEGISHI
-    - 1.0.3
-  * - SCHOLAR
-    - 1.0.3
+~~~~~~~~
+- 1.0.3
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run hypo on our clusters::
 
     module --force purge
     ml biocontainers hypo
+

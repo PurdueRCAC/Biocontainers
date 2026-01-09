@@ -5,30 +5,18 @@ Qualimap
 
 Introduction
 ~~~~~~~~
-``Qualimap`` is a platform-independent application written in Java and R that provides both a Graphical User Inteface (GUI) and a command-line interface to facilitate the quality control of alignment sequencing data and its derivatives like feature counts. 
+Qualimap is a platform-independent application written in Java and R that provides both a Graphical User Inteface (GUI) and a command-line interface to facilitate the quality control of alignment sequencing data and its derivatives like feature counts.
 
-| For more information, please check its website: https://biocontainers.pro/tools/qualimap and its home page: http://qualimap.conesalab.org.
+
+| For more information, please check:
+| Home page: http://qualimap.conesalab.org
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.2.1
-  * - BELL
-    - 2.2.1
-  * - GAUTSCHI
-    - 2.2.1
-  * - NEGISHI
-    - 2.2.1
-  * - SCHOLAR
-    - 2.2.1
+~~~~~~~~
+- 2.2.1
 
 Commands
 ~~~~~~~
@@ -37,7 +25,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load qualimap
 
@@ -46,10 +34,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Qualimap on our clusters::
+To run qualimap on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -60,3 +48,4 @@ To run Qualimap on our clusters::
 
     module --force purge
     ml biocontainers qualimap
+

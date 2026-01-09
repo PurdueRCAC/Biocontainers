@@ -12,26 +12,12 @@ bcl2fastq Conversion Software both demultiplexes data and converts BCL files gen
 | Docker hub: https://hub.docker.com/r/gcfntnu/bcl2fastq 
 | Home page: https://support.illumina.com/sequencing/sequencing_software/bcl2fastq-conversion-software.html
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.20.0
-  * - BELL
-    - 2.20.0
-  * - GAUTSCHI
-    - 2.20.0
-  * - NEGISHI
-    - 2.20.0
-  * - SCHOLAR
-    - 2.20.0
+~~~~~~~~
+- 2.20.0
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run bcl2fastq on our clusters::
 
     module --force purge
     ml biocontainers bcl2fastq
+

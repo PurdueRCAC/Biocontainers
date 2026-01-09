@@ -12,26 +12,12 @@ GenMap: Ultra-fast Computation of Genome Mappability.
 | BioContainers: https://biocontainers.pro/tools/genmap 
 | Home page: https://github.com/cpockrandt/genmap
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.3.0
-  * - BELL
-    - 1.3.0
-  * - GAUTSCHI
-    - 1.3.0
-  * - NEGISHI
-    - 1.3.0
-  * - SCHOLAR
-    - 1.3.0
+~~~~~~~~
+- 1.3.0
 
 Commands
 ~~~~~~~
@@ -63,7 +49,4 @@ To run genmap on our clusters::
 
     module --force purge
     ml biocontainers genmap
-  
-    export TMPDIR=$PWD/tmp
-    genmap index -F ~/.local/share/genomes/hg38/hg38.fa  -I hg38_index
-    genmap map -K 64 -E 2 -I hg38_index -O map_output_hg38 -t -w -bg
+

@@ -12,26 +12,12 @@ Sage is a proteomics search engine - a tool that transforms raw mass spectra fro
 | GitHub Packages: https://github.com/lazear/sage/pkgs/container/sage 
 | Home page: https://github.com/lazear/sage
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.8.1
-  * - BELL
-    - 0.8.1
-  * - GAUTSCHI
-    - 0.8.1
-  * - NEGISHI
-    - 0.8.1
-  * - SCHOLAR
-    - 0.8.1
+~~~~~~~~
+- 0.8.1
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run sage on our clusters::
 
     module --force purge
     ml biocontainers sage
+

@@ -12,20 +12,12 @@ PIPseeker analyzes single-cell data obtained with Fluent BioSciences proprietary
 | BioContainers: https://biocontainers.pro/tools/fluent-pipseeker 
 | Home page: https://www.fluentbio.com/resources/pipseeker-downloads/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - BELL
-    - 3.3.0
-  * - NEGISHI
-    - 3.3.0
+~~~~~~~~
+- 3.3.0
 
 Commands
 ~~~~~~~
@@ -57,3 +49,4 @@ To run fluent-pipseeker on our clusters::
 
     module --force purge
     ml biocontainers fluent-pipseeker
+

@@ -12,18 +12,12 @@ Fast Estimation of Effective Migration Surfaces (feems) is a python package impl
 | BioContainers: 
 | Home page: https://github.com/NovembreLab/feems
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.0
+~~~~~~~~
+- 1.0.0
 
 Commands
 ~~~~~~~
@@ -56,3 +50,4 @@ To run feems on our clusters::
 
     module --force purge
     ml biocontainers feems
+

@@ -12,26 +12,12 @@ Fastq-scan reads a FASTQ from STDIN and outputs summary statistics (read lengths
 | Docker hub: https://hub.docker.com/r/staphb/fastq-scan 
 | Home page: https://github.com/rpetit3/fastq-scan
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.0
-  * - BELL
-    - 1.0.0
-  * - GAUTSCHI
-    - 1.0.0
-  * - NEGISHI
-    - 1.0.0
-  * - SCHOLAR
-    - 1.0.0
+~~~~~~~~
+- 1.0.0
 
 Commands
 ~~~~~~~
@@ -64,4 +50,3 @@ To run fastq-scan on our clusters::
     module --force purge
     ml biocontainers fastq-scan
 
-    cat example-q33.fq | fastq-scan -g 150000

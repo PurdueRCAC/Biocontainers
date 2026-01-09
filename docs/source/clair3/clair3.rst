@@ -12,26 +12,13 @@ Clair3 is a germline small variant caller for long-reads. Clair3 makes the best 
 | Docker hub: https://hub.docker.com/r/hkubal/clair3 
 | Home page: https://github.com/HKU-BAL/Clair3
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.1-r11, 0.1-r12
-  * - BELL
-    - 0.1-r11, 0.1-r12
-  * - GAUTSCHI
-    - 0.1-r11, 0.1-r12
-  * - NEGISHI
-    - 0.1-r11, 0.1-r12
-  * - SCHOLAR
-    - 0.1-r11, 0.1-r12
+~~~~~~~~
+- 0.1-r11
+- 0.1-r12
 
 Commands
 ~~~~~~~
@@ -43,11 +30,6 @@ You can load the modules by::
 
     module load biocontainers
     module load clair3
-
-Model_path
-~~~~  
-.. note::
-   ``model_path`` is in ``/opt/models/``. The parameter will be like this ``--model_path="/opt/models/MODEL_NAME"`` 
 
 Example job
 ~~~~~
@@ -69,10 +51,3 @@ To run clair3 on our clusters::
     module --force purge
     ml biocontainers clair3
 
-    run_clair3.sh \
-          --bam_fn=input.bam \
-          --ref_fn=ref.fasta \
-          --threads=12 \
-          --platform=ont \
-          --model_path="/opt/models/ont" \
-          --output=output

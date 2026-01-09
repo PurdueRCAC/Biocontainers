@@ -12,26 +12,13 @@ Rasusa: Randomly subsample sequencing reads to a specified coverage.
 | Docker hub: https://hub.docker.com/r/staphb/rasusa 
 | Home page: https://github.com/mbhall88/rasusa
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.6.0, 0.7.0
-  * - BELL
-    - 0.6.0, 0.7.0
-  * - GAUTSCHI
-    - 0.6.0, 0.7.0
-  * - NEGISHI
-    - 0.6.0, 0.7.0
-  * - SCHOLAR
-    - 0.6.0, 0.7.0
+~~~~~~~~
+- 0.6.0
+- 0.7.0
 
 Commands
 ~~~~~~~
@@ -64,6 +51,3 @@ To run rasusa on our clusters::
     module --force purge
     ml biocontainers rasusa
 
-    rasusa -i seq_1.fq -i seq_2.fq  \
-        --coverage 100 --genome-size 35mb  \
-        -o out.r1.fq -o out.r2.fq

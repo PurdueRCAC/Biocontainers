@@ -12,20 +12,12 @@ GUIDe Tree Based AligNment ConfidencE (GUIDANCE) is a software package for align
 | BioContainers: https://hub.docker.com/repository/docker/arnstrm2/guidance2/general 
 | Home page: https://taux.evolseq.net/guidancever2/source.php
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - BELL
-    - 2.02
-  * - NEGISHI
-    - 2.02
+~~~~~~~~
+- 2.02
 
 Commands
 ~~~~~~~
@@ -98,3 +90,4 @@ To run guidance2 on our clusters::
 
     module --force purge
     ml biocontainers guidance2
+

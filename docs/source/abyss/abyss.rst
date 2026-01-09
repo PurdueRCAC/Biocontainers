@@ -5,93 +5,83 @@ Abyss
 
 Introduction
 ~~~~~~~~
-``ABySS`` is a de novo sequence assembler intended for short paired-end reads and genomes of all sizes. 
+ABySS is a de novo sequence assembler intended for short paired-end reads and genomes of all sizes.
 
-| For more information, please check its website: https://biocontainers.pro/tools/abyss and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/abyss 
+| Home page: https://github.com/bcgsc/abyss/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.3.2, 2.3.4, 2.3.8
-  * - BELL
-    - 2.3.2, 2.3.4, 2.3.8
-  * - GAUTSCHI
-    - 2.3.2, 2.3.4, 2.3.8
-  * - NEGISHI
-    - 2.3.2, 2.3.4, 2.3.8
-  * - SCHOLAR
-    - 2.3.2, 2.3.4
+~~~~~~~~
+- 2.3.2
+- 2.3.4
 
 Commands
 ~~~~~~~
-- ABYSS 
-- ABYSS-P 
-- AdjList 
+- ABYSS
+- ABYSS-P
+- AdjList
 - Consensus
-- DAssembler 
+- DAssembler
 - DistanceEst
-- DistanceEst-ssq 
+- DistanceEst-ssq
 - KAligner
-- MergeContigs 
-- MergePaths 
-- Overlap 
+- MergeContigs
+- MergePaths
+- Overlap
 - ParseAligns
-- PathConsensus 
+- PathConsensus
 - PathOverlap
-- PopBubbles 
+- PopBubbles
 - SimpleGraph
-- abyss-align 
-- abyss-bloom 
+- abyss-align
+- abyss-bloom
 - abyss-bloom-dbg
-- abyss-bowtie 
-- abyss-bowtie2 
-- abyss-bwa 
+- abyss-bowtie
+- abyss-bowtie2
+- abyss-bwa
 - abyss-bwamem
-- abyss-bwasw 
-- abyss-db-txt 
-- abyss-dida 
+- abyss-bwasw
+- abyss-db-txt
+- abyss-dida
 - abyss-fac
-- abyss-fatoagp 
-- abyss-filtergraph 
+- abyss-fatoagp
+- abyss-filtergraph
 - abyss-fixmate
-- abyss-fixmate-ssq 
-- abyss-gapfill 
+- abyss-fixmate-ssq
+- abyss-gapfill
 - abyss-gc
-- abyss-index 
-- abyss-junction 
+- abyss-index
+- abyss-junction
 - abyss-kaligner
-- abyss-layout 
-- abyss-longseqdist 
+- abyss-layout
+- abyss-longseqdist
 - abyss-map
-- abyss-map-ssq 
-- abyss-mergepairs 
+- abyss-map-ssq
+- abyss-mergepairs
 - abyss-overlap
-- abyss-paired-dbg 
-- abyss-paired-dbg-mpi 
+- abyss-paired-dbg
+- abyss-paired-dbg-mpi
 - abyss-pe
-- abyss-rresolver-short 
+- abyss-rresolver-short
 - abyss-samtoafg
-- abyss-scaffold 
-- abyss-sealer 
+- abyss-scaffold
+- abyss-sealer
 - abyss-stack-size
-- abyss-tabtomd 
-- abyss-todot 
+- abyss-tabtomd
+- abyss-todot
 - abyss-tofastq
-- konnector 
+- konnector
 - logcounter
 
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load abyss
 
@@ -100,13 +90,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run abyss on our our clusters::
+To run abyss on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 4
+    #SBATCH -n 1
     #SBATCH --job-name=abyss
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -114,9 +104,4 @@ To run abyss on our our clusters::
 
     module --force purge
     ml biocontainers abyss
-    
-    abyss-pe np=4 k=25 name=test B=1G \
-        in='test-data/reads1.fastq test-data/reads2.fastq'
 
-
-.. _Github: https://github.com/bcgsc/abyss/

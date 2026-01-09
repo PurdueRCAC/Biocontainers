@@ -12,20 +12,12 @@ Easymap v2 — A web-based and command-line tool for mapping-by-sequencing, SNP/
 | GitHub: https://github.com/MicolLab/easymap 
 | Documentation: http://genetics.edu.umh.es/resources/easymap/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - BELL
-    - 2.0
-  * - NEGISHI
-    - 2.0
+~~~~~~~~
+- 2.0
 
 Commands
 ~~~~~~~
@@ -56,3 +48,4 @@ To run easymap on our clusters::
 
     module --force purge
     ml biocontainers easymap
+

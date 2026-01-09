@@ -11,26 +11,13 @@ DeepVariant is a deep learning-based variant caller that takes aligned reads (in
 | For more information, please check:
 | Home page: https://github.com/google/deepvariant
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.0, 1.1.0
-  * - BELL
-    - 1.0.0, 1.1.0
-  * - GAUTSCHI
-    - 1.0.0, 1.1.0
-  * - NEGISHI
-    - 1.0.0, 1.1.0
-  * - SCHOLAR
-    - 1.0.0, 1.1.0
+~~~~~~~~
+- 1.0.0
+- 1.1.0
 
 Commands
 ~~~~~~~
@@ -65,7 +52,7 @@ To run deepvariant on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 4
+    #SBATCH -n 1
     #SBATCH --job-name=deepvariant
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -73,19 +60,4 @@ To run deepvariant on our clusters::
 
     module --force purge
     ml biocontainers deepvariant
-    
-    INPUT_DIR="${PWD}/quickstart-testdata"
-    DATA_HTTP_DIR="https://storage.googleapis.com/deepvariant/quickstart-testdata"
-    mkdir -p ${INPUT_DIR}
-    wget -P ${INPUT_DIR} "${DATA_HTTP_DIR}"/NA12878_S1.chr20.10_10p1mb.bam
-    wget -P ${INPUT_DIR} "${DATA_HTTP_DIR}"/NA12878_S1.chr20.10_10p1mb.bam.bai
-    wget -P ${INPUT_DIR} "${DATA_HTTP_DIR}"/test_nist.b37_chr20_100kbp_at_10mb.bed
-    wget -P ${INPUT_DIR} "${DATA_HTTP_DIR}"/test_nist.b37_chr20_100kbp_at_10mb.vcf.gz
-    wget -P ${INPUT_DIR} "${DATA_HTTP_DIR}"/test_nist.b37_chr20_100kbp_at_10mb.vcf.gz.tbi
-    wget -P ${INPUT_DIR} "${DATA_HTTP_DIR}"/ucsc.hg19.chr20.unittest.fasta
-    wget -P ${INPUT_DIR} "${DATA_HTTP_DIR}"/ucsc.hg19.chr20.unittest.fasta.fai
-    wget -P ${INPUT_DIR} "${DATA_HTTP_DIR}"/ucsc.hg19.chr20.unittest.fasta.gz
-    wget -P ${INPUT_DIR} "${DATA_HTTP_DIR}"/ucsc.hg19.chr20.unittest.fasta.gz.fai
-    wget -P ${INPUT_DIR} "${DATA_HTTP_DIR}"/ucsc.hg19.chr20.unittest.fasta.gz.gzi
-       
-    run_deepvariant --model_type=WGS --ref="${INPUT_DIR}"/ucsc.hg19.chr20.unittest.fasta  --reads="${INPUT_DIR}"/NA12878_S1.chr20.10_10p1mb.bam  --regions "chr20:10,000,000-10,010,000"  --output_vcf="output/output.vcf.gz"  --output_gvcf="output/output.g.vcf.gz" --intermediate_results_dir "output/intermediate_results_dir"  --num_shards=4
+

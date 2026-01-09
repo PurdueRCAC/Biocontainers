@@ -1,34 +1,22 @@
 .. _backbone-label:
 
-swat
+Swat
 ==============================
 
 Introduction
 ~~~~~~~~
-``swat`` is a program for searching one or more DNA or protein query sequences, or a query profile, against a sequence database, using an efficient implementation of the Smith-Waterman or Needleman-Wunsch algorithms with linear (affine) gap penalties. 
+swat is a program for searching one or more DNA or protein query sequences, or a query profile, against a sequence database, using an efficient implementation of the Smith-Waterman or Needleman-Wunsch algorithms with linear (affine) gap penalties.
 
-| For more information, please check its home page: http://www.phrap.org/phredphrapconsed.html#block_phrap.
+
+| For more information, please check:
+| Home page: http://www.phrap.org/phredphrapconsed.html#block_phrap
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.090518
-  * - BELL
-    - 1.090518
-  * - GAUTSCHI
-    - 1.090518
-  * - NEGISHI
-    - 1.090518
-  * - SCHOLAR
-    - 1.090518
+~~~~~~~~
+- 1.090518
 
 Commands
 ~~~~~~~
@@ -37,7 +25,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load swat
 
@@ -49,7 +37,7 @@ Example job
 To run swat on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -60,3 +48,4 @@ To run swat on our clusters::
 
     module --force purge
     ml biocontainers swat
+

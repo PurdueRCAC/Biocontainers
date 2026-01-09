@@ -11,26 +11,12 @@ CirComPara2 is a computational pipeline to detect, quantify, and correlate expre
 | For more information, please check:
 | Home page: https://github.com/egaffo/circompara2
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.1.2.1
-  * - BELL
-    - 0.1.2.1
-  * - GAUTSCHI
-    - 0.1.2.1
-  * - NEGISHI
-    - 0.1.2.1
-  * - SCHOLAR
-    - 0.1.2.1
+~~~~~~~~
+- 0.1.2.1
 
 Commands
 ~~~~~~~
@@ -148,3 +134,4 @@ To run circompara2 on our clusters::
 
     module --force purge
     ml biocontainers circompara2
+

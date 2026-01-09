@@ -5,30 +5,19 @@ Pysam
 
 Introduction
 ~~~~~~~~
-``Pysam`` is a python module that makes it easy to read and manipulate mapped short read sequence data stored in SAM/BAM files. 
+Pysam is a python module that makes it easy to read and manipulate mapped short read sequence data stored in SAM/BAM files.
 
-| For more information, please check its website: https://biocontainers.pro/tools/pysam and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/pysam 
+| Home page: https://github.com/pysam-developers/pysam
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.18.0
-  * - BELL
-    - 0.18.0
-  * - GAUTSCHI
-    - 0.18.0
-  * - NEGISHI
-    - 0.18.0
-  * - SCHOLAR
-    - 0.18.0
+~~~~~~~~
+- 0.18.0
 
 Commands
 ~~~~~~~
@@ -38,7 +27,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load pysam
 
@@ -47,10 +36,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Pysam on our clusters::
+To run pysam on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -62,4 +51,3 @@ To run Pysam on our clusters::
     module --force purge
     ml biocontainers pysam
 
-.. _Github: https://github.com/pysam-developers/pysam

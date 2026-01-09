@@ -12,26 +12,12 @@ AdapterRemoval searches for and removes adapter sequences from High-Throughput S
 | BioContainers: https://biocontainers.pro/tools/adapterremoval 
 | Home page: https://github.com/MikkelSchubert/adapterremoval
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.3.3
-  * - BELL
-    - 2.3.3
-  * - GAUTSCHI
-    - 2.3.3
-  * - NEGISHI
-    - 2.3.3
-  * - SCHOLAR
-    - 2.3.3
+~~~~~~~~
+- 2.3.3
 
 Commands
 ~~~~~~~
@@ -64,4 +50,3 @@ To run adapterremoval on our clusters::
     module --force purge
     ml biocontainers adapterremoval
 
-    AdapterRemoval --file1 input_1.fastq --file2 input_2.fastq 

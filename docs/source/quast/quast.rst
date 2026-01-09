@@ -5,35 +5,20 @@ Quast
 
 Introduction
 ~~~~~~~~
-``Quast`` is Quality Assessment Tool for Genome Assemblies.
-
-Note: Running QUAST, please use the command: quast.py| metaquast.py fastafile [OTHER OPTIONS]
-DO NOT call it 'python quast.py| metaquast.py'
+Quast is Quality Assessment Tool for Genome Assemblies. Note: Running QUAST, please use the command: quast.py|metaquast.py fastafile [OTHER OPTIONS] DO NOT call it 'python quast.py|metaquast.py'
 
 
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/quast 
+| Home page: https://bioconda.github.io/recipes/quast/README.html
 
-| For more information, please check its website: https://biocontainers.pro/tools/quast and its home page on `Github`_.
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 5.0.2, 5.2.0, 5.3.0-py310
-  * - BELL
-    - 5.0.2, 5.2.0, 5.3.0-py310
-  * - GAUTSCHI
-    - 5.0.2, 5.2.0
-  * - NEGISHI
-    - 5.0.2, 5.2.0, 5.3.0-py310
-  * - SCHOLAR
-    - 5.0.2, 5.2.0
+~~~~~~~~
+- 5.0.2
+- 5.2.0
 
 Commands
 ~~~~~~~
@@ -43,7 +28,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load quast
 
@@ -52,13 +37,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Quast on our clusters::
+To run quast on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 8
+    #SBATCH -n 1
     #SBATCH --job-name=quast
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -67,8 +52,3 @@ To run Quast on our clusters::
     module --force purge
     ml biocontainers quast
 
-    metaquast.py  --gene-finding --threads 8  \ 
-        meta_contigs_1.fasta meta_contigs_2.fasta \
-        -r meta_ref_1.fasta,meta_ref_2.fasta,meta_ref_3.fasta \
-        -o quast_out_genefinding
-.. _Github: https://bioconda.github.io/recipes/quast/README.html

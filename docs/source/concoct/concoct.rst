@@ -1,71 +1,57 @@
-.. _backbone-label:  
+.. _backbone-label:
 
-CONCOCT
-============================== 
+Concoct
+==============================
 
 Introduction
-~~~~~~~
-``CONCOCT``: Clustering cONtigs with COverage and ComposiTion. 
+~~~~~~~~
+Concoct is a program for unsupervised binning of metagenomic contigs by using nucleotide composition, coverage data in multiple samples and linkage data from paired end reads.
 
-Detailed usage can be found here: https://github.com/BinPro/CONCOCT
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/concoct 
+| Home page: https://github.com/BinPro/CONCOCT
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.1.0
-  * - BELL
-    - 1.1.0
-  * - GAUTSCHI
-    - 1.1.0
-  * - NEGISHI
-    - 1.1.0
-  * - SCHOLAR
-    - 1.1.0
+~~~~~~~~
+- 1.1.0
 
 Commands
-~~~~~~
-- concoct
+~~~~~~~
 - concoct_refine
-- concoct_coverage_table.py
-- cut_up_fasta.py
-- extract_fasta_bins.py
+- concoct
 - merge_cutup_clustering.py
+- extract_fasta_bins.py
+- cut_up_fasta.py
+- concoct_coverage_table.py
 
 Module
-~~~~~~~
+~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load concoct/1.1.0-py38
+    module load concoct
 
 Example job
-~~~~~~
+~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run concoct on our our clusters::
+To run concoct on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
-    #SBATCH -t 20:00:00
+    #SBATCH -A myallocation     # Allocation name
+    #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 24
+    #SBATCH -n 1
     #SBATCH --job-name=concoct
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers concoct/1.1.0-py38
+    ml biocontainers concoct
 
-    cut_up_fasta.py final.contigs.fa -c 10000 -o 0 --merge_last -b contigs_10K.bed > contigs_10K.fa
-    concoct_coverage_table.py contigs_10K.bed SRR1976948_sorted.bam > coverage_table.tsv
-    concoct --composition_file contigs_10K.fa --coverage_file coverage_table.tsv -b concoct_output/

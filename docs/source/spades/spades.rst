@@ -1,48 +1,28 @@
-.. _backbone-label:  
+.. _backbone-label:
 
-SPAdes
-============================== 
+Spades
+==============================
 
 Introduction
-~~~~~~~
-``SPAdes``- St. Petersburg genome assembler - is an assembly toolkit containing various assembly pipelines.  
+~~~~~~~~
+Spades is an assembly toolkit containing various assembly pipelines.
 
-Detailed usage can be found here: https://github.com/ablab/spades
 
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/spades 
+| Home page: https://cab.spbu.ru/software/spades/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.15.3, 3.15.4, 3.15.5
-  * - BELL
-    - 3.15.3, 3.15.4, 3.15.5
-  * - GAUTSCHI
-    - 3.15.3, 3.15.4, 3.15.5
-  * - NEGISHI
-    - 3.15.3, 3.15.4, 3.15.5
-  * - SCHOLAR
-    - 3.15.3, 3.15.4, 3.15.5
+~~~~~~~~
+- 3.15.3
+- 3.15.4
+- 3.15.5
 
 Commands
-~~~~~~
-- coronaspades.py
-- metaplasmidspades.py
-- metaspades.py
-- metaviralspades.py
-- plasmidspades.py
-- rnaspades.py
-- rnaviralspades.py
-- spades.py
-- spades_init.py
-- truspades.py
+~~~~~~~
 - spades-bwa
 - spades-convert-bin-to-fasta
 - spades-core
@@ -56,26 +36,36 @@ Commands
 - spades-kmercount
 - spades-read-filter
 - spades-truseq-scfcorrection
+- coronaspades.py
+- metaplasmidspades.py
+- metaspades.py
+- metaviralspades.py
+- plasmidspades.py
+- rnaspades.py
+- rnaviralspades.py
+- spades.py
+- spades_init.py
+- truspades.py
 
 Module
-~~~~~~~
+~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load spades 
+    module load spades
 
 Example job
-~~~~~~
+~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run spades on our our clusters::
+To run spades on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
-    #SBATCH -t 20:00:00
+    #SBATCH -A myallocation     # Allocation name
+    #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 24
+    #SBATCH -n 1
     #SBATCH --job-name=spades
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -83,5 +73,4 @@ To run spades on our our clusters::
 
     module --force purge
     ml biocontainers spades
-    
-    spades.py --pe1-1 SRR11234553_1.fastq --pe1-2 SRR11234553_2.fastq -o spades_out -t 24 
+

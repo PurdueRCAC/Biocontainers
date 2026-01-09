@@ -5,30 +5,19 @@ Evidencemodeler
 
 Introduction
 ~~~~~~~~
-``Evidencemodeler`` is a software combines ab intio gene predictions and protein and transcript alignments into weighted consensus gene structures. 
+Evidencemodeler is a software combines ab intio gene predictions and protein and transcript alignments into weighted consensus gene structures.
 
-| For more information, please check its website: https://biocontainers.pro/tools/evidencemodeler and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/evidencemodeler 
+| Home page: https://github.com/EVidenceModeler/EVidenceModeler
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.1.1
-  * - BELL
-    - 1.1.1
-  * - GAUTSCHI
-    - 1.1.1
-  * - NEGISHI
-    - 1.1.1
-  * - SCHOLAR
-    - 1.1.1
+~~~~~~~~
+- 1.1.1
 
 Commands
 ~~~~~~~
@@ -51,7 +40,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load evidencemodeler
 
@@ -60,10 +49,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Evidencemodeler on our clusters::
+To run evidencemodeler on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -75,11 +64,3 @@ To run Evidencemodeler on our clusters::
     module --force purge
     ml biocontainers evidencemodeler
 
-    
-    evidence_modeler.pl --genome genome.fasta \
-                       --weights weights.txt \
-                       --gene_predictions gene_predictions.gff3 \
-                       --protein_alignments protein_alignments.gff3 \
-                       --transcript_alignments transcript_alignments.gff3 \
-                     > evm.out 
-.. _Github: https://github.com/EVidenceModeler/EVidenceModeler

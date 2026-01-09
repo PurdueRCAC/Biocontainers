@@ -12,26 +12,12 @@ LTRpred(ict): de novo annotation of young and intact retrotransposons.
 | Docker hub: https://hub.docker.com/r/drostlab/ltrpred 
 | Home page: https://github.com/HajkD/LTRpred
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.1.0
-  * - BELL
-    - 1.1.0
-  * - GAUTSCHI
-    - 1.1.0
-  * - NEGISHI
-    - 1.1.0
-  * - SCHOLAR
-    - 1.1.0
+~~~~~~~~
+- 1.1.0
 
 Commands
 ~~~~~~~
@@ -64,3 +50,4 @@ To run ltrpred on our clusters::
 
     module --force purge
     ml biocontainers ltrpred
+

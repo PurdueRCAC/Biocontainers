@@ -12,18 +12,12 @@ Scripts and programs referred to in the paper "Recent demographic history inferr
 | BioContainers: 
 | Home page: https://github.com/esrud/GONE
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 01.07.2020
+~~~~~~~~
+- 01.07.2020
 
 Commands
 ~~~~~~~
@@ -61,3 +55,4 @@ To run gone on our clusters::
 
     module --force purge
     ml biocontainers gone
+

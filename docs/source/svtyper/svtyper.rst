@@ -12,26 +12,12 @@ SVTyper performs breakpoint genotyping of structural variants (SVs) using whole 
 | BioContainers: https://biocontainers.pro/tools/svtyper 
 | Home page: https://github.com/hall-lab/svtyper
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.7.1
-  * - BELL
-    - 0.7.1
-  * - GAUTSCHI
-    - 0.7.1
-  * - NEGISHI
-    - 0.7.1
-  * - SCHOLAR
-    - 0.7.1
+~~~~~~~~
+- 0.7.1
 
 Commands
 ~~~~~~~
@@ -67,8 +53,3 @@ To run svtyper on our clusters::
     module --force purge
     ml biocontainers svtyper
 
-    svtyper \
-        -i data/example.vcf \
-        -B data/NA12878.target_loci.sorted.bam \
-        -l data/NA12878.bam.json \
-        > out.vcf

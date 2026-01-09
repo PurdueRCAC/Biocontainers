@@ -12,26 +12,13 @@ pyGenomeViz is a genome visualization python package for comparative genomics im
 | Docker hub: https://hub.docker.com/r/staphb/pygenomeviz 
 | Home page: https://github.com/moshi4/pyGenomeViz#cli-examples
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.2.2, 0.3.2
-  * - BELL
-    - 0.2.2, 0.3.2
-  * - GAUTSCHI
-    - 0.2.2, 0.3.2
-  * - NEGISHI
-    - 0.2.2, 0.3.2
-  * - SCHOLAR
-    - 0.2.2, 0.3.2
+~~~~~~~~
+- 0.2.2
+- 0.3.2
 
 Commands
 ~~~~~~~
@@ -68,3 +55,4 @@ To run pygenomeviz on our clusters::
 
     module --force purge
     ml biocontainers pygenomeviz
+

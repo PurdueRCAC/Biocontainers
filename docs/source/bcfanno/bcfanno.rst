@@ -11,24 +11,12 @@ Bcfanno was designed to annotate genetic variants with various biological databa
 | For more information, please check:
 | Home page: https://github.com/shiquan/bcfanno
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2020.10.25
-  * - BELL
-    - 2020.10.25
-  * - GAUTSCHI
-    - 2020.10.25
-  * - NEGISHI
-    - 2020.10.25
+~~~~~~~~
+- 2020.10.25
 
 Commands
 ~~~~~~~
@@ -60,3 +48,4 @@ To run bcfanno on our clusters::
 
     module --force purge
     ml biocontainers bcfanno
+

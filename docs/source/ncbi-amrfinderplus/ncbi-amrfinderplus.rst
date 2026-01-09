@@ -5,37 +5,27 @@ Ncbi-amrfinderplus
 
 Introduction
 ~~~~~~~~
-``Ncbi-amrfinderplus`` and the accompanying database identify acquired antimicrobial resistance genes in bacterial protein and/or assembled nucleotide sequences as well as known resistance-associated point mutations for several taxa.
+Ncbi-amrfinderplus and the accompanying database identify acquired antimicrobial resistance genes in bacterial protein and/or assembled nucleotide sequences as well as known resistance-associated point mutations for several taxa.
 
 
 | For more information, please check:
-| BioContainers: https://biocontainers.pro/tools/ncbi-amrfinderplus 
+| Docker hub: https://hub.docker.com/r/staphb/ncbi-amrfinderplus 
 | Home page: https://github.com/ncbi/amr
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.10.30, 3.10.42, 3.11.2
-  * - BELL
-    - 3.10.30, 3.10.42, 3.11.2
-  * - GAUTSCHI
-    - 3.10.30, 3.10.42, 3.11.2
-  * - NEGISHI
-    - 3.10.30, 3.10.42, 3.11.2
-  * - SCHOLAR
-    - 3.10.30, 3.10.42, 3.11.2
+~~~~~~~~
+- 3.10.30
+- 3.10.42
+- 3.11.2
 
 Commands
 ~~~~~~~
 - amrfinder
+- amr_report
+- amrfinder_update
 
 Module
 ~~~~~~~~
@@ -43,9 +33,6 @@ You can load the modules by::
 
     module load biocontainers
     module load ncbi-amrfinderplus
-
-.. note::
-        AMRFinderPlus database has been setup for users. Users can check the database version by ``amrfinder -V``. RCAC will keep updating database for users. If you notice our database is out of date, you can contact us to update the database.  
 
 Example job
 ~~~~~
@@ -67,17 +54,3 @@ To run ncbi-amrfinderplus on our clusters::
     module --force purge
     ml biocontainers ncbi-amrfinderplus
 
-    # Protein AMRFinder with no genomic coordinates
-    amrfinder -p test_prot.fa
-
-    # Translated nucleotide AMRFinder (will not use HMMs)
-    amrfinder -n test_dna.fa
-
-    # Protein AMRFinder using GFF to get genomic coordinates and 'plus' genes
-    amrfinder -p test_prot.fa -g test_prot.gff --plus
-
-    # Protein AMRFinder with Escherichia protein point mutations
-    amrfinder -p test_prot.fa -O Escherichia
-
-    # Full AMRFinderPlus search combining results
-    amrfinder -p test_prot.fa -g test_prot.gff -n test_dna.fa -O Escherichia --plus

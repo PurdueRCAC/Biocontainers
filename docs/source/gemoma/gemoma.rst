@@ -12,26 +12,12 @@ Gene Model Mapper (GeMoMa) is a homology-based gene prediction program. GeMoMa u
 | BioContainers: https://biocontainers.pro/tools/gemoma 
 | Home page: http://www.jstacs.de/index.php/GeMoMa
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.7.1, 1.9
-  * - BELL
-    - 1.7.1
-  * - GAUTSCHI
-    - 1.7.1
-  * - NEGISHI
-    - 1.7.1, 1.9
-  * - SCHOLAR
-    - 1.7.1
+~~~~~~~~
+- 1.7.1
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run gemoma on our clusters::
 
     module --force purge
     ml biocontainers gemoma
+

@@ -12,26 +12,13 @@ PopPUNK is a tool for clustering genomes. We refer to the clusters as variable-l
 | Docker hub: https://hub.docker.com/r/staphb/poppunk 
 | Home page: https://github.com/bacpop/PopPUNK
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.5.0, 2.6.0
-  * - BELL
-    - 2.5.0, 2.6.0
-  * - GAUTSCHI
-    - 2.5.0, 2.6.0
-  * - NEGISHI
-    - 2.5.0, 2.6.0
-  * - SCHOLAR
-    - 2.5.0, 2.6.0
+~~~~~~~~
+- 2.5.0
+- 2.6.0
 
 Commands
 ~~~~~~~
@@ -77,3 +64,4 @@ To run poppunk on our clusters::
 
     module --force purge
     ml biocontainers poppunk
+

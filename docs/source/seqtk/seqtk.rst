@@ -12,20 +12,12 @@ Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FA
 | BioContainers: https://biocontainers.pro/tools/seqtk 
 | Home page: https://github.com/lh3/seqtk
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - BELL
-    - 1.4
-  * - NEGISHI
-    - 1.4
+~~~~~~~~
+- 1.4
 
 Commands
 ~~~~~~~
@@ -57,3 +49,4 @@ To run seqtk on our clusters::
 
     module --force purge
     ml biocontainers seqtk
+

@@ -12,26 +12,12 @@ Mykrobe analyses the whole genome of a bacterial sample, all within a couple of 
 | Docker hub: https://hub.docker.com/r/staphb/mykrobe 
 | Home page: https://github.com/Mykrobe-tools/mykrobe
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.11.0
-  * - BELL
-    - 0.11.0
-  * - GAUTSCHI
-    - 0.11.0
-  * - NEGISHI
-    - 0.11.0
-  * - SCHOLAR
-    - 0.11.0
+~~~~~~~~
+- 0.11.0
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run mykrobe on our clusters::
 
     module --force purge
     ml biocontainers mykrobe
+

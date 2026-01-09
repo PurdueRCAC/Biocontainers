@@ -11,26 +11,12 @@ Aspera Connect is software that allows download and upload data. The software in
 | For more information, please check:
 |
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 4.2.6
-  * - BELL
-    - 4.2.6
-  * - GAUTSCHI
-    - 4.2.6
-  * - NEGISHI
-    - 4.2.6
-  * - SCHOLAR
-    - 4.2.6
+~~~~~~~~
+- 4.2.6
 
 Commands
 ~~~~~~~
@@ -68,3 +54,4 @@ To run aspera-connect on our clusters::
 
     module --force purge
     ml biocontainers aspera-connect
+

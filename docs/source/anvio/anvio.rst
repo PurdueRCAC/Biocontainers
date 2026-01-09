@@ -5,30 +5,21 @@ Anvio
 
 Introduction
 ~~~~~~~~
-``Anvio`` is an analysis and visualization platform for 'omics data. 
+Anvio is an analysis and visualization platform for 'omics data.
 
-| For more information, please check its website: https://biocontainers.pro/tools/anvio and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/anvio 
+| Home page: https://github.com/merenlab/anvio
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 7.0, 7.1_main, 7.1_structure
-  * - BELL
-    - 7.0, 7.1_main, 7.1_structure
-  * - GAUTSCHI
-    - 7.0, 7.1_main, 7.1_structure
-  * - NEGISHI
-    - 7.0, 7.1_main, 7.1_structure
-  * - SCHOLAR
-    - 7.0, 7.1_main, 7.1_structure
+~~~~~~~~
+- 7.0
+- 7.1_main
+- 7.1_structure
 
 Commands
 ~~~~~~~
@@ -180,7 +171,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load anvio
 
@@ -189,28 +180,18 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Anvio on our our clusters::
+To run anvio on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 8
+    #SBATCH -n 1
     #SBATCH --job-name=anvio
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers anvio  
-     
-    anvi-script-reformat-fasta assembly.fa -o contigs.fa -l 1000 --simplify-names  --seq-type NT
-    anvi-gen-contigs-database -f contigs.fa -o contigs.db -n 'An example contigs database' --num-threads 8
-    anvi-display-contigs-stats contigs.db
-    anvi-setup-ncbi-cogs --cog-data-dir $PWD --num-threads 8 --just-do-it --reset
-    anvi-run-ncbi-cogs -c contigs.db --cog-data-dir COG20 --num-threads 8
-
-
-
-.. _Github: https://github.com/merenlab/anvio
+    ml biocontainers anvio
 

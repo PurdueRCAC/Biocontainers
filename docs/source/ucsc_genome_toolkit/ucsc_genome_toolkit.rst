@@ -1,37 +1,26 @@
-.. _backbone-label:  
+.. _backbone-label:
 
-UCSC Executables
-============================== 
+Ucsc_genome_toolkit
+==============================
 
 Introduction
-~~~~~~~
-``UCSC Executables`` is a variety of executables that perform functions ranging from sequence analysis and format conversion, to basic number crunching and statistics, to complex database generation and manipulation.  
+~~~~~~~~
+UCSC genome toolkit is a collection of a variety of executables that perform functions ranging from sequence analysis and format conversion, to basic number crunching and statistics, to complex database generation and manipulation.
 
-These executables have been downloaded from http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64.v369/ and made available on RCAC clusters.  
+
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/rahulg603/ucsc_genome_toolkit 
+| Home page: http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64.v369/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 369
-  * - BELL
-    - 369
-  * - GAUTSCHI
-    - 369
-  * - NEGISHI
-    - 369
-  * - SCHOLAR
-    - 369
+~~~~~~~~
+- 369
 
 Commands
-~~~~~~
+~~~~~~~
 - addCols
 - ameme
 - autoDtd
@@ -342,31 +331,29 @@ Commands
 - xmlToSql
 
 Module
-~~~~~~~
+~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load ucsc_genome_toolkit/369
+    module load ucsc_genome_toolkit
 
 Example job
-~~~~~~
+~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run UCSC executables on our our clusters::
+To run ucsc_genome_toolkit on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 12
-    #SBATCH --job-name=UCSC
+    #SBATCH -n 1
+    #SBATCH --job-name=ucsc_genome_toolkit
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers ucsc_genome_toolkit/369
-    
-    blat genome.fasta input.fasta blat.out
-    fastqToFa input.fastq  output.fasta 
+    ml biocontainers ucsc_genome_toolkit
+

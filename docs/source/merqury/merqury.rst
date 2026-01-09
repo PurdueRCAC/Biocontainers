@@ -12,26 +12,12 @@ Merqury is a tool to evaluate genome assemblies with k-mers and more.
 | Docker hub: https://hub.docker.com/r/dovetailg/merqury 
 | Home page: https://github.com/marbl/merqury
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.3
-  * - BELL
-    - 1.3
-  * - GAUTSCHI
-    - 1.3
-  * - NEGISHI
-    - 1.3
-  * - SCHOLAR
-    - 1.3
+~~~~~~~~
+- 1.3
 
 Commands
 ~~~~~~~
@@ -64,5 +50,3 @@ To run merqury on our clusters::
     module --force purge
     ml biocontainers merqury
 
-    merqury.sh F1.k18.meryl col0.hapmer.meryl cvi0.hapmer.meryl \
-        athal_COL.fasta athal_CVI.fasta test

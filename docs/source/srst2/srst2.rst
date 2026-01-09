@@ -6,30 +6,18 @@ Srst2
 Introduction
 ~~~~~~~~
 Srst2 is designed to take Illumina sequence data, a MLST database and/or a database of gene sequences (e.g. resistance genes, virulence genes, etc) and report the presence of STs and/or reference genes.
-For more information, please check:
-Docker hub: https://hub.docker.com/r/staphb/srst2 
-Home page: https://github.com/katholt/srst2
+
+
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/staphb/srst2 
+| Home page: https://github.com/katholt/srst2
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.2.0
-  * - BELL
-    - 0.2.0
-  * - GAUTSCHI
-    - 0.2.0
-  * - NEGISHI
-    - 0.2.0
-  * - SCHOLAR
-    - 0.2.0
+~~~~~~~~
+- 0.2.0
 
 Commands
 ~~~~~~~
@@ -63,3 +51,4 @@ To run srst2 on our clusters::
 
     module --force purge
     ml biocontainers srst2
+

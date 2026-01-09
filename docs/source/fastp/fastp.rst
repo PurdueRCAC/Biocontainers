@@ -5,30 +5,20 @@ Fastp
 
 Introduction
 ~~~~~~~~
-``Fastp`` is an ultra-fast all-in-one FASTQ preprocessor (QC/adapters/trimming/filtering/splitting/merging, etc). 
+Fastp is an ultra-fast all-in-one FASTQ preprocessor (QC/adapters/trimming/ filtering/splitting/merging, etc).
 
-| For more information, please check its website: https://biocontainers.pro/tools/fastp and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/fastp 
+| Home page: https://github.com/OpenGene/fastp/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.20.1, 0.23.2
-  * - BELL
-    - 0.20.1, 0.23.2
-  * - GAUTSCHI
-    - 0.20.1, 0.23.2
-  * - NEGISHI
-    - 0.20.1, 0.23.2
-  * - SCHOLAR
-    - 0.20.1, 0.23.2
+~~~~~~~~
+- 0.20.1
+- 0.23.2
 
 Commands
 ~~~~~~~
@@ -37,7 +27,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load fastp
 
@@ -46,10 +36,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Fastp on our clusters::
+To run fastp on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,5 +51,3 @@ To run Fastp on our clusters::
     module --force purge
     ml biocontainers fastp
 
-    fastp -i input_1.fastq  -I input_2.fastq -o out.R1.fq.gz -O out.R2.fq.gz
-.. _Github: https://github.com/OpenGene/fastp/

@@ -12,26 +12,12 @@ SeqCode is a family of applications designed to develop high-quality images and 
 | Docker hub: https://hub.docker.com/r/eblancocrg/seqcode 
 | Home page: https://github.com/eblancoga/seqcode
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0
-  * - BELL
-    - 1.0
-  * - GAUTSCHI
-    - 1.0
-  * - NEGISHI
-    - 1.0
-  * - SCHOLAR
-    - 1.0
+~~~~~~~~
+- 1.0
 
 Commands
 ~~~~~~~
@@ -83,5 +69,3 @@ To run seqcode on our clusters::
     module --force purge
     ml biocontainers seqcode
 
-    buildChIPprofile -vd ChromInfo.txt \
-         H3K4me3_sample.bam test_buildChIPprofile

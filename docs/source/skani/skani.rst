@@ -12,24 +12,12 @@ Skani is a program for calculating average nucleotide identity (ANI) from DNA se
 | Docker hub: https://hub.docker.com/r/staphb/skani 
 | Home page: https://github.com/bluenote-1577/skani
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.2.0
-  * - BELL
-    - 0.2.0
-  * - GAUTSCHI
-    - 0.2.0
-  * - NEGISHI
-    - 0.2.0
+~~~~~~~~
+- 0.2.0
 
 Commands
 ~~~~~~~
@@ -61,3 +49,4 @@ To run skani on our clusters::
 
     module --force purge
     ml biocontainers skani
+

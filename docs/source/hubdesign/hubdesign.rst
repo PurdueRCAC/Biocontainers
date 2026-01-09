@@ -12,20 +12,12 @@ Hierarchical Unique Bait Design for simultaneous and specific capture of known a
 | BioContainers: https://biocontainers.pro/tools/hubdesign 
 | Home page: https://github.com/zacherydickson/HUBDesign
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - BELL
-    - 1.6.0
-  * - NEGISHI
-    - 1.6.0
+~~~~~~~~
+- 1.6.0
 
 Commands
 ~~~~~~~
@@ -64,3 +56,4 @@ To run hubdesign on our clusters::
 
     module --force purge
     ml biocontainers hubdesign
+

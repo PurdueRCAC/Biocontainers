@@ -12,24 +12,12 @@ SEACR is intended to call peaks and enriched regions from sparse CUT&RUN or chro
 | BioContainers: https://biocontainers.pro/tools/seacr 
 | Home page: https://github.com/FredHutch/SEACR
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.3
-  * - BELL
-    - 1.3
-  * - GAUTSCHI
-    - 1.3
-  * - NEGISHI
-    - 1.3
+~~~~~~~~
+- 1.3
 
 Commands
 ~~~~~~~
@@ -61,3 +49,4 @@ To run seacr on our clusters::
 
     module --force purge
     ml biocontainers seacr
+

@@ -5,30 +5,20 @@ Bbmap
 
 Introduction
 ~~~~~~~~
-``Bbmap`` is a short read aligner, as well as various other bioinformatic tools. 
+Bbmap is a short read aligner, as well as various other bioinformatic tools.
 
-| For more information, please check its website: https://biocontainers.pro/tools/bbmap and its home page on `Sourceforge`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/bbmap 
+| Home page: https://sourceforge.net/projects/bbmap
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 38.93, 38.96
-  * - BELL
-    - 38.93, 38.96
-  * - GAUTSCHI
-    - 38.93, 38.96
-  * - NEGISHI
-    - 38.93, 38.96
-  * - SCHOLAR
-    - 38.93, 38.96
+~~~~~~~~
+- 38.93
+- 38.96
 
 Commands
 ~~~~~~~
@@ -186,7 +176,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load bbmap
 
@@ -195,10 +185,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Bbmap on our clusters::
+To run bbmap on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -210,11 +200,3 @@ To run Bbmap on our clusters::
     module --force purge
     ml biocontainers bbmap
 
-    stats.sh in=SRR11234553_1.fastq > stats_out.txt
-    statswrapper.sh *.fastq > statswrapper_out.txt
-    pileup.sh in=map1.sam out=pileup_out.txt
-    readlength.sh in=SRR11234553_1.fastq in2=SRR11234553_2.fastq > readlength_out.txt
-    kmercountexact.sh in=SRR11234553_1.fastq in2=SRR11234553_2.fastq out=kmer_test.out khist=kmer.khist peaks=kmer.peak
-    bbmask.sh in=SRR11234553_1.fastq out=test.mark sam=map1.sam  
-  
-.. _Sourceforge: https://sourceforge.net/projects/bbmap

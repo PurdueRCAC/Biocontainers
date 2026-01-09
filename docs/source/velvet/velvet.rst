@@ -5,30 +5,19 @@ Velvet
 
 Introduction
 ~~~~~~~~
-``Velvet`` is a sequence assembler for very short reads. 
+Velvet is a sequence assembler for very short reads.
 
-| For more information, please check its website: https://biocontainers.pro/tools/velvet and its home page: https://www.ebi.ac.uk/~zerbino/velvet/.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/velvet 
+| Home page: https://www.ebi.ac.uk/~zerbino/velvet/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.2.10
-  * - BELL
-    - 1.2.10
-  * - GAUTSCHI
-    - 1.2.10
-  * - NEGISHI
-    - 1.2.10
-  * - SCHOLAR
-    - 1.2.10
+~~~~~~~~
+- 1.2.10
 
 Commands
 ~~~~~~~
@@ -38,19 +27,19 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
-    module load trimmomatic
+    module load velvet
 
 Example job
 ~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Velvet on our clusters::
+To run velvet on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,6 +50,4 @@ To run Velvet on our clusters::
 
     module --force purge
     ml biocontainers velvet
- 
-    velveth output_directory 21 -fasta -short solexa1.fa solexa2.fa solexa3.fa -long capillary.fa
-    velvetg output_directory -cov_cutoff 4
+

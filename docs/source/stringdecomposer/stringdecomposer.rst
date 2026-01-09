@@ -12,26 +12,12 @@ Stringdecomposer is a tool for decomposition centromeric assemblies and long rea
 | BioContainers: https://biocontainers.pro/tools/stringdecomposer 
 | Home page: https://github.com/ablab/stringdecomposer
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.1.2
-  * - BELL
-    - 1.1.2
-  * - GAUTSCHI
-    - 1.1.2
-  * - NEGISHI
-    - 1.1.2
-  * - SCHOLAR
-    - 1.1.2
+~~~~~~~~
+- 1.1.2
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run stringdecomposer on our clusters::
 
     module --force purge
     ml biocontainers stringdecomposer
+

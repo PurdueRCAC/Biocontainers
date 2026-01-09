@@ -1,70 +1,52 @@
-.. _backbone-label:  
-run-dbCAN
-============================== 
+.. _backbone-label:
+
+Run_dbcan
+==============================
 
 Introduction
-~~~~~~~
-``run_dbCAN`` using genomes/metagenomes/proteomes of any assembled organisms (prokaryotes, fungi, plants, animals, viruses) to search for CAZymes. This is a  standalone tool of http://bcb.unl.edu/dbCAN2/. Details aobut its uage can be found in its  `Github`_ repository. 
+~~~~~~~~
+Run_dbcan is a standalone tool of http://bcb.unl.edu/dbCAN2/
+
+
+| For more information, please check:
+| Home page: https://github.com/linnabrown/run_dbcan
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.0.2, 3.0.6
-  * - BELL
-    - 3.0.2, 3.0.6
-  * - GAUTSCHI
-    - 3.0.2, 3.0.6
-  * - NEGISHI
-    - 3.0.2, 3.0.6
-  * - SCHOLAR
-    - 3.0.2, 3.0.6
+~~~~~~~~
+- 3.0.2
+- 3.0.6
 
 Commands
-~~~~~ 
-run_dbcan
-
-Database
-~~~~~~
-Latest version of database has been downloaded and setup, including CAZyDB.09242021.fa, dbCAN-HMMdb-V10.txt, tcdb.fa, tf-1.hmm, tf-2.hmm, and stp.hmm.  
+~~~~~~~
+- run_dbcan
 
 Module
-~~~~~~~
+~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
-    module load run_dbcan/3.0.2
+    module load run_dbcan
 
 Example job
-~~~~~~~
+~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run run_dbcan on our cluster::
+To run run_dbcan on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
-    #SBATCH -t 10:00:00
+    #SBATCH -A myallocation     # Allocation name
+    #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 24
+    #SBATCH -n 1
     #SBATCH --job-name=run_dbcan
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers run_dbcan/3.0.2
-    
-    run_dbcan protein.faa protein --out_dir test1_dbcan
-    run_dbcan genome.fasta prok --out_dir test2_dbcan
+    ml biocontainers run_dbcan
 
-
-
-.. _Github: https://github.com/linnabrown/run_dbcan

@@ -12,26 +12,12 @@ PASTA: Ultra-Large Multiple Sequence Alignment for Nucleotide and Amino-Acid Seq
 | BioContainers: https://biocontainers.pro/tools/pasta 
 | Home page: https://github.com/smirarab/pasta
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.8.7
-  * - BELL
-    - 1.8.7
-  * - GAUTSCHI
-    - 1.8.7
-  * - NEGISHI
-    - 1.8.7
-  * - SCHOLAR
-    - 1.8.7
+~~~~~~~~
+- 1.8.7
 
 Commands
 ~~~~~~~
@@ -66,3 +52,4 @@ To run pasta on our clusters::
 
     module --force purge
     ml biocontainers pasta
+

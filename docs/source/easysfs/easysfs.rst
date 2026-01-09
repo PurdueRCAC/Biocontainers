@@ -1,34 +1,22 @@
 .. _backbone-label:
 
-easySFS
+Easysfs
 ==============================
 
 Introduction
 ~~~~~~~~
-``easySFS`` is a tool for the effective selection of population size projection for construction of the site frequency spectrum. 
+easySFS is a tool for the effective selection of population size projection for construction of the site frequency spectrum.
 
-| For more information, please check its home page on `Github`_.
+
+| For more information, please check:
+| Home page: https://github.com/isaacovercast/easySFS
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - .8.1, 1.0
-  * - BELL
-    - .8.1, 1.0
-  * - GAUTSCHI
-    - .8.1, 1.0
-  * - NEGISHI
-    - .8.1, 1.0
-  * - SCHOLAR
-    - .8.1, 1.0
+~~~~~~~~
+- 1.0
 
 Commands
 ~~~~~~~
@@ -37,7 +25,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load easysfs
 
@@ -46,10 +34,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run easySFS on our clusters::
+To run easysfs on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,6 +49,3 @@ To run easySFS on our clusters::
     module --force purge
     ml biocontainers easysfs
 
-    easySFS.py -i example_files/wcs_1200.vcf -p example_files/wcs_pops.txt --preview -a
-    easySFS.py -i example_files/wcs_1200.vcf -p example_files/wcs_pops.txt -a --proj=7,7
-.. _Github: https://github.com/isaacovercast/easySFS

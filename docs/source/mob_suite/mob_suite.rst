@@ -12,26 +12,12 @@ MOB-suite: Software tools for clustering, reconstruction and typing of plasmids 
 | Docker hub: https://hub.docker.com/r/kbessonov/mob_suite 
 | Home page: https://github.com/phac-nml/mob-suite
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.0.3
-  * - BELL
-    - 3.0.3
-  * - GAUTSCHI
-    - 3.0.3
-  * - NEGISHI
-    - 3.0.3
-  * - SCHOLAR
-    - 3.0.3
+~~~~~~~~
+- 3.0.3
 
 Commands
 ~~~~~~~
@@ -66,3 +52,4 @@ To run mob_suite on our clusters::
 
     module --force purge
     ml biocontainers mob_suite
+

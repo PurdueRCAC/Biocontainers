@@ -12,26 +12,12 @@ Clust is a fully automated method for identification of clusters (groups) of gen
 | BioContainers: https://biocontainers.pro/tools/clust 
 | Home page: https://github.com/baselabujamous/clust
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.17.0
-  * - BELL
-    - 1.17.0
-  * - GAUTSCHI
-    - 1.17.0
-  * - NEGISHI
-    - 1.17.0
-  * - SCHOLAR
-    - 1.17.0
+~~~~~~~~
+- 1.17.0
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run clust on our clusters::
 
     module --force purge
     ml biocontainers clust
+

@@ -12,26 +12,12 @@ Snphylo is a pipeline to generate a phylogenetic tree from huge SNP data.
 | Docker hub: https://hub.docker.com/r/finchnsnps/snphylo 
 | Home page: https://github.com/thlee/SNPhylo
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 20180901
-  * - BELL
-    - 20180901
-  * - GAUTSCHI
-    - 20180901
-  * - NEGISHI
-    - 20180901
-  * - SCHOLAR
-    - 20180901
+~~~~~~~~
+- 20180901
 
 Commands
 ~~~~~~~
@@ -71,3 +57,4 @@ To run snphylo on our clusters::
 
     module --force purge
     ml biocontainers snphylo
+

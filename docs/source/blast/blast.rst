@@ -1,34 +1,24 @@
 .. _backbone-label:
 
-BLAST
+Blast
 ==============================
 
 Introduction
 ~~~~~~~~
-``BLAST`` (Basic Local Alignment Search Tool) finds regions of similarity between biological sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance. 
+BLAST (Basic Local Alignment Search Tool) finds regions of similarity between biological sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance.
 
-| For more information, please check its website: https://biocontainers.pro/tools/blast and its home page: https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastHome.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/blast 
+| Home page: https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMDWeb&PAGE_TYPEBlastHome
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.11.0, 2.13.0
-  * - BELL
-    - 2.11.0, 2.13.0
-  * - GAUTSCHI
-    - 2.11.0, 2.13.0
-  * - NEGISHI
-    - 2.11.0, 2.13.0
-  * - SCHOLAR
-    - 2.11.0, 2.13.0
+~~~~~~~~
+- 2.11.0
+- 2.13.0
 
 Commands
 ~~~~~~~
@@ -64,23 +54,19 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load blast
-
-BLAST Databases
-~~~~
-Local copies of the blast dabase can be found in the directory **/depot/itap/datasets/blast/latest/**. The environment varialbe ``BLASTDB`` was also set as ``/depot/itap/datasets/blast/latest/``. If users want to use ``cdd_delta``, ``env_nr``, ``env_nt``, ``nr``, ``nt``, ``pataa``, ``patnt``, ``pdbnt``,  ``refseq_protein``, ``refseq_rna``, ``swissprot``, or ``tsa_nt`` databases, do not need to provide the database path. Instead, just use the format like this ``-db nr``. 
 
 Example job
 ~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run BLAST on our clusters::
+To run blast on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -92,4 +78,3 @@ To run BLAST on our clusters::
     module --force purge
     ml biocontainers blast
 
-    blastp -query protein.fasta -db nr -out test_out -num_threads 4    

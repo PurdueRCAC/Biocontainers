@@ -11,26 +11,12 @@ To convert a VCF into a MAF, each variant must be mapped to only one of all poss
 | For more information, please check:
 | Home page: https://github.com/mskcc/vcf2maf
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.6.21
-  * - BELL
-    - 1.6.21
-  * - GAUTSCHI
-    - 1.6.21
-  * - NEGISHI
-    - 1.6.21
-  * - SCHOLAR
-    - 1.6.21
+~~~~~~~~
+- 1.6.21
 
 Commands
 ~~~~~~~
@@ -51,9 +37,6 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-.. note::
-    If users need to use ``vep``, please add ``--vep-path /opt/conda/bin``. 
-
 To run vcf2maf on our clusters::
 
     #!/bin/bash
@@ -69,6 +52,3 @@ To run vcf2maf on our clusters::
     module --force purge
     ml biocontainers vcf2maf
 
-    vcf2maf.pl --vep-path /opt/conda/bin \
-        --ref-fasta Homo_sapiens.GRCh37.dna.toplevel.fa.gz \
-        --input-vcf tests/test.vcf --output-maf test.vep.maf

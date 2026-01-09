@@ -9,33 +9,19 @@ CheckM provides a set of tools for assessing the quality of genomes recovered fr
 
 
 | For more information, please check:
-| BioContainers: https://biocontainers.pro/tools/checkm-genome 
 | Home page: https://github.com/Ecogenomics/CheckM
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.2.0, 1.2.2
-  * - BELL
-    - 1.2.0, 1.2.2
-  * - GAUTSCHI
-    - 1.2.0, 1.2.2
-  * - NEGISHI
-    - 1.2.0, 1.2.2
-  * - SCHOLAR
-    - 1.2.0, 1.2.2
+~~~~~~~~
+- 1.2.0
+- 1.2.2
 
 Commands
 ~~~~~~~
-- checkm-genome
+- checkm
 
 Module
 ~~~~~~~~
@@ -55,7 +41,7 @@ To run checkm-genome on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 8
+    #SBATCH -n 1
     #SBATCH --job-name=checkm-genome
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -64,4 +50,3 @@ To run checkm-genome on our clusters::
     module --force purge
     ml biocontainers checkm-genome
 
-    checkm lineage_wf -t 8 -x fa bins checkm

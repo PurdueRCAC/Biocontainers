@@ -12,26 +12,12 @@ piscem is a rust wrapper for a next-generation index + mapper tool (still curren
 | BioContainers: https://biocontainers.pro/tools/piscem 
 | Home page: https://github.com/COMBINE-lab/piscem
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.4.3
-  * - BELL
-    - 0.4.3
-  * - GAUTSCHI
-    - 0.4.3
-  * - NEGISHI
-    - 0.4.3
-  * - SCHOLAR
-    - 0.4.3
+~~~~~~~~
+- 0.4.3
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run piscem on our clusters::
 
     module --force purge
     ml biocontainers piscem
+

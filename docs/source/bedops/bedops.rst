@@ -5,30 +5,19 @@ Bedops
 
 Introduction
 ~~~~~~~~
-``Bedops`` is a software package for manipulating and analyzing genomic interval data. 
+Bedops is a software package for manipulating and analyzing genomic interval data.
 
-| For more information, please check its website: https://biocontainers.pro/tools/bedops and its home page: https://bedops.readthedocs.io/en/latest/.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/bedops 
+| Home page: https://bedops.readthedocs.io/en/latest/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.4.39
-  * - BELL
-    - 2.4.39
-  * - GAUTSCHI
-    - 2.4.39
-  * - NEGISHI
-    - 2.4.39
-  * - SCHOLAR
-    - 2.4.39
+~~~~~~~~
+- 2.4.39
 
 Commands
 ~~~~~~~
@@ -201,7 +190,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load bedops
 
@@ -210,10 +199,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Bedops on our clusters::
+To run bedops on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -225,6 +214,3 @@ To run Bedops on our clusters::
     module --force purge
     ml biocontainers bedops
 
-    bedops -m 001.merge.001.test > 001.merge.001.observed
-    bedops -c 001.merge.001.test > 001.complement.001.observed
-    bedops -i 001.intersection.001a.test 001.intersection.001b.test > 001.intersection.001.observed

@@ -12,26 +12,12 @@ Kentutils: UCSC command line bioinformatic utilities.
 | Docker hub: https://hub.docker.com/r/genomicpariscentre/kentutils 
 | Home page: https://github.com/ENCODE-DCC/kentUtils
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 302.1.0
-  * - BELL
-    - 302.1.0
-  * - GAUTSCHI
-    - 302.1.0
-  * - NEGISHI
-    - 302.1.0
-  * - SCHOLAR
-    - 302.1.0
+~~~~~~~~
+- 302.1.0
 
 Commands
 ~~~~~~~
@@ -287,3 +273,4 @@ To run kentutils on our clusters::
 
     module --force purge
     ml biocontainers kentutils
+

@@ -11,26 +11,12 @@ Shasta is a software for de novo assembly from Oxford Nanopore reads.
 | For more information, please check:
 | Home page: https://github.com/chanzuckerberg/shasta
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.10.0
-  * - BELL
-    - 0.10.0, 0.14.0
-  * - GAUTSCHI
-    - 0.10.0
-  * - NEGISHI
-    - 0.10.0, 0.14.0
-  * - SCHOLAR
-    - 0.10.0
+~~~~~~~~
+- 0.10.0
 
 Commands
 ~~~~~~~
@@ -63,5 +49,3 @@ To run shasta on our clusters::
     module --force purge
     ml biocontainers shasta
 
-    shasta --input r94_ec_rad2.181119.60x-10kb.fasta \
-        --config Nanopore-May2022

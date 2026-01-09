@@ -6,30 +6,18 @@ Infernal
 Introduction
 ~~~~~~~~
 Infernal ("INFERence of RNA ALignment") is for searching DNA sequence databases for RNA structure and sequence similarities. It is an implementation of a special case of profile stochastic context-free grammars called covariance models (CMs). A CM is like a sequence profile, but it scores a combination of sequence consensus and RNA secondary structure consensus, so in many cases, it is more capable of identifying RNA homologs that conserve their secondary structure more than their primary sequence.
-For more information, please check:
-BioContainers: https://biocontainers.pro/tools/infernal 
-Home page: http://eddylab.org/infernal/
+
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/infernal 
+| Home page: http://eddylab.org/infernal/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.1.4
-  * - BELL
-    - 1.1.4
-  * - GAUTSCHI
-    - 1.1.4
-  * - NEGISHI
-    - 1.1.4
-  * - SCHOLAR
-    - 1.1.4
+~~~~~~~~
+- 1.1.4
 
 Commands
 ~~~~~~~
@@ -70,3 +58,4 @@ To run infernal on our clusters::
 
     module --force purge
     ml biocontainers infernal
+

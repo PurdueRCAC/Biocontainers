@@ -4,7 +4,7 @@ Roary
 ==============================
 
 Introduction
-~~~~~~~
+~~~~~~~~
 Roary is a high speed stand alone pan genome pipeline, which takes annotated assemblies in GFF3 format (produced by Prokka) and calculates the pan genome.
 
 
@@ -12,40 +12,26 @@ Roary is a high speed stand alone pan genome pipeline, which takes annotated ass
 | Docker hub: https://hub.docker.com/r/staphb/roary 
 | Home page: https://github.com/sanger-pathogens/Roary
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.13.0
-  * - BELL
-    - 3.13.0
-  * - GAUTSCHI
-    - 3.13.0
-  * - NEGISHI
-    - 3.13.0
-  * - SCHOLAR
-    - 3.13.0
+~~~~~~~~
+- 3.13.0
 
 Commands
-~~~~~~
+~~~~~~~
 - roary
 
 Module
-~~~~~~~
+~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
     module load roary
 
 Example job
-~~~~
+~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
@@ -63,5 +49,4 @@ To run roary on our clusters::
 
     module --force purge
     ml biocontainers roary
-        
-    roary -f demo -e -n -v gff/*.gff
+

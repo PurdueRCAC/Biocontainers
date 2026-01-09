@@ -12,26 +12,12 @@ Manta calls structural variants (SVs) and indels from mapped paired-end sequenci
 | BioContainers: https://biocontainers.pro/tools/manta 
 | Home page: https://github.com/Illumina/manta
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.6.0
-  * - BELL
-    - 1.6.0
-  * - GAUTSCHI
-    - 1.6.0
-  * - NEGISHI
-    - 1.6.0
-  * - SCHOLAR
-    - 1.6.0
+~~~~~~~~
+- 1.6.0
 
 Commands
 ~~~~~~~
@@ -65,11 +51,3 @@ To run manta on our clusters::
     module --force purge
     ml biocontainers manta
 
-    configManta.py --normalBam=HCC1954.NORMAL.30x.compare.COST16011_region.bam \
-        --tumorBam=G15512.HCC1954.1.COST16011_region.bam \
-        --referenceFasta=Homo_sapiens_assembly19.COST16011_region.fa \
-        --region=8:107652000-107655000 \
-        --region=11:94974000-94989000 \
-        --exome --runDir="MantaDemoAnalysis"
-
-     python MantaDemoAnalysis/runWorkflow.py

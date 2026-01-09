@@ -1,78 +1,60 @@
-.. _backbone-label:  
+.. _backbone-label:
 
 Bracken
-============================== 
+==============================
 
 Introduction
-~~~~~~~
-``Bracken``  (Bayesian Reestimation of Abundance with KrakEN) is a highly accurate statistical method that computes the abundance of species in DNA sequences from a metagenomics sample.
+~~~~~~~~
+Bracken is a companion program to Kraken 1 or Kraken 2 While Kraken classifies reads to multiple levels in the taxonomic tree, Bracken allows estimation of abundance at a single level using those classifications.
 
-Detailed usage can be found here: https://github.com/jenniferlu717/Bracken
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/bracken 
+| Home page: https://github.com/jenniferlu717/Bracken
 
 .. note::
-  Inside the ``bracken`` container image, ``kraken2`` was also installed. As a result, when you load ``bracken/2.6.1-py37``, ``kraken version 2.1.1`` will be automatically loaded. Please do not load ``kraken2`` module together with ``bracken`` module to avaoid conflict. 
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.6.1, 2.7
-  * - BELL
-    - 2.6.1, 2.7
-  * - GAUTSCHI
-    - 2.6.1, 2.7
-  * - NEGISHI
-    - 2.6.1, 2.7
-  * - SCHOLAR
-    - 2.6.1, 2.7
+~~~~~~~~
+- 2.6.1
+- 2.7
 
 Commands
-~~~~~~
-- bracken
-- bracken-build
-- combine_bracken_outputs.py
-- kraken2
-- kraken2-build
-- kraken2-inspect
+~~~~~~~
 - combine_bracken_outputs.py
 - est_abundance.py
 - generate_kmer_distribution.py
+- kraken2
+- kraken2-build
+- kraken2-inspect
+- bracken
+- bracken-build
 
 Module
-~~~~~~~
+~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load bracken/2.6.1-py37
+    module load bracken
 
 Example job
-~~~~~~
+~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run bracken on our our clusters::
+To run bracken on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
-    #SBATCH -t 10:00:00
+    #SBATCH -A myallocation     # Allocation name
+    #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 24
+    #SBATCH -n 1
     #SBATCH --job-name=bracken
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers bracken/2.6.1-py37
-    
-    DATABASE=minikraken2_v2_8GB_201904_UPDATE
-    kraken2 --threads 24  --report kranken2.report --db $DATABASE --paired --classified-out cseqs#.fq SRR5043021_1.fastq SRR5043021_2.fastq
-    bracken -d  $DATABASE -i kranken2.report -o bracken_output -w bracken.report  
-    
+    ml biocontainers bracken
+

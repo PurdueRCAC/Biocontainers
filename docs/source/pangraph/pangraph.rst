@@ -12,26 +12,12 @@ Pangraph is a bioinformatic toolkit to align genome assemblies into pangenome gr
 | Docker hub: https://hub.docker.com/r/neherlab/pangraph 
 | Home page: https://github.com/neherlab/pangraph
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.7.1
-  * - BELL
-    - 0.7.1
-  * - GAUTSCHI
-    - 0.7.1
-  * - NEGISHI
-    - 0.7.1
-  * - SCHOLAR
-    - 0.7.1
+~~~~~~~~
+- 0.7.1
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run pangraph on our clusters::
 
     module --force purge
     ml biocontainers pangraph
+

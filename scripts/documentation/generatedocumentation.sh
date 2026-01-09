@@ -56,6 +56,9 @@ for filename in ${listofmissingfiles[@]}; do
    moreinformation=$(echo $moreinformation | sed 's/-//')
    echo "|" $moreinformation | sed 's/- /\n| /g' >> $outputfile
    echo "" >> $outputfile
+   echo ".. note::" >> $outputfile
+   echo "    Please follow the recommended citation guidelines from the developers when you use the tool in research." >> $outputfile
+   echo "" >> $outputfile
    echo "Versions" >> $outputfile
    echo "~~~~~~~~" >> $outputfile
    for eachfile in $filenamesarray

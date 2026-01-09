@@ -12,26 +12,12 @@ CellPhoneDB is a publicly available repository of curated receptors, ligands and
 | Docker hub: https://hub.docker.com/r/eagleshot/cellphonedb 
 | Home page: https://github.com/Teichlab/cellphonedb
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.1.7
-  * - BELL
-    - 2.1.7
-  * - GAUTSCHI
-    - 2.1.7
-  * - NEGISHI
-    - 2.1.7
-  * - SCHOLAR
-    - 2.1.7
+~~~~~~~~
+- 2.1.7
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run cellphonedb on our clusters::
 
     module --force purge
     ml biocontainers cellphonedb
+

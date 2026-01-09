@@ -9,28 +9,14 @@ DeconSeq: DECONtamination of SEQuence data using a modified version of BWA-SW. T
 
 
 | For more information, please check:
-| Home page: http://deconseq.sourceforge.net/ 
+| Home page: http://deconseq.sourceforge.net/ Note: A helper command 'copy_DeconSeqConfig' is provided to copy the configuration file DeconSeqConfig.pm and executables to your current directory and modify it as needed. You just need to simply run the command 'copy_DeconSeqConfig', no extra parameter is needed.
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.4.3
-  * - BELL
-    - 0.4.3
-  * - GAUTSCHI
-    - 0.4.3
-  * - NEGISHI
-    - 0.4.3
-  * - SCHOLAR
-    - 0.4.3
+~~~~~~~~
+- 0.4.3
 
 Commands
 ~~~~~~~
@@ -44,19 +30,6 @@ You can load the modules by::
 
     module load biocontainers
     module load deconseq
-
-Helper command
-~~~~  
-.. note::
-   Users need to use ``DeconSeqConfig.pm`` to specify the database information. Besides, for the current ``deconseq`` module in `biocontainers`, users need to copy the executables to your current directory, including ``bwa64``, ``deconseq.pl``, and ``splitFasta.pl``. This step is only needed to run once. 
-   
-A helper command ``copy_DeconSeqConfig`` is provided to copy the configuration file ``DeconSeqConfig.pm`` and executables to your current directory. You just need to run the command ``copy_DeconSeqConfig`` and modify ``DeconSeqConfig.pm`` as needed::
-
-
-    copy_DeconSeqConfig
-    nano DeconSeqConfig.pm # modify database information as needed
-
-For detailed information about how to config ``DeconSeqConfig.pm``, please check its online manual (https://sourceforge.net/projects/deconseq/files/).
 
 Example job
 ~~~~~
@@ -78,6 +51,3 @@ To run deconseq on our clusters::
     module --force purge
     ml biocontainers deconseq
 
-    bwa64 index -p hg38_db -a bwtsw Homo_sapiens.GRCh38.dna.fa
-    bwa64 index -p m39_db -a bwtsw GRCm38.p4.genome.fa 
-    deconseq.pl -f input.fastq -dbs hg38_db -dbs_retain m39_db

@@ -5,30 +5,19 @@ Paml
 
 Introduction
 ~~~~~~~~
-``Paml`` is a package of programs for phylogenetic analyses of DNA or protein sequences using maximum likelihood. 
+Paml is a package of programs for phylogenetic analyses of DNA or protein sequences using maximum likelihood.
 
-| For more information, please check its website: https://biocontainers.pro/tools/paml and its home page: http://abacus.gene.ucl.ac.uk/software/paml.html.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/paml 
+| Home page: http://abacus.gene.ucl.ac.uk/software/paml.html
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 4.9
-  * - BELL
-    - 4.9
-  * - GAUTSCHI
-    - 4.9
-  * - NEGISHI
-    - 4.9
-  * - SCHOLAR
-    - 4.9
+~~~~~~~~
+- 4.9
 
 Commands
 ~~~~~~~
@@ -45,7 +34,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load paml
 
@@ -54,10 +43,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Paml on our clusters::
+To run paml on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -68,3 +57,4 @@ To run Paml on our clusters::
 
     module --force purge
     ml biocontainers paml
+

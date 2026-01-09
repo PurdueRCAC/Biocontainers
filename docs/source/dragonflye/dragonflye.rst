@@ -12,26 +12,13 @@ Dragonflye is a pipeline that aims to make assembling Oxford Nanopore reads quic
 | BioContainers: https://biocontainers.pro/tools/dragonflye 
 | Home page: https://github.com/rpetit3/dragonflye
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.13, 1.0.14
-  * - BELL
-    - 1.0.13, 1.0.14
-  * - GAUTSCHI
-    - 1.0.13, 1.0.14
-  * - NEGISHI
-    - 1.0.13, 1.0.14
-  * - SCHOLAR
-    - 1.0.13, 1.0.14
+~~~~~~~~
+- 1.0.13
+- 1.0.14
 
 Commands
 ~~~~~~~
@@ -55,7 +42,7 @@ To run dragonflye on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 8
+    #SBATCH -n 1
     #SBATCH --job-name=dragonflye
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -64,6 +51,3 @@ To run dragonflye on our clusters::
     module --force purge
     ml biocontainers dragonflye
 
-    dragonflye --cpus 8 \
-         --outdir output \
-         --reads SRR18498195.fastq

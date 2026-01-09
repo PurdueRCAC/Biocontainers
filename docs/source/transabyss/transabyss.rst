@@ -5,30 +5,19 @@ Transabyss
 
 Introduction
 ~~~~~~~~
-``Transabyss`` is a tool for De novo assembly of RNAseq data using ABySS. 
+Transabyss is a tool for De novo assembly of RNAseq data using ABySS.
 
-| For more information, please check its website: https://bioconda.github.io/recipes/transabyss and its home page on `Github`_.
+
+| For more information, please check:
+| Biocontainer: https://bioconda.github.io/recipes/transabyss 
+| Home page: https://github.com/bcgsc/transabyss
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.0.1
-  * - BELL
-    - 2.0.1
-  * - GAUTSCHI
-    - 2.0.1
-  * - NEGISHI
-    - 2.0.1
-  * - SCHOLAR
-    - 2.0.1
+~~~~~~~~
+- 2.0.1
 
 Commands
 ~~~~~~~
@@ -38,7 +27,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load transabyss
 
@@ -47,13 +36,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Transabyss on our clusters::
+To run transabyss on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 12
+    #SBATCH -n 1
     #SBATCH --job-name=transabyss
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -62,8 +51,3 @@ To run Transabyss on our clusters::
     module --force purge
     ml biocontainers transabyss
 
-    transabyss --name  SRR12095148 \
-        --pe SRR12095148_1.fastq SRR12095148_2.fastq \
-        --outdir  SRR12095148_assembly  --threads 12
-
-.. _Github: https://github.com/bcgsc/transabyss

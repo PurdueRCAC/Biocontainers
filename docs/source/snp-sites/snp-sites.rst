@@ -12,26 +12,12 @@ SNP-sites is a tool that apidly extracts SNPs from a multi-FASTA alignment.
 | Docker hub: https://hub.docker.com/r/staphb/snp-sites 
 | Home page: https://github.com/sanger-pathogens/snp-sites
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.5.1
-  * - BELL
-    - 2.5.1
-  * - GAUTSCHI
-    - 2.5.1
-  * - NEGISHI
-    - 2.5.1
-  * - SCHOLAR
-    - 2.5.1
+~~~~~~~~
+- 2.5.1
 
 Commands
 ~~~~~~~
@@ -64,4 +50,3 @@ To run snp-sites on our clusters::
     module --force purge
     ml biocontainers snp-sites
 
-    snp-sites salmonella_serovars_core_genes.aln

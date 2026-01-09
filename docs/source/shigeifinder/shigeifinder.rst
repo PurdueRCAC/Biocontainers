@@ -6,30 +6,18 @@ Shigeifinder
 Introduction
 ~~~~~~~~
 Shigeifinder is a tool that is used to identify differentiate Shigella/EIEC using cluster-specific genes and identify the serotype using O-antigen/H-antigen genes.
-For more information, please check:
-Docker hub: https://hub.docker.com/r/staphb/shigeifinder 
-Home page: https://github.com/LanLab/ShigEiFinder
+
+
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/staphb/shigeifinder 
+| Home page: https://github.com/LanLab/ShigEiFinder
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.3.2
-  * - BELL
-    - 1.3.2
-  * - GAUTSCHI
-    - 1.3.2
-  * - NEGISHI
-    - 1.3.2
-  * - SCHOLAR
-    - 1.3.2
+~~~~~~~~
+- 1.3.2
 
 Commands
 ~~~~~~~
@@ -61,3 +49,4 @@ To run shigeifinder on our clusters::
 
     module --force purge
     ml biocontainers shigeifinder
+

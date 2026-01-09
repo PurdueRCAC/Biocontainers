@@ -12,18 +12,12 @@ FusionCatcher searches for somatic novel/known fusion genes, translocations, and
 | BioContainers: https://biocontainers.pro/tools/fusioncatcher 
 | Home page: https://github.com/ndaniel/fusioncatcher
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - NEGISHI
-    - 1.33
+~~~~~~~~
+- 1.33
 
 Commands
 ~~~~~~~
@@ -58,3 +52,4 @@ To run fusioncatcher on our clusters::
 
     module --force purge
     ml biocontainers fusioncatcher
+

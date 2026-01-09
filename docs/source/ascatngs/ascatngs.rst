@@ -12,26 +12,12 @@ AscatNGS contains the Cancer Genome Projects workflow implementation of the ASCA
 | Quay.io: https://quay.io/repository/wtsicgp/ascatngs 
 | Home page: https://github.com/cancerit/ascatNgs
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 4.5.0
-  * - BELL
-    - 4.5.0
-  * - GAUTSCHI
-    - 4.5.0
-  * - NEGISHI
-    - 4.5.0
-  * - SCHOLAR
-    - 4.5.0
+~~~~~~~~
+- 4.5.0
 
 Commands
 ~~~~~~~
@@ -113,3 +99,4 @@ To run ascatngs on our clusters::
 
     module --force purge
     ml biocontainers ascatngs
+

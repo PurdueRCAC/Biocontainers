@@ -6,30 +6,18 @@ Pplacer
 Introduction
 ~~~~~~~~
 Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment, guppy does all of the downstream analysis of placements, and rppr does useful things having to do with reference packages.
-For more information, please check:
-BioContainers: https://biocontainers.pro/tools/pplacer 
-Home page: https://matsen.fhcrc.org/pplacer/
+
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/pplacer 
+| Home page: https://matsen.fhcrc.org/pplacer/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.1.alpha19
-  * - BELL
-    - 1.1.alpha19
-  * - GAUTSCHI
-    - 1.1.alpha19
-  * - NEGISHI
-    - 1.1.alpha19
-  * - SCHOLAR
-    - 1.1.alpha19
+~~~~~~~~
+- 1.1.alpha19
 
 Commands
 ~~~~~~~
@@ -63,3 +51,4 @@ To run pplacer on our clusters::
 
     module --force purge
     ml biocontainers pplacer
+

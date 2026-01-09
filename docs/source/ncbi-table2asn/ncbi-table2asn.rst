@@ -12,26 +12,12 @@ table2asn is a command-line program that creates sequence records for submission
 | Docker hub: https://hub.docker.com/r/staphb/ncbi-table2asn 
 | Home page: https://www.ncbi.nlm.nih.gov/genbank/table2asn/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.26.678
-  * - BELL
-    - 1.26.678
-  * - GAUTSCHI
-    - 1.26.678
-  * - NEGISHI
-    - 1.26.678
-  * - SCHOLAR
-    - 1.26.678
+~~~~~~~~
+- 1.26.678
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run ncbi-table2asn on our clusters::
 
     module --force purge
     ml biocontainers ncbi-table2asn
+

@@ -12,26 +12,12 @@ Maxbin2 is a software for binning assembled metagenomic sequences based on an Ex
 | Docker hub: https://hub.docker.com/r/nanozoo/maxbin2 
 | Home page: https://sourceforge.net/projects/maxbin2/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.2.7
-  * - BELL
-    - 2.2.7
-  * - GAUTSCHI
-    - 2.2.7
-  * - NEGISHI
-    - 2.2.7
-  * - SCHOLAR
-    - 2.2.7
+~~~~~~~~
+- 2.2.7
 
 Commands
 ~~~~~~~
@@ -65,5 +51,3 @@ To run maxbin2 on our clusters::
     module --force purge
     ml biocontainers maxbin2
 
-    run_MaxBin.pl -contig subset_assembly.fa \
-         -abund_list abundance.list -max_iteration 5 -out mbin

@@ -5,32 +5,28 @@ Cactus
 
 Introduction
 ~~~~~~~~
-``Cactus`` is a reference-free whole-genome multiple alignment program. 
+Cactus is a reference-free whole-genome multiple alignment program.
 
-| For more information, please check its website: https://biocontainers.pro/tools/cactus and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/cactus 
+| Home page: https://github.com/ComparativeGenomicsToolkit/cactus
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.0.5, 2.2.3-gpu, 2.2.1, 2.2.3, 2.4.0, 2.4.0-gpu, 2.5.2-gpu, 2.5.2, 2.6.5-gpu, 2.6.5
-  * - BELL
-    - 2.0.5, 2.2.1, 2.2.3, 2.4.0, 2.5.2, 2.6.5
-  * - GAUTSCHI
-    - 2.0.5, 2.2.1, 2.2.3, 2.4.0, 2.5.2, 2.6.5
-  * - GILBRETH
-    - 2.2.3-gpu, 2.4.0-gpu
-  * - NEGISHI
-    - 2.0.5, 2.2.1, 2.2.3, 2.4.0, 2.5.2, 2.6.5
-  * - SCHOLAR
-    - 2.0.5, 2.2.3-gpu, 2.2.1, 2.2.3, 2.4.0, 2.4.0-gpu, 2.5.2-gpu, 2.5.2, 2.6.5-gpu, 2.6.5
+~~~~~~~~
+- 2.0.5
+- 2.2.1
+- 2.2.3-gpu
+- 2.2.3
+- 2.4.0-gpu
+- 2.4.0
+- 2.5.2-gpu
+- 2.5.2
+- 2.6.5-gpu
+- 2.6.5
 
 Commands
 ~~~~~~~
@@ -66,7 +62,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load cactus
 
@@ -75,10 +71,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Cactus on our clusters::
+To run cactus on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -90,7 +86,3 @@ To run Cactus on our clusters::
     module --force purge
     ml biocontainers cactus
 
-    wget https://raw.githubusercontent.com/ComparativeGenomicsToolkit/cactus/master/examples/evolverMammals.txt
-    cactus jobStore evolverMammals.txt evolverMammals.hal
-
-.. _Github: https://github.com/ComparativeGenomicsToolkit/cactus

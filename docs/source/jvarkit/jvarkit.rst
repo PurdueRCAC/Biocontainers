@@ -11,24 +11,12 @@ Jvarkit is a collection of Java utilities for Bioinformatics.
 | For more information, please check:
 | Home page: https://github.com/lindenb/jvarkit
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2023.06.27
-  * - BELL
-    - 2023.06.27
-  * - GAUTSCHI
-    - 2023.06.27
-  * - NEGISHI
-    - 2023.06.27
+~~~~~~~~
+- 2023.06.27
 
 Commands
 ~~~~~~~
@@ -60,3 +48,4 @@ To run jvarkit on our clusters::
 
     module --force purge
     ml biocontainers jvarkit
+

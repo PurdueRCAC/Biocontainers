@@ -12,26 +12,12 @@ GimmeMotifs is a suite of motif tools, including a motif prediction pipeline for
 | BioContainers: https://biocontainers.pro/tools/gimmemotifs 
 | Home page: https://github.com/vanheeringen-lab/gimmemotifs
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.17.1
-  * - BELL
-    - 0.17.1
-  * - GAUTSCHI
-    - 0.17.1
-  * - NEGISHI
-    - 0.17.1
-  * - SCHOLAR
-    - 0.17.1
+~~~~~~~~
+- 0.17.1
 
 Commands
 ~~~~~~~
@@ -64,6 +50,4 @@ To run gimmemotifs on our clusters::
 
     module --force purge
     ml biocontainers gimmemotifs
- 
-    gimme motifs ENCFF407IVS.bed ENCFF407IVS_motifs \
-        -g ~/.local/share/genomes/hg38/hg38.fa --denovo
+

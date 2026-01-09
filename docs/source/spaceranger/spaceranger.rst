@@ -5,30 +5,21 @@ Spaceranger
 
 Introduction
 ~~~~~~~~
-``Spaceranger`` is a set of analysis pipelines that process Visium Spatial Gene Expression data with brightfield and fluorescence microscope images. 
+Spaceranger is a set of analysis pipelines that process Visium Spatial Gene Expression data with brightfield and fluorescence microscope images.
 
-| For more information, please check its | Docker hub: https://hub.docker.com/r/cumulusprod/spaceranger/tags and its home page: https://support.10xgenomics.com/spatial-gene-expression/software/pipelines/latest/what-is-space-ranger.
+
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/cumulusprod/spaceranger/tags 
+| Home page: https://support.10xgenomics.com/spatial-gene-expression/software/pipelines/latest/what-is-space-ranger
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.3.0, 1.3.1, 2.0.0, 2.1.1
-  * - BELL
-    - 1.3.0, 1.3.1, 2.0.0, 2.1.1, 3.1.1
-  * - GAUTSCHI
-    - 1.3.0, 1.3.1, 2.0.0, 2.1.1, 3.1.1
-  * - NEGISHI
-    - 1.3.0, 1.3.1, 2.0.0, 2.1.1, 3.1.1
-  * - SCHOLAR
-    - 1.3.0, 1.3.1, 2.0.0
+~~~~~~~~
+- 1.3.0
+- 1.3.1
+- 2.0.0
 
 Commands
 ~~~~~~~
@@ -37,7 +28,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load spaceranger
 
@@ -46,10 +37,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Spaceranger on our clusters::
+To run spaceranger on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,12 +52,3 @@ To run Spaceranger on our clusters::
     module --force purge
     ml biocontainers spaceranger
 
-    spaceranger count --id=sample345 \ #Output directory
-                   --transcriptome=/opt/refdata/GRCh38-2020-A \ #Path to Reference
-                   --fastqs=/home/jdoe/runs/HAWT7ADXX/outs/fastq_path \ #Path to FASTQs
-                   --sample=mysample \ #Sample name from FASTQ filename
-                   --image=/home/jdoe/runs/images/sample345.tiff \ #Path to brightfield image 
-                   --slide=V19J01-123 \ #Slide ID
-                   --area=A1 \ #Capture area
-                   --localcores=8 \ #Allowed cores in localmode
-                   --localmem=64 #Allowed memory (GB) in localmode

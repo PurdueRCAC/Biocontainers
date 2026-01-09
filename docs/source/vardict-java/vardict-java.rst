@@ -12,26 +12,12 @@ VarDictJava is a variant discovery program written in Java and Perl. It is a Jav
 | Docker hub: https://hub.docker.com/r/hydragenetics/vardict 
 | Home page: https://github.com/AstraZeneca-NGS/VarDictJava
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.8.3
-  * - BELL
-    - 1.8.3
-  * - GAUTSCHI
-    - 1.8.3
-  * - NEGISHI
-    - 1.8.3
-  * - SCHOLAR
-    - 1.8.3
+~~~~~~~~
+- 1.8.3
 
 Commands
 ~~~~~~~
@@ -68,12 +54,3 @@ To run vardict-java on our clusters::
     module --force purge
     ml biocontainers vardict-java
 
-    AF_THR="0.01" # minimum allele frequency
-    vardict-java -G genome.fasta \
-        -f $AF_THR -N genome \
-        -b input.bam \
-        -c 1 -S 2 -E 3 -g 4 output.bed \
-         |  teststrandbias.R \
-         |  var2vcf_valid.pl \
-         -N genome -E -f $AF_THR \
-         > vars.vcf

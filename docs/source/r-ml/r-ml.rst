@@ -12,18 +12,12 @@ R is a system for statistical computation and graphics. This is a r/4.5.1 Apptai
 | r-ml: https://rocker-project.org/images/versioned/cuda.html 
 | Home page: https://rocker-project.org/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - GILBRETH
-    - 4.5.1
+~~~~~~~~
+- 4.5.1
 
 Commands
 ~~~~~~~
@@ -57,3 +51,4 @@ To run r-ml on our clusters::
 
     module --force purge
     ml biocontainers r-ml
+

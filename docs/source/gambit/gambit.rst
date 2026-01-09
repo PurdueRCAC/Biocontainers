@@ -12,26 +12,12 @@ GAMBIT (Genomic Approximation Method for Bacterial Identification and Tracking) 
 | Docker hub: https://hub.docker.com/r/staphb/gambit 
 | Home page: https://github.com/jlumpe/gambit
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.5.0
-  * - BELL
-    - 0.5.0
-  * - GAUTSCHI
-    - 0.5.0
-  * - NEGISHI
-    - 0.5.0
-  * - SCHOLAR
-    - 0.5.0
+~~~~~~~~
+- 0.5.0
 
 Commands
 ~~~~~~~
@@ -64,4 +50,3 @@ To run gambit on our clusters::
     module --force purge
     ml biocontainers gambit
 
-    gambit -d database query -o results.csv *.fasta

@@ -12,20 +12,12 @@ OMArk is a software to assess the quality of gene repertoire annotated from a ge
 | BioContainers: 
 | Home page: https://omark.omabrowser.org/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - BELL
-    - 0.3.0
-  * - NEGISHI
-    - 0.3.0
+~~~~~~~~
+- 0.3.0
 
 Commands
 ~~~~~~~
@@ -58,3 +50,4 @@ To run omark on our clusters::
 
     module --force purge
     ml biocontainers omark
+

@@ -12,26 +12,12 @@ The CFSAN SNP Pipeline is a Python-based system for the production of SNP matric
 | Docker hub: https://hub.docker.com/r/staphb/cfsan-snp-pipeline 
 | Home page: https://github.com/CFSAN-Biostatistics/snp-pipeline
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.2.1
-  * - BELL
-    - 2.2.1
-  * - GAUTSCHI
-    - 2.2.1
-  * - NEGISHI
-    - 2.2.1
-  * - SCHOLAR
-    - 2.2.1
+~~~~~~~~
+- 2.2.1
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run cfsan-snp-pipeline on our clusters::
 
     module --force purge
     ml biocontainers cfsan-snp-pipeline
+

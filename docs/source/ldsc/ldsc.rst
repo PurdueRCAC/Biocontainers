@@ -12,26 +12,12 @@ ldsc is a command line tool for estimating heritability and genetic correlation 
 | BioContainers: https://biocontainers.pro/tools/ldsc 
 | Home page: https://github.com/bulik/ldsc
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.1
-  * - BELL
-    - 1.0.1
-  * - GAUTSCHI
-    - 1.0.1
-  * - NEGISHI
-    - 1.0.1
-  * - SCHOLAR
-    - 1.0.1
+~~~~~~~~
+- 1.0.1
 
 Commands
 ~~~~~~~
@@ -64,3 +50,4 @@ To run ldsc on our clusters::
 
     module --force purge
     ml biocontainers ldsc
+

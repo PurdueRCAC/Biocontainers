@@ -12,20 +12,12 @@ Mikado is a lightweight Python3 pipeline to identify the most useful or â€œbestâ
 | BioContainers: 
 | Home page: http://mikado.readthedocs.org/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - BELL
-    - v2.3.5rc2
-  * - NEGISHI
-    - v2.3.5rc2
+~~~~~~~~
+- v2.3.5rc2
 
 Commands
 ~~~~~~~
@@ -57,3 +49,4 @@ To run mikado on our clusters::
 
     module --force purge
     ml biocontainers mikado
+

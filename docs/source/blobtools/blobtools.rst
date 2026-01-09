@@ -1,66 +1,51 @@
-.. _backbone-label:  
+.. _backbone-label:
 
-BlobTools
-============================== 
+Blobtools
+==============================
 
 Introduction
-~~~~~~~
-``BlobTools`` is a modular command-line solution for visualisation, quality control and taxonomic partitioning of genome datasets.
+~~~~~~~~
+Blobtools is a modular command-line solution for visualisation, quality control and taxonomic partitioning of genome datasets.
 
-Detailed usage can be found here: https://github.com/DRL/blobtools
+
+| For more information, please check:
+| Home page: https://blobtools.readme.io/docs/what-is-blobtools
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.1.1, 4.4.5
-  * - BELL
-    - 1.1.1
-  * - GAUTSCHI
-    - 1.1.1
-  * - NEGISHI
-    - 1.1.1, 4.4.5
-  * - SCHOLAR
-    - 1.1.1
+~~~~~~~~
+- 1.1.1
 
 Commands
-~~~~~~
-- blobtools 
+~~~~~~~
+- blobtools
 
 Module
-~~~~~~~
+~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load blobtools/1.1.1
+    module load blobtools
 
 Example job
-~~~~~~
+~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run blobtools on our our clusters::
+To run blobtools on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 4
+    #SBATCH -n 1
     #SBATCH --job-name=blobtools
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers blobtools/1.1.1
-    
-    blobtools create -i example/assembly.fna -b example/mapping_1.sorted.bam -t example/blast.out -o test && \
-    blobtools view -i test.blobDB.json && \
-    blobtools plot -i test.blobDB.json
+    ml biocontainers blobtools
+

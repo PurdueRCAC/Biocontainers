@@ -12,26 +12,12 @@ Minipolish is a tool for Racon polishing of miniasm assemblies.
 | Docker hub: https://hub.docker.com/r/staphb/minipolish 
 | Home page: https://github.com/rrwick/Minipolish
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.1.3
-  * - BELL
-    - 0.1.3
-  * - GAUTSCHI
-    - 0.1.3
-  * - NEGISHI
-    - 0.1.3
-  * - SCHOLAR
-    - 0.1.3
+~~~~~~~~
+- 0.1.3
 
 Commands
 ~~~~~~~
@@ -55,7 +41,7 @@ To run minipolish on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 8
+    #SBATCH -n 1
     #SBATCH --job-name=minipolish
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -64,4 +50,3 @@ To run minipolish on our clusters::
     module --force purge
     ml biocontainers minipolish
 
-    minipolish -t 8 long_reads.fastq.gz assembly.gfa > polished.gfa

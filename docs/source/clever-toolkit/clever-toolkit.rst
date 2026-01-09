@@ -12,26 +12,12 @@ Clever-toolkit is a collection of tools to discover and genotype structural vari
 | BioContainers: https://biocontainers.pro/tools/clever-toolkit 
 | Home page: https://bitbucket.org/tobiasmarschall/clever-toolkit/src/master/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.4
-  * - BELL
-    - 2.4
-  * - GAUTSCHI
-    - 2.4
-  * - NEGISHI
-    - 2.4
-  * - SCHOLAR
-    - 2.4
+~~~~~~~~
+- 2.4
 
 Commands
 ~~~~~~~
@@ -85,4 +71,3 @@ To run clever-toolkit on our clusters::
     module --force purge
     ml biocontainers clever-toolkit
 
-    cat mapped.bam |  bam2fastq output_1.fq output_2.fq

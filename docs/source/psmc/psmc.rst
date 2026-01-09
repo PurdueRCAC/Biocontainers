@@ -12,22 +12,12 @@ PSMC infers population size history from a diploid sequence using the Pairwise S
 | BioContainers: 
 | Home page: https://github.com/lh3/psmc/tree/master
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.6.5
-  * - BELL
-    - 0.6.5
-  * - NEGISHI
-    - 0.6.5
+~~~~~~~~
+- 0.6.5
 
 Commands
 ~~~~~~~
@@ -74,3 +64,4 @@ To run psmc on our clusters::
 
     module --force purge
     ml biocontainers psmc
+

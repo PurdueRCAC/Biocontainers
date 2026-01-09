@@ -5,30 +5,20 @@ Guppy
 
 Introduction
 ~~~~~~~~
-``Guppy`` is a data processing toolkit that contains the Oxford Nanopore Technologies’ basecalling algorithms, and several bioinformatic post-processing features. 
+Guppy is a data processing toolkit that contains the Oxford Nanopore Technologies’ basecalling algorithms, and several bioinformatic post-processing features.
 
-| For more information, please check its | Docker hub: https://hub.docker.com/r/genomicpariscentre/guppy and its home page: https://community.nanoporetech.com.
+
+| For more information, please check:
+| Docker Hub: https://hub.docker.com/r/genomicpariscentre/guppy 
+| Home page: https://community.nanoporetech.com
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 6.0.1, 6.5.7
-  * - BELL
-    - 6.0.1, 6.5.7
-  * - GAUTSCHI
-    - 6.0.1, 6.5.7
-  * - NEGISHI
-    - 6.0.1, 6.5.7
-  * - SCHOLAR
-    - 6.0.1, 6.5.7
+~~~~~~~~
+- 6.0.1
+- 6.5.7
 
 Commands
 ~~~~~~~
@@ -43,7 +33,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load guppy
 
@@ -52,13 +42,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Guppy on our clusters::
+To run guppy on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 12
+    #SBATCH -n 1
     #SBATCH --job-name=guppy
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -67,6 +57,3 @@ To run Guppy on our clusters::
     module --force purge
     ml biocontainers guppy
 
-    guppy_basecaller --compress_fastq -i data/fast5_tiny/ \
-        -s basecall_tiny/ --cpu_threads_per_caller 12 \
-        --num_callers 1 -c dna_r9.4.1_450bps_hac.cfg

@@ -5,30 +5,19 @@ Popscle
 
 Introduction
 ~~~~~~~~
-``Popscle`` is a suite of population scale analysis tools for single-cell genomics data. 
+Popscle is a suite of population scale analysis tools for single-cell genomics data.
 
-| For more information, please check its | Docker hub: https://hub.docker.com/r/cumulusprod/popscle and its home page on `Github`_.
+
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/cumulusprod/popscle 
+| Home page: https://github.com/statgen/popscle
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.1b
-  * - BELL
-    - 0.1b
-  * - GAUTSCHI
-    - 0.1b
-  * - NEGISHI
-    - 0.1b
-  * - SCHOLAR
-    - 0.1b
+~~~~~~~~
+- 0.1b
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load popscle
 
@@ -46,10 +35,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Popscle on our clusters::
+To run popscle on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,5 +50,3 @@ To run Popscle on our clusters::
     module --force purge
     ml biocontainers popscle
 
-    popscle dsc-pileup --sam data/$bam --vcf data/$ref_vcf --out data/$pileup
-.. _Github: https://github.com/statgen/popscle

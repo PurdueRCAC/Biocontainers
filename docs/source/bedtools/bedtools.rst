@@ -5,30 +5,20 @@ Bedtools
 
 Introduction
 ~~~~~~~~
-``Bedtools`` is an extensive suite of utilities for genome arithmetic and comparing genomic features in BED format. 
+Bedtools is an extensive suite of utilities for genome arithmetic and comparing genomic features in BED format.
 
-| For more information, please check its website: https://biocontainers.pro/tools/bedtools and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/bedtools 
+| Home page: https://github.com/arq5x/bedtools2
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.30.0, 2.31.0
-  * - BELL
-    - 2.30.0, 2.31.0
-  * - GAUTSCHI
-    - 2.30.0, 2.31.0
-  * - NEGISHI
-    - 2.30.0, 2.31.0
-  * - SCHOLAR
-    - 2.30.0, 2.31.0
+~~~~~~~~
+- 2.30.0
+- 2.31.0
 
 Commands
 ~~~~~~~
@@ -74,7 +64,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load bedtools
 
@@ -83,10 +73,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Bedtools on our clusters::
+To run bedtools on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -98,6 +88,3 @@ To run Bedtools on our clusters::
     module --force purge
     ml biocontainers bedtools
 
-    bedtools intersect -a a.bed -b b.bed
-    bedtools annotate -i variants.bed -files genes.bed conserve.bed known_var.bed
-.. _Github: https://github.com/arq5x/bedtools2

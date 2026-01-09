@@ -1,60 +1,48 @@
-.. _backbone-label:  
+.. _backbone-label:
 
-StringTie
-============================== 
+Stringtie
+==============================
 
 Introduction
-~~~~~~~
-``StringTie``: efficient transcript assembly and quantitation of RNA-Seq data.  
+~~~~~~~~
+Stringtie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts.
 
-Stringtie employs efficient algorithms for transcript structure recovery and abundance estimation from bulk RNA-Seq reads aligned to a reference genome. It takes as input spliced alignments in coordinate-sorted SAM/BAM/CRAM format and produces a GTF output which consists of assembled transcript structures and their estimated expression levels (FPKM/TPM and base coverage values).  
 
-Detailed usage can be found here: https://github.com/gpertea/stringtie
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/stringtie 
+| Home page: https://ccb.jhu.edu/software/stringtie/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.1.7, 2.2.1
-  * - BELL
-    - 2.1.7, 2.2.1
-  * - GAUTSCHI
-    - 2.1.7, 2.2.1
-  * - NEGISHI
-    - 2.1.7, 2.2.1
-  * - SCHOLAR
-    - 2.1.7, 2.2.1
+~~~~~~~~
+- 2.1.7
+- 2.2.1
 
 Commands
-~~~~~~
+~~~~~~~
 - stringtie
 
 Module
-~~~~~~~
+~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
     module load stringtie
 
 Example job
-~~~~~~
+~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run stringtie on our our clusters::
+To run stringtie on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
-    #SBATCH -t 20:00:00
+    #SBATCH -A myallocation     # Allocation name
+    #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 24
+    #SBATCH -n 1
     #SBATCH --job-name=stringtie
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -62,6 +50,4 @@ To run stringtie on our our clusters::
 
     module --force purge
     ml biocontainers stringtie
-    
-    stringtie -o SRR11614710.gtf -G Homo_sapiens.GRCh38.105.gtf SRR11614710Aligned.sortedByCoord.out.bam    
-    
+

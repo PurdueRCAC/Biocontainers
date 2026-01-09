@@ -12,26 +12,12 @@ Pomoxis comprises a set of basic bioinformatic tools tailored to nanopore sequen
 | Docker hub: https://hub.docker.com/r/zeunas/pomoxis 
 | Home page: https://github.com/nanoporetech/pomoxis
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.3.9
-  * - BELL
-    - 0.3.9
-  * - GAUTSCHI
-    - 0.3.9
-  * - NEGISHI
-    - 0.3.9
-  * - SCHOLAR
-    - 0.3.9
+~~~~~~~~
+- 0.3.9
 
 Commands
 ~~~~~~~
@@ -75,7 +61,7 @@ To run pomoxis on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 4
+    #SBATCH -n 1
     #SBATCH --job-name=pomoxis
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -84,11 +70,3 @@ To run pomoxis on our clusters::
     module --force purge
     ml biocontainers pomoxis
 
-    assess_assembly \
-        -i helen_output/Staph_Aur_draft_helen.fa \
-        -r truth_assembly_staph_aur.fasta \
-        -p polished_assembly_quality \
-        -l 50 \
-        -t 4 \
-        -e \
-        -T

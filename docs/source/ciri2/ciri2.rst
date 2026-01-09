@@ -11,26 +11,12 @@ CIRI2: Circular RNA identification based on multiple seed matching
 | For more information, please check:
 | Home page: https://sourceforge.net/projects/ciri/files/CIRI2/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.0.6
-  * - BELL
-    - 2.0.6
-  * - GAUTSCHI
-    - 2.0.6
-  * - NEGISHI
-    - 2.0.6
-  * - SCHOLAR
-    - 2.0.6
+~~~~~~~~
+- 2.0.6
 
 Commands
 ~~~~~~~
@@ -62,3 +48,4 @@ To run ciri2 on our clusters::
 
     module --force purge
     ml biocontainers ciri2
+

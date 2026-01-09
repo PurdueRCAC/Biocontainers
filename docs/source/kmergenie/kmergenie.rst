@@ -12,26 +12,12 @@ KmerGenie estimates the best k-mer length for genome de novo assembly.
 | BioContainers: https://biocontainers.pro/tools/kmergenie 
 | Home page: http://kmergenie.bx.psu.edu
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.7051
-  * - BELL
-    - 1.7051
-  * - GAUTSCHI
-    - 1.7051
-  * - NEGISHI
-    - 1.7051
-  * - SCHOLAR
-    - 1.7051
+~~~~~~~~
+- 1.7051
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run kmergenie on our clusters::
 
     module --force purge
     ml biocontainers kmergenie
+

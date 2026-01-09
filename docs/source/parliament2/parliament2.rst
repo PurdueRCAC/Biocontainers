@@ -12,26 +12,12 @@ Parliament2 identifies structural variants in a given sample relative to a refer
 | Docker hub: https://hub.docker.com/r/dnanexus/parliament2 
 | Home page: https://github.com/fritzsedlazeck/parliament2
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.1.11
-  * - BELL
-    - 0.1.11
-  * - GAUTSCHI
-    - 0.1.11
-  * - NEGISHI
-    - 0.1.11
-  * - SCHOLAR
-    - 0.1.11
+~~~~~~~~
+- 0.1.11
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run parliament2 on our clusters::
 
     module --force purge
     ml biocontainers parliament2
+

@@ -12,26 +12,12 @@ GADMA is a command-line tool. Basic pipeline presents a series of launches of th
 | BioContainers: https://biocontainers.pro/tools/gadma 
 | Home page: https://github.com/ctlab/GADMA
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.0.0rc21
-  * - BELL
-    - 2.0.0rc21
-  * - GAUTSCHI
-    - 2.0.0rc21
-  * - NEGISHI
-    - 2.0.0rc21
-  * - SCHOLAR
-    - 2.0.0rc21
+~~~~~~~~
+- 2.0.0rc21
 
 Commands
 ~~~~~~~
@@ -46,22 +32,7 @@ You can load the modules by::
     module load biocontainers
     module load gadma
 
-Interactive job
-~~~~~
-To run GADMA interactively on our clusters::
-
-   (base) UserID@bell-fe00:~ $ sinteractive -N1 -n12 -t4:00:00 -A myallocation
-   salloc: Granted job allocation 12345869
-   salloc: Waiting for resource configuration
-   salloc: Nodes bell-a008 are ready for job
-   (base) UserID@bell-a008:~ $ module load biocontainers gadma
-   (base) UserID@bell-a008:~ $ python
-   Python 3.8.13 |  packaged by conda-forge |  (default, Mar 25 2022, 06:04:10)
-   [GCC 10.3.0] on linux
-   Type "help", "copyright", "credits" or "license" for more information.  
-   >>> from gadma import *
-
-Batch job
+Example job
 ~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
@@ -81,4 +52,3 @@ To run gadma on our clusters::
     module --force purge
     ml biocontainers gadma
 
-    gadma -p params_file

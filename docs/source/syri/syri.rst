@@ -11,26 +11,12 @@ Syri compares alignments between two chromosome-level assemblies and identifies 
 | For more information, please check:
 | Home page: https://github.com/schneebergerlab/syri
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.6
-  * - BELL
-    - 1.6
-  * - GAUTSCHI
-    - 1.6
-  * - NEGISHI
-    - 1.6
-  * - SCHOLAR
-    - 1.6
+~~~~~~~~
+- 1.6
 
 Commands
 ~~~~~~~
@@ -63,4 +49,3 @@ To run syri on our clusters::
     module --force purge
     ml biocontainers syri
 
-    syri -c out.sam -r refgenome -q qrygenome -k -F S

@@ -5,30 +5,19 @@ Hyphy
 
 Introduction
 ~~~~~~~~
-``Hyphy`` is an open-source software package for the analysis of genetic sequences using techniques in phylogenetics, molecular evolution, and machine learning. 
+Hyphy is an open-source software package for the analysis of genetic sequences using techniques in phylogenetics, molecular evolution, and machine learning.
 
-| For more information, please check its website: https://biocontainers.pro/tools/hyphy and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/hyphy 
+| Home page: https://github.com/veg/hyphy
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.5.36
-  * - BELL
-    - 2.5.36
-  * - GAUTSCHI
-    - 2.5.36
-  * - NEGISHI
-    - 2.5.36, 2.5.69
-  * - SCHOLAR
-    - 2.5.36
+~~~~~~~~
+- 2.5.36
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load hyphy
 
@@ -46,10 +35,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Hyphy on our clusters::
+To run hyphy on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,4 +50,3 @@ To run Hyphy on our clusters::
     module --force purge
     ml biocontainers hyphy
 
-.. _Github: https://github.com/veg/hyphy

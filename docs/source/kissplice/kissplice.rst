@@ -12,26 +12,12 @@ KisSplice is a software that enables to analyse RNA-seq data with or without a r
 | Docker hub: https://hub.docker.com/r/dwishsan/kissplice-pipeline 
 | Home page: https://kissplice.prabi.fr
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.6.2
-  * - BELL
-    - 2.6.2
-  * - GAUTSCHI
-    - 2.6.2
-  * - NEGISHI
-    - 2.6.2
-  * - SCHOLAR
-    - 2.6.2
+~~~~~~~~
+- 2.6.2
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run kissplice on our clusters::
 
     module --force purge
     ml biocontainers kissplice
+

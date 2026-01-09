@@ -12,24 +12,12 @@ ipyrad is an interactive toolkit for assembly and analysis of restriction-site a
 | BioContainers: https://biocontainers.pro/tools/ipyrad 
 | Home page: https://github.com/dereneaton/ipyrad
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.9.102
-  * - BELL
-    - 0.9.102
-  * - GAUTSCHI
-    - 0.9.102
-  * - NEGISHI
-    - 0.9.102
+~~~~~~~~
+- 0.9.102
 
 Commands
 ~~~~~~~
@@ -61,3 +49,4 @@ To run ipyrad on our clusters::
 
     module --force purge
     ml biocontainers ipyrad
+

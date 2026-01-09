@@ -5,30 +5,19 @@ How_are_we_stranded_here
 
 Introduction
 ~~~~~~~~
-``How_are_we_stranded_here`` is a python package for testing strandedness of RNA-Seq fastq files. 
+How_are_we_stranded_here is a python package for testing strandedness of RNA-Seq fastq files.
 
-| For more information, please check its website: https://biocontainers.pro/tools/how_are_we_stranded_here and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/how_are_we_stranded_here 
+| Home page: https://github.com/betsig/how_are_we_stranded_here
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.1
-  * - BELL
-    - 1.0.1
-  * - GAUTSCHI
-    - 1.0.1
-  * - NEGISHI
-    - 1.0.1
-  * - SCHOLAR
-    - 1.0.1
+~~~~~~~~
+- 1.0.1
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load how_are_we_stranded_here
 
@@ -46,10 +35,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run How_are_we_stranded_here on our clusters::
+To run how_are_we_stranded_here on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,8 +50,3 @@ To run How_are_we_stranded_here on our clusters::
     module --force purge
     ml biocontainers how_are_we_stranded_here
 
-    check_strandedness --gtf Homo_sapiens.GRCh38.105.gtf \ 
-        --transcripts Homo_sapiens.GRCh38.cds.all.fa \
-        --reads_1 seq_1.fastq  --reads_2 seq_2.fastq
-
-.. _Github: https://github.com/betsig/how_are_we_stranded_here

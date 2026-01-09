@@ -5,30 +5,22 @@ Last
 
 Introduction
 ~~~~~~~~
-``Last`` is used to find & align related regions of sequences. 
+Last is used to finds & aligns related regions of sequences.
 
-| For more information, please check its website: https://biocontainers.pro/tools/last and its home page on `Gitlab`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/last 
+| Home page: https://gitlab.com/mcfrith/last
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1268, 1356, 1411, 1418
-  * - BELL
-    - 1268, 1356, 1411, 1418
-  * - GAUTSCHI
-    - 1268, 1356, 1411, 1418
-  * - NEGISHI
-    - 1268, 1356, 1411, 1418
-  * - SCHOLAR
-    - 1268, 1356, 1411, 1418
+~~~~~~~~
+- 1268
+- 1356
+- 1411
+- 1418
 
 Commands
 ~~~~~~~
@@ -48,7 +40,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load last
 
@@ -57,10 +49,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Last on our clusters::
+To run last on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -72,6 +64,3 @@ To run Last on our clusters::
     module --force purge
     ml biocontainers last
 
-    lastdb humdb humanMito.fa
-    lastal humdb fuguMito.fa > myalns.maf
-.. _Gitlab: https://gitlab.com/mcfrith/last

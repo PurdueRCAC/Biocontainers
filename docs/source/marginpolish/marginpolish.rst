@@ -12,26 +12,12 @@ MarginPolish is a graph-based assembly polisher. It iteratively finds multiple p
 | Docker hub: https://hub.docker.com/r/kishwars/margin_polish 
 | Home page: https://github.com/UCSC-nanopore-cgl/MarginPolish
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.1.3
-  * - BELL
-    - 0.1.3
-  * - GAUTSCHI
-    - 0.1.3
-  * - NEGISHI
-    - 0.1.3
-  * - SCHOLAR
-    - 0.1.3
+~~~~~~~~
+- 0.1.3
 
 Commands
 ~~~~~~~
@@ -55,7 +41,7 @@ To run marginpolish on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 32
+    #SBATCH -n 1
     #SBATCH --job-name=marginpolish
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -63,11 +49,4 @@ To run marginpolish on our clusters::
 
     module --force purge
     ml biocontainers marginpolish
-        
-    marginpolish \
-        Reads_to_assembly_StaphAur.bam \
-        Draft_assembly_StaphAur.fasta \
-        helen_modles/MP_r941_guppy344_microbial.json \
-        -t 32 \
-        -o mp_output/mp_images \
-        -f
+

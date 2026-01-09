@@ -11,26 +11,12 @@ Scirpy is a scalable python-toolkit to analyse T cell receptor (TCR) or B cell r
 | For more information, please check:
 | Home page: https://github.com/scverse/scirpy
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.10.1
-  * - BELL
-    - 0.10.1
-  * - GAUTSCHI
-    - 0.10.1
-  * - NEGISHI
-    - 0.10.1
-  * - SCHOLAR
-    - 0.10.1
+~~~~~~~~
+- 0.10.1
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run scirpy on our clusters::
 
     module --force purge
     ml biocontainers scirpy
+

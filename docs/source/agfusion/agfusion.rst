@@ -12,26 +12,12 @@ AGFusion (pronounced 'A G Fusion') is a python package for annotating gene fusio
 | Docker hub: https://hub.docker.com/r/mgibio/agfusion 
 | Home page: https://github.com/murphycj/AGFusion
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.3.11
-  * - BELL
-    - 1.3.11
-  * - GAUTSCHI
-    - 1.3.11
-  * - NEGISHI
-    - 1.3.11
-  * - SCHOLAR
-    - 1.3.11
+~~~~~~~~
+- 1.3.11
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run agfusion on our clusters::
 
     module --force purge
     ml biocontainers agfusion
+

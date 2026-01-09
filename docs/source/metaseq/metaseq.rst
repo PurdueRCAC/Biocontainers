@@ -12,26 +12,12 @@ Metaseq is a Python package for integrative genome-wide analysis reveals relatio
 | Docker hub: https://hub.docker.com/r/vsmalladi/metaseq 
 | Home page: https://github.com/daler/metaseq
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.5.6
-  * - BELL
-    - 0.5.6
-  * - GAUTSCHI
-    - 0.5.6
-  * - NEGISHI
-    - 0.5.6
-  * - SCHOLAR
-    - 0.5.6
+~~~~~~~~
+- 0.5.6
 
 Commands
 ~~~~~~~
@@ -64,3 +50,4 @@ To run metaseq on our clusters::
 
     module --force purge
     ml biocontainers metaseq
+

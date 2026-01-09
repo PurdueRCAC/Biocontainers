@@ -12,26 +12,12 @@ ClonalFrameML is a software package that performs efficient inference of recombi
 | BioContainers: https://biocontainers.pro/tools/clonalframeml 
 | Home page: https://github.com/xavierdidelot/ClonalFrameML
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.11
-  * - BELL
-    - 1.11
-  * - GAUTSCHI
-    - 1.11
-  * - NEGISHI
-    - 1.11
-  * - SCHOLAR
-    - 1.11
+~~~~~~~~
+- 1.11
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run clonalframeml on our clusters::
 
     module --force purge
     ml biocontainers clonalframeml
+

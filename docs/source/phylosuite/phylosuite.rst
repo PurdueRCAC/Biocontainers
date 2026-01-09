@@ -12,26 +12,12 @@ PhyloSuite is an integrated and scalable desktop platform for streamlined molecu
 | Docker hub: https://hub.docker.com/r/dongzhang0725/phylosuite 
 | Home page: https://github.com/dongzhang0725/PhyloSuite
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.2.3
-  * - BELL
-    - 1.2.3
-  * - GAUTSCHI
-    - 1.2.3
-  * - NEGISHI
-    - 1.2.3
-  * - SCHOLAR
-    - 1.2.3
+~~~~~~~~
+- 1.2.3
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run phylosuite on our clusters::
 
     module --force purge
     ml biocontainers phylosuite
+

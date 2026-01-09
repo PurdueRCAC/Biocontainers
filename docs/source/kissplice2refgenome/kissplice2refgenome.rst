@@ -12,26 +12,12 @@ KisSplice can also be used when a reference (annotated) genome is available, in 
 | Docker hub: https://hub.docker.com/r/dwishsan/kissplice-pipeline 
 | Home page: https://kissplice.prabi.fr
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.0.8
-  * - BELL
-    - 2.0.8
-  * - GAUTSCHI
-    - 2.0.8
-  * - NEGISHI
-    - 2.0.8
-  * - SCHOLAR
-    - 2.0.8
+~~~~~~~~
+- 2.0.8
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run kissplice2refgenome on our clusters::
 
     module --force purge
     ml biocontainers kissplice2refgenome
+

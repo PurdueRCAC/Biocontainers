@@ -5,30 +5,19 @@ Trimmomatic
 
 Introduction
 ~~~~~~~~
-``Trimmomatic`` is a flexible read trimming tool for Illumina NGS data. 
+Trimmomatic is a flexible read trimming tool for Illumina NGS data
 
-| For more information, please check its website: https://biocontainers.pro/tools/trimmomatic and its home page: http://www.usadellab.org/cms/index.php?page=trimmomatic.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/trimmomatic 
+| Home page: http://www.usadellab.org/cms/index.php?pagetrimmomatic
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.39
-  * - BELL
-    - 0.39
-  * - GAUTSCHI
-    - 0.39
-  * - NEGISHI
-    - 0.39
-  * - SCHOLAR
-    - 0.39
+~~~~~~~~
+- 0.39
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load trimmomatic
 
@@ -46,13 +35,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Trimmomatic on our clusters::
+To run trimmomatic on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 8
+    #SBATCH -n 1
     #SBATCH --job-name=trimmomatic
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -61,8 +50,3 @@ To run Trimmomatic on our clusters::
     module --force purge
     ml biocontainers trimmomatic
 
-    trimmomatic PE -threads 8 \
-        input_forward.fq.gz input_reverse.fq.gz \ 
-        output_forward_paired.fq.gz output_forward_unpaired.fq.gz \
-        output_reverse_paired.fq.gz output_reverse_unpaired.fq.gz \
-        ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:True LEADING:3 TRAILING:3 MINLEN:36

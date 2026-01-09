@@ -12,26 +12,12 @@ The WiggleTools package allows genomewide data files to be manipulated as numeri
 | Docker hub: https://hub.docker.com/r/ensemblorg/wiggletools 
 | Home page: https://github.com/Ensembl/WiggleTools
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.2.11
-  * - BELL
-    - 1.2.11
-  * - GAUTSCHI
-    - 1.2.11
-  * - NEGISHI
-    - 1.2.11
-  * - SCHOLAR
-    - 1.2.11
+~~~~~~~~
+- 1.2.11
 
 Commands
 ~~~~~~~
@@ -64,11 +50,3 @@ To run wiggletools on our clusters::
     module --force purge
     ml biocontainers wiggletools
 
-    wiggletools test/fixedStep.wig
-    wiggletools test/fixedStep.bw
-    wiggletools test/bedfile.bg
-    wiggletools test/overlapping.bed
-    wiggletools test/bam.bam
-    wiggletools test/cram.cram
-    wiggletools test/vcf.vcf
-    wiggletools test/bcf.bcf

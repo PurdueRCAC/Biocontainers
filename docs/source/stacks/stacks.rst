@@ -5,30 +5,19 @@ Stacks
 
 Introduction
 ~~~~~~~~
-``Stacks`` is a software pipeline for building loci from RAD-seq. 
+Stacks is a software pipeline for building loci from RAD-seq.
 
-| For more information, please check its website: https://biocontainers.pro/tools/stacks and its home page: https://catchenlab.life.illinois.edu/stacks/.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/stacks 
+| Home page: https://catchenlab.life.illinois.edu/stacks/
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.60, 2.64, 2.68
-  * - BELL
-    - 2.60, 2.68
-  * - GAUTSCHI
-    - 2.60
-  * - NEGISHI
-    - 2.60, 2.64, 2.68
-  * - SCHOLAR
-    - 2.60
+~~~~~~~~
+- 2.60
 
 Commands
 ~~~~~~~
@@ -54,7 +43,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load stacks
 
@@ -63,13 +52,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Stacks on our clusters::
+To run stacks on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 8
+    #SBATCH -n 1
     #SBATCH --job-name=stacks
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -77,6 +66,4 @@ To run Stacks on our clusters::
 
     module --force purge
     ml biocontainers stacks
-    
-    denovo_map.pl -T 8 -M 4 -o ./stacks/  \
-        --samples ./samples --popmap ./popmaps/popmap
+

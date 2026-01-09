@@ -12,26 +12,12 @@ Magic-BLAST is a tool for mapping large next-generation RNA or DNA sequencing ru
 | Docker hub: https://hub.docker.com/r/ncbi/magicblast 
 | Home page: https://ncbi.github.io/magicblast/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.5.0
-  * - BELL
-    - 1.5.0
-  * - GAUTSCHI
-    - 1.5.0
-  * - NEGISHI
-    - 1.5.0
-  * - SCHOLAR
-    - 1.5.0
+~~~~~~~~
+- 1.5.0
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run magicblast on our clusters::
 
     module --force purge
     ml biocontainers magicblast
+

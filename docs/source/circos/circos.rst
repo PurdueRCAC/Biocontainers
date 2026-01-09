@@ -5,30 +5,19 @@ Circos
 
 Introduction
 ~~~~~~~~
-``Circos`` is a software package for visualizing data and information. 
+Circos is a software package for visualizing data and information.
 
-| For more information, please check its website: https://biocontainers.pro/tools/circos and its home page: http://circos.ca.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/circos 
+| Home page: http://circos.ca
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.69.8
-  * - BELL
-    - 0.69.8
-  * - GAUTSCHI
-    - 0.69.8
-  * - NEGISHI
-    - 0.69.8
-  * - SCHOLAR
-    - 0.69.8
+~~~~~~~~
+- 0.69.8
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load circos
 
@@ -46,10 +35,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Circos on our clusters::
+To run circos on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -60,5 +49,4 @@ To run Circos on our clusters::
 
     module --force purge
     ml biocontainers circos
-    
-    circos -conf circos.conf
+

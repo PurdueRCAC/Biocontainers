@@ -11,18 +11,12 @@ ARAGORN identifies tRNA and tmRNA genes. The program employs heuristic algorithm
 | For more information, please check:
 | Home page: https://www.trna.se/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - NEGISHI
-    - 2.41
+~~~~~~~~
+- 2.41
 
 Commands
 ~~~~~~~
@@ -54,3 +48,4 @@ To run aragorn on our clusters::
 
     module --force purge
     ml biocontainers aragorn
+

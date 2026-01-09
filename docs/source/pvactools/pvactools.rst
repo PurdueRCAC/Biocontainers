@@ -12,26 +12,12 @@ pVACtools is a cancer immunotherapy tools suite consisting of pVACseq, pVACbind,
 | Docker hub: https://hub.docker.com/r/griffithlab/pvactools/ 
 | Home page: https://pvactools.readthedocs.io/en/latest/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.0.1
-  * - BELL
-    - 3.0.1
-  * - GAUTSCHI
-    - 3.0.1
-  * - NEGISHI
-    - 3.0.1
-  * - SCHOLAR
-    - 3.0.1
+~~~~~~~~
+- 3.0.1
 
 Commands
 ~~~~~~~
@@ -69,14 +55,3 @@ To run pvactools on our clusters::
     module --force purge
     ml biocontainers pvactools
 
-    pvacseq download_example_data .
-
-    pvacseq run \
-      pvacseq_example_data/input.vcf \
-      Test \
-      HLA-A*02:01,HLA-B*35:01,DRB1*11:01 \
-      MHCflurry MHCnuggetsI MHCnuggetsII NNalign NetMHC PickPocket SMM SMMPMBEC SMMalign \
-      pvacseq_output_data \
-      -e1 8,9,10 \
-      -e2 15 \
-      --iedb-install-directory /opt/iedb

@@ -9,29 +9,14 @@ Bwameth is a tool for fast and accurante alignment of BS-Seq reads.
 
 
 | For more information, please check:
-| BioContainers: https://biocontainers.pro/tools/bwameth 
 | Home page: https://github.com/brentp/bwa-meth
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.2.5
-  * - BELL
-    - 0.2.5
-  * - GAUTSCHI
-    - 0.2.5
-  * - NEGISHI
-    - 0.2.5
-  * - SCHOLAR
-    - 0.2.5
+~~~~~~~~
+- 0.2.5
 
 Commands
 ~~~~~~~
@@ -63,3 +48,4 @@ To run bwameth on our clusters::
 
     module --force purge
     ml biocontainers bwameth
+

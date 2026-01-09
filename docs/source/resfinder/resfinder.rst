@@ -11,26 +11,12 @@ ResFinder identifies acquired antimicrobial resistance genes in total or partial
 | For more information, please check:
 | Home page: https://github.com/cadms/resfinder
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 4.1.5
-  * - BELL
-    - 4.1.5
-  * - GAUTSCHI
-    - 4.1.5
-  * - NEGISHI
-    - 4.1.5
-  * - SCHOLAR
-    - 4.1.5
+~~~~~~~~
+- 4.1.5
 
 Commands
 ~~~~~~~
@@ -64,6 +50,3 @@ To run resfinder on our clusters::
     module --force purge
     ml biocontainers resfinder
 
-    run_resfinder.py -o output -db_res db_resfinder/ \
-         -db_res_kma db_resfinder/kma_indexing -db_point db_pointfinder/ \
-         -s "Escherichia coli" --acquired --point -ifq data/test_isolate_01_*

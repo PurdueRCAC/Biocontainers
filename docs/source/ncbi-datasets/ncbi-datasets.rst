@@ -12,26 +12,12 @@ NCBI Datasets is a new resource that lets you easily gather data from across NCB
 | Docker hub: https://hub.docker.com/r/staphb/ncbi-datasets 
 | Home page: https://github.com/ncbi/datasets
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 14.3.0, 16.10.3
-  * - BELL
-    - 14.3.0, 16.10.3, 18.0.2
-  * - GAUTSCHI
-    - 14.3.0, 16.10.3
-  * - NEGISHI
-    - 14.3.0, 16.10.3, 18.0.2
-  * - SCHOLAR
-    - 14.3.0
+~~~~~~~~
+- 14.3.0
 
 Commands
 ~~~~~~~
@@ -64,3 +50,4 @@ To run ncbi-datasets on our clusters::
 
     module --force purge
     ml biocontainers ncbi-datasets
+

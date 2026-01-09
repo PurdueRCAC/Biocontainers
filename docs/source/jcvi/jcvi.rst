@@ -11,26 +11,13 @@ Jcvi is a collection of Python libraries to parse bioinformatics files, or perfo
 | For more information, please check:
 | Home page: https://github.com/tanghaibao/jcvi
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.2.7, 1.3.1
-  * - BELL
-    - 1.2.7, 1.3.1
-  * - GAUTSCHI
-    - 1.2.7, 1.3.1
-  * - NEGISHI
-    - 1.2.7, 1.3.1
-  * - SCHOLAR
-    - 1.2.7, 1.3.1
+~~~~~~~~
+- 1.2.7
+- 1.3.1
 
 Commands
 ~~~~~~~
@@ -64,13 +51,3 @@ To run jcvi on our clusters::
     module --force purge
     ml biocontainers jcvi
 
-    python -m jcvi.formats.fasta format Vvinifera_145_Genoscope.12X.cds.fa.gz grape.cds
-    python -m jcvi.formats.fasta format Ppersica_298_v2.1.cds.fa.gz peach.cds
-    python -m jcvi.formats.gff bed --type=mRNA --key=Name --primary_only Vvinifera_145_Genoscope.12X.gene.gff3.gz -o grape.bed
-    python -m jcvi.compara.catalog ortholog grape peach --no_strip_names
-    python -m jcvi.graphics.dotplot grape.peach.anchors
-    rm grape.peach.last.filtered 
-    python -m jcvi.compara.catalog ortholog grape peach --cscore=.99 --no_strip_names
-    python -m jcvi.graphics.dotplot grape.peach.anchors
-    python -m jcvi.compara.synteny depth --histogram grape.peach.anchors
-    python -m jcvi.graphics.grabseeds seeds test-data/test.JPG 

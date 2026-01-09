@@ -12,26 +12,12 @@ ANNOgesic is the swiss army knife for RNA-Seq based annotation of bacterial/arch
 | Docker hub: https://hub.docker.com/r/silasysh/annogesic 
 | Home page: https://github.com/Sung-Huan/ANNOgesic
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.1.0
-  * - BELL
-    - 1.1.0
-  * - GAUTSCHI
-    - 1.1.0
-  * - NEGISHI
-    - 1.1.0
-  * - SCHOLAR
-    - 1.1.0
+~~~~~~~~
+- 1.1.0
 
 Commands
 ~~~~~~~
@@ -64,10 +50,3 @@ To run annogesic on our clusters::
     module --force purge
     ml biocontainers annogesic
 
-    ANNOGESIC_FOLDER=ANNOgesic
-    annogesic \
-        update_genome_fasta \
-        -c $ANNOGESIC_FOLDER/input/references/fasta_files/NC_009839.1.fa \
-        -m $ANNOGESIC_FOLDER/input/mutation_tables/mutation.csv \
-        -u NC_test.1 \
-        -pj $ANNOGESIC_FOLDER

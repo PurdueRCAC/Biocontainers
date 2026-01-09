@@ -12,26 +12,12 @@ Usefulaf is an all-in-one Docker/Singularity image for single-cell processing wi
 | Docker hub: https://hub.docker.com/r/combinelab/usefulaf 
 | Home page: https://github.com/COMBINE-lab/usefulaf
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.9.2
-  * - BELL
-    - 0.9.2
-  * - GAUTSCHI
-    - 0.9.2
-  * - NEGISHI
-    - 0.9.2
-  * - SCHOLAR
-    - 0.9.2
+~~~~~~~~
+- 0.9.2
 
 Commands
 ~~~~~~~
@@ -67,3 +53,4 @@ To run usefulaf on our clusters::
 
     module --force purge
     ml biocontainers usefulaf
+

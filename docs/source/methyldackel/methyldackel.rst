@@ -12,26 +12,12 @@ MethylDackel (formerly named PileOMeth, which was a temporary name derived due t
 | BioContainers: https://biocontainers.pro/tools/methyldackel 
 | Home page: https://github.com/dpryan79/MethylDackel
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.6.1
-  * - BELL
-    - 0.6.1
-  * - GAUTSCHI
-    - 0.6.1
-  * - NEGISHI
-    - 0.6.1
-  * - SCHOLAR
-    - 0.6.1
+~~~~~~~~
+- 0.6.1
 
 Commands
 ~~~~~~~
@@ -64,4 +50,3 @@ To run methyldackel on our clusters::
     module --force purge
     ml biocontainers methyldackel
 
-    MethylDackel extract chgchh.fa chgchh_aln.bam

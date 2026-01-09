@@ -12,26 +12,15 @@ CRISPResso2 is a software pipeline designed to enable rapid and intuitive interp
 | Docker hub: https://hub.docker.com/r/pinellolab/crispresso2 
 | Home page: https://github.com/pinellolab/CRISPResso2
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
-  * - BELL
-    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
-  * - GAUTSCHI
-    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
-  * - NEGISHI
-    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
-  * - SCHOLAR
-    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
+~~~~~~~~
+- 2.2.10
+- 2.2.11a
+- 2.2.8
+- 2.2.9
 
 Commands
 ~~~~~~~
@@ -70,5 +59,3 @@ To run crispresso2 on our clusters::
     module --force purge
     ml biocontainers crispresso2
 
-    CRISPResso --fastq_r1 nhej.r1.fastq.gz --fastq_r2 nhej.r2.fastq.gz -n nhej --amplicon_seq \
-        AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT 

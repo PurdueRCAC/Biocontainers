@@ -12,26 +12,15 @@ Bactopia is a flexible pipeline for complete analysis of bacterial genomes. The 
 | Docker hub: https://hub.docker.com/r/bactopia/bactopia 
 | Home page: https://github.com/bactopia/bactopia
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.0.3, 2.1.1, 2.2.0, 3.0.0
-  * - BELL
-    - 2.0.3, 2.1.1, 2.2.0, 3.0.0
-  * - GAUTSCHI
-    - 2.0.3, 2.1.1, 2.2.0, 3.0.0
-  * - NEGISHI
-    - 2.0.3, 2.1.1, 2.2.0, 3.0.0
-  * - SCHOLAR
-    - 2.0.3, 2.1.1, 2.2.0, 3.0.0
+~~~~~~~~
+- 2.0.3
+- 2.1.1
+- 2.2.0
+- 3.0.0
 
 Commands
 ~~~~~~~
@@ -55,7 +44,7 @@ To run bactopia on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 12
+    #SBATCH -n 1
     #SBATCH --job-name=bactopia
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -63,18 +52,4 @@ To run bactopia on our clusters::
 
     module --force purge
     ml biocontainers bactopia
-    
-    bactopia datasets \
-    --ariba "vfdb_core,card" \
-    --species "Staphylococcus aureus" \
-    --include_genus \
-    --limit 100 \
-    --cpus 12
-    
-    bactopia --accession SRX4563634 \
-    --datasets datasets/ \
-    --species "Staphylococcus aureus" \
-    --coverage 100 \
-    --genome_size median \
-    --outdir ena-single-sample \
-    --max_cpus 12
+

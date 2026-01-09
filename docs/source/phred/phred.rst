@@ -1,34 +1,22 @@
 .. _backbone-label:
 
-phred
+Phred
 ==============================
 
 Introduction
 ~~~~~~~~
-``phred`` software reads DNA sequencing trace files, calls bases, and assigns a quality value to each called base. 
+The phred software reads DNA sequencing trace files, calls bases, and assigns a quality value to each called base.
 
-| For more information, please check its home page: http://www.phrap.org/phredphrapconsed.html#block_phred.
+
+| For more information, please check:
+| Home page: http://www.phrap.org/phredphrapconsed.html#block_phred
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.071220.c
-  * - BELL
-    - 0.071220.c
-  * - GAUTSCHI
-    - 0.071220.c
-  * - NEGISHI
-    - 0.071220.c
-  * - SCHOLAR
-    - 0.071220.c
+~~~~~~~~
+- 0.071220.c
 
 Commands
 ~~~~~~~
@@ -37,7 +25,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load phred
 
@@ -49,7 +37,7 @@ Example job
 To run phred on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -60,3 +48,4 @@ To run phred on our clusters::
 
     module --force purge
     ml biocontainers phred
+

@@ -12,20 +12,12 @@ vcfstats - powerful statistics for VCF files
 | BioContainers: https://biocontainers.pro/tools/vcfstats 
 | Home page: https://pwwang.github.io/vcfstats/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - BELL
-    - 0.60
-  * - NEGISHI
-    - 0.60
+~~~~~~~~
+- 0.60
 
 Commands
 ~~~~~~~
@@ -57,3 +49,4 @@ To run vcfstats on our clusters::
 
     module --force purge
     ml biocontainers vcfstats
+

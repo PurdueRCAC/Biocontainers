@@ -5,30 +5,19 @@ Samplot
 
 Introduction
 ~~~~~~~~
-``Samplot`` is a command line tool for rapid, multi-sample structural variant visualization. 
+Samplot is a command line tool for rapid, multi-sample structural variant visualization.
 
-| For more information, please check its website: https://biocontainers.pro/tools/samplot and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/samplot 
+| Home page: https://github.com/ryanlayer/samplot
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.3.0
-  * - BELL
-    - 1.3.0
-  * - GAUTSCHI
-    - 1.3.0
-  * - NEGISHI
-    - 1.3.0
-  * - SCHOLAR
-    - 1.3.0
+~~~~~~~~
+- 1.3.0
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load samplot
 
@@ -46,10 +35,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Samplot on our clusters::
+To run samplot on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,15 +50,3 @@ To run Samplot on our clusters::
     module --force purge
     ml biocontainers samplot
 
-    samplot plot \
-    -n NA12878 NA12889 NA12890 \
-    -b samplot/test/data/NA12878_restricted.bam \
-      samplot/test/data/NA12889_restricted.bam \
-      samplot/test/data/NA12890_restricted.bam \
-    -o 4_115928726_115931880.png \
-    -c chr4 \
-    -s 115928726 \
-    -e 115931880 \
-    -t DEL
-
-.. _Github: https://github.com/ryanlayer/samplot

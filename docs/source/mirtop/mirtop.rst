@@ -12,26 +12,12 @@ Mirtop is a ommand line tool to annotate with a standard naming miRNAs e isomiRs
 | BioContainers: https://biocontainers.pro/tools/mirtop 
 | Home page: https://github.com/miRTop/mirtop
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.4.25
-  * - BELL
-    - 0.4.25
-  * - GAUTSCHI
-    - 0.4.25
-  * - NEGISHI
-    - 0.4.25
-  * - SCHOLAR
-    - 0.4.25
+~~~~~~~~
+- 0.4.25
 
 Commands
 ~~~~~~~
@@ -64,8 +50,3 @@ To run mirtop on our clusters::
     module --force purge
     ml biocontainers mirtop
 
-    mirtop gff --format prost --sps hsa 
-        --hairpin examples/annotate/hairpin.fa \
-        --gtf examples/annotate/hsa.gff3 \
-        -o test_out \
-        examples/prost/prost.example.txt

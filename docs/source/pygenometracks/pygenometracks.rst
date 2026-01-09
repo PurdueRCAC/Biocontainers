@@ -12,26 +12,12 @@ pyGenomeTracks aims to produce high-quality genome browser tracks that are highl
 | BioContainers: https://biocontainers.pro/tools/pygenometracks 
 | Home page: https://github.com/deeptools/pyGenomeTracks
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.7
-  * - BELL
-    - 3.7
-  * - GAUTSCHI
-    - 3.7
-  * - NEGISHI
-    - 3.7
-  * - SCHOLAR
-    - 3.7
+~~~~~~~~
+- 3.7
 
 Commands
 ~~~~~~~
@@ -65,7 +51,3 @@ To run pygenometracks on our clusters::
     module --force purge
     ml biocontainers pygenometracks
 
-    make_tracks_file --trackFiles domains.bed bigwig.bw -o tracks.ini
-
-    pyGenomeTracks --tracks tracks.ini \
-       --region chr2:10,000,000-11,000,000 --outFileName nice_image.pdf

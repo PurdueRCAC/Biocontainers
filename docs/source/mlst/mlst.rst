@@ -12,26 +12,13 @@ Mlst is used to scan contig files against traditional PubMLST typing schemes.
 | Docker hub: https://hub.docker.com/r/staphb/mlst 
 | Home page: https://github.com/tseemann/mlst
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.22.0, 2.23.0
-  * - BELL
-    - 2.22.0, 2.23.0
-  * - GAUTSCHI
-    - 2.22.0, 2.23.0
-  * - NEGISHI
-    - 2.22.0, 2.23.0
-  * - SCHOLAR
-    - 2.22.0, 2.23.0
+~~~~~~~~
+- 2.22.0
+- 2.23.0
 
 Commands
 ~~~~~~~
@@ -64,5 +51,3 @@ To run mlst on our clusters::
     module --force purge
     ml biocontainers mlst
 
-    mlst contigs.fa
-    mlst genome.gbk.gz

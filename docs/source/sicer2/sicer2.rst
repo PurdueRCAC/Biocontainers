@@ -5,30 +5,20 @@ Sicer2
 
 Introduction
 ~~~~~~~~
-``Sicer2`` is the redesigned and improved ChIP-seq broad peak calling tool SICER. 
+Sicer2 is the redesigned and improved ChIP-seq broad peak calling tool SICER.
 
-| For more information, please check its website: https://biocontainers.pro/tools/sicer2 and its home page on `Github`_.
+
+| For more information, please check:
+| Docker hub: https://hub.docker.com/r/abralab/sicer 
+| Home page: https://github.com/zanglab/SICER2
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.3, 1.2.0
-  * - BELL
-    - 1.0.3, 1.2.0
-  * - GAUTSCHI
-    - 1.0.3, 1.2.0
-  * - NEGISHI
-    - 1.0.3, 1.2.0
-  * - SCHOLAR
-    - 1.0.3, 1.2.0
+~~~~~~~~
+- 1.0.3
+- 1.2.0
 
 Commands
 ~~~~~~~
@@ -40,7 +30,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load sicer2
 
@@ -49,10 +39,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Sicer2 on our clusters::
+To run sicer2 on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -64,12 +54,3 @@ To run Sicer2 on our clusters::
     module --force purge
     ml biocontainers sicer2
 
-    sicer_df -t ./test/treatment_1.bed ./test/treatment_2.bed \ 
-        -c ./test/control_1.bed ./test/control_2.bed \
-        -s hg38 --significant_reads
-
-    recognicer_df -t ./test/treatment_1.bed ./test/treatment_2.bed \
-        -c ./test/control_1.bed ./test/control_2.bed \
-        -s hg38 --significant_reads
-
-.. _Github: https://github.com/zanglab/SICER2

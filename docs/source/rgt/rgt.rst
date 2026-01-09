@@ -12,24 +12,13 @@ RGT is an open source Python 3.6+ library for analysis of regulatory genomics. R
 | BioContainers: https://biocontainers.pro/tools/rgt 
 | Home page: https://github.com/CostaLab/reg-gen
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.0.2
-  * - BELL
-    - 1.0.2_pathced, 1.0.2
-  * - GAUTSCHI
-    - 1.0.2
-  * - NEGISHI
-    - 1.0.2_pathced, 1.0.2
+~~~~~~~~
+- 1.0.2
+- 1.0.2_pathced
 
 Commands
 ~~~~~~~
@@ -65,3 +54,4 @@ To run rgt on our clusters::
 
     module --force purge
     ml biocontainers rgt
+

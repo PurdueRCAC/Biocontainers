@@ -1,34 +1,22 @@
 .. _backbone-label:
 
-rush
+Rush
 ==============================
 
 Introduction
 ~~~~~~~~
-``rush`` is a tool similar to GNU parallel and gargs. rush borrows some idea from them and has some unique features, e.g., supporting custom defined variables, resuming multi-line commands, more advanced embeded replacement strings. 
+rush is a tool similar to GNU parallel and gargs. rush borrows some idea from them and has some unique features, e.g., supporting custom defined variables, resuming multi-line commands, more advanced embeded replacement strings.
 
-| For more information, please check its home page on `Github`_.
+
+| For more information, please check:
+| Home page: https://github.com/shenwei356/rush
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.4.2
-  * - BELL
-    - 0.4.2
-  * - GAUTSCHI
-    - 0.4.2
-  * - NEGISHI
-    - 0.4.2
-  * - SCHOLAR
-    - 0.4.2
+~~~~~~~~
+- 0.4.2
 
 Commands
 ~~~~~~~
@@ -37,7 +25,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load rush
 
@@ -49,7 +37,7 @@ Example job
 To run rush on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,4 +49,3 @@ To run rush on our clusters::
     module --force purge
     ml biocontainers rush
 
-.. _Github: https://github.com/shenwei356/rush

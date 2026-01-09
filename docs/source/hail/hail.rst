@@ -12,26 +12,13 @@ Hail is an open-source, general-purpose, Python-based data analysis tool with ad
 | Docker hub: https://hub.docker.com/r/hailgenetics/hail 
 | Home page: https://github.com/hail-is/hail
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.2.94, 0.2.98
-  * - BELL
-    - 0.2.94, 0.2.98
-  * - GAUTSCHI
-    - 0.2.94, 0.2.98
-  * - NEGISHI
-    - 0.2.94, 0.2.98
-  * - SCHOLAR
-    - 0.2.94, 0.2.98
+~~~~~~~~
+- 0.2.94
+- 0.2.98
 
 Commands
 ~~~~~~~
@@ -44,24 +31,7 @@ You can load the modules by::
     module load biocontainers
     module load hail
 
-Interactive job
-~~~~~~
-To run Hail interactively on our clusters::
-
-   (base) UserID@bell-fe00:~ $ sinteractive -N1 -n12 -t4:00:00 -A myallocation
-   salloc: Granted job allocation 12345869
-   salloc: Waiting for resource configuration
-   salloc: Nodes bell-a008 are ready for job
-   (base) UserID@bell-a008:~ $ module load biocontainers hail
-   (base) UserID@bell-a008:~ $ python3
-   Python 3.7.13 (default, Apr 24 2022, 01:05:22)  
-   [GCC 9.4.0] on linux
-   Type "help", "copyright", "credits" or "license" for more information.  
-   >>> import hail as hl
-   >>>  print(hl.citation())
-   Hail Team. Hail 0.2.94-f0b38d6c436f. https://github.com/hail-is/hail/commit/f0b38d6c436f.
-
-Batch job
+Example job
 ~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
@@ -80,4 +50,4 @@ To run hail on our clusters::
 
     module --force purge
     ml biocontainers hail
-    python3 script.py
+

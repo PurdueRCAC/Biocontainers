@@ -12,26 +12,12 @@ purge_dups is designed to remove haplotigs and contig overlaps in a de novo asse
 | BioContainers: https://biocontainers.pro/tools/purge_dups 
 | Home page: https://github.com/dfguan/purge_dups
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.2.6_fixed, 1.2.6
-  * - BELL
-    - 1.2.6_fixed, 1.2.6
-  * - GAUTSCHI
-    - 1.2.6
-  * - NEGISHI
-    - 1.2.6_fixed, 1.2.6
-  * - SCHOLAR
-    - 1.2.6
+~~~~~~~~
+- 1.2.6
 
 Commands
 ~~~~~~~
@@ -84,3 +70,4 @@ To run purge_dups on our clusters::
 
     module --force purge
     ml biocontainers purge_dups
+

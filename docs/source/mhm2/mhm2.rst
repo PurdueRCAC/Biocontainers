@@ -11,26 +11,12 @@ MetaHipMer is a de novo metagenome short-read assembler. Version 2 (MHM2) is wri
 | For more information, please check:
 | Home page: https://bitbucket.org/berkeleylab/mhm2/wiki/Home.md
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.0.0
-  * - BELL
-    - 2.0.0
-  * - GAUTSCHI
-    - 2.0.0
-  * - NEGISHI
-    - 2.0.0
-  * - SCHOLAR
-    - 2.0.0
+~~~~~~~~
+- 2.0.0
 
 Commands
 ~~~~~~~
@@ -63,4 +49,3 @@ To run mhm2 on our clusters::
     module --force purge
     ml biocontainers mhm2
 
-    mhm2.py -r input_1.fastq,input_2.fastq

@@ -12,26 +12,13 @@ Freyja is a tool to recover relative lineage abundances from mixed SARS-CoV-2 sa
 | Docker hub: https://hub.docker.com/r/staphb/freyja 
 | Home page: https://github.com/andersen-lab/Freyja
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.3.11, 1.4.2
-  * - BELL
-    - 1.3.11, 1.4.2
-  * - GAUTSCHI
-    - 1.3.11, 1.4.2
-  * - NEGISHI
-    - 1.3.11, 1.4.2
-  * - SCHOLAR
-    - 1.3.11, 1.4.2
+~~~~~~~~
+- 1.3.11
+- 1.4.2
 
 Commands
 ~~~~~~~
@@ -63,3 +50,4 @@ To run freyja on our clusters::
 
     module --force purge
     ml biocontainers freyja
+

@@ -12,26 +12,12 @@ dnaapler is a simple python program that takes a single nucleotide input sequenc
 | Docker hub: https://hub.docker.com/r/staphb/dnaapler 
 | Home page: https://github.com/gbouras13/dnaapler
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.1.0
-  * - BELL
-    - 0.1.0
-  * - GAUTSCHI
-    - 0.1.0
-  * - NEGISHI
-    - 0.1.0
-  * - SCHOLAR
-    - 0.1.0
+~~~~~~~~
+- 0.1.0
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run dnaapler on our clusters::
 
     module --force purge
     ml biocontainers dnaapler
+

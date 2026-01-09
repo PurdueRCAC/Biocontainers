@@ -5,30 +5,19 @@ T-coffee
 
 Introduction
 ~~~~~~~~
-``T-coffee`` is a multiple sequence alignment software using a progressive approach. 
+T-coffee is a multiple sequence alignment software using a progressive approach.
 
-| For more information, please check its website: https://biocontainers.pro/tools/t-coffee and its home page on `Github`_.
+
+| For more information, please check:
+| BioContainers: https://biocontainers.pro/tools/t-coffee 
+| Home page: https://github.com/cbcrg/tcoffee
+
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 13.45.0.4846264
-  * - BELL
-    - 13.45.0.4846264
-  * - GAUTSCHI
-    - 13.45.0.4846264
-  * - NEGISHI
-    - 13.45.0.4846264
-  * - SCHOLAR
-    - 13.45.0.4846264
+~~~~~~~~
+- 13.45.0.4846264
 
 Commands
 ~~~~~~~
@@ -37,7 +26,7 @@ Commands
 Module
 ~~~~~~~~
 You can load the modules by::
-    
+
     module load biocontainers
     module load t-coffee
 
@@ -46,10 +35,10 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run T-coffee on our clusters::
+To run t-coffee on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
@@ -61,5 +50,3 @@ To run T-coffee on our clusters::
     module --force purge
     ml biocontainers t-coffee
 
-    t_coffee  OG0002077.fa -mode  expresso
-.. _Github: https://github.com/cbcrg/tcoffee

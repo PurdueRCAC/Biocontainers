@@ -12,24 +12,13 @@ Bases2Fastq software processes sequencing data and converts base calls into FAST
 | BioContainers: https://biocontainers.pro/tools/bases2fastq 
 | Home page: https://docs.elembio.io/docs/bases2fastq/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.7
-  * - BELL
-    - 1.7, 2.2.0
-  * - GAUTSCHI
-    - 1.7, 2.2.0
-  * - NEGISHI
-    - 1.7, 2.2.0
+~~~~~~~~
+- 1.7
+- 2.2.0
 
 Commands
 ~~~~~~~
@@ -61,3 +50,4 @@ To run bases2fastq on our clusters::
 
     module --force purge
     ml biocontainers bases2fastq
+

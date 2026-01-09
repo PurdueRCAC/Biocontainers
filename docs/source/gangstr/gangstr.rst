@@ -12,26 +12,12 @@ GangSTR is a tool for genome-wide profiling tandem repeats from short reads. A k
 | BioContainers: https://biocontainers.pro/tools/gangstr 
 | Home page: https://github.com/gymreklab/GangSTR
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 2.5.0
-  * - BELL
-    - 2.5.0
-  * - GAUTSCHI
-    - 2.5.0
-  * - NEGISHI
-    - 2.5.0
-  * - SCHOLAR
-    - 2.5.0
+~~~~~~~~
+- 2.5.0
 
 Commands
 ~~~~~~~
@@ -63,3 +49,4 @@ To run gangstr on our clusters::
 
     module --force purge
     ml biocontainers gangstr
+

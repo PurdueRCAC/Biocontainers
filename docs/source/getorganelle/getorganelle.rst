@@ -12,26 +12,12 @@ GetOrganelle: a fast and versatile toolkit for accurate de novo assembly of orga
 | BioContainers: https://biocontainers.pro/tools/getorganelle 
 | Home page: https://github.com/Kinggerm/GetOrganelle
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.7.7.0
-  * - BELL
-    - 1.7.7.0
-  * - GAUTSCHI
-    - 1.7.7.0
-  * - NEGISHI
-    - 1.7.7.0
-  * - SCHOLAR
-    - 1.7.7.0
+~~~~~~~~
+- 1.7.7.0
 
 Commands
 ~~~~~~~
@@ -67,3 +53,4 @@ To run getorganelle on our clusters::
 
     module --force purge
     ml biocontainers getorganelle
+

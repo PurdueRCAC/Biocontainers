@@ -12,26 +12,12 @@ DeepConsensus uses gap-aware sequence transformers to correct errors in Pacific 
 | Docker hub: https://hub.docker.com/r/google/deepconsensus 
 | Home page: https://github.com/google/deepconsensus
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 0.2.0
-  * - BELL
-    - 0.2.0
-  * - GAUTSCHI
-    - 0.2.0
-  * - NEGISHI
-    - 0.2.0
-  * - SCHOLAR
-    - 0.2.0
+~~~~~~~~
+- 0.2.0
 
 Commands
 ~~~~~~~
@@ -66,9 +52,3 @@ To run deepconsensus on our clusters::
     module --force purge
     ml biocontainers deepconsensus
 
-    deepconsensus run \
-        --subreads_to_ccs=subreads_to_ccs.bam  \
-        --ccs_fasta=ccs.fasta \
-        --checkpoint=checkpoint-50 \
-        --output=output.fastq \
-        --batch_zmws=100

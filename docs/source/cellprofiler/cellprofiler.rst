@@ -12,22 +12,12 @@ CellProfiler is a free open-source software designed to enable biologists withou
 | BioContainers: https://biocontainers.pro/tools/cellprofiler 
 | Home page: https://cellprofiler.org/
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - BELL
-    - 4.2.8
-  * - NEGISHI
-    - 4.2.8-ood, 4.2.8
-  * - SCHOLAR
-    - 4.2.8
+~~~~~~~~
+- 4.2.8
 
 Commands
 ~~~~~~~
@@ -59,3 +49,4 @@ To run cellprofiler on our clusters::
 
     module --force purge
     ml biocontainers cellprofiler
+

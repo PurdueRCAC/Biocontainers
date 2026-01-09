@@ -12,26 +12,12 @@ IsoQuant is a tool for the genome-based analysis of long RNA reads, such as PacB
 | BioContainers: https://biocontainers.pro/tools/isoquant 
 | Home page: https://github.com/ablab/IsoQuant
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 3.1.2
-  * - BELL
-    - 3.1.2
-  * - GAUTSCHI
-    - 3.1.2
-  * - NEGISHI
-    - 3.1.2
-  * - SCHOLAR
-    - 3.1.2
+~~~~~~~~
+- 3.1.2
 
 Commands
 ~~~~~~~
@@ -64,7 +50,3 @@ To run isoquant on our clusters::
     module --force purge
     ml biocontainers isoquant
 
-    isoquant.py --reference chr9.4M.fa.gz \
-        --genedb chr9.4M.gtf.gz \
-        --fastq  chr9.4M.ont.sim.fq.gz \
-        --data_type nanopore -o test_ont

@@ -11,26 +11,12 @@ LTR_Finder is an efficient program for finding full-length LTR retrotranspsons i
 | For more information, please check:
 | Home page: https://github.com/xzhub/LTR_Finder
 
+.. note::
+    Please follow the recommended citation guidelines from the developers when you use the tool in research.
+
 Versions
-~~~~~~~
-.. list-table::
-  :width: 100 %
-  :widths: 25 75
-  :header-rows: 1
-
-  * - Cluster
-    - Version(s)
-
-  * - ANVIL
-    - 1.07
-  * - BELL
-    - 1.07
-  * - GAUTSCHI
-    - 1.07
-  * - NEGISHI
-    - 1.07
-  * - SCHOLAR
-    - 1.07
+~~~~~~~~
+- 1.07
 
 Commands
 ~~~~~~~
@@ -69,5 +55,3 @@ To run ltr_finder on our clusters::
     module --force purge
     ml biocontainers ltr_finder
 
-    ltr_finder 3ds_72.fa -P 3ds_72 -w2  > test/3ds_72_result.txt \
-        |   genome_plot.pl test/
