@@ -16,8 +16,25 @@ Pilon is an automated genome assembly improvement and variant detection tool.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.24
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.24
+  * - BELL
+    - 1.24
+  * - GAUTSCHI
+    - 1.24
+  * - NEGISHI
+    - 1.24
+  * - SCHOLAR
+    - 1.24
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run pilon on our clusters::
 
     module --force purge
     ml biocontainers pilon
-

@@ -16,8 +16,25 @@ odgi provides an efficient and succinct dynamic DNA sequence graph model, as wel
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.8.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.8.3
+  * - BELL
+    - 0.8.3
+  * - GAUTSCHI
+    - 0.8.3
+  * - NEGISHI
+    - 0.8.3
+  * - SCHOLAR
+    - 0.8.3
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run odgi on our clusters::
 
     module --force purge
     ml biocontainers odgi
-

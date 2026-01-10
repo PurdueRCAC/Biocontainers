@@ -15,8 +15,25 @@ abPOA: adaptive banded Partial Order Alignment
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.4.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.4.1
+  * - BELL
+    - 1.4.1
+  * - GAUTSCHI
+    - 1.4.1
+  * - NEGISHI
+    - 1.4.1
+  * - SCHOLAR
+    - 1.4.1
 
 Commands
 ~~~~~~~
@@ -48,4 +65,3 @@ To run abpoa on our clusters::
 
     module --force purge
     ml biocontainers abpoa
-

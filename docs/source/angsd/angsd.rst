@@ -15,11 +15,25 @@ Angsd is a software for analyzing next generation sequencing data.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.935
-- 0.937
-- 0.939
-- 0.940
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.935, 0.937, 0.939, 0.940
+  * - BELL
+    - 0.935, 0.937, 0.939, 0.940
+  * - GAUTSCHI
+    - 0.935, 0.937, 0.939, 0.940
+  * - NEGISHI
+    - 0.935, 0.937, 0.939, 0.940
+  * - SCHOLAR
+    - 0.935, 0.937, 0.939, 0.940
 
 Commands
 ~~~~~~~
@@ -55,4 +69,3 @@ To run angsd on our clusters::
 
     module --force purge
     ml biocontainers angsd
-

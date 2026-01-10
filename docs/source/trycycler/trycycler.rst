@@ -16,10 +16,25 @@ Trycycler is a tool for generating consensus long-read assemblies for bacterial 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.5.0
-- 0.5.3
-- 0.5.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.5.0, 0.5.3, 0.5.4
+  * - BELL
+    - 0.5.0, 0.5.3, 0.5.4
+  * - GAUTSCHI
+    - 0.5.0, 0.5.3, 0.5.4
+  * - NEGISHI
+    - 0.5.0, 0.5.3, 0.5.4
+  * - SCHOLAR
+    - 0.5.0, 0.5.3, 0.5.4
 
 Commands
 ~~~~~~~
@@ -51,4 +66,3 @@ To run trycycler on our clusters::
 
     module --force purge
     ml biocontainers trycycler
-

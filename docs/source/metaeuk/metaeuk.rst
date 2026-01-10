@@ -16,8 +16,23 @@ MetaEuk is a modular toolkit designed for large-scale gene discovery and annotat
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 6.a5d39d9
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 6.a5d39d9
+  * - BELL
+    - 6.a5d39d9
+  * - GAUTSCHI
+    - 6.a5d39d9
+  * - NEGISHI
+    - 6.a5d39d9
 
 Commands
 ~~~~~~~
@@ -49,4 +64,3 @@ To run metaeuk on our clusters::
 
     module --force purge
     ml biocontainers metaeuk
-

@@ -16,9 +16,25 @@ The MaSuRCA (Maryland Super Read Cabog Assembler) genome assembly and analysis t
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.0.9
-- 4.1.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.0.9, 4.1.0
+  * - BELL
+    - 4.0.9, 4.1.0
+  * - GAUTSCHI
+    - 4.0.9, 4.1.0
+  * - NEGISHI
+    - 4.0.9, 4.1.0
+  * - SCHOLAR
+    - 4.0.9, 4.1.0
 
 Commands
 ~~~~~~~
@@ -78,4 +94,3 @@ To run masurca on our clusters::
 
     module --force purge
     ml biocontainers masurca
-

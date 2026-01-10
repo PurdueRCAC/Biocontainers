@@ -16,8 +16,25 @@ Kover is an out-of-core implementation of rule-based machine learning algorithms
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0.6
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.0.6
+  * - BELL
+    - 2.0.6
+  * - GAUTSCHI
+    - 2.0.6
+  * - NEGISHI
+    - 2.0.6
+  * - SCHOLAR
+    - 2.0.6
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run kover on our clusters::
 
     module --force purge
     ml biocontainers kover
-

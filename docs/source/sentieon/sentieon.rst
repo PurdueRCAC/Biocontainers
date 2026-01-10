@@ -16,8 +16,19 @@ Sentieon Sequencer Agnostic Secondary Analysis - FASTQ-BAM-VCF-GVCF
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 202503
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 202308.03, 202503
+  * - NEGISHI
+    - 202503
 
 Commands
 ~~~~~~~
@@ -49,4 +60,3 @@ To run sentieon on our clusters::
 
     module --force purge
     ml biocontainers sentieon
-

@@ -16,10 +16,25 @@ Minimap2 is a versatile pairwise aligner for genomic and spliced nucleotide sequ
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.22
-- 2.24
-- 2.26
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.22, 2.24, 2.26, 2.28
+  * - BELL
+    - 2.22, 2.24, 2.26, 2.28
+  * - GAUTSCHI
+    - 2.22, 2.24, 2.26
+  * - NEGISHI
+    - 2.22, 2.24, 2.26, 2.28
+  * - SCHOLAR
+    - 2.22, 2.24, 2.26
 
 Commands
 ~~~~~~~
@@ -53,4 +68,3 @@ To run minimap2 on our clusters::
 
     module --force purge
     ml biocontainers minimap2
-

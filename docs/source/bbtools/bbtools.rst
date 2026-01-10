@@ -16,8 +16,25 @@ BBTools is a suite of fast, multithreaded bioinformatics tools designed for anal
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 39.00
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 39.00
+  * - BELL
+    - 39.00
+  * - GAUTSCHI
+    - 39.00
+  * - NEGISHI
+    - 39.00
+  * - SCHOLAR
+    - 39.00
 
 Commands
 ~~~~~~~
@@ -245,4 +262,3 @@ To run bbtools on our clusters::
 
     module --force purge
     ml biocontainers bbtools
-

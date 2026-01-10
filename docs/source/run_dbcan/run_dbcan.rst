@@ -15,9 +15,25 @@ Run_dbcan is a standalone tool of http://bcb.unl.edu/dbCAN2/
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.0.2
-- 3.0.6
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.0.2, 3.0.6
+  * - BELL
+    - 3.0.2, 3.0.6
+  * - GAUTSCHI
+    - 3.0.2, 3.0.6
+  * - NEGISHI
+    - 3.0.2, 3.0.6
+  * - SCHOLAR
+    - 3.0.2, 3.0.6
 
 Commands
 ~~~~~~~
@@ -49,4 +65,3 @@ To run run_dbcan on our clusters::
 
     module --force purge
     ml biocontainers run_dbcan
-

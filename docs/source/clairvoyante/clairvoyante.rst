@@ -16,8 +16,25 @@ Clairvoyante is a deep neural network based variant caller.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.02
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.02
+  * - BELL
+    - 1.02
+  * - GAUTSCHI
+    - 1.02
+  * - NEGISHI
+    - 1.02
+  * - SCHOLAR
+    - 1.02
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run clairvoyante on our clusters::
 
     module --force purge
     ml biocontainers clairvoyante
-

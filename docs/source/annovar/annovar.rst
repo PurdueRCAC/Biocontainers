@@ -15,8 +15,25 @@ ANNOVAR is an efficient software tool to utilize update-to-date information to f
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2022-01-13
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2022-01-13
+  * - BELL
+    - 2022-01-13
+  * - GAUTSCHI
+    - 2022-01-13
+  * - NEGISHI
+    - 2022-01-13
+  * - SCHOLAR
+    - 2022-01-13
 
 Commands
 ~~~~~~~
@@ -53,4 +70,3 @@ To run annovar on our clusters::
 
     module --force purge
     ml biocontainers annovar
-

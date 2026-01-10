@@ -16,8 +16,25 @@ Pybigwig is a python extension, written in C, for quick access to bigBed files a
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.3.18
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.3.18
+  * - BELL
+    - 0.3.18
+  * - GAUTSCHI
+    - 0.3.18
+  * - NEGISHI
+    - 0.3.18
+  * - SCHOLAR
+    - 0.3.18
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run pybigwig on our clusters::
 
     module --force purge
     ml biocontainers pybigwig
-

@@ -16,10 +16,25 @@ Vsearch is a versatile open source tool for metagenomics.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.19.0
-- 2.21.1
-- 2.22.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.19.0, 2.21.1, 2.22.1
+  * - BELL
+    - 2.19.0, 2.21.1, 2.22.1
+  * - GAUTSCHI
+    - 2.19.0, 2.21.1, 2.22.1
+  * - NEGISHI
+    - 2.19.0, 2.21.1, 2.22.1
+  * - SCHOLAR
+    - 2.19.0, 2.21.1, 2.22.1
 
 Commands
 ~~~~~~~
@@ -51,4 +66,3 @@ To run vsearch on our clusters::
 
     module --force purge
     ml biocontainers vsearch
-

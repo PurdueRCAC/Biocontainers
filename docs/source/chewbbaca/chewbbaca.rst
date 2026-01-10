@@ -16,8 +16,25 @@ chewBBACA is a comprehensive pipeline including a set of functions for the creat
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.8.5
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.8.5
+  * - BELL
+    - 2.8.5
+  * - GAUTSCHI
+    - 2.8.5
+  * - NEGISHI
+    - 2.8.5
+  * - SCHOLAR
+    - 2.8.5
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run chewbbaca on our clusters::
 
     module --force purge
     ml biocontainers chewbbaca
-

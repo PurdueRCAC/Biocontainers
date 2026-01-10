@@ -16,8 +16,25 @@ Unicycler is an assembly pipeline for bacterial genomes.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.5.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.5.0
+  * - BELL
+    - 0.5.0
+  * - GAUTSCHI
+    - 0.5.0
+  * - NEGISHI
+    - 0.5.0
+  * - SCHOLAR
+    - 0.5.0
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run unicycler on our clusters::
 
     module --force purge
     ml biocontainers unicycler
-

@@ -16,8 +16,27 @@ Segalign is a scalable GPU system for pairwise whole genome alignments based on 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.1.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.1.2
+  * - BELL
+    - 0.1.2
+  * - GAUTSCHI
+    - 0.1.2
+  * - GILBRETH
+    - 0.1.2
+  * - NEGISHI
+    - 0.1.2
+  * - SCHOLAR
+    - 0.1.2
 
 Commands
 ~~~~~~~
@@ -54,4 +73,3 @@ To run segalign on our clusters::
 
     module --force purge
     ml biocontainers segalign
-

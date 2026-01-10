@@ -16,8 +16,25 @@ Peakranger is a multi-purporse software suite for analyzing next-generation sequ
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.18
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.18
+  * - BELL
+    - 1.18
+  * - GAUTSCHI
+    - 1.18
+  * - NEGISHI
+    - 1.18
+  * - SCHOLAR
+    - 1.18
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run peakranger on our clusters::
 
     module --force purge
     ml biocontainers peakranger
-

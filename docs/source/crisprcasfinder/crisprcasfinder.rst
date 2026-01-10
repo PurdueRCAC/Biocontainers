@@ -16,8 +16,25 @@ Crisprcasfinder is an updated, improved, and integrated version of CRISPRFinder 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.2.20
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.2.20
+  * - BELL
+    - 4.2.20
+  * - GAUTSCHI
+    - 4.2.20
+  * - NEGISHI
+    - 4.2.20
+  * - SCHOLAR
+    - 4.2.20
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run crisprcasfinder on our clusters::
 
     module --force purge
     ml biocontainers crisprcasfinder
-

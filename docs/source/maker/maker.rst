@@ -15,9 +15,25 @@ Maker is a portable and easily configurable genome annotation pipeline. Note: To
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.31.11
-- 3.01.03
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.31.11, 3.01.03
+  * - BELL
+    - 2.31.11, 3.01.03
+  * - GAUTSCHI
+    - 2.31.11, 3.01.03
+  * - NEGISHI
+    - 2.31.11, 3.01.03
+  * - SCHOLAR
+    - 2.31.11, 3.01.03
 
 Commands
 ~~~~~~~
@@ -79,4 +95,3 @@ To run maker on our clusters::
 
     module --force purge
     ml biocontainers maker
-

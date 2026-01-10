@@ -16,8 +16,19 @@ RAPSearch2 is a tool for fast protein similarity searches
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.24
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - BELL
+    - 2.24
+  * - NEGISHI
+    - 2.24
 
 Commands
 ~~~~~~~
@@ -50,4 +61,3 @@ To run rapsearch on our clusters::
 
     module --force purge
     ml biocontainers rapsearch
-

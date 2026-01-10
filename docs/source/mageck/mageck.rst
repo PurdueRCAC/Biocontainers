@@ -16,8 +16,25 @@ Model-based Analysis of Genome-wide CRISPR-Cas9 Knockout (MAGeCK) is a computati
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.5.9.5
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.5.9.5
+  * - BELL
+    - 0.5.9.5
+  * - GAUTSCHI
+    - 0.5.9.5
+  * - NEGISHI
+    - 0.5.9.5
+  * - SCHOLAR
+    - 0.5.9.5
 
 Commands
 ~~~~~~~
@@ -51,4 +68,3 @@ To run mageck on our clusters::
 
     module --force purge
     ml biocontainers mageck
-

@@ -16,8 +16,25 @@ Winnowmap is a long-read mapping algorithm optimized for mapping ONT and PacBio 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.03
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.03
+  * - BELL
+    - 2.03
+  * - GAUTSCHI
+    - 2.03
+  * - NEGISHI
+    - 2.03
+  * - SCHOLAR
+    - 2.03
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run winnowmap on our clusters::
 
     module --force purge
     ml biocontainers winnowmap
-

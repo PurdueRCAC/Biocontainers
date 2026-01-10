@@ -16,9 +16,25 @@ FastANI is developed for fast alignment-free computation of whole-genome Average
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.32
-- 1.33
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.32, 1.33
+  * - BELL
+    - 1.32, 1.33
+  * - GAUTSCHI
+    - 1.32, 1.33
+  * - NEGISHI
+    - 1.32, 1.33
+  * - SCHOLAR
+    - 1.32, 1.33
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run fastani on our clusters::
 
     module --force purge
     ml biocontainers fastani
-

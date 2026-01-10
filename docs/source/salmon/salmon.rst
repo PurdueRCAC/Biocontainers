@@ -16,13 +16,25 @@ Salmon is a tool for quantifying the expression of transcripts using RNA-seq dat
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.10.1
-- 1.5.2
-- 1.6.0
-- 1.7.0
-- 1.8.0
-- 1.9.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.5.2, 1.6.0, 1.7.0, 1.8.0, 1.9.0, 1.10.1
+  * - BELL
+    - 1.5.2, 1.6.0, 1.7.0, 1.8.0, 1.9.0, 1.10.1
+  * - GAUTSCHI
+    - 1.5.2, 1.6.0, 1.7.0, 1.8.0, 1.9.0, 1.10.1
+  * - NEGISHI
+    - 1.5.2, 1.6.0, 1.7.0, 1.8.0, 1.9.0, 1.10.1
+  * - SCHOLAR
+    - 1.5.2, 1.6.0, 1.7.0, 1.8.0, 1.9.0, 1.10.1
 
 Commands
 ~~~~~~~
@@ -54,4 +66,3 @@ To run salmon on our clusters::
 
     module --force purge
     ml biocontainers salmon
-

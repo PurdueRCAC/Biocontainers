@@ -16,8 +16,25 @@ Lyveset is a method of using hqSNPs to create a phylogeny, especially for outbre
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.0.1
+  * - BELL
+    - 2.0.1
+  * - GAUTSCHI
+    - 2.0.1
+  * - NEGISHI
+    - 2.0.1
+  * - SCHOLAR
+    - 2.0.1
 
 Commands
 ~~~~~~~
@@ -90,4 +107,3 @@ To run lyveset on our clusters::
 
     module --force purge
     ml biocontainers lyveset
-

@@ -16,8 +16,25 @@ The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for usi
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.11.0-pl5262
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.11.0-pl5262
+  * - BELL
+    - 2.11.0-pl5262
+  * - GAUTSCHI
+    - 2.11.0-pl5262
+  * - NEGISHI
+    - 2.11.0-pl5262
+  * - SCHOLAR
+    - 2.11.0-pl5262
 
 Commands
 ~~~~~~~
@@ -89,4 +106,3 @@ To run sra-tools on our clusters::
 
     module --force purge
     ml biocontainers sra-tools
-

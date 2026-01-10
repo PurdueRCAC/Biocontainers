@@ -16,8 +16,25 @@ Infernal ("INFERence of RNA ALignment") is for searching DNA sequence databases 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.1.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.1.4
+  * - BELL
+    - 1.1.4
+  * - GAUTSCHI
+    - 1.1.4
+  * - NEGISHI
+    - 1.1.4
+  * - SCHOLAR
+    - 1.1.4
 
 Commands
 ~~~~~~~
@@ -58,4 +75,3 @@ To run infernal on our clusters::
 
     module --force purge
     ml biocontainers infernal
-

@@ -16,8 +16,25 @@ Impute2 is a genotype imputation and haplotype phasing program.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.3.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.3.2
+  * - BELL
+    - 2.3.2
+  * - GAUTSCHI
+    - 2.3.2
+  * - NEGISHI
+    - 2.3.2
+  * - SCHOLAR
+    - 2.3.2
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run impute2 on our clusters::
 
     module --force purge
     ml biocontainers impute2
-

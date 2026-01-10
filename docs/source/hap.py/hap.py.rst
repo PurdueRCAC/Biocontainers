@@ -16,8 +16,25 @@ Hap.py is a tool to compare diploid genotypes at haplotype level.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.3.9
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.3.9
+  * - BELL
+    - 0.3.9
+  * - GAUTSCHI
+    - 0.3.9
+  * - NEGISHI
+    - 0.3.9
+  * - SCHOLAR
+    - 0.3.9
 
 Commands
 ~~~~~~~
@@ -59,4 +76,3 @@ To run hap.py on our clusters::
 
     module --force purge
     ml biocontainers hap.py
-

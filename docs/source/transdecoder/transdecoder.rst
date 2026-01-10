@@ -16,8 +16,25 @@ Transdecoder identifies candidate coding regions within transcript sequences, su
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 5.5.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 5.5.0
+  * - BELL
+    - 5.5.0
+  * - GAUTSCHI
+    - 5.5.0
+  * - NEGISHI
+    - 5.5.0
+  * - SCHOLAR
+    - 5.5.0
 
 Commands
 ~~~~~~~
@@ -76,4 +93,3 @@ To run transdecoder on our clusters::
 
     module --force purge
     ml biocontainers transdecoder
-

@@ -16,8 +16,25 @@ Nanoplot is a plotting tool for long read sequencing data and alignments.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.39.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.39.0, 1.44.1-py
+  * - BELL
+    - 1.39.0, 1.44.1-py
+  * - GAUTSCHI
+    - 1.39.0
+  * - NEGISHI
+    - 1.39.0, 1.44.1-py
+  * - SCHOLAR
+    - 1.39.0
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run nanoplot on our clusters::
 
     module --force purge
     ml biocontainers nanoplot
-

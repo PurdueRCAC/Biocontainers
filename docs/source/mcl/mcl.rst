@@ -16,8 +16,25 @@ Mcl is short for the Markov Cluster Algorithm, a fast and scalable unsupervised 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 14.137-pl5262
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 14.137-pl5262
+  * - BELL
+    - 14.137-pl5262
+  * - GAUTSCHI
+    - 14.137-pl5262
+  * - NEGISHI
+    - 14.137-pl5262
+  * - SCHOLAR
+    - 14.137-pl5262
 
 Commands
 ~~~~~~~
@@ -65,4 +82,3 @@ To run mcl on our clusters::
 
     module --force purge
     ml biocontainers mcl
-

@@ -16,8 +16,17 @@ Nanosim is a fast and scalable read simulator for nanopore sequencing data.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.2.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.2.3
 
 Commands
 ~~~~~~~
@@ -63,4 +72,3 @@ To run nanosim on our clusters::
 
     module --force purge
     ml biocontainers nanosim
-

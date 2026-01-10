@@ -16,8 +16,25 @@ Parsnp is used to align the core genome of hundreds to thousands of bacterial ge
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.6.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.6.2
+  * - BELL
+    - 1.6.2
+  * - GAUTSCHI
+    - 1.6.2
+  * - NEGISHI
+    - 1.6.2
+  * - SCHOLAR
+    - 1.6.2
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run parsnp on our clusters::
 
     module --force purge
     ml biocontainers parsnp
-

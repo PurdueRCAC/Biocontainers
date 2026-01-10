@@ -15,8 +15,25 @@ GeneMarkS-2 combines GeneMark.hmm (prokaryotic) and GeneMark (prokaryotic) with 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.14_1.25
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.14_1.25
+  * - BELL
+    - 1.14_1.25
+  * - GAUTSCHI
+    - 1.14_1.25
+  * - NEGISHI
+    - 1.14_1.25
+  * - SCHOLAR
+    - 1.14_1.25
 
 Commands
 ~~~~~~~
@@ -51,4 +68,3 @@ To run genemarks-2 on our clusters::
 
     module --force purge
     ml biocontainers genemarks-2
-

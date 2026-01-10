@@ -16,8 +16,25 @@ Bamliquidator is a set of tools for analyzing the density of short DNA sequence 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.5.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.5.2
+  * - BELL
+    - 1.5.2
+  * - GAUTSCHI
+    - 1.5.2
+  * - NEGISHI
+    - 1.5.2
+  * - SCHOLAR
+    - 1.5.2
 
 Commands
 ~~~~~~~
@@ -54,4 +71,3 @@ To run bamliquidator on our clusters::
 
     module --force purge
     ml biocontainers bamliquidator
-

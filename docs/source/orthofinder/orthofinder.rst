@@ -16,10 +16,25 @@ OrthoFinder is a fast, accurate and comprehensive platform for comparative genom
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.5.2
-- 2.5.4
-- 2.5.5
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.5.2, 2.5.4, 2.5.5
+  * - BELL
+    - 2.5.2, 2.5.4, 2.5.5
+  * - GAUTSCHI
+    - 2.5.2, 2.5.4, 2.5.5
+  * - NEGISHI
+    - 2.5.2, 2.5.4, 2.5.5
+  * - SCHOLAR
+    - 2.5.2, 2.5.4, 2.5.5
 
 Commands
 ~~~~~~~
@@ -51,4 +66,3 @@ To run orthofinder on our clusters::
 
     module --force purge
     ml biocontainers orthofinder
-

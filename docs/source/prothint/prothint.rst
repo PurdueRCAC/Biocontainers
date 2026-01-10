@@ -15,8 +15,25 @@ ProtHint is a pipeline for predicting and scoring hints (in the form of introns,
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.6.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.6.0
+  * - BELL
+    - 2.6.0
+  * - GAUTSCHI
+    - 2.6.0
+  * - NEGISHI
+    - 2.6.0
+  * - SCHOLAR
+    - 2.6.0
 
 Commands
 ~~~~~~~
@@ -65,4 +82,3 @@ To run prothint on our clusters::
 
     module --force purge
     ml biocontainers prothint
-

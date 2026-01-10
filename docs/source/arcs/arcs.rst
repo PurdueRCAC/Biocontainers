@@ -15,8 +15,25 @@ ARCS is a tool for scaffolding genome sequence assemblies using linked or long r
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.2.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.2.4
+  * - BELL
+    - 1.2.4
+  * - GAUTSCHI
+    - 1.2.4
+  * - NEGISHI
+    - 1.2.4
+  * - SCHOLAR
+    - 1.2.4
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run arcs on our clusters::
 
     module --force purge
     ml biocontainers arcs
-

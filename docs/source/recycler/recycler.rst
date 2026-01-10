@@ -16,8 +16,25 @@ Recycler is a tool designed for extracting circular sequences from de novo assem
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.7
+  * - BELL
+    - 0.7
+  * - GAUTSCHI
+    - 0.7
+  * - NEGISHI
+    - 0.7
+  * - SCHOLAR
+    - 0.7
 
 Commands
 ~~~~~~~
@@ -51,4 +68,3 @@ To run recycler on our clusters::
 
     module --force purge
     ml biocontainers recycler
-

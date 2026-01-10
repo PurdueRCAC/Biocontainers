@@ -15,8 +15,23 @@ FCS-adaptor detects adaptor and vector contamination in genome sequences. This t
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.5.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.5.4
+  * - BELL
+    - 0.5.4
+  * - GAUTSCHI
+    - 0.5.4
+  * - NEGISHI
+    - 0.5.4
 
 Commands
 ~~~~~~~
@@ -48,4 +63,3 @@ To run ncbi-fcs-adaptor on our clusters::
 
     module --force purge
     ml biocontainers ncbi-fcs-adaptor
-

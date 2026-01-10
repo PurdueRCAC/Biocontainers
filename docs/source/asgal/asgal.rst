@@ -16,8 +16,25 @@ ASGAL (Alternative Splicing Graph ALigner) is a tool for detecting the alternati
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.1.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.1.7
+  * - BELL
+    - 1.1.7
+  * - GAUTSCHI
+    - 1.1.7
+  * - NEGISHI
+    - 1.1.7
+  * - SCHOLAR
+    - 1.1.7
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run asgal on our clusters::
 
     module --force purge
     ml biocontainers asgal
-

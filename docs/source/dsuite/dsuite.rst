@@ -15,9 +15,25 @@ Dsuite is a fast C++ implementation, allowing genome scale calculations of the D
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.4.r43
-- 0.5.r44
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.4.r43, 0.5.r44
+  * - BELL
+    - 0.4.r43, 0.5.r44
+  * - GAUTSCHI
+    - 0.4.r43, 0.5.r44
+  * - NEGISHI
+    - 0.4.r43, 0.5.r44
+  * - SCHOLAR
+    - 0.4.r43, 0.5.r44
 
 Commands
 ~~~~~~~
@@ -51,4 +67,3 @@ To run dsuite on our clusters::
 
     module --force purge
     ml biocontainers dsuite
-

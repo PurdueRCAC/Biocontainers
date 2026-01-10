@@ -16,8 +16,23 @@ Arboreto is a package for scalable gene regulatory network inference using tree-
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.1.6-py
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.1.6-py
+  * - BELL
+    - 0.1.6-py
+  * - GAUTSCHI
+    - 0.1.6-py
+  * - NEGISHI
+    - 0.1.6-py
 
 Commands
 ~~~~~~~
@@ -62,4 +77,3 @@ To run arboreto on our clusters::
 
     module --force purge
     ml biocontainers arboreto
-

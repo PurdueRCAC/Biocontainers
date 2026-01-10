@@ -16,8 +16,25 @@ VCFtools is a program package designed for working with VCF files, such as those
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.1.16
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.1.16
+  * - BELL
+    - 0.1.16
+  * - GAUTSCHI
+    - 0.1.16
+  * - NEGISHI
+    - 0.1.16
+  * - SCHOLAR
+    - 0.1.16
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run vcftools on our clusters::
 
     module --force purge
     ml biocontainers vcftools
-

@@ -16,8 +16,25 @@ LiftoffTools is a toolkit to compare genes lifted between genome assemblies. Spe
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.4.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.4.4
+  * - BELL
+    - 0.4.4
+  * - GAUTSCHI
+    - 0.4.4
+  * - NEGISHI
+    - 0.4.4
+  * - SCHOLAR
+    - 0.4.4
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run liftofftools on our clusters::
 
     module --force purge
     ml biocontainers liftofftools
-

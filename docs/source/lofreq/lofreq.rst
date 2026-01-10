@@ -16,8 +16,25 @@ Lofreq is a fast and sensitive variant-caller for inferring SNVs and indels from
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.1.5
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.1.5
+  * - BELL
+    - 2.1.5
+  * - GAUTSCHI
+    - 2.1.5
+  * - NEGISHI
+    - 2.1.5
+  * - SCHOLAR
+    - 2.1.5
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run lofreq on our clusters::
 
     module --force purge
     ml biocontainers lofreq
-

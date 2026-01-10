@@ -16,8 +16,25 @@ GATK (Genome Analysis Toolkit) is a collection of command-line tools for analyzi
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.8
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.8
+  * - BELL
+    - 3.8
+  * - GAUTSCHI
+    - 3.8
+  * - NEGISHI
+    - 3.8
+  * - SCHOLAR
+    - 3.8
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run gatk on our clusters::
 
     module --force purge
     ml biocontainers gatk
-

@@ -16,8 +16,19 @@ DIA-NN is an automated software suite for data-independent acquisition (DIA) pro
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - NEGISHI
+    - 2.0.2
+  * - SCHOLAR
+    - 2.0.2
 
 Commands
 ~~~~~~~
@@ -49,4 +60,3 @@ To run diann on our clusters::
 
     module --force purge
     ml biocontainers diann
-

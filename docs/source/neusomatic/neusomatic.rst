@@ -15,8 +15,25 @@ NeuSomatic is based on deep convolutional neural networks for accurate somatic m
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.2.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.2.1
+  * - BELL
+    - 0.2.1
+  * - GAUTSCHI
+    - 0.2.1
+  * - NEGISHI
+    - 0.2.1
+  * - SCHOLAR
+    - 0.2.1
 
 Commands
 ~~~~~~~
@@ -64,4 +81,3 @@ To run neusomatic on our clusters::
 
     module --force purge
     ml biocontainers neusomatic
-

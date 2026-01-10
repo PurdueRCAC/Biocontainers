@@ -15,8 +15,25 @@ SignalP predicts the presence and location of signal peptide cleavage sites in a
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.1
+  * - BELL
+    - 4.1
+  * - GAUTSCHI
+    - 4.1
+  * - NEGISHI
+    - 4.1
+  * - SCHOLAR
+    - 4.1
 
 Commands
 ~~~~~~~
@@ -48,4 +65,3 @@ To run signalp4 on our clusters::
 
     module --force purge
     ml biocontainers signalp4
-

@@ -16,8 +16,17 @@ Binding and Expression Target Analysis (BETA) is a software package that integra
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.0.7-py27
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - NEGISHI
+    - 1.0.7-py27
 
 Commands
 ~~~~~~~
@@ -49,4 +58,3 @@ To run cistrome_beta on our clusters::
 
     module --force purge
     ml biocontainers cistrome_beta
-

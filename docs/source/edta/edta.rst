@@ -16,9 +16,25 @@ Edta is developed for automated whole-genome de-novo TE annotation and benchmark
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.9.6
-- 2.0.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.9.6, 2.0.0
+  * - BELL
+    - 1.9.6, 2.0.0
+  * - GAUTSCHI
+    - 1.9.6, 2.0.0
+  * - NEGISHI
+    - 1.9.6, 2.0.0
+  * - SCHOLAR
+    - 1.9.6, 2.0.0
 
 Commands
 ~~~~~~~
@@ -108,4 +124,3 @@ To run edta on our clusters::
 
     module --force purge
     ml biocontainers edta
-

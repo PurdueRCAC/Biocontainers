@@ -15,8 +15,23 @@ PyMOL is a user-sponsored molecular visualization system on an open-source found
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.5.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.5.0
+  * - BELL
+    - 2.5.0
+  * - GAUTSCHI
+    - 2.5.0
+  * - NEGISHI
+    - 2.5.0
 
 Commands
 ~~~~~~~
@@ -48,4 +63,3 @@ To run pymol on our clusters::
 
     module --force purge
     ml biocontainers pymol
-

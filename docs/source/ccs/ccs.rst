@@ -16,8 +16,25 @@ Pbccs is a tool to generate Highly Accurate Single-Molecule Consensus Reads (HiF
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 6.4.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 6.4.0
+  * - BELL
+    - 6.4.0
+  * - GAUTSCHI
+    - 6.4.0
+  * - NEGISHI
+    - 6.4.0
+  * - SCHOLAR
+    - 6.4.0
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run ccs on our clusters::
 
     module --force purge
     ml biocontainers ccs
-

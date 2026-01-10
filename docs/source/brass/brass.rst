@@ -16,8 +16,25 @@ Brass is used to analyze one or more related BAM files of paired-end sequencing 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 6.3.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 6.3.4
+  * - BELL
+    - 6.3.4
+  * - GAUTSCHI
+    - 6.3.4
+  * - NEGISHI
+    - 6.3.4
+  * - SCHOLAR
+    - 6.3.4
 
 Commands
 ~~~~~~~
@@ -57,4 +74,3 @@ To run brass on our clusters::
 
     module --force purge
     ml biocontainers brass
-

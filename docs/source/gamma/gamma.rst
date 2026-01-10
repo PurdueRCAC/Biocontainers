@@ -16,9 +16,25 @@ GAMMA (Gene Allele Mutation Microbial Assessment) is a command line tool that fi
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.4
-- 2.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.4, 2.2
+  * - BELL
+    - 1.4, 2.2
+  * - GAUTSCHI
+    - 1.4, 2.2
+  * - NEGISHI
+    - 1.4, 2.2
+  * - SCHOLAR
+    - 1.4, 2.2
 
 Commands
 ~~~~~~~
@@ -51,4 +67,3 @@ To run gamma on our clusters::
 
     module --force purge
     ml biocontainers gamma
-

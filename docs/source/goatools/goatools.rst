@@ -15,9 +15,25 @@ Goatools is a Python library for Gene Ontology analyses.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.1.12
-- 1.2.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.1.12, 1.2.3
+  * - BELL
+    - 1.1.12, 1.2.3
+  * - GAUTSCHI
+    - 1.1.12, 1.2.3
+  * - NEGISHI
+    - 1.1.12, 1.2.3
+  * - SCHOLAR
+    - 1.1.12, 1.2.3
 
 Commands
 ~~~~~~~
@@ -62,4 +78,3 @@ To run goatools on our clusters::
 
     module --force purge
     ml biocontainers goatools
-

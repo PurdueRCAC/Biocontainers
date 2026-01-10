@@ -16,8 +16,25 @@ TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq rea
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.1.1-py27
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.1.1-py27
+  * - BELL
+    - 2.1.1-py27
+  * - GAUTSCHI
+    - 2.1.1-py27
+  * - NEGISHI
+    - 2.1.1-py27
+  * - SCHOLAR
+    - 2.1.1-py27
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run tophat on our clusters::
 
     module --force purge
     ml biocontainers tophat
-

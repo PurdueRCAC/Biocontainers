@@ -16,8 +16,25 @@ Weblogo is a web based application designed to make the generation of sequence l
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.7.8
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.7.8
+  * - BELL
+    - 3.7.8
+  * - GAUTSCHI
+    - 3.7.8
+  * - NEGISHI
+    - 3.7.8
+  * - SCHOLAR
+    - 3.7.8
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run weblogo on our clusters::
 
     module --force purge
     ml biocontainers weblogo
-

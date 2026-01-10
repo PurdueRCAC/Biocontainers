@@ -16,8 +16,25 @@ Beagle is is a software package for phasing genotypes and for imputing ungenotyp
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 5.1_24Aug19.3e8
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 5.1_24Aug19.3e8
+  * - BELL
+    - 5.1_24Aug19.3e8
+  * - GAUTSCHI
+    - 5.1_24Aug19.3e8
+  * - NEGISHI
+    - 5.1_24Aug19.3e8
+  * - SCHOLAR
+    - 5.1_24Aug19.3e8
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run beagle on our clusters::
 
     module --force purge
     ml biocontainers beagle
-

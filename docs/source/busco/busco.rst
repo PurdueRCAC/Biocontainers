@@ -16,14 +16,25 @@ BUSCO (Benchmarking sets of Universal Single-Copy Orthologs) provides measures f
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 5.2.2
-- 5.3.0
-- 5.4.1
-- 5.4.3
-- 5.4.4
-- 5.4.5
-- 5.4.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 5.2.2, 5.3.0, 5.4.1, 5.4.3, 5.4.4, 5.4.5, 5.4.7, 5.8.2-py
+  * - BELL
+    - 5.2.2, 5.3.0, 5.4.1, 5.4.3, 5.4.4, 5.4.5, 5.4.7, 5.8.2-py
+  * - GAUTSCHI
+    - 5.2.2, 5.3.0, 5.4.1, 5.4.3, 5.4.4, 5.4.5, 5.4.7
+  * - NEGISHI
+    - 5.2.2, 5.3.0, 5.4.1, 5.4.3, 5.4.4, 5.4.5, 5.4.7, 5.8.2-py
+  * - SCHOLAR
+    - 5.2.2, 5.3.0, 5.4.1, 5.4.3, 5.4.4, 5.4.5, 5.4.7
 
 Commands
 ~~~~~~~
@@ -56,4 +67,3 @@ To run busco on our clusters::
 
     module --force purge
     ml biocontainers busco
-

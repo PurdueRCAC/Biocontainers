@@ -16,9 +16,25 @@ Bedtools is an extensive suite of utilities for genome arithmetic and comparing 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.30.0
-- 2.31.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.30.0, 2.31.0
+  * - BELL
+    - 2.30.0, 2.31.0
+  * - GAUTSCHI
+    - 2.30.0, 2.31.0
+  * - NEGISHI
+    - 2.30.0, 2.31.0
+  * - SCHOLAR
+    - 2.30.0, 2.31.0
 
 Commands
 ~~~~~~~
@@ -87,4 +103,3 @@ To run bedtools on our clusters::
 
     module --force purge
     ml biocontainers bedtools
-

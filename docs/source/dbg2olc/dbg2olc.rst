@@ -16,9 +16,25 @@ Dbg2olc is used for efficient assembly of large genomes using long erroneous rea
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 20180222
-- 20200723
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 20180222, 20200723
+  * - BELL
+    - 20180222, 20200723
+  * - GAUTSCHI
+    - 20180222, 20200723
+  * - NEGISHI
+    - 20180222, 20200723
+  * - SCHOLAR
+    - 20180222, 20200723
 
 Commands
 ~~~~~~~
@@ -59,4 +75,3 @@ To run dbg2olc on our clusters::
 
     module --force purge
     ml biocontainers dbg2olc
-

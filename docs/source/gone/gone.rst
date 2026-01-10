@@ -16,8 +16,17 @@ Scripts and programs referred to in the paper "Recent demographic history inferr
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 01.07.2020
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 01.07.2020
 
 Commands
 ~~~~~~~
@@ -55,4 +64,3 @@ To run gone on our clusters::
 
     module --force purge
     ml biocontainers gone
-

@@ -15,8 +15,25 @@ The MCScanX package has two major components: a modified version of MCscan algor
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- default
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - default
+  * - BELL
+    - default
+  * - GAUTSCHI
+    - default
+  * - NEGISHI
+    - default
+  * - SCHOLAR
+    - default
 
 Commands
 ~~~~~~~
@@ -57,4 +74,3 @@ To run mcscanx on our clusters::
 
     module --force purge
     ml biocontainers mcscanx
-

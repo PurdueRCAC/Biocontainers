@@ -17,9 +17,23 @@ BRAKER3 enables the usage of RNA-seq and protein data in a fully automated pipel
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.0.3
-- v3.0.7.5
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - v3.0.7.5, 3.0.3
+  * - BELL
+    - v3.0.7.5, 3.0.3
+  * - GAUTSCHI
+    - v3.0.7.5, 3.0.3
+  * - NEGISHI
+    - v3.0.7.5, 3.0.3
 
 Commands
 ~~~~~~~
@@ -51,4 +65,3 @@ To run braker3 on our clusters::
 
     module --force purge
     ml biocontainers braker3
-

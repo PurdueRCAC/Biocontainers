@@ -16,8 +16,25 @@ Genomescope2: Reference-free profiling of polyploid genomes.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.0
+  * - BELL
+    - 2.0
+  * - GAUTSCHI
+    - 2.0
+  * - NEGISHI
+    - 2.0
+  * - SCHOLAR
+    - 2.0
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run genomescope2 on our clusters::
 
     module --force purge
     ml biocontainers genomescope2
-

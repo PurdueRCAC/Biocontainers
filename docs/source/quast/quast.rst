@@ -16,9 +16,25 @@ Quast is Quality Assessment Tool for Genome Assemblies. Note: Running QUAST, ple
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 5.0.2
-- 5.2.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 5.0.2, 5.2.0, 5.3.0-py310
+  * - BELL
+    - 5.0.2, 5.2.0, 5.3.0-py310
+  * - GAUTSCHI
+    - 5.0.2, 5.2.0
+  * - NEGISHI
+    - 5.0.2, 5.2.0, 5.3.0-py310
+  * - SCHOLAR
+    - 5.0.2, 5.2.0
 
 Commands
 ~~~~~~~
@@ -51,4 +67,3 @@ To run quast on our clusters::
 
     module --force purge
     ml biocontainers quast
-

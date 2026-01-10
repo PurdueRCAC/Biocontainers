@@ -16,8 +16,19 @@ CZ CELLxGENE Annotate (pronounced "cell-by-gene") is an interactive data explore
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.3.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - BELL
+    - 1.3.0
+  * - NEGISHI
+    - 1.3.0
 
 Commands
 ~~~~~~~
@@ -49,4 +60,3 @@ To run cellxgene on our clusters::
 
     module --force purge
     ml biocontainers cellxgene
-

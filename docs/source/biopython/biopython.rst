@@ -16,10 +16,25 @@ Biopython is a set of freely available tools for biological computation written 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.70-np112py27
-- 1.70-np112py36
-- 1.78
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.70-np112py27, 1.70-np112py36, 1.78
+  * - BELL
+    - 1.70-np112py27, 1.70-np112py36, 1.78
+  * - GAUTSCHI
+    - 1.70-np112py27, 1.70-np112py36, 1.78
+  * - NEGISHI
+    - 1.70-np112py27, 1.70-np112py36, 1.78
+  * - SCHOLAR
+    - 1.70-np112py27, 1.70-np112py36, 1.78
 
 Commands
 ~~~~~~~
@@ -64,4 +79,3 @@ To run biopython on our clusters::
 
     module --force purge
     ml biocontainers biopython
-

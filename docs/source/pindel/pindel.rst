@@ -16,8 +16,25 @@ Pindel is used to detect breakpoints of large deletions, medium sized insertions
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.2.5b9
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.2.5b9
+  * - BELL
+    - 0.2.5b9
+  * - GAUTSCHI
+    - 0.2.5b9
+  * - NEGISHI
+    - 0.2.5b9
+  * - SCHOLAR
+    - 0.2.5b9
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run pindel on our clusters::
 
     module --force purge
     ml biocontainers pindel
-

@@ -16,11 +16,25 @@ Samtools is a set of utilities for the Sequence Alignment/Map (SAM) format.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.15
-- 1.16
-- 1.17
-- 1.9
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.9, 1.15, 1.16, 1.17
+  * - BELL
+    - 1.9, 1.15, 1.16, 1.17, 1.22.1
+  * - GAUTSCHI
+    - 1.9, 1.15, 1.16, 1.17, 1.22.1
+  * - NEGISHI
+    - 1.9, 1.15, 1.16, 1.17, 1.22.1
+  * - SCHOLAR
+    - 1.9, 1.15, 1.16, 1.17
 
 Commands
 ~~~~~~~
@@ -73,4 +87,3 @@ To run samtools on our clusters::
 
     module --force purge
     ml biocontainers samtools
-

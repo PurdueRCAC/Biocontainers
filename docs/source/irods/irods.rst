@@ -16,8 +16,17 @@ iCommands is a collection of commands used to interact with an iRODS server
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.0.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.0.3
 
 Commands
 ~~~~~~~
@@ -95,4 +104,3 @@ To run irods on our clusters::
 
     module --force purge
     ml biocontainers irods
-

@@ -16,9 +16,25 @@ Snpeff is an open source tool that annotates variants and predicts their effects
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 5.1
-- 5.1d
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 5.1d, 5.1, 5.2
+  * - BELL
+    - 5.1d, 5.1, 5.2
+  * - GAUTSCHI
+    - 5.1d, 5.1, 5.2
+  * - NEGISHI
+    - 5.1d, 5.1, 5.2, 5.3.0a
+  * - SCHOLAR
+    - 5.1d, 5.1
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run snpeff on our clusters::
 
     module --force purge
     ml biocontainers snpeff
-

@@ -16,10 +16,25 @@ Antismash allows the rapid genome-wide identification, annotation and analysis o
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 5.1.2
-- 6.0.1
-- 6.1.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 5.1.2, 6.0.1, 6.1.0
+  * - BELL
+    - 5.1.2, 6.0.1, 6.1.0, 8.0.1
+  * - GAUTSCHI
+    - 5.1.2, 6.0.1, 6.1.0
+  * - NEGISHI
+    - 5.1.2, 6.0.1, 6.1.0, 8.0.1
+  * - SCHOLAR
+    - 5.1.2, 6.0.1, 6.1.0
 
 Commands
 ~~~~~~~
@@ -51,4 +66,3 @@ To run antismash on our clusters::
 
     module --force purge
     ml biocontainers antismash
-

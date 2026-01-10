@@ -16,8 +16,19 @@ vcfstats - powerful statistics for VCF files
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.60
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - BELL
+    - 0.60
+  * - NEGISHI
+    - 0.60
 
 Commands
 ~~~~~~~
@@ -49,4 +60,3 @@ To run vcfstats on our clusters::
 
     module --force purge
     ml biocontainers vcfstats
-

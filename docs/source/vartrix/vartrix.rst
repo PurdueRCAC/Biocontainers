@@ -16,8 +16,25 @@ Vartrix is a software tool for extracting single cell variant information from 1
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.1.22
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.1.22
+  * - BELL
+    - 1.1.22
+  * - GAUTSCHI
+    - 1.1.22
+  * - NEGISHI
+    - 1.1.22
+  * - SCHOLAR
+    - 1.1.22
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run vartrix on our clusters::
 
     module --force purge
     ml biocontainers vartrix
-

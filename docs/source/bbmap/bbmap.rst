@@ -16,9 +16,25 @@ Bbmap is a short read aligner, as well as various other bioinformatic tools.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 38.93
-- 38.96
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 38.93, 38.96
+  * - BELL
+    - 38.93, 38.96
+  * - GAUTSCHI
+    - 38.93, 38.96
+  * - NEGISHI
+    - 38.93, 38.96
+  * - SCHOLAR
+    - 38.93, 38.96
 
 Commands
 ~~~~~~~
@@ -199,4 +215,3 @@ To run bbmap on our clusters::
 
     module --force purge
     ml biocontainers bbmap
-

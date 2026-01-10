@@ -16,8 +16,25 @@ Hmmer is used for searching sequence databases for sequence homologs, and for ma
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.3.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.3.2
+  * - BELL
+    - 3.3.2
+  * - GAUTSCHI
+    - 3.3.2
+  * - NEGISHI
+    - 3.3.2
+  * - SCHOLAR
+    - 3.3.2
 
 Commands
 ~~~~~~~
@@ -91,4 +108,3 @@ To run hmmer on our clusters::
 
     module --force purge
     ml biocontainers hmmer
-

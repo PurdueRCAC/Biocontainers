@@ -16,9 +16,25 @@ Augustus is a program that predicts genes in eukaryotic genomic sequences.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.4.0
-- 3.5.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.4.0, 3.5.0
+  * - BELL
+    - 3.4.0, 3.5.0
+  * - GAUTSCHI
+    - 3.4.0, 3.5.0
+  * - NEGISHI
+    - 3.4.0, 3.5.0
+  * - SCHOLAR
+    - 3.4.0, 3.5.0
 
 Commands
 ~~~~~~~
@@ -64,4 +80,3 @@ To run augustus on our clusters::
 
     module --force purge
     ml biocontainers augustus
-

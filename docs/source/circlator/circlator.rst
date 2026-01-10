@@ -16,8 +16,25 @@ Circlator is a tool to circularize genome assemblies.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.5.5
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.5.5
+  * - BELL
+    - 1.5.5
+  * - GAUTSCHI
+    - 1.5.5
+  * - NEGISHI
+    - 1.5.5
+  * - SCHOLAR
+    - 1.5.5
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run circlator on our clusters::
 
     module --force purge
     ml biocontainers circlator
-

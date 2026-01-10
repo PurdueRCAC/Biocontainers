@@ -16,8 +16,23 @@ PEAR is an ultrafast, memory-efficient and highly accurate pair-end read merger.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.9.6
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.9.6
+  * - BELL
+    - 0.9.6
+  * - GAUTSCHI
+    - 0.9.6
+  * - NEGISHI
+    - 0.9.6
 
 Commands
 ~~~~~~~
@@ -49,4 +64,3 @@ To run pear on our clusters::
 
     module --force purge
     ml biocontainers pear
-

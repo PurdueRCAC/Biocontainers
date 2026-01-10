@@ -16,9 +16,25 @@ Hail is an open-source, general-purpose, Python-based data analysis tool with ad
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.2.94
-- 0.2.98
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.2.94, 0.2.98
+  * - BELL
+    - 0.2.94, 0.2.98
+  * - GAUTSCHI
+    - 0.2.94, 0.2.98
+  * - NEGISHI
+    - 0.2.94, 0.2.98
+  * - SCHOLAR
+    - 0.2.94, 0.2.98
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run hail on our clusters::
 
     module --force purge
     ml biocontainers hail
-

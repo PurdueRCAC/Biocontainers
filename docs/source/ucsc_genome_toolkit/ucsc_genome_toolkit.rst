@@ -16,8 +16,25 @@ UCSC genome toolkit is a collection of a variety of executables that perform fun
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 369
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 369
+  * - BELL
+    - 369
+  * - GAUTSCHI
+    - 369
+  * - NEGISHI
+    - 369
+  * - SCHOLAR
+    - 369
 
 Commands
 ~~~~~~~
@@ -356,4 +373,3 @@ To run ucsc_genome_toolkit on our clusters::
 
     module --force purge
     ml biocontainers ucsc_genome_toolkit
-

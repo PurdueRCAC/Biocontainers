@@ -16,8 +16,17 @@ NeEstimator v2 is a completely revised and updated implementation of software th
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.2.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.2.1
 
 Commands
 ~~~~~~~
@@ -50,4 +59,3 @@ To run ne-estimator2x on our clusters::
 
     module --force purge
     ml biocontainers ne-estimator2x
-

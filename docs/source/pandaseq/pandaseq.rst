@@ -16,8 +16,25 @@ Pandaseq is a program to align Illumina reads, optionally with PCR primers embed
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.11
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.11
+  * - BELL
+    - 2.11
+  * - GAUTSCHI
+    - 2.11
+  * - NEGISHI
+    - 2.11
+  * - SCHOLAR
+    - 2.11
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run pandaseq on our clusters::
 
     module --force purge
     ml biocontainers pandaseq
-

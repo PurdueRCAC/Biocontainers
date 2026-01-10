@@ -16,10 +16,25 @@ R is a system for statistical computation and graphics. This is an r-ver:4.3.3 s
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.1.1-1-rstudio
-- 4.1.1-1
-- 4.3.3-1-rstudio-2023.12.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.1.1-1, 4.3.3-1-rstudio-2023.12.1
+  * - BELL
+    - 4.1.1-1, 4.3.3-1-rstudio-2023.12.1
+  * - GAUTSCHI
+    - 4.1.1-1, 4.3.3-1-rstudio-2023.12.1
+  * - NEGISHI
+    - 4.1.1-1, 4.3.3-1-rstudio-2023.12.1
+  * - SCHOLAR
+    - 4.1.1-1, 4.3.3-1-rstudio-2023.12.1
 
 Commands
 ~~~~~~~
@@ -52,4 +67,3 @@ To run r-rnaseq on our clusters::
 
     module --force purge
     ml biocontainers r-rnaseq
-

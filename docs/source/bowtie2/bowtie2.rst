@@ -16,9 +16,25 @@ Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.4.2
-- 2.5.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.4.2, 2.5.1
+  * - BELL
+    - 2.4.2, 2.5.1
+  * - GAUTSCHI
+    - 2.4.2, 2.5.1
+  * - NEGISHI
+    - 2.4.2, 2.5.1
+  * - SCHOLAR
+    - 2.4.2, 2.5.1
 
 Commands
 ~~~~~~~
@@ -52,4 +68,3 @@ To run bowtie2 on our clusters::
 
     module --force purge
     ml biocontainers bowtie2
-

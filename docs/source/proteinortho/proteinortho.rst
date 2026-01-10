@@ -16,8 +16,25 @@ Proteinortho is a tool to detect orthologous genes within different species.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 6.0.33
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 6.0.33
+  * - BELL
+    - 6.0.33
+  * - GAUTSCHI
+    - 6.0.33
+  * - NEGISHI
+    - 6.0.33
+  * - SCHOLAR
+    - 6.0.33
 
 Commands
 ~~~~~~~
@@ -66,4 +83,3 @@ To run proteinortho on our clusters::
 
     module --force purge
     ml biocontainers proteinortho
-

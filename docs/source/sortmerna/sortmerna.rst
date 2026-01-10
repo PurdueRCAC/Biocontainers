@@ -16,9 +16,25 @@ SortMeRNA is a local sequence alignment tool for filtering, mapping and clusteri
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.1b
-- 4.3.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.1b, 4.3.4
+  * - BELL
+    - 2.1b, 4.3.4
+  * - GAUTSCHI
+    - 2.1b, 4.3.4
+  * - NEGISHI
+    - 2.1b, 4.3.4
+  * - SCHOLAR
+    - 2.1b, 4.3.4
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run sortmerna on our clusters::
 
     module --force purge
     ml biocontainers sortmerna
-

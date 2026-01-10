@@ -16,12 +16,25 @@ Delly is an integrated structural variant (SV) prediction method that can discov
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.9.1
-- 1.0.3
-- 1.1.3
-- 1.1.5
-- 1.1.6
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.9.1, 1.0.3, 1.1.3, 1.1.5, 1.1.6
+  * - BELL
+    - 0.9.1, 1.0.3, 1.1.3, 1.1.5, 1.1.6
+  * - GAUTSCHI
+    - 0.9.1, 1.0.3, 1.1.3, 1.1.5, 1.1.6
+  * - NEGISHI
+    - 0.9.1, 1.0.3, 1.1.3, 1.1.5, 1.1.6
+  * - SCHOLAR
+    - 0.9.1, 1.0.3, 1.1.3, 1.1.5, 1.1.6
 
 Commands
 ~~~~~~~
@@ -53,4 +66,3 @@ To run delly on our clusters::
 
     module --force purge
     ml biocontainers delly
-

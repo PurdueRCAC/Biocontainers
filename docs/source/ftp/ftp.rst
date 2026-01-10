@@ -15,8 +15,25 @@ A File Transfer Protocol client (FTP client) is a software utility that establis
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.17
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.17
+  * - BELL
+    - 0.17
+  * - GAUTSCHI
+    - 0.17
+  * - NEGISHI
+    - 0.17
+  * - SCHOLAR
+    - 0.17
 
 Commands
 ~~~~~~~
@@ -48,4 +65,3 @@ To run ftp on our clusters::
 
     module --force purge
     ml biocontainers ftp
-

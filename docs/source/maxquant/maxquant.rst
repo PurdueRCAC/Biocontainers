@@ -15,11 +15,25 @@ Maxquant is a quantitative proteomics software package designed for analyzing la
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.1.0.0
-- 2.1.3.0
-- 2.1.4.0
-- 2.3.1.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.1.0.0, 2.1.3.0, 2.1.4.0, 2.3.1.0
+  * - BELL
+    - 2.1.0.0, 2.1.3.0, 2.1.4.0, 2.3.1.0, 2.6.4.0
+  * - GAUTSCHI
+    - 2.1.0.0, 2.1.3.0, 2.1.4.0, 2.3.1.0, 2.6.4.0
+  * - NEGISHI
+    - 2.1.0.0, 2.1.3.0, 2.1.4.0, 2.3.1.0, 2.6.4.0
+  * - SCHOLAR
+    - 2.1.0.0, 2.1.3.0, 2.1.4.0, 2.3.1.0
 
 Commands
 ~~~~~~~
@@ -52,4 +66,3 @@ To run maxquant on our clusters::
 
     module --force purge
     ml biocontainers maxquant
-

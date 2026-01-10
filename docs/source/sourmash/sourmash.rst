@@ -16,9 +16,25 @@ Sourmash is a tool for quickly search, compare, and analyze genomic and metageno
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.3.0
-- 4.5.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.3.0, 4.5.0
+  * - BELL
+    - 4.3.0, 4.5.0
+  * - GAUTSCHI
+    - 4.3.0, 4.5.0
+  * - NEGISHI
+    - 4.3.0, 4.5.0
+  * - SCHOLAR
+    - 4.3.0, 4.5.0
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run sourmash on our clusters::
 
     module --force purge
     ml biocontainers sourmash
-

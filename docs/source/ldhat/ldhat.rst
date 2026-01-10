@@ -15,8 +15,25 @@ LDhat is a package written in the C and C++ languages for the analysis of recomb
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.2a
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.2a
+  * - BELL
+    - 2.2a
+  * - GAUTSCHI
+    - 2.2a
+  * - NEGISHI
+    - 2.2a
+  * - SCHOLAR
+    - 2.2a
 
 Commands
 ~~~~~~~
@@ -52,4 +69,3 @@ To run ldhat on our clusters::
 
     module --force purge
     ml biocontainers ldhat
-

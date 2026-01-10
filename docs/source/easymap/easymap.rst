@@ -16,8 +16,19 @@ Easymap v2 — A web-based and command-line tool for mapping-by-sequencing, SNP/
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - BELL
+    - 2.0
+  * - NEGISHI
+    - 2.0
 
 Commands
 ~~~~~~~
@@ -48,4 +59,3 @@ To run easymap on our clusters::
 
     module --force purge
     ml biocontainers easymap
-

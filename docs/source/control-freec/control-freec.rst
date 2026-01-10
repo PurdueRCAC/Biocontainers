@@ -16,8 +16,25 @@ Control-freec is a tool for detection of copy-number changes and allelic imbalan
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 11.6
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 11.6
+  * - BELL
+    - 11.6
+  * - GAUTSCHI
+    - 11.6
+  * - NEGISHI
+    - 11.6
+  * - SCHOLAR
+    - 11.6
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run control-freec on our clusters::
 
     module --force purge
     ml biocontainers control-freec
-

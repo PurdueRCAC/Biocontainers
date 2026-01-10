@@ -16,8 +16,25 @@ Snap is a semi-HMM-based Nucleic Acid Parser -- gene prediction tool.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2013_11_29
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2013_11_29
+  * - BELL
+    - 2013_11_29
+  * - GAUTSCHI
+    - 2013_11_29
+  * - NEGISHI
+    - 2013_11_29
+  * - SCHOLAR
+    - 2013_11_29
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run snap on our clusters::
 
     module --force purge
     ml biocontainers snap
-

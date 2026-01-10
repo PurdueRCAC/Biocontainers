@@ -16,8 +16,25 @@ Cyvcf2 is a cython wrapper around htslib built for fast parsing of Variant Call 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.30.14
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.30.14
+  * - BELL
+    - 0.30.14
+  * - GAUTSCHI
+    - 0.30.14
+  * - NEGISHI
+    - 0.30.14
+  * - SCHOLAR
+    - 0.30.14
 
 Commands
 ~~~~~~~
@@ -51,4 +68,3 @@ To run cyvcf2 on our clusters::
 
     module --force purge
     ml biocontainers cyvcf2
-

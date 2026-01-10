@@ -16,12 +16,25 @@ Pangolin is software package for assigning SARS-CoV-2 genome sequences to global
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.1.20
-- 4.0.6
-- 4.1.2
-- 4.1.3
-- 4.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.1.20, 4.0.6, 4.1.2, 4.1.3, 4.2
+  * - BELL
+    - 3.1.20, 4.0.6, 4.1.2, 4.1.3, 4.2
+  * - GAUTSCHI
+    - 3.1.20, 4.0.6, 4.1.2, 4.1.3, 4.2
+  * - NEGISHI
+    - 3.1.20, 4.0.6, 4.1.2, 4.1.3, 4.2
+  * - SCHOLAR
+    - 3.1.20, 4.0.6, 4.1.2, 4.1.3, 4.2
 
 Commands
 ~~~~~~~
@@ -53,4 +66,3 @@ To run pangolin on our clusters::
 
     module --force purge
     ml biocontainers pangolin
-

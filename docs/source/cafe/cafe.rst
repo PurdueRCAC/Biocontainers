@@ -16,9 +16,25 @@ Cafe is a computational tool for the study of gene family evolution.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.2.1
-- 5.0.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.2.1, 5.0.0
+  * - BELL
+    - 4.2.1, 5.0.0
+  * - GAUTSCHI
+    - 4.2.1, 5.0.0
+  * - NEGISHI
+    - 4.2.1, 5.0.0
+  * - SCHOLAR
+    - 4.2.1, 5.0.0
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run cafe on our clusters::
 
     module --force purge
     ml biocontainers cafe
-

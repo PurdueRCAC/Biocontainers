@@ -16,8 +16,25 @@ DeepTools is a collection of user-friendly tools for normalization and visualiza
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.5.1-py
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.5.1-py, 3.5.5
+  * - BELL
+    - 3.5.1-py, 3.5.5
+  * - GAUTSCHI
+    - 3.5.1-py, 3.5.5
+  * - NEGISHI
+    - 3.5.1-py, 3.5.5
+  * - SCHOLAR
+    - 3.5.1-py
 
 Commands
 ~~~~~~~
@@ -69,4 +86,3 @@ To run deeptools on our clusters::
 
     module --force purge
     ml biocontainers deeptools
-

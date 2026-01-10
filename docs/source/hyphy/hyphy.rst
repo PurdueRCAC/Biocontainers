@@ -16,8 +16,25 @@ Hyphy is an open-source software package for the analysis of genetic sequences u
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.5.36
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.5.36
+  * - BELL
+    - 2.5.36
+  * - GAUTSCHI
+    - 2.5.36
+  * - NEGISHI
+    - 2.5.36, 2.5.69
+  * - SCHOLAR
+    - 2.5.36
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run hyphy on our clusters::
 
     module --force purge
     ml biocontainers hyphy
-

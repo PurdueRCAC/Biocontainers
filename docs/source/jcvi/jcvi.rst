@@ -15,9 +15,25 @@ Jcvi is a collection of Python libraries to parse bioinformatics files, or perfo
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.2.7
-- 1.3.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.2.7, 1.3.1
+  * - BELL
+    - 1.2.7, 1.3.1
+  * - GAUTSCHI
+    - 1.2.7, 1.3.1
+  * - NEGISHI
+    - 1.2.7, 1.3.1
+  * - SCHOLAR
+    - 1.2.7, 1.3.1
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run jcvi on our clusters::
 
     module --force purge
     ml biocontainers jcvi
-

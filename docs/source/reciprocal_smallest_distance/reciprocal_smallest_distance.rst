@@ -15,8 +15,25 @@ The reciprocal smallest distance (RSD) algorithm accurately infers orthologs bet
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.1.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.1.7
+  * - BELL
+    - 1.1.7
+  * - GAUTSCHI
+    - 1.1.7
+  * - NEGISHI
+    - 1.1.7
+  * - SCHOLAR
+    - 1.1.7
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run reciprocal_smallest_distance on our clusters::
 
     module --force purge
     ml biocontainers reciprocal_smallest_distance
-

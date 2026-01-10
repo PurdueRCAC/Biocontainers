@@ -16,8 +16,25 @@ Afterqc is a tool for quality control of FASTQ data produced by HiSeq 2000/2500/
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.9.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.9.7
+  * - BELL
+    - 0.9.7
+  * - GAUTSCHI
+    - 0.9.7
+  * - NEGISHI
+    - 0.9.7
+  * - SCHOLAR
+    - 0.9.7
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run afterqc on our clusters::
 
     module --force purge
     ml biocontainers afterqc
-

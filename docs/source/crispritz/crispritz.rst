@@ -16,8 +16,25 @@ Crispritz is a software package containing 5 different tools dedicated to perfor
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.6.5
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.6.5
+  * - BELL
+    - 2.6.5
+  * - GAUTSCHI
+    - 2.6.5
+  * - NEGISHI
+    - 2.6.5
+  * - SCHOLAR
+    - 2.6.5
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run crispritz on our clusters::
 
     module --force purge
     ml biocontainers crispritz
-

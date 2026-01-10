@@ -16,8 +16,25 @@ Samblaster is a tool to mark duplicates and extract discordant and split reads f
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.1.26
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.1.26
+  * - BELL
+    - 0.1.26
+  * - GAUTSCHI
+    - 0.1.26
+  * - NEGISHI
+    - 0.1.26
+  * - SCHOLAR
+    - 0.1.26
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run samblaster on our clusters::
 
     module --force purge
     ml biocontainers samblaster
-

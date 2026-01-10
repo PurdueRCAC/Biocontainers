@@ -16,8 +16,25 @@ RapMap is a testing ground for ideas in quasi-mapping and selective alignment.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.6.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.6.0
+  * - BELL
+    - 0.6.0
+  * - GAUTSCHI
+    - 0.6.0
+  * - NEGISHI
+    - 0.6.0
+  * - SCHOLAR
+    - 0.6.0
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run rapmap on our clusters::
 
     module --force purge
     ml biocontainers rapmap
-

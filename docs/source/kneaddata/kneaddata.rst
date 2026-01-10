@@ -16,8 +16,25 @@ Kneaddata is a tool designed to perform quality control on metagenomic sequencin
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.10.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.10.0
+  * - BELL
+    - 0.10.0
+  * - GAUTSCHI
+    - 0.10.0
+  * - NEGISHI
+    - 0.10.0
+  * - SCHOLAR
+    - 0.10.0
 
 Commands
 ~~~~~~~
@@ -55,4 +72,3 @@ To run kneaddata on our clusters::
 
     module --force purge
     ml biocontainers kneaddata
-

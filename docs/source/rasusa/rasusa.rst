@@ -16,9 +16,25 @@ Rasusa: Randomly subsample sequencing reads to a specified coverage.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.6.0
-- 0.7.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.6.0, 0.7.0
+  * - BELL
+    - 0.6.0, 0.7.0
+  * - GAUTSCHI
+    - 0.6.0, 0.7.0
+  * - NEGISHI
+    - 0.6.0, 0.7.0
+  * - SCHOLAR
+    - 0.6.0, 0.7.0
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run rasusa on our clusters::
 
     module --force purge
     ml biocontainers rasusa
-

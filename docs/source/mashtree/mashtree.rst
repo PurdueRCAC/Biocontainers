@@ -16,8 +16,25 @@ Mashtree is a tool to create a tree using Mash distances.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.2.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.2.0
+  * - BELL
+    - 1.2.0
+  * - GAUTSCHI
+    - 1.2.0
+  * - NEGISHI
+    - 1.2.0
+  * - SCHOLAR
+    - 1.2.0
 
 Commands
 ~~~~~~~
@@ -54,4 +71,3 @@ To run mashtree on our clusters::
 
     module --force purge
     ml biocontainers mashtree
-

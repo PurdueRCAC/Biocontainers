@@ -16,8 +16,25 @@ R is a system for statistical computation and graphics. This is a r/4.4.2 Apptai
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.20-R-4.4.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.20-R-4.4.3, 3.22-r-4.5.1
+  * - BELL
+    - 3.20-R-4.4.3, 3.22-r-4.5.1, 3.7-R-3.5.1
+  * - GAUTSCHI
+    - 3.20-R-4.4.3, 3.22-r-4.5.1
+  * - NEGISHI
+    - 3.20-R-4.4.3, 3.22-r-4.5.1, 3.7-R-3.5.1
+  * - SCHOLAR
+    - 3.20-R-4.4.3
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run r-bioconductor on our clusters::
 
     module --force purge
     ml biocontainers r-bioconductor
-

@@ -16,8 +16,25 @@ GADMA is a command-line tool. Basic pipeline presents a series of launches of th
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0.0rc21
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.0.0rc21
+  * - BELL
+    - 2.0.0rc21
+  * - GAUTSCHI
+    - 2.0.0rc21
+  * - NEGISHI
+    - 2.0.0rc21
+  * - SCHOLAR
+    - 2.0.0rc21
 
 Commands
 ~~~~~~~
@@ -51,4 +68,3 @@ To run gadma on our clusters::
 
     module --force purge
     ml biocontainers gadma
-

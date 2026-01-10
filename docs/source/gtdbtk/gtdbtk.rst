@@ -16,9 +16,25 @@ GTDB-Tk is a software toolkit for assigning objective taxonomic classifications 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.7.0
-- 2.1.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.7.0, 2.1.0
+  * - BELL
+    - 1.7.0, 2.1.0
+  * - GAUTSCHI
+    - 1.7.0, 2.1.0
+  * - NEGISHI
+    - 1.7.0, 2.1.0
+  * - SCHOLAR
+    - 1.7.0, 2.1.0
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run gtdbtk on our clusters::
 
     module --force purge
     ml biocontainers gtdbtk
-

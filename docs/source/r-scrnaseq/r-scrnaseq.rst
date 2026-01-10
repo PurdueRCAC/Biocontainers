@@ -16,12 +16,25 @@ R is a system for statistical computation and graphics. This is a r/4.2.3 singul
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.1.1-1-rstudio
-- 4.1.1-1
-- 4.2.0-rstudio
-- 4.2.0
-- 4.2.3-rstudio
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.1.1-1, 4.2.0
+  * - BELL
+    - 4.1.1-1, 4.2.0
+  * - GAUTSCHI
+    - 4.1.1-1, 4.2.0
+  * - NEGISHI
+    - 4.1.1-1, 4.2.0
+  * - SCHOLAR
+    - 4.1.1-1, 4.2.0
 
 Commands
 ~~~~~~~
@@ -54,4 +67,3 @@ To run r-scrnaseq on our clusters::
 
     module --force purge
     ml biocontainers r-scrnaseq
-

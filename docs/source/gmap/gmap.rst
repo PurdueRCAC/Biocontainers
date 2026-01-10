@@ -16,9 +16,25 @@ Gmap is a genomic mapping and alignment program for mRNA and EST sequences.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2021.05.27
-- 2021.08.25
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2021.05.27, 2021.08.25
+  * - BELL
+    - 2021.05.27, 2021.08.25
+  * - GAUTSCHI
+    - 2021.05.27, 2021.08.25
+  * - NEGISHI
+    - 2021.05.27, 2021.08.25
+  * - SCHOLAR
+    - 2021.05.27, 2021.08.25
 
 Commands
 ~~~~~~~
@@ -92,4 +108,3 @@ To run gmap on our clusters::
 
     module --force purge
     ml biocontainers gmap
-

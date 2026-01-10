@@ -16,8 +16,25 @@ Snaptools is a python module for pre-processing and working with snap file.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.4.8
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.4.8
+  * - BELL
+    - 1.4.8
+  * - GAUTSCHI
+    - 1.4.8
+  * - NEGISHI
+    - 1.4.8
+  * - SCHOLAR
+    - 1.4.8
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run snaptools on our clusters::
 
     module --force purge
     ml biocontainers snaptools
-

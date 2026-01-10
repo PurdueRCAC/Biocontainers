@@ -15,9 +15,25 @@ GeneMark-ES/ET/EP is package including GeneMark-ES, GeneMark-ET and GeneMark-EP+
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.68
-- 4.69
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.68, 4.69
+  * - BELL
+    - 4.68, 4.69
+  * - GAUTSCHI
+    - 4.68, 4.69
+  * - NEGISHI
+    - 4.68, 4.69
+  * - SCHOLAR
+    - 4.68, 4.69
 
 Commands
 ~~~~~~~
@@ -75,4 +91,3 @@ To run genemark on our clusters::
 
     module --force purge
     ml biocontainers genemark
-

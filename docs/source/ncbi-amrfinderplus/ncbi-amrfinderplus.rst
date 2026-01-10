@@ -16,10 +16,25 @@ Ncbi-amrfinderplus and the accompanying database identify acquired antimicrobial
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.10.30
-- 3.10.42
-- 3.11.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.10.30, 3.10.42, 3.11.2
+  * - BELL
+    - 3.10.30, 3.10.42, 3.11.2
+  * - GAUTSCHI
+    - 3.10.30, 3.10.42, 3.11.2
+  * - NEGISHI
+    - 3.10.30, 3.10.42, 3.11.2
+  * - SCHOLAR
+    - 3.10.30, 3.10.42, 3.11.2
 
 Commands
 ~~~~~~~
@@ -53,4 +68,3 @@ To run ncbi-amrfinderplus on our clusters::
 
     module --force purge
     ml biocontainers ncbi-amrfinderplus
-

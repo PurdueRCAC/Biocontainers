@@ -16,8 +16,25 @@ Skewer is a fast and accurate adapter trimmer for paired-end reads.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.2.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.2.2
+  * - BELL
+    - 0.2.2
+  * - GAUTSCHI
+    - 0.2.2
+  * - NEGISHI
+    - 0.2.2
+  * - SCHOLAR
+    - 0.2.2
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run skewer on our clusters::
 
     module --force purge
     ml biocontainers skewer
-

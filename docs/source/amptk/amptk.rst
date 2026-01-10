@@ -16,8 +16,25 @@ Amptk is s a series of scripts to process NGS amplicon data using USEARCH and VS
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.5.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.5.4
+  * - BELL
+    - 1.5.4
+  * - GAUTSCHI
+    - 1.5.4
+  * - NEGISHI
+    - 1.5.4
+  * - SCHOLAR
+    - 1.5.4
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run amptk on our clusters::
 
     module --force purge
     ml biocontainers amptk
-

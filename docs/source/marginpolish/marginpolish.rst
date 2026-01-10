@@ -16,8 +16,25 @@ MarginPolish is a graph-based assembly polisher. It iteratively finds multiple p
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.1.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.1.3
+  * - BELL
+    - 0.1.3
+  * - GAUTSCHI
+    - 0.1.3
+  * - NEGISHI
+    - 0.1.3
+  * - SCHOLAR
+    - 0.1.3
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run marginpolish on our clusters::
 
     module --force purge
     ml biocontainers marginpolish
-

@@ -16,8 +16,25 @@ Sepp stands for SATé-Enabled Phylogenetic Placement and addresses the problem o
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.5.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.5.1
+  * - BELL
+    - 4.5.1
+  * - GAUTSCHI
+    - 4.5.1
+  * - NEGISHI
+    - 4.5.1
+  * - SCHOLAR
+    - 4.5.1
 
 Commands
 ~~~~~~~
@@ -53,4 +70,3 @@ To run sepp on our clusters::
 
     module --force purge
     ml biocontainers sepp
-

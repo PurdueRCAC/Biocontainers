@@ -16,9 +16,25 @@ Alfred is an efficient and versatile command-line application that computes mult
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.2.5
-- 0.2.6
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.2.5, 0.2.6
+  * - BELL
+    - 0.2.5, 0.2.6
+  * - GAUTSCHI
+    - 0.2.5, 0.2.6
+  * - NEGISHI
+    - 0.2.5, 0.2.6
+  * - SCHOLAR
+    - 0.2.5, 0.2.6
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run alfred on our clusters::
 
     module --force purge
     ml biocontainers alfred
-

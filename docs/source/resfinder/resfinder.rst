@@ -15,8 +15,25 @@ ResFinder identifies acquired antimicrobial resistance genes in total or partial
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.1.5
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.1.5
+  * - BELL
+    - 4.1.5
+  * - GAUTSCHI
+    - 4.1.5
+  * - NEGISHI
+    - 4.1.5
+  * - SCHOLAR
+    - 4.1.5
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run resfinder on our clusters::
 
     module --force purge
     ml biocontainers resfinder
-

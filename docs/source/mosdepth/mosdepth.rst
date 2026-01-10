@@ -16,8 +16,17 @@ Mosdepth is a new command-line tool for rapidly calculating genome-wide sequenci
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.3.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - NEGISHI
+    - 0.3.3
 
 Commands
 ~~~~~~~
@@ -49,4 +58,3 @@ To run mosdepth on our clusters::
 
     module --force purge
     ml biocontainers mosdepth
-

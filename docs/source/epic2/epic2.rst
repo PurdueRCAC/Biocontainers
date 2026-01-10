@@ -15,9 +15,25 @@ Epic2 is an ultraperformant Chip-Seq broad domain finder based on SICER.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.0.51
-- 0.0.52
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.0.51, 0.0.52
+  * - BELL
+    - 0.0.51, 0.0.52
+  * - GAUTSCHI
+    - 0.0.51, 0.0.52
+  * - NEGISHI
+    - 0.0.51, 0.0.52
+  * - SCHOLAR
+    - 0.0.51, 0.0.52
 
 Commands
 ~~~~~~~
@@ -51,4 +67,3 @@ To run epic2 on our clusters::
 
     module --force purge
     ml biocontainers epic2
-

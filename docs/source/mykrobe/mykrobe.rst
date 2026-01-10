@@ -16,8 +16,25 @@ Mykrobe analyses the whole genome of a bacterial sample, all within a couple of 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.11.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.11.0
+  * - BELL
+    - 0.11.0
+  * - GAUTSCHI
+    - 0.11.0
+  * - NEGISHI
+    - 0.11.0
+  * - SCHOLAR
+    - 0.11.0
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run mykrobe on our clusters::
 
     module --force purge
     ml biocontainers mykrobe
-

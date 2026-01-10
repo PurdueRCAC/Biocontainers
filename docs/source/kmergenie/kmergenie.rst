@@ -16,8 +16,25 @@ KmerGenie estimates the best k-mer length for genome de novo assembly.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.7051
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.7051
+  * - BELL
+    - 1.7051
+  * - GAUTSCHI
+    - 1.7051
+  * - NEGISHI
+    - 1.7051
+  * - SCHOLAR
+    - 1.7051
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run kmergenie on our clusters::
 
     module --force purge
     ml biocontainers kmergenie
-

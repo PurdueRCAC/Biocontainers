@@ -16,8 +16,25 @@ The ENCODE ATAC-seq pipeline is used for quality control and statistical signal 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.1.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.1.3
+  * - BELL
+    - 2.1.3
+  * - GAUTSCHI
+    - 2.1.3
+  * - NEGISHI
+    - 2.1.3
+  * - SCHOLAR
+    - 2.1.3
 
 Commands
 ~~~~~~~
@@ -270,4 +287,3 @@ To run atac-seq-pipeline on our clusters::
 
     module --force purge
     ml biocontainers atac-seq-pipeline
-

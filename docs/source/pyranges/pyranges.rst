@@ -16,8 +16,25 @@ Pyranges are collections of intervals that support comparison operations (like o
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.0.115
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.0.115
+  * - BELL
+    - 0.0.115
+  * - GAUTSCHI
+    - 0.0.115
+  * - NEGISHI
+    - 0.0.115
+  * - SCHOLAR
+    - 0.0.115
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run pyranges on our clusters::
 
     module --force purge
     ml biocontainers pyranges
-

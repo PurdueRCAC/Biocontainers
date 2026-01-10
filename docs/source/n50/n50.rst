@@ -16,8 +16,25 @@ N50 is a command line tool to calculate assembly metrices.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.5.6
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.5.6
+  * - BELL
+    - 1.5.6
+  * - GAUTSCHI
+    - 1.5.6
+  * - NEGISHI
+    - 1.5.6
+  * - SCHOLAR
+    - 1.5.6
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run n50 on our clusters::
 
     module --force purge
     ml biocontainers n50
-

@@ -16,9 +16,25 @@ Pyani is an application and Python module for whole-genome classification of mic
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.2.11
-- 0.2.12
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.2.11, 0.2.12
+  * - BELL
+    - 0.2.11, 0.2.12
+  * - GAUTSCHI
+    - 0.2.11, 0.2.12
+  * - NEGISHI
+    - 0.2.11, 0.2.12
+  * - SCHOLAR
+    - 0.2.11, 0.2.12
 
 Commands
 ~~~~~~~
@@ -52,4 +68,3 @@ To run pyani on our clusters::
 
     module --force purge
     ml biocontainers pyani
-

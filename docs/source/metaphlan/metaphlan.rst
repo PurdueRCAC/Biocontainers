@@ -16,10 +16,25 @@ Metaphlan is computational tool for profiling the composition of microbial commu
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.0.14
-- 3.0.9
-- 4.0.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.0.9, 3.0.14, 4.0.2
+  * - BELL
+    - 3.0.9, 3.0.14, 4.0.2
+  * - GAUTSCHI
+    - 3.0.9, 3.0.14, 4.0.2
+  * - NEGISHI
+    - 3.0.9, 3.0.14, 4.0.2
+  * - SCHOLAR
+    - 3.0.9, 3.0.14, 4.0.2
 
 Commands
 ~~~~~~~
@@ -162,4 +177,3 @@ To run metaphlan on our clusters::
 
     module --force purge
     ml biocontainers metaphlan
-

@@ -16,8 +16,25 @@ cellSNP aims to pileup the expressed alleles in single-cell or bulk RNA-seq data
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.2.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.2.2
+  * - BELL
+    - 1.2.2
+  * - GAUTSCHI
+    - 1.2.2
+  * - NEGISHI
+    - 1.2.2
+  * - SCHOLAR
+    - 1.2.2
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run cellsnp-lite on our clusters::
 
     module --force purge
     ml biocontainers cellsnp-lite
-

@@ -16,8 +16,25 @@ CIRCexplorer2 is a comprehensive and integrative circular RNA analysis toolset. 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.3.8
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.3.8
+  * - BELL
+    - 2.3.8
+  * - GAUTSCHI
+    - 2.3.8
+  * - NEGISHI
+    - 2.3.8
+  * - SCHOLAR
+    - 2.3.8
 
 Commands
 ~~~~~~~
@@ -51,4 +68,3 @@ To run circexplorer2 on our clusters::
 
     module --force purge
     ml biocontainers circexplorer2
-

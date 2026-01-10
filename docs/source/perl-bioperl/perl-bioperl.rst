@@ -16,8 +16,25 @@ BioPerl is a collection of Perl modules that facilitate the development of Perl 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.7.2-pl526
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.7.2-pl526
+  * - BELL
+    - 1.7.2-pl526
+  * - GAUTSCHI
+    - 1.7.2-pl526
+  * - NEGISHI
+    - 1.7.2-pl526
+  * - SCHOLAR
+    - 1.7.2-pl526
 
 Commands
 ~~~~~~~
@@ -85,4 +102,3 @@ To run perl-bioperl on our clusters::
 
     module --force purge
     ml biocontainers perl-bioperl
-

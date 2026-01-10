@@ -16,8 +16,25 @@ Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-me
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.3.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.3.0
+  * - BELL
+    - 2.3.0
+  * - GAUTSCHI
+    - 2.3.0
+  * - NEGISHI
+    - 2.3.0
+  * - SCHOLAR
+    - 2.3.0
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run kmer-jellyfish on our clusters::
 
     module --force purge
     ml biocontainers kmer-jellyfish
-

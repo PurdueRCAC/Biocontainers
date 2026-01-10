@@ -16,8 +16,25 @@ Cd-hit is a very widely used program for clustering and comparing protein or nuc
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.8.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.8.1
+  * - BELL
+    - 4.8.1
+  * - GAUTSCHI
+    - 4.8.1
+  * - NEGISHI
+    - 4.8.1
+  * - SCHOLAR
+    - 4.8.1
 
 Commands
 ~~~~~~~
@@ -85,4 +102,3 @@ To run cd-hit on our clusters::
 
     module --force purge
     ml biocontainers cd-hit
-

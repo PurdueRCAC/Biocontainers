@@ -15,8 +15,25 @@ fastStructure is an algorithm for inferring population structure from large SNP 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.0-py27
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.0-py27
+  * - BELL
+    - 1.0-py27
+  * - GAUTSCHI
+    - 1.0-py27
+  * - NEGISHI
+    - 1.0-py27
+  * - SCHOLAR
+    - 1.0-py27
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run faststructure on our clusters::
 
     module --force purge
     ml biocontainers faststructure
-

@@ -15,8 +15,23 @@ HOMER is a suite of tools for Motif Discovery and next-gen sequencing analysis.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 5.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 5.1
+  * - BELL
+    - 5.1
+  * - GAUTSCHI
+    - 5.1
+  * - NEGISHI
+    - 5.1
 
 Commands
 ~~~~~~~
@@ -221,4 +236,3 @@ To run homer2 on our clusters::
 
     module --force purge
     ml biocontainers homer2
-

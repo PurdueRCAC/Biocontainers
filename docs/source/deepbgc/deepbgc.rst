@@ -16,9 +16,25 @@ Deepbgc is a tool for BGC detection and classification using deep learning.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.1.26
-- 0.1.30
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.1.26, 0.1.30
+  * - BELL
+    - 0.1.26, 0.1.30
+  * - GAUTSCHI
+    - 0.1.26, 0.1.30
+  * - NEGISHI
+    - 0.1.26, 0.1.30
+  * - SCHOLAR
+    - 0.1.26, 0.1.30
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run deepbgc on our clusters::
 
     module --force purge
     ml biocontainers deepbgc
-

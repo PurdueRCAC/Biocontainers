@@ -16,8 +16,17 @@ Juicer is a platform for analyzing kilobase resolution Hi-C data
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - NEGISHI
+    - 2.0.1
 
 Commands
 ~~~~~~~
@@ -49,4 +58,3 @@ To run juicer on our clusters::
 
     module --force purge
     ml biocontainers juicer
-

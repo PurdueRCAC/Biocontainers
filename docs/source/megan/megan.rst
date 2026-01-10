@@ -15,8 +15,25 @@ Megan is a computer program that allows optimized analysis of large metagenomic 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 6.21.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 6.21.7
+  * - BELL
+    - 6.21.7
+  * - GAUTSCHI
+    - 6.21.7
+  * - NEGISHI
+    - 6.21.7
+  * - SCHOLAR
+    - 6.21.7
 
 Commands
 ~~~~~~~
@@ -57,4 +74,3 @@ To run megan on our clusters::
 
     module --force purge
     ml biocontainers megan
-

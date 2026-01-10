@@ -16,8 +16,25 @@ SHAPEIT4 is a fast and accurate method for estimation of haplotypes (aka phasing
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.2.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.2.2
+  * - BELL
+    - 4.2.2
+  * - GAUTSCHI
+    - 4.2.2
+  * - NEGISHI
+    - 4.2.2
+  * - SCHOLAR
+    - 4.2.2
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run shapeit4 on our clusters::
 
     module --force purge
     ml biocontainers shapeit4
-

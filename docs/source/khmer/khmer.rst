@@ -16,8 +16,25 @@ Khmer is a tool for k-mer counting, filtering, and graph traversal FTW!
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.0.0a3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.0.0a3
+  * - BELL
+    - 3.0.0a3
+  * - GAUTSCHI
+    - 3.0.0a3
+  * - NEGISHI
+    - 3.0.0a3
+  * - SCHOLAR
+    - 3.0.0a3
 
 Commands
 ~~~~~~~
@@ -77,4 +94,3 @@ To run khmer on our clusters::
 
     module --force purge
     ml biocontainers khmer
-

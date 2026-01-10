@@ -16,8 +16,25 @@ ANANSE is a computational approach to infer enhancer-based gene regulatory netwo
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.4.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.4.0
+  * - BELL
+    - 0.4.0
+  * - GAUTSCHI
+    - 0.4.0
+  * - NEGISHI
+    - 0.4.0
+  * - SCHOLAR
+    - 0.4.0
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run ananse on our clusters::
 
     module --force purge
     ml biocontainers ananse
-

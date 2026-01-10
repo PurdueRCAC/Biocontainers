@@ -16,8 +16,25 @@ Trnascan-se is a convenient, ready-for-use means to identify tRNA genes in one o
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0.9
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.0.9
+  * - BELL
+    - 2.0.9
+  * - GAUTSCHI
+    - 2.0.9
+  * - NEGISHI
+    - 2.0.9
+  * - SCHOLAR
+    - 2.0.9
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run trnascan-se on our clusters::
 
     module --force purge
     ml biocontainers trnascan-se
-

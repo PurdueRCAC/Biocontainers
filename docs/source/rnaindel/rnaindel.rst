@@ -16,8 +16,25 @@ RNAIndel calls coding indels from tumor RNA-Seq data and classifies them as soma
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.0.9
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.0.9
+  * - BELL
+    - 3.0.9
+  * - GAUTSCHI
+    - 3.0.9
+  * - NEGISHI
+    - 3.0.9
+  * - SCHOLAR
+    - 3.0.9
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run rnaindel on our clusters::
 
     module --force purge
     ml biocontainers rnaindel
-

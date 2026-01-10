@@ -15,8 +15,25 @@ The phred software reads DNA sequencing trace files, calls bases, and assigns a 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.071220.c
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.071220.c
+  * - BELL
+    - 0.071220.c
+  * - GAUTSCHI
+    - 0.071220.c
+  * - NEGISHI
+    - 0.071220.c
+  * - SCHOLAR
+    - 0.071220.c
 
 Commands
 ~~~~~~~
@@ -48,4 +65,3 @@ To run phred on our clusters::
 
     module --force purge
     ml biocontainers phred
-

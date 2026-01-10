@@ -16,8 +16,25 @@ pVACtools is a cancer immunotherapy tools suite consisting of pVACseq, pVACbind,
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.0.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.0.1
+  * - BELL
+    - 3.0.1
+  * - GAUTSCHI
+    - 3.0.1
+  * - NEGISHI
+    - 3.0.1
+  * - SCHOLAR
+    - 3.0.1
 
 Commands
 ~~~~~~~
@@ -54,4 +71,3 @@ To run pvactools on our clusters::
 
     module --force purge
     ml biocontainers pvactools
-

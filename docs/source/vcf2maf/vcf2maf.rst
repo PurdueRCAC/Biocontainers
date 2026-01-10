@@ -15,8 +15,25 @@ To convert a VCF into a MAF, each variant must be mapped to only one of all poss
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.6.21
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.6.21
+  * - BELL
+    - 1.6.21
+  * - GAUTSCHI
+    - 1.6.21
+  * - NEGISHI
+    - 1.6.21
+  * - SCHOLAR
+    - 1.6.21
 
 Commands
 ~~~~~~~
@@ -51,4 +68,3 @@ To run vcf2maf on our clusters::
 
     module --force purge
     ml biocontainers vcf2maf
-

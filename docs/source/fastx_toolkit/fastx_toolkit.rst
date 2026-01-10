@@ -16,8 +16,25 @@ FASTX-Toolkit is a collection of command line tools for Short-Reads FASTA/FASTQ 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.0.14
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.0.14
+  * - BELL
+    - 0.0.14
+  * - GAUTSCHI
+    - 0.0.14
+  * - NEGISHI
+    - 0.0.14
+  * - SCHOLAR
+    - 0.0.14
 
 Commands
 ~~~~~~~
@@ -68,4 +85,3 @@ To run fastx_toolkit on our clusters::
 
     module --force purge
     ml biocontainers fastx_toolkit
-

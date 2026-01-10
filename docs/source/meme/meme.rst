@@ -16,10 +16,25 @@ Meme is a collection of tools for the discovery and analysis of sequence motifs.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 5.3.3
-- 5.4.1
-- 5.5.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 5.3.3, 5.4.1, 5.5.0, 5.5.4
+  * - BELL
+    - 5.3.3, 5.4.1, 5.5.0, 5.5.7-pl5321, 5.5.4
+  * - GAUTSCHI
+    - 5.3.3, 5.4.1, 5.5.0, 5.5.4
+  * - NEGISHI
+    - 5.3.3, 5.4.1, 5.5.0, 5.5.7-pl5321, 5.5.4
+  * - SCHOLAR
+    - 5.3.3, 5.4.1, 5.5.0
 
 Commands
 ~~~~~~~
@@ -67,4 +82,3 @@ To run meme on our clusters::
 
     module --force purge
     ml biocontainers meme
-

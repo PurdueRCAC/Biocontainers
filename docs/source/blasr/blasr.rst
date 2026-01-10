@@ -16,8 +16,25 @@ Blasr is a read mapping program that maps reads to positions in a genome by clus
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 5.3.5
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 5.3.5
+  * - BELL
+    - 5.3.5
+  * - GAUTSCHI
+    - 5.3.5
+  * - NEGISHI
+    - 5.3.5
+  * - SCHOLAR
+    - 5.3.5
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run blasr on our clusters::
 
     module --force purge
     ml biocontainers blasr
-

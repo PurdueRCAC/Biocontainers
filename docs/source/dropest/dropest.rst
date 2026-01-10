@@ -15,8 +15,25 @@ Dropest is a pipeline for initial analysis of droplet-based single-cell RNA-seq 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.8.6
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.8.6
+  * - BELL
+    - 0.8.6
+  * - GAUTSCHI
+    - 0.8.6
+  * - NEGISHI
+    - 0.8.6
+  * - SCHOLAR
+    - 0.8.6
 
 Commands
 ~~~~~~~
@@ -52,4 +69,3 @@ To run dropest on our clusters::
 
     module --force purge
     ml biocontainers dropest
-

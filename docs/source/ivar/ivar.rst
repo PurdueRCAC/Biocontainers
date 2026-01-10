@@ -16,9 +16,25 @@ Ivar is a computational package that contains functions broadly useful for viral
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.3.1
-- 1.4.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.3.1, 1.4.2
+  * - BELL
+    - 1.3.1, 1.4.2
+  * - GAUTSCHI
+    - 1.3.1, 1.4.2
+  * - NEGISHI
+    - 1.3.1, 1.4.2
+  * - SCHOLAR
+    - 1.3.1, 1.4.2
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run ivar on our clusters::
 
     module --force purge
     ml biocontainers ivar
-

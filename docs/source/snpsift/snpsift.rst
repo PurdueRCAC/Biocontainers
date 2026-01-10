@@ -16,8 +16,25 @@ Snpsift is a tool used to annotate genomic variants using databases, filters, an
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.3.1t
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.3.1t, 5.1d, 5.1, 5.2
+  * - BELL
+    - 4.3.1t, 5.1d, 5.1, 5.2
+  * - GAUTSCHI
+    - 4.3.1t, 5.1d, 5.1, 5.2
+  * - NEGISHI
+    - 4.3.1t, 5.1d, 5.1, 5.2
+  * - SCHOLAR
+    - 4.3.1t
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run snpsift on our clusters::
 
     module --force purge
     ml biocontainers snpsift
-

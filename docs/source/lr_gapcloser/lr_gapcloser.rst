@@ -16,8 +16,19 @@ LR_Gapcloser is a gap closing tool using long reads from studied species.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 20180904
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 20180904
+  * - NEGISHI
+    - 20180904
 
 Commands
 ~~~~~~~
@@ -79,4 +90,3 @@ To run lr_gapcloser on our clusters::
 
     module --force purge
     ml biocontainers lr_gapcloser
-

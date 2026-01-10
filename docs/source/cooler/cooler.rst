@@ -16,8 +16,25 @@ Cooler is a support library for a sparse, compressed, binary persistent storage 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.8.11
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.8.11
+  * - BELL
+    - 0.8.11
+  * - GAUTSCHI
+    - 0.8.11
+  * - NEGISHI
+    - 0.8.11
+  * - SCHOLAR
+    - 0.8.11
 
 Commands
 ~~~~~~~
@@ -51,4 +68,3 @@ To run cooler on our clusters::
 
     module --force purge
     ml biocontainers cooler
-

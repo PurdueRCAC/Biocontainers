@@ -15,8 +15,25 @@ The mOTU profiler is a computational tool that estimates relative taxonomic abun
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.0.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.0.3
+  * - BELL
+    - 3.0.3
+  * - GAUTSCHI
+    - 3.0.3
+  * - NEGISHI
+    - 3.0.3
+  * - SCHOLAR
+    - 3.0.3
 
 Commands
 ~~~~~~~
@@ -48,4 +65,3 @@ To run motus on our clusters::
 
     module --force purge
     ml biocontainers motus
-

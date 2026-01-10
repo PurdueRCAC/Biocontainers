@@ -15,8 +15,25 @@ Kaiju is a tool for fast taxonomic classification of metagenomic sequencing read
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.8.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.8.2
+  * - BELL
+    - 1.8.2
+  * - GAUTSCHI
+    - 1.8.2
+  * - NEGISHI
+    - 1.8.2
+  * - SCHOLAR
+    - 1.8.2
 
 Commands
 ~~~~~~~
@@ -63,4 +80,3 @@ To run kaiju on our clusters::
 
     module --force purge
     ml biocontainers kaiju
-

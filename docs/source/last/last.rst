@@ -16,11 +16,25 @@ Last is used to finds & aligns related regions of sequences.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1268
-- 1356
-- 1411
-- 1418
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1268, 1356, 1411, 1418
+  * - BELL
+    - 1268, 1356, 1411, 1418
+  * - GAUTSCHI
+    - 1268, 1356, 1411, 1418
+  * - NEGISHI
+    - 1268, 1356, 1411, 1418
+  * - SCHOLAR
+    - 1268, 1356, 1411, 1418
 
 Commands
 ~~~~~~~
@@ -63,4 +77,3 @@ To run last on our clusters::
 
     module --force purge
     ml biocontainers last
-

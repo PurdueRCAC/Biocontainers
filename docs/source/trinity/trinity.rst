@@ -16,11 +16,25 @@ Trinity assembles transcript sequences from Illumina RNA-Seq data.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.12.0
-- 2.13.2
-- 2.14.0
-- 2.15.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.12.0, 2.13.2, 2.14.0, 2.15.0
+  * - BELL
+    - 2.12.0, 2.13.2, 2.14.0, 2.15.0
+  * - GAUTSCHI
+    - 2.12.0, 2.13.2, 2.14.0, 2.15.0
+  * - NEGISHI
+    - 2.12.0, 2.13.2, 2.14.0, 2.15.0
+  * - SCHOLAR
+    - 2.12.0, 2.13.2, 2.14.0, 2.15.0
 
 Commands
 ~~~~~~~
@@ -88,4 +102,3 @@ To run trinity on our clusters::
 
     module --force purge
     ml biocontainers trinity
-

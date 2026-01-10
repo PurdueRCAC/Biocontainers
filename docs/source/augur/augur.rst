@@ -16,9 +16,25 @@ Augur is the bioinformatics toolkit we use to track evolution from sequence and 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 14.0.0
-- 15.0.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 14.0.0, 15.0.0
+  * - BELL
+    - 14.0.0, 15.0.0
+  * - GAUTSCHI
+    - 14.0.0, 15.0.0
+  * - NEGISHI
+    - 14.0.0, 15.0.0
+  * - SCHOLAR
+    - 14.0.0, 15.0.0
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run augur on our clusters::
 
     module --force purge
     ml biocontainers augur
-

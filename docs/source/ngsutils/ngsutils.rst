@@ -16,8 +16,25 @@ Ngsutils is suite of software tools for working with next-generation sequencing 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.5.9
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.5.9
+  * - BELL
+    - 0.5.9
+  * - GAUTSCHI
+    - 0.5.9
+  * - NEGISHI
+    - 0.5.9
+  * - SCHOLAR
+    - 0.5.9
 
 Commands
 ~~~~~~~
@@ -53,4 +70,3 @@ To run ngsutils on our clusters::
 
     module --force purge
     ml biocontainers ngsutils
-

@@ -16,8 +16,17 @@ Disambiguate is an algorithm for disambiguating reads aligned to two species (e.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.0.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - NEGISHI
+    - 1.0.0
 
 Commands
 ~~~~~~~
@@ -50,4 +59,3 @@ To run disambiguate on our clusters::
 
     module --force purge
     ml biocontainers disambiguate
-

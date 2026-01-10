@@ -15,8 +15,25 @@ Scvelo is a scalable toolkit for RNA velocity analysis in single cells.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.2.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.2.4
+  * - BELL
+    - 0.2.4
+  * - GAUTSCHI
+    - 0.2.4
+  * - NEGISHI
+    - 0.2.4
+  * - SCHOLAR
+    - 0.2.4
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run scvelo on our clusters::
 
     module --force purge
     ml biocontainers scvelo
-

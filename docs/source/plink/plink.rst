@@ -16,8 +16,25 @@ Plink is a free, open-source whole genome association analysis toolset, designed
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.90b6.21
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.90b6.21
+  * - BELL
+    - 1.90b6.21
+  * - GAUTSCHI
+    - 1.90b6.21
+  * - NEGISHI
+    - 1.90b6.21
+  * - SCHOLAR
+    - 1.90b6.21
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run plink on our clusters::
 
     module --force purge
     ml biocontainers plink
-

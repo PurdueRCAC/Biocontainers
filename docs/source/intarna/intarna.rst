@@ -16,8 +16,25 @@ Intarna is a general and fast approach to the prediction of RNA-RNA interactions
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.3.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.3.1
+  * - BELL
+    - 3.3.1
+  * - GAUTSCHI
+    - 3.3.1
+  * - NEGISHI
+    - 3.3.1
+  * - SCHOLAR
+    - 3.3.1
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run intarna on our clusters::
 
     module --force purge
     ml biocontainers intarna
-

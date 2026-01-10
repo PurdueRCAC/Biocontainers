@@ -16,8 +16,25 @@ Bamutil is a collection of programs for working on SAM/BAM files.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.0.15
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.0.15
+  * - BELL
+    - 1.0.15
+  * - GAUTSCHI
+    - 1.0.15
+  * - NEGISHI
+    - 1.0.15
+  * - SCHOLAR
+    - 1.0.15
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run bamutil on our clusters::
 
     module --force purge
     ml biocontainers bamutil
-

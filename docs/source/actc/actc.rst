@@ -15,8 +15,25 @@ Actc is used to align subreads to ccs reads.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.2.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.2.0
+  * - BELL
+    - 0.2.0
+  * - GAUTSCHI
+    - 0.2.0
+  * - NEGISHI
+    - 0.2.0
+  * - SCHOLAR
+    - 0.2.0
 
 Commands
 ~~~~~~~
@@ -48,4 +65,3 @@ To run actc on our clusters::
 
     module --force purge
     ml biocontainers actc
-

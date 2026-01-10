@@ -16,9 +16,25 @@ Instrain is a python program for analysis of co-occurring genome populations fro
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.5.7
-- 1.6.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.5.7, 1.6.3
+  * - BELL
+    - 1.5.7, 1.6.3
+  * - GAUTSCHI
+    - 1.5.7, 1.6.3
+  * - NEGISHI
+    - 1.5.7, 1.6.3
+  * - SCHOLAR
+    - 1.5.7, 1.6.3
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run instrain on our clusters::
 
     module --force purge
     ml biocontainers instrain
-

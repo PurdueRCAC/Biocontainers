@@ -16,9 +16,25 @@ Atropos is a tool for specific, sensitive, and speedy trimming of NGS reads.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.1.17
-- 1.1.31
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.1.17, 1.1.31
+  * - BELL
+    - 1.1.17, 1.1.31
+  * - GAUTSCHI
+    - 1.1.17, 1.1.31
+  * - NEGISHI
+    - 1.1.17, 1.1.31
+  * - SCHOLAR
+    - 1.1.17, 1.1.31
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run atropos on our clusters::
 
     module --force purge
     ml biocontainers atropos
-

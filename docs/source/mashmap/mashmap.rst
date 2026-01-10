@@ -16,8 +16,25 @@ Mashmap is a fast approximate aligner for long DNA sequences.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0-pl5321
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.0-pl5321
+  * - BELL
+    - 2.0-pl5321
+  * - GAUTSCHI
+    - 2.0-pl5321
+  * - NEGISHI
+    - 2.0-pl5321
+  * - SCHOLAR
+    - 2.0-pl5321
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run mashmap on our clusters::
 
     module --force purge
     ml biocontainers mashmap
-

@@ -16,11 +16,25 @@ CRISPResso2 is a software pipeline designed to enable rapid and intuitive interp
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.2.10
-- 2.2.11a
-- 2.2.8
-- 2.2.9
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
+  * - BELL
+    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
+  * - GAUTSCHI
+    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
+  * - NEGISHI
+    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
+  * - SCHOLAR
+    - 2.2.11a, 2.2.8, 2.2.9, 2.2.10
 
 Commands
 ~~~~~~~
@@ -58,4 +72,3 @@ To run crispresso2 on our clusters::
 
     module --force purge
     ml biocontainers crispresso2
-

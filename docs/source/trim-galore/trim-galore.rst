@@ -16,9 +16,25 @@ Trim-galore is a wrapper tool that automates quality and adapter trimming to Fas
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.6.10
-- 0.6.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.6.7, 0.6.10
+  * - BELL
+    - 0.6.7, 0.6.10
+  * - GAUTSCHI
+    - 0.6.7, 0.6.10
+  * - NEGISHI
+    - 0.6.7, 0.6.10
+  * - SCHOLAR
+    - 0.6.7, 0.6.10
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run trim-galore on our clusters::
 
     module --force purge
     ml biocontainers trim-galore
-

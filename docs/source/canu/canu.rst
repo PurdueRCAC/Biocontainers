@@ -16,9 +16,25 @@ Canu is a fork of the Celera Assembler, designed for high-noise single-molecule 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.1.1
-- 2.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.1.1, 2.2
+  * - BELL
+    - 2.1.1, 2.2
+  * - GAUTSCHI
+    - 2.1.1, 2.2
+  * - NEGISHI
+    - 2.1.1, 2.2
+  * - SCHOLAR
+    - 2.1.1, 2.2
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run canu on our clusters::
 
     module --force purge
     ml biocontainers canu
-

@@ -16,8 +16,25 @@ Shorah is an open source project for the analysis of next generation sequencing 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.99.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.99.2
+  * - BELL
+    - 1.99.2
+  * - GAUTSCHI
+    - 1.99.2
+  * - NEGISHI
+    - 1.99.2
+  * - SCHOLAR
+    - 1.99.2
 
 Commands
 ~~~~~~~
@@ -52,4 +69,3 @@ To run shorah on our clusters::
 
     module --force purge
     ml biocontainers shorah
-

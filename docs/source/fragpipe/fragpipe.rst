@@ -16,8 +16,19 @@ FragPipe is a comprehensive computational platform for analyzing mass spectromet
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 22.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - NEGISHI
+    - 22.0
+  * - SCHOLAR
+    - 22.0
 
 Commands
 ~~~~~~~
@@ -49,4 +60,3 @@ To run fragpipe on our clusters::
 
     module --force purge
     ml biocontainers fragpipe
-

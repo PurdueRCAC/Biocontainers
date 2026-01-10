@@ -16,10 +16,25 @@ Kraken2 is a taxonomic sequence classifier that assigns taxonomic labels to DNA 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.1.2
-- 2.1.2_fixftp
-- 2.1.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.1.2_fixftp, 2.1.3-pl5321, 2.1.2, 2.1.3
+  * - BELL
+    - 2.1.2_fixftp, 2.1.3-pl5321, 2.1.2, 2.1.3, 2.1.5
+  * - GAUTSCHI
+    - 2.1.2_fixftp, 2.1.3-pl5321, 2.1.2, 2.1.3
+  * - NEGISHI
+    - 2.1.2_fixftp, 2.1.3-pl5321, 2.1.2, 2.1.3, 2.1.5
+  * - SCHOLAR
+    - 2.1.2_fixftp, 2.1.2, 2.1.3
 
 Commands
 ~~~~~~~
@@ -53,4 +68,3 @@ To run kraken2 on our clusters::
 
     module --force purge
     ml biocontainers kraken2
-

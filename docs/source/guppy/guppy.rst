@@ -16,9 +16,25 @@ Guppy is a data processing toolkit that contains the Oxford Nanopore Technologie
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 6.0.1
-- 6.5.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 6.0.1, 6.5.7
+  * - BELL
+    - 6.0.1, 6.5.7
+  * - GAUTSCHI
+    - 6.0.1, 6.5.7
+  * - NEGISHI
+    - 6.0.1, 6.5.7
+  * - SCHOLAR
+    - 6.0.1, 6.5.7
 
 Commands
 ~~~~~~~
@@ -56,4 +72,3 @@ To run guppy on our clusters::
 
     module --force purge
     ml biocontainers guppy
-

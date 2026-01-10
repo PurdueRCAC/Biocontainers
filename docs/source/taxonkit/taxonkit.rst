@@ -16,8 +16,25 @@ Taxonkit is a practical and efficient NCBI taxonomy toolkit.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.9.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.9.0
+  * - BELL
+    - 0.9.0
+  * - GAUTSCHI
+    - 0.9.0
+  * - NEGISHI
+    - 0.9.0
+  * - SCHOLAR
+    - 0.9.0
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run taxonkit on our clusters::
 
     module --force purge
     ml biocontainers taxonkit
-

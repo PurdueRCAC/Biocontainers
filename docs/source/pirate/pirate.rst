@@ -16,8 +16,25 @@ Pirate is a pangenome analysis and threshold evaluation toolbox.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.0.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.0.4
+  * - BELL
+    - 1.0.4
+  * - GAUTSCHI
+    - 1.0.4
+  * - NEGISHI
+    - 1.0.4
+  * - SCHOLAR
+    - 1.0.4
 
 Commands
 ~~~~~~~
@@ -188,4 +205,3 @@ To run pirate on our clusters::
 
     module --force purge
     ml biocontainers pirate
-

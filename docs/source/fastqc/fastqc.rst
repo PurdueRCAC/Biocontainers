@@ -16,9 +16,25 @@ FastQC aims to provide a simple way to do some quality control checks on raw raw
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.11.9
-- 0.12.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.11.9, 0.12.1
+  * - BELL
+    - 0.11.9, 0.12.1
+  * - GAUTSCHI
+    - 0.11.9, 0.12.1
+  * - NEGISHI
+    - 0.11.9, 0.12.1
+  * - SCHOLAR
+    - 0.11.9, 0.12.1
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run fastqc on our clusters::
 
     module --force purge
     ml biocontainers fastqc
-

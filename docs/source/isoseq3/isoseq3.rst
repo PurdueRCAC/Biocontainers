@@ -16,10 +16,25 @@ Isoseq3 - Scalable De Novo Isoform Discovery.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.4.0
-- 3.7.0
-- 3.8.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.4.0, 3.7.0, 3.8.2
+  * - BELL
+    - 3.4.0, 3.7.0, 3.8.2
+  * - GAUTSCHI
+    - 3.4.0, 3.7.0, 3.8.2
+  * - NEGISHI
+    - 3.4.0, 3.7.0, 3.8.2
+  * - SCHOLAR
+    - 3.4.0, 3.7.0, 3.8.2
 
 Commands
 ~~~~~~~
@@ -51,4 +66,3 @@ To run isoseq3 on our clusters::
 
     module --force purge
     ml biocontainers isoseq3
-

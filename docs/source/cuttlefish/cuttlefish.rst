@@ -16,8 +16,25 @@ Cuttlefish is a fast, parallel, and very lightweight memory tool to construct th
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.1.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.1.1
+  * - BELL
+    - 2.1.1
+  * - GAUTSCHI
+    - 2.1.1
+  * - NEGISHI
+    - 2.1.1
+  * - SCHOLAR
+    - 2.1.1
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run cuttlefish on our clusters::
 
     module --force purge
     ml biocontainers cuttlefish
-

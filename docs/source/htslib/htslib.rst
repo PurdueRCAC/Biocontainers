@@ -16,11 +16,25 @@ Htslib is a C library for high-throughput sequencing data formats.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.14
-- 1.15
-- 1.16
-- 1.17
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.14, 1.15, 1.16, 1.17
+  * - BELL
+    - 1.14, 1.15, 1.16, 1.17
+  * - GAUTSCHI
+    - 1.14, 1.15, 1.16, 1.17
+  * - NEGISHI
+    - 1.14, 1.15, 1.16, 1.17
+  * - SCHOLAR
+    - 1.14, 1.15, 1.16, 1.17
 
 Commands
 ~~~~~~~
@@ -54,4 +68,3 @@ To run htslib on our clusters::
 
     module --force purge
     ml biocontainers htslib
-

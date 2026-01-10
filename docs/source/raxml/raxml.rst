@@ -16,8 +16,25 @@ Raxml(Randomized Axelerated Maximum Likelihood) is a program for. Maximum Likeli
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 8.2.12
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 8.2.12
+  * - BELL
+    - 8.2.12
+  * - GAUTSCHI
+    - 8.2.12
+  * - NEGISHI
+    - 8.2.12
+  * - SCHOLAR
+    - 8.2.12
 
 Commands
 ~~~~~~~
@@ -54,4 +71,3 @@ To run raxml on our clusters::
 
     module --force purge
     ml biocontainers raxml
-

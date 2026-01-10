@@ -16,11 +16,25 @@ Bioconvert is a collaborative project to facilitate the interconversion of life 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.4.3
-- 0.5.2
-- 0.6.1
-- 0.6.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.4.3, 0.5.2, 0.6.1, 0.6.2
+  * - BELL
+    - 0.4.3, 0.5.2, 0.6.1, 0.6.2
+  * - GAUTSCHI
+    - 0.4.3, 0.5.2, 0.6.1, 0.6.2
+  * - NEGISHI
+    - 0.4.3, 0.5.2, 0.6.1, 0.6.2
+  * - SCHOLAR
+    - 0.4.3, 0.5.2, 0.6.1, 0.6.2
 
 Commands
 ~~~~~~~
@@ -54,4 +68,3 @@ To run bioconvert on our clusters::
 
     module --force purge
     ml biocontainers bioconvert
-

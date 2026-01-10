@@ -16,10 +16,25 @@ Ensembl-vep(Ensembl Variant Effect Predictor) predicts the functional effects of
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 106.1
-- 107.0
-- 108.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 106.1, 107.0, 108.2
+  * - BELL
+    - 106.1, 107.0, 108.2
+  * - GAUTSCHI
+    - 106.1, 107.0, 108.2
+  * - NEGISHI
+    - 106.1, 107.0, 108.2
+  * - SCHOLAR
+    - 106.1, 107.0, 108.2
 
 Commands
 ~~~~~~~
@@ -53,4 +68,3 @@ To run ensembl-vep on our clusters::
 
     module --force purge
     ml biocontainers ensembl-vep
-

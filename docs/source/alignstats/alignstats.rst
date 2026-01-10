@@ -16,8 +16,25 @@ AlignStats produces various alignment, whole genome coverage, and capture covera
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.9.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.9.1
+  * - BELL
+    - 0.9.1
+  * - GAUTSCHI
+    - 0.9.1
+  * - NEGISHI
+    - 0.9.1
+  * - SCHOLAR
+    - 0.9.1
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run alignstats on our clusters::
 
     module --force purge
     ml biocontainers alignstats
-

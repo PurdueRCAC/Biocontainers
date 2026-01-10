@@ -16,8 +16,25 @@ Pyfaidx is a Python package for random access and indexing of fasta files.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.6.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.6.4
+  * - BELL
+    - 0.6.4
+  * - GAUTSCHI
+    - 0.6.4
+  * - NEGISHI
+    - 0.6.4
+  * - SCHOLAR
+    - 0.6.4
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run pyfaidx on our clusters::
 
     module --force purge
     ml biocontainers pyfaidx
-

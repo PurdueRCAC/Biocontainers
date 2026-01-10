@@ -16,9 +16,25 @@ Gubbins is an algorithm that iteratively identifies loci containing elevated den
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.2.0
-- 3.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.2.0, 3.3
+  * - BELL
+    - 3.2.0, 3.3
+  * - GAUTSCHI
+    - 3.2.0, 3.3
+  * - NEGISHI
+    - 3.2.0, 3.3
+  * - SCHOLAR
+    - 3.2.0, 3.3
 
 Commands
 ~~~~~~~
@@ -56,4 +72,3 @@ To run gubbins on our clusters::
 
     module --force purge
     ml biocontainers gubbins
-

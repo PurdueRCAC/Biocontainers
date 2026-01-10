@@ -16,8 +16,25 @@ Reapr is a tool that evaluates the accuracy of a genome assembly using mapped pa
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.0.18
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.0.18
+  * - BELL
+    - 1.0.18
+  * - GAUTSCHI
+    - 1.0.18
+  * - NEGISHI
+    - 1.0.18
+  * - SCHOLAR
+    - 1.0.18
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run reapr on our clusters::
 
     module --force purge
     ml biocontainers reapr
-

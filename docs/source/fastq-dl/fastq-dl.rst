@@ -16,8 +16,21 @@ Fastq-dl is ###############################################################
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - BELL
+    - 2.0.4
+  * - GAUTSCHI
+    - 2.0.4
+  * - NEGISHI
+    - 2.0.4
 
 Commands
 ~~~~~~~
@@ -49,4 +62,3 @@ To run fastq-dl on our clusters::
 
     module --force purge
     ml biocontainers fastq-dl
-

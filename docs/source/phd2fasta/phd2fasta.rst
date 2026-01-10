@@ -15,8 +15,25 @@ Phd2fasta is a tool to convert Phred ‘phd’ format files to ‘fasta’ forma
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.990622
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.990622
+  * - BELL
+    - 0.990622
+  * - GAUTSCHI
+    - 0.990622
+  * - NEGISHI
+    - 0.990622
+  * - SCHOLAR
+    - 0.990622
 
 Commands
 ~~~~~~~
@@ -48,4 +65,3 @@ To run phd2fasta on our clusters::
 
     module --force purge
     ml biocontainers phd2fasta
-

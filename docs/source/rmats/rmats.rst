@@ -16,8 +16,25 @@ Rmats is a computational tool to detect differential alternative splicing events
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.1.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.1.1
+  * - BELL
+    - 4.1.1, 4.3.0
+  * - GAUTSCHI
+    - 4.1.1
+  * - NEGISHI
+    - 4.1.1, 4.3.0
+  * - SCHOLAR
+    - 4.1.1
 
 Commands
 ~~~~~~~
@@ -54,4 +71,3 @@ To run rmats on our clusters::
 
     module --force purge
     ml biocontainers rmats
-

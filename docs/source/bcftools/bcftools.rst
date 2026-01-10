@@ -16,10 +16,25 @@ Bcftools is a program for variant calling and manipulating files in the Variant 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.13
-- 1.14
-- 1.17
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.13, 1.14, 1.17
+  * - BELL
+    - 1.13, 1.14, 1.17
+  * - GAUTSCHI
+    - 1.13, 1.14, 1.17
+  * - NEGISHI
+    - 1.13, 1.14, 1.17
+  * - SCHOLAR
+    - 1.13, 1.14, 1.17
 
 Commands
 ~~~~~~~
@@ -57,4 +72,3 @@ To run bcftools on our clusters::
 
     module --force purge
     ml biocontainers bcftools
-

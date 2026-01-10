@@ -15,8 +15,25 @@ momi (MOran Models for Inference) is a Python package that computes the expected
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.1.19
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.1.19
+  * - BELL
+    - 2.1.19
+  * - GAUTSCHI
+    - 2.1.19
+  * - NEGISHI
+    - 2.1.19
+  * - SCHOLAR
+    - 2.1.19
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run momi on our clusters::
 
     module --force purge
     ml biocontainers momi
-

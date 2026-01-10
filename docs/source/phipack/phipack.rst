@@ -16,8 +16,25 @@ PhiPack: PHI test and other tests of recombination
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.1
+  * - BELL
+    - 1.1
+  * - GAUTSCHI
+    - 1.1
+  * - NEGISHI
+    - 1.1
+  * - SCHOLAR
+    - 1.1
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run phipack on our clusters::
 
     module --force purge
     ml biocontainers phipack
-

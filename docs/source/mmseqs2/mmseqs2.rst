@@ -16,9 +16,25 @@ Mmseqs2 is a software suite to search and cluster huge protein and nucleotide se
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 13.45111
-- 14.7e284
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 13.45111, 14.7e284
+  * - BELL
+    - 13.45111, 14.7e284
+  * - GAUTSCHI
+    - 13.45111, 14.7e284
+  * - NEGISHI
+    - 13.45111, 14.7e284
+  * - SCHOLAR
+    - 13.45111, 14.7e284
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run mmseqs2 on our clusters::
 
     module --force purge
     ml biocontainers mmseqs2
-

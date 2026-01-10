@@ -16,8 +16,25 @@ Coverm is a configurable, easy to use and fast DNA read coverage and relative ab
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.6.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.6.1
+  * - BELL
+    - 0.6.1
+  * - GAUTSCHI
+    - 0.6.1
+  * - NEGISHI
+    - 0.6.1
+  * - SCHOLAR
+    - 0.6.1
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run coverm on our clusters::
 
     module --force purge
     ml biocontainers coverm
-

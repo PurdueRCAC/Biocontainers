@@ -16,8 +16,25 @@ CNVkit is a command-line toolkit and Python library for detecting copy number va
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.9.9-py
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.9.9-py
+  * - BELL
+    - 0.9.9-py
+  * - GAUTSCHI
+    - 0.9.9-py
+  * - NEGISHI
+    - 0.9.9-py
+  * - SCHOLAR
+    - 0.9.9-py
 
 Commands
 ~~~~~~~
@@ -52,4 +69,3 @@ To run cnvkit on our clusters::
 
     module --force purge
     ml biocontainers cnvkit
-

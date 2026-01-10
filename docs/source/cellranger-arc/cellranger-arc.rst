@@ -16,8 +16,25 @@ Cell Ranger ARC is a set of analysis pipelines that process Chromium Single Cell
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.0.2_patched, 2.0.2
+  * - BELL
+    - 2.0.2_patched, 2.0.2
+  * - GAUTSCHI
+    - 2.0.2_patched, 2.0.2
+  * - NEGISHI
+    - 2.0.2_patched, 2.0.2
+  * - SCHOLAR
+    - 2.0.2
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run cellranger-arc on our clusters::
 
     module --force purge
     ml biocontainers cellranger-arc
-

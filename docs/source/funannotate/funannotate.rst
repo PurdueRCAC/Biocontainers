@@ -16,9 +16,25 @@ Funannotate is a genome prediction, annotation, and comparison software package.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.8.10
-- 1.8.13
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - v1.8.17, 1.8.10, 1.8.13, 1.8.15
+  * - BELL
+    - v1.8.17, 1.8.10, 1.8.13, 1.8.15
+  * - GAUTSCHI
+    - v1.8.17, 1.8.10, 1.8.13, 1.8.15
+  * - NEGISHI
+    - v1.8.17, 1.8.10, 1.8.13, 1.8.15
+  * - SCHOLAR
+    - 1.8.10, 1.8.13
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run funannotate on our clusters::
 
     module --force purge
     ml biocontainers funannotate
-

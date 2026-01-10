@@ -16,8 +16,25 @@ KMA is a mapping method designed to map raw reads directly against redundant dat
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.4.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.4.3
+  * - BELL
+    - 1.4.3
+  * - GAUTSCHI
+    - 1.4.3
+  * - NEGISHI
+    - 1.4.3
+  * - SCHOLAR
+    - 1.4.3
 
 Commands
 ~~~~~~~
@@ -52,4 +69,3 @@ To run kma on our clusters::
 
     module --force purge
     ml biocontainers kma
-

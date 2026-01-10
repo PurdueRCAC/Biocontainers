@@ -16,8 +16,25 @@ LongPhase is an ultra-fast program for simultaneously co-phasing SNPs and SVs by
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.4
+  * - BELL
+    - 1.4
+  * - GAUTSCHI
+    - 1.4
+  * - NEGISHI
+    - 1.4
+  * - SCHOLAR
+    - 1.4
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run longphase on our clusters::
 
     module --force purge
     ml biocontainers longphase
-

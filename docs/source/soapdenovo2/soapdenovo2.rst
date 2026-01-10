@@ -16,8 +16,25 @@ Soapdenovo2 is a short-read assembly method to build de novo draft assembly.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.40
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.40
+  * - BELL
+    - 2.40
+  * - GAUTSCHI
+    - 2.40
+  * - NEGISHI
+    - 2.40
+  * - SCHOLAR
+    - 2.40
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run soapdenovo2 on our clusters::
 
     module --force purge
     ml biocontainers soapdenovo2
-

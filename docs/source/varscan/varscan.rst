@@ -15,9 +15,25 @@ Varscan is a tool used for variant detection in massively parallel sequencing da
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.4.2
-- 2.4.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.4.2, 2.4.4
+  * - BELL
+    - 2.4.2, 2.4.4
+  * - GAUTSCHI
+    - 2.4.2, 2.4.4
+  * - NEGISHI
+    - 2.4.2, 2.4.4
+  * - SCHOLAR
+    - 2.4.2, 2.4.4
 
 Commands
 ~~~~~~~
@@ -49,4 +65,3 @@ To run varscan on our clusters::
 
     module --force purge
     ml biocontainers varscan
-

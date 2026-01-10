@@ -16,9 +16,25 @@ Bismark is a tool to map bisulfite treated sequencing reads to a genome of inter
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.23.0
-- 0.24.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.23.0, 0.24.0
+  * - BELL
+    - 0.23.0, 0.24.0
+  * - GAUTSCHI
+    - 0.23.0, 0.24.0
+  * - NEGISHI
+    - 0.23.0, 0.24.0
+  * - SCHOLAR
+    - 0.23.0, 0.24.0
 
 Commands
 ~~~~~~~
@@ -88,4 +104,3 @@ To run bismark on our clusters::
 
     module --force purge
     ml biocontainers bismark
-

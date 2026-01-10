@@ -16,8 +16,25 @@ Pychopper is a tool to identify, orient and trim full-length Nanopore cDNA reads
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.5.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.5.0
+  * - BELL
+    - 2.5.0
+  * - GAUTSCHI
+    - 2.5.0
+  * - NEGISHI
+    - 2.5.0
+  * - SCHOLAR
+    - 2.5.0
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run pychopper on our clusters::
 
     module --force purge
     ml biocontainers pychopper
-

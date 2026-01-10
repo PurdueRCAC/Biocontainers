@@ -16,12 +16,25 @@ HTSeq is a Python library to facilitate processing and analysis of data from hig
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.13.5
-- 1.99.2
-- 2.0.1
-- 2.0.2-py310
-- 2.0.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.13.5, 1.99.2, 2.0.2-py310, 2.0.1, 2.0.2
+  * - BELL
+    - 0.13.5, 1.99.2, 2.0.2-py310, 2.0.1, 2.0.2
+  * - GAUTSCHI
+    - 0.13.5, 1.99.2, 2.0.2-py310, 2.0.1, 2.0.2
+  * - NEGISHI
+    - 0.13.5, 1.99.2, 2.0.2-py310, 2.0.1, 2.0.2
+  * - SCHOLAR
+    - 0.13.5, 1.99.2, 2.0.2-py310, 2.0.1, 2.0.2
 
 Commands
 ~~~~~~~
@@ -57,4 +70,3 @@ To run htseq on our clusters::
 
     module --force purge
     ml biocontainers htseq
-

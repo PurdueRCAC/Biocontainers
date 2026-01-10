@@ -16,9 +16,25 @@ Cutadapt finds and removes adapter sequences, primers, poly-A tails and other ty
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.4
-- 3.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.4, 3.7
+  * - BELL
+    - 3.4, 3.7
+  * - GAUTSCHI
+    - 3.4, 3.7
+  * - NEGISHI
+    - 3.4, 3.7
+  * - SCHOLAR
+    - 3.4, 3.7
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run cutadapt on our clusters::
 
     module --force purge
     ml biocontainers cutadapt
-

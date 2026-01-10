@@ -16,9 +16,23 @@ Bases2Fastq software processes sequencing data and converts base calls into FAST
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.7
-- 2.2.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.7
+  * - BELL
+    - 1.7, 2.2.0
+  * - GAUTSCHI
+    - 1.7, 2.2.0
+  * - NEGISHI
+    - 1.7, 2.2.0
 
 Commands
 ~~~~~~~
@@ -50,4 +64,3 @@ To run bases2fastq on our clusters::
 
     module --force purge
     ml biocontainers bases2fastq
-

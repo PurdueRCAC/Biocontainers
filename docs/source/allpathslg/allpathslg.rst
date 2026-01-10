@@ -16,8 +16,25 @@ Allpathslg is a whole-genome shotgun assembler that can generate high-quality ge
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 52488
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 52488
+  * - BELL
+    - 52488
+  * - GAUTSCHI
+    - 52488
+  * - NEGISHI
+    - 52488
+  * - SCHOLAR
+    - 52488
 
 Commands
 ~~~~~~~
@@ -52,4 +69,3 @@ To run allpathslg on our clusters::
 
     module --force purge
     ml biocontainers allpathslg
-

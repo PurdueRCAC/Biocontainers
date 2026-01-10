@@ -16,8 +16,25 @@ RNApeg is an RNA junction calling, correction, and quality-control package.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.7.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.7.1
+  * - BELL
+    - 2.7.1
+  * - GAUTSCHI
+    - 2.7.1
+  * - NEGISHI
+    - 2.7.1
+  * - SCHOLAR
+    - 2.7.1
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run rnapeg on our clusters::
 
     module --force purge
     ml biocontainers rnapeg
-

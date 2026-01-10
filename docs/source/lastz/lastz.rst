@@ -16,8 +16,25 @@ LASTZ - pairwise DNA sequence aligner
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.04.15
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.04.15
+  * - BELL
+    - 1.04.15
+  * - GAUTSCHI
+    - 1.04.15
+  * - NEGISHI
+    - 1.04.15
+  * - SCHOLAR
+    - 1.04.15
 
 Commands
 ~~~~~~~
@@ -51,4 +68,3 @@ To run lastz on our clusters::
 
     module --force purge
     ml biocontainers lastz
-

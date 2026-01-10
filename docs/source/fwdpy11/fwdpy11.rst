@@ -15,8 +15,25 @@ Fwdpy11 is a Python package for forward-time population genetic simulation.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.18.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.18.1
+  * - BELL
+    - 0.18.1
+  * - GAUTSCHI
+    - 0.18.1
+  * - NEGISHI
+    - 0.18.1
+  * - SCHOLAR
+    - 0.18.1
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run fwdpy11 on our clusters::
 
     module --force purge
     ml biocontainers fwdpy11
-

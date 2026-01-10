@@ -16,8 +16,25 @@ VAtools is a python package that includes several tools to annotate VCF files wi
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 5.0.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 5.0.1
+  * - BELL
+    - 5.0.1
+  * - GAUTSCHI
+    - 5.0.1
+  * - NEGISHI
+    - 5.0.1
+  * - SCHOLAR
+    - 5.0.1
 
 Commands
 ~~~~~~~
@@ -55,4 +72,3 @@ To run vatools on our clusters::
 
     module --force purge
     ml biocontainers vatools
-

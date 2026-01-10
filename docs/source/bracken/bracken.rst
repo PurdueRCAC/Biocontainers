@@ -16,9 +16,25 @@ Bracken is a companion program to Kraken 1 or Kraken 2 While Kraken classifies r
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.6.1
-- 2.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.6.1, 2.7
+  * - BELL
+    - 2.6.1, 2.7
+  * - GAUTSCHI
+    - 2.6.1, 2.7
+  * - NEGISHI
+    - 2.6.1, 2.7
+  * - SCHOLAR
+    - 2.6.1, 2.7
 
 Commands
 ~~~~~~~
@@ -57,4 +73,3 @@ To run bracken on our clusters::
 
     module --force purge
     ml biocontainers bracken
-

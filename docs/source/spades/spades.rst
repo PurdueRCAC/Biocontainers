@@ -16,10 +16,25 @@ Spades is an assembly toolkit containing various assembly pipelines.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.15.3
-- 3.15.4
-- 3.15.5
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.15.3, 3.15.4, 3.15.5
+  * - BELL
+    - 3.15.3, 3.15.4, 3.15.5
+  * - GAUTSCHI
+    - 3.15.3, 3.15.4, 3.15.5
+  * - NEGISHI
+    - 3.15.3, 3.15.4, 3.15.5
+  * - SCHOLAR
+    - 3.15.3, 3.15.4, 3.15.5
 
 Commands
 ~~~~~~~
@@ -73,4 +88,3 @@ To run spades on our clusters::
 
     module --force purge
     ml biocontainers spades
-

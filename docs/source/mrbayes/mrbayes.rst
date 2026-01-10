@@ -16,8 +16,25 @@ MrBayes is a program for Bayesian inference and model choice across a wide range
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.2.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.2.7
+  * - BELL
+    - 3.2.7
+  * - GAUTSCHI
+    - 3.2.7
+  * - NEGISHI
+    - 3.2.7
+  * - SCHOLAR
+    - 3.2.7
 
 Commands
 ~~~~~~~
@@ -52,4 +69,3 @@ To run mrbayes on our clusters::
 
     module --force purge
     ml biocontainers mrbayes
-

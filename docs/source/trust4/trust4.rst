@@ -16,8 +16,25 @@ Tcr Receptor Utilities for Solid Tissue (TRUST) is a computational tool to analy
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.0.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.0.7
+  * - BELL
+    - 1.0.7
+  * - GAUTSCHI
+    - 1.0.7
+  * - NEGISHI
+    - 1.0.7
+  * - SCHOLAR
+    - 1.0.7
 
 Commands
 ~~~~~~~
@@ -55,4 +72,3 @@ To run trust4 on our clusters::
 
     module --force purge
     ml biocontainers trust4
-

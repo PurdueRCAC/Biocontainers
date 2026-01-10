@@ -16,9 +16,25 @@ FastTree infers approximately-maximum-likelihood phylogenetic trees from alignme
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.1.10
-- 2.1.11
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.1.10, 2.1.11
+  * - BELL
+    - 2.1.10, 2.1.11
+  * - GAUTSCHI
+    - 2.1.10, 2.1.11
+  * - NEGISHI
+    - 2.1.10, 2.1.11
+  * - SCHOLAR
+    - 2.1.10, 2.1.11
 
 Commands
 ~~~~~~~
@@ -52,4 +68,3 @@ To run fasttree on our clusters::
 
     module --force purge
     ml biocontainers fasttree
-

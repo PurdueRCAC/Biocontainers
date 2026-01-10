@@ -15,8 +15,25 @@ Pangenome-based Phylogenomic Analysis (PanPhlAn) is a strain-level metagenomic p
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.1
+  * - BELL
+    - 3.1
+  * - GAUTSCHI
+    - 3.1
+  * - NEGISHI
+    - 3.1
+  * - SCHOLAR
+    - 3.1
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run panphlan on our clusters::
 
     module --force purge
     ml biocontainers panphlan
-

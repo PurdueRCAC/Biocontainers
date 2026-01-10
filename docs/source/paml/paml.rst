@@ -16,8 +16,25 @@ Paml is a package of programs for phylogenetic analyses of DNA or protein sequen
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.9
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.9
+  * - BELL
+    - 4.9
+  * - GAUTSCHI
+    - 4.9
+  * - NEGISHI
+    - 4.9
+  * - SCHOLAR
+    - 4.9
 
 Commands
 ~~~~~~~
@@ -57,4 +74,3 @@ To run paml on our clusters::
 
     module --force purge
     ml biocontainers paml
-

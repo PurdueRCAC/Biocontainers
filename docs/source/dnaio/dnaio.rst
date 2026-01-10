@@ -16,8 +16,25 @@ Dnaio is a Python 3.7+ library for very efficient parsing and writing of FASTQ a
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.8.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.8.1
+  * - BELL
+    - 0.8.1
+  * - GAUTSCHI
+    - 0.8.1
+  * - NEGISHI
+    - 0.8.1
+  * - SCHOLAR
+    - 0.8.1
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run dnaio on our clusters::
 
     module --force purge
     ml biocontainers dnaio
-

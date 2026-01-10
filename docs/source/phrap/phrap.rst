@@ -15,8 +15,25 @@ phrap is a program for assembling shotgun DNA sequence data.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.090518
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.090518
+  * - BELL
+    - 1.090518
+  * - GAUTSCHI
+    - 1.090518
+  * - NEGISHI
+    - 1.090518
+  * - SCHOLAR
+    - 1.090518
 
 Commands
 ~~~~~~~
@@ -48,4 +65,3 @@ To run phrap on our clusters::
 
     module --force purge
     ml biocontainers phrap
-

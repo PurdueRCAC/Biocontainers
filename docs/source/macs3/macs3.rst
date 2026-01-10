@@ -16,8 +16,25 @@ Macs3 is Model-based Analysis of ChIP-Seq for identifying transcript factor.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.0.0a6
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.0.0a6
+  * - BELL
+    - 3.0.0a6
+  * - GAUTSCHI
+    - 3.0.0a6
+  * - NEGISHI
+    - 3.0.0a6
+  * - SCHOLAR
+    - 3.0.0a6
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run macs3 on our clusters::
 
     module --force purge
     ml biocontainers macs3
-

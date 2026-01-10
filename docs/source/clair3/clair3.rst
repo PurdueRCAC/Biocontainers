@@ -16,9 +16,25 @@ Clair3 is a germline small variant caller for long-reads. Clair3 makes the best 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.1-r11
-- 0.1-r12
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.1-r11, 0.1-r12
+  * - BELL
+    - 0.1-r11, 0.1-r12
+  * - GAUTSCHI
+    - 0.1-r11, 0.1-r12
+  * - NEGISHI
+    - 0.1-r11, 0.1-r12
+  * - SCHOLAR
+    - 0.1-r11, 0.1-r12
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run clair3 on our clusters::
 
     module --force purge
     ml biocontainers clair3
-

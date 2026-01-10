@@ -16,10 +16,25 @@ Anvio is an analysis and visualization platform for 'omics data.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 7.0
-- 7.1_main
-- 7.1_structure
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 7.0, 7.1_main, 7.1_structure
+  * - BELL
+    - 7.0, 7.1_main, 7.1_structure
+  * - GAUTSCHI
+    - 7.0, 7.1_main, 7.1_structure
+  * - NEGISHI
+    - 7.0, 7.1_main, 7.1_structure
+  * - SCHOLAR
+    - 7.0, 7.1_main, 7.1_structure
 
 Commands
 ~~~~~~~
@@ -194,4 +209,3 @@ To run anvio on our clusters::
 
     module --force purge
     ml biocontainers anvio
-

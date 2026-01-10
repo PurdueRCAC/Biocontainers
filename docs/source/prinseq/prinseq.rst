@@ -15,8 +15,25 @@ Prinseq is a tool that generates summary statistics of sequence and quality data
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.20.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.20.4
+  * - BELL
+    - 0.20.4
+  * - GAUTSCHI
+    - 0.20.4
+  * - NEGISHI
+    - 0.20.4
+  * - SCHOLAR
+    - 0.20.4
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run prinseq on our clusters::
 
     module --force purge
     ml biocontainers prinseq
-

@@ -15,8 +15,25 @@ TASSEL is a software package used to evaluate traits associations, evolutionary 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 5.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 5.0
+  * - BELL
+    - 5.0
+  * - GAUTSCHI
+    - 5.0
+  * - NEGISHI
+    - 5.0
+  * - SCHOLAR
+    - 5.0
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run tassel on our clusters::
 
     module --force purge
     ml biocontainers tassel
-

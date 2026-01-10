@@ -16,8 +16,25 @@ Glimmer is system for finding genes in microbial DNA, especially the genomes of 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.02
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.02
+  * - BELL
+    - 3.02
+  * - GAUTSCHI
+    - 3.02
+  * - NEGISHI
+    - 3.02
+  * - SCHOLAR
+    - 3.02
 
 Commands
 ~~~~~~~
@@ -70,4 +87,3 @@ To run glimmer on our clusters::
 
     module --force purge
     ml biocontainers glimmer
-

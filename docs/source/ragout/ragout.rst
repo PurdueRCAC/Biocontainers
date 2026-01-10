@@ -16,8 +16,25 @@ Ragout is a tool for chromosome-level scaffolding using multiple references.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.3
+  * - BELL
+    - 2.3
+  * - GAUTSCHI
+    - 2.3
+  * - NEGISHI
+    - 2.3
+  * - SCHOLAR
+    - 2.3
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run ragout on our clusters::
 
     module --force purge
     ml biocontainers ragout
-

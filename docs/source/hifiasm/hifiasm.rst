@@ -16,9 +16,25 @@ Hifiasm is fast haplotype-resolved de novo assembler for PacBio HiFi reads.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.16.0
-- 0.18.5
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.16.0, 0.18.5, 0.19.9, 0.24.0, 0.25.0
+  * - BELL
+    - 0.16.0, 0.18.5, 0.19.9, 0.24.0
+  * - GAUTSCHI
+    - 0.16.0, 0.18.5, 0.19.9
+  * - NEGISHI
+    - 0.16.0, 0.18.5, 0.19.9, 0.24.0, 0.25.0
+  * - SCHOLAR
+    - 0.16.0, 0.18.5
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run hifiasm on our clusters::
 
     module --force purge
     ml biocontainers hifiasm
-

@@ -16,8 +16,25 @@ Fasta3 is a suite of programs for searching nucleotide or protein databases with
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 36.3.8
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 36.3.8
+  * - BELL
+    - 36.3.8
+  * - GAUTSCHI
+    - 36.3.8
+  * - NEGISHI
+    - 36.3.8
+  * - SCHOLAR
+    - 36.3.8
 
 Commands
 ~~~~~~~
@@ -63,4 +80,3 @@ To run fasta3 on our clusters::
 
     module --force purge
     ml biocontainers fasta3
-

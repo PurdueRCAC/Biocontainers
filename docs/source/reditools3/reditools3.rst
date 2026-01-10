@@ -16,8 +16,17 @@ REDItools: python scripts for RNA editing detection by RNA-Seq data
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - NEGISHI
+    - 3.4
 
 Commands
 ~~~~~~~
@@ -49,4 +58,3 @@ To run reditools3 on our clusters::
 
     module --force purge
     ml biocontainers reditools3
-

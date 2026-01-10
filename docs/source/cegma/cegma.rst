@@ -16,8 +16,25 @@ CEGMA (Core Eukaryotic Genes Mapping Approach) is a pipeline for building a set 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.5
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.5
+  * - BELL
+    - 2.5
+  * - GAUTSCHI
+    - 2.5
+  * - NEGISHI
+    - 2.5
+  * - SCHOLAR
+    - 2.5
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run cegma on our clusters::
 
     module --force purge
     ml biocontainers cegma
-

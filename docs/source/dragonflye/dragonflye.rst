@@ -16,9 +16,25 @@ Dragonflye is a pipeline that aims to make assembling Oxford Nanopore reads quic
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.0.13
-- 1.0.14
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.0.13, 1.0.14
+  * - BELL
+    - 1.0.13, 1.0.14
+  * - GAUTSCHI
+    - 1.0.13, 1.0.14
+  * - NEGISHI
+    - 1.0.13, 1.0.14
+  * - SCHOLAR
+    - 1.0.13, 1.0.14
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run dragonflye on our clusters::
 
     module --force purge
     ml biocontainers dragonflye
-

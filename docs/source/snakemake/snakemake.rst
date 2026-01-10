@@ -16,8 +16,25 @@ Snakemake is a workflow engine that provides a readable Python-based workflow de
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 6.8.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 6.8.0
+  * - BELL
+    - 6.8.0
+  * - GAUTSCHI
+    - 6.8.0
+  * - NEGISHI
+    - 6.8.0
+  * - SCHOLAR
+    - 6.8.0
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run snakemake on our clusters::
 
     module --force purge
     ml biocontainers snakemake
-

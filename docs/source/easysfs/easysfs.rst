@@ -15,8 +15,25 @@ easySFS is a tool for the effective selection of population size projection for 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - .8.1, 1.0
+  * - BELL
+    - .8.1, 1.0
+  * - GAUTSCHI
+    - .8.1, 1.0
+  * - NEGISHI
+    - .8.1, 1.0
+  * - SCHOLAR
+    - .8.1, 1.0
 
 Commands
 ~~~~~~~
@@ -48,4 +65,3 @@ To run easysfs on our clusters::
 
     module --force purge
     ml biocontainers easysfs
-

@@ -16,8 +16,25 @@ TRTools includes a variety of utilities for filtering, quality control and analy
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 5.0.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 5.0.1
+  * - BELL
+    - 5.0.1
+  * - GAUTSCHI
+    - 5.0.1
+  * - NEGISHI
+    - 5.0.1
+  * - SCHOLAR
+    - 5.0.1
 
 Commands
 ~~~~~~~
@@ -54,4 +71,3 @@ To run trtools on our clusters::
 
     module --force purge
     ml biocontainers trtools
-

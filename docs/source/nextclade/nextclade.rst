@@ -16,8 +16,25 @@ Nextclade is a tool that identifies differences between your sequences and a ref
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.10.3
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.10.3
+  * - BELL
+    - 1.10.3
+  * - GAUTSCHI
+    - 1.10.3
+  * - NEGISHI
+    - 1.10.3
+  * - SCHOLAR
+    - 1.10.3
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run nextclade on our clusters::
 
     module --force purge
     ml biocontainers nextclade
-

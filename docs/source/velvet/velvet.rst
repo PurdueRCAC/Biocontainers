@@ -16,8 +16,25 @@ Velvet is a sequence assembler for very short reads.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.2.10
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.2.10
+  * - BELL
+    - 1.2.10
+  * - GAUTSCHI
+    - 1.2.10
+  * - NEGISHI
+    - 1.2.10
+  * - SCHOLAR
+    - 1.2.10
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run velvet on our clusters::
 
     module --force purge
     ml biocontainers velvet
-

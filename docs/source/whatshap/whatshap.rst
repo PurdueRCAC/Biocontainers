@@ -16,8 +16,25 @@ Whatshap is a software for phasing genomic variants using DNA sequencing reads, 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.4
+  * - BELL
+    - 1.4
+  * - GAUTSCHI
+    - 1.4
+  * - NEGISHI
+    - 1.4
+  * - SCHOLAR
+    - 1.4
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run whatshap on our clusters::
 
     module --force purge
     ml biocontainers whatshap
-

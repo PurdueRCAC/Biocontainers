@@ -16,8 +16,25 @@ Basenji is a tool for sequential regulatory activity predictions with deep convo
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.5.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.5.1
+  * - BELL
+    - 0.5.1
+  * - GAUTSCHI
+    - 0.5.1
+  * - NEGISHI
+    - 0.5.1
+  * - SCHOLAR
+    - 0.5.1
 
 Commands
 ~~~~~~~
@@ -127,4 +144,3 @@ To run basenji on our clusters::
 
     module --force purge
     ml biocontainers basenji
-

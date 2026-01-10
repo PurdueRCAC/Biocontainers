@@ -16,9 +16,25 @@ Muscle is a modified progressive alignment algorithm which has comparable accura
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.8.1551
-- 5.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.8.1551, 5.1
+  * - BELL
+    - 3.8.1551, 5.1
+  * - GAUTSCHI
+    - 3.8.1551, 5.1
+  * - NEGISHI
+    - 3.8.1551, 5.1
+  * - SCHOLAR
+    - 3.8.1551, 5.1
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run muscle on our clusters::
 
     module --force purge
     ml biocontainers muscle
-

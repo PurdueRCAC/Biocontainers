@@ -16,8 +16,25 @@ HISAT2 is a fast and sensitive alignment program for mapping next-generation seq
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.2.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.2.1
+  * - BELL
+    - 2.2.1
+  * - GAUTSCHI
+    - 2.2.1
+  * - NEGISHI
+    - 2.2.1
+  * - SCHOLAR
+    - 2.2.1
 
 Commands
 ~~~~~~~
@@ -65,4 +82,3 @@ To run hisat2 on our clusters::
 
     module --force purge
     ml biocontainers hisat2
-

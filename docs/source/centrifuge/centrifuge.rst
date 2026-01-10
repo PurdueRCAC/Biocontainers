@@ -16,8 +16,25 @@ Centrifuge is a novel microbial classification engine that enables rapid, accura
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.0.4_beta
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.0.4_beta
+  * - BELL
+    - 1.0.4_beta
+  * - GAUTSCHI
+    - 1.0.4_beta
+  * - NEGISHI
+    - 1.0.4_beta
+  * - SCHOLAR
+    - 1.0.4_beta
 
 Commands
 ~~~~~~~
@@ -63,4 +80,3 @@ To run centrifuge on our clusters::
 
     module --force purge
     ml biocontainers centrifuge
-

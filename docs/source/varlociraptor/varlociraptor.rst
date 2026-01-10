@@ -16,8 +16,25 @@ Varlociraptor implements a novel, unified fully uncertainty-aware approach to ge
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.11.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.11.4
+  * - BELL
+    - 4.11.4
+  * - GAUTSCHI
+    - 4.11.4
+  * - NEGISHI
+    - 4.11.4
+  * - SCHOLAR
+    - 4.11.4
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run varlociraptor on our clusters::
 
     module --force purge
     ml biocontainers varlociraptor
-

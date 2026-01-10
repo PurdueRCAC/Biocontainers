@@ -16,8 +16,25 @@ Shortstack is a tool for comprehensive annotation and quantification of small RN
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.8.5
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.8.5
+  * - BELL
+    - 3.8.5
+  * - GAUTSCHI
+    - 3.8.5
+  * - NEGISHI
+    - 3.8.5
+  * - SCHOLAR
+    - 3.8.5
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run shortstack on our clusters::
 
     module --force purge
     ml biocontainers shortstack
-

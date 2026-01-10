@@ -16,8 +16,25 @@ Cdbtools is a collection of tools used for creating indices for quick retrieval 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.99
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.99
+  * - BELL
+    - 0.99
+  * - GAUTSCHI
+    - 0.99
+  * - NEGISHI
+    - 0.99
+  * - SCHOLAR
+    - 0.99
 
 Commands
 ~~~~~~~
@@ -50,4 +67,3 @@ To run cdbtools on our clusters::
 
     module --force purge
     ml biocontainers cdbtools
-

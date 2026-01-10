@@ -16,8 +16,25 @@ Krakentools is a suite of scripts to be used for post-analysis of Kraken/KrakenU
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.2
+  * - BELL
+    - 1.2
+  * - GAUTSCHI
+    - 1.2
+  * - NEGISHI
+    - 1.2
+  * - SCHOLAR
+    - 1.2
 
 Commands
 ~~~~~~~
@@ -59,4 +76,3 @@ To run krakentools on our clusters::
 
     module --force purge
     ml biocontainers krakentools
-

@@ -16,9 +16,25 @@ Multiqc is a reporting tool that parses summary statistics from results and log 
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.11
-- 1.14
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.11, 1.14, 1.21, 1.23
+  * - BELL
+    - 1.11, 1.14, 1.21, 1.23
+  * - GAUTSCHI
+    - 1.11, 1.14, 1.21, 1.23
+  * - NEGISHI
+    - 1.11, 1.14, 1.21, 1.23
+  * - SCHOLAR
+    - 1.11, 1.14
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run multiqc on our clusters::
 
     module --force purge
     ml biocontainers multiqc
-

@@ -16,8 +16,25 @@ Snippy is a tool for rapid haploid variant calling and core genome alignment.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 4.6.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 4.6.0
+  * - BELL
+    - 4.6.0
+  * - GAUTSCHI
+    - 4.6.0
+  * - NEGISHI
+    - 4.6.0
+  * - SCHOLAR
+    - 4.6.0
 
 Commands
 ~~~~~~~
@@ -55,4 +72,3 @@ To run snippy on our clusters::
 
     module --force purge
     ml biocontainers snippy
-

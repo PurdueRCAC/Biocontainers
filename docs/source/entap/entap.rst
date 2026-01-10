@@ -16,9 +16,19 @@ The Eukaryotic Non-Model Transcriptome Annotation Pipeline (EnTAP) is designed t
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0.0
-- 2.2.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - BELL
+    - 2.0.0, 2.2.0
+  * - NEGISHI
+    - 2.0.0, 2.2.0
 
 Commands
 ~~~~~~~
@@ -50,4 +60,3 @@ To run entap on our clusters::
 
     module --force purge
     ml biocontainers entap
-

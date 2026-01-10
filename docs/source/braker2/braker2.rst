@@ -15,8 +15,25 @@ BRAKER is a pipeline for fully automated prediction of protein coding gene struc
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.1.6
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.1.6
+  * - BELL
+    - 2.1.6
+  * - GAUTSCHI
+    - 2.1.6
+  * - NEGISHI
+    - 2.1.6
+  * - SCHOLAR
+    - 2.1.6
 
 Commands
 ~~~~~~~
@@ -48,4 +65,3 @@ To run braker2 on our clusters::
 
     module --force purge
     ml biocontainers braker2
-

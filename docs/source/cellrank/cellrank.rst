@@ -15,8 +15,25 @@ Cellrank is a toolkit to uncover cellular dynamics based on Markov state modelin
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.5.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.5.1
+  * - BELL
+    - 1.5.1
+  * - GAUTSCHI
+    - 1.5.1
+  * - NEGISHI
+    - 1.5.1
+  * - SCHOLAR
+    - 1.5.1
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run cellrank on our clusters::
 
     module --force purge
     ml biocontainers cellrank
-

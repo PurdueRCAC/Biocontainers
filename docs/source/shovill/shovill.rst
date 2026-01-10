@@ -16,8 +16,25 @@ Shovill is a tool to assemble bacterial isolate genomes from Illumina paired-end
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.1.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.1.0
+  * - BELL
+    - 1.1.0
+  * - GAUTSCHI
+    - 1.1.0
+  * - NEGISHI
+    - 1.1.0
+  * - SCHOLAR
+    - 1.1.0
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run shovill on our clusters::
 
     module --force purge
     ml biocontainers shovill
-

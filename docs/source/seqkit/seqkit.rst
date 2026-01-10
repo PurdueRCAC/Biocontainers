@@ -16,10 +16,25 @@ Seqkit is a rapid tool for manipulating fasta and fastq files.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0.0
-- 2.1.0
-- 2.3.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.0.0, 2.1.0, 2.3.1
+  * - BELL
+    - 2.0.0, 2.1.0, 2.3.1
+  * - GAUTSCHI
+    - 2.0.0, 2.1.0, 2.3.1
+  * - NEGISHI
+    - 2.0.0, 2.1.0, 2.3.1
+  * - SCHOLAR
+    - 2.0.0, 2.1.0, 2.3.1
 
 Commands
 ~~~~~~~
@@ -51,4 +66,3 @@ To run seqkit on our clusters::
 
     module --force purge
     ml biocontainers seqkit
-

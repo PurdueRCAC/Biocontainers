@@ -16,8 +16,25 @@ Pyensembl is a Python interface to Ensembl reference genome metadata such as exo
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.9.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.9.4
+  * - BELL
+    - 1.9.4
+  * - GAUTSCHI
+    - 1.9.4
+  * - NEGISHI
+    - 1.9.4
+  * - SCHOLAR
+    - 1.9.4
 
 Commands
 ~~~~~~~
@@ -51,4 +68,3 @@ To run pyensembl on our clusters::
 
     module --force purge
     ml biocontainers pyensembl
-

@@ -16,9 +16,25 @@ Humann is a pipeline for efficiently and accurately profiling the presence/absen
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.0.0
-- 3.6
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.0.0, 3.6
+  * - BELL
+    - 3.0.0, 3.6
+  * - GAUTSCHI
+    - 3.0.0, 3.6
+  * - NEGISHI
+    - 3.0.0, 3.6
+  * - SCHOLAR
+    - 3.0.0, 3.6
 
 Commands
 ~~~~~~~
@@ -72,4 +88,3 @@ To run humann on our clusters::
 
     module --force purge
     ml biocontainers humann
-

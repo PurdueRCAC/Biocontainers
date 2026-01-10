@@ -16,8 +16,25 @@ Smoove simplifies and speeds calling and genotyping SVs for short reads.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.2.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.2.7
+  * - BELL
+    - 0.2.7
+  * - GAUTSCHI
+    - 0.2.7
+  * - NEGISHI
+    - 0.2.7
+  * - SCHOLAR
+    - 0.2.7
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run smoove on our clusters::
 
     module --force purge
     ml biocontainers smoove
-

@@ -16,8 +16,25 @@ Kmc is a tool for efficient k-mer counting and filtering of reads based on k-mer
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.2.1
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.2.1
+  * - BELL
+    - 3.2.1
+  * - GAUTSCHI
+    - 3.2.1
+  * - NEGISHI
+    - 3.2.1
+  * - SCHOLAR
+    - 3.2.1
 
 Commands
 ~~~~~~~
@@ -51,4 +68,3 @@ To run kmc on our clusters::
 
     module --force purge
     ml biocontainers kmc
-

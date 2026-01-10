@@ -16,9 +16,25 @@ ABySS is a de novo sequence assembler intended for short paired-end reads and ge
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.3.2
-- 2.3.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.3.2, 2.3.4, 2.3.8
+  * - BELL
+    - 2.3.2, 2.3.4, 2.3.8
+  * - GAUTSCHI
+    - 2.3.2, 2.3.4, 2.3.8
+  * - NEGISHI
+    - 2.3.2, 2.3.4, 2.3.8
+  * - SCHOLAR
+    - 2.3.2, 2.3.4
 
 Commands
 ~~~~~~~
@@ -104,4 +120,3 @@ To run abyss on our clusters::
 
     module --force purge
     ml biocontainers abyss
-

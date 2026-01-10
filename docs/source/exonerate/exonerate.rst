@@ -16,8 +16,25 @@ Exonerate is a generic tool for pairwise sequence comparison/alignment.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.4.0
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.4.0
+  * - BELL
+    - 2.4.0
+  * - GAUTSCHI
+    - 2.4.0
+  * - NEGISHI
+    - 2.4.0
+  * - SCHOLAR
+    - 2.4.0
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run exonerate on our clusters::
 
     module --force purge
     ml biocontainers exonerate
-

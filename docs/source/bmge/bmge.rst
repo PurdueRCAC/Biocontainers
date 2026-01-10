@@ -16,8 +16,25 @@ Bmge is a program that selects regions in a multiple sequence alignment that are
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.12
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.12
+  * - BELL
+    - 1.12
+  * - GAUTSCHI
+    - 1.12
+  * - NEGISHI
+    - 1.12
+  * - SCHOLAR
+    - 1.12
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run bmge on our clusters::
 
     module --force purge
     ml biocontainers bmge
-

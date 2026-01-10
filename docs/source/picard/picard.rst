@@ -16,9 +16,25 @@ Picard is a set of command line tools for manipulating high-throughput sequencin
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.25.1
-- 2.26.10
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.25.1, 2.26.10, 3.1.1
+  * - BELL
+    - 2.25.1, 2.26.10, 3.1.1, 3.3.0
+  * - GAUTSCHI
+    - 2.25.1, 2.26.10, 3.1.1
+  * - NEGISHI
+    - 2.25.1, 2.26.10, 3.1.1, 3.3.0
+  * - SCHOLAR
+    - 2.25.1, 2.26.10
 
 Commands
 ~~~~~~~
@@ -50,4 +66,3 @@ To run picard on our clusters::
 
     module --force purge
     ml biocontainers picard
-

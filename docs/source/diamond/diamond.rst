@@ -16,11 +16,25 @@ Diamond is sequence aligner for protein and translated DNA searches, designed fo
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.0.13
-- 2.0.14
-- 2.0.15
-- 2.1.6
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.0.13, 2.0.14, 2.0.15, 2.1.6
+  * - BELL
+    - 2.0.13, 2.0.14, 2.0.15, 2.1.6
+  * - GAUTSCHI
+    - 2.0.13, 2.0.14, 2.0.15, 2.1.6
+  * - NEGISHI
+    - 2.0.13, 2.0.14, 2.0.15, 2.1.6
+  * - SCHOLAR
+    - 2.0.13, 2.0.14, 2.0.15, 2.1.6
 
 Commands
 ~~~~~~~
@@ -52,4 +66,3 @@ To run diamond on our clusters::
 
     module --force purge
     ml biocontainers diamond
-

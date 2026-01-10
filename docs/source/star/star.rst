@@ -16,10 +16,25 @@ STAR (Spliced Transcripts Alignment to a Reference) is an ultrafast universal RN
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.7.10a
-- 2.7.10b
-- 2.7.9a
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.7.10a, 2.7.10b, 2.7.11b, 2.7.9a
+  * - BELL
+    - 2.7.10a, 2.7.10b, 2.7.11b, 2.7.9a
+  * - GAUTSCHI
+    - 2.7.10a, 2.7.10b, 2.7.11b, 2.7.9a
+  * - NEGISHI
+    - 2.7.10a, 2.7.10b, 2.7.11b, 2.7.9a
+  * - SCHOLAR
+    - 2.7.10a, 2.7.10b, 2.7.9a
 
 Commands
 ~~~~~~~
@@ -52,4 +67,3 @@ To run star on our clusters::
 
     module --force purge
     ml biocontainers star
-

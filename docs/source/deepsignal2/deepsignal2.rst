@@ -15,8 +15,25 @@ Deepsignal2 is a deep-learning method for detecting DNA methylation state from O
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 0.1.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 0.1.2
+  * - BELL
+    - 0.1.2
+  * - GAUTSCHI
+    - 0.1.2
+  * - NEGISHI
+    - 0.1.2
+  * - SCHOLAR
+    - 0.1.2
 
 Commands
 ~~~~~~~
@@ -60,4 +77,3 @@ To run deepsignal2 on our clusters::
 
     module --force purge
     ml biocontainers deepsignal2
-

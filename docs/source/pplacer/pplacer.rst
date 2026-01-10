@@ -16,8 +16,25 @@ Pplacer places query sequences on a fixed reference phylogenetic tree to maximiz
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.1.alpha19
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.1.alpha19
+  * - BELL
+    - 1.1.alpha19
+  * - GAUTSCHI
+    - 1.1.alpha19
+  * - NEGISHI
+    - 1.1.alpha19
+  * - SCHOLAR
+    - 1.1.alpha19
 
 Commands
 ~~~~~~~
@@ -51,4 +68,3 @@ To run pplacer on our clusters::
 
     module --force purge
     ml biocontainers pplacer
-

@@ -15,8 +15,25 @@ NextDenovo is a string graph-based de novo assembler for long reads (CLR, HiFi a
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.5.2
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.5.2
+  * - BELL
+    - 2.5.2
+  * - GAUTSCHI
+    - 2.5.2
+  * - NEGISHI
+    - 2.5.2
+  * - SCHOLAR
+    - 2.5.2
 
 Commands
 ~~~~~~~
@@ -48,4 +65,3 @@ To run nextdenovo on our clusters::
 
     module --force purge
     ml biocontainers nextdenovo
-

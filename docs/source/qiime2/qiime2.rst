@@ -16,14 +16,25 @@ QIIME 2 is a powerful, extensible, and decentralized microbiome analysis package
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2021.2
-- 2022.11
-- 2022.2
-- 2022.8
-- 2023.2
-- 2023.5
-- 2023.7
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2021.2, 2022.2, 2022.8, 2022.11, 2023.2, 2023.5, 2023.7, 2024.2
+  * - BELL
+    - 2021.2, 2022.2, 2022.8, 2022.11, 2023.2, 2023.5, 2023.7, 2024.2, 2024.10
+  * - GAUTSCHI
+    - 2021.2, 2022.2, 2022.8, 2022.11, 2023.2, 2023.5, 2023.7, 2024.2
+  * - NEGISHI
+    - 2021.2, 2022.2, 2022.8, 2022.11, 2023.2, 2023.5, 2023.7, 2024.2, 2024.10
+  * - SCHOLAR
+    - 2021.2, 2022.2, 2022.8, 2022.11, 2023.2, 2023.5, 2023.7
 
 Commands
 ~~~~~~~
@@ -58,4 +69,3 @@ To run qiime2 on our clusters::
 
     module --force purge
     ml biocontainers qiime2
-

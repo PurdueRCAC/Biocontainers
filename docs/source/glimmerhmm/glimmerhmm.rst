@@ -16,8 +16,25 @@ Glimmerhmm is a new gene finder based on a Generalized Hidden Markov Model (GHMM
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 3.0.4
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 3.0.4
+  * - BELL
+    - 3.0.4
+  * - GAUTSCHI
+    - 3.0.4
+  * - NEGISHI
+    - 3.0.4
+  * - SCHOLAR
+    - 3.0.4
 
 Commands
 ~~~~~~~
@@ -51,4 +68,3 @@ To run glimmerhmm on our clusters::
 
     module --force purge
     ml biocontainers glimmerhmm
-

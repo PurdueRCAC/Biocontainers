@@ -16,8 +16,25 @@ Bedops is a software package for manipulating and analyzing genomic interval dat
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2.4.39
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2.4.39
+  * - BELL
+    - 2.4.39
+  * - GAUTSCHI
+    - 2.4.39
+  * - NEGISHI
+    - 2.4.39
+  * - SCHOLAR
+    - 2.4.39
 
 Commands
 ~~~~~~~
@@ -213,4 +230,3 @@ To run bedops on our clusters::
 
     module --force purge
     ml biocontainers bedops
-

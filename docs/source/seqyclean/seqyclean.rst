@@ -16,8 +16,25 @@ Seqyclean is used to pre-process NGS data in order to prepare for downstream ana
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 1.10.09
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 1.10.09
+  * - BELL
+    - 1.10.09
+  * - GAUTSCHI
+    - 1.10.09
+  * - NEGISHI
+    - 1.10.09
+  * - SCHOLAR
+    - 1.10.09
 
 Commands
 ~~~~~~~
@@ -49,4 +66,3 @@ To run seqyclean on our clusters::
 
     module --force purge
     ml biocontainers seqyclean
-

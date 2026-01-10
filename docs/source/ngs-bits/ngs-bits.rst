@@ -16,8 +16,25 @@ Ngs-bits - Short-read sequencing tools.
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
 
 Versions
-~~~~~~~~
-- 2022_04
+~~~~~~~
+.. list-table::
+  :width: 100 %
+  :widths: 25 75
+  :header-rows: 1
+
+  * - Cluster
+    - Version(s)
+
+  * - ANVIL
+    - 2022_04
+  * - BELL
+    - 2022_04
+  * - GAUTSCHI
+    - 2022_04
+  * - NEGISHI
+    - 2022_04
+  * - SCHOLAR
+    - 2022_04
 
 Commands
 ~~~~~~~
@@ -132,4 +149,3 @@ To run ngs-bits on our clusters::
 
     module --force purge
     ml biocontainers ngs-bits
-
