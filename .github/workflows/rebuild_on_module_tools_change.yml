@@ -1,0 +1,57 @@
+name: Run Make on modulefiles and tools change (GitHub App)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'modulefiles/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: scripts/documentation
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false  # we'll use our own token instead of GITHUB_TOKEN
+
+      - name: Generate GitHub App installation token
+        id: app-token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.PURDUERCAC_DOCS_BOT_APP_ID }}
+          private_key: ${{ secrets.PURDUERCAC_DOCS_BOT_PRIVATE_KEY }}
+
+      - name: Configure git identity
+        run: |
+          git config user.name "purduercac-docs-bot"
+          git config user.email "purduercac-docs-bot@users.noreply.github.com"
+          git pull
+
+      - name: Run make
+        run: make
+
+      - name: Commit and push changes (using App token)
+        env:
+          GITHUB_APP_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          # Stage any modified files BEFORE pulling to avoid unstaged changes
+          git add ../../docs || true
+          
+          # Pull and rebase with staged changes
+          git pull origin ${{ github.ref_name }} --rebase || git pull origin ${{ github.ref_name }}
+
+          # Re-stage in case rebase changed files
+          
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Auto-update Biocontainer docs on modulefiles change"
+          git push https://x-access-token:${GITHUB_APP_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
