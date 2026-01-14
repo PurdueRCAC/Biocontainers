@@ -24,6 +24,8 @@ Versions
   * - Cluster
     - Version(s)
 
+  * - ANVIL
+    - 1.3.1
   * - BELL
     - 1.3.1
   * - GAUTSCHI
