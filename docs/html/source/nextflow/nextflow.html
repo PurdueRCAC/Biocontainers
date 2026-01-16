@@ -1,0 +1,854 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nextflow &mdash; RCAC Biocontainers v1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=e160b93e"></script>
+      <script src="../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Nextpolish" href="../nextpolish/nextpolish.html" />
+    <link rel="prev" title="Nextdenovo" href="../nextdenovo/nextdenovo.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            RCAC Biocontainers
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Frequently Asked Questions</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">Frequently Asked Questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Singularity</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../singularity.html">Singularity</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Application list</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../abacas/abacas.html">Abacas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../abismal/abismal.html">Abismal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../abpoa/abpoa.html">Abpoa</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../abricate/abricate.html">Abricate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../abyss/abyss.html">Abyss</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../actc/actc.html">Actc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adapterremoval/adapterremoval.html">Adapterremoval</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../admixture/admixture.html">Admixture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../advntr/advntr.html">Advntr</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../afplot/afplot.html">Afplot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../afterqc/afterqc.html">Afterqc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agat/agat.html">Agat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agfusion/agfusion.html">Agfusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../alfred/alfred.html">Alfred</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../alien-hunter/alien-hunter.html">Alien-hunter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../alignstats/alignstats.html">Alignstats</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../allpathslg/allpathslg.html">Allpathslg</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../alphafold/alphafold.html">Alphafold</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../amptk/amptk.html">Amptk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ananse/ananse.html">Ananse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anchorwave/anchorwave.html">Anchorwave</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../angsd/angsd.html">Angsd</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../annogesic/annogesic.html">Annogesic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../annovar/annovar.html">Annovar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../antismash/antismash.html">Antismash</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anvio/anvio.html">Anvio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../any2fasta/any2fasta.html">Any2fasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../aragorn/aragorn.html">Aragorn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arboreto/arboreto.html">Arboreto</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arcs/arcs.html">Arcs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ariba/ariba.html">Ariba</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ascatngs/ascatngs.html">Ascatngs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asgal/asgal.html">Asgal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../aspera-connect/aspera-connect.html">Aspera-connect</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../assembly-stats/assembly-stats.html">Assembly-stats</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../atac-seq-pipeline/atac-seq-pipeline.html">Atac-seq-pipeline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ataqv/ataqv.html">Ataqv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../atram/atram.html">Atram</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../atropos/atropos.html">Atropos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../augur/augur.html">Augur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../augustus/augustus.html">Augustus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bactopia/bactopia.html">Bactopia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bali-phy/bali-phy.html">Bali-phy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bam-readcount/bam-readcount.html">Bam-readcount</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bamgineer/bamgineer.html">Bamgineer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bamliquidator/bamliquidator.html">Bamliquidator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bamscale/bamscale.html">Bamscale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bamsurgeon/bamsurgeon.html">Bamsurgeon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bamtools/bamtools.html">Bamtools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bamutil/bamutil.html">Bamutil</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bandage/bandage.html">Bandage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bandage-ng/bandage-ng.html">Bandage-ng</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../barrnap/barrnap.html">Barrnap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basenji/basenji.html">Basenji</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bases2fastq/bases2fastq.html">Bases2fastq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bayescan/bayescan.html">Bayescan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bazam/bazam.html">Bazam</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bbmap/bbmap.html">Bbmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bbtools/bbtools.html">Bbtools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bcfanno/bcfanno.html">Bcfanno</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bcftools/bcftools.html">Bcftools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bcl2fastq/bcl2fastq.html">Bcl2fastq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../beagle/beagle.html">Beagle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../beast2/beast2.html">Beast2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bedops/bedops.html">Bedops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bedtools/bedtools.html">Bedtools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bioawk/bioawk.html">Bioawk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../biobambam/biobambam.html">Biobambam</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bioconvert/bioconvert.html">Bioconvert</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../biopython/biopython.html">Biopython</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bismark/bismark.html">Bismark</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../blasr/blasr.html">Blasr</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../blast/blast.html">Blast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../blobtools/blobtools.html">Blobtools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bmge/bmge.html">Bmge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bowtie/bowtie.html">Bowtie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bowtie2/bowtie2.html">Bowtie2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bracken/bracken.html">Bracken</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../braker2/braker2.html">Braker2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../braker3/braker3.html">Braker3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../brass/brass.html">Brass</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../breseq/breseq.html">Breseq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../busco/busco.html">Busco</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bustools/bustools.html">Bustools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bwa/bwa.html">Bwa</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bwameth/bwameth.html">Bwameth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bwtool/bwtool.html">Bwtool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cactus/cactus.html">Cactus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cafe/cafe.html">Cafe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../canu/canu.html">Canu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ccs/ccs.html">Ccs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cd-hit/cd-hit.html">Cd-hit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cdbtools/cdbtools.html">Cdbtools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cegma/cegma.html">Cegma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cellbender/cellbender.html">Cellbender</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cellphonedb/cellphonedb.html">Cellphonedb</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cellprofiler/cellprofiler.html">Cellprofiler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cellranger/cellranger.html">Cellranger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cellranger-arc/cellranger-arc.html">Cellranger-arc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cellranger-atac/cellranger-atac.html">Cellranger-atac</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cellranger-dna/cellranger-dna.html">Cellranger-dna</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cellrank/cellrank.html">Cellrank</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cellrank-krylov/cellrank-krylov.html">Cellrank-krylov</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cellsnp-lite/cellsnp-lite.html">Cellsnp-lite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../celltypist/celltypist.html">Celltypist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cellxgene/cellxgene.html">Cellxgene</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../centrifuge/centrifuge.html">Centrifuge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cfsan-snp-pipeline/cfsan-snp-pipeline.html">Cfsan-snp-pipeline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../checkm-genome/checkm-genome.html">Checkm-genome</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../chewbbaca/chewbbaca.html">Chewbbaca</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../chopper/chopper.html">Chopper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../chromap/chromap.html">Chromap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cicero/cicero.html">Cicero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../circexplorer2/circexplorer2.html">Circexplorer2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../circlator/circlator.html">Circlator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../circompara2/circompara2.html">Circompara2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../circos/circos.html">Circos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ciri2/ciri2.html">Ciri2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ciriquant/ciriquant.html">Ciriquant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cistrome_beta/cistrome_beta.html">Cistrome_beta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../clair3/clair3.html">Clair3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../clairvoyante/clairvoyante.html">Clairvoyante</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../clearcnv/clearcnv.html">Clearcnv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../clever-toolkit/clever-toolkit.html">Clever-toolkit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../clonalframeml/clonalframeml.html">Clonalframeml</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../clust/clust.html">Clust</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../clustalw/clustalw.html">Clustalw</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cnvkit/cnvkit.html">Cnvkit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cnvnator/cnvnator.html">Cnvnator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../coinfinder/coinfinder.html">Coinfinder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../compleasm/compleasm.html">Compleasm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../concoct/concoct.html">Concoct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../control-freec/control-freec.html">Control-freec</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cooler/cooler.html">Cooler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../coverm/coverm.html">Coverm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../covgen/covgen.html">Covgen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cramino/cramino.html">Cramino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../crisprcasfinder/crisprcasfinder.html">Crisprcasfinder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../crispresso2/crispresso2.html">Crispresso2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../crispritz/crispritz.html">Crispritz</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cross_match/cross_match.html">Cross_match</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../crossmap/crossmap.html">Crossmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../csvkit/csvkit.html">Csvkit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../csvtk/csvtk.html">Csvtk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cufflinks/cufflinks.html">Cufflinks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cutadapt/cutadapt.html">Cutadapt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cuttlefish/cuttlefish.html">Cuttlefish</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cyvcf2/cyvcf2.html">Cyvcf2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../das_tool/das_tool.html">Das_tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../datamash/datamash.html">Datamash</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dbg2olc/dbg2olc.html">Dbg2olc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../debreak/debreak.html">Debreak</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deconseq/deconseq.html">Deconseq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deepbgc/deepbgc.html">Deepbgc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deepconsensus/deepconsensus.html">Deepconsensus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deepsignal2/deepsignal2.html">Deepsignal2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deeptools/deeptools.html">Deeptools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deepvariant/deepvariant.html">Deepvariant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../delly/delly.html">Delly</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dendropy/dendropy.html">Dendropy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diamond/diamond.html">Diamond</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diann/diann.html">Diann</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diffcorank/diffcorank.html">Diffcorank</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../disambiguate/disambiguate.html">Disambiguate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dnaapler/dnaapler.html">Dnaapler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dnaio/dnaio.html">Dnaio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dragonflye/dragonflye.html">Dragonflye</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../drep/drep.html">Drep</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../drop-seq/drop-seq.html">Drop-seq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dropest/dropest.html">Dropest</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dsuite/dsuite.html">Dsuite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../easymap/easymap.html">Easymap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../easysfs/easysfs.html">Easysfs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../edta/edta.html">Edta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../eggnog-mapper/eggnog-mapper.html">Eggnog-mapper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../emboss/emboss.html">Emboss</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ensembl-vep/ensembl-vep.html">Ensembl-vep</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../entap/entap.html">Entap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../epic2/epic2.html">Epic2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../evidencemodeler/evidencemodeler.html">Evidencemodeler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exonerate/exonerate.html">Exonerate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../expansionhunter/expansionhunter.html">Expansionhunter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fasta3/fasta3.html">Fasta3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fastani/fastani.html">Fastani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fastp/fastp.html">Fastp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fastq-dl/fastq-dl.html">Fastq-dl</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fastq-scan/fastq-scan.html">Fastq-scan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fastq_pair/fastq_pair.html">Fastq_pair</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fastqc/fastqc.html">Fastqc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fastspar/fastspar.html">Fastspar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faststructure/faststructure.html">Faststructure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fasttree/fasttree.html">Fasttree</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fastx_toolkit/fastx_toolkit.html">Fastx_toolkit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feems/feems.html">Feems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../filtlong/filtlong.html">Filtlong</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../flair/flair.html">Flair</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fluent-pipseeker/fluent-pipseeker.html">Fluent-pipseeker</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../flye/flye.html">Flye</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fq/fq.html">Fq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fraggenescan/fraggenescan.html">Fraggenescan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fraggenescanrs/fraggenescanrs.html">Fraggenescanrs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fragpipe/fragpipe.html">Fragpipe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../freebayes/freebayes.html">Freebayes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../freyja/freyja.html">Freyja</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fseq/fseq.html">Fseq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ftp/ftp.html">Ftp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../funannotate/funannotate.html">Funannotate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fusioncatcher/fusioncatcher.html">Fusioncatcher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fwdpy11/fwdpy11.html">Fwdpy11</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gadma/gadma.html">Gadma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gambit/gambit.html">Gambit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gamma/gamma.html">Gamma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gangstr/gangstr.html">Gangstr</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gapfiller/gapfiller.html">Gapfiller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gapit/gapit.html">Gapit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gatk/gatk.html">Gatk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gatk4/gatk4.html">Gatk4</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gemma/gemma.html">Gemma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gemoma/gemoma.html">Gemoma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../genemark/genemark.html">Genemark</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../genemarks-2/genemarks-2.html">Genemarks-2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../genmap/genmap.html">Genmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../genomedata/genomedata.html">Genomedata</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../genomepy/genomepy.html">Genomepy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../genomescope2/genomescope2.html">Genomescope2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../genomicconsensus/genomicconsensus.html">Genomicconsensus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../genrich/genrich.html">Genrich</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getorganelle/getorganelle.html">Getorganelle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gfaffix/gfaffix.html">Gfaffix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gfastats/gfastats.html">Gfastats</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gfatools/gfatools.html">Gfatools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gffcompare/gffcompare.html">Gffcompare</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gffread/gffread.html">Gffread</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gffutils/gffutils.html">Gffutils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gfold/gfold.html">Gfold</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gimmemotifs/gimmemotifs.html">Gimmemotifs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glimmer/glimmer.html">Glimmer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glimmerhmm/glimmerhmm.html">Glimmerhmm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glnexus/glnexus.html">Glnexus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gmap/gmap.html">Gmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../goatools/goatools.html">Goatools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gone/gone.html">Gone</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphlan/graphlan.html">Graphlan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphmap/graphmap.html">Graphmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gridss/gridss.html">Gridss</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gseapy/gseapy.html">Gseapy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gtdbtk/gtdbtk.html">Gtdbtk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gtftools/gtftools.html">Gtftools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gubbins/gubbins.html">Gubbins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guidance2/guidance2.html">Guidance2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guppy/guppy.html">Guppy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hail/hail.html">Hail</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hap.py/hap.py.html">Hap.py</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../helen/helen.html">Helen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hic-pro/hic-pro.html">Hic-pro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hicexplorer/hicexplorer.html">Hicexplorer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hifiasm/hifiasm.html">Hifiasm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hisat2/hisat2.html">Hisat2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hmmer/hmmer.html">Hmmer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../homer/homer.html">Homer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../homer2/homer2.html">Homer2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../homopolish/homopolish.html">Homopolish</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../how_are_we_stranded_here/how_are_we_stranded_here.html">How_are_we_stranded_here</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../htseq/htseq.html">Htseq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../htslib/htslib.html">Htslib</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../htstream/htstream.html">Htstream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hubdesign/hubdesign.html">Hubdesign</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../humann/humann.html">Humann</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hyphy/hyphy.html">Hyphy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hypo/hypo.html">Hypo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../idba/idba.html">Idba</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../igv/igv.html">Igv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../impute2/impute2.html">Impute2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infernal/infernal.html">Infernal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../instrain/instrain.html">Instrain</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intarna/intarna.html">Intarna</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../interproscan/interproscan.html">Interproscan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ipyrad/ipyrad.html">Ipyrad</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../iqtree/iqtree.html">Iqtree</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../iqtree2/iqtree2.html">Iqtree2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../irods/irods.html">Irods</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ismapper/ismapper.html">Ismapper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../isoquant/isoquant.html">Isoquant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../isoseq3/isoseq3.html">Isoseq3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ivar/ivar.html">Ivar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../jcvi/jcvi.html">Jcvi</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../juicer/juicer.html">Juicer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../jvarkit/jvarkit.html">Jvarkit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kaiju/kaiju.html">Kaiju</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kakscalculator2/kakscalculator2.html">Kakscalculator2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kallisto/kallisto.html">Kallisto</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kentutils/kentutils.html">Kentutils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../khmer/khmer.html">Khmer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kissde/kissde.html">Kissde</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kissplice/kissplice.html">Kissplice</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kissplice2refgenome/kissplice2refgenome.html">Kissplice2refgenome</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kma/kma.html">Kma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kmc/kmc.html">Kmc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kmer-jellyfish/kmer-jellyfish.html">Kmer-jellyfish</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kmergenie/kmergenie.html">Kmergenie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kneaddata/kneaddata.html">Kneaddata</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kover/kover.html">Kover</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kraken2/kraken2.html">Kraken2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../krakentools/krakentools.html">Krakentools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lambda/lambda.html">Lambda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../last/last.html">Last</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lastz/lastz.html">Lastz</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ldhat/ldhat.html">Ldhat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ldjump/ldjump.html">Ldjump</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ldsc/ldsc.html">Ldsc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../liftoff/liftoff.html">Liftoff</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../liftofftools/liftofftools.html">Liftofftools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lima/lima.html">Lima</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../links/links.html">Links</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lofreq/lofreq.html">Lofreq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../longphase/longphase.html">Longphase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../longqc/longqc.html">Longqc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lr_gapcloser/lr_gapcloser.html">Lr_gapcloser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lra/lra.html">Lra</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ltr_finder/ltr_finder.html">Ltr_finder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ltrpred/ltrpred.html">Ltrpred</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lumpy-sv/lumpy-sv.html">Lumpy-sv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lyveset/lyveset.html">Lyveset</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../macrel/macrel.html">Macrel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../macs2/macs2.html">Macs2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../macs3/macs3.html">Macs3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mafft/mafft.html">Mafft</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mageck/mageck.html">Mageck</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mageck-vispr/mageck-vispr.html">Mageck-vispr</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magicblast/magicblast.html">Magicblast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../maker/maker.html">Maker</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../manchester-gffutils/manchester-gffutils.html">Manchester-gffutils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../manta/manta.html">Manta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mapcaller/mapcaller.html">Mapcaller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mapdamage2/mapdamage2.html">Mapdamage2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../marginpolish/marginpolish.html">Marginpolish</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mash/mash.html">Mash</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mashmap/mashmap.html">Mashmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mashtree/mashtree.html">Mashtree</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../masurca/masurca.html">Masurca</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mauve/mauve.html">Mauve</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../maxbin2/maxbin2.html">Maxbin2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../maxquant/maxquant.html">Maxquant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mcl/mcl.html">Mcl</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mcscanx/mcscanx.html">Mcscanx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../medaka/medaka.html">Medaka</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../megadepth/megadepth.html">Megadepth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../megahit/megahit.html">Megahit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../megan/megan.html">Megan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../meme/meme.html">Meme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../memes/memes.html">Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../meraculous/meraculous.html">Meraculous</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../merqury/merqury.html">Merqury</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../meryl/meryl.html">Meryl</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../metabat/metabat.html">Metabat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../metachip/metachip.html">Metachip</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../metaeuk/metaeuk.html">Metaeuk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../metaphlan/metaphlan.html">Metaphlan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../metaseq/metaseq.html">Metaseq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methyldackel/methyldackel.html">Methyldackel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../metilene/metilene.html">Metilene</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mhm2/mhm2.html">Mhm2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../microbedmm/microbedmm.html">Microbedmm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mikado/mikado.html">Mikado</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../minialign/minialign.html">Minialign</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../miniasm/miniasm.html">Miniasm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../minimap2/minimap2.html">Minimap2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../minipolish/minipolish.html">Minipolish</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../miniprot/miniprot.html">Miniprot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mirdeep2/mirdeep2.html">Mirdeep2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mirtop/mirtop.html">Mirtop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mitofinder/mitofinder.html">Mitofinder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mlst/mlst.html">Mlst</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mmseqs2/mmseqs2.html">Mmseqs2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mob_suite/mob_suite.html">Mob_suite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modbam2bed/modbam2bed.html">Modbam2bed</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modeltest-ng/modeltest-ng.html">Modeltest-ng</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../momi/momi.html">Momi</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mosdepth/mosdepth.html">Mosdepth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mothur/mothur.html">Mothur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../motus/motus.html">Motus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mrbayes/mrbayes.html">Mrbayes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../multiqc/multiqc.html">Multiqc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mummer4/mummer4.html">Mummer4</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../muscle/muscle.html">Muscle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mutmap/mutmap.html">Mutmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mykrobe/mykrobe.html">Mykrobe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../n50/n50.html">N50</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nanofilt/nanofilt.html">Nanofilt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nanolyse/nanolyse.html">Nanolyse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nanoplot/nanoplot.html">Nanoplot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nanopolish/nanopolish.html">Nanopolish</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nanosim/nanosim.html">Nanosim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ncbi-amrfinderplus/ncbi-amrfinderplus.html">Ncbi-amrfinderplus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ncbi-datasets/ncbi-datasets.html">Ncbi-datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ncbi-fcs-adaptor/ncbi-fcs-adaptor.html">Ncbi-fcs-adaptor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ncbi-fcs-gx/ncbi-fcs-gx.html">Ncbi-fcs-gx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ncbi-genome-download/ncbi-genome-download.html">Ncbi-genome-download</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ncbi-table2asn/ncbi-table2asn.html">Ncbi-table2asn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ne-estimator2x/ne-estimator2x.html">Ne-estimator2x</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../neusomatic/neusomatic.html">Neusomatic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nextalign/nextalign.html">Nextalign</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nextclade/nextclade.html">Nextclade</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nextdenovo/nextdenovo.html">Nextdenovo</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Nextflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nextpolish/nextpolish.html">Nextpolish</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ngs-bits/ngs-bits.html">Ngs-bits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ngsld/ngsld.html">Ngsld</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ngsutils/ngsutils.html">Ngsutils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../odgi/odgi.html">Odgi</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../omark/omark.html">Omark</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../orthofinder/orthofinder.html">Orthofinder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../paml/paml.html">Paml</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../panacota/panacota.html">Panacota</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../panaroo/panaroo.html">Panaroo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pandaseq/pandaseq.html">Pandaseq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pandora/pandora.html">Pandora</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pangolin/pangolin.html">Pangolin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pangraph/pangraph.html">Pangraph</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../panphlan/panphlan.html">Panphlan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parabricks/parabricks.html">Parabricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parallel-fastq-dump/parallel-fastq-dump.html">Parallel-fastq-dump</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parliament2/parliament2.html">Parliament2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parsnp/parsnp.html">Parsnp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pasapipeline/pasapipeline.html">Pasapipeline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pasta/pasta.html">Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pblat/pblat.html">Pblat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pbmm2/pbmm2.html">Pbmm2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pbptyper/pbptyper.html">Pbptyper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pcangsd/pcangsd.html">Pcangsd</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../peakranger/peakranger.html">Peakranger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pear/pear.html">Pear</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pepper_deepvariant/pepper_deepvariant.html">Pepper_deepvariant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../perl-bioperl/perl-bioperl.html">Perl-bioperl</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pggb/pggb.html">Pggb</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../phast/phast.html">Phast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../phd2fasta/phd2fasta.html">Phd2fasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../phg/phg.html">Phg</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../phipack/phipack.html">Phipack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../phrap/phrap.html">Phrap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../phred/phred.html">Phred</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../phylofisher/phylofisher.html">Phylofisher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../phylosuite/phylosuite.html">Phylosuite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../picard/picard.html">Picard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../picrust2/picrust2.html">Picrust2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pilon/pilon.html">Pilon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pindel/pindel.html">Pindel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pirate/pirate.html">Pirate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../piscem/piscem.html">Piscem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pixy/pixy.html">Pixy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plasmidfinder/plasmidfinder.html">Plasmidfinder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../platon/platon.html">Platon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../platypus/platypus.html">Platypus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plink/plink.html">Plink</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plink2/plink2.html">Plink2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plotsr/plotsr.html">Plotsr</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pomoxis/pomoxis.html">Pomoxis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../poppunk/poppunk.html">Poppunk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../popscle/popscle.html">Popscle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pplacer/pplacer.html">Pplacer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prinseq/prinseq.html">Prinseq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prodigal/prodigal.html">Prodigal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prokka/prokka.html">Prokka</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proteinortho/proteinortho.html">Proteinortho</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prothint/prothint.html">Prothint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../psmc/psmc.html">Psmc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pullseq/pullseq.html">Pullseq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../purge_dups/purge_dups.html">Purge_dups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../purge_haplotigs/purge_haplotigs.html">Purge_haplotigs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pvactools/pvactools.html">Pvactools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pyani/pyani.html">Pyani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pybedtools/pybedtools.html">Pybedtools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pybigwig/pybigwig.html">Pybigwig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pychopper/pychopper.html">Pychopper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pycoqc/pycoqc.html">Pycoqc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pyensembl/pyensembl.html">Pyensembl</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pyfaidx/pyfaidx.html">Pyfaidx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pygenometracks/pygenometracks.html">Pygenometracks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pygenomeviz/pygenomeviz.html">Pygenomeviz</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pymol/pymol.html">Pymol</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pyranges/pyranges.html">Pyranges</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pysam/pysam.html">Pysam</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pyvcf3/pyvcf3.html">Pyvcf3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../qiime2/qiime2.html">Qiime2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../qtlseq/qtlseq.html">Qtlseq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../qualimap/qualimap.html">Qualimap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quast/quast.html">Quast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickmirseq/quickmirseq.html">Quickmirseq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../r/r.html">R</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../r-bioconductor/r-bioconductor.html">R-bioconductor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../r-cellchat/r-cellchat.html">R-cellchat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../r-ml/r-ml.html">R-ml</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../r-rnaseq/r-rnaseq.html">R-rnaseq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../r-rstudio/r-rstudio.html">R-rstudio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../r-scrnaseq/r-scrnaseq.html">R-scrnaseq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../racon/racon.html">Racon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ragout/ragout.html">Ragout</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ragtag/ragtag.html">Ragtag</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rapmap/rapmap.html">Rapmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rapsearch/rapsearch.html">Rapsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rasusa/rasusa.html">Rasusa</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../raven-assembler/raven-assembler.html">Raven-assembler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../raxml/raxml.html">Raxml</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../raxml-ng/raxml-ng.html">Raxml-ng</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reapr/reapr.html">Reapr</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rebaler/rebaler.html">Rebaler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reciprocal_smallest_distance/reciprocal_smallest_distance.html">Reciprocal_smallest_distance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recycler/recycler.html">Recycler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reditools3/reditools3.html">Reditools3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../regtools/regtools.html">Regtools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../repeatmasker/repeatmasker.html">Repeatmasker</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../repeatmodeler/repeatmodeler.html">Repeatmodeler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../repeatscout/repeatscout.html">Repeatscout</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../resfinder/resfinder.html">Resfinder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../revbayes/revbayes.html">Revbayes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rgt/rgt.html">Rgt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rmats/rmats.html">Rmats</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rmats2sashimiplot/rmats2sashimiplot.html">Rmats2sashimiplot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rnaindel/rnaindel.html">Rnaindel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rnapeg/rnapeg.html">Rnapeg</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rnaquast/rnaquast.html">Rnaquast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../roary/roary.html">Roary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rsem/rsem.html">Rsem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rseqc/rseqc.html">Rseqc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../run_dbcan/run_dbcan.html">Run_dbcan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rush/rush.html">Rush</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sage/sage.html">Sage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../salmon/salmon.html">Salmon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sambamba/sambamba.html">Sambamba</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../samblaster/samblaster.html">Samblaster</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../samclip/samclip.html">Samclip</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../samplot/samplot.html">Samplot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../samtools/samtools.html">Samtools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scanpy/scanpy.html">Scanpy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scarches/scarches.html">Scarches</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scgen/scgen.html">Scgen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scirpy/scirpy.html">Scirpy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scvelo/scvelo.html">Scvelo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scvi-tools/scvi-tools.html">Scvi-tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../seacr/seacr.html">Seacr</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../segalign/segalign.html">Segalign</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../seidr/seidr.html">Seidr</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sentieon/sentieon.html">Sentieon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sepp/sepp.html">Sepp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../seqcode/seqcode.html">Seqcode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../seqkit/seqkit.html">Seqkit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../seqtk/seqtk.html">Seqtk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../seqyclean/seqyclean.html">Seqyclean</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../shapeit4/shapeit4.html">Shapeit4</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../shapeit5/shapeit5.html">Shapeit5</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../shasta/shasta.html">Shasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../shigeifinder/shigeifinder.html">Shigeifinder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../shorah/shorah.html">Shorah</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../shortstack/shortstack.html">Shortstack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../shovill/shovill.html">Shovill</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sicer/sicer.html">Sicer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sicer2/sicer2.html">Sicer2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../signalp4/signalp4.html">Signalp4</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../signalp6/signalp6.html">Signalp6</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../simug/simug.html">Simug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../singlem/singlem.html">Singlem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ska/ska.html">Ska</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../skani/skani.html">Skani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../skewer/skewer.html">Skewer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../slamdunk/slamdunk.html">Slamdunk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../smoove/smoove.html">Smoove</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../snakemake/snakemake.html">Snakemake</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../snap/snap.html">Snap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../snap-aligner/snap-aligner.html">Snap-aligner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../snaptools/snaptools.html">Snaptools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../snippy/snippy.html">Snippy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../snp-dists/snp-dists.html">Snp-dists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../snp-sites/snp-sites.html">Snp-sites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../snpeff/snpeff.html">Snpeff</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../snpgenie/snpgenie.html">Snpgenie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../snphylo/snphylo.html">Snphylo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../snpsift/snpsift.html">Snpsift</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../soapdenovo2/soapdenovo2.html">Soapdenovo2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sortmerna/sortmerna.html">Sortmerna</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../souporcell/souporcell.html">Souporcell</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sourmash/sourmash.html">Sourmash</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../spaceranger/spaceranger.html">Spaceranger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../spades/spades.html">Spades</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sprod/sprod.html">Sprod</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../squeezemeta/squeezemeta.html">Squeezemeta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../squid/squid.html">Squid</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sra-tools/sra-tools.html">Sra-tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../srst2/srst2.html">Srst2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stacks/stacks.html">Stacks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../star/star.html">Star</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../staramr/staramr.html">Staramr</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../starfusion/starfusion.html">Starfusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stream/stream.html">Stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stringdecomposer/stringdecomposer.html">Stringdecomposer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stringtie/stringtie.html">Stringtie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../strique/strique.html">Strique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../structure/structure.html">Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../subread/subread.html">Subread</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../survivor/survivor.html">Survivor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../svaba/svaba.html">Svaba</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../svist4get/svist4get.html">Svist4get</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../svtools/svtools.html">Svtools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../svtyper/svtyper.html">Svtyper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../swat/swat.html">Swat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../syri/syri.html">Syri</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../t-coffee/t-coffee.html">T-coffee</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../talon/talon.html">Talon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../targetp/targetp.html">Targetp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tassel/tassel.html">Tassel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taxonkit/taxonkit.html">Taxonkit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tetranscripts/tetranscripts.html">Tetranscripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tiara/tiara.html">Tiara</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tigmint/tigmint.html">Tigmint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tobias/tobias.html">Tobias</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tombo/tombo.html">Tombo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tophat/tophat.html">Tophat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tpmcalculator/tpmcalculator.html">Tpmcalculator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../transabyss/transabyss.html">Transabyss</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../transdecoder/transdecoder.html">Transdecoder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../transrate/transrate.html">Transrate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../transvar/transvar.html">Transvar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trax/trax.html">Trax</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../treetime/treetime.html">Treetime</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trim-galore/trim-galore.html">Trim-galore</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trimal/trimal.html">Trimal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trimmomatic/trimmomatic.html">Trimmomatic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trinity/trinity.html">Trinity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trinotate/trinotate.html">Trinotate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trnascan-se/trnascan-se.html">Trnascan-se</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trtools/trtools.html">Trtools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trust4/trust4.html">Trust4</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trycycler/trycycler.html">Trycycler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ucsc_genome_toolkit/ucsc_genome_toolkit.html">Ucsc_genome_toolkit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../umi_tools/umi_tools.html">Umi_tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../unicycler/unicycler.html">Unicycler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usefulaf/usefulaf.html">Usefulaf</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vadr/vadr.html">Vadr</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vardict-java/vardict-java.html">Vardict-java</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../varlociraptor/varlociraptor.html">Varlociraptor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../varscan/varscan.html">Varscan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vartrix/vartrix.html">Vartrix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vatools/vatools.html">Vatools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vcf-kit/vcf-kit.html">Vcf-kit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vcf2maf/vcf2maf.html">Vcf2maf</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vcf2phylip/vcf2phylip.html">Vcf2phylip</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vcf2tsvpy/vcf2tsvpy.html">Vcf2tsvpy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vcfstats/vcfstats.html">Vcfstats</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vcftools/vcftools.html">Vcftools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../velocyto.py/velocyto.py.html">Velocyto.py</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../velvet/velvet.html">Velvet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../veryfasttree/veryfasttree.html">Veryfasttree</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vg/vg.html">Vg</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../viennarna/viennarna.html">Viennarna</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vsearch/vsearch.html">Vsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../weblogo/weblogo.html">Weblogo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../whatshap/whatshap.html">Whatshap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../wiggletools/wiggletools.html">Wiggletools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../winnowmap/winnowmap.html">Winnowmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../wtdbg/wtdbg.html">Wtdbg</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">RCAC Biocontainers</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Nextflow</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/source/nextflow/nextflow.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="nextflow">
+<span id="backbone-label"></span><h1>Nextflow<a class="headerlink" href="#nextflow" title="Link to this heading"></a></h1>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading"></a></h2>
+<p>Nextflow is a bioinformatics workflow manager that enables the development of portable and reproducible workflows.</p>
+<div class="line-block">
+<div class="line">For more information, please check:</div>
+<div class="line">BioContainers: <a class="reference external" href="https://biocontainers.pro/tools/nextflow">https://biocontainers.pro/tools/nextflow</a></div>
+<div class="line">Home page: <a class="reference external" href="https://github.com/nextflow-io/nextflow">https://github.com/nextflow-io/nextflow</a></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please follow the recommended citation guidelines from the developers when you use the tool in research.</p>
+</div>
+</section>
+<section id="versions">
+<h2>Versions<a class="headerlink" href="#versions" title="Link to this heading"></a></h2>
+<table class="docutils align-default" style="width: 100%">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 75.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Cluster</p></th>
+<th class="head"><p>Version(s)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ANVIL</p></td>
+<td><p>21.10.0</p></td>
+</tr>
+<tr class="row-odd"><td><p>BELL</p></td>
+<td><p>21.10.0, 24.10.4</p></td>
+</tr>
+<tr class="row-even"><td><p>NEGISHI</p></td>
+<td><p>21.10.0, 24.10.4</p></td>
+</tr>
+<tr class="row-odd"><td><p>SCHOLAR</p></td>
+<td><p>21.10.0</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="commands">
+<h2>Commands<a class="headerlink" href="#commands" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>nextflow</p></li>
+</ul>
+</section>
+<section id="module">
+<h2>Module<a class="headerlink" href="#module" title="Link to this heading"></a></h2>
+<p>You can load the modules by:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">module</span> <span class="n">load</span> <span class="n">biocontainers</span>
+<span class="n">module</span> <span class="n">load</span> <span class="n">nextflow</span>
+</pre></div>
+</div>
+</section>
+<section id="example-job">
+<h2>Example job<a class="headerlink" href="#example-job" title="Link to this heading"></a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Using <code class="docutils literal notranslate"><span class="pre">#!/bin/sh</span> <span class="pre">-l</span></code> as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use <code class="docutils literal notranslate"><span class="pre">#!/bin/bash</span></code> instead.</p>
+</div>
+<p>To run nextflow on our clusters:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+<span class="c1">#SBATCH -A myallocation     # Allocation name</span>
+<span class="c1">#SBATCH -t 1:00:00</span>
+<span class="c1">#SBATCH -N 1</span>
+<span class="c1">#SBATCH -n 1</span>
+<span class="c1">#SBATCH --job-name=nextflow</span>
+<span class="c1">#SBATCH --mail-type=FAIL,BEGIN,END</span>
+<span class="c1">#SBATCH --error=%x-%J-%u.err</span>
+<span class="c1">#SBATCH --output=%x-%J-%u.out</span>
+
+<span class="n">module</span> <span class="o">--</span><span class="n">force</span> <span class="n">purge</span>
+<span class="n">ml</span> <span class="n">biocontainers</span> <span class="n">nextflow</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../nextdenovo/nextdenovo.html" class="btn btn-neutral float-left" title="Nextdenovo" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../nextpolish/nextpolish.html" class="btn btn-neutral float-right" title="Nextpolish" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Yucheng Zhang.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
