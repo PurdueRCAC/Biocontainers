@@ -54,7 +54,7 @@ Example job
 
 To run abacas on our clusters::
 
-.. tab-set::
+ .. tab-set::
 
    .. tab-item:: Anvil
 
