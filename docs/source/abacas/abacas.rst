@@ -52,9 +52,9 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run abacas on our clusters:
+To run abacas on our clusters::
 
- .. tab-set::
+.. tab-set::
 
    .. tab-item:: Anvil
 
@@ -93,7 +93,7 @@ To run abacas on our clusters:
         module --force purge
         module biocontainers abacas
 
-   .. tab-item:: Gilbreth
+   .. tab-item:: Gautschi-AI/Gilbreth
 
       .. code-block:: bash
 
