@@ -119,6 +119,7 @@ If you have any question, contact Guangzhen Jin at:
    source/braker3/braker3
    source/brass/brass
    source/breseq/breseq
+   source/bsaseq/bsaseq
    source/busco/busco
    source/bustools/bustools
    source/bwa/bwa
