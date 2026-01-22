@@ -74,7 +74,7 @@ To run abacas on our clusters:
         module --force purge
         module biocontainers abacas
 
-  .. tab-item:: Bell/Gautschi/Negishi
+  .. tab-item:: Bell
 
     .. code-block:: bash
 
@@ -93,7 +93,7 @@ To run abacas on our clusters:
         module --force purge
         module biocontainers abacas
 
-  .. tab-item:: Gautschi-AI/Gilbreth
+  .. tab-item:: Gautschi-AI,Gilbreth
 
     .. code-block:: bash
 
