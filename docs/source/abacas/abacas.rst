@@ -57,7 +57,7 @@ To run abacas on our clusters:
 .. tab-set::
 
   .. tab-item:: Anvil
-    
+
     .. code-block:: bash
 
         #!/bin/bash
@@ -74,7 +74,9 @@ To run abacas on our clusters:
         module --force purge
         module biocontainers abacas
 
-  .. tab-item:: Bell
+        # Your abacas workflow...
+
+  .. tab-item:: Bell, Gautschi, or Negishi
 
     .. code-block:: bash
 
@@ -93,7 +95,9 @@ To run abacas on our clusters:
         module --force purge
         module biocontainers abacas
 
-  .. tab-item:: Gautschi-AI,Gilbreth
+        # Your abacas workflow...
+
+  .. tab-item:: Gautschi-AI or Gilbreth
 
     .. code-block:: bash
 
@@ -113,6 +117,8 @@ To run abacas on our clusters:
         module --force purge
         module biocontainers abacas
 
+        # Your abacas workflow...
+
   .. tab-item:: Scholar
 
     .. code-block:: bash
@@ -129,3 +135,5 @@ To run abacas on our clusters:
 
         module --force purge
         module biocontainers abacas
+
+        # Your abacas workflow...
