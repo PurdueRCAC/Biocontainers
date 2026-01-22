@@ -87,13 +87,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run guidance2 on our clusters::
+To run guidance2 on our clusters:
 
 .. tab-set::
 
-   .. tab-item:: Anvil
+  .. tab-item:: Anvil
 
-      .. code-block:: bash
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A myallocation     # Allocation name
@@ -109,9 +109,11 @@ To run guidance2 on our clusters::
         module --force purge
         module biocontainers guidance2
 
-   .. tab-item:: Bell/Gautschi/Negishi
+        # Your guidance2 workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Bell, Gautschi, or Negishi
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -128,9 +130,11 @@ To run guidance2 on our clusters::
         module --force purge
         module biocontainers guidance2
 
-   .. tab-item:: Gautschi-AI/Gilbreth
+        # Your guidance2 workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Gautschi-AI or Gilbreth
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -148,9 +152,11 @@ To run guidance2 on our clusters::
         module --force purge
         module biocontainers guidance2
 
-   .. tab-item:: Scholar
+        # Your guidance2 workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Scholar
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A queue     # Queue name
@@ -164,3 +170,5 @@ To run guidance2 on our clusters::
 
         module --force purge
         module biocontainers guidance2
+
+        # Your guidance2 workflow...

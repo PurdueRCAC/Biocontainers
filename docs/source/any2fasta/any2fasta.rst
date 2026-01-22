@@ -52,13 +52,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run any2fasta on our clusters::
+To run any2fasta on our clusters:
 
 .. tab-set::
 
-   .. tab-item:: Anvil
+  .. tab-item:: Anvil
 
-      .. code-block:: bash
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A myallocation     # Allocation name
@@ -74,9 +74,11 @@ To run any2fasta on our clusters::
         module --force purge
         module biocontainers any2fasta
 
-   .. tab-item:: Bell/Gautschi/Negishi
+        # Your any2fasta workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Bell, Gautschi, or Negishi
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -93,9 +95,11 @@ To run any2fasta on our clusters::
         module --force purge
         module biocontainers any2fasta
 
-   .. tab-item:: Gautschi-AI/Gilbreth
+        # Your any2fasta workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Gautschi-AI or Gilbreth
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -113,9 +117,11 @@ To run any2fasta on our clusters::
         module --force purge
         module biocontainers any2fasta
 
-   .. tab-item:: Scholar
+        # Your any2fasta workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Scholar
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A queue     # Queue name
@@ -129,3 +135,5 @@ To run any2fasta on our clusters::
 
         module --force purge
         module biocontainers any2fasta
+
+        # Your any2fasta workflow...

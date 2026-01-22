@@ -53,13 +53,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run ldsc on our clusters::
+To run ldsc on our clusters:
 
 .. tab-set::
 
-   .. tab-item:: Anvil
+  .. tab-item:: Anvil
 
-      .. code-block:: bash
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A myallocation     # Allocation name
@@ -75,9 +75,11 @@ To run ldsc on our clusters::
         module --force purge
         module biocontainers ldsc
 
-   .. tab-item:: Bell/Gautschi/Negishi
+        # Your ldsc workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Bell, Gautschi, or Negishi
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -94,9 +96,11 @@ To run ldsc on our clusters::
         module --force purge
         module biocontainers ldsc
 
-   .. tab-item:: Gautschi-AI/Gilbreth
+        # Your ldsc workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Gautschi-AI or Gilbreth
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -114,9 +118,11 @@ To run ldsc on our clusters::
         module --force purge
         module biocontainers ldsc
 
-   .. tab-item:: Scholar
+        # Your ldsc workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Scholar
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A queue     # Queue name
@@ -130,3 +136,5 @@ To run ldsc on our clusters::
 
         module --force purge
         module biocontainers ldsc
+
+        # Your ldsc workflow...

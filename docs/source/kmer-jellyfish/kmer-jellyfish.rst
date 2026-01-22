@@ -52,13 +52,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run kmer-jellyfish on our clusters::
+To run kmer-jellyfish on our clusters:
 
 .. tab-set::
 
-   .. tab-item:: Anvil
+  .. tab-item:: Anvil
 
-      .. code-block:: bash
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A myallocation     # Allocation name
@@ -74,9 +74,11 @@ To run kmer-jellyfish on our clusters::
         module --force purge
         module biocontainers kmer-jellyfish
 
-   .. tab-item:: Bell/Gautschi/Negishi
+        # Your kmer-jellyfish workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Bell, Gautschi, or Negishi
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -93,9 +95,11 @@ To run kmer-jellyfish on our clusters::
         module --force purge
         module biocontainers kmer-jellyfish
 
-   .. tab-item:: Gautschi-AI/Gilbreth
+        # Your kmer-jellyfish workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Gautschi-AI or Gilbreth
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -113,9 +117,11 @@ To run kmer-jellyfish on our clusters::
         module --force purge
         module biocontainers kmer-jellyfish
 
-   .. tab-item:: Scholar
+        # Your kmer-jellyfish workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Scholar
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A queue     # Queue name
@@ -129,3 +135,5 @@ To run kmer-jellyfish on our clusters::
 
         module --force purge
         module biocontainers kmer-jellyfish
+
+        # Your kmer-jellyfish workflow...
