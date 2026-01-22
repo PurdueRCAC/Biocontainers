@@ -80,6 +80,7 @@ braker2
 braker3
 brass
 breseq
+bsaseq
 busco
 bustools
 bwa

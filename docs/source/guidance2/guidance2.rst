@@ -132,7 +132,29 @@ To run guidance2 on our clusters:
 
         # Your guidance2 workflow...
 
-  .. tab-item:: Gautschi-AI or Gilbreth
+  .. tab-item:: Gautschi-AI
+
+    .. code-block:: bash
+
+        #!/bin/bash
+        #SBATCH -A mygroup     # Group name
+        #SBATCH -p ai          # Partition name
+        #SBATCH --gres=gpu:1   # Number of GPUs
+        #SBATCH -q normal      # QOS name (optional)
+        #SBATCH -t 1:00:00
+        #SBATCH -N 1
+        #SBATCH -n 1
+        #SBATCH --job-name=guidance2
+        #SBATCH --mail-type=FAIL,BEGIN,END
+        #SBATCH --error=%x-%J-%u.err
+        #SBATCH --output=%x-%J-%u.out
+
+        module --force purge
+        module biocontainers guidance2
+
+        # Your guidance2 workflow...
+
+  .. tab-item:: Gilbreth
 
     .. code-block:: bash
 
@@ -140,6 +162,7 @@ To run guidance2 on our clusters:
         #SBATCH -A mygroup     # Group name
         #SBATCH -p a100        # Partition name
         #SBATCH --gres=gpu:1   # Number of GPUs
+        #SBATCH --mem=2G       # Memory
         #SBATCH -q normal      # QOS name (optional)
         #SBATCH -t 1:00:00
         #SBATCH -N 1
