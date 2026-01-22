@@ -117,11 +117,22 @@ for filename in ${listofmissingfiles[@]}; do
    echo "" >> $outputfile
    echo "        # Your $containername workflow..." >> $outputfile
    echo "" >> $outputfile
-   echo "  .. tab-item:: Gautschi-AI or Gilbreth" >> $outputfile
+   echo "  .. tab-item:: Gautschi-AI" >> $outputfile
    echo "" >> $outputfile
    echo "    .. code-block:: bash" >> $outputfile
    echo "" >> $outputfile
-   echo -e "        #!/bin/bash\n        #SBATCH -A mygroup     # Group name\n        #SBATCH -p a100        # Partition name\n        #SBATCH --gres=gpu:1   # Number of GPUs\n        #SBATCH -q normal      # QOS name (optional)\n        #SBATCH -t 1:00:00\n        #SBATCH -N 1\n        #SBATCH -n 1\n        #SBATCH --job-name=$containername\n        #SBATCH --mail-type=FAIL,BEGIN,END\n        #SBATCH --error=%x-%J-%u.err\n        #SBATCH --output=%x-%J-%u.out" >> $outputfile
+   echo -e "        #!/bin/bash\n        #SBATCH -A mygroup     # Group name\n        #SBATCH -p ai          # Partition name\n        #SBATCH --gres=gpu:1   # Number of GPUs\n        #SBATCH -q normal      # QOS name (optional)\n        #SBATCH -t 1:00:00\n        #SBATCH -N 1\n        #SBATCH -n 1\n        #SBATCH --job-name=$containername\n        #SBATCH --mail-type=FAIL,BEGIN,END\n        #SBATCH --error=%x-%J-%u.err\n        #SBATCH --output=%x-%J-%u.out" >> $outputfile
+   echo "" >> $outputfile
+   echo "        module --force purge" >> $outputfile
+   echo "        module biocontainers $containername" >> $outputfile
+   echo "" >> $outputfile
+   echo "        # Your $containername workflow..." >> $outputfile
+   echo "" >> $outputfile
+   echo "  .. tab-item:: Gilbreth" >> $outputfile
+   echo "" >> $outputfile
+   echo "    .. code-block:: bash" >> $outputfile
+   echo "" >> $outputfile
+   echo -e "        #!/bin/bash\n        #SBATCH -A mygroup     # Group name\n        #SBATCH -p a100        # Partition name\n        #SBATCH --gres=gpu:1   # Number of GPUs\n        #SBATCH --mem=2G       # Memory\n        #SBATCH -q normal      # QOS name (optional)\n        #SBATCH -t 1:00:00\n        #SBATCH -N 1\n        #SBATCH -n 1\n        #SBATCH --job-name=$containername\n        #SBATCH --mail-type=FAIL,BEGIN,END\n        #SBATCH --error=%x-%J-%u.err\n        #SBATCH --output=%x-%J-%u.out" >> $outputfile
    echo "" >> $outputfile
    echo "        module --force purge" >> $outputfile
    echo "        module biocontainers $containername" >> $outputfile

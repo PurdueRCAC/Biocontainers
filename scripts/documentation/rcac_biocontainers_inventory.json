@@ -1722,6 +1722,16 @@
       ]
     }
   },
+  "bsaseq": {
+    "availability": {
+      "negishi": [
+        "1.0.0"
+      ],
+      "bell": [
+        "1.0.0"
+      ]
+    }
+  },
   "busco": {
     "availability": {
       "scholar": [
