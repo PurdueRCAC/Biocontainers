@@ -52,13 +52,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run abacas on our clusters::
+To run abacas on our clusters:
 
- .. tab-set::
+.. tab-set::
 
-   .. tab-item:: Anvil
-
-      .. code-block:: bash
+  .. tab-item:: Anvil
+    
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A myallocation     # Allocation name
@@ -74,9 +74,9 @@ To run abacas on our clusters::
         module --force purge
         module biocontainers abacas
 
-   .. tab-item:: Bell/Gautschi/Negishi
+  .. tab-item:: Bell/Gautschi/Negishi
 
-      .. code-block:: bash
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -93,9 +93,9 @@ To run abacas on our clusters::
         module --force purge
         module biocontainers abacas
 
-   .. tab-item:: Gautschi-AI/Gilbreth
+  .. tab-item:: Gautschi-AI/Gilbreth
 
-      .. code-block:: bash
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -113,9 +113,9 @@ To run abacas on our clusters::
         module --force purge
         module biocontainers abacas
 
-   .. tab-item:: Scholar
+  .. tab-item:: Scholar
 
-      .. code-block:: bash
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A queue     # Queue name
