@@ -105,13 +105,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run drop-seq on our clusters::
+To run drop-seq on our clusters:
 
 .. tab-set::
 
-   .. tab-item:: Anvil
+  .. tab-item:: Anvil
 
-      .. code-block:: bash
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A myallocation     # Allocation name
@@ -127,9 +127,11 @@ To run drop-seq on our clusters::
         module --force purge
         module biocontainers drop-seq
 
-   .. tab-item:: Bell/Gautschi/Negishi
+        # Your drop-seq workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Bell, Gautschi, or Negishi
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -146,9 +148,11 @@ To run drop-seq on our clusters::
         module --force purge
         module biocontainers drop-seq
 
-   .. tab-item:: Gautschi-AI/Gilbreth
+        # Your drop-seq workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Gautschi-AI or Gilbreth
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -166,9 +170,11 @@ To run drop-seq on our clusters::
         module --force purge
         module biocontainers drop-seq
 
-   .. tab-item:: Scholar
+        # Your drop-seq workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Scholar
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A queue     # Queue name
@@ -182,3 +188,5 @@ To run drop-seq on our clusters::
 
         module --force purge
         module biocontainers drop-seq
+
+        # Your drop-seq workflow...

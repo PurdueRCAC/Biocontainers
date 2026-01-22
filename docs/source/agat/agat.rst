@@ -121,13 +121,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run agat on our clusters::
+To run agat on our clusters:
 
 .. tab-set::
 
-   .. tab-item:: Anvil
+  .. tab-item:: Anvil
 
-      .. code-block:: bash
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A myallocation     # Allocation name
@@ -143,9 +143,11 @@ To run agat on our clusters::
         module --force purge
         module biocontainers agat
 
-   .. tab-item:: Bell/Gautschi/Negishi
+        # Your agat workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Bell, Gautschi, or Negishi
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -162,9 +164,11 @@ To run agat on our clusters::
         module --force purge
         module biocontainers agat
 
-   .. tab-item:: Gautschi-AI/Gilbreth
+        # Your agat workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Gautschi-AI or Gilbreth
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -182,9 +186,11 @@ To run agat on our clusters::
         module --force purge
         module biocontainers agat
 
-   .. tab-item:: Scholar
+        # Your agat workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Scholar
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A queue     # Queue name
@@ -198,3 +204,5 @@ To run agat on our clusters::
 
         module --force purge
         module biocontainers agat
+
+        # Your agat workflow...

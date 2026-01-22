@@ -76,13 +76,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run lr_gapcloser on our clusters::
+To run lr_gapcloser on our clusters:
 
 .. tab-set::
 
-   .. tab-item:: Anvil
+  .. tab-item:: Anvil
 
-      .. code-block:: bash
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A myallocation     # Allocation name
@@ -98,9 +98,11 @@ To run lr_gapcloser on our clusters::
         module --force purge
         module biocontainers lr_gapcloser
 
-   .. tab-item:: Bell/Gautschi/Negishi
+        # Your lr_gapcloser workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Bell, Gautschi, or Negishi
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -117,9 +119,11 @@ To run lr_gapcloser on our clusters::
         module --force purge
         module biocontainers lr_gapcloser
 
-   .. tab-item:: Gautschi-AI/Gilbreth
+        # Your lr_gapcloser workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Gautschi-AI or Gilbreth
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -137,9 +141,11 @@ To run lr_gapcloser on our clusters::
         module --force purge
         module biocontainers lr_gapcloser
 
-   .. tab-item:: Scholar
+        # Your lr_gapcloser workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Scholar
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A queue     # Queue name
@@ -153,3 +159,5 @@ To run lr_gapcloser on our clusters::
 
         module --force purge
         module biocontainers lr_gapcloser
+
+        # Your lr_gapcloser workflow...

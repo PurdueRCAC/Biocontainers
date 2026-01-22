@@ -48,13 +48,13 @@ Example job
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run compleasm on our clusters::
+To run compleasm on our clusters:
 
 .. tab-set::
 
-   .. tab-item:: Anvil
+  .. tab-item:: Anvil
 
-      .. code-block:: bash
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A myallocation     # Allocation name
@@ -70,9 +70,11 @@ To run compleasm on our clusters::
         module --force purge
         module biocontainers compleasm
 
-   .. tab-item:: Bell/Gautschi/Negishi
+        # Your compleasm workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Bell, Gautschi, or Negishi
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -89,9 +91,11 @@ To run compleasm on our clusters::
         module --force purge
         module biocontainers compleasm
 
-   .. tab-item:: Gautschi-AI/Gilbreth
+        # Your compleasm workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Gautschi-AI or Gilbreth
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A mygroup     # Group name
@@ -109,9 +113,11 @@ To run compleasm on our clusters::
         module --force purge
         module biocontainers compleasm
 
-   .. tab-item:: Scholar
+        # Your compleasm workflow...
 
-      .. code-block:: bash
+  .. tab-item:: Scholar
+
+    .. code-block:: bash
 
         #!/bin/bash
         #SBATCH -A queue     # Queue name
@@ -125,3 +131,5 @@ To run compleasm on our clusters::
 
         module --force purge
         module biocontainers compleasm
+
+        # Your compleasm workflow...
