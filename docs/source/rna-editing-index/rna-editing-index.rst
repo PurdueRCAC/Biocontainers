@@ -1,16 +1,16 @@
 .. _backbone-label:
 
-Reditools3
+Rna-editing-index
 ==============================
 
 Introduction
 ~~~~~~~~
-REDItools: python scripts for RNA editing detection by RNA-Seq data
+RNAEditingIndexer is a tool for calculating RNA editing levels from RNA seq data. It supports GNU/Linux operating systems and provides automated calculation of A-to-G editing indices.
 
 
 | For more information, please check:
-| BioContainers: https://biocontainers.pro/tools/reditools3 
-| Home page: https://github.com/BioinfoUNIBA/REDItools
+| BioContainers: https://biocontainers.pro/tools/rna-editing-index 
+| Home page: https://github.com/levanonlab/RNAEditingIndexer
 
 .. note::
     Please follow the recommended citation guidelines from the developers when you use the tool in research.
@@ -26,25 +26,25 @@ Versions
     - Version(s)
 
   * - NEGISHI
-    - 3.4, 3.5
+    - 1.2
 
 Commands
 ~~~~~~~
-- reditools
+- RNAEditingIndex
 
 Module
 ~~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load reditools3
+    module load rna-editing-index
 
 Example job
 ~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run reditools3 on our clusters:
+To run rna-editing-index on our clusters:
 
 .. tab-set::
 
@@ -58,15 +58,15 @@ To run reditools3 on our clusters:
         #SBATCH -t 1:00:00
         #SBATCH -N 1
         #SBATCH -n 1
-        #SBATCH --job-name=reditools3
+        #SBATCH --job-name=rna-editing-index
         #SBATCH --mail-type=FAIL,BEGIN,END
         #SBATCH --error=%x-%J-%u.err
         #SBATCH --output=%x-%J-%u.out
 
         module --force purge
-        module biocontainers reditools3
+        module biocontainers rna-editing-index
 
-        # Your reditools3 workflow...
+        # Your rna-editing-index workflow...
 
   .. tab-item:: Bell, Gautschi, or Negishi
 
@@ -79,15 +79,15 @@ To run reditools3 on our clusters:
         #SBATCH -t 1:00:00
         #SBATCH -N 1
         #SBATCH -n 1
-        #SBATCH --job-name=reditools3
+        #SBATCH --job-name=rna-editing-index
         #SBATCH --mail-type=FAIL,BEGIN,END
         #SBATCH --error=%x-%J-%u.err
         #SBATCH --output=%x-%J-%u.out
 
         module --force purge
-        module biocontainers reditools3
+        module biocontainers rna-editing-index
 
-        # Your reditools3 workflow...
+        # Your rna-editing-index workflow...
 
   .. tab-item:: Gautschi-AI
 
@@ -101,15 +101,15 @@ To run reditools3 on our clusters:
         #SBATCH -t 1:00:00
         #SBATCH -N 1
         #SBATCH -n 1
-        #SBATCH --job-name=reditools3
+        #SBATCH --job-name=rna-editing-index
         #SBATCH --mail-type=FAIL,BEGIN,END
         #SBATCH --error=%x-%J-%u.err
         #SBATCH --output=%x-%J-%u.out
 
         module --force purge
-        module biocontainers reditools3
+        module biocontainers rna-editing-index
 
-        # Your reditools3 workflow...
+        # Your rna-editing-index workflow...
 
   .. tab-item:: Gilbreth
 
@@ -124,15 +124,15 @@ To run reditools3 on our clusters:
         #SBATCH -t 1:00:00
         #SBATCH -N 1
         #SBATCH -n 1
-        #SBATCH --job-name=reditools3
+        #SBATCH --job-name=rna-editing-index
         #SBATCH --mail-type=FAIL,BEGIN,END
         #SBATCH --error=%x-%J-%u.err
         #SBATCH --output=%x-%J-%u.out
 
         module --force purge
-        module biocontainers reditools3
+        module biocontainers rna-editing-index
 
-        # Your reditools3 workflow...
+        # Your rna-editing-index workflow...
 
   .. tab-item:: Scholar
 
@@ -143,12 +143,12 @@ To run reditools3 on our clusters:
         #SBATCH -t 1:00:00
         #SBATCH -N 1
         #SBATCH -n 1
-        #SBATCH --job-name=reditools3
+        #SBATCH --job-name=rna-editing-index
         #SBATCH --mail-type=FAIL,BEGIN,END
         #SBATCH --error=%x-%J-%u.err
         #SBATCH --output=%x-%J-%u.out
 
         module --force purge
-        module biocontainers reditools3
+        module biocontainers rna-editing-index
 
-        # Your reditools3 workflow...
+        # Your rna-editing-index workflow...
