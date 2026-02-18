@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function updateCount() {
     var visible = rows.filter(function (r) { return r.style.display !== 'none'; }).length;
-    countEl.textContent = visible + ' application' + (visible !== 1 ? 's' : '') + ' shown';
+    countEl.textContent = visible + ' biocontainer' + (visible !== 1 ? 's' : '') + ' shown';
   }
 
   function applyFilters() {
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var nameMatch = !query || row.dataset.app.indexOf(query) !== -1;
       var rowClusters = row.dataset.clusters ? row.dataset.clusters.split(',') : [];
       var clusterMatch = selectedClusters.size === 0 ||
-        Array.from(selectedClusters).some(function (c) { return rowClusters.indexOf(c) !== -1; });
+        Array.from(selectedClusters).every(function (c) { return rowClusters.indexOf(c) !== -1; });
       row.style.display = (nameMatch && clusterMatch) ? '' : 'none';
     });
     updateCount();

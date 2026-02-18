@@ -39,7 +39,7 @@ Application Catalog
 
    <div id="catalog-section">
      <div id="catalog-controls">
-       <input type="text" id="app-search" placeholder="Filter by app name..." />
+       <input type="text" id="app-search" placeholder="Filter by biocontainer name..." />
        <div id="cluster-filter-group">
          <span class="filter-label">Cluster:</span>
          <button class="cluster-btn cluster-btn-active" id="cluster-btn-all">All</button>

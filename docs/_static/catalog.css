@@ -69,6 +69,8 @@
 
 #app-catalog-wrapper {
   overflow-x: auto;
+  overflow-y: auto;
+  max-height: 70vh;
 }
 
 #app-catalog {
@@ -83,6 +85,10 @@
   padding: 0.5em 0.75em;
   text-align: center;
   white-space: nowrap;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0 1px 0 #b0c4d8; /* visible bottom edge when scrolling (border-collapse hides borders on sticky) */
 }
 
 #app-catalog th:first-child {
