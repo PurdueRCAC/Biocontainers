@@ -10,9 +10,8 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import json
+import os
 
 
 # -- Project information -----------------------------------------------------
@@ -52,3 +51,29 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_css_files = ['catalog.css']
+html_js_files = ['catalog_data.js', 'catalog.js']
+
+
+def _generate_catalog_data(app):
+    """Write docs/_static/catalog_data.js from the inventory JSON at build time."""
+    docs_dir = os.path.dirname(os.path.abspath(__file__))
+    json_path = os.path.join(docs_dir, '..', 'scripts', 'documentation',
+                             'rcac_biocontainers_inventory.json')
+    static_dir = os.path.join(docs_dir, '_static')
+    os.makedirs(static_dir, exist_ok=True)
+
+    with open(json_path, 'r') as f:
+        data = json.load(f)
+
+    js_path = os.path.join(static_dir, 'catalog_data.js')
+    with open(js_path, 'w') as f:
+        f.write('/* Auto-generated from rcac_biocontainers_inventory.json — do not edit */\n')
+        f.write('const CATALOG_DATA = ')
+        json.dump(data, f, separators=(',', ':'))
+        f.write(';\n')
+
+
+def setup(app):
+    app.connect('builder-inited', _generate_catalog_data)

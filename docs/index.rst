@@ -32,11 +32,50 @@ If you have any question, contact Guangzhen Jin at:
 
    singularity
 
+Application Catalog
+-------------------
+
+.. raw:: html
+
+   <div id="catalog-section">
+     <div id="catalog-controls">
+       <input type="text" id="app-search" placeholder="Filter by app name..." />
+       <div id="cluster-filter-group">
+         <span class="filter-label">Cluster:</span>
+         <button class="cluster-btn cluster-btn-active" id="cluster-btn-all">All</button>
+         <button class="cluster-btn" id="cluster-btn-anvil">Anvil</button>
+         <button class="cluster-btn" id="cluster-btn-bell">Bell</button>
+         <button class="cluster-btn" id="cluster-btn-gautschi">Gautschi</button>
+         <button class="cluster-btn" id="cluster-btn-gilbreth">Gilbreth</button>
+         <button class="cluster-btn" id="cluster-btn-negishi">Negishi</button>
+         <button class="cluster-btn" id="cluster-btn-scholar">Scholar</button>
+       </div>
+       <span id="app-count"></span>
+     </div>
+     <div id="app-catalog-wrapper">
+       <table id="app-catalog">
+         <thead>
+           <tr>
+             <th>Application</th>
+             <th>Anvil</th>
+             <th>Bell</th>
+             <th>Gautschi</th>
+             <th>Gilbreth</th>
+             <th>Negishi</th>
+             <th>Scholar</th>
+           </tr>
+         </thead>
+         <tbody id="catalog-tbody"></tbody>
+       </table>
+     </div>
+   </div>
+
 .. toctree::
    :caption: Application list
    :maxdepth: 3
    :titlesonly:
-   
+   :hidden:
+
    source/abacas/abacas
    source/abismal/abismal
    source/abpoa/abpoa
