@@ -1,0 +1,126 @@
+/* Interactive application catalog table — biocontainer-doc */
+
+#catalog-section {
+  margin: 1.5em 0 2em 0;
+}
+
+#catalog-controls {
+  margin-bottom: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75em;
+}
+
+#app-search {
+  padding: 0.4em 0.75em;
+  font-size: 0.95em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 240px;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+#app-search:focus {
+  border-color: #2980b9;
+  box-shadow: 0 0 0 2px rgba(41, 128, 185, 0.15);
+}
+
+#cluster-filter-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35em;
+}
+
+.filter-label {
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #555;
+  margin-right: 0.2em;
+}
+
+.cluster-btn {
+  padding: 0.3em 0.75em;
+  font-size: 0.85em;
+  border: 1px solid #2980b9;
+  border-radius: 4px;
+  background: white;
+  color: #2980b9;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.cluster-btn:hover {
+  background: #d6eaf8;
+}
+
+.cluster-btn.cluster-btn-active {
+  background: #2980b9;
+  color: white;
+}
+
+#app-count {
+  color: #777;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+#app-catalog-wrapper {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 70vh;
+}
+
+#app-catalog {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88em;
+}
+
+#app-catalog th {
+  background: #2980b9;
+  color: white;
+  padding: 0.5em 0.75em;
+  text-align: center;
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0 1px 0 #b0c4d8; /* visible bottom edge when scrolling (border-collapse hides borders on sticky) */
+}
+
+#app-catalog th:first-child {
+  text-align: left;
+  min-width: 160px;
+}
+
+#app-catalog td {
+  padding: 0.35em 0.6em;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#app-catalog td:first-child {
+  text-align: left;
+}
+
+#app-catalog tbody tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+#app-catalog tbody tr:hover {
+  background: #ebf5fb;
+}
+
+.cluster-yes {
+  color: #27ae60;
+  font-size: 1.05em;
+  cursor: default;
+}
+
+.cluster-no {
+  color: #ddd;
+}

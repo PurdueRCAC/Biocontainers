@@ -162,6 +162,7 @@ sed -i '/Application list/,$d' $indexfile
 echo "   :caption: Application list" >> $indexfile
 echo "   :maxdepth: 3" >> $indexfile
 echo "   :titlesonly:" >> $indexfile
+echo "   :hidden:" >> $indexfile
 echo "   " >> $indexfile
 for eachfile in $filenamesarray
 do
