@@ -45,7 +45,7 @@ jobs:
           GITHUB_APP_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           # Stage any modified files BEFORE pulling to avoid unstaged changes
-          git add ../../docs || true
+          git add ../../docs ../../scripts/documentation/rcac_biocontainers_inventory.json || true
           
           # Pull and rebase with staged changes
           git pull origin ${{ github.ref_name }} --rebase || git pull origin ${{ github.ref_name }}
