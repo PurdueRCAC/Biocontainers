@@ -32,7 +32,7 @@ Versions
   * - GAUTSCHI
     - 2.3.0
   * - NEGISHI
-    - 2.3.0
+    - 2.3.0, 2.3.1
   * - SCHOLAR
     - 2.3.0
 
