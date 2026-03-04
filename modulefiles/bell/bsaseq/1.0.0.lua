@@ -51,8 +51,14 @@ conflict(myModuleName())
 
 local image = "arnstrm2_bsaseq_1.0.0.sif"
 local uri = "docker://arnstrm2/bsaseq:latest"
-local programs = {"bsaseq"}
+local programs = {"bsaseq", "snpEff", "snpSift"}
 local entrypoint_args = ""
+
+-- snpEff database directory: user can override by setting SNPEFF_DATA_DIR before loading
+-- Default: shared admin-managed path; set SNPEFF_DATA_DIR=$PWD to use current directory
+local snpeff_data_default = "/apps/biocontainers/extras/bsaseq/1.0.0"
+local snpeff_data = os.getenv("SNPEFF_DATA_DIR") or snpeff_data_default
+
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
 -- nodes without the corresponding module necessarily being loaded.
@@ -97,6 +103,9 @@ if (capture("/opt/rocm/bin/rocm-smi -i 2>/dev/null | grep ^GPU") ~= "") then
    table.insert(run_args, "--rocm")
 end
 
+-- Bind-mount writable snpEff data directory over read-only container path
+table.insert(run_args, "--bind " .. snpeff_data .. ":/opt/snpEff/data")
+
 -- And assemble container command
 local container_launch = singularity .. " exec " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
 
@@ -111,3 +120,4 @@ for i,program in pairs(programs) do
 end
 
 -- Additional commands or environment variables, if any
+setenv("SNPEFF_DATA_DIR", snpeff_data)

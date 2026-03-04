@@ -25,19 +25,19 @@ help([==[
 
 Description
 ===========
-Miniasm is a very fast OLC-based de novo assembler for noisy long reads.
+Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence. 
 
 More information
 ================
- - BioContainers: https://biocontainers.pro/tools/miniasm
- - Home page:    https://github.com/lh3/miniasm
+ - BioContainers: https://biocontainers.pro/tools/kmer-jellyfish
+ - Home page:     http://www.genome.umd.edu/jellyfish.html
 ]==])
 
-whatis("Name: Miniasm")
-whatis("Version: 0.3_r179")
-whatis("Description: Miniasm is a very fast OLC-based de novo assembler for noisy long reads.")
-whatis("BioContainers: https://biocontainers.pro/tools/miniasm")
-whatis("Home page:    https://github.com/lh3/miniasm")
+whatis("Name: Kmer-jellyfish")
+whatis("Version: 2.3.1")
+whatis("Description: Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence.")
+whatis("BioContainers: https://biocontainers.pro/tools/kmer-jellyfish")
+whatis("Home page:    http://www.genome.umd.edu/jellyfish.html")
 
 if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    local singularity_module = os.getenv("BIOC_SINGULARITY_MODULE") or "Singularity"
@@ -46,12 +46,12 @@ if not (os.getenv("BIOC_SINGULARITY_MODULE") == "none") then
    end
 end
 
-conflict(myModuleName(),"Miniasm")
+conflict(myModuleName(),"jellyfish")
 
 --       Think executables, mpirun, possibly Perl or Python, etc.
-local image = "quay.io_biocontainers_miniasm:0.3_r179--h5bf99c6_2.sif"
-local uri = "docker://quay.io/biocontainers/miniasm:0.3_r179--h5bf99c6_2"
-local programs = {"miniasm","minidot"}
+local image = "quay.io_biocontainers_kmer-jellyfish:2.3.1--py39pl5321h2de1943_6.sif"
+local uri = "docker://quay.io/biocontainers/kmer-jellyfish:2.3.1--py39pl5321h2de1943_6"
+local programs = {"jellyfish"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
