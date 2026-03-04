@@ -168,3 +168,33 @@ for eachfile in $filenamesarray
 do
    echo "   source/$eachfile/$eachfile" >> $indexfile
 done
+
+# Update the stats paragraph in index.rst with current date and counts from inventory JSON
+inventory_json="$repo_path/scripts/documentation/rcac_biocontainers_inventory.json"
+python3 - <<PYEOF
+import json, re
+from datetime import datetime
+
+with open('$inventory_json') as f:
+    inventory = json.load(f)
+
+num_containers = len(inventory)
+total_versions = sum(len(versions) for data in inventory.values() for versions in data.get('availability', {}).values())
+current_date = datetime.now().strftime('%B %d, %Y')
+
+new_line = (
+    f"As of {current_date}, there have been a total of **{num_containers}** biocontainers with "
+    f"**{total_versions}** available versions deployed across 6 RCAC HPC clusters: "
+    f"\`\`Anvil\`\`, \`\`Bell\`\`, \`\`Gautschi\`\`, \`\`Negishi\`\`, \`\`Gilbreth\`\` and \`\`Scholar\`\`."
+)
+
+with open('$indexfile', 'r') as f:
+    content = f.read()
+
+content = re.sub(r'As of .+?, there have been a total of .+', new_line, content)
+
+with open('$indexfile', 'w') as f:
+    f.write(content)
+
+print(f"Updated index.rst: {num_containers} biocontainers, {total_versions} versions, as of {current_date}")
+PYEOF
