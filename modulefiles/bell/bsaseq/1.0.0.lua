@@ -113,6 +113,12 @@ local container_launch = singularity .. " exec " .. table.concat(run_args, " ") 
 -- Multinode support
 -- setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")
 
+-- Expose wrappers on PATH for non-bash contexts (Perl, Python, Nextflow, etc.)
+local wrapper_dir = pathJoin("/apps/biocontainers/exported-wrappers", myModuleName(), myModuleVersion())
+if (isDir(wrapper_dir)) then
+   prepend_path("PATH", wrapper_dir)
+end
+
 -- Programs to setup in the shell
 for i,program in pairs(programs) do
     set_shell_function(program, container_launch .. " " .. program .. " \"$@\"",
