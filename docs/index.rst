@@ -11,7 +11,7 @@ RCAC Biocontainers documentation!
 
 This is the user guide for biocontainer modules deployed in Purdue High Performance Computing clusters. More information about our center is avaiable here (https://www.rcac.purdue.edu).  
 
-As of May 27, 2026, there have been a total of **663** biocontainers with **4444** available versions deployed across 6 RCAC HPC clusters: ``Anvil``, ``Bell``, ``Gautschi``, ``Negishi``, ``Gilbreth`` and ``Scholar``.
+As of May 29, 2026, there have been a total of **664** biocontainers with **4448** available versions deployed across 6 RCAC HPC clusters: ``Anvil``, ``Bell``, ``Gautschi``, ``Negishi``, ``Gilbreth`` and ``Scholar``.
 
 If you have any question, contact Guangzhen Jin at: 
 `jin456@purdue.edu <mailto:jin456@purdue.edu>`_
@@ -587,6 +587,7 @@ Application Catalog
    source/reciprocal_smallest_distance/reciprocal_smallest_distance
    source/recycler/recycler
    source/redinet/redinet
+   source/reditools1/reditools1
    source/reditools3/reditools3
    source/regtools/regtools
    source/repeatmasker/repeatmasker
