@@ -40,7 +40,7 @@ More information
 ]==])
 
 whatis("Name: MAGeCK2")
-whatis("Version: 20260606")
+whatis("Version: 20260617")
 whatis("Description: Next-generation MAGeCK for CRISPR-Cas9 screen analysis (paired samples, UMIs, paired-guide). Provides mageck2 and RRA.")
 whatis("Docker Hub: https://hub.docker.com/r/arnstrm2/mageck2")
 whatis("Home page:  https://github.com/davidliwei/mageck2")
@@ -56,8 +56,8 @@ end
 -- a separate name and does not conflict, so both can coexist.)
 conflict(myModuleName())
 
-local image = "arnstrm2_mageck2:20260606.sif"
-local uri = "docker://arnstrm2/mageck2:20260606"
+local image = "arnstrm2_mageck2:20260617.sif"
+local uri = "docker://arnstrm2/mageck2:20260617"
 -- Host-callable executables provided by the container.
 local programs = {"mageck2", "RRA"}
 local entrypoint_args = ""
