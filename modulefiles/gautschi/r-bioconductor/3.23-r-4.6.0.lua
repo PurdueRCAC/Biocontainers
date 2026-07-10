@@ -55,7 +55,7 @@ end
 
 conflict(myModuleName(), "R", "R-bioconductor", "Rstudio", "r", "rstudio", "r-rstudio", "r-rnaseq")
 
-local image = "r-bioconductor_3.23-R-4.6.0.sif"
+local image = "r-bioconductor_3.23-R-4.6.0b.sif"
 local uri = ""
 local programs = {"R", "Rscript"}
 local programs_sandbox = {"rstudio"}
