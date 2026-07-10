@@ -5886,6 +5886,16 @@
       ]
     }
   },
+  "jacks": {
+    "availability": {
+      "gautschi": [
+        "0.2"
+      ],
+      "negishi": [
+        "0.2"
+      ]
+    }
+  },
   "jcvi": {
     "availability": {
       "gautschi": [
