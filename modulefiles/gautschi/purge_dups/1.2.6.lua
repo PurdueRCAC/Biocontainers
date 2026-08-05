@@ -51,7 +51,7 @@ conflict(myModuleName())
 --       Think executables, mpirun, possibly Perl or Python, etc.
 local image = "quay.io_biocontainers_purge_dups:1.2.6--py39h7132678_1.sif"
 local uri = "docker://quay.io/biocontainers/purge_dups:1.2.6--py39h7132678_1"
-local programs = {"augustify.py", "bamToWig.py", "cleanup-blastdb-volumes.py", "edirect.py", "executeTestCGP.py", "extractAnno.py", "findRepetitiveProtSeqs.py", "fix_in_frame_stop_codon_genes.py", "generate_plot.py", "getAnnoFastaFromJoingenes.py", "hist_plot.py", "pd_config.py", "run_abundance.py", "run_purge_dups.py", "run_sepp.py", "run_tipp.py", "run_tipp_tool.py", "run_upp.py", "split_sequences.py", "stringtie2fa.py", "sumlabels.py", "sumtrees.py"}
+local programs = {"hist_plot.py", "pd_config.py", "run_busco", "run_busco2", "run_kcm", "run_purge_dups.py", "sub.sh", "calcuts", "get_seqs", "ngscstat", "pbcstat", "purge_dups", "split_fa"}
 local entrypoint_args = ""
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
