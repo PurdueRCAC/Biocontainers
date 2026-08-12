@@ -110,4 +110,4 @@ for i,program in pairs(programs) do
 end
 
 -- Additional commands or environment variables, if any
-pushenv("PLATON_DB", "/anvil/datasets/platon/db")
+pushenv("PLATON_DB", "/anvil/datasets/biocontainers/platon/db")

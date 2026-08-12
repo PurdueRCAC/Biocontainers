@@ -106,5 +106,5 @@ for i,program in pairs(programs) do
 end
 
 -- Additional commands or environment variables, if any
-append_path("SINGULARITY_BIND", "/anvil/datasets/homer/data:/usr/local/bin/homer/data", ',')
+append_path("SINGULARITY_BIND", "/anvil/datasets/biocontainers/homer/data:/usr/local/bin/homer/data", ',')
 

@@ -101,7 +101,7 @@ local container_launch = singularity .. " exec " .. table.concat(run_args, " ") 
 -- Multinode support
 -- setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")
 
-local database = " --db_dir /anvil/datasets/dbcan/db/"
+local database = " --db_dir /anvil/datasets/biocontainers/dbcan/db/"
 
 -- Programs to setup in the shell
 for i,program in pairs(programs) do

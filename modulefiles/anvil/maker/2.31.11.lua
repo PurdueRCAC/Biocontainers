@@ -113,4 +113,4 @@ for i,program in pairs(programs) do
 end
 
 -- Additional commands or environment variables, if any
-pushenv("SINGULARITYENV_LIBDIR","/depot/itap/datasets/Maker/RepeatMasker/Libraries")
+pushenv("SINGULARITYENV_LIBDIR","/anvil/datasets/biocontainers/Maker/RepeatMasker/Libraries")

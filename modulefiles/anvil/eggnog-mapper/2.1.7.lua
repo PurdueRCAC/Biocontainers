@@ -110,4 +110,4 @@ for i,program in pairs(programs) do
 end
 
 -- Additional commands or environment variables, if any
-pushenv("SINGULARITYENV_EGGNOG_DATA_DIR","/anvil/datasets/eggnog-mapper-data")
+pushenv("SINGULARITYENV_EGGNOG_DATA_DIR","/anvil/datasets/biocontainers/eggnog-mapper-data")

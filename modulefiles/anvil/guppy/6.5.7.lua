@@ -110,4 +110,4 @@ for i,program in pairs(programs) do
 end
 
 -- Additional commands or environment variables, if any
-append_path("SINGULARITY_BIND","/anvil/datasets/guppy/6.5.7/ont-guppy-cpu/data:/opt/ont/guppy/data/configs",  ',')
+append_path("SINGULARITY_BIND","/anvil/datasets/biocontainers/guppy/6.5.7/ont-guppy-cpu/data:/opt/ont/guppy/data/configs",  ',')

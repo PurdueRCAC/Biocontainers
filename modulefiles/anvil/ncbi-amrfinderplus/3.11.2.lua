@@ -110,4 +110,4 @@ for i,program in pairs(programs) do
 end
 
 -- Additional commands or environment variables, if any
-append_path("SINGULARITY_BIND", "/anvil/datasets/amrfinder:/opt/conda",  ',')
+append_path("SINGULARITY_BIND", "/anvil/datasets/biocontainers/amrfinder:/opt/conda",  ',')

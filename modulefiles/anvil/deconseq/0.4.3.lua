@@ -119,9 +119,9 @@ end
 
 -- Additional commands or environment variables, if any
 set_shell_function("copy_DeconSeqConfig",
-  container_launch .. " " .. "cp /anvil/datasets/deconseq-standalone-0.4.3/DeconSeqConfig.pm /anvil/datasets/deconseq-standalone-0.4.3/*.pl /anvil/datasets/deconseq-standalone-0.4.3/bwa64 $PWD" .. " && "
+  container_launch .. " " .. "cp /anvil/datasets/biocontainers/deconseq-standalone-0.4.3/DeconSeqConfig.pm /anvil/datasets/biocontainers/deconseq-standalone-0.4.3/*.pl /anvil/datasets/biocontainers/deconseq-standalone-0.4.3/bwa64 $PWD" .. " && "
                                .. "printf \"DeconSeqConfig.pm, splitFasta.pl, deconseq.pl and bwa64 have been copied to the current directory. \\n\"",
-  container_launch .. " " .. "cp /anvil/datasets/deconseq-standalone-0.4.3/DeconSeqConfig.pm  /anvil/datasets/deconseq-standalone-0.4.3/*.pl /anvil/datasets/deconseq-standalone-0.4.3/bwa64 $PWD" .. " && "
+  container_launch .. " " .. "cp /anvil/datasets/biocontainers/deconseq-standalone-0.4.3/DeconSeqConfig.pm /anvil/datasets/biocontainers/deconseq-standalone-0.4.3/*.pl /anvil/datasets/biocontainers/deconseq-standalone-0.4.3/bwa64 $PWD" .. " && "
                                .. "printf \"DeconSeqConfig.pm, splitFasta.pl, deconseq.pl and bwa64 have been copied to the current directory. \\n\"")
 
 if (mode() == "load") then
