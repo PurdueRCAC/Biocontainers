@@ -118,5 +118,5 @@ for i,program in pairs(programs) do
 end
 
 -- Additional commands or environment variables, if any
-setenv("BLASTDB", "/anvil/datasets/ncbi/blast/latest")
+setenv("BLASTDB", "/anvil/datasets/biocontainers/ncbi/blast/latest")
 
