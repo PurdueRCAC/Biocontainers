@@ -27,6 +27,8 @@ Versions
 
   * - BELL
     - 1.4
+  * - GAUTSCHI
+    - 1.5
   * - NEGISHI
     - 1.4
 

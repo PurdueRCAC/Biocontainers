@@ -30,7 +30,7 @@ Versions
   * - BELL
     - 7.475, 7.490
   * - GAUTSCHI
-    - 7.475, 7.490
+    - 7.475, 7.490, 7.525
   * - NEGISHI
     - 7.475, 7.490
   * - SCHOLAR

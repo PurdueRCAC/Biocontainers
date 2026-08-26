@@ -30,7 +30,7 @@ Versions
   * - BELL
     - 1.4
   * - GAUTSCHI
-    - 1.4
+    - 1.4, 2.8
   * - NEGISHI
     - 1.4
   * - SCHOLAR

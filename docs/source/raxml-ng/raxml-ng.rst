@@ -30,7 +30,7 @@ Versions
   * - BELL
     - 1.1.0
   * - GAUTSCHI
-    - 1.1.0
+    - 1.1.0, 2.0.2
   * - NEGISHI
     - 1.1.0
   * - SCHOLAR
