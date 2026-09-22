@@ -26,7 +26,7 @@ Versions
     - Version(s)
 
   * - ANVIL
-    - 4.1.2
+    - 4.1.2, 4.1.8, 4.1.9, 4.2.0
   * - BELL
     - 4.1.2
   * - GAUTSCHI
