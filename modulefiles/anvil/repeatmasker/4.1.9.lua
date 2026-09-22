@@ -34,7 +34,7 @@ More information
 ]==])
 
 whatis("Name: RepeatMasker")
-whatis("Version: 4.1.2-p1")
+whatis("Version: 4.1.9")
 whatis("Description: RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences.")
 whatis("BioContainers: https://biocontainers.pro/tools/repeatmasker")
 whatis("Home page:     http://www.repeatmasker.org")
@@ -49,8 +49,8 @@ end
 conflict(myModuleName(),"RepeatMasker")
 
 --       Think executables, mpirun, possibly Perl or Python, etc.
-local image = "quay.io_biocontainers_repeatmasker:4.1.2-p1.sif"
-local uri = "docker://quay.io/biocontainers/repeatmasker:4.1.2-p1"
+local image = "repeatmasker-4.1.9-configured.sif"
+local uri = "docker://quay.io/biocontainers/repeatmasker:4.1.9--pl5321hdfd78af_0"
 local programs = {"RepeatMasker"}
 local entrypoint_args = "env LANG=C"
 
@@ -110,5 +110,5 @@ for i,program in pairs(programs) do
 end
 
 -- Additional commands or environment variables, if any
-pushenv("SINGULARITYENV_LIBDIR","/depot/itap/datasets/Maker/RepeatMasker/Libraries")
-pushenv("APPTAINERENV_LIBDIR","/depot/itap/datasets/Maker/RepeatMasker/Libraries")
+append_path("APPTAINER_BIND", "/apps/biocontainers/extras/repeatmasker/4.1.9/Libraries:/usr/local/share/RepeatMasker/Libraries", ",")
+

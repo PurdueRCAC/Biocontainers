@@ -34,7 +34,7 @@ More information
 ]==])
 
 whatis("Name: RepeatMasker")
-whatis("Version: 4.1.2-p1")
+whatis("Version: 4.1.8")
 whatis("Description: RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences.")
 whatis("BioContainers: https://biocontainers.pro/tools/repeatmasker")
 whatis("Home page:     http://www.repeatmasker.org")
@@ -49,8 +49,8 @@ end
 conflict(myModuleName(),"RepeatMasker")
 
 --       Think executables, mpirun, possibly Perl or Python, etc.
-local image = "quay.io_biocontainers_repeatmasker:4.1.2-p1.sif"
-local uri = "docker://quay.io/biocontainers/repeatmasker:4.1.2-p1"
+local image = "repeatmasker_v4.1.8.sif"
+local uri = "docker://quay.io/biocontainers/repeatmasker:4.1.8--pl5321hdfd78af_0"
 local programs = {"RepeatMasker"}
 local entrypoint_args = "env LANG=C"
 
@@ -98,7 +98,7 @@ if (capture("/opt/rocm/bin/rocm-smi -i 2>/dev/null | grep ^GPU") ~= "") then
 end
 
 -- And assemble container command
-local container_launch = singularity .. " run " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
+local container_launch = singularity .. " exec " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
 
 -- Multinode support
 -- setenv("OMPI_MCA_orte_launch_agent", container_launch .. " orted")
@@ -108,7 +108,7 @@ for i,program in pairs(programs) do
     set_shell_function(program, container_launch .. " " .. program .. " \"$@\"",
                                 container_launch .. " " .. program .. " $*")
 end
-
 -- Additional commands or environment variables, if any
-pushenv("SINGULARITYENV_LIBDIR","/depot/itap/datasets/Maker/RepeatMasker/Libraries")
-pushenv("APPTAINERENV_LIBDIR","/depot/itap/datasets/Maker/RepeatMasker/Libraries")
+
+append_path("APPTAINER_BIND", "/apps/biocontainers/extras/repeatmasker/4.1.8/Libraries:/opt/RepeatMasker/Libraries", ",")
+
