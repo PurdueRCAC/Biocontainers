@@ -51,7 +51,23 @@ conflict(myModuleName(),"RepeatMasker")
 --       Think executables, mpirun, possibly Perl or Python, etc.
 local image = "repeatmasker-4.2.0-configured.sif"
 local uri = "docker://quay.io/biocontainers/repeatmasker:4.2.0--pl5321hd4c3c12_0"
-local programs = {"RepeatMasker"}
+-- Programs on PATH inside the container (/usr/local/bin)
+local programs = {
+   -- core
+   "RepeatMasker", "ProcessRepeats", "RepeatProteinMask", "DupMasker",
+   -- util/ scripts (symlinked into /usr/local/bin by the bioconda recipe)
+   "rmOutToGFF3.pl", "rmOut2Fasta.pl", "RM2Bed.py",
+   "buildSummary.pl", "calcDivergenceFromAlign.pl", "createRepeatLandscape.pl",
+   "combineRMFiles.pl", "renumberRMFiles.pl", "maskFile.pl",
+   "rmToUCSCTables.pl", "rmToTrackHub.pl",
+   "buildRMLibFromEMBL.pl", "getRepeatMaskerBatch.pl", "trfMask",
+   -- search engines bundled as dependencies
+   "rmblastn", "blastn", "makeblastdb", "trf", "nhmmer"
+}
+-- Programs NOT on PATH inside the container; exposed by absolute path
+local programs_fullpath = {
+   ["famdb.py"] = "/usr/local/share/RepeatMasker/famdb.py"
+}
 local entrypoint_args = "env LANG=C"
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
@@ -108,7 +124,10 @@ for i,program in pairs(programs) do
     set_shell_function(program, container_launch .. " " .. program .. " \"$@\"",
                                 container_launch .. " " .. program .. " $*")
 end
+for program,fullpath in pairs(programs_fullpath) do
+    set_shell_function(program, container_launch .. " " .. fullpath .. " \"$@\"",
+                                container_launch .. " " .. fullpath .. " $*")
+end
 
 -- Additional commands or environment variables, if any
 append_path("APPTAINER_BIND", "/apps/biocontainers/extras/repeatmasker/4.1.9/Libraries:/usr/local/share/RepeatMasker/Libraries", ",")
-
