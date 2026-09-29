@@ -872,6 +872,14 @@
       ]
     }
   },
+  "aws-cli": {
+    "availability": {
+      "negishi": [
+        "2.34.39",
+        "2.37.4"
+      ]
+    }
+  },
   "bactopia": {
     "availability": {
       "negishi": [
