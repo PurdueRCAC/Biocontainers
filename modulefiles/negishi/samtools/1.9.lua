@@ -77,7 +77,7 @@ if (os.getenv("BIOC_IMAGE_DIR")) then
    end
 else
    -- Look for the image in the Singularity cache, and if not found
-   -- download it when "singularity run" is invoked.
+   -- download it when "singularity exec" is invoked.
    image = uri
 end
 
@@ -97,7 +97,7 @@ if (capture("/opt/rocm/bin/rocm-smi -i 2>/dev/null | grep ^GPU") ~= "") then
 end
 
 -- And assemble container command
-local container_launch = singularity .. " run " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
+local container_launch = singularity .. " exec " .. table.concat(run_args, " ") .. " " .. image .. " " .. entrypoint_args
 
 -- Programs to setup in the shell
 for i,program in pairs(programs) do
