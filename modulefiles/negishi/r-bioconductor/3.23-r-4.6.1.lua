@@ -41,7 +41,7 @@ Commands
   rstudio              RStudio Desktop (use in a ThinLinc session)
 
 Example:
-  module load r-bioconductor/3.23-R-4.6.1
+  module load r-bioconductor/3.23-r-4.6.1
   Rscript -e 'library(DESeq2); sessionInfo()'
 
 Package libraries (first match wins)
@@ -60,7 +60,7 @@ More information
 ]==])
 
 whatis("Name: r-bioconductor")
-whatis("Version: 3.23-R-4.6.1")
+whatis("Version: 3.23-r-4.6.1")
 whatis("Description: R 4.6.1 / Bioconductor 3.23 container with RStudio Desktop, TeX and Quarto.")
 whatis("Home page: https://www.bioconductor.org/")
 
@@ -79,7 +79,7 @@ if os.getenv("BIOC_IMAGE_DIR") then
 end
 -- Fail at load time rather than pulling a ~10 GB image into the user's cache on first use.
 if (mode() == "load" and not isFile(image)) then
-   LmodError("r-bioconductor/3.23-R-4.6.1: image not found: " .. image)
+   LmodError("r-bioconductor/3.23-r-4.6.1: image not found: " .. image)
 end
 
 -- The absolute path to Singularity is needed so it can be invoked on remote
@@ -111,7 +111,9 @@ if isDir(extras) then
    table.insert(run_args, "-B " .. extras .. ":/opt/R/host-site-library:ro")
 end
 
-local container = singularity .. " exec " .. table.concat(run_args, " ") .. " "
+-- XALT (site-wide) sets LD_PRELOAD to a host library built against Rocky glibc; keep it out
+-- of the container for every command. env -u leaves the user's own shell untouched.
+local container = "/usr/bin/env -u LD_PRELOAD " .. singularity .. " exec " .. table.concat(run_args, " ") .. " "
 
 for _, program in ipairs({"R", "Rscript", "quarto"}) do
    set_shell_function(program, container .. image .. " " .. program .. " \"$@\"",
