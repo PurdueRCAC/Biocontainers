@@ -46,7 +46,9 @@ Example:
 
 Package libraries (first match wins)
 ====================================
-  1. ~/R/x86_64-pc-linux-gnu-library/<x.y>   your own installs (install.packages / BiocManager::install)
+  1. ~/R/rcac-noble/3.23-4.6   your own installs (install.packages / BiocManager::install);
+     shared with other images of the same Bioconductor and R x.y, separate from the
+     legacy ~/R/x86_64-pc-linux-gnu-library/<x.y>. Set R_LIBS_USER to use another directory.
   2. RCAC extras library for this release   (read-only, maintained by RCAC)
   3. packages built into the image
 
@@ -101,8 +103,13 @@ if (mode() == "load") then
    end
 end
 
--- Need these for X11 under ThinLinc.
-table.insert(run_args, "-B /var/opt,/run/user")
+-- Need these for X11 under ThinLinc. Each only if present on this node: apptainer refuses
+-- to start when a bind source is missing.
+for _, dir in ipairs({"/var/opt", "/run/user"}) do
+   if isDir(dir) then
+      table.insert(run_args, "-B " .. dir)
+   end
+end
 
 -- Per-release extras library, mounted where Renviron.site expects it. One directory per
 -- image tag keeps packages ABI-matched to this image. Skipped if absent: apptainer refuses
@@ -111,9 +118,17 @@ if isDir(extras) then
    table.insert(run_args, "-B " .. extras .. ":/opt/R/host-site-library:ro")
 end
 
+-- Per-image user library: packages a user builds here link against this image's glibc and
+-- must not land in the ~/R/x86_64-pc-linux-gnu-library/<x.y> that Rocky 8 images also load.
+-- Passed only into the container (2026-10-16 exception to invariant 1; Renviron.site still
+-- builds the library order). A user's own R_LIBS_USER wins, as in Renviron.site.
+local userlib = os.getenv("R_LIBS_USER") or ""
+if userlib == "" then userlib = pathJoin(os.getenv("HOME") or "~", "R", "rcac-noble/3.23-4.6") end
+
 -- XALT (site-wide) sets LD_PRELOAD to a host library built against Rocky glibc; keep it out
 -- of the container for every command. env -u leaves the user's own shell untouched.
-local container = "/usr/bin/env -u LD_PRELOAD " .. singularity .. " exec " .. table.concat(run_args, " ") .. " "
+local container = "/usr/bin/env -u LD_PRELOAD APPTAINERENV_R_LIBS_USER='" .. userlib .. "' "
+                  .. singularity .. " exec " .. table.concat(run_args, " ") .. " "
 
 for _, program in ipairs({"R", "Rscript", "quarto"}) do
    set_shell_function(program, container .. image .. " " .. program .. " \"$@\"",
