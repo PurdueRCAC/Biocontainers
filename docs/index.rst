@@ -11,7 +11,7 @@ RCAC Biocontainers documentation!
 
 This is the user guide for biocontainer modules deployed in Purdue High Performance Computing clusters. More information about our center is avaiable here (https://www.rcac.purdue.edu).  
 
-As of October 28, 2026, there have been a total of **670** biocontainers with **4479** available versions deployed across 6 RCAC HPC clusters: ``Anvil``, ``Bell``, ``Gautschi``, ``Negishi``, ``Gilbreth`` and ``Scholar``.
+As of November 05, 2026, there have been a total of **671** biocontainers with **4481** available versions deployed across 6 RCAC HPC clusters: ``Anvil``, ``Bell``, ``Gautschi``, ``Negishi``, ``Gilbreth`` and ``Scholar``.
 
 If you have any question, contact Guangzhen Jin at: 
 `jin456@purdue.edu <mailto:jin456@purdue.edu>`_
@@ -674,6 +674,7 @@ Application Catalog
    source/squeezemeta/squeezemeta
    source/squid/squid
    source/sra-tools/sra-tools
+   source/srnatoolbox/srnatoolbox
    source/srst2/srst2
    source/stacks/stacks
    source/star/star
