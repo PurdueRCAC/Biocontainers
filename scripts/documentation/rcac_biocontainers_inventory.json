@@ -1708,6 +1708,16 @@
       ]
     }
   },
+  "braker4": {
+    "availability": {
+      "gautschi": [
+        "0.5.0-beta"
+      ],
+      "negishi": [
+        "0.5.0-beta"
+      ]
+    }
+  },
   "brass": {
     "availability": {
       "gautschi": [
